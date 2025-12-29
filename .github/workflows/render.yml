@@ -28,16 +28,19 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y fonts-dejavu
 
-      - name: Render PDF
+      - name: Render Book
         run: |
           cd books
           quarto render --to pdf
+          quarto render --to epub
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         if: github.event_name == 'push' && contains(github.ref, 'tags')
         with:
-          files: books/_book/Geležinio-Vilko-Saga.pdf
+          files: |
+            books/_book/Geležinio-Vilko-Saga.pdf
+            books/_book/Geležinio-Vilko-Saga.epub
           generate_release_notes: true
 
       - name: Update Latest Release
@@ -46,7 +49,9 @@ jobs:
         with:
           tag_name: latest
           name: "Latest Build"
-          body: "Automatiškai sugeneruota naujausia knygos versija."
-          files: books/_book/Geležinio-Vilko-Saga.pdf
+          body: "Automatiškai sugeneruota naujausia knygos versija (PDF ir EPUB)."
+          files: |
+            books/_book/Geležinio-Vilko-Saga.pdf
+            books/_book/Geležinio-Vilko-Saga.epub
           draft: false
           prerelease: true

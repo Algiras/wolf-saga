@@ -11,14 +11,16 @@
 
 ### Mitologija ir magiškasis realizmas
 
-Kurdami šį pasaulį, rėmėmės Gintaro Beresnevičiaus ir kitų mitologų darbais. Senieji dievai (Perkūnas, Velnias, Medeina) knygoje egzistuoja ne tik kaip tikėjimas, bet kaip gyva, nors ir nykstanti, gamtos jėga. „Geležinis Vilkas“ čia nėra tik Gedimino sapno simbolis, bet metaforiška dvasia, jungianti valdovo ambicijas su krašto gamta.
+Kurdami šį pasaulį, rėmėmės Gintaro Beresnevičiaus ir kitų mitologų darbais. Senieji dievai (Perkūnas, Velnias, Medeina) knygoje egzistuoja ne tik kaip tikėjimas, bet kaip gyva, nors ir nykstanti, gamtos jėga. „Geležinis Vilkas“ čia nėra tik Gedimino sapno simbolis, bet metaforiška dvasia, jungianti valdovo ambicijomis su krašto gamta.
 
 ### Pagrindiniai šaltiniai
 
 Kuriant sagą buvo remiamasi šiais istoriniais ir moksliniais darbais:
 
-::: {#refs}
-:::
+*   **Peter von Dusburg**, „Chronicon terrae Prussiae“ (Prūsijos žemės kronika, 1326 m.) — užfiksuoti kryžiaus žygių aprašymai ir pagonių papročiai.
+*   **Jan Długosz**, „Annales seu cronicae incliti Regni Poloniae“ (Lenkijos karalystės metraščiai, XV a.) — išsamiausi duomenys apie Jogailos ir Vytauto epochą.
+*   **Alfredas Bumblauskas**, „Senosios Lietuvos istorija 1009-1795“ — fundamentalus modernus žvilgsnis į LDK raidą.
+*   **Gintaras Beresnevičius**, „Lietuvių religija ir mitologija“ — esminis šaltinis atkuriant pagoniškojo pasaulio dvasinę atmosferą.
 
 ---
 

@@ -1,14 +1,15 @@
 project:
   type: book
 
+lang: lt
+bibliography: 1/references.bib
+
 book:
   title: "Geležinio Vilko Saga"
   subtitle: "I Knyga: Vilko Tremtis"
   author: "Algimantas Krasauskas"
   date: "12/30/2025"
-  lang: lt
   cover-image: 1/cover.png
-  bibliography: 1/references.bib
   chapters:
     - index.qmd
     - copyright.qmd
@@ -60,7 +61,6 @@ format:
     number-sections: false
     sec-num-depth: 0
     toc: true
-    lang: lt
     pdf-engine: lualatex
     mainfont: "DejaVu Serif"
     monofont: "DejaVu Sans Mono"

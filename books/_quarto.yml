@@ -1,0 +1,65 @@
+project:
+  type: book
+
+book:
+  title: "Geležinio Vilko Saga"
+  subtitle: "I Knyga: Vilko Tremtis"
+  author: "Algimantas Krasauskas"
+  date: "12/30/2025"
+  cover-image: 1/cover.png
+  chapters:
+    - index.qmd
+    - 1/prologue.qmd
+    - part: "Nuosmukis"
+      chapters:
+        - 1/01_senasis_sernas.qmd
+        - 1/02_vilko_perspejimas.qmd
+        - 1/03_gintaro_sapnas.qmd
+        - 1/04_kelione_i_vilniu.qmd
+        - 1/05_dvigubas_veidas.qmd
+        - 1/06_geleziniai_vartai.qmd
+        - 1/07_tylos_puota.qmd
+        - 1/08_krevos_pozemiai.qmd
+        - 1/09_paskutine_giesme.qmd
+        - 1/10_saltas_rytas.qmd
+    - part: "Pabėgimas"
+      chapters:
+        - 1/11_nasle.qmd
+        - 1/12_gedulo_skraiste.qmd
+        - 1/13_keitimas.qmd
+        - 1/14_seselis_naktyje.qmd
+        - 1/15_pabegimas.qmd
+        - 1/16_pelkes_vaikai.qmd
+        - 1/17_pasienis.qmd
+        - 1/18_gelezinis_magistras.qmd
+        - 1/19_velnio_sanderis.qmd
+    - part: "Karas ir Tvarka"
+      chapters:
+        - 1/20_svetimi_dieviai.qmd
+        - 1/21_pirmoji_kova.qmd
+        - 1/22_vilniaus_apgultis_i.qmd
+        - 1/23_ugnis_ir_pelenai.qmd
+        - 1/24_pasirinkimas.qmd
+        - 1/25_isdaviku_isdavikas.qmd
+        - 1/26_susitikimas_pelenineje.qmd
+        - 1/27_gintaro_auka.qmd
+        - 1/28_nauja_tvarka.qmd
+        - 1/29_krikstas.qmd
+        - 1/30_epilogas.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+  pdf:
+    documentclass: scrreprt
+    number-sections: false
+    sec-num-depth: 0
+    toc: true
+    pdf-engine: lualatex
+    mainfont: "DejaVu Serif"
+    monofont: "DejaVu Sans Mono"
+    header-includes: |
+      \usepackage{fontspec}
+      \renewcommand{\partformat}{}
+      \renewcommand{\chapterformat}{}

@@ -1,0 +1,38 @@
+name: Render PDF
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install LaTeX (TinyTeX)
+        run: |
+          quarto install tinytex
+
+      - name: Install Fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-dejavu
+
+      - name: Render PDF
+        run: |
+          cd books
+          quarto render --to pdf
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: Geležinio-Vilko-Saga
+          path: books/_book/Geležinio-Vilko-Saga.pdf

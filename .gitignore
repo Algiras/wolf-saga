@@ -1,0 +1,15 @@
+# Quarto
+.quarto/
+_book/
+_freeze/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TeX
+*.log
+*.aux
+*.out
+*.toc
+*.pdf

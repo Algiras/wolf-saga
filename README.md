@@ -36,12 +36,22 @@ Sugrįžimas namo ne kaip herojaus, o kaip keršytojo, atsivedusio svetimą ugn�
 
 ---
 
+### Skaityti internete
+📖 **[Skaitykite interaktyvią knygos versiją čia](https://Algiras.github.io/wolf-saga/)**
+
+---
+
 ### Kaip skaityti
-Šis projektas yra sugeneruotas naudojant **Quarto**. Naujausią knygos versiją PDF formatu galite atsisiųsti iš [GitHub Actions](https://github.com/Algiras/wolf-saga/actions) skilties arba sugeneruoti patys lokaliai:
+Šis projektas yra sugeneruotas naudojant **Quarto**. 
+
+*   **PDF ir EPUB**: Naujausius failus visada galite atsisiųsti iš **[Releases](https://github.com/Algiras/wolf-saga/releases/tag/latest)** skilties.
+*   **Interaktyvi versija**: Prieinama per **[GitHub Pages](https://Algiras.github.io/wolf-saga/)**.
+
+Norėdami sugeneruoti knygą patys lokaliai:
 
 ```bash
 cd books
-quarto render --to pdf
+quarto render --to all
 ```
 
 ### Licencija

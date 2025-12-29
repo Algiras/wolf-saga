@@ -1,0 +1,25 @@
+# Istorinis kontekstas ir šaltiniai {.unnumbered}
+
+„Geležinio Vilko Saga“ yra grožinis kūrinys, įkvėptas tikrų XIV a. pabaigos įvykių, kurie suformavo Lietuvos Didžiosios Kunigaikštystės (LDK) ir visos Vidurio Europos likimą. Nors knygoje gausu mistinių elementų ir autorinės interpretacijos, pagrindinė siužeto ašis remiasi istoriniais faktais.
+
+### Tikrieji herojai ir įvykiai
+
+*   **Vytautas Didysis**: Knygoje vaizduojamas jo ankstyvasis laikotarpis — nuo bėglio iki galingo valdovo. Jo pabėgimas iš Krėvos pilies, persirengus moterimi, yra realus istorinis faktas, aprašytas metraščiuose.
+*   **Jogaila**: Algirdo sūnus, kurio sprendimas krikštyti Lietuvą ir tapti Lenkijos karaliumi negrįžtamai pakeitė regiono geopolitiką.
+*   **Kęstutis ir Birutė**: Tragiška senosios kartos pora. Kęstučio nužudymas Krėvoje ir mįslingas Birutės likimas (pagal kai kuriuos šaltinius — pasitraukimas į Palangą) tapo šios sagos emociniu pamatu.
+*   **Teutonų Ordinas**: Karinė-religinė jėga, kuri XIV a. buvo moderniausia kariuomenė Europoje. Jų „Geležinė tvarka“ knygoje priešpriešinama pagoniškai girių laisvei.
+
+### Mitologija ir magiškasis realizmas
+
+Kurdami šį pasaulį, rėmėmės Gintaro Beresnevičiaus ir kitų mitologų darbais. Senieji dievai (Perkūnas, Velnias, Medeina) knygoje egzistuoja ne tik kaip tikėjimas, bet kaip gyva, nors ir nykstanti, gamtos jėga. „Geležinis Vilkas“ čia nėra tik Gedimino sapno simbolis, bet metaforiška dvasia, jungianti valdovo ambicijas su krašto gamta.
+
+### Pagrindiniai šaltiniai
+
+Kuriant sagą buvo remiamasi šiais istoriniais ir moksliniais darbais:
+
+::: {#refs}
+:::
+
+---
+
+*„Istorija — tai ne tik faktai, bet ir dvasia, kurią mes, gyvieji, įkvepiame į protėvių šešėlius.“*

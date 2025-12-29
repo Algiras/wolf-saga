@@ -6,6 +6,7 @@ book:
   subtitle: "I Knyga: Vilko Tremtis"
   author: "Algimantas Krasauskas"
   date: "12/30/2025"
+  lang: lt
   cover-image: 1/cover.png
   chapters:
     - index.qmd
@@ -57,6 +58,7 @@ format:
     number-sections: false
     sec-num-depth: 0
     toc: true
+    lang: lt
     pdf-engine: lualatex
     mainfont: "DejaVu Serif"
     monofont: "DejaVu Sans Mono"

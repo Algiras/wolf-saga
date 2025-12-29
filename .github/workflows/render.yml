@@ -1,15 +1,17 @@
-name: Render PDF
+name: Render PDF and Release
 
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 jobs:
   render:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,8 +33,20 @@ jobs:
           cd books
           quarto render --to pdf
 
-      - name: Upload PDF
-        uses: actions/upload-artifact@v4
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        if: github.event_name == 'push' && contains(github.ref, 'tags')
         with:
-          name: Geležinio-Vilko-Saga
-          path: books/_book/Geležinio-Vilko-Saga.pdf
+          files: books/_book/Geležinio-Vilko-Saga.pdf
+          generate_release_notes: true
+
+      - name: Update Latest Release
+        uses: softprops/action-gh-release@v2
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        with:
+          tag_name: latest
+          name: "Latest Build"
+          body: "Automatiškai sugeneruota naujausia knygos versija."
+          files: books/_book/Geležinio-Vilko-Saga.pdf
+          draft: false
+          prerelease: true

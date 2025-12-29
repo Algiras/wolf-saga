@@ -9,6 +9,7 @@ book:
   cover-image: 1/cover.png
   chapters:
     - index.qmd
+    - copyright.qmd
     - 1/prologue.qmd
     - part: "Nuosmukis"
       chapters:

@@ -57,6 +57,7 @@ format:
     theme:
       - cosmo
   pdf:
+    output-file: saga.pdf
     documentclass: scrreprt
     number-sections: false
     sec-num-depth: 0
@@ -69,6 +70,7 @@ format:
       \renewcommand{\partformat}{}
       \renewcommand{\chapterformat}{}
   epub:
+    output-file: saga.epub
     cover-image: 1/cover.png
     title: "Geležinio Vilko Saga I: Vilko Tremtis"
     author: "Algimantas Krasauskas"

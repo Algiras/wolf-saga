@@ -1,4 +1,4 @@
-name: Render PDF and Release
+name: Render and Deploy
 
 on:
   push:
@@ -8,10 +8,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  render:
+  render-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,16 +33,15 @@ jobs:
       - name: Render Book
         run: |
           cd books
-          quarto render --to pdf
-          quarto render --to epub
+          quarto render --to all
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         if: github.event_name == 'push' && contains(github.ref, 'tags')
         with:
           files: |
-            books/_book/Geležinio-Vilko-Saga.pdf
-            books/_book/Geležinio-Vilko-Saga.epub
+            books/_book/saga.pdf
+            books/_book/saga.epub
           generate_release_notes: true
 
       - name: Update Latest Release
@@ -51,7 +52,16 @@ jobs:
           name: "Latest Build"
           body: "Automatiškai sugeneruota naujausia knygos versija (PDF ir EPUB)."
           files: |
-            books/_book/Geležinio-Vilko-Saga.pdf
-            books/_book/Geležinio-Vilko-Saga.epub
+            books/_book/saga.pdf
+            books/_book/saga.epub
           draft: false
           prerelease: true
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: books/_book
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

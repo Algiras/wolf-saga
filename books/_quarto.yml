@@ -64,3 +64,8 @@ format:
       \usepackage{fontspec}
       \renewcommand{\partformat}{}
       \renewcommand{\chapterformat}{}
+  epub:
+    cover-image: 1/cover.png
+    title: "Geležinio Vilko Saga I: Vilko Tremtis"
+    author: "Algimantas Krasauskas"
+    description: "Epinis tamsiosios fantastikos pasakojimas apie XIV amžiaus pabaigos Lietuvą."

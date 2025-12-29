@@ -8,6 +8,7 @@ book:
   date: "12/30/2025"
   lang: lt
   cover-image: 1/cover.png
+  bibliography: 1/references.bib
   chapters:
     - index.qmd
     - copyright.qmd
@@ -48,6 +49,7 @@ book:
         - 1/28_nauja_tvarka.qmd
         - 1/29_krikstas.qmd
         - 1/30_epilogas.qmd
+    - sources.qmd
 
 format:
   html:

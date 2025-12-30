@@ -8,7 +8,7 @@
 
 ## I Knyga: Vilko Tremtis (The Wolf's Exile)
 
-![Book I Cover](books/1/cover_art.png)
+![Book I Cover](books/1/cover.png)
 
 Pirmas sagos tomas pasakoja apie Kunigaikščio Vytauto nuosmukį, išdavystę ir transformaciją. Po klastingos tėvo Kęstučio mirties Krėvos požemiuose, Vytautas turi tapti tuo, ko labiausiai bijojo — negailestingu politiniu žaidėju, kad susigrąžintų savo tėvų žemę.
 

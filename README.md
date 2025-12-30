@@ -36,6 +36,16 @@ Sugrįžimas namo ne kaip herojaus, o kaip keršytojo, atsivedusio svetimą ugn�
 
 ---
 
+## II Knyga: Vytis ir Šešėlis (The Knight and the Shadow) — ANONSAS
+
+![Book II Teaser Cover](books/2_teaser.png)
+
+Vytautas pasiekė vokiečių ordiną, bet kaina už jo laisvę kyla su kiekviena diena. Kol jis ruošiasi susigrąžinti Vilnių, šešėlis, kurį jis parsivežė iš Dykrų, pradeda kalbėti jo balsu. 
+
+📖 **[Daugiau apie antrąją dalį skaitykite čia](books/2_teaser.md)**.
+
+---
+
 ### Skaityti internete
 📖 **[Skaitykite interaktyvią knygos versiją čia](https://Algiras.github.io/wolf-saga/)**
 

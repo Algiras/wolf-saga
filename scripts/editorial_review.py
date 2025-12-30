@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 """
-Editorial Review Script using LangChain and Mistral 8B
+Editorial Review Script using Ministral 3 8B
 Automatically reviews and fixes anachronisms, anglicisms, and style issues in Lithuanian text.
 """
 
 import os
 import sys
+import json
 from pathlib import Path
 from typing import List, Dict
 from langchain_community.llms import Ollama
-from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
 
 # Configuration
-OLLAMA_MODEL = "mistral:8b"  # or "ministral-3:8b" if available
+OLLAMA_MODEL = "ministral-3:8b"
 BOOKS_DIR = Path(__file__).parent.parent / "books" / "1"
 
 # Editorial rules prompt
@@ -61,28 +60,22 @@ Jei klaidų nėra, grąžink: {{"errors": [], "summary": "Tekstas švarus, klaid
 """
 
 def init_llm():
-    """Initialize Ollama LLM with Mistral"""
+    """Initialize Ollama LLM with Ministral"""
     try:
         llm = Ollama(
             model=OLLAMA_MODEL,
             temperature=0.1,  # Low temperature for consistent editorial work
             num_ctx=4096,     # Context window
         )
+        # Test connection
+        llm.invoke("test")
         return llm
     except Exception as e:
         print(f"❌ Klaida inicializuojant Ollama: {e}")
         print("Patikrinkite ar Ollama veikia: ollama list")
         sys.exit(1)
 
-def create_review_chain(llm):
-    """Create LangChain review chain"""
-    prompt = PromptTemplate(
-        input_variables=["text"],
-        template=EDITORIAL_PROMPT
-    )
-    return LLMChain(llm=llm, prompt=prompt)
-
-def review_file(file_path: Path, chain: LLMChain) -> Dict:
+def review_file(file_path: Path, llm: Ollama) -> Dict:
     """Review a single .qmd file"""
     print(f"\n📖 Peržiūrima: {file_path.name}")
     
@@ -94,7 +87,8 @@ def review_file(file_path: Path, chain: LLMChain) -> Dict:
             return {"file": file_path.name, "status": "skipped", "reason": "per trumpas"}
         
         # Review with LLM
-        result = chain.run(text=content)
+        prompt = EDITORIAL_PROMPT.format(text=content)
+        result = llm.invoke(prompt)
         
         return {
             "file": file_path.name,
@@ -114,9 +108,9 @@ def main():
     print("=" * 60)
     
     # Initialize
-    print("\n⚙️  Inicializuojama Mistral 8B...")
+    print("\n⚙️  Inicializuojama Ministral 3 8B...")
     llm = init_llm()
-    chain = create_review_chain(llm)
+    print("✅ Ministral 3 8B paruoštas")
     
     # Find all .qmd files
     qmd_files = sorted(BOOKS_DIR.glob("*.qmd"))
@@ -126,13 +120,21 @@ def main():
     results = []
     for i, file_path in enumerate(qmd_files, 1):
         print(f"\n[{i}/{len(qmd_files)}]", end=" ")
-        result = review_file(file_path, chain)
+        result = review_file(file_path, llm)
         results.append(result)
         
         # Print summary
         if result["status"] == "reviewed":
             print("✅ Peržiūrėta")
-            print(f"Rezultatas: {result['result'][:200]}...")
+            # Try to parse JSON response
+            try:
+                response_data = json.loads(result['result'])
+                error_count = len(response_data.get('errors', []))
+                print(f"   Rasta klaidų: {error_count}")
+                if error_count > 0:
+                    print(f"   {response_data.get('summary', '')}")
+            except:
+                print(f"   Rezultatas: {result['result'][:150]}...")
         elif result["status"] == "skipped":
             print(f"⏭️  Praleista: {result['reason']}")
         else:
@@ -152,7 +154,6 @@ def main():
     
     # Save results
     output_file = Path(__file__).parent / "editorial_review_results.json"
-    import json
     output_file.write_text(json.dumps(results, indent=2, ensure_ascii=False))
     print(f"\n💾 Rezultatai išsaugoti: {output_file}")
 

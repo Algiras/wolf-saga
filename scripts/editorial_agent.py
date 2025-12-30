@@ -60,52 +60,92 @@ class EditorialAgent:
     """ReAct agent for autonomous text editing"""
     
     def __init__(self, model: str = OLLAMA_MODEL):
-        self.llm = Ollama(model=model, temperature=0.1, num_ctx=8192)
+        # Reduced num_ctx to 4096 to prevent stalling
+        self.llm = Ollama(model=model, temperature=0.1, num_ctx=4096)
         self.changes_log = []
         
     def review_and_fix(self, file_path: Path) -> Dict:
-        """Review file and return fixes"""
+        """Review file and return fixes using chunking"""
         print(f"\n📖 Analizuoja: {file_path.name}")
         
         try:
             content = file_path.read_text(encoding='utf-8')
-            
             if len(content) < 100:
                 return {"file": file_path.name, "status": "skipped", "reason": "per trumpas"}
+
+            # Chunking settings - Reduced for stability
+            CHUNK_SIZE = 3000
+            OVERLAP = 500
             
-            # Get fixes from LLM
-            prompt = REACT_PROMPT.format(text=content, max_fixes=MAX_FIXES_PER_FILE)
-            response = self.llm.invoke(prompt)
+            all_fixes = []
+            chunks = []
             
-            # Parse JSON response
-            try:
-                # Extract JSON from response (might have markdown code blocks)
-                json_match = re.search(r'```json\s*(\{.*?\})\s*```', response, re.DOTALL)
-                if json_match:
-                    response = json_match.group(1)
-                elif '```' in response:
-                    # Remove code blocks
-                    response = re.sub(r'```[a-z]*\s*', '', response)
-                    response = response.replace('```', '')
+            # Create chunks
+            if len(content) <= CHUNK_SIZE:
+                chunks.append((content, 0))
+            else:
+                start = 0
+                while start < len(content):
+                    end = start + CHUNK_SIZE
+                    chunk = content[start:end]
+                    
+                    # Adjust end to nearest newline to avoid splitting sentences mid-word
+                    if end < len(content):
+                        last_newline = chunk.rfind('\n')
+                        if last_newline > CHUNK_SIZE // 2:
+                            end = start + last_newline + 1
+                            chunk = content[start:end]
+                    
+                    chunks.append((chunk, start))
+                    start = end - OVERLAP
+
+            print(f"   ℹ️  Failas padalintas į {len(chunks)} dalis")
+            
+            combined_summary = []
+            
+            for index, (chunk_text, offset) in enumerate(chunks):
+                print(f"   ⏳ Dalis {index+1}/{len(chunks)} ({len(chunk_text)} simb.)...")
                 
-                fixes_data = json.loads(response.strip())
-                
-                return {
-                    "file": file_path.name,
-                    "status": "reviewed",
-                    "thought": fixes_data.get("thought", ""),
-                    "fixes": fixes_data.get("fixes", []),
-                    "summary": fixes_data.get("summary", "")
-                }
-            except json.JSONDecodeError as e:
-                print(f"   ⚠️  JSON klaida: {e}")
-                print(f"   Response: {response[:200]}...")
-                return {
-                    "file": file_path.name,
-                    "status": "error",
-                    "error": f"JSON parse error: {str(e)}",
-                    "raw_response": response[:500]
-                }
+                prompt = REACT_PROMPT.format(text=chunk_text, max_fixes=5) # Reduced max fixes per chunk
+                try:
+                    response = self.llm.invoke(prompt)
+                    
+                    # Parse JSON (reuse existing logic)
+                    json_match = re.search(r'```json\s*(\{.*?\})\s*```', response, re.DOTALL)
+                    if json_match:
+                        response = json_match.group(1)
+                    elif '```' in response:
+                        response = re.sub(r'```[a-z]*\s*', '', response)
+                        response = response.replace('```', '')
+                    
+                    response = response.strip()
+                    # Sanitize newlines
+                    response = response.replace('\n', ' ')
+                    
+                    fixes_data = json.loads(response, strict=False)
+                    
+                    chunk_fixes = fixes_data.get("fixes", [])
+                    chunk_summary = fixes_data.get("summary", "")
+                    if chunk_summary:
+                        combined_summary.append(chunk_summary)
+                    
+                    # Add fixes
+                    for fix in chunk_fixes:
+                        # Validate uniqueness to avoid duplicate fixes from overlap
+                        if fix not in all_fixes:
+                            all_fixes.append(fix)
+                            
+                except Exception as e:
+                    print(f"   ⚠️  Klaida dalyje {index+1}: {e}")
+                    # Continue to next chunk
+            
+            return {
+                "file": file_path.name,
+                "status": "reviewed",
+                "thought": "Processed in chunks",
+                "fixes": all_fixes,
+                "summary": " | ".join(combined_summary)
+            }
                 
         except Exception as e:
             return {
@@ -187,11 +227,21 @@ def main():
     total_fixes_applied = 0
     all_results = []
     
+    import time
+    current_time = time.time()
+    
     for i, file_path in enumerate(qmd_files, 1):
         print(f"\n{'='*70}")
         print(f"[{i}/{len(qmd_files)}] {file_path.name}")
         print('='*70)
         
+        # Check if file was modified recently (e.g. in the last hour)
+        # This helps resume interrupted runs
+        file_mtime = file_path.stat().st_mtime
+        if (current_time - file_mtime) < 3600:
+            print(f"⏭️  Praleista: Failas neseniai redaguotas (tikėtina, kad jau sutvarkytas)")
+            continue
+            
         # Review
         result = agent.review_and_fix(file_path)
         all_results.append(result)

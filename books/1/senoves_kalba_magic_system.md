@@ -48,6 +48,16 @@ Not everyone can use the *Senovės Kalba*. There are two primary paths to gainin
 - **Cost**: Severe vertigo and temporary loss of voice – the caster can only communicate through the whistling of the wind.
 - **Limitations**: Wind is unpredictable; messages may be lost in the void.
 
+## Holidays and Rituals: Opening the Gates
+
+Senovės Kalba is more than words; it is a rhythm that follows the natural cycles. The most important holidays are moments when the boundaries of the elements are thinnest:
+
+1. **Kūčios (Winter Solstice)**: Time of **Praurimė**. The coldest night when starlight is purest. Rituals involve watching shadows and reflections in amber to read the patterns of fate.
+2. **Rasos (Summer Solstice)**: Triumph of **Gabija**. Jumping over bonfires symbolizes soul cleansing and strengthening of the *Soul Armor*.
+3. **Pusiaukojis (Spring Equinox)**: Time of **Bangpūtys** and waking waters. The breaking of ice is a powerful symbol of transformation where the *Life Spring* is most potent.
+4. **Dagotuvės (Autumn Equinox / Harvest)**: Feast of **Žemyna**. Gratitude for life and preparation for the deep freeze. *Unshakable Will* is strongest when rooted in the cooling earth.
+5. **Vėlinės (Time of Storms)**: Time of **Vėjopatis** and the spirits. The wind acts as a bridge between worlds. A time for secrets and *Shadow Movement*.
+
 ## The Three Laws of Senovės Kalba
 
 ### 1. The Law of Balance

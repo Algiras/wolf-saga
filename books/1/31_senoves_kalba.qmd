@@ -30,6 +30,15 @@ Svarbiausi kalbiniai bruožai:
 - **Fonetinė jėga**: Patys garsai laikomi turinčiais maginį rezonansą
 - **Poetinė struktūra**: Ritminiai modeliai, stiprinantys maginę galią
 
+## Kas gali naudoti Senovės Kalbą?
+
+Priešingai nei daugelyje kitų magijos sistemų, *Senovės Kalba* nėra prieinama visiems, tačiau ji taip pat nėra skirta tik išrinktiesiems. Egizstuoja du pagrindiniai keliai į šią galią:
+
+1. **Prigimtis (Innate Nature)**: Kai kurie personažai gimsta su siela, kuri natūraliai rezonuoja su elementų vibracijomis. Tai dažniausiai perduodama per motinos liniją (pvz., Birutė), tačiau prigimtis gali pasireikšti ir netikėtai, kaip tūkstantmetė protėvių atmintis, staiga nubudusi naujoje kartoje.
+2. **Gyvenimo Įvykis / Palaiminimas (Life Event / Blessing)**: Tai kelias tiems, kurie neturi prigimtinės dovanos. Tikra auka, mirtinas pavojus arba sakralus poelgis gali priversti elementus „pamatyti“ žmogų ir suteikti jam laikiną arba nuolatinį palaiminimą. Pavyzdžiui, Vytauto išgyvenimas Krėvos požemiuose ir motinos auka tapo jo „raktu“ į šią sistemą.
+
+---
+
 ## Baltų Magijos Struktūra
 
 ### Penki Šventieji Elementai

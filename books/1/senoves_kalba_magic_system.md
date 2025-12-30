@@ -4,6 +4,13 @@
 
 *Senovės Kalba* ("The Ancient Language") is the sacred magical system of the Baltic peoples, rooted in the oldest traditions of the region. It is based on the five sacred elements and uses Old Lithuanian as its secret language of power.
 
+## Access to Magic
+
+Not everyone can use the *Senovės Kalba*. There are two primary paths to gaining this power:
+
+1. **Innate Nature (Prigimtis)**: Some individuals are born with a soul that naturally resonates with the elements. This is often passed down through maternal lineages (e.g., Birutė), but it can also manifest spontaneously as an awakening of ancestral memory.
+2. **Life Event / Blessing (Gyvenimo Įvykis)**: For those not born with the gift, a significant life event—such as a great sacrifice, a brushes with death, or a sacred deed—can cause the elements to "notice" the individual and grant them a temporary or permanent blessing. Vytautas's survival in the dungeons of Krėva and his mother's sacrifice serve as his "key" to this power.
+
 ## The Five Sacred Elements
 
 - **Deity**: **Praurimė** – Goddess of Fate and celestial lights.

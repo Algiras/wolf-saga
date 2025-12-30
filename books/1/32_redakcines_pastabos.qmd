@@ -1,0 +1,32 @@
+# Redakcinės Pastabos
+
+*Priedas: Knygos 1 redagavimo procesas ir kalbiniai sprendimai*
+
+## Įvadas
+Šiame skyriuje apžvelgiamos pagrindinės redagavimo kryptys, kurios buvo taikomos siekiant išlaikyti XIV a. Lietuvos atmosferą „Geležinio Vilko Sagoje“. Redagavimo procesas apėmė tiek automatizuotą klaidų paiešką (ReAct agentas), tiek rankinį teksto perrašymą.
+
+## Pagrindiniai Taisymai
+
+### 1. Anachronizmų šalinimas
+Viena didžiausių užduočių buvo modernių terminų, kurie netinka viduramžių kontekstui, paieška ir keitimas.
+- **Kariniai terminai**: "Strateginis" keistas į "lemtingas", "karinis" arba "miros". "Operaciniai įsakymai" pakeisti į "kovos įsakymus".
+- **Biurokratiniai terminai**: "Administracinis" keistas į "raštininko", "valstybinis" arba "formalus".
+- **Technologiniai terminai**: "Efektyvumas" keistas į "veiksmingumą", "meistrystę" arba "mirtiną tikslumą".
+
+### 2. "Fiziškai" anglicizmo valymas
+Tekste dažnai pasitaikydavo tiesioginis angliško žodžio *physically* vertimas ("fiziškai"), kuris lietuvių kalboje dažnai yra perteklinis arba svetimas.
+- **Pavyzdžiai**: "Fiziškai juto" -> "Visu kūnu juto" arba "Savo kailiu patyrė".
+- **Tikslas**: Suteikti tekstui daugiau svorio ir vaizdingumo, vengiant abstrakčių modernių prieveiksmių.
+
+### 3. "Senovės Kalba" ir Mystika
+Perskyroje tarp racionalaus ir mistinio pasaulio buvo sustiprinta **Birutės** ir **Eglės** linija.
+- **Senovės Kalba**: Įvesta kaip archajiška galia, turinti savo kainą (pojūčių ar atminties praradimas).
+- **Terminologija**: Atsisakyta modernių žodžių apibūdinant magiją (naudojami "Žyniai" vietoj "Šventikų", "Neatšaukiama Sutartis" vietoj "Neatsakomo Pažado").
+
+## Redagavimo eiga
+1. **Pirmas etapas**: Rankinis svarbiausių skyrių (1-6, 12, 15, 20, 27, 29, 30) perrašymas, pagilinant personažų motyvaciją ir pataisant stilių.
+2. **Antras etapas**: Automatizuotas viso teksto tikrinimas naudojant ReAct agentą, kuris taisė smulkias kalbos klaidas ir likusius anachronizmus visuose 32 skyriuose.
+3. **Trečias etapas**: Galutinė peržiūra ir balanso tarp archajiškos kalbos bei skaitomumo užtikrinimas.
+
+## Išvados
+Knyga tapo tamsesnė, gilesnė ir kalbiškai autoritetingesnė. „Geležinis Vilkas“ dabar kalba ne tik apie politinę galią, bet ir apie senąją Lietuvą, kurioje žodis turėjo svorį, o dievai dar nebuvo visai pasitraukę į šešėlius.

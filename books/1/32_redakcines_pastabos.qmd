@@ -18,10 +18,11 @@ Tekste dažnai pasitaikydavo tiesioginis angliško žodžio *physically* vertima
 - **Pavyzdžiai**: "Fiziškai juto" -> "Visu kūnu juto" arba "Savo kailiu patyrė".
 - **Tikslas**: Suteikti tekstui daugiau svorio ir vaizdingumo, vengiant abstrakčių modernių prieveiksmių.
 
-### 3. "Senovės Kalba" ir Mystika
+### 3. "Senovės Kalba" ir Mistika
 Perskyroje tarp racionalaus ir mistinio pasaulio buvo sustiprinta **Birutės** ir **Eglės** linija.
 - **Senovės Kalba**: Įvesta kaip archajiška galia, turinti savo kainą (pojūčių ar atminties praradimas).
 - **Terminologija**: Atsisakyta modernių žodžių apibūdinant magiją (naudojami "Žyniai" vietoj "Šventikų", "Neatšaukiama Sutartis" vietoj "Neatsakomo Pažado").
+- **Šventės ir Apeigos**: Magijos sistema susieta su natūraliais gamtos ciklais. Įvesti terminai: *Dagotuvės* (Derlius/Žemyna), *Rasos* (Ugnis/Gabija), *Kūčios* (Likimas/Praurimė). Šios datos dabar tarnauja kaip „Zenitai“ – momentai, kai magija yra stipriausia.
 
 ## Redagavimo eiga
 1. **Pirmas etapas**: Rankinis svarbiausių skyrių (1-6, 12, 15, 20, 27, 29, 30) perrašymas, pagilinant personažų motyvaciją ir pataisant stilių.

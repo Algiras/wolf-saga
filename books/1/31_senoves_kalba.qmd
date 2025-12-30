@@ -43,6 +43,7 @@ Svarbiausi kalbiniai bruožai:
 **Zenitas**: **Žiemos saulėgrįža (Vidurnaktis)**. Šiuo metu dangaus skliautas yra giliausias, o Praurimės akys – akyliausios.
 
 **Palaiminimas (Blessing)**: ***Regėjimo Aiška***. Suteikia galimybę matyti per melą, iliuzijas ir matyti galimus ateities kelius trumpą akimirką.
+- **Kaina**: Laikinas visiškas aklumas po panaudojimo arba vieno brangaus prisiminimo apie artimo žmogaus veidą praradimas.
 
 **Užkalbėjimas**: *"Žvaigždės tau švytės"* ("Tegul žvaigždės tau švytėtų")
 
@@ -76,6 +77,7 @@ Baltų tautos buvo išmanūs astronomai, naudoję žvaigždes navigacijai, žemd
 **Zenitas**: **Vasaros saulėgrįža (Vidurdienis)**. Kai saulė pasiekia aukščiausią tašką, Gabijos ugnis tampa mirtina nešventoms būtybėms.
 
 **Palaiminimas (Blessing)**: ***Sielos Šarvas***. Sugeria dvasines atakas ir suteikia fizinę jėgą, kuri peržengia žmogaus ribas, tačiau degina paties naudotojo gyvybinę energiją.
+- **Kaina**: Kraštutinis fizinis išsekimas ir "sielos atšalimas" – laikinas empatijos bei šilumos jausmo kitiems žmonėms praradimas.
 
 **Užkalbėjimas**: *"Ugnis tau degs"* ("Tegul ugnis tau dega")
 
@@ -109,6 +111,7 @@ Ugnies kultas buvo centrinis baltų pagonybėje. Šventosios ugniavietės buvo p
 **Zenitas**: **Pilnatis (Aukščiausias potvynis)**. Kai vanduo paklūsta Mėnulio traukai, gydomoji Bangpūčio galia pasiekia savo viršūnę.
 
 **Palaiminimas (Blessing)**: ***Gyvybės Versmė***. Akimirksniu sustabdo kraujavimą, valo nuodingus užkratus ir grąžina sielą iš Dausų prieangio.
+- **Kaina**: Stipri dehidratacija ir dalies gydomo žmogaus skausmo ar žaizdos "perėmimas" į savo kūną.
 
 **Užkalbėjimas**: *"Vanduo tau teks"* ("Tegul vanduo tau teka")
 
@@ -142,6 +145,7 @@ Vanduo buvo laikomas šventu baltų tradicijose, su daugeliu šventų versmių i
 **Zenitas**: **Lygiadienis / Derliaus pabaiga (Saulėlydis)**. Kai žemė ruošiasi poilsiui, ji sukaupia visą savo tūkstantmetę ištvermę.
 
 **Palaiminimas (Blessing)**: ***Nepajudinamoji Valia***. Suteikia absoliutų atsparumą baimėms, proto kontrolei ir leidžia kūnui ištverti traumas, kurios kitu atveju būtų mirtinos.
+- **Kaina**: Po poveikio pabaigos kūnas tampa nejudrus (sustingęs) tiek laiko, kiek vyko sutartis, bei prarandamas natūralus judėjimo grakštumas.
 
 **Užkalbėjimas**: *"Žemė tau laikys"* ("Tegul žemė tau laikytų")
 
@@ -175,6 +179,7 @@ Vanduo buvo laikomas šventu baltų tradicijose, su daugeliu šventų versmių i
 **Zenitas**: **Didžioji Audra / Vėtrų laikas**. Chaotiškiausios gamtos akimirkos yra Vėjopačio triumfo valandos.
 
 **Palaiminimas (Blessing)**: ***Šešėlio Greitis***. Leidžia judėti nepastebimai, girdėti šnibždesius už mylių ir komunikuoti su mirusiųjų dvasiomis per vėjo gūsius.
+- **Kaina**: Smarkus svaigulys (vertigo) ir laikinas balso praradimas – žadėtojas negali kalbėti paprasta kalba, tik vėjo šlamėjimu.
 
 **Užkalbėjimas**: *"Vėjas tau neš"* ("Tegul vėjas tau neša")
 

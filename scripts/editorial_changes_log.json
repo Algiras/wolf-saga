@@ -1,0 +1,120 @@
+{
+  "summary": {
+    "total_files": 32,
+    "files_changed": 0,
+    "fixes_applied": 0
+  },
+  "changes": [],
+  "all_results": [
+    {
+      "file": "01_senasis_sernas.qmd",
+      "status": "error",
+      "error": "(\"Connection broken: InvalidChunkLength(got length b'', 0 bytes read)\", InvalidChunkLength(got length b'', 0 bytes read))"
+    },
+    {
+      "file": "02_vilko_perspejimas.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x124727350>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "03_gintaro_sapnas.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x124724610>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "04_kelione_i_vilniu.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x124735590>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "05_dvigubas_veidas.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x124737510>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "06_geleziniai_vartai.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12473d510>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "07_tylos_puota.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12473f510>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "08_krevos_pozemiai.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x124751850>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "09_paskutine_giesme.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12473c810>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "10_saltas_rytas.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1245f6f10>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "11_nasle.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1247371d0>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "12_gedulo_skraiste.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12471f610>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "15_pabegimas.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1247502d0>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "16_pelkes_vaikai.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x124724c90>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "18_gelezinis_magistras.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x124735810>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "24_pasirinkimas.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x124737710>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "25_isdaviku_isdavikas.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12473c4d0>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "26_susitikimas_pelenineje.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12473e610>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "27_gintaro_auka.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1247581d0>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "30_epilogas.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12473e2d0>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "prologue.qmd",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12473d410>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "file": "references.qmd",
+      "status": "skipped",
+      "reason": "per trumpas"
+    }
+  ]
+}

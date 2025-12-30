@@ -38,6 +38,12 @@ Svarbiausi kalbiniai bruožai:
 
 **Sritis**: Likimas, lemta, pranašystė ir kosminė tvarka
 
+**Personifikacija**: **Praurimė** – Likimo ir dangaus šviesų deivė.
+
+**Zenitas**: **Žiemos saulėgrįža (Vidurnaktis)**. Šiuo metu dangaus skliautas yra giliausias, o Praurimės akys – akyliausios.
+
+**Palaiminimas (Blessing)**: ***Regėjimo Aiška***. Suteikia galimybę matyti per melą, iliuzijas ir matyti galimus ateities kelius trumpą akimirką.
+
 **Užkalbėjimas**: *"Žvaigždės tau švytės"* ("Tegul žvaigždės tau švytėtų")
 
 **Mechanika**:
@@ -64,6 +70,12 @@ Baltų tautos buvo išmanūs astronomai, naudoję žvaigždes navigacijai, žemd
 #### 2. Ugnis – Valymo Magija
 
 **Sritis**: Apsauga, jėga, transformacija ir šventoji galia
+
+**Personifikacija**: **Gabija** – Šventosios ugnies sergėtoja, namų ir sielos šilumos deivė.
+
+**Zenitas**: **Vasaros saulėgrįža (Vidurdienis)**. Kai saulė pasiekia aukščiausią tašką, Gabijos ugnis tampa mirtina nešventoms būtybėms.
+
+**Palaiminimas (Blessing)**: ***Sielos Šarvas***. Sugeria dvasines atakas ir suteikia fizinę jėgą, kuri peržengia žmogaus ribas, tačiau degina paties naudotojo gyvybinę energiją.
 
 **Užkalbėjimas**: *"Ugnis tau degs"* ("Tegul ugnis tau dega")
 
@@ -92,6 +104,12 @@ Ugnies kultas buvo centrinis baltų pagonybėje. Šventosios ugniavietės buvo p
 
 **Sritis**: Atstatymas, valymasis, emocijos ir gyvybės jėgos
 
+**Personifikacija**: **Bangpūtys** – Jūrų, vandenų ir audrų dievas.
+
+**Zenitas**: **Pilnatis (Aukščiausias potvynis)**. Kai vanduo paklūsta Mėnulio traukai, gydomoji Bangpūčio galia pasiekia savo viršūnę.
+
+**Palaiminimas (Blessing)**: ***Gyvybės Versmė***. Akimirksniu sustabdo kraujavimą, valo nuodingus užkratus ir grąžina sielą iš Dausų prieangio.
+
 **Užkalbėjimas**: *"Vanduo tau teks"* ("Tegul vanduo tau teka")
 
 **Mechanika**:
@@ -119,6 +137,12 @@ Vanduo buvo laikomas šventu baltų tradicijose, su daugeliu šventų versmių i
 
 **Sritis**: Stabilumas, maitinimas, ištvermė ir fizinė jėga
 
+**Personifikacija**: **Žemyna** – Žemės motina, visko, kas gyva, maitintoja ir globėja.
+
+**Zenitas**: **Lygiadienis / Derliaus pabaiga (Saulėlydis)**. Kai žemė ruošiasi poilsiui, ji sukaupia visą savo tūkstantmetę ištvermę.
+
+**Palaiminimas (Blessing)**: ***Nepajudinamoji Valia***. Suteikia absoliutų atsparumą baimėms, proto kontrolei ir leidžia kūnui ištverti traumas, kurios kitu atveju būtų mirtinos.
+
 **Užkalbėjimas**: *"Žemė tau laikys"* ("Tegul žemė tau laikytų")
 
 **Mechanika**:
@@ -145,6 +169,12 @@ Vanduo buvo laikomas šventu baltų tradicijose, su daugeliu šventų versmių i
 #### 5. Vėjas – Pranešėjiška Magija
 
 **Sritis**: Komunikacija, greitis, dvasios ir pokytis
+
+**Personifikacija**: **Vėjopatis** – Keturių vėjų valdovas, pranešėjas tarp pasaulių.
+
+**Zenitas**: **Didžioji Audra / Vėtrų laikas**. Chaotiškiausios gamtos akimirkos yra Vėjopačio triumfo valandos.
+
+**Palaiminimas (Blessing)**: ***Šešėlio Greitis***. Leidžia judėti nepastebimai, girdėti šnibždesius už mylių ir komunikuoti su mirusiųjų dvasiomis per vėjo gūsius.
 
 **Užkalbėjimas**: *"Vėjas tau neš"* ("Tegul vėjas tau neša")
 

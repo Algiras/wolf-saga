@@ -19,41 +19,41 @@ Written by **Algimantas Krasauskas**.
 
 00:00 Introduction
 00:08 Prologue: Amber Tears
-04:11 Part I: The Decline
-04:13 Chapter 1: The Old Boar
-14:09 Chapter 2: The Wolf's Warning
-23:30 Chapter 3: Amber Dream
-34:11 Chapter 4: Journey to Vilnius
-38:04 Chapter 5: The Double Face
-45:10 Chapter 6: The Iron Gates
-52:30 Chapter 7: Feast of Silence
-56:24 Chapter 8: Dungeons of Kreva
-59:58 Chapter 9: The Last Song
-01:06:22 Chapter 10: Cold Morning
-01:11:16 Part II: The Escape
-01:11:17 Chapter 11: The Widow
-01:15:10 Chapter 12: Veil of Mourning
-01:19:21 Chapter 13: The Exchange
-01:25:28 Chapter 14: Shadow in the Night
-01:30:36 Chapter 15: The Escape
-01:37:37 Chapter 16: Children of the Swamp
-01:42:44 Chapter 17: The Border
-01:49:35 Chapter 18: The Iron Master
-01:55:39 Chapter 19: The Devil's Bargain
-02:01:16 Part III: War and Order
-02:01:18 Chapter 20: Foreign Gods
-02:07:24 Chapter 21: The First Battle
-02:13:39 Chapter 22: Siege of Vilnius I
-02:19:02 Chapter 23: Fire and Ashes
-02:24:32 Chapter 24: The Choice
-02:29:07 Chapter 25: Traitor of Traitors
-02:34:10 Chapter 26: Meeting in the Ashpit
-02:39:58 Chapter 27: Sacrifice of Amber
-02:45:20 Chapter 28: New Order
-02:50:49 Chapter 29: The Baptism
-02:57:37 Chapter 30: Epilogue
-03:03:30 Sources
-03:06:04 Conclusion
+04:14 Part I: The Decline
+04:19 Chapter 1: The Old Boar
+14:18 Chapter 2: The Wolf's Warning
+23:42 Chapter 3: Amber Dream
+34:26 Chapter 4: Journey to Vilnius
+38:22 Chapter 5: The Double Face
+45:31 Chapter 6: The Iron Gates
+52:54 Chapter 7: Feast of Silence
+56:51 Chapter 8: Dungeons of Kreva
+01:00:28 Chapter 9: The Last Song
+01:06:55 Chapter 10: Cold Morning
+01:11:52 Part II: The Escape
+01:11:56 Chapter 11: The Widow
+01:15:52 Chapter 12: Veil of Mourning
+01:20:06 Chapter 13: The Exchange
+01:26:16 Chapter 14: Shadow in the Night
+01:31:27 Chapter 15: The Escape
+01:38:31 Chapter 16: Children of the Swamp
+01:43:41 Chapter 17: The Border
+01:50:35 Chapter 18: The Iron Master
+01:56:42 Chapter 19: The Devil's Bargain
+02:02:22 Part III: War and Order
+02:02:27 Chapter 20: Foreign Gods
+02:08:36 Chapter 21: The First Battle
+02:14:54 Chapter 22: Siege of Vilnius I
+02:20:20 Chapter 23: Fire and Ashes
+02:25:53 Chapter 24: The Choice
+02:30:31 Chapter 25: Traitor of Traitors
+02:35:37 Chapter 26: Meeting in the Ashpit
+02:41:28 Chapter 27: Sacrifice of Amber
+02:46:53 Chapter 28: New Order
+02:52:25 Chapter 29: The Baptism
+02:59:16 Chapter 30: Epilogue
+03:05:12 Sources
+03:07:49 Conclusion
 
 ---
 
@@ -89,6 +89,8 @@ Licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 I
 ---
 
 🙏 **FINAL NOTE**: 
-Thank you for listening to the end...
+Thank you for listening to the end of this epic tale. If you found yourself lost in the forests of ancient Lithuania, please **Like**, **Share**, and **Subscribe** to support more independent storytelling.
+
+"The forest forgets nothing. The wolf forgives nothing."
 
 #WolfSaga #Audiobook #EpicFantasy #History #DarkFantasy #Lithuania #GrandDuchy

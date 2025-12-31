@@ -79,6 +79,16 @@ def concatenate_audiobook():
                 resampler = ta.transforms.Resample(sr, sample_rate)
                 waveform = resampler(waveform)
             
+            # Add silence between chapters (e.g., 3 seconds)
+            silence_seconds = 3.0
+            silence_frames = int(sample_rate * silence_seconds)
+            silence_tensor = torch.zeros((waveform.shape[0], silence_frames), dtype=waveform.dtype)
+            
+            # Append silence to previous chapter if this is not the first one
+            if all_audio: 
+                all_audio.append(silence_tensor)
+                current_time += silence_seconds
+
             all_audio.append(waveform)
             
         except Exception as e:

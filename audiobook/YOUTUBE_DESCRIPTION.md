@@ -1,9 +1,15 @@
-# YouTube Video Description for Wolf Saga Audiobook
+# Wolf Saga - Audiobook (YouTube Description)
 
 ## Title
 Wolf Saga. Book One: Exile of the Wolf (Complete Audiobook) | Epic Dark Fantasy
 
+---
+
 ## Description
+
+**Note on Language:** While this saga is set in the Grand Duchy of Lithuania, this audiobook is presented in **English**. Current Lithuanian Text-to-Speech (TTS) technology is not yet capable of delivering the emotional depth and professional quality required for this epic tale, so we have chosen a high-fidelity English narration for the best listening experience.
+
+---
 
 🎧 **Wolf Saga. Book One: Exile of the Wolf - The Complete Audiobook**
 
@@ -20,44 +26,44 @@ Written by **Algimantas Krasauskas**.
 00:00 Introduction
 00:08 Prologue: Amber Tears
 04:14 Part I: The Decline
-04:19 Chapter 1: The Old Boar
-14:18 Chapter 2: The Wolf's Warning
-23:42 Chapter 3: Amber Dream
-34:26 Chapter 4: Journey to Vilnius
-38:22 Chapter 5: The Double Face
-45:31 Chapter 6: The Iron Gates
-52:54 Chapter 7: Feast of Silence
-56:51 Chapter 8: Dungeons of Kreva
-01:00:28 Chapter 9: The Last Song
-01:06:55 Chapter 10: Cold Morning
+04:19 01. The Old Boar
+14:18 02. The Wolf's Warning
+23:42 03. Amber Dream
+34:26 04. Journey to Vilnius
+38:22 05. The Double Face
+45:31 06. The Iron Gates
+52:54 07. Feast of Silence
+56:51 08. Dungeons of Kreva
+01:00:28 09. The Last Song
+01:06:55 10. Cold Morning
 01:11:52 Part II: The Escape
-01:11:56 Chapter 11: The Widow
-01:15:52 Chapter 12: Veil of Mourning
-01:20:06 Chapter 13: The Exchange
-01:26:16 Chapter 14: Shadow in the Night
-01:31:27 Chapter 15: The Escape
-01:38:31 Chapter 16: Children of the Swamp
-01:43:41 Chapter 17: The Border
-01:50:35 Chapter 18: The Iron Master
-01:56:42 Chapter 19: The Devil's Bargain
+01:11:56 11. The Widow
+01:15:52 12. Veil of Mourning
+01:20:06 13. The Exchange
+01:26:16 14. Shadow in the Night
+01:31:27 15. The Escape
+01:38:31 16. Children of the Swamp
+01:43:41 17. The Border
+01:50:35 18. The Iron Master
+01:56:42 19. The Devil's Bargain
 02:02:22 Part III: War and Order
-02:02:27 Chapter 20: Foreign Gods
-02:08:36 Chapter 21: The First Battle
-02:14:54 Chapter 22: Siege of Vilnius I
-02:20:20 Chapter 23: Fire and Ashes
-02:25:53 Chapter 24: The Choice
-02:30:31 Chapter 25: Traitor of Traitors
-02:35:37 Chapter 26: Meeting in the Ashpit
-02:41:28 Chapter 27: Sacrifice of Amber
-02:46:53 Chapter 28: New Order
-02:52:25 Chapter 29: The Baptism
-02:59:16 Chapter 30: Epilogue
+02:02:27 20. Foreign Gods
+02:08:36 21. The First Battle
+02:14:54 22. Siege of Vilnius I
+02:20:20 23. Fire and Ashes
+02:25:53 24. The Choice
+02:30:31 25. Traitor of Traitors
+02:35:37 26. Meeting in the Ashpit
+02:41:28 27. Sacrifice of Amber
+02:46:53 28. New Order
+02:52:25 29. The Baptism
+02:59:16 30. Epilogue
 03:05:12 Sources
 03:07:49 Conclusion
 
 ---
 
-📖 **SUMMARY OF THE WORK**:
+📖 **SUMMARY**:
 
 **Wolf Saga: Exile of the Wolf** is a historical dark fantasy that brings the late 14th-century Grand Duchy of Lithuania to life. It is a world where old gods still whisper in the oaks, while the shadow of the Cross looms from the West.
 
@@ -83,7 +89,7 @@ Audiobook, Epic Fantasy, Dark Fantasy, Historical Fiction, Lithuania, Paganism, 
 ---
 
 ⚖️ **LICENSE**:
-Licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+This work is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
 © 2025 Algimantas Krasauskas.
 
 ---

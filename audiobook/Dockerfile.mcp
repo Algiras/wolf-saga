@@ -1,0 +1,2 @@
+FROM node:20
+RUN npm install -g @modelcontextprotocol/server-sequential-thinking @modelcontextprotocol/server-wikipedia

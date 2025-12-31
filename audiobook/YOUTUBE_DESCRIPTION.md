@@ -83,7 +83,7 @@ Audiobook, Epic Fantasy, Dark Fantasy, Historical Fiction, Lithuania, Paganism, 
 ---
 
 ⚖️ **LICENSE**:
-Licensed under the **MIT License**.
+Licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
 © 2025 Algimantas Krasauskas.
 
 ---

@@ -37,7 +37,7 @@ We begin.
 OUTRO_TEXT = """
 This was Wolf Saga. Book One: Exile of the Wolf.
 
-Licensed under the MIT License.
+Licensed under Creative Commons Attribution Non-Commercial Share-Alike 4.0 International.
 
 Thank you for listening.
 

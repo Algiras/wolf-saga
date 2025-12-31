@@ -1,16 +1,23 @@
-# License {.unnumbered}
+# License / Licencija {.unnumbered}
 
-**"Wolf Saga: Exile of the Wolf"**
+**"Wolf Saga: Exile of the Wolf" / „Geležinio Vilko Saga: Vilko Tremtis“**
 
 © 2025 Algimantas Krasauskas.
 
-This work is licensed under the **MIT License**.
+This work is licensed under the **MIT License**.  
+Šis kūrinys yra licencijuojamas pagal **MIT licenciją**.
+
+---
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
+---
 
+Šiuo dokumentu suteikiama nemokama teisė bet kuriam asmeniui, gaunančiam šio kūrinio ir susijusių dokumentų kopiją, naudoti kūrinį be jokių apribojimų, įskaitant, bet neapsiribojant, teisę naudoti, kopijuoti, keisti, sujungti, skelbti, platinti ir (arba) parduoti jo kopijas, laikantis šių sąlygų:
+
+Aukščiau nurodytas pranešimas apie autorines teises ir šis leidimo suteikimo pranešimas turi būti įtrauktas į visas kūrinio kopijas ar esmines jo dalis.
 ---
 
 **Viršelio dizainas ir iliustracijos:** Algimantas Krasauskas (su AI pagalba).  

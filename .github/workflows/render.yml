@@ -40,8 +40,8 @@ jobs:
         if: github.event_name == 'push' && contains(github.ref, 'tags')
         with:
           files: |
-            books/_book/saga.pdf
-            books/_book/saga.epub
+            books/_book/*.pdf
+            books/_book/*.epub
           generate_release_notes: true
 
       - name: Update Latest Release
@@ -52,8 +52,8 @@ jobs:
           name: "Latest Build"
           body: "Automatiškai sugeneruota naujausia knygos versija (PDF ir EPUB)."
           files: |
-            books/_book/saga.pdf
-            books/_book/saga.epub
+            books/_book/*.pdf
+            books/_book/*.epub
           draft: false
           prerelease: true
 

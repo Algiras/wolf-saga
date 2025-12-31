@@ -45,17 +45,16 @@ jobs:
           generate_release_notes: true
 
       - name: Update Latest Release
-        uses: softprops/action-gh-release@v2
+        env:
+          GH_TOKEN: ${{ github.token }}
         if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
-        with:
-          tag_name: latest
-          name: "Latest Build"
-          body: "Automatiškai sugeneruota naujausia knygos versija (PDF ir EPUB)."
-          files: |
-            books/_book/*.pdf
-            books/_book/*.epub
-          draft: false
-          prerelease: true
+        run: |
+          # Create or update the 'latest' release
+          gh release edit latest --title "Latest Build" --prerelease --notes "Automatiškai sugeneruota naujausia knygos versija (PDF ir EPUB)." || \
+          gh release create latest --title "Latest Build" --prerelease --notes "Automatiškai sugeneruota naujausia knygos versija (PDF ir EPUB)."
+          
+          # Upload files with --clobber to overwrite existing assets
+          gh release upload latest books/_book/*.pdf books/_book/*.epub --clobber
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

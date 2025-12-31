@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+        "sequential-thinking": {
+            "command": "npx",
+            "args": [
+                "--registry=https://registry.npmjs.org",
+                "-y",
+                "@modelcontextprotocol/server-sequential-thinking@latest"
+            ]
+        },
+        "memory": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "-v",
+                "/Users/algimantask/Personal/the-shadow-of-extremism/audiobook/mcp_data/memory:/app/data",
+                "-e",
+                "MEMORY_FILE_PATH=/app/data/memory.jsonl",
+                "mcp/memory"
+            ]
+        }
+    }
+}

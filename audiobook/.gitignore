@@ -1,0 +1,29 @@
+# Generated audio files
+output/
+*.wav
+*.mp3
+
+# Preprocessed text (Ollama output)
+preprocessed/
+preprocessed/*.txt
+
+# Model cache
+cache/
+__pycache__/
+*.pyc
+
+# Reference audio (user-specific)
+reference_audio/*.wav
+reference_audio/*.mp3
+
+# Environment and logs
+.env
+*.log
+transcripts/
+
+# Keep directory structure
+!reference_audio/.gitkeep
+!output/.gitkeep
+!cache/.gitkeep
+!preprocessed/.gitkeep
+!transcripts/.gitkeep

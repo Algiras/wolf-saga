@@ -1,0 +1,29 @@
+# Geležinio Vilko Saga (The Iron Wolf Saga)
+
+## Overview
+An epic dark fantasy narrative set in 14th-century Lithuania. A multi-book series exploring historical fiction through the lens of power, betrayal, and transformation during Lithuania's turbulent medieval period.
+
+## Story Details
+- **Setting:** XIV century Lithuania during internal conflicts and the struggle against the Teutonic Order
+- **Protagonist:** Vytautas' transformation from outcast to political player
+- **Themes:** Redemption, political intrigue, historical fantasy, cultural identity
+
+## Available Formats
+- Online reading
+- PDF/EPUB downloads
+- Audiobook version available on YouTube
+
+## Language
+Lithuanian (Lietuvių)
+
+## Documentation
+https://algiras.github.io/wolf-saga/
+
+## Repository
+https://github.com/Algiras/wolf-saga
+
+## Audiobook
+https://www.youtube.com/watch?v=7FTLqyPXSr0
+
+## License
+See repository for details

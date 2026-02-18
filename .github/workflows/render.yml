@@ -34,6 +34,7 @@ jobs:
         run: |
           cd books
           quarto render --to all
+          cp ../llms.txt _book/llms.txt
 
       - name: Create Release
         uses: softprops/action-gh-release@v2

@@ -1,0 +1,35 @@
+# Licencija {.unnumbered}
+
+**„Geležinio Vilko Saga: Šventasis Miškas“**
+
+© 2025–2026 Algimantas Krasauskas.
+
+Šis kūrinys yra licencijuojamas pagal **Creative Commons Nurodymas-Nekomercinis-DalijimasisTuoPačiu 4.0 Tarptautinę licenciją (CC BY-NC-SA 4.0)**.
+
+---
+
+**Jūs turite teisę:**
+
+*   **Dalintis** — kopijuoti ir platinti medžiagą bet kokiomis priemonėmis ir formatais.
+*   **Adaptuoti** — remiksuoti, perdirbti ir kurti iš medžiagos.
+
+**Laikantis šių sąlygų:**
+
+*   **Nurodymas (Attribution)** — Turite nurodyti autorystę, pateikti nuorodą į licenciją ir nurodyti, ar buvo atlikti pakeitimai. Tai galite daryti bet kokiu protingu būdu, bet ne taip, kad sudarytumėte įspūdį, jog licencijos davėjas rekomenduoja jus ar jūsų naudojimą.
+*   **Nekomercinis (NonCommercial)** — Negalite naudoti medžiagos komerciniais tikslais.
+*   **DalijimasisTuoPačiu (ShareAlike)** — Jei remiksuojate, perdirbate ar kuriate iš medžiagos, turite platinti savo indėlį pagal tą pačią licenciją kaip ir originalą.
+
+Nėra jokių papildomų apribojimų — negalite taikyti teisinių terminų ar technologinių priemonių, kurios teisiškai apribotų kitus daryti tai, ką leidžia licencija.
+
+Pilnas licencijos tekstas: <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.lt>
+
+---
+
+**Viršelio dizainas ir iliustracijos:** Algimantas Krasauskas (su AI pagalba).  
+**Leidimo vieta:** Vilnius, Lietuva.  
+**Data:** 2026 m. spalis.  
+**Versija:** 0.1.0-juodraštis
+
+---
+
+*„Miškas nieko nepamiršta. Vilkas nieko neatleidžia.“*

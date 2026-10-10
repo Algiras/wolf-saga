@@ -1,0 +1,83 @@
+project:
+  type: book
+
+lang: lt
+
+book:
+  title: "Geležinio Vilko Saga"
+  subtitle: "VI Knyga: Šventasis Miškas (priešistorė)"
+  author: "Algimantas Krasauskas"
+  output-file: saga-6
+  date: "10/10/2026"
+  cover-image: cover.jpg
+  navbar:
+    right:
+      - text: "I knyga"
+        href: ../
+      - text: "II knyga"
+        href: ../2/
+      - text: "VI knyga (priešistorė)"
+        href: index.html
+      - text: "Wiki"
+        href: ../wiki/
+  chapters:
+    - index.qmd
+    - part: "Tylioji Sutartis"
+      chapters:
+        - 01_gedimino_lauzas.qmd
+        - 02_jaunucio_kede.qmd
+        - 03_vilniaus_uzemimas.qmd
+        - 04_tylioji_sutartis.qmd
+        - 05_sidabrinis_vilkas.qmd
+        - 06_kankiniu_azuolas.qmd
+        - 07_strevos_ledas.qmd
+        - 08_pirmoji_skola.qmd
+        - 09_dykros_gimimas.qmd
+        - 10_palangos_ugnis.qmd
+    - part: "Jūra ir Ugnis"
+      chapters:
+        - 11_buk_paimta.qmd
+        - 12_laima_prie_lopsio.qmd
+        - 13_jaucio_priesaika.qmd
+        - 14_kniprodes_tvarka.qmd
+        - 15_algirdo_tyla.qmd
+        - 16_paimtas.qmd
+        - 17_marienburgo_pozemis.qmd
+        - 18_alfo_raktas.qmd
+        - 19_kauno_velykos.qmd
+        - 20_melynieji_vandenys.qmd
+    - part: "Senasis Šernas"
+      chapters:
+        - 21_butauto_isdavyste.qmd
+        - 22_maskvos_sienos.qmd
+        - 23_pranciskonu_kraujas.qmd
+        - 24_rudavos_sniegas.qmd
+        - 25_lubutsko_dauba.qmd
+        - 26_pusbroliai_prie_ugnies.qmd
+        - 27_juodas_suo.qmd
+        - 28_algirdo_valia.qmd
+        - 29_algirdo_lauzas.qmd
+        - 30_epilogas_senasis_sernas.qmd
+    - copyright.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+  pdf:
+    documentclass: scrreprt
+    number-sections: false
+    sec-num-depth: 0
+    toc: true
+    pdf-engine: lualatex
+    mainfont: "DejaVu Serif"
+    monofont: "DejaVu Sans Mono"
+    header-includes: |
+      \usepackage{fontspec}
+      \renewcommand{\partformat}{}
+      \renewcommand{\chapterformat}{}
+  epub:
+    cover-image: cover.jpg
+    title: "Geležinio Vilko Saga VI: Šventasis Miškas (priešistorė)"
+    author: "Algimantas Krasauskas"
+    description: "Epinė priešistorė apie Kęstutį, Birutę ir Tylųjų Sutartį (1341–1377)."

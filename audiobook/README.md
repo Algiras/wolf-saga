@@ -1,12 +1,30 @@
-# Audiobook Generation for "Gelezinio Vilko Saga" (Book I: Vilko Tremtis)
+# Audiobook Generation for "Geležinio Vilko Saga" (I knyga: Vilko Tremtis)
 
-This directory contains the complete pipeline for generating an audiobook using:
-- **Chatterbox-Turbo TTS** (zero-shot voice cloning)
-- **Ollama + Ministral-3:14b** (text preprocessing for natural narration)
+This directory contains the pipeline that turns the book text in `books/` into an audiobook. It uses:
+- **Google Gemini** for text preprocessing (natural narration), via `GEMINI_API_KEY` and `GEMINI_MODEL`
+- **Chatterbox-Turbo TTS** (ResembleAI) for speech synthesis, with optional zero-shot voice cloning
+- **ffmpeg** (external binary) for concatenation, video rendering and validation
+
+> **Known limitations, pipeline under redesign.** The video and YouTube stages (4 and 5 below, and `generate_chapter_videos.py`) are being reworked. Output formats, captions and upload metadata may change. See `VIDEO_PIPELINE_REVIEW.md` for the current review and open issues.
+
+## Prerequisites
+
+- Python 3.10+ and `pip install -r requirements.txt` (run from `audiobook/`)
+- `ffmpeg` and `ffprobe` on `PATH`
+- A Gemini API key: `export GEMINI_API_KEY=...` (`GOOGLE_API_KEY` is also accepted)
+- Optional: a CUDA GPU for faster TTS (CPU works, but is much slower)
+
+Optional environment variables for Stage 1:
+
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `GEMINI_MODEL` | `gemini-2.5-flash` | Model used for preprocessing |
+| `GEMINI_EDITOR_MODEL` | same as `GEMINI_MODEL` | Model used for the editor pass |
+| `GEMINI_EMBEDDING_MODEL` | `text-embedding-004` | Embeddings for the narration memory |
 
 ## Quick Start (Using Default Voice)
 
-The easiest way to generate the audiobook is with Chatterbox's built-in default male voice:
+The easiest way to generate the audiobook is with Chatterbox's built-in default voice:
 
 ```bash
 cd audiobook/
@@ -14,205 +32,179 @@ python generate_complete_audiobook.py
 ```
 
 This will:
-1. Generate intro with default voice
+1. Generate the intro with the default voice
 2. Process all chapters (uses cached preprocessing if available)
-3. Generate all chapter audio with default voice
-4. Generate outro with default voice
-5. Concatenate everything into `output/GelezinioVilkoSaga_Book1_Complete.wav`
+3. Generate all chapter audio with the default voice
+4. Generate the outro with the default voice
+5. Concatenate everything into `GelezinioVilkoSaga_Book1_Complete.wav` in `audiobook/`
 
-**No reference audio needed!** The default voice is professional and suitable for audiobooks.
+No reference audio is required.
 
 ## Custom Voice (Optional)
 
-If you want a specific voice, provide reference audio (15-30 seconds, WAV format):
+To use a specific narrator voice, pass a reference clip (WAV, roughly 5-30 seconds of clean speech):
 
 ```bash
 python generate_complete_audiobook.py --reference-audio your_voice.wav
 ```
 
-See [VOICE_CLONING.md](VOICE_CLONING.md) for details.
+Only use voices you have the rights to (your own recordings, or voices you are licensed to use for published audio).
 
 ## Pipeline Overview
 
-- **Zero-Shot TTS**: Clone any voice with just a 10-second reference clip
-- **Creative Controls**: Automatic insertion of paralinguistic tags for natural pacing
-- **Chapter-by-Chapter**: Generates separate audio files for each book chapter
-- **GPU Accelerated**: Uses CUDA for fast inference (falls back to CPU if unavailable)
-
-## Setup
-
-### 1. Install Ollama (for text preprocessing)
-
-```bash
-# Install Ollama from https://ollama.ai
-# Then pull the model:
-ollama pull ministral-3:8b
-```
-
-### 2. Install Python Dependencies
-
-```bash
-cd audiobook
-pip install -r requirements.txt
-```
-
-### 3. Prepare Reference Audio (Optional)
-
-For voice cloning, place a 10-second audio clip of your desired narrator voice in:
-```
-audiobook/reference_audio/narrator_voice.wav
-```
-
-**Requirements**:
-- Format: WAV
-- Duration: ~10 seconds
-- Quality: Clear speech, minimal background noise
-
-If no reference audio is provided, the model will use its default voice.
+- **Zero-shot TTS**: Chatterbox-Turbo can clone a voice from a short reference clip
+- **Chapter-by-chapter**: Generates a separate audio file for each chapter
+- **Narration memory**: Later chapters are preprocessed with context from earlier ones
+- **GPU accelerated**: Uses CUDA when available (`--device cuda`, otherwise CPU)
 
 ## Usage
 
 ### Complete Pipeline (Recommended)
 
-Run the entire 3-stage pipeline with a single command:
+Run the entire pipeline with one command:
 
 ```bash
 python generate_complete_audiobook.py
 ```
 
-This will execute:
-1. **Stage 1**: Text preprocessing with Ollama (Ministral-3:14b)
+It runs three stages:
+1. **Stage 1**: Text preprocessing with Gemini
 2. **Stage 2**: Audio generation with Chatterbox-Turbo TTS
-3. **Stage 3**: Concatenation into final audiobook
+3. **Stage 3**: Concatenation into the final audiobook
 
-**Output**: `GelezinioVilkoSaga_Book1_Complete.wav` (complete audiobook)
+**Output**: `GelezinioVilkoSaga_Book1_Complete.wav` (in `audiobook/`)
+
+Useful flags: `--reference-audio PATH`, `--skip-preprocessing`, `--skip-video`.
 
 ---
 
 ### Manual Stage-by-Stage Workflow
 
-For more control or to resume from a specific stage:
+For more control, or to resume from a specific stage:
 
-**Stage 1: Text Preprocessing**
+**Stage 1: Text preprocessing**
 ```bash
 python 1_preprocess_with_ollama.py
 ```
-- Transforms book chapters into natural narration
-- Uses Ministral-3:14b via Ollama
-- Outputs to `preprocessed/` directory
-- Generates `manifest.json` for tracking
+- Transforms book chapters into narration text with Gemini (the filename is historical; the LLM is Gemini)
+- Outputs to `preprocessed/` and writes `preprocessed/manifest.json`
 
-**Stage 2: Audio Generation**
+**Stage 2: Audio generation**
 ```bash
-python 2_generate_audio.py --reference-audio your_voice.wav
+python 2_generate_audio.py --device cpu
 ```
-- Converts preprocessed text to speech
-- Uses Chatterbox-Turbo TTS
-- Outputs individual chapter WAV files to `output/`
-- Supports voice cloning with reference audio
+- Converts preprocessed text to speech with Chatterbox-Turbo
+- Writes individual chapter WAV files to `output/`
 
-**Stage 3: Audio Concatenation**
+**Stage 3: Audio concatenation**
 ```bash
 python 3_concatenate_audio.py
 ```
-- Combines all chapter WAV files
-- Handles sample rate consistency
-- Outputs `GelezinioVilkoSaga_Book1_Complete.wav`
+- Combines the chapter WAV files and normalises them
+- Writes `GelezinioVilkoSaga_Book1_Complete.wav`
 
 ---
 
 ### Options
 
-**Custom Reference Audio (Stage 2)**:
-```bash
-python 2_generate_audio.py --reference-audio /path/to/voice.wav --device cuda
-```
-
-**CPU Mode (if no GPU)**:
+**CPU mode (no GPU)**:
 ```bash
 python 2_generate_audio.py --device cpu
 ```
 
-**Custom Ollama Model (Stage 1)**:
+**Different Gemini model (Stage 1)**: set the environment variable, there is no CLI flag:
 ```bash
-python 1_preprocess_with_ollama.py --model llama3:70b
+GEMINI_MODEL=gemini-2.5-pro python 1_preprocess_with_ollama.py
+```
+
+**Validate the master file (Stage 5)**: defaults to `GelezinioVilkoSaga_Book1_Complete.wav`:
+```bash
+python 5_technical_validation.py
+python 5_technical_validation.py --audio /path/to/other_master.wav
 ```
 
 ## Output
 
-### Stage 1: Preprocessed Text
+### Stage 1: Preprocessed text
 ```
 audiobook/preprocessed/
-├── 00_epigraph.txt
-├── 01_preface.txt
-├── 02_acknowledgements.txt
+├── 00_<chapter>.txt
+├── 01_<chapter>.txt
 ├── ...
 └── manifest.json
 ```
 
-### Stage 2: Individual Chapter Audio
+### Stage 2: Individual chapter audio
 ```
 audiobook/output/
-├── 00_epigraph.wav
-├── 01_preface.wav
-├── 02_acknowledgements.wav
+├── 00_<chapter>.wav
+├── 01_<chapter>.wav
 └── ...
 ```
 
-### Stage 3: Final Audiobook
+### Stage 3: Final audiobook
 ```
-audiobook/GelezinioVilkoSaga_Book1_Complete.wav  (Complete audiobook)
+audiobook/GelezinioVilkoSaga_Book1_Complete.wav
 ```
 
-### ⚡ High-Performance Streaming Pipeline (New!)
-Run the entire production with one command. It uses parallel queues to stream chapters through all stages simultaneously:
+### High-performance streaming pipeline
+`generate_complete_audiobook.py` streams chapters through all stages with parallel queues, so narration and captioning start as soon as the first chapter's text is ready:
 ```bash
-python generate_complete_audiobook.py --reference-audio reference_voice.wav
+python generate_complete_audiobook.py --reference-audio your_voice.wav
 ```
-This is the fastest method, as it starts narration and captioning as soon as the first chapter is text-ready.
 
-### Manual Stage-by-Stage Workflow (For QC)
-1. **Stage 1 (Preprocessing)**: `1_preprocess_with_ollama.py` (Ollama + RAG Memory)
-2. **Stage 2 (Narration)**: `2_generate_audio.py` (TTS Audio Generation)
-3. **Stage 3 (Concatenation)**: `3_concatenate_audio.py` (Mastering & Normalization)
-4. **Stage 4 (YouTube Video)**: `4_generate_youtube_video.py` (Captions + Ambiance)
-5. **Stage 5 (Verification)**: `5_technical_validation.py` (ACX/Audible Compliance Audit)
+### Stages 4 and 5 (video and QC)
+1. **Stage 4 (YouTube video)**: `4_generate_youtube_video.py` (cover image, waveform, optional captions with `--captions`)
+2. **Stage 5 (verification)**: `5_technical_validation.py` (ACX/Audible level checks)
+
+Other helpers:
+- `generate_chapter_videos.py`: one folder per chapter under `output/youtube_uploads/`, each with an MP4 and a `description.txt`
+- `generate_youtube_colorful.py` / `generate_youtube_waveform.py`: single full-book videos with a waveform overlay
 
 ## Pipeline Architecture
 
 ```mermaid
 graph LR
-    P[Ollama + RAG] -->|Queue| A[Chatterbox TTS]
-    A -->|Queue| T[Whisper Captioning]
-    T -->|Queue| V[Video & Ambiance]
-    V -->|Final| Q[Tech Validation]
+    P[Gemini + narration memory] -->|Queue| A[Chatterbox TTS]
+    A -->|Queue| T[Whisper captioning]
+    T -->|Queue| V[Video & ambiance]
+    V -->|Final| Q[Tech validation]
 ```
-- **RAG Memory**: Later chapters "remember" earlier ones, ensuring deep narrative consistency.
-- **Normalization**: Masters to EBU R128 (-14 LUFS) automatically.
-- **Verification**: Built-in QC check for RMS loudness and peak levels.
+- **Narration memory**: Later chapters "remember" earlier ones, keeping narrative consistency.
+- **Normalisation**: Masters are normalised by the concatenation stage (see `3_concatenate_audio.py`).
+- **Verification**: Stage 5 checks sample rate, peak level and RMS loudness.
+
+## Voices
+
+- The narrator clip and character clips are read from local files under `audiobook/` (see `2_generate_audio.py`).
+- `download_voice_references.py` cuts clips from YouTube videos. It refuses to run without `--i-own-the-rights`, which you should pass only if every clip is your own recording or a voice you are licensed to use for published audio.
 
 ## Technical Details
 
 - **Model**: Chatterbox-Turbo (ResembleAI)
-- **Sample Rate**: 24kHz
-- **Format**: WAV (uncompressed)
-- **Processing**: Removes LaTeX, citations, and markdown formatting
-- **Paralinguistic Tags**: Supports [chuckle], [sigh], [pause], [emphasis]
+- **Sample rate**: 24 kHz for TTS output
+- **Format**: WAV (uncompressed) for intermediate and master files
+- **Processing**: Removes LaTeX, citations and markdown formatting before narration
+- **Paralinguistic tags**: Supports [chuckle], [sigh], [pause], [emphasis]
 
 ## Troubleshooting
 
-### CUDA Out of Memory
-If you encounter OOM errors, try:
+### CUDA out of memory
+Run the TTS stage on CPU:
 ```bash
-python generate_audiobook.py --device cpu
+python 2_generate_audio.py --device cpu
 ```
 
-### Missing Dependencies
-Ensure you have PyTorch with CUDA support:
+### Missing dependencies
+Install PyTorch with CUDA support first, then the rest of the requirements:
 ```bash
 pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
 ```
+
+### Gemini errors
+Check that `GEMINI_API_KEY` (or `GOOGLE_API_KEY`) is exported in the shell that runs Stage 1.
 
 ## License
 
-This audiobook generation system is part of "The Shadow of Extremism" project. The generated audio is for personal use only.
+Part of the Geležinio Vilko Saga project, licensed under [CC BY-NC-SA 4.0](../LICENSE). Narration is generated with AI text-to-speech. See the project's `LICENSE` for terms.

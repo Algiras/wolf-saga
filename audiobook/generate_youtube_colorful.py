@@ -9,9 +9,9 @@ import json
 from pathlib import Path
 
 AUDIOBOOK_DIR = Path(__file__).parent
-AUDIO_FILE = AUDIOBOOK_DIR / "Miserable_Audiobook_Complete.wav"
+AUDIO_FILE = AUDIOBOOK_DIR / "GelezinioVilkoSaga_Book1_Complete.wav"
 COVER_IMAGE = AUDIOBOOK_DIR / "audiobook_splash_screen.png"
-OUTPUT_VIDEO = AUDIOBOOK_DIR / "output" / "Miserable_Audiobook_YouTube_Colorful.mp4"
+OUTPUT_VIDEO = AUDIOBOOK_DIR / "output" / "GelezinioVilkoSaga_Book1_YouTube_Colorful.mp4"
 
 def create_colorful_waveform_video(audio_path, image_path, output_path, style="gradient"):
     """
@@ -199,7 +199,6 @@ if __name__ == "__main__":
         print(f"   ✓ Cover image background")
         print(f"   ✓ Animated {args.style.upper()} waveform")
         print(f"   ✓ YouTube-optimized format")
-        print(f"\n📖 Upload instructions: audiobook/YOUTUBE_UPLOAD_GUIDE.md")
         print("\n🎬 Ready to upload to YouTube!")
         print(f"\n💡 Try other styles: --style gradient|rainbow|neon")
     else:

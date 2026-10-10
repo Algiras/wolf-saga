@@ -6,3 +6,15 @@ tqdm>=4.65.0
 google-generativeai>=0.8.3
 langchain-google-genai>=2.0.0
 aiohttp>=3.9.5
+# Imported directly by the audiobook scripts; versions intentionally unpinned.
+langchain-core
+langgraph
+mcp
+numpy
+scipy
+soundfile
+requests
+# Optional: only needed for --captions (4_generate_youtube_video.py)
+faster-whisper
+# Optional: only needed for youtube_uploader.py
+playwright

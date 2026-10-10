@@ -1,7 +1,9 @@
-# Wolf Saga - Audiobook (YouTube Description)
+# Geležinio Vilko Saga - Audiobook (YouTube Description)
+
+> **Note (pipeline in redesign):** The timestamps below are for the old single full-book video (one long upload of the whole of Book I). They do not match the current per-chapter uploads and will be regenerated. See `VIDEO_PIPELINE_REVIEW.md` for the status of the pipeline.
 
 ## Title
-Wolf Saga. Book One: Exile of the Wolf (Complete Audiobook) | Epic Dark Fantasy
+Geležinio Vilko Saga — I knyga: Vilko Tremtis (Complete Audiobook) | Epic Dark Fantasy
 
 ---
 
@@ -11,7 +13,7 @@ Wolf Saga. Book One: Exile of the Wolf (Complete Audiobook) | Epic Dark Fantasy
 
 ---
 
-🎧 **Wolf Saga. Book One: Exile of the Wolf - The Complete Audiobook**
+🎧 **Geležinio Vilko Saga — I knyga: Vilko Tremtis (The Wolf's Exile) - The Complete Audiobook**
 
 Step into the shadows of the 14th century, where the last pagan kingdom of Europe stands at a crossroads. Guided by the iron will of the Grand Duke Kestutis and haunted by the prophecies of the sacred groves, "Wolf Saga" is an epic journey of betrayal, ancient rituals, and the clash of civilizations.
 
@@ -65,21 +67,21 @@ Written by **Algimantas Krasauskas**.
 
 📖 **SUMMARY**:
 
-**Wolf Saga: Exile of the Wolf** is a historical dark fantasy that brings the late 14th-century Grand Duchy of Lithuania to life. It is a world where old gods still whisper in the oaks, while the shadow of the Cross looms from the West.
+**Geležinio Vilko Saga: I knyga: Vilko Tremtis** is a historical dark fantasy that brings the late 14th-century Grand Duchy of Lithuania to life. It is a world where old gods still whisper in the oaks, while the shadow of the Cross looms from the West.
 
 ---
 
 🎵 **TECHNICAL PRODUCTION**:
 This audiobook was produced using cutting-edge AI technology for an immersive listening experience:
-- **TTS Engine**: Chatterbox Turbo (Custom Reference Voice)
+- **TTS Engine**: Chatterbox-Turbo (ResembleAI), with the default voice or a reference narrator voice
 - **Narration Style**: Sole Narrator Mode (Professional Novelist Delivery)
-- **Preprocessing**: Linguistically refined using Ollama for natural flow and English phonetic accuracy.
+- **Preprocessing**: Text refined with Google Gemini (default model `gemini-2.5-flash`) for natural flow and English phonetic accuracy.
 - **Audio Engineering**: EBU R128 Normalized and mastered for high-fidelity playback.
 
 ---
 
 🌐 **EXPLORE THE WORLD**:
-Stay tuned for Book Two: The Iron Will.
+Stay tuned for the next book in the saga.
 
 ---
 

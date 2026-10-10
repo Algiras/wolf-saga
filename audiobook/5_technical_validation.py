@@ -4,13 +4,14 @@ Technical Validation Stage for Audiobook
 Checks finalized audio against professional standards (ACX/Audible).
 """
 
+import argparse
 import subprocess
 import json
 import re
 from pathlib import Path
 
 AUDIOBOOK_DIR = Path(__file__).parent
-FINAL_MASTER = AUDIOBOOK_DIR / "Miserable_Audiobook_Complete.wav"
+FINAL_MASTER = AUDIOBOOK_DIR / "GelezinioVilkoSaga_Book1_Complete.wav"
 
 def validate_audio(file_path):
     """Perform technical validation on an audio file."""
@@ -119,4 +120,8 @@ def validate_audio(file_path):
     return all_pass
 
 if __name__ == "__main__":
-    validate_audio(FINAL_MASTER)
+    parser = argparse.ArgumentParser(description="ACX/Audible technical validation of the master audio")
+    parser.add_argument("--audio", type=str, default=str(FINAL_MASTER),
+                        help=f"Master audio file to validate (default: {FINAL_MASTER.name})")
+    args = parser.parse_args()
+    validate_audio(Path(args.audio))

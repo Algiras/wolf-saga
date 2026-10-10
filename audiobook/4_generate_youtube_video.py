@@ -5,16 +5,35 @@ Creates a video from audio with static splash screen and optional captions.
 """
 
 import subprocess
+import sys
 import json
 import threading
-import torch
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+import book_manifest as bm
+
 AUDIOBOOK_DIR = Path(__file__).parent
-AUDIO_FILE = AUDIOBOOK_DIR / "GelezinioVilkoSaga_Book1_Complete.wav"
+# Book I defaults; use --book N to switch (see book_manifest naming helpers)
+AUDIO_FILE = AUDIOBOOK_DIR / bm.master_wav_name(1)
 SPLASH_IMAGE = AUDIOBOOK_DIR.parent / "books" / "1" / "cover.png"
-OUTPUT_VIDEO = AUDIOBOOK_DIR / "output" / "GelezinioVilkoSaga_Book1_YouTube.mp4"
+OUTPUT_VIDEO = AUDIOBOOK_DIR / "output" / bm.video_name(1)
 BACKGROUND_MUSIC = AUDIOBOOK_DIR / "background.mp3"
+
+# YouTube-friendly, cheap-for-a-still-image encode settings.
+# - libx264 -tune stillimage: tiny, fast encode for a static picture
+# - -pix_fmt yuv420p: required for playback everywhere
+# - AAC 192k @ 48 kHz: YouTube's recommended audio spec
+# - +faststart: moov atom up front for fast upload processing / streaming
+# - -shortest: stop when the audio ends (the looped image is infinite)
+VIDEO_ENCODE_ARGS = [
+    "-c:v", "libx264", "-tune", "stillimage", "-preset", "medium", "-crf", "20",
+    "-pix_fmt", "yuv420p",
+    # even dimensions + limited (TV) range: a full-range PNG would otherwise be tagged yuvj420p
+    "-vf", "scale=trunc(iw/2)*2:trunc(ih/2)*2:out_range=tv,format=yuv420p",
+]
+AUDIO_ENCODE_ARGS = ["-c:a", "aac", "-b:a", "192k", "-ar", "48000"]
+CONTAINER_ARGS = ["-movflags", "+faststart", "-shortest"]
 
 def generate_video(audio_path, image_path, output_path, add_captions=False):
     """Generate YouTube video from audio and splash screen."""
@@ -49,9 +68,9 @@ def generate_video(audio_path, image_path, output_path, add_captions=False):
             "[narr][bg]amix=inputs=2:duration=first:dropout_transition=2[outa]",
             "-map", "0:v",
             "-map", "[outa]",
-            "-c:v", "libx264", "-tune", "stillimage",
-            "-c:a", "aac", "-b:a", "192k",
-            "-pix_fmt", "yuv420p", "-shortest",
+            *VIDEO_ENCODE_ARGS,
+            *AUDIO_ENCODE_ARGS,
+            *CONTAINER_ARGS,
             str(output_path)
         ]
     else:
@@ -59,9 +78,11 @@ def generate_video(audio_path, image_path, output_path, add_captions=False):
             "ffmpeg", "-y",
             "-loop", "1", "-i", str(image_path),
             "-i", str(audio_path),
-            "-c:v", "libx264", "-tune", "stillimage",
-            "-c:a", "aac", "-b:a", "192k",
-            "-pix_fmt", "yuv420p", "-shortest",
+            "-map", "0:v",
+            "-map", "1:a",
+            *VIDEO_ENCODE_ARGS,
+            *AUDIO_ENCODE_ARGS,
+            *CONTAINER_ARGS,
             str(output_path)
         ]
     
@@ -103,6 +124,7 @@ def generate_captions(audio_path, output_srt):
     print("\n📝 Generating captions with faster-whisper (Turbo)...")
     
     try:
+        import torch
         from faster_whisper import WhisperModel
         
         print("   Loading faster-whisper turbo model...")
@@ -159,11 +181,16 @@ def add_captions_to_video(video_path, srt_path, output_path):
     """Burn captions into video."""
     print("\n🔥 Burning captions into video...")
     
+    # Escape characters that are special inside an ffmpeg filter argument
+    srt_arg = str(srt_path).replace("\\", "\\\\").replace(":", "\\:").replace("'", "\\'")
     cmd = [
         "ffmpeg",
         "-i", str(video_path),
-        "-vf", f"subtitles={srt_path}",
+        "-vf", f"subtitles='{srt_arg}'",
+        "-c:v", "libx264", "-tune", "stillimage", "-preset", "medium", "-crf", "20",
+        "-pix_fmt", "yuv420p",
         "-c:a", "copy",
+        "-movflags", "+faststart",
         "-y",
         str(output_path)
     ]
@@ -180,19 +207,24 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description="Generate YouTube video from audiobook")
-    parser.add_argument("--audio", type=str, default=str(AUDIO_FILE),
-                       help="Path to audio file")
-    parser.add_argument("--image", type=str, default=str(SPLASH_IMAGE),
-                       help="Path to splash screen image")
-    parser.add_argument("--output", type=str, default=str(OUTPUT_VIDEO),
-                       help="Output video path")
+    parser.add_argument("--book", type=int, default=1,
+                       help="Book number; selects the default audio/image/output names (default 1)")
+    parser.add_argument("--audio", type=str, default=None,
+                       help="Path to audio file (default: the book's master WAV)")
+    parser.add_argument("--image", type=str, default=None,
+                       help="Path to splash screen image (default: books/<N>/cover.png)")
+    parser.add_argument("--output", type=str, default=None,
+                       help="Output video path (default: output/<book>_YouTube.mp4)")
     parser.add_argument("--captions", action="store_true",
                        help="Generate and add captions (requires faster-whisper)")
     parser.add_argument("--sequential", action="store_true",
                        help="Generate captions sequentially instead of parallel (slower)")
     
     args = parser.parse_args()
-    
+    args.audio = args.audio or str(AUDIOBOOK_DIR / bm.master_wav_name(args.book))
+    args.image = args.image or str(AUDIOBOOK_DIR.parent / "books" / str(args.book) / "cover.png")
+    args.output = args.output or str(AUDIOBOOK_DIR / "output" / bm.video_name(args.book))
+
     caption_thread = None
     srt_path = Path(args.output).with_suffix('.srt')
     caption_result = [False]  # Use list to share state between threads

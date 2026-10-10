@@ -1,17 +1,14 @@
-import json
-import torchaudio as ta
-import torch
+import argparse
 import subprocess
+import sys
 from pathlib import Path
-from tqdm import tqdm
+
+sys.path.insert(0, str(Path(__file__).parent))
+import book_manifest as bm
 
 # Paths
 AUDIOBOOK_DIR = Path(__file__).parent
-OUTPUT_DIR = AUDIOBOOK_DIR / "output"
-# Final filenames aligned to Gelezinio Vilko Saga, Book I: Vilko Tremtis
-FINAL_UNMASTERED = OUTPUT_DIR / "GelezinioVilkoSaga_Book1_Unmastered.wav"
-FINAL_MASTERED = AUDIOBOOK_DIR / "GelezinioVilkoSaga_Book1_Complete.wav"
-TIMESTAMPS_FILE = OUTPUT_DIR / "timestamps.txt"
+OUTPUT_DIR = bm.OUTPUT_DIR
 BACKGROUND_MUSIC = AUDIOBOOK_DIR / "background.mp3" # User can place a "background.mp3" here
 
 def format_timestamp(seconds):
@@ -23,96 +20,93 @@ def format_timestamp(seconds):
         return f"{h:02d}:{m:02d}:{s:02d}"
     return f"{m:02d}:{s:02d}"
 
-def concatenate_audiobook():
+def collect_parts(book):
+    """Ordered list of (title, wav_path) for one book: intro, chapters (manifest order), outro."""
+    parts = []
+    intro = OUTPUT_DIR / bm.intro_wav_name(book)
+    if intro.exists():
+        parts.append(("Introduction", intro))
+
+    entries = bm.load_manifest(book)
+    if not entries:
+        print(f"⚠️  No manifest entries for book {book}; run Stage 1 first.")
+    for e in entries:
+        wav = bm.audio_path(e["key"])
+        if wav.exists() and wav.stat().st_size > 1000:
+            if not bm.audio_is_current(e):
+                print(f"⚠️  {e['key']}: audio was made from an older version of the source; re-run Stage 2")
+            parts.append((e["title"], wav))
+        else:
+            print(f"⚠️  Missing audio for {e['key']} ({e['title']}); skipping")
+
+    outro = OUTPUT_DIR / bm.outro_wav_name(book)
+    if outro.exists():
+        parts.append(("Conclusion", outro))
+    return parts
+
+def concatenate_audiobook(book=1):
     """Concatenate chapters, generate timestamps, and apply mastering."""
-    print("🎧 Stage 3: Concatenating and Mastering Audiobook...")
-    
-    # Load manifest to get proper titles
-    manifest_path = AUDIOBOOK_DIR / "preprocessed" / "manifest.json"
-    chapter_titles = {}
-    if manifest_path.exists():
-        with open(manifest_path, 'r') as f:
-            manifest = json.load(f)
-            chapter_titles = {f"{c['index']:02d}_{c['name']}.wav": c['name'].replace('-', ' ').title() for c in manifest}
-    
-    # Find all chapter WAV files
-    wav_files = sorted(OUTPUT_DIR.glob("*.wav"))
-    # Filter out intro/outro and ensure they are sorted correctly (00_intro, 01..., 99_outro)
-    wav_files = [
-        f for f in wav_files
-        if f.name.endswith('.wav')
-        and not f.name.startswith('ShadowOfExtremism')
-        and not f.name.startswith('GelezinioVilkoSaga')
-    ]
-    
-    if not wav_files:
+    import torch
+    import torchaudio as ta
+    from tqdm import tqdm
+
+    final_unmastered = OUTPUT_DIR / f"GelezinioVilkoSaga_Book{book}_Unmastered.wav"
+    final_mastered = AUDIOBOOK_DIR / bm.master_wav_name(book)
+    timestamps_file = OUTPUT_DIR / bm.timestamps_name(book)
+
+    print(f"🎧 Stage 3: Concatenating and Mastering Audiobook (book {book})...")
+
+    parts = collect_parts(book)
+    if not parts:
         print("❌ No chapter files found!")
         return
-    
-    print(f"\n📚 Found {len(wav_files)} chapters to merge")
-    
+
+    print(f"\n📚 Found {len(parts)} segments to merge")
+
     all_audio = []
     sample_rate = None
     timestamps = []
     current_time = 0.0
-    
-    for wav_file in tqdm(wav_files, desc="Processing chapters"):
+
+    for title, wav_file in tqdm(parts, desc="Processing chapters"):
         try:
             waveform, sr = ta.load(str(wav_file))
-            
-            # Map filename to human readable title
-            title = chapter_titles.get(wav_file.name, wav_file.stem.replace('_', ' ').title())
-            if "Intro" in title: title = "Introduction"
-            if "Outro" in title: title = "Conclusion"
-            
-            # Record timestamp
-            timestamps.append(f"{format_timestamp(current_time)} {title}")
-            
-            # Update cumulative time
-            duration = waveform.shape[1] / sr
-            current_time += duration
-            
+
             # Verify sample rate consistency
             if sample_rate is None:
                 sample_rate = sr
             elif sr != sample_rate:
                 resampler = ta.transforms.Resample(sr, sample_rate)
                 waveform = resampler(waveform)
-            
-            # Add silence between chapters (e.g., 3 seconds)
-            silence_seconds = 3.0
-            silence_frames = int(sample_rate * silence_seconds)
-            silence_tensor = torch.zeros((waveform.shape[0], silence_frames), dtype=waveform.dtype)
-            
-            # Append silence to previous chapter if this is not the first one
-            if all_audio: 
-                all_audio.append(silence_tensor)
-                current_time += silence_seconds
 
+            # Add 3 seconds of silence between chapters (before the timestamp is taken)
+            if all_audio:
+                silence_frames = int(sample_rate * 3.0)
+                all_audio.append(torch.zeros((waveform.shape[0], silence_frames), dtype=waveform.dtype))
+                current_time += 3.0
+
+            # Record timestamp at the true start of this chapter
+            timestamps.append(f"{format_timestamp(current_time)} {title}")
+            current_time += waveform.shape[1] / sample_rate
             all_audio.append(waveform)
-            
+
         except Exception as e:
             print(f"❌ Error loading {wav_file.name}: {e}")
-    
+
     if not all_audio:
         print("❌ No audio could be loaded!")
         return
 
     # 1. Save Timestamps
-    with open(TIMESTAMPS_FILE, 'w') as f:
+    with open(timestamps_file, 'w', encoding='utf-8') as f:
         f.write("\n".join(timestamps))
-    print(f"📍 Timestamps generated: {TIMESTAMPS_FILE.name}")
+    print(f"📍 Timestamps generated: {timestamps_file.name}")
 
     # 2. Concatenate
     print("\n🔗 Joining segments...")
     final_audio = torch.cat(all_audio, dim=1)
-    ta.save(str(FINAL_UNMASTERED), final_audio, sample_rate)
+    ta.save(str(final_unmastered), final_audio, sample_rate)
     
-    # 3. Mastering with FFmpeg (Normalizing + Optional Ambiance)
-    print("\n🔊 Starting Professional Mastering Phase...")
-    
-    # Build FFmpeg command
-    # Filter complex: 
     # 3. Mastering with FFmpeg (Normalizing ONLY)
     print("\n🔊 Starting Professional Mastering Phase...")
     
@@ -121,10 +115,11 @@ def concatenate_audiobook():
     print("ℹ️  Normalizing narration to EBU R128 standard.")
     cmd = [
         "ffmpeg", "-y",
-        "-i", str(FINAL_UNMASTERED),
+        "-i", str(final_unmastered),
         "-af", loudnorm_filter,
+        "-ar", str(sample_rate),   # loudnorm upsamples internally; restore the original rate
         "-c:a", "pcm_s16le",
-        str(FINAL_MASTERED)
+        str(final_mastered)
     ]
     
     try:
@@ -134,10 +129,13 @@ def concatenate_audiobook():
         print(f"❌ Mastering failed: {e.stderr.decode()}", flush=True)
         # Fallback: copy unmastered
         import shutil
-        shutil.copy(FINAL_UNMASTERED, FINAL_MASTERED)
+        shutil.copy(final_unmastered, final_mastered)
     
-    print(f"\n✨ FINAL OUTPUT: {FINAL_MASTERED}", flush=True)
+    print(f"\n✨ FINAL OUTPUT: {final_mastered}", flush=True)
     print(f"📊 Duration: {format_timestamp(current_time)}", flush=True)
 
 if __name__ == "__main__":
-    concatenate_audiobook()
+    parser = argparse.ArgumentParser(description="Stage 3: concatenate chapter audio into the master file")
+    parser.add_argument("--book", type=int, default=1, help="Book number (default 1)")
+    args = parser.parse_args()
+    concatenate_audiobook(book=args.book)

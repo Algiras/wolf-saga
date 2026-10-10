@@ -10,6 +10,16 @@ book:
   author: "Algimantas Krasauskas"
   date: "12/30/2025"
   cover-image: covers/out/book1/front_ebook_1600x2560.jpg
+  navbar:
+    right:
+      - text: "I knyga"
+        href: index.html
+      - text: "II knyga"
+        href: 2/
+      - text: "VI knyga (priešistorė)"
+        href: 6/
+      - text: "Wiki"
+        href: wiki/
   chapters:
     - index.qmd
     - copyright.qmd

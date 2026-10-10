@@ -1,0 +1,83 @@
+project:
+  type: book
+
+lang: lt
+
+book:
+  title: "Geležinio Vilko Saga"
+  subtitle: "II Knyga: Auksinis Šešėlis"
+  author: "Algimantas Krasauskas"
+  output-file: saga-2
+  date: "10/10/2026"
+  cover-image: cover.jpg
+  navbar:
+    right:
+      - text: "I knyga"
+        href: ../
+      - text: "II knyga"
+        href: index.html
+      - text: "VI knyga (priešistorė)"
+        href: ../6/
+      - text: "Wiki"
+        href: ../wiki/
+  chapters:
+    - index.qmd
+    - part: "Antroji Išdavystė"
+      chapters:
+        - 01_skirgailos_trakai.qmd
+        - 02_salos_pamatai.qmd
+        - 03_kas_ugni_gesina.qmd
+        - 04_gardino_kiemas.qmd
+        - 05_vestuviu_vezimai.qmd
+        - 06_ikaitu_pilis.qmd
+        - 07_kreivoji_pilis.qmd
+        - 08_sofijos_kraitis.qmd
+        - 09_kraujo_puta.qmd
+        - 10_astravo_sutartis.qmd
+    - part: "Imperijos Sapnas"
+      chapters:
+        - 11_traku_raktai.qmd
+        - 12_broliu_maistai.qmd
+        - 13_kijevo_sesesiai.qmd
+        - 14_vilku_medziokle.qmd
+        - 15_benamis_chanas.qmd
+        - 16_skirgailos_pabaiga.qmd
+        - 17_pietu_jura.qmd
+        - 18_traku_naujakuriai.qmd
+        - 19_salyno_puota.qmd
+        - 20_stepiu_alkis.qmd
+    - part: "Kraujo Horizontas"
+      chapters:
+        - 21_serksnas_ant_vavelio.qmd
+        - 22_gelezinis_marsas.qmd
+        - 23_raudonas_dangus.qmd
+        - 24_edigu.qmd
+        - 25_dulkes_ir_kraujas.qmd
+        - 26_skerdynes_prie_upes.qmd
+        - 27_antrasis_begimas.qmd
+        - 28_kijevo_ispirka.qmd
+        - 29_pelenu_trakai.qmd
+        - 30_epilogas_malborko_zemelapis.qmd
+    - copyright.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+  pdf:
+    documentclass: scrreprt
+    number-sections: false
+    sec-num-depth: 0
+    toc: true
+    pdf-engine: lualatex
+    mainfont: "DejaVu Serif"
+    monofont: "DejaVu Sans Mono"
+    header-includes: |
+      \usepackage{fontspec}
+      \renewcommand{\partformat}{}
+      \renewcommand{\chapterformat}{}
+  epub:
+    cover-image: cover.jpg
+    title: "Geležinio Vilko Saga II: Auksinis Šešėlis"
+    author: "Algimantas Krasauskas"
+    description: "Epinis tamsiosios fantastikos pasakojimas apie Vytauto ambiciją, antrąją išdavystę ir Vorsklos mūšį (1387–1399)."

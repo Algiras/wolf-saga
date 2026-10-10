@@ -57,4 +57,7 @@ books/covers/out/**
 !books/covers/out/contact_sheet_wide.png
 !books/covers/out/examples/
 !books/covers/out/examples/**
+!books/covers/out/book*/
+!books/covers/out/book*/front_ebook_1600x2560.jpg
+!books/covers/out/book*/video_bg_1920x1080.jpg
 books/covers/art/candidates/

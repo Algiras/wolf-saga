@@ -1,13 +1,14 @@
-# Julianna: Relationships
+# Julijona of Tver: Relationships
 
 ## Kin
-*   **Jagelis**: Her favorite and greatest success. She guided his early reign.
-*   **Skirgaila & Svitrigaila**: Her younger sons, used as pawns in her larger game.
-*   **Algirdas (Husband - Deceased)**: They had a powerful political partnership.
+*   **Jogaila**: Her favourite and greatest success. She guided his early reign.
+*   **Skirgaila and Švitrigaila**: Her younger sons, used as pawns in her larger game.
+*   **Algirdas (Husband, deceased 1377)**: A powerful political partnership.
 
 ## Rivals
-*   **Kestus**: The embodiment of the pagan old guard. She viewed him as an obstacle to progress.
-*   **Dmitry Donskoy**: Her rival in the East (Grand Prince of Moscow).
+*   **Kęstutis**: The embodiment of the pagan old guard. She viewed him as an obstacle.
+*   **Birutė**: The pagan "other" duchess of the diarchy.
+*   **Dmitry Donskoy**: Grand Prince of Moscow, her rival in the East, and the would-be father-in-law of her son.
 
 ## Complex
-*   **Jadwiga**: Julianna wanted Jogaila to marry an Orthodox princess (Sophia of Moscow); the Polish-Catholic marriage was 180 degrees from her plan.
+*   **Jadvyga (Jadwiga)**: In 1384 Julijona brokered a Muscovite offer for Jogaila to take Orthodox baptism and marry a daughter of Dmitry Donskoy, usually named as **Sofia Dmitrievna** *(the offer is attested; the bride's name rests on later sources, verify)*. The Polish-Catholic marriage was the opposite of her plan. (This Sofia is not Vytautas's daughter Sofija, who married Dmitry's son Vasily in 1391.)

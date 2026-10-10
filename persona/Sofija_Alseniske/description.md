@@ -1,19 +1,28 @@
-# Sofia of Halshany (The Fourth Queen)
+# Sofija Alšėniškė / Sophia of Halshany (The Fourth Queen)
 
-**Title**: Queen of Poland, Grand Duchess of Lithuania
-**Era**: Book V (The Invisible Crown)
+**True Name**: Sofija Alšėniškė (Polish *Zofia Holszańska*, "Sonka"); daughter of Prince Andrei of Halshany (Alšėnai)
+**Title**: Queen of Poland, Jogaila's fourth wife (⚭ 7 Feb 1422)
+**Era**: Book IV (*Nematoma Karūna*, The Invisible Crown) and Book V (*Vilko Palikimas*, The Wolf's Legacy)
+**Age**: About 17 at marriage (born c. 1405); dies 21 Sep 1461
 **Archetype**: The Silent Survivor / The Mother of Kings
+**Pronunciation**: SO-fi-ja · /ˈsɔfʲɪjɐ/ · English sound-alike "SOH-fih-yah"
+**Power**: **Tier 0**. No gift. In the saga's reading she is the letter of Jogaila's 1382 bargain coming due: *his line inherits the crown and loses the land* (`world_rules/houses_and_lineages.md` §1.6).
+**Not to be confused with**: **Sofija**, Vytautas's daughter (1371–1453), Grand Princess of Moscow, who has no folder yet. This folder is the Halshany queen.
 
 ## Appearance
-*   Youthful (married Jogaila when he was in his 70s).
-*   Rus' features—high cheekbones and dark hair.
-*   Often seen by the king's side, whispering in his ear.
+*   Youthful: she married Jogaila when he was in his 60s (his birth year is uncertain, c. 1352–62).
+*   Rus' features: high cheekbones and dark hair.
+*   Often seen at the king's side, whispering in his ear.
 
 ## Personality
-*   **Patient**: She navigated a court that hated her (the Polish lords) and a husband who was nearly four times her age.
-*   **Strong-willed**: She was accused of adultery by her rivals (a common political attack) and fought through it with dignity.
-*   **Protective**: Her sole focus was ensuring her sons (the future Jagiellonians) inherited the throne.
+*   **Patient**: She navigated a court that resented her (the Polish lords) and a husband more than three times her age.
+*   **Strong-willed**: Accused of adultery in 1427 (a common political attack), she cleared herself by oath.
+*   **Protective**: Her sole focus is ensuring her sons, Władysław III (b. 1424) and Casimir IV (b. 1427), inherit the throne.
+
+## Relationships
+*   **Vytautas**: Proposed the match. **Julijona Alšėniškė**, Vytautas's second wife, is her aunt *(verify genealogy)*, so the cousins married an aunt and a niece.
+*   **Zbigniew Oleśnicki**: The magnate-bishop whose party opposed her.
 
 ## Motivation
 *   **Succession**: Establishing her sons' legitimacy and dominance in a hostile court.
-*   **Survival**: Playing the long game in the shadow of the aging giants Jogaila and Vytautas.
+*   **Survival**: Playing the long game in the shadow of the ageing giants Jogaila and Vytautas.

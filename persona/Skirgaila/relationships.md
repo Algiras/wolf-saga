@@ -1,13 +1,17 @@
 # Skirgaila: Relationships
 
 ## Kin
-*   **Jagelis (Jogaila)**: His older brother and sovereign. Skirgaila is his most loyal, and most dangerous, tool.
-*   **Julianna of Tver**: His mother. He respects her political mind but is wary of her pro-Orthodox leanings.
-*   **Svitrigaila**: His younger brother. He views Svitrigaila as a nuisance and a potential threat to stability.
+*   **Jogaila**: His older brother and sovereign. Skirgaila is his most loyal, and most dangerous, tool.
+*   **Julijona of Tver**: His mother. He respects her political mind but is wary of her pro-Orthodox leanings.
+*   **Švitrigaila**: His younger brother. He views Švitrigaila as a nuisance and a potential threat to stability.
+*   **Kęstutis**: His uncle (*dėdė*). **Vytautas**: his cousin (*pusbrolis*).
 
 ## Enemies
-*   **Vytis (Vytautas)**: His primary rival. Skirgaila was the one who personally arrested him at Kreva.
-*   **The Church (Orthodox)**: Rumors persist that he was eventually poisoned by them in Kiev.
+*   **Vytautas**: His primary rival. Skirgaila gave the safe-conduct under which Kęstutis and Vytautas came to Jogaila's camp near Trakai, and broke it by seizing them there (early Aug 1382). He then held Trakai, Vytautas's lasting grievance.
+*   **The Orthodox clergy of Kyiv**: Rumour holds that a monk poisoned him at a feast (1397); others suspected Vytautas.
+
+## Masters and tempters
+*   **Henė**: Comes to him in the Krėva cell in 1387 (ch. 30) and serves him until 1397, when the bargain is collected.
 
 ## Victims
-*   **Kestus**: Skirgaila is generally believed to have been the one who ordered or personally carried out the strangulation of his uncle.
+*   **Kęstutis**: Skirgaila is generally believed to have ordered the strangulation of his uncle.

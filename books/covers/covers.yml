@@ -1,0 +1,388 @@
+# Geležinio Vilko Saga: cover configuration.
+# Read by scripts/make_covers.py (compositor). The art_* fields are also machine-readable inputs for the image generator.
+# Human-readable version of the prompts: books/covers/art_prompts.md. Re-run: python3 scripts/make_covers.py all
+
+series:
+  name: "Geležinio Vilko Saga"
+  name_en: "The Iron Wolf Saga"
+  # Author is a config value. Decided: Algimantas Krasauskas on all covers (the old Book II teaser said ALGIRDAS; superseded).
+  author: &author "Algimantas Krasauskas"
+  out_dir: books/covers/out
+  fonts:
+    display: books/covers/fonts/GrenzeGotisch[wght].ttf   # series name and titles (blackletter; matches Book I)
+    display_weight: 700
+    secondary: books/covers/fonts/CormorantSC-SemiBold.ttf  # series line, years, author
+    secondary_light: books/covers/fonts/CormorantSC-Medium.ttf
+  title_color: "#EFE6D2"   # bone; identical on all six books (the series system). The per-book accent is colors[2].
+
+books:
+  - number: 1
+    numeral: "I"
+    title_lt: "Vilko Tremtis"
+    title_en: "The Wolf's Exile"
+    years: "1377–1387"
+    author: *author
+    series_line: "GELEŽINIO VILKO SAGA · I KNYGA"
+    series_line_en: "THE IRON WOLF SAGA · BOOK I"
+    # colour key: [darkest background, mid tone, accent]
+    colors: ["#0b1824", "#7f9db3", "#ffa63c"]
+    focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
+    art_file: books/covers/art/book1.png
+    art_wide_file: books/covers/art/book1_wide.png
+    art_portrait_aspect: "2:3"
+    art_wide_aspect: "16:9"
+    art_portrait_min_px: [2048, 3072]
+    art_wide_min_px: [3840, 2160]
+    # Used only while art_file is missing (textless source; crop = [left, top, right, bottom] in source pixels):
+    interim_art: books/1/cover_art.png
+    art_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of storm cloud
+      and drifting mist, steel-grey with a frost-blue rim, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. A frozen lake (Galvė) sheeted with cracked ice and low mist. In the lower left, Vytautas, a
+      hard-faced man of about 32 with short dark hair and a short beard, rime on his shoulders, in a worn wolf-fur
+      mantle over a mail hauberk and a dark cloak, three-quarter turned toward the viewer. In his open palm he holds a
+      small pebble of raw, unpolished honey-coloured amber that glows like a live ember and lights his face and the
+      falling sparks. His plain single-hand sword rests point-down in the ice. Far behind him, across the ice on an
+      island, the half-built outline of an unfinished brick castle: scaffolding, broken stumps of towers, dark half-
+      flooded foundations, a few small distant fires. Colour key: #0b1824 (deep ice navy), #7f9db3 (frost slate-blue),
+      #ffa63c (amber). Season and light: Winter: dusk after a snowfall, February. Composition: vertical 2:3 portrait.
+      Keep the top 14 percent of the frame calm, dark and low-detail (sky), and the bottom 30 percent quiet and low-
+      detail (dark ground or water) because a title will be typeset there. Main subject centred in the middle band,
+      nothing important within the outer 6 percent of the frame. Absolutely no text, no letters, no watermark anywhere
+      in the image.
+    art_wide_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of storm cloud
+      and drifting mist, steel-grey with a frost-blue rim, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. A frozen lake (Galvė) sheeted with cracked ice and low mist. In the lower left, Vytautas, a
+      hard-faced man of about 32 with short dark hair and a short beard, rime on his shoulders, in a worn wolf-fur
+      mantle over a mail hauberk and a dark cloak, three-quarter turned toward the viewer. In his open palm he holds a
+      small pebble of raw, unpolished honey-coloured amber that glows like a live ember and lights his face and the
+      falling sparks. His plain single-hand sword rests point-down in the ice. Far behind him, across the ice on an
+      island, the half-built outline of an unfinished brick castle: scaffolding, broken stumps of towers, dark half-
+      flooded foundations, a few small distant fires. Colour key: #0b1824 (deep ice navy), #7f9db3 (frost slate-blue),
+      #ffa63c (amber). Season and light: Winter: dusk after a snowfall, February. Composition: horizontal 16:9
+      widescreen, the same scene recomposed. Subject and Iron Wolf in the right 60 percent of the frame; the lower-
+      left third calm, dark and low-detail because a title will be typeset there. Nothing important within the outer 5
+      percent of the frame. Absolutely no text, no letters, no watermark anywhere in the image.
+    art_negative: >-
+      text, letters, words, numbers, runes, inscriptions, captions, subtitles, watermark, signature, logo, banner
+      lettering, readable heraldry or coats of arms, modern objects, power lines, plastic, anachronistic plate armour,
+      cartoon, anime, 3D render look, glossy CGI, extra fingers, deformed hands, duplicated figures, cluttered
+      composition
+  - number: 2
+    numeral: "II"
+    title_lt: "Auksinis Šešėlis"   # OPEN AUTHOR DECISION: alternative "Vytis ir Šešėlis"
+    title_en: "The Golden Shadow"
+    years: "1387–1399"
+    author: *author
+    series_line: "GELEŽINIO VILKO SAGA · II KNYGA"
+    series_line_en: "THE IRON WOLF SAGA · BOOK II"
+    # colour key: [darkest background, mid tone, accent]
+    colors: ["#2a0a0c", "#c2411f", "#f2b441"]
+    focus: [0.5, 0.45]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
+    art_file: books/covers/art/book2.png
+    art_wide_file: books/covers/art/book2_wide.png
+    art_portrait_aspect: "2:3"
+    art_wide_aspect: "16:9"
+    art_portrait_min_px: [2048, 3072]
+    art_wide_min_px: [3840, 2160]
+    # Used only while art_file is missing (textless source; crop = [left, top, right, bottom] in source pixels):
+    interim_art: books/2_teaser.png
+    interim_crop: [0, 0, 1024, 770]
+    art_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of steppe dust,
+      smoke and gold-lit cloud, with a glow like sunlit haze, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. The open steppe at sunset, absolutely flat to the horizon, feather-grass bending in the wind,
+      one earthen kurgan mound, the thin silver line of the Vorskla river catching the last red light, no trees
+      anywhere. On the kurgan stands Vytautas, about 49, bare-headed, long dark Ruthenian-style coat over mail, seen
+      from behind and slightly to the side, small against the sky. The low sun throws his shadow long across the grass
+      toward the viewer, and the shadow is wrong: it glows like molten gold, is taller than he is, with a rider's
+      shoulders and the outline of a crown. On the far horizon, a dust-haze of a vast army and a thin line of Tatar
+      horse archers, with a few banner poles and no legible heraldry. Colour key: #2a0a0c (oxblood), #c2411f (dusk
+      red), #f2b441 (gold). Season and light: Late summer: August dusk, dry grass. Composition: vertical 2:3 portrait.
+      Keep the top 14 percent of the frame calm, dark and low-detail (sky), and the bottom 30 percent quiet and low-
+      detail (dark ground or water) because a title will be typeset there. Main subject centred in the middle band,
+      nothing important within the outer 6 percent of the frame. Absolutely no text, no letters, no watermark anywhere
+      in the image.
+    art_wide_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of steppe dust,
+      smoke and gold-lit cloud, with a glow like sunlit haze, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. The open steppe at sunset, absolutely flat to the horizon, feather-grass bending in the wind,
+      one earthen kurgan mound, the thin silver line of the Vorskla river catching the last red light, no trees
+      anywhere. On the kurgan stands Vytautas, about 49, bare-headed, long dark Ruthenian-style coat over mail, seen
+      from behind and slightly to the side, small against the sky. The low sun throws his shadow long across the grass
+      toward the viewer, and the shadow is wrong: it glows like molten gold, is taller than he is, with a rider's
+      shoulders and the outline of a crown. On the far horizon, a dust-haze of a vast army and a thin line of Tatar
+      horse archers, with a few banner poles and no legible heraldry. Colour key: #2a0a0c (oxblood), #c2411f (dusk
+      red), #f2b441 (gold). Season and light: Late summer: August dusk, dry grass. Composition: horizontal 16:9
+      widescreen, the same scene recomposed. Subject and Iron Wolf in the right 60 percent of the frame; the lower-
+      left third calm, dark and low-detail because a title will be typeset there. Nothing important within the outer 5
+      percent of the frame. Absolutely no text, no letters, no watermark anywhere in the image.
+    art_negative: >-
+      text, letters, words, numbers, runes, inscriptions, captions, subtitles, watermark, signature, logo, banner
+      lettering, readable heraldry or coats of arms, modern objects, power lines, plastic, anachronistic plate armour,
+      cartoon, anime, 3D render look, glossy CGI, extra fingers, deformed hands, duplicated figures, cluttered
+      composition
+  - number: 3
+    numeral: "III"
+    title_lt: "Žaliasis Miškas"
+    title_en: "The Green Wood"
+    years: "1399–1411"
+    author: *author
+    series_line: "GELEŽINIO VILKO SAGA · III KNYGA"
+    series_line_en: "THE IRON WOLF SAGA · BOOK III"
+    # colour key: [darkest background, mid tone, accent]
+    colors: ["#06190f", "#2f6b3e", "#d8c46a"]
+    focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
+    art_file: books/covers/art/book3.png
+    art_wide_file: books/covers/art/book3_wide.png
+    art_portrait_aspect: "2:3"
+    art_wide_aspect: "16:9"
+    art_portrait_min_px: [2048, 3072]
+    art_wide_min_px: [3840, 2160]
+    art_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of forest mist
+      and the shadows of leaves, grey-green and silver, as if the canopy itself had taken a shape, one single point of
+      light for an eye, its outline dissolving at the edges into the atmosphere. It dominates the upper third of the
+      frame and must read at thumbnail size. A wide meadow at dawn with low silver mist, bordered by an ancient oak-
+      and-hornbeam forest; shafts of pale gold light through the trunks. Rising from the forest edge, Galminas, a
+      gaunt giant half man and half tree: skin of oak bark, roots for feet sunk in the earth, long branch-like arms,
+      moss for a beard, eyes of faint green light, with the trees behind him standing like his host. In front of him,
+      small and lower in the frame, Vytautas, about 60, in plain mail and an open helmet, holds up a horn lantern with
+      one tiny steady golden flame. Across the field, faint in the mist, the rows of two armies. Roots snake across
+      the foreground ground toward the field. Colour key: #06190f (deep forest green), #2f6b3e (moss green), #d8c46a
+      (pale gold light). Season and light: High summer: dawn of 15 July 1410, mist. Composition: vertical 2:3
+      portrait. Keep the top 14 percent of the frame calm, dark and low-detail (sky), and the bottom 30 percent quiet
+      and low-detail (dark ground or water) because a title will be typeset there. Main subject centred in the middle
+      band, nothing important within the outer 6 percent of the frame. Absolutely no text, no letters, no watermark
+      anywhere in the image.
+    art_wide_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of forest mist
+      and the shadows of leaves, grey-green and silver, as if the canopy itself had taken a shape, one single point of
+      light for an eye, its outline dissolving at the edges into the atmosphere. It dominates the upper third of the
+      frame and must read at thumbnail size. A wide meadow at dawn with low silver mist, bordered by an ancient oak-
+      and-hornbeam forest; shafts of pale gold light through the trunks. Rising from the forest edge, Galminas, a
+      gaunt giant half man and half tree: skin of oak bark, roots for feet sunk in the earth, long branch-like arms,
+      moss for a beard, eyes of faint green light, with the trees behind him standing like his host. In front of him,
+      small and lower in the frame, Vytautas, about 60, in plain mail and an open helmet, holds up a horn lantern with
+      one tiny steady golden flame. Across the field, faint in the mist, the rows of two armies. Roots snake across
+      the foreground ground toward the field. Colour key: #06190f (deep forest green), #2f6b3e (moss green), #d8c46a
+      (pale gold light). Season and light: High summer: dawn of 15 July 1410, mist. Composition: horizontal 16:9
+      widescreen, the same scene recomposed. Subject and Iron Wolf in the right 60 percent of the frame; the lower-
+      left third calm, dark and low-detail because a title will be typeset there. Nothing important within the outer 5
+      percent of the frame. Absolutely no text, no letters, no watermark anywhere in the image.
+    art_negative: >-
+      text, letters, words, numbers, runes, inscriptions, captions, subtitles, watermark, signature, logo, banner
+      lettering, readable heraldry or coats of arms, modern objects, power lines, plastic, anachronistic plate armour,
+      cartoon, anime, 3D render look, glossy CGI, extra fingers, deformed hands, duplicated figures, cluttered
+      composition
+  - number: 4
+    numeral: "IV"
+    title_lt: "Nematoma Karūna"
+    title_en: "The Invisible Crown"
+    years: "1411–1430"
+    author: *author
+    series_line: "GELEŽINIO VILKO SAGA · IV KNYGA"
+    series_line_en: "THE IRON WOLF SAGA · BOOK IV"
+    # colour key: [darkest background, mid tone, accent]
+    colors: ["#1a0b2b", "#5b3485", "#d4a640"]
+    focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
+    art_file: books/covers/art/book4.png
+    art_wide_file: books/covers/art/book4_wide.png
+    art_portrait_aspect: "2:3"
+    art_wide_aspect: "16:9"
+    art_portrait_min_px: [2048, 3072]
+    art_wide_min_px: [3840, 2160]
+    art_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of candle smoke
+      and warm haze, translucent, lit from within by gold, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. A low, candlelit Gothic brick vault deep inside the Trakai Island Castle: ribbed vaulting, rows
+      of candle flames, and in a wall niche a small iron bowl holding one last glowing ember. At a heavy table sits an
+      old Vytautas, about 78, white hair and short white beard, in a heavy fur-trimmed robe, tired and slightly bowed.
+      Before him a crown made of green oak leaves, gold at one edge: the circlet is dissolving into a spray of leaves
+      that drift in the candle air. It reads as a crown that was never gold. The Iron Wolf, made of candle smoke,
+      rests its head above him, looking down. Colour key: #1a0b2b (deep aubergine), #5b3485 (royal purple), #d4a640
+      (antique gold). Season and light: Late autumn candlelight, indoors; time of year not visible. Composition:
+      vertical 2:3 portrait. Keep the top 14 percent of the frame calm, dark and low-detail (sky), and the bottom 30
+      percent quiet and low-detail (dark ground or water) because a title will be typeset there. Main subject centred
+      in the middle band, nothing important within the outer 6 percent of the frame. Absolutely no text, no letters,
+      no watermark anywhere in the image.
+    art_wide_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of candle smoke
+      and warm haze, translucent, lit from within by gold, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. A low, candlelit Gothic brick vault deep inside the Trakai Island Castle: ribbed vaulting, rows
+      of candle flames, and in a wall niche a small iron bowl holding one last glowing ember. At a heavy table sits an
+      old Vytautas, about 78, white hair and short white beard, in a heavy fur-trimmed robe, tired and slightly bowed.
+      Before him a crown made of green oak leaves, gold at one edge: the circlet is dissolving into a spray of leaves
+      that drift in the candle air. It reads as a crown that was never gold. The Iron Wolf, made of candle smoke,
+      rests its head above him, looking down. Colour key: #1a0b2b (deep aubergine), #5b3485 (royal purple), #d4a640
+      (antique gold). Season and light: Late autumn candlelight, indoors; time of year not visible. Composition:
+      horizontal 16:9 widescreen, the same scene recomposed. Subject and Iron Wolf in the right 60 percent of the
+      frame; the lower-left third calm, dark and low-detail because a title will be typeset there. Nothing important
+      within the outer 5 percent of the frame. Absolutely no text, no letters, no watermark anywhere in the image.
+    art_negative: >-
+      text, letters, words, numbers, runes, inscriptions, captions, subtitles, watermark, signature, logo, banner
+      lettering, readable heraldry or coats of arms, modern objects, power lines, plastic, anachronistic plate armour,
+      cartoon, anime, 3D render look, glossy CGI, extra fingers, deformed hands, duplicated figures, cluttered
+      composition
+  - number: 5
+    numeral: "V"
+    title_lt: "Vilko Palikimas"
+    title_en: "The Wolf's Legacy"
+    years: "1430–1450"
+    author: *author
+    series_line: "GELEŽINIO VILKO SAGA · V KNYGA"
+    series_line_en: "THE IRON WOLF SAGA · BOOK V"
+    # colour key: [darkest background, mid tone, accent]
+    colors: ["#121416", "#5c6166", "#d98e4a"]
+    focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
+    art_file: books/covers/art/book5.png
+    art_wide_file: books/covers/art/book5_wide.png
+    art_portrait_aspect: "2:3"
+    art_wide_aspect: "16:9"
+    art_portrait_min_px: [2048, 3072]
+    art_wide_min_px: [3840, 2160]
+    art_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of pale grey
+      ash-smoke and mist, drifting apart, the eye going dark, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. Night. The finished brick Trakai Island Castle, stepped gables and keep, silhouetted on its
+      island across black still water, every window dark, its reflection in the lake. Ash falls like grey snow. In the
+      middle ground on the shore, the Flame-Keeper (an invented Iron Wolf, a lean weathered man with a scar across his
+      throat, plain hooded wool coat, a small silver wolf pendant and a cracked amber pebble on a thong at his chest)
+      holds an open iron ash-pot. From it rises the last thread of orange smoke, a dying ember, and that smoke rises
+      and becomes the Iron Wolf above the castle. Palette almost monochrome ash grey; the only warmth in the whole
+      picture is the tiny failing ember. Colour key: #121416 (ash black), #5c6166 (ash grey), #d98e4a (a dying ember).
+      Season and light: Late October night, first frost (27 Oct 1430). Composition: vertical 2:3 portrait. Keep the
+      top 14 percent of the frame calm, dark and low-detail (sky), and the bottom 30 percent quiet and low-detail
+      (dark ground or water) because a title will be typeset there. Main subject centred in the middle band, nothing
+      important within the outer 6 percent of the frame. Absolutely no text, no letters, no watermark anywhere in the
+      image.
+    art_wide_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of pale grey
+      ash-smoke and mist, drifting apart, the eye going dark, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. Night. The finished brick Trakai Island Castle, stepped gables and keep, silhouetted on its
+      island across black still water, every window dark, its reflection in the lake. Ash falls like grey snow. In the
+      middle ground on the shore, the Flame-Keeper (an invented Iron Wolf, a lean weathered man with a scar across his
+      throat, plain hooded wool coat, a small silver wolf pendant and a cracked amber pebble on a thong at his chest)
+      holds an open iron ash-pot. From it rises the last thread of orange smoke, a dying ember, and that smoke rises
+      and becomes the Iron Wolf above the castle. Palette almost monochrome ash grey; the only warmth in the whole
+      picture is the tiny failing ember. Colour key: #121416 (ash black), #5c6166 (ash grey), #d98e4a (a dying ember).
+      Season and light: Late October night, first frost (27 Oct 1430). Composition: horizontal 16:9 widescreen, the
+      same scene recomposed. Subject and Iron Wolf in the right 60 percent of the frame; the lower-left third calm,
+      dark and low-detail because a title will be typeset there. Nothing important within the outer 5 percent of the
+      frame. Absolutely no text, no letters, no watermark anywhere in the image.
+    art_negative: >-
+      text, letters, words, numbers, runes, inscriptions, captions, subtitles, watermark, signature, logo, banner
+      lettering, readable heraldry or coats of arms, modern objects, power lines, plastic, anachronistic plate armour,
+      cartoon, anime, 3D render look, glossy CGI, extra fingers, deformed hands, duplicated figures, cluttered
+      composition
+  - number: 6
+    numeral: "VI"
+    title_lt: "Šventasis Miškas"
+    title_en: "The Holy Forest"
+    years: "1345–1377"
+    author: *author
+    series_line: "GELEŽINIO VILKO SAGA · VI KNYGA"
+    series_line_en: "THE IRON WOLF SAGA · BOOK VI"
+    # colour key: [darkest background, mid tone, accent]
+    colors: ["#1d0c04", "#8a3510", "#ff8a1f"]
+    focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
+    art_file: books/covers/art/book6.png
+    art_wide_file: books/covers/art/book6_wide.png
+    art_portrait_aspect: "2:3"
+    art_wide_aspect: "16:9"
+    art_portrait_min_px: [2048, 3072]
+    art_wide_min_px: [3840, 2160]
+    art_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of ember-orange
+      smoke and swirling sparks, lit from below by the fire, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. Night in a sacred oak-and-pine grove in the Šventaragis valley at Vilnius, ancient trunks lit
+      orange from below. At the centre, an open stone hearth where the Eternal Flame burns, columns of sparks rising.
+      Two brothers in their late forties face each other across the fire, each with a raised right hand over the
+      flames in an oath: Algirdas, taller, long drooping moustache, fur-lined coat, grim; Kęstutis, broader and
+      shorter, his left hand on his sword hilt. Between and behind them, a robed Krivis, an old man in hooded undyed
+      linen with a staff, and a small line of kneeling white-clad flame-maidens. Carved oak-post idols at the grove's
+      edge. The Iron Wolf of ember and sparks looks down over the grove. Colour key: #1d0c04 (burnt umber black),
+      #8a3510 (ember red-brown), #ff8a1f (ember orange). Season and light: Night, 1345 (season not fixed in the
+      outline). Composition: vertical 2:3 portrait. Keep the top 14 percent of the frame calm, dark and low-detail
+      (sky), and the bottom 30 percent quiet and low-detail (dark ground or water) because a title will be typeset
+      there. Main subject centred in the middle band, nothing important within the outer 6 percent of the frame.
+      Absolutely no text, no letters, no watermark anywhere in the image.
+    art_wide_prompt: >-
+      Painterly dark-realist historical fantasy illustration, oil-on-canvas look with visible brushwork and
+      restrained, desaturated natural pigments, cinematic low-key lighting, grounded and gritty rather than glossy,
+      high detail, atmospheric depth. Setting: the Grand Duchy of Lithuania and its Baltic borderlands, 14th-15th
+      century, period-accurate clothing, weapons and architecture. Recurring series motif: the Iron Wolf, a colossal
+      wolf's head and shoulders in strict profile facing right, vast as the sky, translucent and made of ember-orange
+      smoke and swirling sparks, lit from below by the fire, one single point of light for an eye, its outline
+      dissolving at the edges into the atmosphere. It dominates the upper third of the frame and must read at
+      thumbnail size. Night in a sacred oak-and-pine grove in the Šventaragis valley at Vilnius, ancient trunks lit
+      orange from below. At the centre, an open stone hearth where the Eternal Flame burns, columns of sparks rising.
+      Two brothers in their late forties face each other across the fire, each with a raised right hand over the
+      flames in an oath: Algirdas, taller, long drooping moustache, fur-lined coat, grim; Kęstutis, broader and
+      shorter, his left hand on his sword hilt. Between and behind them, a robed Krivis, an old man in hooded undyed
+      linen with a staff, and a small line of kneeling white-clad flame-maidens. Carved oak-post idols at the grove's
+      edge. The Iron Wolf of ember and sparks looks down over the grove. Colour key: #1d0c04 (burnt umber black),
+      #8a3510 (ember red-brown), #ff8a1f (ember orange). Season and light: Night, 1345 (season not fixed in the
+      outline). Composition: horizontal 16:9 widescreen, the same scene recomposed. Subject and Iron Wolf in the right
+      60 percent of the frame; the lower-left third calm, dark and low-detail because a title will be typeset there.
+      Nothing important within the outer 5 percent of the frame. Absolutely no text, no letters, no watermark anywhere
+      in the image.
+    art_negative: >-
+      text, letters, words, numbers, runes, inscriptions, captions, subtitles, watermark, signature, logo, banner
+      lettering, readable heraldry or coats of arms, modern objects, power lines, plastic, anachronistic plate armour,
+      cartoon, anime, 3D render look, glossy CGI, extra fingers, deformed hands, duplicated figures, cluttered
+      composition

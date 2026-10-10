@@ -1,3 +1,5 @@
+> **Superseded:** the canonical, dated timeline is `master_chronology.md`. This file is kept as a short era overview.
+
 # Historical Timeline (Adapted)
 
 ## Era 1: The Rise of the Wolf King (Mid-13th Century)

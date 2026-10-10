@@ -1,0 +1,16 @@
+---
+title: "Grand Duchy of Lithuania"
+id: gdl
+type: faction
+categories: [faction]
+---
+
+{{< include ../_generated/gdl.md >}}
+
+## Overview
+## Wants (by book)
+| Book | Goal | Leverage | Red line |
+|---|---|---|---|
+## Patron Force
+## Internal tensions
+## Notable members

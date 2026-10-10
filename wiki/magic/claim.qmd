@@ -1,0 +1,16 @@
+---
+title: "Žymė (claim)"
+id: claim
+type: school
+categories: [magic]
+---
+
+{{< include ../_generated/claim.md >}}
+
+## What it is
+## Who can use it (path & tier)
+## How it works (medium, words, timing)
+## Costs
+## Limits & counters
+## Folk basis [Record]
+## Notable practitioners

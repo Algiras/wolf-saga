@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - graph-explorer.html
+  render:
+    - "*.qmd"
+    - "*/*.qmd"
+    - "!_templates/"
+
+lang: en
+
+website:
+  title: "Geležinio Vilko Saga · Wiki"
+  description: "World bible and encyclopedia for the Iron Wolf Saga."
+  search: true
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: timeline.qmd
+        text: Timeline
+      - href: graph-explorer.html
+        text: Atlas
+      - text: Encyclopedia
+        menu:
+          - characters/index.qmd
+          - houses/index.qmd
+          - factions/index.qmd
+          - places/index.qmd
+          - events/index.qmd
+          - gods/index.qmd
+          - forces/index.qmd
+          - magic/index.qmd
+          - artifacts/index.qmd
+          - creatures/index.qmd
+          - books/index.qmd
+      - href: codex/index.qmd
+        text: Codex
+      - href: contributing.qmd
+        text: How to add
+    right:
+      - href: ../index.html
+        text: Read the book
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    mermaid:
+      theme: neutral

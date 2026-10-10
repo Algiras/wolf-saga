@@ -1,0 +1,14 @@
+---
+title: "Perkūnas"
+id: perkunas
+type: god
+categories: [god]
+---
+
+{{< include ../_generated/perkunas.md >}}
+
+## Folk sources [Record]
+## In the saga
+<!-- Domain, element, Force-face (cosmology.md §3). -->
+## Offerings & taboos
+## Pronunciation

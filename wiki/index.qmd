@@ -1,0 +1,12 @@
+---
+title: "Geležinio Vilko Saga · Wiki"
+---
+
+The encyclopedia of the **Iron Wolf Saga**: Lithuania, 1345–1450, where the folklore is literally true and the folk are only ever half right.
+
+- **[Timeline](timeline.qmd)**: every event, record (✦) and saga invention (◇)
+- **[Characters](characters/index.qmd)** · **[Houses](houses/index.qmd)** · **[Factions](factions/index.qmd)** · **[Places](places/index.qmd)**
+- **[Gods](gods/index.qmd)** · **[Forces](forces/index.qmd)** · **[Magic & Pacts](magic/index.qmd)** · **[Artifacts](artifacts/index.qmd)** · **[Creatures](creatures/index.qmd)**
+- **[Codex](codex/index.qmd)**: the full world bible (cosmology, magic rules, chronology, bestiary, legends, pronunciation…)
+
+Canon precedence: [Canon decisions](codex/canon-decisions.qmd) › Cosmology / Magic rules / Chronology › everything else.

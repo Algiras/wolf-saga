@@ -1,0 +1,21 @@
+---
+title: "Gods"
+---
+
+
+| Name | Type | Years |
+|---|---|---|
+| [Bangpūtys](bangputys.qmd) | god |  |
+| [Dievas (Senelis)](dievas.qmd) | god |  |
+| [Gabija](gabija.qmd) | god |  |
+| [Giltinė](giltine.qmd) | god |  |
+| [Jūratė](jurate.qmd) | god |  |
+| [Laima](laima.qmd) | god |  |
+| [Medeina](medeina.qmd) | god |  |
+| [Mėnuo](menuo.qmd) | god |  |
+| [Perkūnas](perkunas.qmd) | god |  |
+| [Praurimė](praurime.qmd) | god |  |
+| [Saulė](saule.qmd) | god |  |
+| [Velnias](velnias.qmd) | god |  |
+| [Vėjopatis](vejopatis.qmd) | god |  |
+| [Žemyna](zemyna.qmd) | god |  |

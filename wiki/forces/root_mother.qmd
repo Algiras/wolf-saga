@@ -1,0 +1,17 @@
+---
+title: "Šaknų Motina (Root-Mother)"
+id: root_mother
+type: force
+categories: [force]
+---
+
+{{< include ../_generated/root_mother.md >}}
+
+## Nature
+<!-- Native (face/shard of a god) or egregore (fed by an institution)? See cosmology.md §2. -->
+## Wants
+## Takes (its price)
+## Signs & manifestations
+## Vessels, servants, claims
+## Weaknesses
+## Arc across the books

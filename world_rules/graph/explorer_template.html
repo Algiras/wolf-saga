@@ -1,0 +1,362 @@
+<title>Iron Wolf Saga Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700&family=Alegreya+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a year-scrubbed "atlas" — state ledger across the top, living graph left, codex entry right (stacks on phones). */
+:root {
+  --bg: #eef0ea;        /* birch bark */
+  --panel: #f7f8f4;
+  --fg: #1d2420;        /* iron-gall ink */
+  --muted: #66706a;
+  --line: #cfd4cb;
+  --amber: #b06a10;     /* artifacts, accent */
+  --moss: #3d6b48;      /* magic, alliance */
+  --blood: #9a2f2f;     /* forces, enmity */
+  --iron: #4a5a70;      /* gods, mythic ties */
+  --chip: #e2e6dd;
+  --display: "Alegreya", "Iowan Old Style", Georgia, serif;
+  --body: "Alegreya Sans", "Gill Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141815; --panel: #1b201c; --fg: #e4e7df; --muted: #9aa39b; --line: #2f3731;
+  --amber: #e5a443; --moss: #79b088; --blood: #e0736b; --iron: #95a8c4; --chip: #252b26; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141815; --panel: #1b201c; --fg: #e4e7df; --muted: #9aa39b; --line: #2f3731;
+  --amber: #e5a443; --moss: #79b088; --blood: #e0736b; --iron: #95a8c4; --chip: #252b26; color-scheme: dark }
+
+* { box-sizing: border-box }
+html, body { height: 100% }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.45; }
+.wrap { padding-inline: 16px; padding-block: 16px 24px; max-width: 1400px; margin: 0 auto; display: grid; gap: 14px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(1.6rem, 3.2vw, 2.3rem); margin: 0; letter-spacing: .01em; text-wrap: balance; }
+.sub { color: var(--muted); margin: 0; max-width: 62ch; }
+
+/* year control */
+.timebar { display: grid; gap: 8px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.timerow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.year { font-family: var(--display); font-size: 2.4rem; font-weight: 700; line-height: 1; min-width: 4.2ch; font-variant-numeric: tabular-nums; color: var(--amber); }
+.book-now { font-family: var(--display); font-size: 1.15rem; }
+.book-now small { display: block; font-family: var(--body); font-size: .8rem; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+button { font: inherit; color: var(--fg); background: var(--chip); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+button:hover { border-color: var(--muted); }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+.slider-box { position: relative; padding-top: 18px; }
+.bands { position: absolute; inset: 0 0 auto 0; height: 16px; display: flex; }
+.band { height: 100%; border-left: 1px solid var(--line); font-size: .7rem; color: var(--muted); padding-left: 4px; overflow: hidden; white-space: nowrap; letter-spacing: .05em; text-transform: uppercase; }
+input[type=range] { width: 100%; accent-color: var(--amber); }
+.ticks { display: flex; justify-content: space-between; font-family: var(--mono); font-size: .72rem; color: var(--muted); }
+.jumps { display: flex; flex-wrap: wrap; gap: 6px; }
+.jumps button { font-size: .8rem; padding: 3px 10px; }
+
+/* state ledger */
+.ledger { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.cell { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; min-width: 0; }
+.cell .k { font-size: .72rem; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.cell .v { font-family: var(--display); font-size: 1.12rem; margin-top: 2px; }
+.cell .why { font-size: .8rem; color: var(--muted); }
+.meter { display: flex; gap: 3px; margin-top: 6px; }
+.meter i { flex: 1; height: 7px; border-radius: 2px; background: var(--chip); border: 1px solid var(--line); }
+.meter i.on { background: var(--blood); border-color: var(--blood); }
+.stones { display: flex; gap: 6px; margin-top: 6px; }
+.stones i { width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid var(--fg); }
+.stones i.on { background: var(--fg); }
+.tiers { font-family: var(--mono); font-size: .85rem; font-variant-numeric: tabular-nums; margin-top: 4px; }
+
+/* main */
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 14px; align-items: start; }
+@media (max-width: 880px) { .main { grid-template-columns: minmax(0, 1fr); } }
+.stage { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: grid; }
+.tools { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px; border-bottom: 1px solid var(--line); align-items: center; }
+.chip { font-size: .82rem; padding: 3px 10px; display: inline-flex; align-items: center; gap: 6px; }
+.chip[aria-pressed="false"] { opacity: .45; }
+.dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+#q { flex: 1 1 160px; min-width: 0; font: inherit; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
+svg#g { width: 100%; height: clamp(380px, 62vh, 760px); display: block; touch-action: none; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 8px 12px; border-top: 1px solid var(--line); font-size: .78rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend b { display: inline-block; width: 22px; height: 0; border-top: 2px solid; }
+.node-label { font-family: var(--body); font-size: 11px; fill: var(--fg); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; pointer-events: none; }
+
+.codex { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; min-width: 0; display: grid; gap: 10px; }
+.codex h2 { font-family: var(--display); font-size: 1.45rem; margin: 0; text-wrap: balance; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.badge { font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+.badge.saga { color: var(--amber); }
+.codex h3 { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 6px 0 0; }
+.rel { display: grid; gap: 4px; font-size: .9rem; }
+.rel div { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.rel em { font-style: normal; color: var(--muted); font-size: .8rem; min-width: 7.5em; }
+.rel a, .ev a { color: var(--fg); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; cursor: pointer; }
+.rel a:hover, .ev a:hover { text-decoration-color: var(--amber); }
+.yrs { font-family: var(--mono); font-size: .76rem; color: var(--muted); }
+.ev { font-size: .88rem; display: grid; gap: 3px; }
+.ev .past { color: var(--muted); }
+.note { font-size: .85rem; color: var(--muted); }
+.hint { color: var(--muted); font-size: .9rem; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Iron Wolf Saga Atlas</h1>
+    <p class="sub">The saga's world graph at any year from 1345 to 1450: who lives, who rules, who is claimed, and what each bargain cost. Scrub the timeline or press play.</p>
+  </header>
+
+  <section class="timebar" aria-label="Timeline">
+    <div class="timerow">
+      <div class="year" id="yearOut">1382</div>
+      <div class="book-now" id="bookOut"></div>
+      <span style="flex:1"></span>
+      <button id="play" type="button" aria-label="Play timeline">▶ Play</button>
+    </div>
+    <div class="slider-box">
+      <div class="bands" id="bands"></div>
+      <input type="range" id="year" min="1345" max="1450" value="1382" aria-label="Year">
+      <div class="ticks"><span>1345</span><span>1377</span><span>1399</span><span>1411</span><span>1430</span><span>1450</span></div>
+    </div>
+    <div class="jumps" id="jumps" aria-label="Key years"></div>
+  </section>
+
+  <section class="ledger" aria-label="State of the world">
+    <div class="cell"><div class="k">Silent Pact</div><div class="v" id="pact"></div><div class="why" id="pactWhy"></div></div>
+    <div class="cell"><div class="k">Unbinding</div><div class="v" id="unbOut"></div><div class="meter" id="unb"></div></div>
+    <div class="cell"><div class="k">Practitioners</div><div class="tiers" id="tiers"></div></div>
+    <div class="cell"><div class="k">Henė's stones</div><div class="stones" id="stones"></div><div class="why" id="stonesWhy"></div></div>
+    <div class="cell"><div class="k">Vytautas's form</div><div class="v" id="form"></div></div>
+    <div class="cell"><div class="k">Mother's amber</div><div class="v" id="pebble"></div><div class="why" id="pebbleWhy"></div></div>
+  </section>
+
+  <div class="main">
+    <section class="stage" aria-label="Relation graph">
+      <div class="tools" id="chips">
+        <input id="q" type="search" placeholder="Find a name…" aria-label="Find a name">
+      </div>
+      <svg id="g" role="img" aria-label="Graph of characters, forces and their relations in the selected year"></svg>
+      <div class="legend">
+        <span><b style="border-color:var(--muted)"></b>kin</span>
+        <span><b style="border-color:var(--moss)"></b>ally · magic</span>
+        <span><b style="border-color:var(--blood)"></b>enemy</span>
+        <span><b style="border-color:var(--iron);border-top-style:dashed"></b>claim · bargain · vessel</span>
+        <span><b style="border-color:var(--amber)"></b>holds artifact</span>
+        <span><b style="border-color:var(--fg);opacity:.5"></b>rules · serves · member</span>
+      </div>
+    </section>
+    <aside class="codex" id="codex" aria-live="polite"></aside>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const DATA = /*__GRAPH__*/;
+const N = new Map(DATA.nodes.map(n => [n.id, n]));
+const P = DATA.progressions || {};
+const TYPES = [
+  ["character", "People", "--fg", true], ["force", "Forces", "--blood", true], ["god", "Gods", "--iron", false],
+  ["school", "Magic", "--moss", true], ["pact", "Pacts", "--moss", true], ["element", "Elements", "--moss", false],
+  ["artifact", "Artifacts", "--amber", true], ["faction", "Factions", "--iron", true],
+  ["place", "Places", "--muted", false], ["event", "Events", "--amber", false]
+];
+const on = Object.fromEntries(TYPES.map(t => [t[0], t[3]]));
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const EDGE = {
+  kin: ["parent_of", "spouse_of", "sibling_of"],
+  ally: ["ally_of"], enemy: ["enemy_of", "feud_with"],
+  mythic: ["face_of", "shard_of", "egregore_fed_by", "vessel_of", "mask_of", "claims", "bargain_with", "servant_of", "patron_of"],
+  magic: ["practises", "uses_element", "element_of", "binds", "surety_for", "counters"],
+  art: ["holds", "created_by", "anchors"],
+  pol: ["vassal_of", "hostage_of", "rules", "member_of", "serves"],
+  ev: ["participant", "causes", "breaks", "ends", "occurs_at"]
+};
+const groupOf = t => Object.keys(EDGE).find(k => EDGE[k].includes(t)) || "ev";
+const edgeColor = g => ({kin: "--muted", ally: "--moss", enemy: "--blood", mythic: "--iron", magic: "--moss", art: "--amber", pol: "--fg", ev: "--muted"})[g];
+const LABEL = {parent_of:["parent of","child of"],spouse_of:["spouse","spouse"],sibling_of:["sibling","sibling"],ally_of:["ally","ally"],enemy_of:["enemy","enemy"],vassal_of:["vassal of","overlord of"],hostage_of:["hostage of","holds hostage"],rules:["rules","ruled by"],member_of:["member of","member"],serves:["serves","served by"],face_of:["force-face of","force-face"],shard_of:["shard of","shard"],egregore_fed_by:["fed by","feeds"],vessel_of:["vessel of","vessel"],mask_of:["mask of","mask"],claims:["claims","claimed by"],bargain_with:["bargain with","bargain with"],servant_of:["servant of","servant"],patron_of:["patron of","patron"],feud_with:["feud with","feud with"],practises:["practises","practitioner"],uses_element:["uses","used by"],element_of:["element","deity"],binds:["binds","bound by"],surety_for:["surety for","surety"],counters:["counters","countered by"],holds:["holds","held by"],created_by:["made by","made"],anchors:["anchors","anchored by"],participant:["took part in","participant"],causes:["causes","caused by"],breaks:["breaks","broken by"],ends:["ends","ended by"],occurs_at:["at","event here"],protagonist_of:["protagonist of","protagonist"],antagonist_of:["antagonist of","antagonist"]};
+
+function span(n) {
+  if (n.type === "character") return [n.born, n.died];
+  if (n.type === "book" || n.type === "pact") return [n.start, n.end];
+  if (n.type === "event") return [n.year, n.year];
+  if (n.type === "artifact") return [n.created, null];
+  return null;
+}
+function edgeSpan(e) {
+  const los = [], his = [];
+  for (const id of [e.s, e.t]) { const sp = span(N.get(id)); if (!sp) continue; if (sp[0] != null) los.push(sp[0]); if (sp[1] != null) his.push(sp[1]); }
+  return [e.from ?? (los.length ? Math.max(...los) : null), e.to ?? (his.length ? Math.min(...his) : null)];
+}
+function nodeActive(n, y) {
+  if (n.type === "book") return false;
+  if (!on[n.type]) return false;
+  const sp = span(n);
+  if (n.type === "event") return n.year <= y && n.year >= y - 4;
+  if (!sp) return true;
+  return (sp[0] == null || sp[0] <= y) && (sp[1] == null || sp[1] >= y);
+}
+const step = (rows, y) => { let r = null; for (const x of (rows || [])) if (x.year <= y) r = x; return r; };
+const books = DATA.nodes.filter(n => n.type === "book").sort((a, b) => a.start - b.start);
+const bookAt = y => books.filter(b => b.start <= y && y <= b.end).pop();
+const yrs = n => { const s = span(n); if (!s) return ""; if (n.type === "event") return n.date || n.year; if (n.type === "artifact") return s[0] ? "made " + s[0] : ""; return (n.approx ? "c. " : "") + (s[0] ?? "?") + "–" + (s[1] ?? "?"); };
+
+// bands + jumps
+const bandsEl = document.getElementById("bands");
+const MIN = 1345, MAX = 1450;
+for (const b of books) {
+  const d = document.createElement("div"); d.className = "band";
+  d.style.width = ((b.end - b.start) / (MAX - MIN) * 100) + "%";
+  d.textContent = b.name.split("·")[0].trim(); d.title = b.name; bandsEl.appendChild(d);
+}
+const JUMPS = [[1345, "Pact sworn"], [1382, "Krėva"], [1384, "Amber sacrifice"], [1387, "Baptism"], [1392, "Ostrów"], [1399, "Vorskla"], [1410, "Žalgiris"], [1430, "Flame out"], [1435, "Pabaiskas"]];
+const jumpsEl = document.getElementById("jumps");
+for (const [y, l] of JUMPS) { const b = document.createElement("button"); b.type = "button"; b.textContent = y + " · " + l; b.onclick = () => setYear(y); jumpsEl.appendChild(b); }
+
+// chips
+const chipsEl = document.getElementById("chips");
+for (const [t, label, color] of TYPES) {
+  const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.id = "chip-" + t;
+  b.setAttribute("aria-pressed", String(on[t]));
+  b.innerHTML = `<span class="dot" style="background:var(${color})"></span>${label}`;
+  b.onclick = () => { on[t] = !on[t]; b.setAttribute("aria-pressed", String(on[t])); render(); };
+  chipsEl.insertBefore(b, document.getElementById("q"));
+}
+
+// graph
+const svg = d3.select("#g");
+const root = svg.append("g");
+svg.call(d3.zoom().scaleExtent([0.3, 4]).on("zoom", ev => root.attr("transform", ev.transform)));
+const linkG = root.append("g"), nodeG = root.append("g"), labelG = root.append("g");
+const simNodes = new Map();
+let selected = "vytautas";
+const sim = d3.forceSimulation().force("charge", d3.forceManyBody().strength(-170))
+  .force("link", d3.forceLink().id(d => d.id).distance(l => l.g === "kin" ? 46 : 70).strength(0.35))
+  .force("x", d3.forceX().strength(0.04)).force("y", d3.forceY().strength(0.06)).force("collide", d3.forceCollide(14));
+
+function shape(n) {
+  const r = n._r;
+  if (n.type === "faction") return `M${-r},${-r}h${2*r}v${2*r}h${-2*r}Z`;
+  if (n.type === "place") return `M0,${-r}L${r},0L0,${r}L${-r},0Z`;
+  if (n.type === "artifact") return `M0,${-r*1.2}L${r},0L0,${r*1.2}L${-r},0Z`;
+  return d3.symbol(d3.symbolCircle, Math.PI * r * r)();
+}
+let year = 1382;
+function render() {
+  const w = svg.node().clientWidth, h = svg.node().clientHeight;
+  svg.attr("viewBox", [-w / 2, -h / 2, w, h]);
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const vis = DATA.nodes.filter(n => nodeActive(n, year));
+  const ids = new Set(vis.map(n => n.id));
+  const links = DATA.edges.filter(e => {
+    if (!ids.has(e.s) || !ids.has(e.t) || e.type === "protagonist_of" || e.type === "antagonist_of") return false;
+    const [a, b] = edgeSpan(e); return (a == null || a <= year) && (b == null || b >= year);
+  }).map(e => ({...e, source: e.s, target: e.t, g: groupOf(e.type)}));
+  const deg = {}; for (const l of links) { deg[l.s] = (deg[l.s] || 0) + 1; deg[l.t] = (deg[l.t] || 0) + 1; }
+  const nodes = vis.map(n => {
+    let o = simNodes.get(n.id); if (!o) { o = {id: n.id, x: (Math.random() - .5) * 200, y: (Math.random() - .5) * 200}; simNodes.set(n.id, o); }
+    o.type = n.type; o.name = n.name; o._r = n.type === "event" ? 4 : 5 + Math.min(9, Math.sqrt(deg[n.id] || 0) * 2.2);
+    return o;
+  });
+  const typeColor = t => css((TYPES.find(x => x[0] === t) || [, , "--muted"])[2]);
+  const hit = n => q && n.name.toLowerCase().includes(q);
+  const nbr = new Set([selected]); for (const l of links) { if (l.s === selected) nbr.add(l.t); if (l.t === selected) nbr.add(l.s); }
+
+  linkG.selectAll("line").data(links, d => d.s + d.type + d.t).join("line")
+    .attr("stroke", d => css(edgeColor(d.g))).attr("stroke-width", d => d.g === "ev" ? 0.7 : 1.4)
+    .attr("stroke-dasharray", d => (d.g === "mythic" || d.g === "magic") ? "4 3" : null)
+    .attr("stroke-opacity", d => (d.s === selected || d.t === selected) ? 0.95 : (d.g === "pol" ? 0.28 : 0.5));
+  nodeG.selectAll("path").data(nodes, d => d.id).join("path")
+    .attr("d", shape).attr("fill", d => typeColor(d.type))
+    .attr("stroke", d => d.id === selected || hit(d) ? css("--amber") : css("--panel"))
+    .attr("stroke-width", d => d.id === selected || hit(d) ? 3 : 1.5)
+    .attr("opacity", d => nbr.has(d.id) || hit(d) ? 1 : 0.72)
+    .style("cursor", "pointer")
+    .on("click", (ev, d) => { selected = d.id; render(); showCodex(); })
+    .call(d3.drag().on("start", (ev, d) => { if (!ev.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
+      .on("drag", (ev, d) => { d.fx = ev.x; d.fy = ev.y; }).on("end", (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }))
+    .selectAll("title").data(d => [d]).join("title").text(d => d.name);
+  const labelled = nodes.filter(d => ["character", "force", "artifact", "pact", "faction"].includes(d.type) && ((deg[d.id] || 0) >= 2 || nbr.has(d.id) || hit(d)) || d.id === selected || nbr.has(d.id));
+  labelG.selectAll("text").data(labelled, d => d.id).join("text").attr("class", "node-label")
+    .attr("font-weight", d => d.id === selected ? 700 : 400).text(d => d.name.split(" (")[0].split(" /")[0]);
+  sim.nodes(nodes); sim.force("link").links(links); sim.alpha(0.5).restart();
+  sim.on("tick", () => {
+    linkG.selectAll("line").attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+    nodeG.selectAll("path").attr("transform", d => `translate(${d.x},${d.y})`);
+    labelG.selectAll("text").attr("x", d => d.x + d._r + 3).attr("y", d => d.y + 4);
+  });
+}
+
+function rel(e, out) {
+  const o = N.get(out ? e.t : e.s); const [a, b] = edgeSpan(e);
+  const when = (e.from != null || e.to != null) ? `<span class="yrs">${a ?? "…"}–${b ?? "…"}</span>` : "";
+  const extra = e.tier != null ? ` <span class="yrs">tier ${e.tier}</span>` : (e.kind ? ` <span class="yrs">${e.kind} · ${e.outcome}</span>` : "");
+  return `<div><em>${LABEL[e.type][out ? 0 : 1]}</em><a data-id="${o.id}">${o.name}</a>${when}${extra}</div>`;
+}
+function showCodex() {
+  const n = N.get(selected); const el = document.getElementById("codex");
+  if (!n) { el.innerHTML = `<p class="hint">Select a node to read its entry.</p>`; return; }
+  const out = DATA.edges.filter(e => e.s === n.id && !["participant", "occurs_at"].includes(e.type));
+  const inn = DATA.edges.filter(e => e.t === n.id && !["participant", "occurs_at"].includes(e.type));
+  const activeNow = e => { const [a, b] = edgeSpan(e); return (a == null || a <= year) && (b == null || b >= year); };
+  const now = [...out.filter(activeNow).map(e => rel(e, true)), ...inn.filter(activeNow).map(e => rel(e, false))];
+  const other = [...out.filter(e => !activeNow(e)).map(e => rel(e, true)), ...inn.filter(e => !activeNow(e)).map(e => rel(e, false))];
+  const evIds = new Set(DATA.edges.filter(e => (e.s === n.id && e.type === "participant") || (e.t === n.id && e.type === "occurs_at")).map(e => e.type === "participant" ? e.t : e.s));
+  const evs = [...evIds].map(id => N.get(id)).sort((a, b) => a.year - b.year);
+  const status = n.record === true ? `<span class="badge">historical record</span>` : n.record === false ? `<span class="badge saga">saga invention</span>` : "";
+  el.innerHTML = `
+    <h2>${n.name}</h2>
+    <div class="badges"><span class="badge">${n.type}</span>${yrs(n) ? `<span class="badge">${yrs(n)}</span>` : ""}${status}</div>
+    ${n.note ? `<p class="note">${n.note}</p>` : ""}${n.incantation ? `<p class="note"><i>${n.incantation}</i> · zenith ${n.zenith}</p>` : ""}
+    <h3>Relations in ${year}</h3><div class="rel">${now.join("") || `<span class="hint">None active this year.</span>`}</div>
+    ${other.length ? `<h3>At other times</h3><div class="rel">${other.join("")}</div>` : ""}
+    ${evs.length ? `<h3>Timeline</h3><div class="ev">${evs.map(e => `<div class="${e.year > year ? "past" : ""}"><span class="yrs">${e.date || e.year}</span> <a data-id="${e.id}">${e.name}</a></div>`).join("")}</div>` : ""}`;
+  el.querySelectorAll("a[data-id]").forEach(a => a.onclick = () => {
+    const t = N.get(a.dataset.id); selected = t.id;
+    if (!on[t.type]) { on[t.type] = true; document.getElementById("chip-" + t.type)?.setAttribute("aria-pressed", "true"); }
+    const sp = span(t); if (sp && sp[0] != null && (sp[0] > year || (sp[1] != null && sp[1] < year))) setYear(t.type === "event" ? t.year : sp[0]); else { render(); showCodex(); }
+  });
+}
+
+function ledger() {
+  const pact = step(P.silent_pact_state, year);
+  document.getElementById("pact").textContent = pact ? pact.state.replace(/_/g, " ") : "not yet sworn";
+  document.getElementById("pactWhy").textContent = pact?.why || (pact ? "" : "Sworn at Šventaragis in 1345");
+  const u = step(P.unbinding_level, year)?.level ?? 0;
+  document.getElementById("unbOut").textContent = ["Spirits courteous", "Margins stir", "Pact ended", "Countryside", "Groves fallen", "Folklore"][u];
+  document.getElementById("unb").innerHTML = [1, 2, 3, 4, 5].map(i => `<i class="${i <= u ? "on" : ""}"></i>`).join("");
+  const p = step(P.practitioners, year);
+  document.getElementById("tiers").innerHTML = p ? `tier 4 · ${String(p.tier4).padStart(3)}<br>tier 3 · ${String(p.tier3).padStart(3)}<br>tier 2 · ${String(p.tier2).padStart(3)}` : "—";
+  const s = step(P.hene_stones, year);
+  document.getElementById("stones").innerHTML = [0, 1, 2].map(i => `<i class="${s && i < s.stones ? "on" : ""}"></i>`).join("");
+  document.getElementById("stonesWhy").textContent = s ? (s.why || "Jogaila · Skirgaila · Vytautas") : "No bargains struck yet";
+  const f = (P.vytautas_forms || []).filter(f => f.from <= year && year <= f.to).pop() || (year > 1430 ? {form: "Dead (1430)"} : null);
+  document.getElementById("form").textContent = f ? f.form : (year < 1350 ? "Not yet born" : "—");
+  const pb = step(P.pebble_state, year);
+  document.getElementById("pebble").textContent = year < 1382 ? "Not yet given" : (pb ? pb.state.replace(/_/g, " ") : "—");
+  document.getElementById("pebbleWhy").textContent = pb ? (pb.why || (pb.chapter ? "Book I, ch. " + pb.chapter : "")) : "";
+}
+
+function setYear(y) {
+  year = Math.max(MIN, Math.min(MAX, +y));
+  document.getElementById("year").value = year; document.getElementById("yearOut").textContent = year;
+  const b = bookAt(year); document.getElementById("bookOut").innerHTML = b ? `<small>Book</small>${b.name}` : "";
+  try { history.replaceState(null, "", "#y" + year); } catch (e) {}
+  ledger(); render(); showCodex();
+}
+document.getElementById("year").addEventListener("input", e => setYear(e.target.value));
+document.getElementById("q").addEventListener("input", () => {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const m = q && DATA.nodes.find(n => n.type !== "book" && n.name.toLowerCase().includes(q));
+  if (m) { selected = m.id; showCodex(); } render();
+});
+let timer = null;
+document.getElementById("play").onclick = function () {
+  if (timer) { clearInterval(timer); timer = null; this.textContent = "▶ Play"; return; }
+  this.textContent = "❚❚ Pause";
+  if (year >= MAX) setYear(MIN);
+  timer = setInterval(() => { if (year >= MAX) { clearInterval(timer); timer = null; this.textContent = "▶ Play"; return; } setYear(year + 1); }, 700);
+};
+window.addEventListener("resize", () => render());
+new MutationObserver(() => render()).observe(document.documentElement, {attributes: true, attributeFilter: ["data-theme"]});
+const h = /^#y(\d{4})$/.exec(location.hash);
+setYear(h ? h[1] : 1382);
+</script>

@@ -1,6 +1,8 @@
+> **Canon note (2026-10-10):** The Forces below are mapped onto the gods, and the native/egregore distinction is explained, in `cosmology.md` §2–3. Glossary standardised in `canon_decisions.md` D8 (e.g. Gold-Glutton = *Aukso Rijūnas*).
+
 # The Meddling Forces: Ancient Powers & Silent Gods
 
-In the world of "Lithium Thrones," the gods are not distant myths; they are hungry, active, and deeply invested in the outcome of the war.
+In the world of the Geležinio Vilko Saga, the gods are not distant myths; they are hungry, active, and deeply invested in the outcome of the war.
 
 ## 1. The Root-Mother (The Forest Consciousness)
 *   **Manifestation**: Deep groans in the earth, roots that shift at night, blood-red sap in the oaks.
@@ -17,7 +19,7 @@ In the world of "Lithium Thrones," the gods are not distant myths; they are hung
 *   **Agenda**: Chaos and the acquisition of souls. He loves a "pragmatic" deal that saves a life today but ruins a nation tomorrow.
 *   **Meddling**: He provides the "easy way out"—a secret treaty, a key to a dungeon, a poison that leaves no trace. Every gift comes with a "thread" attached.
 
-## 4. The White Silence (The Twined Saint)
+## 4. The White Silence (Baltoji Tyla)
 *   **Manifestation**: Frost flowers on swords, a blinding white light in the center of a cathedral, the smell of lilies on a frozen battlefield.
 *   **Agenda**: The absolute Dominion of the Order. She seeks to "bleach" the world of its pagan colors. 
 *   **Meddling**: She brings the "Crusader's Winter"—early snows that starve the pagan defenders. She grants a terrifying lack of fear to the Iron Knights, turning them into unfeeling machines of war.
@@ -25,7 +27,7 @@ In the world of "Lithium Thrones," the gods are not distant myths; they are hung
 ## 5. The Amber Queen (The Memory of the Sea)
 *   **Manifestation**: Foam on the Baltic waves, amber pieces appearing in the hands of the lost.
 *   **Agenda**: Grief and Memory. She preserves the stories of those the other gods have forgotten.
-*   **Meddling**: She grants visions of the past and future. She is the one who whispered the prison-break plan to Anna.
+*   **Meddling**: She grants visions of the past and future through amber. She whispered the prison-break plan to Ona. She is an office that needs a mortal vessel; Birutė is its last (canon D1, cosmology §3.4).
 
 ---
 
@@ -34,7 +36,7 @@ In the world of "Lithium Thrones," the gods are not distant myths; they are hung
 Beyond the borders of Lithuania, other gods hunger for the "Green Lung" and the souls within it. Their influence explains the most brutal atrocities of the era.
 
 ## 6. The Iron Saint (Teutonic Manifestation)
-*   **Name**: Sanctus Ferrum
+*   **Name**: Ferrum Sanctum
 *   **Agenda**: Total homogeneity. It views the "wild" and the "pagan" as a chaotic sickness to be purged.
 *   **Explanation for Atrocities**: The massacres of Samogitian villages and the forced baptisms in the snow are fueled by this entity. It feeds on the "order" created by the destruction of the old world. It is a god of the furnace and the sword.
 

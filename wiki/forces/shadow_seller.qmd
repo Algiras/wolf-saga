@@ -1,0 +1,17 @@
+---
+title: "Šešėlių Pardavėjas / Henė"
+id: shadow_seller
+type: force
+categories: [force]
+---
+
+{{< include ../_generated/shadow_seller.md >}}
+
+## Nature
+<!-- Native (face/shard of a god) or egregore (fed by an institution)? See cosmology.md §2. -->
+## Wants
+## Takes (its price)
+## Signs & manifestations
+## Vessels, servants, claims
+## Weaknesses
+## Arc across the books

@@ -1,0 +1,20 @@
+---
+title: "Žygimantas's coup at Ašmena"
+id: ev_coup_1432
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_coup_1432.md >}}
+
+## What the chronicles say [Record]
+<!-- Sources and disagreements. Mark (verify) where unsure. -->
+
+## What really happened [Saga]
+<!-- The mythic gap-filling. Must not contradict the record. -->
+
+## Consequences
+<!-- Mirror the 'causes' edges. -->
+
+## Dramatisation
+<!-- Book · chapter · POV · season. -->

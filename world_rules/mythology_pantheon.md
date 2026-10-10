@@ -1,3 +1,5 @@
+> **Canon note:** The full pantheon, the Force mapping and the World Tree are in `cosmology.md`. Creatures are in `bestiary.md`.
+
 # Mythology & Pantheon
 
 ## The Major Gods (Adored & Feared)
@@ -15,7 +17,7 @@
 *   **Ragana**: Witches/Seers. They control the forces of nature, healing, and curses. They gather on hilltops.
 *   **Aitvaras**: A household spirit (fiery rooster/dragon). Brings wealth (stolen from neighbors) to those who feed it omelets.
 *   **Žaltys (The Grass Snake)**: Sacred serpent. Killing one brings doom to the household. Symbol of health and fertility.
-*   **Vilkakis**: Werewolves. Warriors who can shift shape, often associated with the Iron Wolf legend.
+*   **Vilkatai / vilkolakiai**: Werewolves. Warriors who can shift shape, often associated with the Iron Wolf legend.
 
 ## Cosmology
 

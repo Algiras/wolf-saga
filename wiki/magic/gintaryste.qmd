@@ -1,0 +1,16 @@
+---
+title: "Gintarystė (amber-craft)"
+id: gintaryste
+type: school
+categories: [magic]
+---
+
+{{< include ../_generated/gintaryste.md >}}
+
+## What it is
+## Who can use it (path & tier)
+## How it works (medium, words, timing)
+## Costs
+## Limits & counters
+## Folk basis [Record]
+## Notable practitioners

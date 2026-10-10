@@ -1,0 +1,16 @@
+---
+title: "Grand Principality of Moscow"
+id: moscow
+type: faction
+categories: [faction]
+---
+
+{{< include ../_generated/moscow.md >}}
+
+## Overview
+## Wants (by book)
+| Book | Goal | Leverage | Red line |
+|---|---|---|---|
+## Patron Force
+## Internal tensions
+## Notable members

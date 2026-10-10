@@ -1,0 +1,19 @@
+---
+title: "Factions"
+---
+
+
+| Name | Type | Years |
+|---|---|---|
+| [Algirdaičiai (Algirdas's line)](algirdaiciai.qmd) | faction |  |
+| [Golden Horde](golden_horde.qmd) | faction |  |
+| [Grand Duchy of Lithuania](gdl.qmd) | faction |  |
+| [Grand Principality of Moscow](moscow.qmd) | faction |  |
+| [Hanseatic merchants](hanse.qmd) | faction |  |
+| [Kingdom of Poland (Lesser Poland lords)](poland.qmd) | faction |  |
+| [Kęstutaičiai (Kęstutis's line)](kestutaiciai.qmd) | faction |  |
+| [Pagan clergy (Krivis, žyniai, vaidilutės)](pagan_clergy.qmd) | faction |  |
+| [Teutonic Order](teutonic_order.qmd) | faction |  |
+| [Vilkatai (Iron Wolves)](iron_wolves.qmd) | faction |  |
+| [Žemaičiai (Samogitians)](samogitians.qmd) | faction |  |
+| [Žiniuoniai (village charm-healers)](village_healers.qmd) | faction |  |

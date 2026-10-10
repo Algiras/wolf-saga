@@ -1,0 +1,14 @@
+---
+title: "Žemė (Earth)"
+id: el_earth
+type: element
+categories: [magic]
+---
+
+{{< include ../_generated/el_earth.md >}}
+
+## Deity & zenith
+## Boon
+## Minor / major cost
+## Limits
+## Uses in the books

@@ -1,0 +1,37 @@
+---
+title: "How to add to the world"
+---
+
+The wiki is generated from **one source of truth**, `world_rules/graph/world_graph.json`, plus hand-written prose pages.
+
+## Add a new entity (character, place, artifact…)
+1. Add a node to `world_graph.json` (`id`, `type`, `name`, and years: `born`/`died`, `year`, `start`/`end` or `created`; `record: true|false`).
+2. Add its relations as edges (`s`, `t`, `type`, optional `from`/`to`, `note`). Allowed types are listed in the file's `meta.edge_types`.
+3. Validate:
+   ```bash
+   python3 scripts/validate_world_graph.py
+   ```
+   The validator catches dead people acting, effects before causes, two holders of one artifact at once, magic that rises when it must decline, books without a protagonist or antagonists, orphan nodes and events without places.
+4. Build:
+   ```bash
+   python3 scripts/build_wiki.py && quarto render wiki
+   ```
+   A new page `wiki/<section>/<id>.qmd` is created **from its template** in `wiki/_templates/`. Write your prose there; it is never overwritten. The infobox, relations, backlinks, timeline and relation graph at the top are regenerated every build.
+
+## Templates
+| Type | Template | Sections |
+|---|---|---|
+| character | `_templates/character.md` | Summary · Tells · Want/Need/Lie/Truth · Arc by book · Power · Record vs saga · Pronunciation · Appearances |
+| place | `_templates/place.md` | 1380s record · Sensory sketch · Saga overlay · Getting there · Scenes |
+| artifact | `_templates/artifact.md` | Description · Power · Rule & cost · Origin · Arc |
+| event | `_templates/event.md` | Chronicles · What really happened · Consequences · Dramatisation |
+| faction / house | `_templates/faction.md`, `house.md` | Wants by book · Patron · Lineage · Feuds |
+| god / force | `_templates/god.md`, `force.md` | Folk sources · Nature · Wants · Takes · Signs · Weaknesses |
+| school / element / pact | `_templates/school.md`, `element.md`, `pact.md` | Who · How · Costs · Limits · Counters |
+| creature | `_templates/creature.md` | Folk source · Half-wrong truth · Unbinding · Banes & cost |
+| book | `_templates/book.md` | Premise · Arc · Antagonists · Threads · Hand-off |
+
+## Rules of the world (check before writing)
+- [Canon decisions](codex/canon-decisions.qmd)
+- [Magic rules](codex/magic-rules.qmd) and [Power systems](codex/power-systems.qmd): every working shows its cost
+- [Master chronology](codex/master-chronology.qmd): the record is fixed; myth fills the gaps

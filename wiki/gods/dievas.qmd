@@ -1,0 +1,14 @@
+---
+title: "Dievas (Senelis)"
+id: dievas
+type: god
+categories: [god]
+---
+
+{{< include ../_generated/dievas.md >}}
+
+## Folk sources [Record]
+## In the saga
+<!-- Domain, element, Force-face (cosmology.md §3). -->
+## Offerings & taboos
+## Pronunciation

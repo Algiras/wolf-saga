@@ -1,0 +1,13 @@
+---
+title: "Tylioji Sutartis (Silent Pact)"
+id: silent_pact
+type: pact
+categories: [magic]
+---
+
+{{< include ../_generated/silent_pact.md >}}
+
+## Terms
+## Parties & witnesses
+## Breaches
+## Consequences

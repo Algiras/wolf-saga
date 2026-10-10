@@ -1,0 +1,14 @@
+---
+title: "Vanduo (Water)"
+id: el_water
+type: element
+categories: [magic]
+---
+
+{{< include ../_generated/el_water.md >}}
+
+## Deity & zenith
+## Boon
+## Minor / major cost
+## Limits
+## Uses in the books

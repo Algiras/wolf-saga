@@ -1,0 +1,16 @@
+---
+title: "Golden Horde"
+id: golden_horde
+type: faction
+categories: [faction]
+---
+
+{{< include ../_generated/golden_horde.md >}}
+
+## Overview
+## Wants (by book)
+| Book | Goal | Leverage | Red line |
+|---|---|---|---|
+## Patron Force
+## Internal tensions
+## Notable members

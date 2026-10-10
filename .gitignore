@@ -43,3 +43,9 @@ ENV/
 .cache/
 .agent/
 .gemini/
+
+# Wiki (generated)
+wiki/_site/
+wiki/_generated/
+wiki/codex/
+wiki/graph-explorer.html

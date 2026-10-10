@@ -690,6 +690,9 @@ def build_book(ctx: Ctx, n: int, kinds=("ebook", "square", "video", "thumb")):
         img, src = render_front(ctx, b, kind) if kind in ("ebook", "square") else render_wide(ctx, b, kind)
         p = od / FILENAMES[kind]
         img.save(p)
+        if kind in ("ebook", "video"):
+            # Web/EPUB copies: these JPEGs are the committed, published versions.
+            img.convert("RGB").save(p.with_suffix(".jpg"), quality=90, optimize=True, progressive=True)
         status.append(f"{FILENAMES[kind]} <- {src.label}")
     print(f"book {n} ({ctx.title(b)}): " + "; ".join(status))
 

@@ -8,13 +8,13 @@
 5.  **Dvigubas Veidas (The Double Face)**: Jogaila's perspective. He is nervous. **The Shadow-Seller** whispers courage (or coldness) into his ear.
 6.  **Geležiniai Vartai (The Iron Gates)**: Arrival in Vilnius. The trap springs. The arrest.
 7.  **Tylos Puota (The Feast of Silence)**: Skirgaila secures the city. The massacre of Kęstutis's loyal guard.
-8.  **Krėvos Požemiai (The Dungeons of Kreva)**: Interrogation. Kęstutis refuses to abdicate.
+8.  **Krėvos Požemiai (The Dungeons of Krėva)**: Interrogation. Kęstutis refuses to abdicate.
 9.  **Paskutinė Giesmė (The Last Song)**: The murder of Kęstutis. A mystical strangulation.
 10. **Šaltas Rytas (Cold Morning)**: Vytis discovers the truth. He realizes he is dead if he stays.
 
 ## Part 2: The Escape (Survival)
 11. **Našlė (The Widow)**: Birutė learns of her husband's death. She refuses to weep and prepares a ritual.
-12. **Gedulo Skraistė (The Shroud of Mourning)**: Ona (Anna) arrives at Kreva. She plays the "silly grieving woman" to fool the guards.
+12. **Gedulo Skraistė (The Shroud of Mourning)**: Ona (Anna) arrives at Krėva. She plays the "silly grieving woman" to fool the guards.
 13. **Keitimas (The Swap)**: The dungeon visit. The high-tension scene of swapping clothes.
 14. **Šešėlis Naktyje (Shadow in the Night)**: Vytis walks out of the castle disguised as a handmaiden. The **Amber Queen**'s fog helps him.
 15. **Pabėgimas (The Flight)**: Vytis rides until his horse dies. He is hunted by Skirgaila's trackers.

@@ -1,3 +1,5 @@
+> **Canon note:** Mechanics (costs, zeniths, the Five-Voice invocation, surety, the Sutartis rite, the amber barometer) are defined in `world_rules/magic_rules.md`, which wins on any conflict. The full power framework (schools, tiers, artifacts) is in `world_rules/power_systems.md`. This file remains the flavour reference for the elements.
+
 # Senovės Kalba: The Ancient Baltic Magic System
 
 ## Overview
@@ -54,14 +56,14 @@ Senovės Kalba is more than words; it is a rhythm that follows the natural cycle
 
 1. **Kūčios (Winter Solstice)**: Time of **Praurimė**. The coldest night when starlight is purest. Rituals involve watching shadows and reflections in amber to read the patterns of fate.
 2. **Rasos (Summer Solstice)**: Triumph of **Gabija**. Jumping over bonfires symbolizes soul cleansing and strengthening of the *Soul Armor*.
-3. **Pusiaukojis (Spring Equinox)**: Time of **Bangpūtys** and waking waters. The breaking of ice is a powerful symbol of transformation where the *Life Spring* is most potent.
+3. **Lygiadienis (pavasario)** (Spring Equinox): Time of **Bangpūtys** and waking waters. The breaking of ice is a powerful symbol of transformation where the *Life Spring* is most potent.
 4. **Dagotuvės (Autumn Equinox / Harvest)**: Feast of **Žemyna**. Gratitude for life and preparation for the deep freeze. *Unshakable Will* is strongest when rooted in the cooling earth.
 5. **Vėlinės (Time of Storms)**: Time of **Vėjopatis** and the spirits. The wind acts as a bridge between worlds. A time for secrets and *Shadow Movement*.
 
 ## The Three Laws of Senovės Kalba
 
 ### 1. The Law of Balance
-"Kiek paimai, tiek atduok" ("What you take, you must give back")
+"Kiek paimi, tiek atiduok" ("What you take, you must give back")
 - Every magical act requires an equal sacrifice
 - The greater the magic, the greater the cost
 - Balance must be maintained between the caster and the elements

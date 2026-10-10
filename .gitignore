@@ -49,3 +49,12 @@ wiki/_site/
 wiki/_generated/
 wiki/codex/
 wiki/graph-explorer.html
+
+# Cover outputs (regenerate with scripts/make_covers.py); keep contact sheets and examples
+books/covers/out/**
+!books/covers/out/
+!books/covers/out/contact_sheet.png
+!books/covers/out/contact_sheet_wide.png
+!books/covers/out/examples/
+!books/covers/out/examples/**
+books/covers/art/candidates/

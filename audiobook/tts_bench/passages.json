@@ -1,0 +1,116 @@
+{
+  "_comment": "Bench passages. Lithuanian text is pulled verbatim from the chapter files (1-based line numbers of non-empty paragraphs). English text is a BENCH-ONLY draft translation in passages_en/<id>.txt (Lithuanian names kept in original spelling); it is not the canonical translation.",
+  "passages": [
+    {
+      "id": "p3_amber_queen",
+      "title": "Ch. 3 Gintaro sapnas: the Ship vision and the Amber Queen's voice (italic divine voice, Birute's cry)",
+      "source": "books/1/03_gintaro_sapnas.qmd",
+      "lines": [
+        19,
+        23,
+        25,
+        27,
+        29,
+        31
+      ],
+      "tests": [
+        "divine/italic voice",
+        "anguish",
+        "awe",
+        "dialogue dashes"
+      ],
+      "context_names": [
+        "birute"
+      ]
+    },
+    {
+      "id": "p9_kestutis_death",
+      "title": "Ch. 9 Paskutine giesme: Kestutis's death in the Kreva cell",
+      "source": "books/1/09_paskutine_giesme.qmd",
+      "lines": [
+        25,
+        27,
+        31,
+        35,
+        37,
+        39,
+        41,
+        43
+      ],
+      "tests": [
+        "grief",
+        "tender",
+        "cold menace",
+        "ghost/vision voice"
+      ],
+      "context_names": [
+        "birute"
+      ]
+    },
+    {
+      "id": "p24_storehouse_fire",
+      "title": "Ch. 24 Pasirinkimas: the night of fire in the storehouse",
+      "source": "books/1/24_pasirinkimas.qmd",
+      "lines": [
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25
+      ],
+      "tests": [
+        "whisper",
+        "cold violence",
+        "short lines",
+        "pacing"
+      ],
+      "context_names": [
+        "vytautas"
+      ]
+    },
+    {
+      "id": "p2_dialogue",
+      "title": "Ch. 2 Vilko perspejimas: father/son argument in the armoury (dialogue-dense)",
+      "source": "books/1/02_vilko_perspejimas.qmd",
+      "lines": [
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        29,
+        31
+      ],
+      "tests": [
+        "speaker separation",
+        "inner-dash attribution",
+        "rage",
+        "restraint"
+      ]
+    },
+    {
+      "id": "p_names",
+      "title": "Name-dense narration (Ch. 1 l.5 + Ch. 5 l.19): pronunciation stress test",
+      "source": [
+        "books/1/01_senasis_sernas.qmd",
+        "books/1/05_dvigubas_veidas.qmd"
+      ],
+      "lines": [
+        [
+          5
+        ],
+        [
+          19
+        ]
+      ],
+      "tests": [
+        "lexicon: Jogaila, Vytautas, Jadvyga, Hanulas, Hene, Ryga, Zemyna, Neris, Kestutis, Rijunas"
+      ]
+    }
+  ]
+}

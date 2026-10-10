@@ -36,13 +36,23 @@ Sugrįžimas namo ne kaip herojaus, o kaip keršytojo, atsivedusio svetimą ugn�
 
 ---
 
-## II Knyga: Vytis ir Šešėlis (The Knight and the Shadow) — ANONSAS
+## II Knyga: Auksinis Šešėlis (The Golden Shadow), 1387–1399
 
 <img src="books/covers/out/book2/front_ebook_1600x2560.jpg" alt="II knyga: Auksinis Šešėlis" width="320">
 
-Vytautas pasiekė vokiečių ordiną, bet kaina už jo laisvę kyla su kiekviena diena. Kol jis ruošiasi susigrąžinti Vilnių, šešėlis, kurį jis parsivežė iš Dykrų, pradeda kalbėti jo balsu. 
+Tylioji Sutartis mirusi, o Vytautas, laikydamas slaptą liepsną Trakų pamatuose, ambicijos vedamas antrą kartą pasuka pas Ordiną. Antroji išdavystė, sūnų netektis, Astravo susitarimas, imperija nuo Baltijos iki Juodosios jūros ir Vorsklos mūšis — knyga, kurioje herojus pralaimi. Trys dalys: *Antroji Išdavystė*, *Imperijos Sapnas*, *Kraujo Horizontas*.
 
-📖 **[Daugiau apie antrąją dalį skaitykite čia](books/2_teaser.md)**.
+📖 **[Skaitykite II knygą internete](https://Algiras.github.io/wolf-saga/2/)** · [Anonsas](books/2_teaser.md)
+
+---
+
+## VI Knyga: Šventasis Miškas (The Holy Forest) — priešistorė, 1341–1377
+
+<img src="books/covers/out/book6/front_ebook_1600x2560.jpg" alt="VI knyga: Šventasis Miškas" width="320">
+
+Saga prieš sagą: Algirdas ir Kęstutis Šventaragio slėnyje prisiekia Tyliąją Sutartį, Kęstutis veda gintaro žynę Birutę ir trisdešimt metų moka Sutarties kainą. Knyga baigiasi ten, kur prasideda pirmoji. Trys dalys: *Tylioji Sutartis*, *Jūra ir Ugnis*, *Senasis Šernas*.
+
+📖 **[Skaitykite VI knygą internete](https://Algiras.github.io/wolf-saga/6/)**
 
 ---
 
@@ -57,11 +67,13 @@ Vytautas pasiekė vokiečių ordiną, bet kaina už jo laisvę kyla su kiekviena
 *   **PDF ir EPUB**: Naujausius failus visada galite atsisiųsti iš **[Releases](https://github.com/Algiras/wolf-saga/releases/tag/latest)** skilties.
 *   **Interaktyvi versija**: Prieinama per **[GitHub Pages](https://Algiras.github.io/wolf-saga/)**.
 
-Norėdami sugeneruoti knygą patys lokaliai:
+Norėdami sugeneruoti knygą patys lokaliai (kiekviena knyga yra atskiras Quarto projektas):
 
 ```bash
 cd books
-quarto render --to all
+quarto render --to all      # I knyga -> books/_book
+cd 2 && quarto render --to all   # II knyga -> books/2/_book
+cd ../6 && quarto render --to all  # VI knyga -> books/6/_book
 ```
 
 ### Licencija

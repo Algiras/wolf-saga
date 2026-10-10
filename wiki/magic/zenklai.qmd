@@ -1,0 +1,16 @@
+---
+title: "Ženklai (signs)"
+id: zenklai
+type: school
+categories: [magic]
+---
+
+{{< include ../_generated/zenklai.md >}}
+
+## What it is
+## Who can use it (path & tier)
+## How it works (medium, words, timing)
+## Costs
+## Limits & counters
+## Folk basis [Record]
+## Notable practitioners

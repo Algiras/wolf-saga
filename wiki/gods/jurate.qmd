@@ -1,0 +1,14 @@
+---
+title: "Jūratė"
+id: jurate
+type: god
+categories: [god]
+---
+
+{{< include ../_generated/jurate.md >}}
+
+## Folk sources [Record]
+## In the saga
+<!-- Domain, element, Force-face (cosmology.md §3). -->
+## Offerings & taboos
+## Pronunciation

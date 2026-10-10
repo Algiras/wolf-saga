@@ -1,0 +1,27 @@
+---
+title: "Places"
+---
+
+
+| Name | Type | Years |
+|---|---|---|
+| [Ašmena](ashmyany.qmd) | place |  |
+| [Dykra (swamp-forest wilderness)](dykra.qmd) | place |  |
+| [Jurbarkas (Georgenburg)](jurbarkas.qmd) | place |  |
+| [Kraków](krakow.qmd) | place |  |
+| [Krėva](kreva.qmd) | place |  |
+| [Kyiv](kyiv.qmd) | place |  |
+| [Königsberg (Karaliaučius)](konigsberg.qmd) | place |  |
+| [Lutsk](lutsk.qmd) | place |  |
+| [Marienburg (Malbork)](marienburg.qmd) | place |  |
+| [Masovia (Płock / Warsaw)](masovia.qmd) | place |  |
+| [Naujapilis (Marienwerder)](marienwerder.qmd) | place |  |
+| [Ostrów](ostrow.qmd) | place |  |
+| [Pabaiskas](pabaiskas.qmd) | place |  |
+| [Palanga](palanga.qmd) | place |  |
+| [Tapiau (Tepliava)](tapiau.qmd) | place |  |
+| [Trakai](trakai.qmd) | place |  |
+| [Vilnius](vilnius.qmd) | place |  |
+| [Vorskla river](vorskla.qmd) | place |  |
+| [Šventaragis valley](sventaragis.qmd) | place |  |
+| [Žalgiris (Grunwald)](grunwald.qmd) | place |  |

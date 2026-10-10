@@ -1,0 +1,16 @@
+---
+title: "White Silence's frost-touch"
+id: white_touch
+type: school
+categories: [magic]
+---
+
+{{< include ../_generated/white_touch.md >}}
+
+## What it is
+## Who can use it (path & tier)
+## How it works (medium, words, timing)
+## Costs
+## Limits & counters
+## Folk basis [Record]
+## Notable practitioners

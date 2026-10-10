@@ -1,0 +1,16 @@
+---
+title: "Vilkų krikštas (wolf-change)"
+id: wolf_change
+type: school
+categories: [magic]
+---
+
+{{< include ../_generated/wolf_change.md >}}
+
+## What it is
+## Who can use it (path & tier)
+## How it works (medium, words, timing)
+## Costs
+## Limits & counters
+## Folk basis [Record]
+## Notable practitioners

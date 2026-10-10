@@ -8,9 +8,9 @@ This document maps the "blind spots" of Lithuanian history to the active meddlin
 
 ## 2. The Invisible Woman (1382)
 *   **The Gap**: Vytautas escaped Kreva dressed in his wife's clothes. How did he pass the elite guards who knew his face well?
-*   **The Myth**: **The Amber Queen** (in her human form as Birutė) reached out from the spirit world and cast a "Glimmer of Fog." The guards saw a woman, not because of the clothes, but because the air itself distorted around him, reflecting their own expectations.
+*   **The Myth**: **Birutė** (becoming the Amber Queen), working from Palanga through the amber pebble she anchored with her blood, raised a **real sea-fog** in the Krėva courtyard. It is not an illusion: the Law of Truth forbids mortal magic from making anyone see what is not there (magic_rules §5.2). The guards simply could not see, and the fog led Vytautas to the refuse gate. **The price was Birutė's voice** (Wind's cost, paid as surety).
 
-## 3. The Overconfidence at Vorskla (1399)
+## 3. The Overconfidence at Vorskla (1399) *(Book II)*
 *   **The Gap**: Vytautas was a cautious, brilliant general. Why did he march into a suicidal trap against the Golden Horde?
 *   **The Myth**: **The Shadow-Seller** appeared to Vytautas as a "Messenger of the East," bearing a false scroll and a vision of a "Golden Throne in the Clouds." Vytautas was blinded by a divine fever, his tactical mind clouded by a fabricated destiny.
 

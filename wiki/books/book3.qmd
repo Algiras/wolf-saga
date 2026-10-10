@@ -1,0 +1,14 @@
+---
+title: "III · Žaliasis Miškas"
+id: book3
+type: book
+categories: [book]
+---
+
+{{< include ../_generated/book3.md >}}
+
+## Premise
+## Protagonist arc (form at start → form at end)
+## Antagonists & outcomes
+## Threads advanced (see books/series_arc.md)
+## Hands on to the next book

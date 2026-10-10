@@ -3,14 +3,89 @@
 Helper functions for TTS chunking
 """
 
+import json
 import logging
-import torch
-import torchaudio as ta
+import os
+import re
+import subprocess
+import tempfile
+from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-# Force float32 for CPU stability
-torch.set_default_dtype(torch.float32)
+# torch / torchaudio are imported lazily inside generate_long_audio so that this
+# module (and the loudness helper) can be used without loading the TTS stack.
+
+# Per-chapter loudness target (EBU R128), matches the master's normalisation.
+LOUDNORM_I = -14.0
+LOUDNORM_TP = -1.5
+LOUDNORM_LRA = 11.0
+
+
+def _probe_sample_rate(path, default=24000):
+    try:
+        out = subprocess.run(
+            ["ffprobe", "-v", "error", "-select_streams", "a:0",
+             "-show_entries", "stream=sample_rate", "-of", "default=nw=1:nk=1", str(path)],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        return int(out)
+    except Exception:
+        return default
+
+
+def loudnorm_wav(path, i=LOUDNORM_I, tp=LOUDNORM_TP, lra=LOUDNORM_LRA):
+    """EBU R128 loudness-normalise a WAV in place (two-pass, falls back to one pass).
+
+    Daily per-chapter uploads need consistent loudness, so every chapter output is
+    normalised on its own. loudnorm upsamples internally, so the original sample
+    rate is restored with -ar. Returns True on success; on any ffmpeg failure the
+    original file is left untouched and False is returned.
+    """
+    path = Path(path)
+    sr = _probe_sample_rate(path)
+    base_filter = f"loudnorm=I={i}:TP={tp}:LRA={lra}"
+
+    # Pass 1: measure
+    measured = None
+    try:
+        res = subprocess.run(
+            ["ffmpeg", "-hide_banner", "-nostats", "-i", str(path),
+             "-af", base_filter + ":print_format=json", "-f", "null", "-"],
+            capture_output=True, text=True, check=True,
+        )
+        blocks = re.findall(r"\{[^{}]*\}", res.stderr, flags=re.DOTALL)
+        if blocks:
+            data = json.loads(blocks[-1])
+            if all(k in data for k in ("input_i", "input_tp", "input_lra", "input_thresh", "target_offset")) \
+                    and data["input_i"] not in ("-inf", "inf"):
+                measured = data
+    except Exception as e:
+        logger.warning(f"loudnorm measure pass failed for {path.name}: {e}")
+
+    if measured:
+        af = (f"{base_filter}:measured_I={measured['input_i']}:measured_TP={measured['input_tp']}"
+              f":measured_LRA={measured['input_lra']}:measured_thresh={measured['input_thresh']}"
+              f":offset={measured['target_offset']}:linear=true")
+    else:
+        af = base_filter  # single-pass fallback
+
+    fd, tmp = tempfile.mkstemp(dir=str(path.parent), prefix=path.stem + ".", suffix=".norm.wav")
+    os.close(fd)
+    try:
+        subprocess.run(
+            ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(path),
+             "-af", af, "-ar", str(sr), "-c:a", "pcm_s16le", tmp],
+            capture_output=True, text=True, check=True,
+        )
+        os.replace(tmp, path)
+        logger.info(f"loudnorm ({'two' if measured else 'single'}-pass) applied: {path.name}")
+        return True
+    except Exception as e:
+        logger.warning(f"loudnorm failed for {path.name}, keeping un-normalised audio: {e}")
+        if os.path.exists(tmp):
+            os.unlink(tmp)
+        return False
 
 def chunk_text(text, max_chars=250):
     """Split text into chunks at natural boundaries (paragraphs/sentences)."""
@@ -58,7 +133,7 @@ def chunk_text(text, max_chars=250):
     
     return chunks
 
-def generate_long_audio(text, model, output_path, chunk_size=250, silence_per_newline=0.3, voice_map=None, default_voice=None, audio_prompt_path=None):
+def generate_long_audio(text, model, output_path, chunk_size=250, silence_per_newline=0.3, voice_map=None, default_voice=None, audio_prompt_path=None, loudnorm=True):
     """Generate audio for long text by chunking and concatenating, with dynamic voice switching.
     
     Args:
@@ -70,10 +145,13 @@ def generate_long_audio(text, model, output_path, chunk_size=250, silence_per_ne
         voice_map: Dictionary mapping [Name] to voice reference WAV files
         default_voice: Default voice path if no tag is present or found
         audio_prompt_path: Shortcut for a single reference voice (backward-compatible)
+        loudnorm: Apply per-file EBU R128 normalisation (I=-14, TP=-1.5, LRA=11) after saving
     """
     import torch
     import torchaudio as ta
-    import re
+
+    # Force float32 for CPU stability
+    torch.set_default_dtype(torch.float32)
     
     # Split text by newlines to insert silence
     lines = text.split('\n')
@@ -173,7 +251,11 @@ def generate_long_audio(text, model, output_path, chunk_size=250, silence_per_ne
 
     # Save as 16-bit PCM
     ta.save(str(output_path), final_audio, sample_rate, encoding="PCM_S", bits_per_sample=16)
-    
+
+    # Per-chapter loudness (the master is normalised again in stage 3)
+    if loudnorm:
+        loudnorm_wav(output_path)
+
     duration = final_audio.shape[1] / sample_rate
     print(f"   ✅ Generated {duration:.1f}s of audio with {len(all_audio)} segments")
     

@@ -1,0 +1,4510 @@
+[
+  {
+    "text": "Gediminas",
+    "variants": [
+      "Gedimino",
+      "Gediminui",
+      "Gediminą",
+      "Gediminu",
+      "Gedimine",
+      "Gediminai"
+    ],
+    "ipa": "ɡʲɛˈdʲɪmʲɪnɐs",
+    "respelling_en": "geh-DIH-mih-nahs",
+    "stress": "ge-DI-mi-nas",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Algirdas",
+    "variants": [
+      "Algirdo",
+      "Algirdui",
+      "Algirdą",
+      "Algirdu",
+      "Algirde",
+      "Algirdai"
+    ],
+    "ipa": "ɐlʲˈɡʲɪrdɐs",
+    "respelling_en": "ahl-GIHR-dahs",
+    "stress": "al-GIR-das",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Kęstutis",
+    "variants": [
+      "Kęstučio",
+      "Kęstučiui",
+      "Kęstutį",
+      "Kęstučiu",
+      "Kęstutyje",
+      "Kęstuti"
+    ],
+    "ipa": "kʲæːsˈtʊtʲɪs",
+    "respelling_en": "kess-TOO-tis",
+    "stress": "kęs-TU-tis",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Kestutis"
+    ],
+    "stress_notes": "Paradigm 2: stress moves to the ending in instr. Kęstučiù and loc. Kęstutyjè (verify); elsewhere kęs-TU-."
+  },
+  {
+    "text": "Birutė",
+    "variants": [
+      "Birutės",
+      "Birutei",
+      "Birutę",
+      "Birute",
+      "Birutėje"
+    ],
+    "ipa": "bʲɪˈrʊtʲeː",
+    "respelling_en": "bih-ROO-tay",
+    "stress": "bi-RU-tė",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Birute"
+    ],
+    "stress_notes": "Paradigm 2: instr. Birutè is end-stressed (verify); elsewhere bi-RU-."
+  },
+  {
+    "text": "Vytautas",
+    "variants": [
+      "Vytauto",
+      "Vytautui",
+      "Vytautą",
+      "Vytautu",
+      "Vytaute",
+      "Vytautai"
+    ],
+    "ipa": "ˈviːtɐʊtɐs",
+    "respelling_en": "VEE-tow-tahs",
+    "stress": "VY-tau-tas",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Vyti",
+    "variants": [],
+    "ipa": "ˈviːtʲɪ",
+    "respelling_en": "VEE-tih",
+    "stress": "VY-ti",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Jogaila",
+    "variants": [
+      "Jogailos",
+      "Jogailai",
+      "Jogailą",
+      "Jogailoje"
+    ],
+    "ipa": "joˈɡɐɪɫɐ",
+    "respelling_en": "yo-GUY-lah",
+    "stress": "jo-GAI-la",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Skirgaila",
+    "variants": [
+      "Skirgailos",
+      "Skirgailai",
+      "Skirgailą",
+      "Skirgailoje"
+    ],
+    "ipa": "skʲɪrˈɡɐɪɫɐ",
+    "respelling_en": "skihr-GUY-lah",
+    "stress": "skir-GAI-la",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Švitrigaila",
+    "variants": [
+      "Švitrigailos",
+      "Švitrigailai",
+      "Švitrigailą",
+      "Švitrigailoje"
+    ],
+    "ipa": "ʃvʲɪtʲrʲɪˈɡɐɪɫɐ",
+    "respelling_en": "shvih-trih-GUY-lah",
+    "stress": "švi-tri-GAI-la",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Svitrigaila",
+      "Shvitrigaila"
+    ]
+  },
+  {
+    "text": "Kaributas",
+    "variants": [
+      "Kaributo",
+      "Kaributui",
+      "Kaributą"
+    ],
+    "ipa": "kɐˈrʲɪbʊtɐs",
+    "respelling_en": "kah-RIH-boo-tahs",
+    "stress": "ka-RI-bu-tas",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Lengvenis",
+    "variants": [
+      "Lengvenio",
+      "Lengveniui",
+      "Lengvenį"
+    ],
+    "ipa": "lʲɛŋˈvʲæːnʲɪs",
+    "respelling_en": "leng-VEH-nis",
+    "stress": "leng-VE-nis",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Vygantas",
+    "variants": [],
+    "ipa": "viːˈɡɐntɐs",
+    "respelling_en": "vee-GAHN-tahs",
+    "stress": "vy-GAN-tas",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Karigaila",
+    "variants": [],
+    "ipa": "kɐrʲɪˈɡɐɪɫɐ",
+    "respelling_en": "kah-rih-GUY-lah",
+    "stress": "ka-ri-GAI-la",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Žygimantas Kęstutaitis",
+    "variants": [
+      "Žygimanto",
+      "Žygimantui",
+      "Žygimantą",
+      "Žygimantu",
+      "Žygimante",
+      "Žygimantai",
+      "Kęstutaičio",
+      "Kęstutaičiui",
+      "Kęstutaitį"
+    ],
+    "ipa": "ʒʲiːɡʲɪˈmɐntɐs kʲæːstʊˈtɐɪtʲɪs",
+    "respelling_en": "zhee-gih-MAHN-tahs kess-too-TYE-tis",
+    "stress": "ži-gi-MAN-tas kęs-tu-TAI-tis",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Zygimantas Kestutaitis",
+      "Zhygimantas Kestutaitis"
+    ]
+  },
+  {
+    "text": "Tautvilas",
+    "variants": [],
+    "ipa": "ˈtɐʊtvʲɪɫɐs",
+    "respelling_en": "TOWT-vih-lahs",
+    "stress": "TAUT-vi-las",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Butautas",
+    "variants": [],
+    "ipa": "bʊˈtɐʊtɐs",
+    "respelling_en": "boo-TOW-tahs",
+    "stress": "bu-TAU-tas",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Vaidotas",
+    "variants": [],
+    "ipa": "ˈvɐɪdotɐs",
+    "respelling_en": "VYE-doh-tahs",
+    "stress": "VAI-do-tas",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Danutė",
+    "variants": [
+      "Danutės",
+      "Danutei",
+      "Danutę"
+    ],
+    "ipa": "dɐˈnʊtʲeː",
+    "respelling_en": "dah-NOO-tay",
+    "stress": "da-NU-tė",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Danute"
+    ]
+  },
+  {
+    "text": "Rimgailė",
+    "variants": [],
+    "ipa": "rʲɪmˈɡɐɪlʲeː",
+    "respelling_en": "rim-GUY-lay",
+    "stress": "rim-GAI-lė",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Rimgaile"
+    ]
+  },
+  {
+    "text": "Ona",
+    "variants": [
+      "Onos",
+      "Onai",
+      "Oną",
+      "Onoje"
+    ],
+    "ipa": "oˈnɐ",
+    "respelling_en": "oh-NAH",
+    "stress": "o-NA",
+    "category": "character",
+    "verify": true,
+    "stress_notes": "Paradigm 4 (verify): nom./instr. Onà, gen. Onõs, loc. Onojè are end-stressed; dat. Õnai, acc. Õną, voc. Õna stress the first syllable."
+  },
+  {
+    "text": "Sofija",
+    "variants": [
+      "Sofijos",
+      "Sofijai",
+      "Sofiją"
+    ],
+    "ipa": "ˈsɔfʲɪjɐ",
+    "respelling_en": "SOH-fih-yah",
+    "stress": "SO-fi-ja",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Julijona",
+    "variants": [
+      "Julijonos",
+      "Julijonai",
+      "Julijoną"
+    ],
+    "ipa": "jʊlʲɪjoˈnɐ",
+    "respelling_en": "yoo-lih-yoh-NAH",
+    "stress": "ju-li-jo-NA",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Jadvyga",
+    "variants": [
+      "Jadvygos",
+      "Jadvygai",
+      "Jadvygą"
+    ],
+    "ipa": "jɐdˈviːɡɐ",
+    "respelling_en": "yahd-VEE-gah",
+    "stress": "jad-VY-ga",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Hanulas",
+    "variants": [
+      "Hanulo",
+      "Hanului",
+      "Hanulą"
+    ],
+    "ipa": "ˈɣaːnʊɫɐs",
+    "respelling_en": "HAH-noo-lahs",
+    "stress": "HA-nu-las",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Kristinas Astikas",
+    "variants": [],
+    "ipa": "krʲɪsˈtʲɪnɐs ˈaːstʲɪkɐs",
+    "respelling_en": "kris-TIH-nahs AHS-tih-kahs",
+    "stress": "kris-TI-nas AS-ti-kas",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Jonas Goštautas",
+    "variants": [],
+    "ipa": "ˈjoːnɐs ˈɡoʃtɐʊtɐs",
+    "respelling_en": "YOH-nahs GOHSH-tow-tahs",
+    "stress": "JO-nas GOŠ-tau-tas",
+    "category": "character",
+    "verify": true,
+    "ascii": [
+      "Jonas Gostautas",
+      "Jonas Goshtautas"
+    ]
+  },
+  {
+    "text": "Mindaugas",
+    "variants": [
+      "Mindaugo",
+      "Mindaugui",
+      "Mindaugą"
+    ],
+    "ipa": "mʲɪnˈdɐʊɡɐs",
+    "respelling_en": "min-DOW-gahs",
+    "stress": "min-DAU-gas",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Jaunutis",
+    "variants": [],
+    "ipa": "jɐʊˈnʊtʲɪs",
+    "respelling_en": "yow-NOO-tis",
+    "stress": "jau-NU-tis",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Vytenis",
+    "variants": [],
+    "ipa": "viːˈtʲæːnʲɪs",
+    "respelling_en": "vee-TEH-nis",
+    "stress": "vy-TE-nis",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Narimantas",
+    "variants": [],
+    "ipa": "nɐrʲɪˈmɐntɐs",
+    "respelling_en": "nah-rih-MAHN-tahs",
+    "stress": "na-ri-MAN-tas",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Liubartas",
+    "variants": [],
+    "ipa": "ˈlʲʊbɐrtɐs",
+    "respelling_en": "LYOO-bahr-tahs",
+    "stress": "LIU-bar-tas",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Vaidila",
+    "variants": [],
+    "ipa": "vɐɪˈdʲɪɫɐ",
+    "respelling_en": "vye-DIH-lah",
+    "stress": "vai-DI-la",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Elena",
+    "variants": [],
+    "ipa": "ɛlʲɛˈnɐ",
+    "respelling_en": "eh-leh-NAH",
+    "stress": "e-le-NA",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Vygandas",
+    "variants": [],
+    "ipa": "viːˈɡɐndɐs",
+    "respelling_en": "vee-GAHN-dahs",
+    "stress": "vy-GAN-das",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Aleksandras",
+    "variants": [],
+    "ipa": "ɐlʲɛkˈsɐndrɐs",
+    "respelling_en": "ah-lek-SAHN-drahs",
+    "stress": "a-lek-SAN-dras",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Vladislovas",
+    "variants": [],
+    "ipa": "vɫɐdʲɪˈsɫoːvɐs",
+    "respelling_en": "vlah-dih-SLOH-vahs",
+    "stress": "vla-di-SLO-vas",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Kazimieras",
+    "variants": [],
+    "ipa": "kɐzʲɪˈmʲiɛrɐs",
+    "respelling_en": "kah-zih-MYEH-rahs",
+    "stress": "ka-zi-MIE-ras",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Gediminaičiai",
+    "variants": [
+      "Gediminaičių",
+      "Gediminaitis"
+    ],
+    "ipa": "ɡʲɛdʲɪmʲɪˈnɐɪtʃʲɛɪ",
+    "respelling_en": "geh-dih-mih-NYE-chay",
+    "stress": "ge-di-mi-NAI-čiai",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Gediminaiciai",
+      "Gediminaichiai"
+    ]
+  },
+  {
+    "text": "Kęstutaičiai",
+    "variants": [
+      "Kęstutaičių"
+    ],
+    "ipa": "kʲæːstʊˈtɐɪtʃʲɛɪ",
+    "respelling_en": "kess-too-TYE-chay",
+    "stress": "kęs-tu-TAI-čiai",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Kestutaiciai",
+      "Kestutaichiai"
+    ]
+  },
+  {
+    "text": "Jogailaičiai",
+    "variants": [
+      "Jogailaičių",
+      "Jogailaitis"
+    ],
+    "ipa": "joɡɐɪˈɫɐɪtʃʲɛɪ",
+    "respelling_en": "yo-guy-LYE-chay",
+    "stress": "jo-gai-LAI-čiai",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Jogailaiciai",
+      "Jogailaichiai"
+    ]
+  },
+  {
+    "text": "Eglė",
+    "variants": [
+      "Eglės",
+      "Eglei",
+      "Eglę",
+      "Egle",
+      "Eglėje"
+    ],
+    "ipa": "ɛɡˈlʲeː",
+    "respelling_en": "eg-LAY",
+    "stress": "eg-LĖ",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Egle"
+    ],
+    "stress_notes": "Paradigm 4: acc. Ẽglę, dat. Ẽglei, voc. Ẽgle stress the first syllable; the other forms stress the ending."
+  },
+  {
+    "text": "Pelkių Eglė",
+    "variants": [
+      "Pelkių Eglės",
+      "Pelkių Eglei",
+      "Pelkių Eglę"
+    ],
+    "ipa": "ˈpʲælʲkʲuː ɛɡˈlʲeː",
+    "respelling_en": "PEL-kyoo eg-LAY",
+    "stress": "PEL-kių eg-LĖ",
+    "category": "character",
+    "verify": false,
+    "ascii": [
+      "Pelkiu Egle"
+    ]
+  },
+  {
+    "text": "Henė",
+    "variants": [
+      "Henės",
+      "Henei",
+      "Henę",
+      "Hene",
+      "Henėje"
+    ],
+    "ipa": "ˈɣʲæːnʲeː",
+    "respelling_en": "HEH-nay",
+    "stress": "HE-nė",
+    "category": "character",
+    "verify": true,
+    "ascii": [
+      "Hene"
+    ]
+  },
+  {
+    "text": "Galminas",
+    "variants": [
+      "Galmino",
+      "Galminui",
+      "Galminą",
+      "Galminu",
+      "Galmine",
+      "Galminai"
+    ],
+    "ipa": "ˈɡaːlʲmʲɪnɐs",
+    "respelling_en": "GAHL-mih-nahs",
+    "stress": "GAL-mi-nas",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Daiva",
+    "variants": [],
+    "ipa": "ˈdɐɪvɐ",
+    "respelling_en": "DYE-vah",
+    "stress": "DAI-va",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Jonas",
+    "variants": [
+      "Jono",
+      "Jonui",
+      "Joną",
+      "Jonu",
+      "Jone",
+      "Jonai"
+    ],
+    "ipa": "ˈjoːnɐs",
+    "respelling_en": "YOH-nahs",
+    "stress": "JO-nas",
+    "category": "character",
+    "verify": false,
+    "stress_notes": "Paradigm 2: instr. Jonù and loc. Jonè are end-stressed; elsewhere JO-."
+  },
+  {
+    "text": "Daumantas",
+    "variants": [
+      "Daumanto",
+      "Daumantui",
+      "Daumantą"
+    ],
+    "ipa": "dɐʊˈmɐntɐs",
+    "respelling_en": "dow-MAHN-tahs",
+    "stress": "dau-MAN-tas",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Lizdeika",
+    "variants": [],
+    "ipa": "lʲɪzˈdʲɛɪkɐ",
+    "respelling_en": "liz-DAY-kah",
+    "stress": "liz-DEI-ka",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Sovijus",
+    "variants": [],
+    "ipa": "ˈsoːvʲɪjʊs",
+    "respelling_en": "SOH-vih-yoos",
+    "stress": "SO-vi-jus",
+    "category": "character",
+    "verify": true
+  },
+  {
+    "text": "Elgeta",
+    "variants": [
+      "Elgetos",
+      "Elgetai",
+      "Elgetą"
+    ],
+    "ipa": "ɛlʲɡʲɛˈtɐ",
+    "respelling_en": "el-geh-TAH",
+    "stress": "el-ge-TA",
+    "category": "character",
+    "verify": false
+  },
+  {
+    "text": "Konrad Zöllner von Rotenstein",
+    "variants": [],
+    "ipa": "ˈkɔnʁaːt ˈtsœlnɐ fɔn ˈʁoːtn̩ʃtaɪn",
+    "respelling_en": "KON-raht TSURL-ner fon ROH-ten-shtine",
+    "stress": "KON-rad TSÖL-ner fon RO-ten-štain",
+    "category": "foreign",
+    "verify": false,
+    "ascii": [
+      "Konrad Zollner von Rotenstein"
+    ]
+  },
+  {
+    "text": "Winrich von Kniprode",
+    "variants": [
+      "Winrichas",
+      "Winricho",
+      "Winrichą",
+      "Kniprodės"
+    ],
+    "ipa": "ˈvɪnʁɪç fɔn ˈkniːpʁoːdə",
+    "respelling_en": "VIN-rikh fon KNEE-proh-deh",
+    "stress": "VIN-rich fon KNI-pro-de",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Ulrich von Jungingen",
+    "variants": [],
+    "ipa": "ˈʊlʁɪç fɔn ˈjʊŋɪŋən",
+    "respelling_en": "OOL-rikh fon YOONG-ing-en",
+    "stress": "UL-rich fon JUN-gin-gen",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Konrad von Wallenrode",
+    "variants": [],
+    "ipa": "ˈkɔnʁaːt fɔn ˈvalənʁoːdə",
+    "respelling_en": "KON-raht fon VAH-len-roh-deh",
+    "stress": "KON-rad fon VA-len-ro-de",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Günther von Hohenstein",
+    "variants": [],
+    "ipa": "ˈɡʏntɐ fɔn ˈhoːənʃtaɪn",
+    "respelling_en": "GUEN-ter fon HOH-en-shtine",
+    "stress": "GÜN-ter fon HO-en-štain",
+    "category": "foreign",
+    "verify": false,
+    "ascii": [
+      "Gunther von Hohenstein"
+    ]
+  },
+  {
+    "text": "Wigand von Marburg",
+    "variants": [],
+    "ipa": "ˈviːɡant fɔn ˈmaʁbʊʁk",
+    "respelling_en": "VEE-gahnt fon MAR-boork",
+    "stress": "VI-gant fon MAR-burk",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Peter von Dusburg",
+    "variants": [],
+    "ipa": "ˈpeːtɐ fɔn ˈdʊsbʊʁk",
+    "respelling_en": "PAY-ter fon DOOS-boork",
+    "stress": "PE-ter fon DUS-burk",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Toktamyšas",
+    "variants": [
+      "Toktamyšo",
+      "Toktamyšui",
+      "Toktamyšą",
+      "Tokhtamysh"
+    ],
+    "ipa": "toktɐˈmʲiːʃɐs",
+    "respelling_en": "tok-tah-MEE-shahs",
+    "stress": "tok-ta-MY-šas",
+    "category": "foreign",
+    "verify": true,
+    "ascii": [
+      "Toktamysas",
+      "Toktamyshas"
+    ]
+  },
+  {
+    "text": "Edigėjus",
+    "variants": [
+      "Edigėjaus",
+      "Edigėjui",
+      "Edigėjų",
+      "Edigu"
+    ],
+    "ipa": "ɛdʲɪˈɡʲeːjʊs",
+    "respelling_en": "eh-dih-GAY-yoos",
+    "stress": "e-di-GĖ-jus",
+    "category": "foreign",
+    "verify": true,
+    "ascii": [
+      "Edigejus"
+    ]
+  },
+  {
+    "text": "Timūras",
+    "variants": [
+      "Timūro",
+      "Timur"
+    ],
+    "ipa": "tʲɪˈmuːrɐs",
+    "respelling_en": "tih-MOO-rahs",
+    "stress": "ti-MŪ-ras",
+    "category": "foreign",
+    "verify": true,
+    "ascii": [
+      "Timuras"
+    ]
+  },
+  {
+    "text": "Zigmantas Liuksemburgietis",
+    "variants": [
+      "Zigmanto",
+      "Sigismund"
+    ],
+    "ipa": "zʲɪɡˈmɐntɐs lʲʊksʲɛmbʊrˈɡʲiɛtʲɪs",
+    "respelling_en": "zig-MAHN-tahs lyook-sem-boor-GYEH-tis",
+    "stress": "zig-MAN-tas liuk-sem-bur-GIE-tis",
+    "category": "foreign",
+    "verify": true
+  },
+  {
+    "text": "Zbigniew Oleśnicki",
+    "variants": [
+      "Olesnicki",
+      "Olesnickis"
+    ],
+    "ipa": "ˈzbʲiɡɲɛf ɔlɛɕˈɲit͡skʲi",
+    "respelling_en": "ZBEEG-nyef oh-lesh-NEETS-kee",
+    "stress": "ZBIG-niew o-leś-NIC-ki",
+    "category": "foreign",
+    "verify": false,
+    "ascii": [
+      "Zbigniew Olesnicki"
+    ]
+  },
+  {
+    "text": "Spytek z Melsztyna",
+    "variants": [
+      "Spytek",
+      "Spytko"
+    ],
+    "ipa": "ˈspɨtɛk z mɛlʂˈtɨna",
+    "respelling_en": "SPIH-tek z mel-SHTIH-nah",
+    "stress": "SPY-tek z mel-ŠTY-na",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Jadwiga",
+    "variants": [],
+    "ipa": "jadˈvʲiɡa",
+    "respelling_en": "yahd-VEE-gah",
+    "stress": "jad-VI-ga",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Władysław Jagiełło",
+    "variants": [
+      "Władysław",
+      "Jagiełło"
+    ],
+    "ipa": "vwaˈdɨswaf jaˈɡʲɛwwɔ",
+    "respelling_en": "vwah-DIH-swahf yah-GYEH-woh",
+    "stress": "wła-DY-sław ja-GIEŁ-ło",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Jan Długosz",
+    "variants": [
+      "Długosz",
+      "Dlugošas"
+    ],
+    "ipa": "ˈjan ˈdwuɡɔʂ",
+    "respelling_en": "YAHN DWOO-gosh",
+    "stress": "JAN DŁU-gosz",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Janusz I",
+    "variants": [],
+    "ipa": "ˈjanuʂ",
+    "respelling_en": "YAH-noosh",
+    "stress": "JA-nusz",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Liudvikas Vengras",
+    "variants": [],
+    "ipa": "ˈlʲʊdvʲɪkɐs ˈvʲæːŋɡrɐs",
+    "respelling_en": "LYOOD-vih-kahs VEN-grahs",
+    "stress": "LIUD-vi-kas VEN-gras",
+    "category": "foreign",
+    "verify": true
+  },
+  {
+    "text": "Dmitrijus Donskojus",
+    "variants": [],
+    "ipa": "ˈdmʲɪtrʲɪjʊs donˈskoːjʊs",
+    "respelling_en": "DMIT-rih-yoos don-SKOH-yoos",
+    "stress": "DMIT-ri-jus don-SKO-jus",
+    "category": "foreign",
+    "verify": true
+  },
+  {
+    "text": "Wilhelm von Habsburg",
+    "variants": [],
+    "ipa": "ˈvɪlhɛlm fɔn ˈhaːpsbʊʁk",
+    "respelling_en": "VIL-helm fon HAHPS-boork",
+    "stress": "VIL-helm fon HAPS-burk",
+    "category": "foreign",
+    "verify": false
+  },
+  {
+    "text": "Dievas",
+    "variants": [
+      "Dievo",
+      "Dievui",
+      "Dievą",
+      "Dievu",
+      "Dieve"
+    ],
+    "ipa": "ˈdʲiɛvɐs",
+    "respelling_en": "DYEH-vahs",
+    "stress": "DIE-vas",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "Dievas Senelis",
+    "variants": [
+      "Dievo Senelio",
+      "Dievui Seneliui",
+      "Dievą Senelį"
+    ],
+    "ipa": "ˈdʲiɛvɐs sʲɛˈnʲælʲɪs",
+    "respelling_en": "DYEH-vahs seh-NEH-lis",
+    "stress": "DIE-vas se-NE-lis",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "Perkūnas",
+    "variants": [
+      "Perkūno",
+      "Perkūnui",
+      "Perkūną",
+      "Perkūnu",
+      "Perkūne"
+    ],
+    "ipa": "pʲɛrˈkuːnɐs",
+    "respelling_en": "per-KOO-nahs",
+    "stress": "per-KŪ-nas",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Perkunas"
+    ]
+  },
+  {
+    "text": "Perkūno Rūstybė",
+    "variants": [
+      "Perkūno Rūstybės",
+      "Perkūno Rūstybei",
+      "Perkūno Rūstybę"
+    ],
+    "ipa": "pʲɛrˈkuːno ruːsˈtʲiːbʲeː",
+    "respelling_en": "per-KOO-noh roos-TEE-bay",
+    "stress": "per-KŪ-no rūs-TY-bė",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Perkuno Rustybe"
+    ]
+  },
+  {
+    "text": "Velnias",
+    "variants": [
+      "Velnio",
+      "Velniui",
+      "Velnią",
+      "Velniu",
+      "Velnyje"
+    ],
+    "ipa": "ˈvʲælʲnʲɐs",
+    "respelling_en": "VEL-nyahs",
+    "stress": "VEL-nias",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "Laima",
+    "variants": [
+      "Laimos",
+      "Laimai",
+      "Laimą",
+      "Laimoje"
+    ],
+    "ipa": "ˈɫɐɪmɐ",
+    "respelling_en": "LYE-mah",
+    "stress": "LAI-ma",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "Dalia",
+    "variants": [
+      "Dalios",
+      "Daliai",
+      "Dalią"
+    ],
+    "ipa": "ˈdaːlʲɛ",
+    "respelling_en": "DAH-lyah",
+    "stress": "DA-lia",
+    "category": "deity",
+    "verify": true
+  },
+  {
+    "text": "Giltinė",
+    "variants": [
+      "Giltinės",
+      "Giltinei",
+      "Giltinę"
+    ],
+    "ipa": "ɡʲɪlʲˈtʲɪnʲeː",
+    "respelling_en": "gil-TIH-nay",
+    "stress": "gil-TI-nė",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Giltine"
+    ]
+  },
+  {
+    "text": "Žemyna",
+    "variants": [
+      "Žemynos",
+      "Žemynai",
+      "Žemyną",
+      "Žemynoje"
+    ],
+    "ipa": "ʒʲɛˈmʲiːnɐ",
+    "respelling_en": "zheh-MEE-nah",
+    "stress": "že-MY-na",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Zemyna",
+      "Zhemyna"
+    ]
+  },
+  {
+    "text": "Saulė",
+    "variants": [
+      "Saulės",
+      "Saulei",
+      "Saulę"
+    ],
+    "ipa": "ˈsɐʊlʲeː",
+    "respelling_en": "SOW-lay",
+    "stress": "SAU-lė",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Saule"
+    ]
+  },
+  {
+    "text": "Mėnuo",
+    "variants": [
+      "Mėnesio",
+      "Mėnuliui",
+      "Mėnulis"
+    ],
+    "ipa": "ˈmʲeːnʊɔ",
+    "respelling_en": "MAY-nwoh",
+    "stress": "MĖ-nuo",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Menuo"
+    ]
+  },
+  {
+    "text": "Aušrinė",
+    "variants": [
+      "Aušrinės",
+      "Aušrinei",
+      "Aušrinę"
+    ],
+    "ipa": "ɐʊʃˈrʲɪnʲeː",
+    "respelling_en": "owsh-RIH-nay",
+    "stress": "auš-RI-nė",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Ausrine",
+      "Aushrine"
+    ]
+  },
+  {
+    "text": "Gabija",
+    "variants": [
+      "Gabijos",
+      "Gabijai",
+      "Gabiją"
+    ],
+    "ipa": "ɡɐˈbʲɪjɐ",
+    "respelling_en": "gah-BIH-yah",
+    "stress": "ga-BI-ja",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "Bangpūtys",
+    "variants": [
+      "Bangpūčio",
+      "Bangpūčiui",
+      "Bangpūtį"
+    ],
+    "ipa": "bɐŋkˈpuːtʲiːs",
+    "respelling_en": "bahng-POO-tees",
+    "stress": "bang-PŪ-tys",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Bangputys"
+    ]
+  },
+  {
+    "text": "Vėjopatis",
+    "variants": [
+      "Vėjopačio",
+      "Vėjopačiui",
+      "Vėjopatį"
+    ],
+    "ipa": "vʲeːˈjoːpɐtʲɪs",
+    "respelling_en": "vay-YOH-pah-tis",
+    "stress": "vė-JO-pa-tis",
+    "category": "deity",
+    "verify": true,
+    "ascii": [
+      "Vejopatis"
+    ]
+  },
+  {
+    "text": "Praurimė",
+    "variants": [
+      "Praurimės",
+      "Praurimei",
+      "Praurimę"
+    ],
+    "ipa": "prɐʊˈrʲɪmʲeː",
+    "respelling_en": "prow-RIH-may",
+    "stress": "prau-RI-mė",
+    "category": "deity",
+    "verify": true,
+    "ascii": [
+      "Praurime"
+    ]
+  },
+  {
+    "text": "Medeina",
+    "variants": [
+      "Medeinos",
+      "Medeinai",
+      "Medeiną"
+    ],
+    "ipa": "mʲɛˈdʲɛɪnɐ",
+    "respelling_en": "meh-DAY-nah",
+    "stress": "me-DEI-na",
+    "category": "deity",
+    "verify": true
+  },
+  {
+    "text": "Jūratė",
+    "variants": [
+      "Jūratės",
+      "Jūratei",
+      "Jūratę",
+      "Jūrate"
+    ],
+    "ipa": "ˈjuːrɐtʲeː",
+    "respelling_en": "YOO-rah-tay",
+    "stress": "JŪ-ra-tė",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Jurate"
+    ]
+  },
+  {
+    "text": "Kastytis",
+    "variants": [
+      "Kastyčio",
+      "Kastyčiui",
+      "Kastytį"
+    ],
+    "ipa": "kɐsˈtʲiːtʲɪs",
+    "respelling_en": "kahs-TEE-tis",
+    "stress": "kas-TY-tis",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "Gintaro Karalienė",
+    "variants": [
+      "Gintaro Karalienės",
+      "Gintaro Karalienei",
+      "Gintaro Karalienę",
+      "Gintaro Karaliene"
+    ],
+    "ipa": "ˈɡʲɪntɐro kɐrɐˈlʲiɛnʲeː",
+    "respelling_en": "GIN-tah-roh kah-rah-LYEH-nay",
+    "stress": "GIN-ta-ro ka-ra-LIE-nė",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Gintaro Karaliene"
+    ]
+  },
+  {
+    "text": "Šaknų Motina",
+    "variants": [
+      "Šaknų Motinos",
+      "Šaknų Motinai",
+      "Šaknų Motiną",
+      "Šaknų Motina"
+    ],
+    "ipa": "ʃɐkˈnuː ˈmoːtʲɪnɐ",
+    "respelling_en": "shahk-NOO MOH-tih-nah",
+    "stress": "šak-NŲ MO-ti-na",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Saknu Motina",
+      "Shaknu Motina"
+    ]
+  },
+  {
+    "text": "Šešėlių Pardavėjas",
+    "variants": [
+      "Šešėlių Pardavėjo",
+      "Šešėlių Pardavėjui",
+      "Šešėlių Pardavėją",
+      "Šešėlių Pardavėju"
+    ],
+    "ipa": "ʃɛˈʃeːlʲuː pɐrdɐˈvʲeːjɐs",
+    "respelling_en": "sheh-SHAY-lyoo par-dah-VAY-yahs",
+    "stress": "še-ŠĖ-lių par-da-VĖ-jas",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Seseliu Pardavejas",
+      "Shesheliu Pardavejas"
+    ]
+  },
+  {
+    "text": "Geležinis Šventasis",
+    "variants": [
+      "Geležinio Šventojo",
+      "Geležiniam Šventajam",
+      "Geležinį Šventąjį"
+    ],
+    "ipa": "ɡʲɛlʲɛˈʒʲɪnʲɪs ʃvʲɛnˈtaːsʲɪs",
+    "respelling_en": "geh-leh-ZHIH-nis shven-TAH-sis",
+    "stress": "ge-le-ŽI-nis šven-TA-sis",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Gelezinis Sventasis",
+      "Gelezhinis Shventasis"
+    ]
+  },
+  {
+    "text": "Baltoji Tyla",
+    "variants": [
+      "Baltosios Tylos",
+      "Baltajai Tylai",
+      "Baltąją Tylą"
+    ],
+    "ipa": "bɐɫˈtoːjɪ tʲiːˈɫɐ",
+    "respelling_en": "bahl-TOH-yih tee-LAH",
+    "stress": "bal-TO-ji ty-LA",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "Stepių Alkis",
+    "variants": [
+      "Stepių Alkio",
+      "Stepių Alkiui",
+      "Stepių Alkį"
+    ],
+    "ipa": "ˈstʲæːpʲuː ˈɐlʲkʲɪs",
+    "respelling_en": "STEH-pyoo AHL-kis",
+    "stress": "STE-pių AL-kis",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Stepiu Alkis"
+    ]
+  },
+  {
+    "text": "Aukso Rijūnas",
+    "variants": [
+      "Aukso Rijūno",
+      "Aukso Rijūnui",
+      "Aukso Rijūną"
+    ],
+    "ipa": "ˈɐʊkso rʲɪˈjuːnɐs",
+    "respelling_en": "OWK-soh rih-YOO-nahs",
+    "stress": "AUK-so ri-JŪ-nas",
+    "category": "deity",
+    "verify": false,
+    "ascii": [
+      "Aukso Rijunas"
+    ]
+  },
+  {
+    "text": "Erdene-Chuluu",
+    "variants": [],
+    "ipa": "ˈɛrdəɴ ˈtsʰɔɮʊː",
+    "respelling_en": "ER-deh-neh CHOH-loo",
+    "stress": "ER-de-ne CHO-luu",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "Sanctus Ferrum",
+    "variants": [],
+    "ipa": "ˈsaŋktʊs ˈfɛrrʊm",
+    "respelling_en": "SAHNK-toos FER-room",
+    "stress": "SANC-tus FER-rum",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "Mercator-Rex",
+    "variants": [],
+    "ipa": "mɛrˈkaːtɔr ˈrɛks",
+    "respelling_en": "mer-KAH-tor REX",
+    "stress": "MER-ca-tor REX",
+    "category": "deity",
+    "verify": false
+  },
+  {
+    "text": "laumė",
+    "variants": [
+      "laumės",
+      "laumių",
+      "laumėms",
+      "laumes"
+    ],
+    "ipa": "ˈɫɐʊmʲeː",
+    "respelling_en": "LOW-may",
+    "stress": "LAU-mė",
+    "category": "spirit",
+    "verify": false,
+    "ascii": [
+      "laume"
+    ]
+  },
+  {
+    "text": "aitvaras",
+    "variants": [
+      "aitvaro",
+      "aitvarui",
+      "aitvarą",
+      "aitvarai",
+      "aitvarų"
+    ],
+    "ipa": "ˈɐɪtvɐrɐs",
+    "respelling_en": "ITE-vah-rahs",
+    "stress": "AIT-va-ras",
+    "category": "spirit",
+    "verify": false
+  },
+  {
+    "text": "kaukas",
+    "variants": [
+      "kauko",
+      "kaukai",
+      "kaukų"
+    ],
+    "ipa": "ˈkɐʊkɐs",
+    "respelling_en": "KOW-kahs",
+    "stress": "KAU-kas",
+    "category": "spirit",
+    "verify": false
+  },
+  {
+    "text": "žaltys",
+    "variants": [
+      "žalčio",
+      "žalčiui",
+      "žaltį",
+      "žalčiu",
+      "žalčiai",
+      "žalčių"
+    ],
+    "ipa": "ʒɐlʲˈtʲiːs",
+    "respelling_en": "zhahl-TEES",
+    "stress": "žal-TYS",
+    "category": "spirit",
+    "verify": false,
+    "ascii": [
+      "zaltys",
+      "zhaltys"
+    ],
+    "stress_notes": "Paradigm 4: acc. žaltį (ŽAL-tį), nom. pl. žalčiaĩ."
+  },
+  {
+    "text": "vilkatas",
+    "variants": [
+      "vilkato",
+      "vilkatai",
+      "vilkatų"
+    ],
+    "ipa": "vʲɪlʲˈkaːtɐs",
+    "respelling_en": "vil-KAH-tahs",
+    "stress": "vil-KA-tas",
+    "category": "spirit",
+    "verify": false
+  },
+  {
+    "text": "vilkolakis",
+    "variants": [
+      "vilkolakio",
+      "vilkolakiai"
+    ],
+    "ipa": "vʲɪlʲˈkoːɫɐkʲɪs",
+    "respelling_en": "vil-KOH-lah-kis",
+    "stress": "vil-KO-la-kis",
+    "category": "spirit",
+    "verify": false
+  },
+  {
+    "text": "vėlė",
+    "variants": [
+      "vėlės",
+      "vėlių",
+      "vėlėms",
+      "vėles"
+    ],
+    "ipa": "vʲeːˈlʲeː",
+    "respelling_en": "vay-LAY",
+    "stress": "vė-LĖ",
+    "category": "spirit",
+    "verify": false,
+    "ascii": [
+      "vele"
+    ],
+    "stress_notes": "Paradigm 4: nom. pl. vė́lės, acc. sg. vė̃lę stress the first syllable."
+  },
+  {
+    "text": "ragana",
+    "variants": [
+      "raganos",
+      "raganų",
+      "raganą"
+    ],
+    "ipa": "ˈraːɡɐnɐ",
+    "respelling_en": "RAH-gah-nah",
+    "stress": "RA-ga-na",
+    "category": "spirit",
+    "verify": false
+  },
+  {
+    "text": "dvasios",
+    "variants": [
+      "dvasia",
+      "dvasių",
+      "dvasioms"
+    ],
+    "ipa": "ˈdvaːsʲos",
+    "respelling_en": "DVAH-syohs",
+    "stress": "DVA-sios",
+    "category": "spirit",
+    "verify": false
+  },
+  {
+    "text": "Eglė žalčių karalienė",
+    "variants": [
+      "Eglės žalčių karalienės"
+    ],
+    "ipa": "ɛɡˈlʲeː ʒɐlʲˈtʃʲuː kɐrɐˈlʲiɛnʲeː",
+    "respelling_en": "eg-LAY zhahl-CHOO kah-rah-LYEH-nay",
+    "stress": "eg-LĖ žal-ČIŲ ka-ra-LIE-nė",
+    "category": "spirit",
+    "verify": false,
+    "ascii": [
+      "Egle zalciu karaliene",
+      "Egle zhalchiu karaliene"
+    ]
+  },
+  {
+    "text": "Žilvinas",
+    "variants": [],
+    "ipa": "ˈʒʲɪlʲvʲɪnɐs",
+    "respelling_en": "ZHIL-vih-nahs",
+    "stress": "ŽIL-vi-nas",
+    "category": "spirit",
+    "verify": true,
+    "ascii": [
+      "Zilvinas",
+      "Zhilvinas"
+    ]
+  },
+  {
+    "text": "Galios",
+    "variants": [
+      "galia",
+      "galių"
+    ],
+    "ipa": "ˈɡaːlʲos",
+    "respelling_en": "GAH-lyohs",
+    "stress": "GA-lios",
+    "category": "spirit",
+    "verify": false
+  },
+  {
+    "text": "Vilnius",
+    "variants": [
+      "Vilniaus",
+      "Vilniui",
+      "Vilnių",
+      "Vilniumi",
+      "Vilniuje"
+    ],
+    "ipa": "ˈvʲɪlʲnʲʊs",
+    "respelling_en": "VIL-nyoos",
+    "stress": "VIL-nius",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Trakai",
+    "variants": [
+      "Trakų",
+      "Trakams",
+      "Trakus",
+      "Trakais",
+      "Trakuose"
+    ],
+    "ipa": "trɐˈkɐɪ",
+    "respelling_en": "trah-KYE",
+    "stress": "tra-KAI",
+    "category": "place",
+    "verify": false,
+    "stress_notes": "Paradigm 4: Trakų̃, Trakáms, Trakùs, Trakaĩs, Trakuosè, all end-stressed."
+  },
+  {
+    "text": "Senieji Trakai",
+    "variants": [
+      "Senųjų Trakų",
+      "Senuosiuose Trakuose"
+    ],
+    "ipa": "sʲɛˈnʲiɛjɪ trɐˈkɐɪ",
+    "respelling_en": "seh-NYEH-yih trah-KYE",
+    "stress": "se-NIE-ji tra-KAI",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Galvė",
+    "variants": [
+      "Galvės",
+      "Galvėje",
+      "Galvę"
+    ],
+    "ipa": "ɡɐlʲˈvʲeː",
+    "respelling_en": "gahl-VAY",
+    "stress": "gal-VĖ",
+    "category": "place",
+    "verify": true,
+    "ascii": [
+      "Galve"
+    ]
+  },
+  {
+    "text": "Krėva",
+    "variants": [
+      "Krėvos",
+      "Krėvai",
+      "Krėvą",
+      "Krėvoje"
+    ],
+    "ipa": "ˈkrʲeːvɐ",
+    "respelling_en": "KRAY-vah",
+    "stress": "KRĖ-va",
+    "category": "place",
+    "verify": true,
+    "ascii": [
+      "Kreva"
+    ]
+  },
+  {
+    "text": "Palanga",
+    "variants": [
+      "Palangos",
+      "Palangai",
+      "Palangą",
+      "Palangoje"
+    ],
+    "ipa": "pɐɫɐŋˈɡɐ",
+    "respelling_en": "pah-lahn-GAH",
+    "stress": "pa-lan-GA",
+    "category": "place",
+    "verify": false,
+    "stress_notes": "Probably paradigm 3b: dat. Pãlangai and acc. Pãlangą stress the first syllable (verify)."
+  },
+  {
+    "text": "Birutės kalnas",
+    "variants": [
+      "Birutės kalno",
+      "Birutės kalne"
+    ],
+    "ipa": "bʲɪˈrʊtʲeːs ˈkaːɫnɐs",
+    "respelling_en": "bih-ROO-tays KAHL-nahs",
+    "stress": "bi-RU-tės KAL-nas",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Birutes kalnas"
+    ]
+  },
+  {
+    "text": "Šventaragis",
+    "variants": [
+      "Šventaragio",
+      "Šventaragio slėnis",
+      "Šventaragio slėnyje"
+    ],
+    "ipa": "ʃvʲɛntɐˈraːɡʲɪs",
+    "respelling_en": "shven-tah-RAH-gis",
+    "stress": "šven-ta-RA-gis",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Sventaragis",
+      "Shventaragis"
+    ]
+  },
+  {
+    "text": "Gedimino kalnas",
+    "variants": [],
+    "ipa": "ɡʲɛˈdʲɪmʲɪno ˈkaːɫnɐs",
+    "respelling_en": "geh-DIH-mih-noh KAHL-nahs",
+    "stress": "ge-DI-mi-no KAL-nas",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Kreivoji pilis",
+    "variants": [
+      "Kreivosios pilies"
+    ],
+    "ipa": "krʲɛɪˈvoːjɪ pʲɪˈlʲɪs",
+    "respelling_en": "kray-VOH-yih pih-LIS",
+    "stress": "krei-VO-ji pi-LIS",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Kaunas",
+    "variants": [
+      "Kauno",
+      "Kaunui",
+      "Kauną",
+      "Kaunu",
+      "Kaune"
+    ],
+    "ipa": "ˈkɐʊnɐs",
+    "respelling_en": "KOW-nahs",
+    "stress": "KAU-nas",
+    "category": "place",
+    "verify": false,
+    "stress_notes": "Paradigm 4: instr. Kaunù and loc. Kaunè are end-stressed; elsewhere KAU-."
+  },
+  {
+    "text": "Kernavė",
+    "variants": [
+      "Kernavės",
+      "Kernavėje"
+    ],
+    "ipa": "kʲɛrnɐˈvʲeː",
+    "respelling_en": "ker-nah-VAY",
+    "stress": "ker-na-VĖ",
+    "category": "place",
+    "verify": true,
+    "ascii": [
+      "Kernave"
+    ]
+  },
+  {
+    "text": "Žemaitija",
+    "variants": [
+      "Žemaitijos",
+      "Žemaitijai",
+      "Žemaitiją",
+      "Žemaitijoje",
+      "žemaičiai"
+    ],
+    "ipa": "ʒʲɛˈmɐɪtʲɪjɐ",
+    "respelling_en": "zheh-MYE-tih-yah",
+    "stress": "že-MAI-ti-ja",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Zemaitija",
+      "Zhemaitija"
+    ]
+  },
+  {
+    "text": "Aukštaitija",
+    "variants": [
+      "Aukštaitijos",
+      "Aukštaitijoje"
+    ],
+    "ipa": "ɐʊkʃˈtɐɪtʲɪjɐ",
+    "respelling_en": "owksh-TYE-tih-yah",
+    "stress": "aukš-TAI-ti-ja",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Aukstaitija",
+      "Aukshtaitija"
+    ]
+  },
+  {
+    "text": "Dubysa",
+    "variants": [
+      "Dubysos",
+      "Dubysą"
+    ],
+    "ipa": "dʊbʲiːˈsɐ",
+    "respelling_en": "doo-bee-SAH",
+    "stress": "du-by-SA",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Nevėžis",
+    "variants": [
+      "Nevėžio",
+      "Nevėžį"
+    ],
+    "ipa": "nʲɛˈvʲeːʒʲɪs",
+    "respelling_en": "neh-VAY-zhis",
+    "stress": "ne-VĖ-žis",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Nevezis",
+      "Nevezhis"
+    ]
+  },
+  {
+    "text": "Nemunas",
+    "variants": [
+      "Nemuno",
+      "Nemunui",
+      "Nemuną",
+      "Nemunu",
+      "Nemune"
+    ],
+    "ipa": "ˈnʲæːmʊnɐs",
+    "respelling_en": "NEH-moo-nahs",
+    "stress": "NE-mu-nas",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Neris",
+    "variants": [
+      "Neries",
+      "Neriai",
+      "Nerį",
+      "Nerimi",
+      "Neryje"
+    ],
+    "ipa": "nʲɛˈrʲɪs",
+    "respelling_en": "neh-RIS",
+    "stress": "ne-RIS",
+    "category": "place",
+    "verify": false,
+    "stress_notes": "Paradigm 4: acc. Nerį (NE-rį), otherwise end-stressed."
+  },
+  {
+    "text": "Vilnia",
+    "variants": [
+      "Vilnios",
+      "Vilnelė"
+    ],
+    "ipa": "ˈvʲɪlʲnʲɛ",
+    "respelling_en": "VIL-nyah",
+    "stress": "VIL-nia",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Jurbarkas",
+    "variants": [
+      "Jurbarko",
+      "Jurbarką"
+    ],
+    "ipa": "ˈjʊrbɐrkɐs",
+    "respelling_en": "YOOR-bahr-kahs",
+    "stress": "JUR-bar-kas",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Ragainė",
+    "variants": [
+      "Ragainės"
+    ],
+    "ipa": "rɐɡɐɪˈnʲeː",
+    "respelling_en": "rah-guy-NAY",
+    "stress": "ra-gai-NĖ",
+    "category": "place",
+    "verify": true,
+    "ascii": [
+      "Ragaine"
+    ]
+  },
+  {
+    "text": "Marienburgas",
+    "variants": [
+      "Marienburgo",
+      "Marienburge",
+      "Malborkas",
+      "Malborko",
+      "Marienburg",
+      "Malbork"
+    ],
+    "ipa": "mɐrʲɪɛnˈbʊrɡɐs",
+    "respelling_en": "mah-ryen-BOOR-gahs",
+    "stress": "ma-ri-en-BUR-gas",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Tepliava",
+    "variants": [
+      "Tepliavos",
+      "Tepliavoje",
+      "Tapiau"
+    ],
+    "ipa": "ˈtʲæːplʲɛvɐ",
+    "respelling_en": "TEP-lyah-vah",
+    "stress": "TEP-lia-va",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Karaliaučius",
+    "variants": [
+      "Karaliaučiaus",
+      "Karaliaučiuje",
+      "Königsberg"
+    ],
+    "ipa": "kɐrɐˈlʲæʊtʃʲʊs",
+    "respelling_en": "kah-rah-LYOW-chyoos",
+    "stress": "ka-ra-LIAU-čius",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Karaliaucius",
+      "Karaliauchius"
+    ]
+  },
+  {
+    "text": "Įsrūtis",
+    "variants": [
+      "Įsrūčio"
+    ],
+    "ipa": "iːsˈruːtʲɪs",
+    "respelling_en": "ees-ROO-tis",
+    "stress": "įs-RŪ-tis",
+    "category": "place",
+    "verify": true,
+    "ascii": [
+      "Isrutis"
+    ]
+  },
+  {
+    "text": "Klaipėda",
+    "variants": [
+      "Klaipėdos"
+    ],
+    "ipa": "ˈkɫɐɪpʲeːdɐ",
+    "respelling_en": "KLYE-pay-dah",
+    "stress": "KLAI-pė-da",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Klaipeda"
+    ]
+  },
+  {
+    "text": "Rambynas",
+    "variants": [
+      "Rambyno"
+    ],
+    "ipa": "rɐmˈbʲiːnɐs",
+    "respelling_en": "rahm-BEE-nahs",
+    "stress": "ram-BY-nas",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Šatrija",
+    "variants": [
+      "Šatrijos"
+    ],
+    "ipa": "ˈʃaːtrʲɪjɐ",
+    "respelling_en": "SHAHT-rih-yah",
+    "stress": "ŠAT-ri-ja",
+    "category": "place",
+    "verify": true,
+    "ascii": [
+      "Satrija",
+      "Shatrija"
+    ]
+  },
+  {
+    "text": "Medininkai",
+    "variants": [
+      "Medininkų"
+    ],
+    "ipa": "mʲɛdʲɪˈnʲɪŋkɐɪ",
+    "respelling_en": "meh-dih-NIN-kye",
+    "stress": "me-di-NIN-kai",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Varniai",
+    "variants": [
+      "Varnių"
+    ],
+    "ipa": "ˈvarʲnʲɛɪ",
+    "respelling_en": "VAR-nyay",
+    "stress": "VAR-niai",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Dovydiškės",
+    "variants": [
+      "Dovydiškių",
+      "Dovydiškėse"
+    ],
+    "ipa": "doˈviːdʲɪʃkʲeːs",
+    "respelling_en": "doh-VEE-dish-kays",
+    "stress": "do-VY-diš-kės",
+    "category": "place",
+    "verify": true,
+    "ascii": [
+      "Dovydiskes",
+      "Dovydishkes"
+    ]
+  },
+  {
+    "text": "Astravas",
+    "variants": [
+      "Astravo",
+      "Ostrovas",
+      "Ostrów"
+    ],
+    "ipa": "ˈaːstrɐvɐs",
+    "respelling_en": "AHS-trah-vahs",
+    "stress": "AS-tra-vas",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Vorskla",
+    "variants": [
+      "Vorsklos",
+      "Vorskloje"
+    ],
+    "ipa": "ˈvoːrsklɐ",
+    "respelling_en": "VOR-sklah",
+    "stress": "VOR-skla",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Žalgiris",
+    "variants": [
+      "Žalgirio",
+      "Žalgiryje",
+      "Grunwald"
+    ],
+    "ipa": "ʒɐlʲˈɡʲɪrʲɪs",
+    "respelling_en": "zhahl-GIH-ris",
+    "stress": "žal-GI-ris",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Zalgiris",
+      "Zhalgiris"
+    ]
+  },
+  {
+    "text": "Luckas",
+    "variants": [
+      "Lucko",
+      "Lucke",
+      "Lutsk"
+    ],
+    "ipa": "ˈɫʊtskɐs",
+    "respelling_en": "LOOTS-kahs",
+    "stress": "LUC-kas",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Ašmena",
+    "variants": [
+      "Ašmenos",
+      "Ašmenoje",
+      "Ashmyany"
+    ],
+    "ipa": "ˈaːʃmʲɛnɐ",
+    "respelling_en": "AHSH-meh-nah",
+    "stress": "AŠ-me-na",
+    "category": "place",
+    "verify": true,
+    "ascii": [
+      "Asmena",
+      "Ashmena"
+    ]
+  },
+  {
+    "text": "Naugardukas",
+    "variants": [
+      "Naugarduko"
+    ],
+    "ipa": "nɐʊɡɐrˈdʊkɐs",
+    "respelling_en": "now-gahr-DOO-kahs",
+    "stress": "nau-gar-DU-kas",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Lyda",
+    "variants": [
+      "Lydos"
+    ],
+    "ipa": "ˈlʲiːdɐ",
+    "respelling_en": "LEE-dah",
+    "stress": "LY-da",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Gardinas",
+    "variants": [
+      "Gardino",
+      "Gardine"
+    ],
+    "ipa": "ˈɡaːrdʲɪnɐs",
+    "respelling_en": "GAHR-dih-nahs",
+    "stress": "GAR-di-nas",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Brasta",
+    "variants": [
+      "Brastos"
+    ],
+    "ipa": "ˈbraːstɐ",
+    "respelling_en": "BRAHS-tah",
+    "stress": "BRAS-ta",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Polockas",
+    "variants": [
+      "Polocko"
+    ],
+    "ipa": "ˈpoːɫɔtskɐs",
+    "respelling_en": "POH-lots-kahs",
+    "stress": "PO-loc-kas",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Vitebskas",
+    "variants": [
+      "Vitebsko"
+    ],
+    "ipa": "ˈvʲɪtʲɛpskɐs",
+    "respelling_en": "VIH-teps-kahs",
+    "stress": "VI-tebs-kas",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Smolenskas",
+    "variants": [
+      "Smolensko"
+    ],
+    "ipa": "smoˈlʲænskɐs",
+    "respelling_en": "smoh-LENS-kahs",
+    "stress": "smo-LENS-kas",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Kijevas",
+    "variants": [
+      "Kijevo",
+      "Kijeve"
+    ],
+    "ipa": "ˈkʲɪjɛvɐs",
+    "respelling_en": "KIH-yeh-vahs",
+    "stress": "KI-je-vas",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Krokuva",
+    "variants": [
+      "Krokuvos",
+      "Krokuvoje",
+      "Kraków"
+    ],
+    "ipa": "krokʊˈvɐ",
+    "respelling_en": "kroh-koo-VAH",
+    "stress": "kro-ku-VA",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Ryga",
+    "variants": [
+      "Rygos",
+      "Rygoje"
+    ],
+    "ipa": "rʲiːˈɡɐ",
+    "respelling_en": "ree-GAH",
+    "stress": "ry-GA",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Prūsija",
+    "variants": [
+      "Prūsijos",
+      "Prūsijoje"
+    ],
+    "ipa": "ˈpruːsʲɪjɐ",
+    "respelling_en": "PROO-sih-yah",
+    "stress": "PRŪ-si-ja",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Prusija"
+    ]
+  },
+  {
+    "text": "Livonija",
+    "variants": [
+      "Livonijos"
+    ],
+    "ipa": "lʲɪˈvoːnʲɪjɐ",
+    "respelling_en": "lih-VOH-nih-yah",
+    "stress": "li-VO-ni-ja",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Mazovija",
+    "variants": [
+      "Mazovijos",
+      "Mazovijoje"
+    ],
+    "ipa": "mɐˈzoːvʲɪjɐ",
+    "respelling_en": "mah-ZOH-vih-yah",
+    "stress": "ma-ZO-vi-ja",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Romuva",
+    "variants": [
+      "Romuvos",
+      "Romuvoje"
+    ],
+    "ipa": "ˈroːmʊvɐ",
+    "respelling_en": "ROH-moo-vah",
+    "stress": "RO-mu-va",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Ukmergė",
+    "variants": [
+      "Ukmergės"
+    ],
+    "ipa": "ˈʊkmʲɛrʲɡʲeː",
+    "respelling_en": "OOK-mer-gay",
+    "stress": "UK-mer-gė",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Ukmerge"
+    ]
+  },
+  {
+    "text": "Pabaiskas",
+    "variants": [
+      "Pabaisko"
+    ],
+    "ipa": "pɐˈbɐɪskɐs",
+    "respelling_en": "pah-BICE-kahs",
+    "stress": "pa-BAIS-kas",
+    "category": "place",
+    "verify": false
+  },
+  {
+    "text": "Šventoji",
+    "variants": [
+      "Šventosios"
+    ],
+    "ipa": "ʃvʲɛnˈtoːjɪ",
+    "respelling_en": "shven-TOH-yih",
+    "stress": "šven-TO-ji",
+    "category": "place",
+    "verify": false,
+    "ascii": [
+      "Sventoji",
+      "Shventoji"
+    ]
+  },
+  {
+    "text": "Strėva",
+    "variants": [
+      "Strėvos"
+    ],
+    "ipa": "ˈstrʲeːvɐ",
+    "respelling_en": "STRAY-vah",
+    "stress": "STRĖ-va",
+    "category": "place",
+    "verify": true,
+    "ascii": [
+      "Streva"
+    ]
+  },
+  {
+    "text": "Salynas",
+    "variants": [
+      "Salyno"
+    ],
+    "ipa": "sɐˈlʲiːnɐs",
+    "respelling_en": "sah-LEE-nahs",
+    "stress": "sa-LY-nas",
+    "category": "place",
+    "verify": true
+  },
+  {
+    "text": "Senovės Kalba",
+    "variants": [
+      "Senovės Kalbos",
+      "Senovės Kalbai",
+      "Senovės Kalbą",
+      "Senovės Kalboje"
+    ],
+    "ipa": "sʲɛˈnoːvʲeːs kɐɫˈbɐ",
+    "respelling_en": "seh-NOH-vays kahl-BAH",
+    "stress": "se-NO-vės kal-BA",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Senoves Kalba"
+    ]
+  },
+  {
+    "text": "Senovės Sutartis",
+    "variants": [
+      "Senovės Sutarties",
+      "Senovės Sutarčiai",
+      "Senovės Sutartį",
+      "Senovės Sutartimi",
+      "Senovės Sutartyje"
+    ],
+    "ipa": "sʲɛˈnoːvʲeːs sʊtɐrˈtʲɪs",
+    "respelling_en": "seh-NOH-vays soo-tahr-TIS",
+    "stress": "se-NO-vės su-tar-TIS",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Senoves Sutartis"
+    ]
+  },
+  {
+    "text": "Tylioji Sutartis",
+    "variants": [
+      "Tyliosios Sutarties",
+      "Tyliąją Sutartį"
+    ],
+    "ipa": "tʲiːˈlʲoːjɪ sʊtɐrˈtʲɪs",
+    "respelling_en": "tee-LYOH-yih soo-tahr-TIS",
+    "stress": "ty-LIO-ji su-tar-TIS",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Atsaistymas",
+    "variants": [
+      "Atsaistymo"
+    ],
+    "ipa": "ɐtˈsɐɪstʲiːmɐs",
+    "respelling_en": "aht-SICE-tee-mahs",
+    "stress": "at-SAIS-ty-mas",
+    "category": "term",
+    "verify": true
+  },
+  {
+    "text": "slaptas vardas",
+    "variants": [
+      "slapto vardo",
+      "slaptą vardą",
+      "slaptuoju vardu"
+    ],
+    "ipa": "ˈsɫaːptɐs ˈvarˑdɐs",
+    "respelling_en": "SLAHP-tahs VAR-dahs",
+    "stress": "SLAP-tas VAR-das",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Penkių Balsų Šauksmas",
+    "variants": [],
+    "ipa": "pʲɛŋˈkʲuː bɐɫˈsuː ˈʃɐʊksmɐs",
+    "respelling_en": "pen-KYOO bahl-SOO SHOWKS-mahs",
+    "stress": "pen-KIŲ bal-SŲ ŠAUKS-mas",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Penkiu Balsu Sauksmas",
+      "Penkiu Balsu Shauksmas"
+    ]
+  },
+  {
+    "text": "Žymė",
+    "variants": [
+      "Žymės",
+      "Žymę"
+    ],
+    "ipa": "ʒʲiːˈmʲeː",
+    "respelling_en": "zhee-MAY",
+    "stress": "žy-MĖ",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Zyme",
+      "Zhyme"
+    ]
+  },
+  {
+    "text": "Sandėris",
+    "variants": [
+      "Sandėrio",
+      "Sandėrį",
+      "Sandėriai"
+    ],
+    "ipa": "sɐnˈdʲeːrʲɪs",
+    "respelling_en": "sahn-DAY-ris",
+    "stress": "san-DĖ-ris",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Sanderis"
+    ]
+  },
+  {
+    "text": "laidas",
+    "variants": [
+      "laido",
+      "laidu"
+    ],
+    "ipa": "ˈɫɐɪdɐs",
+    "respelling_en": "LYE-dahs",
+    "stress": "LAI-das",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Prigimtis",
+    "variants": [],
+    "ipa": "prʲɪɡʲɪmʲˈtʲɪs",
+    "respelling_en": "prih-gim-TIS",
+    "stress": "pri-gim-TIS",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Pažymėtas",
+    "variants": [],
+    "ipa": "pɐʒʲiːˈmʲeːtɐs",
+    "respelling_en": "pah-zhee-MAY-tahs",
+    "stress": "pa-žy-MĖ-tas",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Pazymetas",
+      "Pazhymetas"
+    ]
+  },
+  {
+    "text": "Surištas",
+    "variants": [],
+    "ipa": "ˈsʊrʲɪʃtɐs",
+    "respelling_en": "SOO-rish-tahs",
+    "stress": "SU-riš-tas",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Suristas",
+      "Surishtas"
+    ]
+  },
+  {
+    "text": "Dagotuvės",
+    "variants": [
+      "Dagotuvių",
+      "Dagotuvėms",
+      "Dagotuves",
+      "Dagotuvėmis",
+      "Dagotuvėse"
+    ],
+    "ipa": "dɐɡoˈtʊvʲeːs",
+    "respelling_en": "dah-goh-TOO-vays",
+    "stress": "da-go-TU-vės",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Dagotuves"
+    ]
+  },
+  {
+    "text": "Rasos",
+    "variants": [
+      "Rasų",
+      "Rasoms",
+      "Rasas",
+      "Rasomis",
+      "Rasose"
+    ],
+    "ipa": "ˈraːsos",
+    "respelling_en": "RAH-sohs",
+    "stress": "RA-sos",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Joninės",
+    "variants": [
+      "Joninių",
+      "Joninėse"
+    ],
+    "ipa": "ˈjoːnʲɪnʲeːs",
+    "respelling_en": "YOH-nih-nays",
+    "stress": "JO-ni-nės",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Jonines"
+    ]
+  },
+  {
+    "text": "Kūčios",
+    "variants": [
+      "Kūčių",
+      "Kūčioms",
+      "Kūčias",
+      "Kūčiomis",
+      "Kūčiose"
+    ],
+    "ipa": "ˈkuːtʃʲos",
+    "respelling_en": "KOO-chohs",
+    "stress": "KŪ-čios",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Kucios",
+      "Kuchios"
+    ]
+  },
+  {
+    "text": "Kalėdos",
+    "variants": [
+      "Kalėdų",
+      "Kalėdoms",
+      "Kalėdas"
+    ],
+    "ipa": "kɐˈlʲeːdos",
+    "respelling_en": "kah-LAY-dohs",
+    "stress": "ka-LĖ-dos",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Kaledos"
+    ]
+  },
+  {
+    "text": "Vėlinės",
+    "variants": [
+      "Vėlinių",
+      "Vėlinėms",
+      "Vėlines",
+      "Vėlinėmis",
+      "Vėlinėse"
+    ],
+    "ipa": "ˈvʲeːlʲɪnʲeːs",
+    "respelling_en": "VAY-lih-nays",
+    "stress": "VĖ-li-nės",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Velines"
+    ]
+  },
+  {
+    "text": "Ilgės",
+    "variants": [
+      "Ilgių"
+    ],
+    "ipa": "ˈɪlʲɡʲeːs",
+    "respelling_en": "IL-gays",
+    "stress": "IL-gės",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "Ilges"
+    ]
+  },
+  {
+    "text": "Užgavėnės",
+    "variants": [
+      "Užgavėnių",
+      "Užgavėnėms",
+      "Užgavėnes"
+    ],
+    "ipa": "ʊʒɡɐˈvʲeːnʲeːs",
+    "respelling_en": "oozh-gah-VAY-nays",
+    "stress": "už-ga-VĖ-nės",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Uzgavenes",
+      "Uzhgavenes"
+    ]
+  },
+  {
+    "text": "Pusiaugavėnis",
+    "variants": [
+      "Pusiaugavėnio"
+    ],
+    "ipa": "pʊsʲæʊɡɐˈvʲeːnʲɪs",
+    "respelling_en": "poo-syow-gah-VAY-nis",
+    "stress": "pu-siau-ga-VĖ-nis",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Pusiaugavenis"
+    ]
+  },
+  {
+    "text": "Velykos",
+    "variants": [
+      "Velykų",
+      "Velykoms",
+      "Velykas"
+    ],
+    "ipa": "vʲɛˈlʲiːkos",
+    "respelling_en": "veh-LEE-kohs",
+    "stress": "ve-LY-kos",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Jorė",
+    "variants": [
+      "Jorės"
+    ],
+    "ipa": "ˈjoːrʲeː",
+    "respelling_en": "YOH-ray",
+    "stress": "JO-rė",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "Jore"
+    ]
+  },
+  {
+    "text": "Jurginės",
+    "variants": [
+      "Jurginių"
+    ],
+    "ipa": "ˈjʊrɡʲɪnʲeːs",
+    "respelling_en": "YOOR-gih-nays",
+    "stress": "JUR-gi-nės",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Jurgines"
+    ]
+  },
+  {
+    "text": "Sekminės",
+    "variants": [
+      "Sekminių"
+    ],
+    "ipa": "ˈsʲækʲmʲɪnʲeːs",
+    "respelling_en": "SEK-mih-nays",
+    "stress": "SEK-mi-nės",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Sekmines"
+    ]
+  },
+  {
+    "text": "Žolinė",
+    "variants": [
+      "Žolinės",
+      "Žolinei",
+      "Žolinę"
+    ],
+    "ipa": "ʒoˈlʲɪnʲeː",
+    "respelling_en": "zhoh-LIH-nay",
+    "stress": "žo-LI-nė",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Zoline",
+      "Zholine"
+    ]
+  },
+  {
+    "text": "Šilinė",
+    "variants": [
+      "Šilinės"
+    ],
+    "ipa": "ʃɪˈlʲɪnʲeː",
+    "respelling_en": "shih-LIH-nay",
+    "stress": "ši-LI-nė",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Siline",
+      "Shiline"
+    ]
+  },
+  {
+    "text": "Grabnyčios",
+    "variants": [
+      "Grabnyčių"
+    ],
+    "ipa": "ɡrɐbˈnʲiːtʃʲos",
+    "respelling_en": "grahb-NEE-chohs",
+    "stress": "grab-NY-čios",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Grabnycios",
+      "Grabnychios"
+    ]
+  },
+  {
+    "text": "Mykolinės",
+    "variants": [
+      "Mykolinių"
+    ],
+    "ipa": "ˈmʲiːkolʲɪnʲeːs",
+    "respelling_en": "MEE-koh-lih-nays",
+    "stress": "MY-ko-li-nės",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Mykolines"
+    ]
+  },
+  {
+    "text": "Lygiadienis",
+    "variants": [
+      "Lygiadienio"
+    ],
+    "ipa": "lʲiːˈɡʲæːdʲiɛnʲɪs",
+    "respelling_en": "lee-GYAH-dyeh-nis",
+    "stress": "ly-GIA-die-nis",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Saulėgrįža",
+    "variants": [
+      "Saulėgrįžos"
+    ],
+    "ipa": "sɐʊˈlʲeːɡrʲiːʒɐ",
+    "respelling_en": "sow-LAY-gree-zhah",
+    "stress": "sau-LĖ-grį-ža",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Saulegriza",
+      "Saulegrizha"
+    ]
+  },
+  {
+    "text": "Pusiaukojis",
+    "variants": [],
+    "ipa": "pʊˈsʲæʊkojɪs",
+    "respelling_en": "poo-SYOW-koh-yis",
+    "stress": "pu-SIAU-ko-jis",
+    "category": "term",
+    "verify": true
+  },
+  {
+    "text": "Dausos",
+    "variants": [
+      "Dausų",
+      "Dausose",
+      "Dausomis"
+    ],
+    "ipa": "ˈdɐʊsos",
+    "respelling_en": "DOW-sohs",
+    "stress": "DAU-sos",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Anapilis",
+    "variants": [
+      "Anapilio"
+    ],
+    "ipa": "ɐnɐˈpʲɪlʲɪs",
+    "respelling_en": "ah-nah-PIH-lis",
+    "stress": "a-na-PI-lis",
+    "category": "term",
+    "verify": true
+  },
+  {
+    "text": "Požemis",
+    "variants": [
+      "Požemio",
+      "Požemiai",
+      "Požemiuose"
+    ],
+    "ipa": "ˈpoːʒʲɛmʲɪs",
+    "respelling_en": "POH-zheh-mis",
+    "stress": "PO-že-mis",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Pozemis",
+      "Pozhemis"
+    ]
+  },
+  {
+    "text": "Pasaulio Medis",
+    "variants": [],
+    "ipa": "pɐˈsɐʊlʲo ˈmʲædʲɪs",
+    "respelling_en": "pah-SOW-lyoh MEH-dis",
+    "stress": "pa-SAU-lio ME-dis",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Dangus",
+    "variants": [
+      "Dangaus",
+      "Danguje"
+    ],
+    "ipa": "dɐnˈɡʊs",
+    "respelling_en": "dahn-GOOS",
+    "stress": "dan-GUS",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Stiklo Kalnas",
+    "variants": [],
+    "ipa": "ˈstʲɪkɫo ˈkaːɫnɐs",
+    "respelling_en": "STIK-loh KAHL-nahs",
+    "stress": "STIK-lo KAL-nas",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Paukščių Takas",
+    "variants": [
+      "Paukščių Taku"
+    ],
+    "ipa": "ˈpɐʊkʃtʃʲuː ˈtaːkɐs",
+    "respelling_en": "POWKSH-choo TAH-kahs",
+    "stress": "PAUKŠ-čių TA-kas",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Pauksciu Takas",
+      "Paukshchiu Takas"
+    ]
+  },
+  {
+    "text": "Sietynas",
+    "variants": [],
+    "ipa": "sʲiɛˈtʲiːnɐs",
+    "respelling_en": "syeh-TEE-nahs",
+    "stress": "sie-TY-nas",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Grįžulo Ratai",
+    "variants": [],
+    "ipa": "ˈɡrʲiːʒʊlo ˈraːtɐɪ",
+    "respelling_en": "GREE-zhoo-loh RAH-tye",
+    "stress": "GRĮ-žu-lo RA-tai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Grizulo Ratai",
+      "Grizhulo Ratai"
+    ]
+  },
+  {
+    "text": "Vakarinė",
+    "variants": [],
+    "ipa": "vɐkɐˈrʲɪnʲeː",
+    "respelling_en": "vah-kah-RIH-nay",
+    "stress": "va-ka-RI-nė",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Vakarine"
+    ]
+  },
+  {
+    "text": "Marios",
+    "variants": [
+      "Marių"
+    ],
+    "ipa": "ˈmaːrʲos",
+    "respelling_en": "MAH-ryohs",
+    "stress": "MA-rios",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "alkas",
+    "variants": [
+      "alko",
+      "alkai",
+      "alkų",
+      "alkuose"
+    ],
+    "ipa": "ˈaːɫkɐs",
+    "respelling_en": "AHL-kahs",
+    "stress": "AL-kas",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "krivis",
+    "variants": [
+      "krivio",
+      "Krivis",
+      "Krivio",
+      "Krivių Krivaitis"
+    ],
+    "ipa": "ˈkrʲɪvʲɪs",
+    "respelling_en": "KRIH-vis",
+    "stress": "KRI-vis",
+    "category": "term",
+    "verify": true
+  },
+  {
+    "text": "krivulė",
+    "variants": [
+      "krivulės"
+    ],
+    "ipa": "krʲɪˈvʊlʲeː",
+    "respelling_en": "krih-VOO-lay",
+    "stress": "kri-VU-lė",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "krivule"
+    ]
+  },
+  {
+    "text": "žynys",
+    "variants": [
+      "žynio",
+      "žyniai",
+      "žynių"
+    ],
+    "ipa": "ʒʲiːˈnʲiːs",
+    "respelling_en": "zhee-NEES",
+    "stress": "žy-NYS",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "zynys",
+      "zhynys"
+    ]
+  },
+  {
+    "text": "vaidila",
+    "variants": [
+      "vaidilos",
+      "vaidilos"
+    ],
+    "ipa": "vɐɪˈdʲɪɫɐ",
+    "respelling_en": "vye-DIH-lah",
+    "stress": "vai-DI-la",
+    "category": "term",
+    "verify": true
+  },
+  {
+    "text": "vaidilutė",
+    "variants": [
+      "vaidilutės",
+      "vaidilučių",
+      "vaidilute"
+    ],
+    "ipa": "vɐɪdʲɪˈɫʊtʲeː",
+    "respelling_en": "vye-dih-LOO-tay",
+    "stress": "vai-di-LU-tė",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "vaidilute"
+    ]
+  },
+  {
+    "text": "burtininkas",
+    "variants": [
+      "burtininkai",
+      "burtininkų"
+    ],
+    "ipa": "bʊrˈtʲɪnʲɪŋkɐs",
+    "respelling_en": "boor-TIH-nin-kahs",
+    "stress": "bur-TI-nin-kas",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Dykra",
+    "variants": [
+      "Dykros",
+      "Dykrai",
+      "Dykrą",
+      "Dykroje"
+    ],
+    "ipa": "dʲiːkˈrɐ",
+    "respelling_en": "deek-RAH",
+    "stress": "dyk-RA",
+    "category": "term",
+    "verify": true
+  },
+  {
+    "text": "Amžinoji Ugnis",
+    "variants": [
+      "Amžinosios Ugnies",
+      "Amžinąją Ugnį"
+    ],
+    "ipa": "ɐmʒʲɪˈnoːjɪ ʊɡˈnʲɪs",
+    "respelling_en": "ahm-zhih-NOH-yih oog-NIS",
+    "stress": "am-ži-NO-ji ug-NIS",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Amzinoji Ugnis",
+      "Amzhinoji Ugnis"
+    ]
+  },
+  {
+    "text": "Šventasis akmuo",
+    "variants": [],
+    "ipa": "ʃvʲɛnˈtaːsʲɪs ɐkˈmʊɔ",
+    "respelling_en": "shven-TAH-sis ahk-MWOH",
+    "stress": "šven-TA-sis ak-MUO",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Sventasis akmuo",
+      "Shventasis akmuo"
+    ]
+  },
+  {
+    "text": "piliakalnis",
+    "variants": [
+      "piliakalniai"
+    ],
+    "ipa": "pʲɪˈlʲæːkɐɫnʲɪs",
+    "respelling_en": "pih-LYAH-kahl-nis",
+    "stress": "pi-LIA-kal-nis",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Geležinis Vilkas",
+    "variants": [
+      "Geležinio Vilko",
+      "Geležiniam Vilkui",
+      "Geležinį Vilką"
+    ],
+    "ipa": "ɡʲɛlʲɛˈʒʲɪnʲɪs ˈvʲɪlʲkɐs",
+    "respelling_en": "geh-leh-ZHIH-nis VIL-kahs",
+    "stress": "ge-le-ŽI-nis VIL-kas",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Gelezinis Vilkas",
+      "Gelezhinis Vilkas"
+    ]
+  },
+  {
+    "text": "Vytis",
+    "variants": [
+      "Vyčio",
+      "Vyčiu",
+      "Vyčiui",
+      "Vytį"
+    ],
+    "ipa": "ˈviːtʲɪs",
+    "respelling_en": "VEE-tis",
+    "stress": "VY-tis",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Gedimino stulpai",
+    "variants": [],
+    "ipa": "ɡʲɛˈdʲɪmʲɪno ˈstʊlʲpɐɪ",
+    "respelling_en": "geh-DIH-mih-noh STOOL-pye",
+    "stress": "ge-DI-mi-no STUL-pai",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "kunigaikštis",
+    "variants": [
+      "kunigaikščio",
+      "kunigaikšti",
+      "Kunigaikšti",
+      "kunigaikščiai"
+    ],
+    "ipa": "kʊnʲɪˈɡɐɪkʃtʲɪs",
+    "respelling_en": "koo-nih-GUYKSH-tis",
+    "stress": "ku-ni-GAIKŠ-tis",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "kunigaikstis",
+      "kunigaikshtis"
+    ]
+  },
+  {
+    "text": "bajoras",
+    "variants": [
+      "bajorai",
+      "bajorų"
+    ],
+    "ipa": "bɐˈjoːrɐs",
+    "respelling_en": "bah-YOH-rahs",
+    "stress": "ba-JO-ras",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "dėdė",
+    "variants": [
+      "dėdės",
+      "dėde",
+      "Dėde"
+    ],
+    "ipa": "ˈdʲeːdʲeː",
+    "respelling_en": "DAY-day",
+    "stress": "DĖ-dė",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "dede"
+    ]
+  },
+  {
+    "text": "sūnėnas",
+    "variants": [
+      "sūnėnai"
+    ],
+    "ipa": "suːˈnʲeːnɐs",
+    "respelling_en": "soo-NAY-nahs",
+    "stress": "sū-NĖ-nas",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "sunenas"
+    ]
+  },
+  {
+    "text": "pusbrolis",
+    "variants": [
+      "pusbroliai",
+      "pusbrolį"
+    ],
+    "ipa": "ˈpʊsbrolʲɪs",
+    "respelling_en": "POOS-broh-lis",
+    "stress": "PUS-bro-lis",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "uošvis",
+    "variants": [
+      "uošvio"
+    ],
+    "ipa": "ˈuɔʃvʲɪs",
+    "respelling_en": "WOHSH-vis",
+    "stress": "UOŠ-vis",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "uosvis",
+      "uoshvis"
+    ]
+  },
+  {
+    "text": "anyta",
+    "variants": [
+      "anytos"
+    ],
+    "ipa": "ɐˈnʲiːtɐ",
+    "respelling_en": "ah-NEE-tah",
+    "stress": "a-NY-ta",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Gintaro Šventikai",
+    "variants": [
+      "Gintaro Šventikė",
+      "Gintaro Žyniai"
+    ],
+    "ipa": "ˈɡʲɪntɐro ʃvʲɛnˈtʲɪkɐɪ",
+    "respelling_en": "GIN-tah-roh shven-TIH-kye",
+    "stress": "GIN-ta-ro šven-TI-kai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Gintaro Sventikai",
+      "Gintaro Shventikai"
+    ]
+  },
+  {
+    "text": "Miško Šnibždeliai",
+    "variants": [
+      "Miško Šnibždelės"
+    ],
+    "ipa": "ˈmʲɪʃko ʃnʲɪbʒˈdʲæːlʲɛɪ",
+    "respelling_en": "MISH-koh shnibzh-DEH-lyay",
+    "stress": "MIŠ-ko šnibž-DE-liai",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "Misko Snibzdeliai",
+      "Mishko Shnibzhdeliai"
+    ]
+  },
+  {
+    "text": "Vėjo Kalbėtojai",
+    "variants": [],
+    "ipa": "ˈvʲeːjo kɐɫˈbʲeːtojɐɪ",
+    "respelling_en": "VAY-yoh kahl-BAY-toh-yigh",
+    "stress": "VĖ-jo kal-BĖ-to-jai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Vejo Kalbetojai"
+    ]
+  },
+  {
+    "text": "Ugnies Gynėjai",
+    "variants": [],
+    "ipa": "ʊɡˈnʲiɛs ɡʲiːˈnʲeːjɐɪ",
+    "respelling_en": "oog-NYES gee-NAY-yigh",
+    "stress": "ug-NIES gy-NĖ-jai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Ugnies Gynejai"
+    ]
+  },
+  {
+    "text": "Žvaigždžių Skaitovai",
+    "variants": [],
+    "ipa": "ʒvɐɪɡʒˈdʒʲuː skɐɪˈtoːvɐɪ",
+    "respelling_en": "zhvighzh-JOO skye-TOH-vye",
+    "stress": "žvaigž-DŽIŲ skai-TO-vai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Zvaigzdziu Skaitovai",
+      "Zhvaigzhdzhiu Skaitovai"
+    ]
+  },
+  {
+    "text": "Regėjimo Aiška",
+    "variants": [],
+    "ipa": "rʲɛˈɡʲeːjɪmo ˈɐɪʃkɐ",
+    "respelling_en": "reh-GAY-yih-moh ISH-kah",
+    "stress": "re-GĖ-ji-mo AIŠ-ka",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "Regejimo Aiska",
+      "Regejimo Aishka"
+    ]
+  },
+  {
+    "text": "Sielos Šarvas",
+    "variants": [],
+    "ipa": "ˈsʲiɛlos ˈʃarˑvɐs",
+    "respelling_en": "SYEH-lohs SHAR-vahs",
+    "stress": "SIE-los ŠAR-vas",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Sielos Sarvas",
+      "Sielos Sharvas"
+    ]
+  },
+  {
+    "text": "Gyvybės Versmė",
+    "variants": [],
+    "ipa": "ɡʲiːˈvʲiːbʲeːs vʲɛrsʲˈmʲeː",
+    "respelling_en": "gee-VEE-bays vers-MAY",
+    "stress": "gy-VY-bės vers-MĖ",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Gyvybes Versme"
+    ]
+  },
+  {
+    "text": "Nepajudinamoji Valia",
+    "variants": [],
+    "ipa": "nʲɛpɐˈjʊdʲɪnɐmojɪ vɐˈlʲæ",
+    "respelling_en": "neh-pah-YOO-dih-nah-moh-yih vah-LYAH",
+    "stress": "ne-pa-JU-di-na-mo-ji va-LIA",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Šešėlio Greitis",
+    "variants": [],
+    "ipa": "ʃɛˈʃeːlʲo ˈɡrʲɛɪtʲɪs",
+    "respelling_en": "sheh-SHAY-lyoh GRAY-tis",
+    "stress": "še-ŠĖ-lio GREI-tis",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Seselio Greitis",
+      "Sheshelio Greitis"
+    ]
+  },
+  {
+    "text": "Saulutė",
+    "variants": [],
+    "ipa": "sɐʊˈɫʊtʲeː",
+    "respelling_en": "sow-LOO-tay",
+    "stress": "sau-LU-tė",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Saulute"
+    ]
+  },
+  {
+    "text": "Perkūnėlis",
+    "variants": [],
+    "ipa": "pʲɛrkuːˈnʲeːlʲɪs",
+    "respelling_en": "per-koo-NAY-lis",
+    "stress": "per-kū-NĖ-lis",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Perkunelis"
+    ]
+  },
+  {
+    "text": "Laimos medis",
+    "variants": [],
+    "ipa": "ˈɫɐɪmos ˈmʲædʲɪs",
+    "respelling_en": "LYE-mohs MEH-dis",
+    "stress": "LAI-mos ME-dis",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Žirgeliai",
+    "variants": [],
+    "ipa": "ʒʲɪrˈɡʲæːlʲɛɪ",
+    "respelling_en": "zhir-GEH-lyay",
+    "stress": "žir-GE-liai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Zirgeliai",
+      "Zhirgeliai"
+    ]
+  },
+  {
+    "text": "Mėnulio pjautuvas",
+    "variants": [],
+    "ipa": "mʲeːˈnʊlʲo ˈpjɐʊtʊvɐs",
+    "respelling_en": "may-NOO-lyoh PYOW-too-vahs",
+    "stress": "mė-NU-lio PJAU-tu-vas",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Menulio pjautuvas"
+    ]
+  },
+  {
+    "text": "Žvaigždės tau švytės",
+    "variants": [
+      "Žvaigždės man švytės"
+    ],
+    "ipa": "ˈʒvɐɪɡʒdʲeːs tɐʊ ʃvʲiːˈtʲeːs",
+    "respelling_en": "ZHVIGHZH-days tow shvee-TAYS",
+    "stress": "ŽVAIGŽ-dės tau švy-TĖS",
+    "category": "incantation",
+    "verify": false,
+    "ascii": [
+      "Zvaigzdes tau svytes",
+      "Zhvaigzhdes tau shvytes"
+    ]
+  },
+  {
+    "text": "Ugnis tau degs",
+    "variants": [
+      "Ugnis man degs"
+    ],
+    "ipa": "ʊɡˈnʲɪs tɐʊ ˈdʲɛks",
+    "respelling_en": "oog-NIS tow DEKS",
+    "stress": "ug-NIS tau DEGS",
+    "category": "incantation",
+    "verify": false
+  },
+  {
+    "text": "Vanduo tau teks",
+    "variants": [
+      "Vanduo man teks"
+    ],
+    "ipa": "vɐnˈdʊɔ tɐʊ ˈtʲɛks",
+    "respelling_en": "vahn-DWOH tow TEKS",
+    "stress": "van-DUO tau TEKS",
+    "category": "incantation",
+    "verify": false
+  },
+  {
+    "text": "Žemė tau laikys",
+    "variants": [
+      "Žemė man laikys"
+    ],
+    "ipa": "ˈʒʲæːmʲeː tɐʊ ɫɐɪˈkʲiːs",
+    "respelling_en": "ZHEH-may tow lye-KEES",
+    "stress": "ŽE-mė tau lai-KYS",
+    "category": "incantation",
+    "verify": false,
+    "ascii": [
+      "Zeme tau laikys",
+      "Zheme tau laikys"
+    ]
+  },
+  {
+    "text": "Vėjas tau neš",
+    "variants": [
+      "Vėjas man neš"
+    ],
+    "ipa": "ˈvʲeːjɐs tɐʊ ˈnʲɛʃ",
+    "respelling_en": "VAY-yahs tow NESH",
+    "stress": "VĖ-jas tau NEŠ",
+    "category": "incantation",
+    "verify": false,
+    "ascii": [
+      "Vejas tau nes",
+      "Vejas tau nesh"
+    ]
+  },
+  {
+    "text": "Kiek paimi, tiek atiduok",
+    "variants": [],
+    "ipa": "kʲiɛk pɐɪˈmʲɪ tʲiɛk ɐtʲɪˈdʊɔk",
+    "respelling_en": "kyek pye-MIH, tyek ah-tih-DWOHK",
+    "stress": "kiek pai-MI, tiek a-ti-DUOK",
+    "category": "incantation",
+    "verify": false
+  },
+  {
+    "text": "Tiesa galingesnė už bet kokį burtą",
+    "variants": [],
+    "ipa": "tʲiɛˈsɐ ɡɐlʲɪŋˈɡʲæsʲnʲeː ʊʒ bʲɛt koˈkʲiː ˈbʊrtaː",
+    "respelling_en": "tyeh-SAH gah-lin-GES-nay oozh bet koh-KEE BOOR-tah",
+    "stress": "tie-SA ga-lin-GES-nė už bet ko-KĮ BUR-tą",
+    "category": "incantation",
+    "verify": false,
+    "ascii": [
+      "Tiesa galingesne uz bet koki burta",
+      "Tiesa galingesne uzh bet koki burta"
+    ]
+  },
+  {
+    "text": "Atmintis amžina",
+    "variants": [],
+    "ipa": "ɐtmʲɪnʲˈtʲɪs ˈaːmʒʲɪnɐ",
+    "respelling_en": "aht-min-TIS AHM-zhih-nah",
+    "stress": "at-min-TIS AM-ži-na",
+    "category": "incantation",
+    "verify": false,
+    "ascii": [
+      "Atmintis amzina",
+      "Atmintis amzhina"
+    ]
+  },
+  {
+    "text": "Jo skola — mano skola",
+    "variants": [],
+    "ipa": "jo skoˈɫɐ ˈmaːno skoˈɫɐ",
+    "respelling_en": "yoh skoh-LAH, MAH-noh skoh-LAH",
+    "stress": "jo sko-LA, MA-no sko-LA",
+    "category": "incantation",
+    "verify": false
+  },
+  {
+    "text": "Kol aš gyvas, paskutinė ugnis neužges",
+    "variants": [],
+    "ipa": "koɫ ɐʃ ˈɡʲiːvɐs pɐskʊˈtʲɪnʲeː ʊɡˈnʲɪs nʲɛʊʒˈɡʲæs",
+    "respelling_en": "kohl ahsh GEE-vahs, pahs-koo-TIH-nay oog-NIS neh-oozh-GES",
+    "stress": "kol aš GY-vas, pas-ku-TI-nė ug-NIS ne-už-GES",
+    "category": "incantation",
+    "verify": false,
+    "ascii": [
+      "Kol as gyvas, paskutine ugnis neuzges",
+      "Kol ash gyvas, paskutine ugnis neuzhges"
+    ]
+  },
+  {
+    "text": "Audra neprašo leidimo",
+    "variants": [],
+    "ipa": "ɐʊˈdrɐ nʲɛˈpraːʃo ˈlʲɛɪdʲɪmo",
+    "respelling_en": "ow-DRAH neh-PRAH-shoh LAY-dih-moh",
+    "stress": "au-DRA ne-PRA-šo LEI-di-mo",
+    "category": "saying",
+    "verify": false,
+    "ascii": [
+      "Audra nepraso leidimo",
+      "Audra neprasho leidimo"
+    ]
+  },
+  {
+    "text": "Darbas nekalba",
+    "variants": [],
+    "ipa": "ˈdarˑbɐs nʲɛkɐɫˈbɐ",
+    "respelling_en": "DAR-bahs neh-kahl-BAH",
+    "stress": "DAR-bas ne-kal-BA",
+    "category": "saying",
+    "verify": false
+  },
+  {
+    "text": "Duotas žodis nerūdija",
+    "variants": [],
+    "ipa": "ˈdʊɔtɐs ˈʒoːdʲɪs nʲɛˈruːdʲɪjɐ",
+    "respelling_en": "DWOH-tahs ZHOH-dis neh-ROO-dih-yah",
+    "stress": "DUO-tas ŽO-dis ne-RŪ-di-ja",
+    "category": "saying",
+    "verify": false,
+    "ascii": [
+      "Duotas zodis nerudija",
+      "Duotas zhodis nerudija"
+    ]
+  },
+  {
+    "text": "Jūra atsimena",
+    "variants": [],
+    "ipa": "ˈjuːrɐ ɐtˈsʲɪmʲɛnɐ",
+    "respelling_en": "YOO-rah aht-SIH-meh-nah",
+    "stress": "JŪ-ra at-SI-me-na",
+    "category": "saying",
+    "verify": false,
+    "ascii": [
+      "Jura atsimena"
+    ]
+  },
+  {
+    "text": "Kas atsimena, tas valdo",
+    "variants": [],
+    "ipa": "kɐs ɐtˈsʲɪmʲɛnɐ tɐs ˈvaːɫdo",
+    "respelling_en": "kahs aht-SIH-meh-nah, tahs VAHL-doh",
+    "stress": "kas at-SI-me-na, tas VAL-do",
+    "category": "saying",
+    "verify": false
+  },
+  {
+    "text": "Kol staugia vilkas, stovi miestas",
+    "variants": [],
+    "ipa": "koɫ ˈstɐʊɡʲɛ ˈvʲɪlʲkɐs ˈstoːvʲɪ ˈmʲiɛstɐs",
+    "respelling_en": "kohl STOW-gyah VIL-kahs, STOH-vih MYES-tahs",
+    "stress": "kol STAU-gia VIL-kas, STO-vi MIES-tas",
+    "category": "saying",
+    "verify": false
+  },
+  {
+    "text": "Pirmasis kraujas neužmiršta",
+    "variants": [],
+    "ipa": "pʲɪrˈmaːsʲɪs ˈkrɐʊjɐs nʲɛʊʒˈmʲɪrʃtɐ",
+    "respelling_en": "pir-MAH-sis KROW-yahs neh-oozh-MIRSH-tah",
+    "stress": "pir-MA-sis KRAU-jas ne-už-MIRŠ-ta",
+    "category": "saying",
+    "verify": false,
+    "ascii": [
+      "Pirmasis kraujas neuzmirsta",
+      "Pirmasis kraujas neuzhmirshta"
+    ]
+  },
+  {
+    "text": "Tyla toliau nueina",
+    "variants": [],
+    "ipa": "tʲiːˈɫɐ toˈlʲæʊ ˈnʊɛɪnɐ",
+    "respelling_en": "tee-LAH toh-LYOW NOO-ay-nah",
+    "stress": "ty-LA to-LIAU NU-ei-na",
+    "category": "saying",
+    "verify": false
+  },
+  {
+    "text": "Vilkų Tėvas",
+    "variants": [
+      "Vilkų Tėvo",
+      "Vilkų Tėvui"
+    ],
+    "ipa": "vʲɪlʲˈkuː ˈtʲeːvɐs",
+    "respelling_en": "vil-KOO TAY-vahs",
+    "stress": "vil-KŲ TĖ-vas",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Vilku Tevas"
+    ]
+  },
+  {
+    "text": "Vilkų Motina",
+    "variants": [
+      "Vilkų Motinos"
+    ],
+    "ipa": "vʲɪlʲˈkuː ˈmoːtʲɪnɐ",
+    "respelling_en": "vil-KOO MOH-tih-nah",
+    "stress": "vil-KŲ MO-ti-na",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Vilku Motina"
+    ]
+  },
+  {
+    "text": "vilkų vyresnysis",
+    "variants": [],
+    "ipa": "vʲɪlʲˈkuː viːrʲɛsʲˈnʲiːsʲɪs",
+    "respelling_en": "vil-KOO vee-res-NEE-sis",
+    "stress": "vil-KŲ vy-res-NY-sis",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "vilku vyresnysis"
+    ]
+  },
+  {
+    "text": "kailio vardas",
+    "variants": [
+      "kailio vardą",
+      "kailio vardu"
+    ],
+    "ipa": "ˈkɐɪlʲo ˈvarˑdɐs",
+    "respelling_en": "KYE-lyoh VAR-dahs",
+    "stress": "KAI-lio VAR-das",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "gauja",
+    "variants": [
+      "gaujos",
+      "gaują"
+    ],
+    "ipa": "ɡɐʊˈjɐ",
+    "respelling_en": "gow-YAH",
+    "stress": "gau-JA",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Brolija",
+    "variants": [
+      "Brolijos"
+    ],
+    "ipa": "broˈlʲɪjɐ",
+    "respelling_en": "broh-LIH-yah",
+    "stress": "bro-LI-ja",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Dievo šunys",
+    "variants": [
+      "Dievo šunų"
+    ],
+    "ipa": "ˈdʲiɛvo ˈʃʊnʲiːs",
+    "respelling_en": "DYEH-voh SHOO-nees",
+    "stress": "DIE-vo ŠU-nys",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Dievo sunys",
+      "Dievo shunys"
+    ]
+  },
+  {
+    "text": "kūlgrinda",
+    "variants": [
+      "kūlgrindos",
+      "kūlgrindą"
+    ],
+    "ipa": "kuːlʲˈɡʲrʲɪndɐ",
+    "respelling_en": "kool-GRIN-dah",
+    "stress": "kūl-GRIN-da",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "kulgrinda"
+    ]
+  },
+  {
+    "text": "Paskutinė žarija",
+    "variants": [],
+    "ipa": "pɐskʊˈtʲɪnʲeː ʒɐˈrʲɪjɐ",
+    "respelling_en": "pahs-koo-TIH-nay zhah-RIH-yah",
+    "stress": "pas-ku-TI-nė ža-RI-ja",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Paskutine zarija",
+      "Paskutine zharija"
+    ]
+  },
+  {
+    "text": "geležinė valanda",
+    "variants": [],
+    "ipa": "ɡʲɛlʲɛˈʒʲɪnʲeː vɐɫɐnˈdɐ",
+    "respelling_en": "geh-leh-ZHIH-nay vah-lahn-DAH",
+    "stress": "ge-le-ŽI-nė va-lan-DA",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "gelezine valanda",
+      "gelezhine valanda"
+    ]
+  },
+  {
+    "text": "šermenys",
+    "variants": [
+      "šermenų",
+      "šermenyse"
+    ],
+    "ipa": "ˈʃʲærʲmʲɛnʲiːs",
+    "respelling_en": "SHER-meh-nees",
+    "stress": "ŠER-me-nys",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "sermenys",
+      "shermenys"
+    ]
+  },
+  {
+    "text": "Rūdis",
+    "variants": [],
+    "ipa": "ˈruːdʲɪs",
+    "respelling_en": "ROO-dis",
+    "stress": "RŪ-dis",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "Rudis"
+    ]
+  },
+  {
+    "text": "Kirmėlė",
+    "variants": [],
+    "ipa": "kʲɪrʲmʲeːˈlʲeː",
+    "respelling_en": "kir-may-LAY",
+    "stress": "kir-mė-LĖ",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "Kirmele"
+    ]
+  },
+  {
+    "text": "Kalvis",
+    "variants": [],
+    "ipa": "ˈkaːɫvʲɪs",
+    "respelling_en": "KAHL-vis",
+    "stress": "KAL-vis",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "barstukai",
+    "variants": [
+      "barstukų"
+    ],
+    "ipa": "bɐrsˈtʊkɐɪ",
+    "respelling_en": "bahrs-TOO-kye",
+    "stress": "bars-TU-kai",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "barzdukai",
+    "variants": [
+      "barzdukų"
+    ],
+    "ipa": "bɐrzˈdʊkɐɪ",
+    "respelling_en": "bahrz-DOO-kye",
+    "stress": "barz-DU-kai",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Puškaitis",
+    "variants": [],
+    "ipa": "pʊʃˈkɐɪtʲɪs",
+    "respelling_en": "poosh-KYE-tis",
+    "stress": "puš-KAI-tis",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "Puskaitis",
+      "Pushkaitis"
+    ]
+  },
+  {
+    "text": "slibinas",
+    "variants": [
+      "slibino",
+      "slibinai"
+    ],
+    "ipa": "ˈsʲlʲɪbʲɪnɐs",
+    "respelling_en": "SLIH-bih-nahs",
+    "stress": "SLI-bi-nas",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "smakas",
+    "variants": [],
+    "ipa": "ˈsmaːkɐs",
+    "respelling_en": "SMAH-kahs",
+    "stress": "SMA-kas",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "undinė",
+    "variants": [
+      "undinės"
+    ],
+    "ipa": "ʊnˈdʲɪnʲeː",
+    "respelling_en": "oon-DIH-nay",
+    "stress": "un-DI-nė",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "undine"
+    ]
+  },
+  {
+    "text": "jūrų mergelės",
+    "variants": [],
+    "ipa": "ˈjuːruː mʲɛrˈɡʲæːlʲeːs",
+    "respelling_en": "YOO-roo mer-GEH-lays",
+    "stress": "JŪ-rų mer-GE-lės",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "juru mergeles"
+    ]
+  },
+  {
+    "text": "girinis",
+    "variants": [
+      "miškinis"
+    ],
+    "ipa": "ɡʲɪˈrʲɪnʲɪs",
+    "respelling_en": "gih-RIH-nis",
+    "stress": "gi-RI-nis",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "maumas",
+    "variants": [],
+    "ipa": "ˈmɐʊmɐs",
+    "respelling_en": "MOW-mahs",
+    "stress": "MAU-mas",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "didysis baublys",
+    "variants": [
+      "baublys"
+    ],
+    "ipa": "dʲɪˈdʲiːsʲɪs bɐʊbˈlʲiːs",
+    "respelling_en": "dih-DEE-sis bowb-LEES",
+    "stress": "di-DY-sis baub-LYS",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "klystžolė",
+    "variants": [],
+    "ipa": "ˈklʲiːstʒolʲeː",
+    "respelling_en": "KLEEST-zhoh-lay",
+    "stress": "KLYST-žo-lė",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "klystzole",
+      "klystzhole"
+    ]
+  },
+  {
+    "text": "laumės juosta",
+    "variants": [],
+    "ipa": "ˈɫɐʊmʲeːs ˈjʊɔstɐ",
+    "respelling_en": "LOW-mays YWOHS-tah",
+    "stress": "LAU-mės JUOS-ta",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "laumes juosta"
+    ]
+  },
+  {
+    "text": "Neringa",
+    "variants": [],
+    "ipa": "nʲɛˈrʲɪŋɡɐ",
+    "respelling_en": "neh-RIN-gah",
+    "stress": "ne-RIN-ga",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "velniukai",
+    "variants": [],
+    "ipa": "vʲɛlʲˈnʲʊkɐɪ",
+    "respelling_en": "vel-NYOO-kye",
+    "stress": "vel-NIU-kai",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "kadagys",
+    "variants": [
+      "kadagio",
+      "kadagiai"
+    ],
+    "ipa": "kɐdɐˈɡʲiːs",
+    "respelling_en": "kah-dah-GEES",
+    "stress": "ka-da-GYS",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "šermukšnis",
+    "variants": [],
+    "ipa": "ʃʲɛrˈmʊkʃnʲɪs",
+    "respelling_en": "sher-MOOKSH-nis",
+    "stress": "šer-MUKŠ-nis",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "sermuksnis",
+      "shermukshnis"
+    ]
+  },
+  {
+    "text": "šeivamedis",
+    "variants": [],
+    "ipa": "ʃʲɛɪˈvaːmʲɛdʲɪs",
+    "respelling_en": "shay-VAH-meh-dis",
+    "stress": "šei-VA-me-dis",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "seivamedis",
+      "sheivamedis"
+    ]
+  },
+  {
+    "text": "grabnyčių žvakė",
+    "variants": [],
+    "ipa": "ɡrɐbˈnʲiːtʃʲuː ˈʒvaːkʲeː",
+    "respelling_en": "grahb-NEE-choo ZHVAH-kay",
+    "stress": "grab-NY-čių ŽVA-kė",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "grabnyciu zvake",
+      "grabnychiu zhvake"
+    ]
+  },
+  {
+    "text": "Margiris",
+    "variants": [],
+    "ipa": "ˈmarˑɡʲɪrʲɪs",
+    "respelling_en": "MAR-gih-ris",
+    "stress": "MAR-gi-ris",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Teliavelis",
+    "variants": [],
+    "ipa": "tʲɛˈlʲæːvʲɛlʲɪs",
+    "respelling_en": "teh-LYAH-veh-lis",
+    "stress": "te-LIA-ve-lis",
+    "category": "term",
+    "verify": true
+  },
+  {
+    "text": "vitingai",
+    "variants": [],
+    "ipa": "vʲɪˈtʲɪŋɡɐɪ",
+    "respelling_en": "vih-TING-gye",
+    "stress": "vi-TIN-gai",
+    "category": "term",
+    "verify": true
+  },
+  {
+    "text": "seniūnai",
+    "variants": [],
+    "ipa": "sʲɛˈnʲuːnɐɪ",
+    "respelling_en": "seh-NYOO-nye",
+    "stress": "se-NIŪ-nai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "seniunai"
+    ]
+  },
+  {
+    "text": "Ponų taryba",
+    "variants": [],
+    "ipa": "ˈpoːnuː tɐˈrʲiːbɐ",
+    "respelling_en": "POH-noo tah-REE-bah",
+    "stress": "PO-nų ta-RY-ba",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Ponu taryba"
+    ]
+  },
+  {
+    "text": "Karaimai",
+    "variants": [],
+    "ipa": "kɐˈrɐɪmɐɪ",
+    "respelling_en": "kah-RYE-mye",
+    "stress": "ka-RAI-mai",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Rusėnai",
+    "variants": [],
+    "ipa": "rʊˈsʲeːnɐɪ",
+    "respelling_en": "roo-SAY-nye",
+    "stress": "ru-SĖ-nai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Rusenai"
+    ]
+  },
+  {
+    "text": "Totoriai",
+    "variants": [],
+    "ipa": "ˈtoːtorʲɛɪ",
+    "respelling_en": "TOH-toh-ryay",
+    "stress": "TO-to-riai",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "Prūsai",
+    "variants": [],
+    "ipa": "ˈpruːsɐɪ",
+    "respelling_en": "PROO-sye",
+    "stress": "PRŪ-sai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "Prusai"
+    ]
+  },
+  {
+    "text": "Kuršiai",
+    "variants": [],
+    "ipa": "ˈkʊrʃʲɛɪ",
+    "respelling_en": "KOOR-shyay",
+    "stress": "KUR-šiai",
+    "category": "term",
+    "verify": true,
+    "ascii": [
+      "Kursiai",
+      "Kurshiai"
+    ]
+  },
+  {
+    "text": "kryžiuočiai",
+    "variants": [
+      "kryžiuočių",
+      "kryžiuotis"
+    ],
+    "ipa": "kʲrʲiːˈʒʲʊɔtʃʲɛɪ",
+    "respelling_en": "kree-ZHWOH-chyay",
+    "stress": "kry-ŽIUO-čiai",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "kryziuociai",
+      "kryzhiuochiai"
+    ]
+  },
+  {
+    "text": "nuometas",
+    "variants": [],
+    "ipa": "ˈnʊɔmʲɛtɐs",
+    "respelling_en": "NWOH-meh-tahs",
+    "stress": "NUO-me-tas",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "vyžos",
+    "variants": [],
+    "ipa": "ˈviːʒos",
+    "respelling_en": "VEE-zhohs",
+    "stress": "VY-žos",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "vyzos",
+      "vyzhos"
+    ]
+  },
+  {
+    "text": "sermėga",
+    "variants": [],
+    "ipa": "sʲɛrˈmʲeːɡɐ",
+    "respelling_en": "ser-MAY-gah",
+    "stress": "ser-MĖ-ga",
+    "category": "term",
+    "verify": false,
+    "ascii": [
+      "sermega"
+    ]
+  },
+  {
+    "text": "midus",
+    "variants": [
+      "midaus"
+    ],
+    "ipa": "ˈmʲɪdʊs",
+    "respelling_en": "MIH-doos",
+    "stress": "MI-dus",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "gira",
+    "variants": [],
+    "ipa": "ɡʲɪˈrɐ",
+    "respelling_en": "gih-RAH",
+    "stress": "gi-RA",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "alus",
+    "variants": [
+      "alaus"
+    ],
+    "ipa": "ɐˈɫʊs",
+    "respelling_en": "ah-LOOS",
+    "stress": "a-LUS",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "kibinai",
+    "variants": [],
+    "ipa": "ˈkʲɪbʲɪnɐɪ",
+    "respelling_en": "KIH-bih-nye",
+    "stress": "KI-bi-nai",
+    "category": "term",
+    "verify": false
+  },
+  {
+    "text": "kenesa",
+    "variants": [],
+    "ipa": "kʲɛnʲɛˈsɐ",
+    "respelling_en": "keh-neh-SAH",
+    "stress": "ke-ne-SA",
+    "category": "term",
+    "verify": true
+  },
+  {
+    "text": "Geležinio Vilko Saga",
+    "variants": [],
+    "ipa": "ɡʲɛlʲɛˈʒʲɪnʲo ˈvʲɪlʲko sɐˈɡɐ",
+    "respelling_en": "geh-leh-ZHIH-nyoh VIL-koh sah-GAH",
+    "stress": "ge-le-ŽI-nio VIL-ko sa-GA",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Gelezinio Vilko Saga",
+      "Gelezhinio Vilko Saga"
+    ]
+  },
+  {
+    "text": "Vilko Tremtis",
+    "variants": [],
+    "ipa": "ˈvʲɪlʲko trʲɛmʲˈtʲɪs",
+    "respelling_en": "VIL-koh trem-TIS",
+    "stress": "VIL-ko trem-TIS",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Nuosmukis",
+    "variants": [],
+    "ipa": "ˈnʊɔsmʊkʲɪs",
+    "respelling_en": "NWOH-smoo-kis",
+    "stress": "NUO-smu-kis",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Pabėgimas",
+    "variants": [],
+    "ipa": "pɐbʲeːˈɡʲɪmɐs",
+    "respelling_en": "pah-bay-GIH-mahs",
+    "stress": "pa-bė-GI-mas",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Pabegimas"
+    ]
+  },
+  {
+    "text": "Karas ir Tvarka",
+    "variants": [],
+    "ipa": "ˈkaːrɐs ɪr tvɐrˈkɐ",
+    "respelling_en": "KAH-rahs ir tvahr-KAH",
+    "stress": "KA-ras ir tvar-KA",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Gintaro Ašaros",
+    "variants": [],
+    "ipa": "ˈɡʲɪntɐro ˈaːʃɐros",
+    "respelling_en": "GIN-tah-roh AH-shah-rohs",
+    "stress": "GIN-ta-ro A-ša-ros",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Gintaro Asaros",
+      "Gintaro Asharos"
+    ]
+  },
+  {
+    "text": "Pradžia",
+    "variants": [],
+    "ipa": "prɐˈdʒʲæ",
+    "respelling_en": "prah-JAH",
+    "stress": "pra-DŽIA",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Pradzia",
+      "Pradzhia"
+    ]
+  },
+  {
+    "text": "Senasis Šernas",
+    "variants": [],
+    "ipa": "sʲɛˈnaːsʲɪs ˈʃʲærnɐs",
+    "respelling_en": "seh-NAH-sis SHER-nahs",
+    "stress": "se-NA-sis ŠER-nas",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Senasis Sernas",
+      "Senasis Shernas"
+    ]
+  },
+  {
+    "text": "Vilko Perspėjimas",
+    "variants": [],
+    "ipa": "ˈvʲɪlʲko pʲɛrˈspʲeːjɪmɐs",
+    "respelling_en": "VIL-koh per-SPAY-yih-mahs",
+    "stress": "VIL-ko per-SPĖ-ji-mas",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Vilko Perspejimas"
+    ]
+  },
+  {
+    "text": "Gintaro Sapnas",
+    "variants": [],
+    "ipa": "ˈɡʲɪntɐro ˈsaːpnɐs",
+    "respelling_en": "GIN-tah-roh SAHP-nahs",
+    "stress": "GIN-ta-ro SAP-nas",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Kelionė į Vilnių",
+    "variants": [],
+    "ipa": "kʲɛlʲoˈnʲeː iː ˈvʲɪlʲnʲuː",
+    "respelling_en": "keh-lyoh-NAY ee VIL-nyoo",
+    "stress": "ke-lio-NĖ į VIL-nių",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Kelione i Vilniu"
+    ]
+  },
+  {
+    "text": "Dvigubas Veidas",
+    "variants": [],
+    "ipa": "ˈdvʲɪɡʊbɐs ˈvʲɛɪdɐs",
+    "respelling_en": "DVIH-goo-bahs VAY-dahs",
+    "stress": "DVI-gu-bas VEI-das",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Geležiniai Vartai",
+    "variants": [],
+    "ipa": "ɡʲɛlʲɛˈʒʲɪnʲɛɪ ˈvarˑtɐɪ",
+    "respelling_en": "geh-leh-ZHIH-nyay VAR-tye",
+    "stress": "ge-le-ŽI-niai VAR-tai",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Geleziniai Vartai",
+      "Gelezhiniai Vartai"
+    ]
+  },
+  {
+    "text": "Tylos Puota",
+    "variants": [],
+    "ipa": "tʲiːˈɫoːs pʊɔˈtɐ",
+    "respelling_en": "tee-LOHS pwoh-TAH",
+    "stress": "ty-LOS puo-TA",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Krėvos Požemiai",
+    "variants": [],
+    "ipa": "ˈkrʲeːvos ˈpoːʒʲɛmʲɛɪ",
+    "respelling_en": "KRAY-vohs POH-zheh-myay",
+    "stress": "KRĖ-vos PO-že-miai",
+    "category": "title",
+    "verify": true,
+    "ascii": [
+      "Krevos Pozemiai",
+      "Krevos Pozhemiai"
+    ]
+  },
+  {
+    "text": "Paskutinė Giesmė",
+    "variants": [],
+    "ipa": "pɐskʊˈtʲɪnʲeː ɡʲiɛsʲˈmʲeː",
+    "respelling_en": "pahs-koo-TIH-nay gyes-MAY",
+    "stress": "pas-ku-TI-nė gies-MĖ",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Paskutine Giesme"
+    ]
+  },
+  {
+    "text": "Šaltas Rytas",
+    "variants": [],
+    "ipa": "ˈʃaːɫtɐs ˈrʲiːtɐs",
+    "respelling_en": "SHAHL-tahs REE-tahs",
+    "stress": "ŠAL-tas RY-tas",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Saltas Rytas",
+      "Shaltas Rytas"
+    ]
+  },
+  {
+    "text": "Našlė",
+    "variants": [],
+    "ipa": "nɐʃˈlʲeː",
+    "respelling_en": "nahsh-LAY",
+    "stress": "naš-LĖ",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Nasle",
+      "Nashle"
+    ]
+  },
+  {
+    "text": "Gedulo Skraistė",
+    "variants": [],
+    "ipa": "ˈɡʲæːdʊlo ˈskrɐɪstʲeː",
+    "respelling_en": "GEH-doo-loh SKRICE-tay",
+    "stress": "GE-du-lo SKRAIS-tė",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Gedulo Skraiste"
+    ]
+  },
+  {
+    "text": "Keitimas",
+    "variants": [],
+    "ipa": "kʲɛɪˈtʲɪmɐs",
+    "respelling_en": "kay-TIH-mahs",
+    "stress": "kei-TI-mas",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Šešėlis Naktyje",
+    "variants": [],
+    "ipa": "ʃɛˈʃeːlʲɪs nɐktʲiːˈjɛ",
+    "respelling_en": "sheh-SHAY-lis nahk-tee-YEH",
+    "stress": "še-ŠĖ-lis nak-ty-JE",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Seselis Naktyje",
+      "Sheshelis Naktyje"
+    ]
+  },
+  {
+    "text": "Pelkės Vaikai",
+    "variants": [],
+    "ipa": "ˈpʲælʲkʲeːs vɐɪˈkɐɪ",
+    "respelling_en": "PEL-kays vye-KYE",
+    "stress": "PEL-kės vai-KAI",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Pelkes Vaikai"
+    ]
+  },
+  {
+    "text": "Pasienis",
+    "variants": [],
+    "ipa": "pɐˈsʲiɛnʲɪs",
+    "respelling_en": "pah-SYEH-nis",
+    "stress": "pa-SIE-nis",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Geležinis Magistras",
+    "variants": [],
+    "ipa": "ɡʲɛlʲɛˈʒʲɪnʲɪs mɐˈɡʲɪstrɐs",
+    "respelling_en": "geh-leh-ZHIH-nis mah-GIS-trahs",
+    "stress": "ge-le-ŽI-nis ma-GIS-tras",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Gelezinis Magistras",
+      "Gelezhinis Magistras"
+    ]
+  },
+  {
+    "text": "Velnio Sandėris",
+    "variants": [],
+    "ipa": "ˈvʲælʲnʲo sɐnˈdʲeːrʲɪs",
+    "respelling_en": "VEL-nyoh sahn-DAY-ris",
+    "stress": "VEL-nio san-DĖ-ris",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Velnio Sanderis"
+    ]
+  },
+  {
+    "text": "Svetimi Dievai",
+    "variants": [],
+    "ipa": "sʲvʲɛtʲɪˈmʲɪ dʲiɛˈvɐɪ",
+    "respelling_en": "sveh-tih-MIH dyeh-VYE",
+    "stress": "sve-ti-MI die-VAI",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Pirmoji Kova",
+    "variants": [],
+    "ipa": "pʲɪrˈmoːjɪ koˈvɐ",
+    "respelling_en": "pir-MOH-yih koh-VAH",
+    "stress": "pir-MO-ji ko-VA",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Vilniaus Apgultis I",
+    "variants": [],
+    "ipa": "ˈvʲɪlʲnʲæʊs ɐpɡʊɫˈtʲɪs",
+    "respelling_en": "VIL-nyows ahp-gool-TIS",
+    "stress": "VIL-niaus ap-gul-TIS",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Ugnis ir Pelenai",
+    "variants": [],
+    "ipa": "ʊɡˈnʲɪs ɪr pʲɛlʲɛˈnɐɪ",
+    "respelling_en": "oog-NIS ir peh-leh-NYE",
+    "stress": "ug-NIS ir pe-le-NAI",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Pasirinkimas",
+    "variants": [],
+    "ipa": "pɐsʲɪrʲɪŋˈkʲɪmɐs",
+    "respelling_en": "pah-sih-rin-KIH-mahs",
+    "stress": "pa-si-rin-KI-mas",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Išdavikų Išdavikas",
+    "variants": [],
+    "ipa": "ɪʒdɐˈvʲɪkuː ɪʒdɐˈvʲɪkɐs",
+    "respelling_en": "ish-dah-VIH-koo ish-dah-VIH-kahs",
+    "stress": "iš-da-VI-kų iš-da-VI-kas",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Isdaviku Isdavikas",
+      "Ishdaviku Ishdavikas"
+    ]
+  },
+  {
+    "text": "Susitikimas Peleninėje",
+    "variants": [],
+    "ipa": "sʊsʲɪtʲɪˈkʲɪmɐs pʲɛlʲɛˈnʲɪnʲeːjɛ",
+    "respelling_en": "soo-sih-tih-KIH-mahs peh-leh-NIH-nay-yeh",
+    "stress": "su-si-ti-KI-mas pe-le-NI-nė-je",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Susitikimas Pelenineje"
+    ]
+  },
+  {
+    "text": "Gintaro Auka",
+    "variants": [],
+    "ipa": "ˈɡʲɪntɐro ɐʊˈkɐ",
+    "respelling_en": "GIN-tah-roh ow-KAH",
+    "stress": "GIN-ta-ro au-KA",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Nauja Tvarka",
+    "variants": [],
+    "ipa": "nɐʊˈjɐ tvɐrˈkɐ",
+    "respelling_en": "now-YAH tvahr-KAH",
+    "stress": "nau-JA tvar-KA",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Krikštas",
+    "variants": [],
+    "ipa": "ˈkrʲɪkʃtɐs",
+    "respelling_en": "KRIKSH-tahs",
+    "stress": "KRIKŠ-tas",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Krikstas",
+      "Krikshtas"
+    ]
+  },
+  {
+    "text": "Epilogas",
+    "variants": [],
+    "ipa": "ɛpʲɪˈɫoːɡɐs",
+    "respelling_en": "eh-pih-LOH-gahs",
+    "stress": "e-pi-LO-gas",
+    "category": "title",
+    "verify": false
+  },
+  {
+    "text": "Senovės Kalba: Baltų Senovinė Magija",
+    "variants": [],
+    "ipa": "sʲɛˈnoːvʲeːs kɐɫˈbɐ ˈbaːɫtuː sʲɛˈnoːvʲɪnʲeː ˈmaːɡʲɪjɐ",
+    "respelling_en": "seh-NOH-vays kahl-BAH BAHL-too seh-NOH-vih-nay MAH-gih-yah",
+    "stress": "se-NO-vės kal-BA: BAL-tų se-NO-vi-nė MA-gi-ja",
+    "category": "title",
+    "verify": false,
+    "ascii": [
+      "Senoves Kalba: Baltu Senovine Magija"
+    ]
+  }
+]

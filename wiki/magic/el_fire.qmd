@@ -1,0 +1,14 @@
+---
+title: "Ugnis (Fire)"
+id: el_fire
+type: element
+categories: [magic]
+---
+
+{{< include ../_generated/el_fire.md >}}
+
+## Deity & zenith
+## Boon
+## Minor / major cost
+## Limits
+## Uses in the books

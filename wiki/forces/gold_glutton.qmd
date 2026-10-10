@@ -1,0 +1,17 @@
+---
+title: "Aukso Rijūnas (Mercator-Rex)"
+id: gold_glutton
+type: force
+categories: [force]
+---
+
+{{< include ../_generated/gold_glutton.md >}}
+
+## Nature
+<!-- Native (face/shard of a god) or egregore (fed by an institution)? See cosmology.md §2. -->
+## Wants
+## Takes (its price)
+## Signs & manifestations
+## Vessels, servants, claims
+## Weaknesses
+## Arc across the books

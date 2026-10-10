@@ -1,0 +1,16 @@
+---
+title: "Žemaičiai (Samogitians)"
+id: samogitians
+type: faction
+categories: [faction]
+---
+
+{{< include ../_generated/samogitians.md >}}
+
+## Overview
+## Wants (by book)
+| Book | Goal | Leverage | Red line |
+|---|---|---|---|
+## Patron Force
+## Internal tensions
+## Notable members

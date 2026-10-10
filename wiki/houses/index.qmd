@@ -1,0 +1,8 @@
+---
+title: "Houses"
+---
+
+*No entries yet. Add nodes of this type to `world_rules/graph/world_graph.json`.*
+
+| Name | Type | Years |
+|---|---|---|

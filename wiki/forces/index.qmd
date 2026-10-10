@@ -1,0 +1,15 @@
+---
+title: "Forces"
+---
+
+
+| Name | Type | Years |
+|---|---|---|
+| [Aukso Rijūnas (Mercator-Rex)](gold_glutton.qmd) | force |  |
+| [Baltoji Tyla (White Silence)](white_silence.qmd) | force |  |
+| [Geležinis Šventasis (Sanctus Ferrum)](iron_saint.qmd) | force |  |
+| [Gintaro Karalienė (Amber Queen)](amber_queen.qmd) | force |  |
+| [Perkūno Rūstybė](perkuno_rustybe.qmd) | force |  |
+| [Stepių Alkis (Erdene-Chuluu)](steppe_hunger.qmd) | force |  |
+| [Šaknų Motina (Root-Mother)](root_mother.qmd) | force |  |
+| [Šešėlių Pardavėjas / Henė](shadow_seller.qmd) | force |  |

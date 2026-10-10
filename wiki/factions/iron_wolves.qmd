@@ -1,0 +1,16 @@
+---
+title: "Vilkatai (Iron Wolves)"
+id: iron_wolves
+type: faction
+categories: [faction]
+---
+
+{{< include ../_generated/iron_wolves.md >}}
+
+## Overview
+## Wants (by book)
+| Book | Goal | Leverage | Red line |
+|---|---|---|---|
+## Patron Force
+## Internal tensions
+## Notable members

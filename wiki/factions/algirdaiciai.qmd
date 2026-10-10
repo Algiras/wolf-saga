@@ -1,0 +1,16 @@
+---
+title: "Algirdaičiai (Algirdas's line)"
+id: algirdaiciai
+type: faction
+categories: [faction]
+---
+
+{{< include ../_generated/algirdaiciai.md >}}
+
+## Overview
+## Wants (by book)
+| Book | Goal | Leverage | Red line |
+|---|---|---|---|
+## Patron Force
+## Internal tensions
+## Notable members

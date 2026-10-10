@@ -14,8 +14,8 @@
 
 ## 3. Baltic Symbols (The Language of the Soul)
 *   **The World Tree**: Roots (underworld), Trunk (earth), Branches (sky).
-*   **The Thunder Cross (Pērkonkrusts)**: Swastika-shape. Fire, lightning, luck, and protection.
+*   **The Thunder Cross (perkūnėlis, Perkūno kryželis)**: Swastika-shape. Fire, lightning, luck, and protection.
 *   **The Grass Snake**: Fertility and the life cycle.
 *   **The Little Horses**: Divine protection for the home.
-*   **Columns of Gediminas**: Official symbol of the dynasty; represents the Trakai gates.
+*   **Columns of Gediminas**: Official symbol of the dynasty; one theory holds that they represent the Trakai gates (other readings have been proposed).
 *   **Vytis (The Chaser)**: Armored knight on horseback (adopted early 15th century).

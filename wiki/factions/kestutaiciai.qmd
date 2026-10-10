@@ -1,0 +1,16 @@
+---
+title: "Kęstutaičiai (Kęstutis's line)"
+id: kestutaiciai
+type: faction
+categories: [faction]
+---
+
+{{< include ../_generated/kestutaiciai.md >}}
+
+## Overview
+## Wants (by book)
+| Book | Goal | Leverage | Red line |
+|---|---|---|---|
+## Patron Force
+## Internal tensions
+## Notable members

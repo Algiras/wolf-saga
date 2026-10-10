@@ -1,0 +1,13 @@
+---
+title: "Birutė's Senovės Sutartis over Vytautas"
+id: sutartis_birute
+type: pact
+categories: [magic]
+---
+
+{{< include ../_generated/sutartis_birute.md >}}
+
+## Terms
+## Parties & witnesses
+## Breaches
+## Consequences

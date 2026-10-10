@@ -1,0 +1,38 @@
+---
+title: "Julijona Alšėniškė"
+id: julijona
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/julijona.md >}}
+
+## Summary
+<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+- **[Record]:** <!-- what history says (dates, deeds) -->
+- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

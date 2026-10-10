@@ -1,7 +1,9 @@
-# Svitrigaila: Timeline
+# Švitrigaila: Timeline
 
-1.  **The Witness**: Signs the Treaty of Dubysa as a young lad.
-2.  **The Rebel**: Revolts against Jogaila over the regency of Vitebsk.
-3.  **The Exile**: Flees to Prussia and other lands repeatedly after failed coups.
-4.  **The Pretender**: Proclaimed Grand Duke after Vytis's death, leading to another civil war.
-5.  **The Long Twilight**: Lives to a ripe old age, still plotting but ultimately failing to hold the throne.
+1.  **The Witness (1382)**: Named among those at the Treaty of Dubysa as a boy *(verify)*.
+2.  **The Rebel (1393)**: Revolts against Jogaila and Vytautas over Vitebsk.
+3.  **The Exile (1402, 1408)**: Flees to the Order, then to Moscow, after failed bids.
+4.  **The Prisoner (c. 1409–18)**: Held by Vytautas at Kremenets until freed by a raid *(verify)*.
+5.  **The Grand Duke (1430)**: Proclaimed Grand Duke after Vytautas's death.
+6.  **The Pretender (1432–35)**: Overthrown by Žygimantas Kęstutaitis's coup at Ašmena (1 Sep 1432); defeated at Pabaiskas (1 Sep 1435).
+7.  **The Long Twilight**: Lives on as lord of Volhynia, still plotting, and dies at Lutsk in 1452.

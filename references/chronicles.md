@@ -3,7 +3,7 @@
 ## 1. Chronicon Terrae Prussiae (Peter von Dusburg)
 *   **Author**: A Teutonic priest.
 *   **Tone**: Pure propaganda, but rich in detail. 
-*   **Key Content**: Describes the "barbaric" rites of the Prussians and Lithuanians. He is the one who popularized the idea of the "Kriwe-Kriwajto" (Pagan Pope).
+*   **Key Content**: Describes the "barbaric" rites of the Prussians and Lithuanians. He is the one who popularized the idea of a pagan high priest, "Criwe" (the "Pagan Pope"). Dusburg writes only *Criwe*; the doubled "Kriwe-Kriwajto" comes from 16th-century sources (verify).
 
 ## 2. The Livonian Rhymed Chronicle
 *   **Period**: 1180–1343.

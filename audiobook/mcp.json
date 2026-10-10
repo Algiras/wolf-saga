@@ -15,7 +15,7 @@
                 "-i",
                 "--rm",
                 "-v",
-                "/Users/algimantask/Personal/the-shadow-of-extremism/audiobook/mcp_data/memory:/app/data",
+                "wolf-saga-audiobook-memory:/app/data",
                 "-e",
                 "MEMORY_FILE_PATH=/app/data/memory.jsonl",
                 "mcp/memory"

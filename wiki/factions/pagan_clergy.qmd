@@ -1,0 +1,16 @@
+---
+title: "Pagan clergy (Krivis, žyniai, vaidilutės)"
+id: pagan_clergy
+type: faction
+categories: [faction]
+---
+
+{{< include ../_generated/pagan_clergy.md >}}
+
+## Overview
+## Wants (by book)
+| Book | Goal | Leverage | Red line |
+|---|---|---|---|
+## Patron Force
+## Internal tensions
+## Notable members

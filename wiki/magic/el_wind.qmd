@@ -1,0 +1,14 @@
+---
+title: "Vėjas (Wind)"
+id: el_wind
+type: element
+categories: [magic]
+---
+
+{{< include ../_generated/el_wind.md >}}
+
+## Deity & zenith
+## Boon
+## Minor / major cost
+## Limits
+## Uses in the books

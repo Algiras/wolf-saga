@@ -1,0 +1,26 @@
+---
+title: "Magic & Pacts"
+---
+
+
+| Name | Type | Years |
+|---|---|---|
+| [Birutė's Senovės Sutartis over Vytautas](sutartis_birute.qmd) | pact | 1382–1430 |
+| [Gintarystė (amber-craft)](gintaryste.qmd) | school |  |
+| [Iron Saint's fearlessness](iron_gift.qmd) | school |  |
+| [Priesaika (oath-binding)](priesaika.qmd) | school |  |
+| [Sandėris (bargain)](bargain.qmd) | school |  |
+| [Senovės Kalba](kalba.qmd) | school |  |
+| [The Last Flame promise](flame_promise.qmd) | pact | 1382–1430 |
+| [Tylioji Sutartis (Silent Pact)](silent_pact.qmd) | pact | 1345–1387 |
+| [Ugnis (Fire)](el_fire.qmd) | element |  |
+| [Užkalbėjimai (charms)](uzkalbejimai.qmd) | school |  |
+| [Vanduo (Water)](el_water.qmd) | element |  |
+| [Vilkų krikštas (wolf-change)](wolf_change.qmd) | school |  |
+| [Vėjas (Wind)](el_wind.qmd) | element |  |
+| [White Silence's frost-touch](white_touch.qmd) | school |  |
+| [Žemė (Earth)](el_earth.qmd) | element |  |
+| [Ženklai (signs)](zenklai.qmd) | school |  |
+| [Žolės (herb-lore)](zoles.qmd) | school |  |
+| [Žvaigždės (Stars)](el_stars.qmd) | element |  |
+| [Žymė (claim)](claim.qmd) | school |  |

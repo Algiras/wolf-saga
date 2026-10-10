@@ -1,3 +1,5 @@
+> **Superseded:** see `cosmology.md` §5 (Signs, Whispers, the Beggar) and `magic_rules.md` (costs). Kept as a quick reference.
+
 # Mystical Mechanics: The Whispers & The Signs
 
 How the Meddling Forces interact with the world of men.

@@ -1,0 +1,16 @@
+---
+title: "Iron Saint's fearlessness"
+id: iron_gift
+type: school
+categories: [magic]
+---
+
+{{< include ../_generated/iron_gift.md >}}
+
+## What it is
+## Who can use it (path & tier)
+## How it works (medium, words, timing)
+## Costs
+## Limits & counters
+## Folk basis [Record]
+## Notable practitioners

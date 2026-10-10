@@ -1,0 +1,13 @@
+---
+title: "The Last Flame promise"
+id: flame_promise
+type: pact
+categories: [magic]
+---
+
+{{< include ../_generated/flame_promise.md >}}
+
+## Terms
+## Parties & witnesses
+## Breaches
+## Consequences

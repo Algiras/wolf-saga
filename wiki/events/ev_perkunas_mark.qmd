@@ -1,0 +1,20 @@
+---
+title: "Perkūnas claims Vytautas"
+id: ev_perkunas_mark
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_perkunas_mark.md >}}
+
+## What the chronicles say [Record]
+<!-- Sources and disagreements. Mark (verify) where unsure. -->
+
+## What really happened [Saga]
+<!-- The mythic gap-filling. Must not contradict the record. -->
+
+## Consequences
+<!-- Mirror the 'causes' edges. -->
+
+## Dramatisation
+<!-- Book · chapter · POV · season. -->

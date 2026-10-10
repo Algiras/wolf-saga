@@ -1,0 +1,14 @@
+---
+title: "Medeina"
+id: medeina
+type: god
+categories: [god]
+---
+
+{{< include ../_generated/medeina.md >}}
+
+## Folk sources [Record]
+## In the saga
+<!-- Domain, element, Force-face (cosmology.md §3). -->
+## Offerings & taboos
+## Pronunciation

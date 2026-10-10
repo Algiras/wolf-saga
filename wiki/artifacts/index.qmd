@@ -1,0 +1,17 @@
+---
+title: "Artifacts"
+---
+
+
+| Name | Type | Years |
+|---|---|---|
+| [Auksinė grandinė (the strangling chain)](golden_chain.qmd) | artifact | made 1382 |
+| [Geležinio Vilko kaukolė](wolf_skull.qmd) | artifact | made 1323 |
+| [Henė's three black stones](three_stones.qmd) | artifact | made 1380 |
+| [Klūpančioji (amber statue, Palanga)](kneeling_woman.qmd) | artifact | made 1384 |
+| [Kryžiaus kalavijas (the Order's sword)](order_sword.qmd) | artifact | made 1383 |
+| [Motinos gintaras (Birutė's pebble)](pebble.qmd) | artifact | made 1382 |
+| [Paskutinė žarija (Šventaragis ember)](ember.qmd) | artifact | made 1387 |
+| [Sidabrinis vilkas (Kęstutis's amulet)](silver_wolf.qmd) | artifact | made 1345 |
+| [The Lutsk crown (turned to leaves)](lutsk_crown.qmd) | artifact | made 1430 |
+| [Šerno kalavijas (Kęstutis's sword)](kestutis_sword.qmd) | artifact | made 1330 |

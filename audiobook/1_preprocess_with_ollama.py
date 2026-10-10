@@ -1,43 +1,36 @@
 # Audiobook Text Preprocessor using Gemini API
 # Specialized for: Geležinio Vilko Saga
 # Transforms book chapters into narrator-friendly text with natural flow.
+#
+# Chapters are discovered from books/_quarto.yml, filtered to one book (--book N),
+# and identified by a STABLE KEY derived from the source file name
+# (b1_03_gintaro_sapnas), never by their position in the list. The manifest
+# (preprocessed/manifest.json) records book, key, order, title, source path and a
+# sha256 of the source text so later stages can skip unchanged chapters.
+#
+# `--list-chapters` is a dry run: it prints the discovered chapters and exits
+# without importing langchain or calling any API.
+
+from __future__ import annotations
 
 import os
 import re
-import yaml
+import sys
 import json
 from pathlib import Path
 import asyncio
 import logging
 import time
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Callable, Awaitable
 from contextlib import AsyncExitStack
-import aiohttp
-from mcp import ClientSession, StdioServerParameters
-from mcp.client.stdio import stdio_client
 
-# aiohttp compatibility shim: some client stacks expect aiohttp.ClientConnectorDNSError
-if not hasattr(aiohttp, "ClientConnectorDNSError"):
-    try:
-        from aiohttp.client_exceptions import ClientConnectorError as _CCE
-    except Exception:
-        _CCE = Exception
-    class _ClientConnectorDNSError(_CCE):
-        pass
-    aiohttp.ClientConnectorDNSError = _ClientConnectorDNSError
-
-from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
-from langchain_core.documents import Document
-from langchain_core.vectorstores import InMemoryVectorStore
-from langchain_core.tools import StructuredTool
-from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
-from langgraph.prebuilt import create_react_agent
-from tqdm import tqdm
+sys.path.insert(0, str(Path(__file__).parent))
+import book_manifest as bm
 
 # Paths
-BOOK_DIR = Path(__file__).parent.parent / "books"
-OUTPUT_DIR = Path(__file__).parent / "preprocessed"
-CACHE_DIR = Path(__file__).parent / "cache"
+BOOK_DIR = bm.BOOKS_DIR
+OUTPUT_DIR = bm.PREPROCESSED_DIR
+CACHE_DIR = bm.CACHE_DIR
 MCP_CONFIG_PATH = Path(__file__).parent / "mcp.json"
 LOG_FILE = Path(__file__).parent / "preprocessing.log"
 
@@ -52,12 +45,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Gemini configuration (API-based)
+# Gemini configuration (API-based). The key is only REQUIRED when an LLM call is
+# about to be made (see _require_gemini_key), so the dry run works without it.
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
 if GEMINI_API_KEY:
     os.environ.setdefault("GOOGLE_API_KEY", GEMINI_API_KEY)
-else:
-    raise RuntimeError("GEMINI_API_KEY or GOOGLE_API_KEY must be set for Gemini usage.")
 
 # Prefer v1 defaults
 GENERATION_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
@@ -66,6 +58,49 @@ EMBEDDING_MODEL = os.getenv("GEMINI_EMBEDDING_MODEL", "text-embedding-004")
 LLM_TIMEOUT = int(os.getenv("GEMINI_TIMEOUT", "240"))
 LLM_RETRIES = int(os.getenv("GEMINI_RETRIES", "3"))
 LLM_RETRY_BACKOFF = float(os.getenv("GEMINI_RETRY_BACKOFF", "2.0"))
+
+# Heavy third-party imports are deferred until the LLM stack is really needed.
+ChatGoogleGenerativeAI = GoogleGenerativeAIEmbeddings = Document = InMemoryVectorStore = None
+StructuredTool = HumanMessage = AIMessage = None
+ClientSession = StdioServerParameters = stdio_client = None
+aiohttp = None
+
+
+def _require_gemini_key():
+    if not GEMINI_API_KEY:
+        raise RuntimeError("GEMINI_API_KEY or GOOGLE_API_KEY must be set for Gemini usage.")
+
+
+def _load_llm_stack():
+    """Import aiohttp / mcp / langchain on first use (never in --list-chapters)."""
+    global ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings, Document, InMemoryVectorStore
+    global StructuredTool, HumanMessage, AIMessage, ClientSession, StdioServerParameters, stdio_client, aiohttp
+    if ChatGoogleGenerativeAI is not None:
+        return
+    import aiohttp as _aiohttp
+    # aiohttp compatibility shim: some client stacks expect aiohttp.ClientConnectorDNSError
+    if not hasattr(_aiohttp, "ClientConnectorDNSError"):
+        try:
+            from aiohttp.client_exceptions import ClientConnectorError as _CCE
+        except Exception:
+            _CCE = Exception
+        class _ClientConnectorDNSError(_CCE):
+            pass
+        _aiohttp.ClientConnectorDNSError = _ClientConnectorDNSError
+    aiohttp = _aiohttp
+
+    from mcp import ClientSession as _CS, StdioServerParameters as _SSP
+    from mcp.client.stdio import stdio_client as _stdio
+    from langchain_google_genai import GoogleGenerativeAIEmbeddings as _Emb, ChatGoogleGenerativeAI as _Chat
+    from langchain_core.documents import Document as _Doc
+    from langchain_core.vectorstores import InMemoryVectorStore as _VS
+    from langchain_core.tools import StructuredTool as _ST
+    from langchain_core.messages import HumanMessage as _HM, AIMessage as _AM
+    ClientSession, StdioServerParameters, stdio_client = _CS, _SSP, _stdio
+    GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI = _Emb, _Chat
+    Document, InMemoryVectorStore, StructuredTool = _Doc, _VS, _ST
+    HumanMessage, AIMessage = _HM, _AM
+
 
 class MCPManager:
     """Manages connections to multiple MCP servers defined in mcp.json."""
@@ -78,11 +113,16 @@ class MCPManager:
         self.config = self._load_config()
 
     def _load_config(self):
-        with open(self.config_path, 'r') as f:
-            return json.load(f)
+        try:
+            with open(self.config_path, 'r') as f:
+                return json.load(f)
+        except (OSError, ValueError) as e:
+            logger.warning(f"MCP config unavailable ({e}); continuing without MCP tools")
+            return {}
 
     async def connect_all(self, retries=3):
         """Connect to all servers defined in the config with retries."""
+        _load_llm_stack()
         for name, cfg in self.config.get("mcpServers", {}).items():
             for attempt in range(retries):
                 try:
@@ -144,7 +184,7 @@ class MCPManager:
         """Close all connections."""
         await self.exit_stack.aclose()
 
-    def get_langchain_tools(self) -> List[StructuredTool]:
+    def get_langchain_tools(self) -> list:
         """Wrap MCP tools as LangChain StructuredTools."""
         lc_tools = []
         for full_name, (srv_name, real_tool_name) in self.tools_map.items():
@@ -244,32 +284,9 @@ def is_error_text(text: str) -> bool:
     return "Error: Failed to process chapter" in text
 
 
-def flatten_chapters(chapters):
-    """recursively flatten Quarto chapter list handling parts."""
-    flat_list = []
-    for item in chapters:
-        if isinstance(item, str):
-            flat_list.append(item)
-        elif isinstance(item, dict):
-            # Handle part content file if present
-            if 'part' in item and isinstance(item['part'], str):
-                flat_list.append(item['part'])
-            
-            # Handle chapters within the part
-            if 'chapters' in item:
-                flat_list.extend(flatten_chapters(item['chapters']))
-    return flat_list
-
-def load_quarto_config():
-    """Load the Quarto book configuration to get chapter order."""
-    config_path = BOOK_DIR / "_quarto.yml"
-    with open(config_path, 'r') as f:
-        config = yaml.safe_load(f)
-    return flatten_chapters(config['book']['chapters'])
-
 def extract_chapter_text(qmd_file):
-    """Extract clean text from a Quarto markdown file."""
-    with open(BOOK_DIR / qmd_file, 'r') as f:
+    """Extract clean text from a Quarto markdown file (path relative to books/)."""
+    with open(BOOK_DIR / qmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
     # Remove YAML frontmatter
@@ -301,6 +318,8 @@ def extract_chapter_text(qmd_file):
 class NarrationMemory:
     """Manages semantic memory of the book narration using embeddings."""
     def __init__(self, model_name: str = EMBEDDING_MODEL):
+        _require_gemini_key()
+        _load_llm_stack()
         print(f"🧠 Initializing Semantic Memory (Gemini: {model_name})...", flush=True)
         self.embeddings = GoogleGenerativeAIEmbeddings(
             model=model_name,
@@ -338,11 +357,6 @@ class NarrationMemory:
         if self.chapter_count == 0:
             return "(No semantic memory yet - first chapter)"
         
-    def get_semantic_context(self, text: str, k=3) -> str:
-        """Retrieve relevant snippets from previous chapters using a thematic summary."""
-        if self.chapter_count == 0:
-            return "(No semantic memory yet - first chapter)"
-        
         try:
             # 1. Generate a quick thematic summary for the query
             summary_prompt = f"Summarize the core themes and key terms of this text in 2 sentences for a vector search query:\n\n{text[:2000]}"
@@ -372,7 +386,7 @@ class NarrationMemory:
             print(f"   ⚠️  Semantic memory search failed: {e}", flush=True)
             return "(Semantic search unavailable)"
 
-async def agent_reasoning_loop(text, mcp_manager: MCPManager, previous_context="", next_context="", semantic_context=""):
+async def agent_reasoning_loop(text, mcp_manager, previous_context="", next_context="", semantic_context=""):
     """Draft, Self-Review/Critique, and Editing/Refinement loop."""
     
     draft_prompt = f"""You are a master storyteller and translator.
@@ -389,6 +403,8 @@ SOURCE TEXT:
 {text}"""
 
     try:
+        _require_gemini_key()
+        _load_llm_stack()
         llm = ChatGoogleGenerativeAI(
             model=GENERATION_MODEL,
             temperature=0.1,
@@ -464,6 +480,20 @@ Your final edited text here...
 
 
 
+def apply_pronunciation_lexicon(text, lang="en"):
+    """HOOK: respell names / loanwords so the TTS pronounces them correctly.
+
+    Currently returns the text UNCHANGED. Called after cleaning, right before the
+    narration is cached.
+
+    TODO: implement from world_rules/pronunciation_lexicon.json (per-language
+    respellings for Lithuanian names and terms) as part of the pronunciation and
+    diacritics redesign. `lang` selects the lexicon section ("en" for the English
+    narration produced by this stage).
+    """
+    return text
+
+
 def clean_invalid_tags(text):
     """Clean and standardize speaker/paralinguistic tags for TTS."""
     # Valid paralinguistic tags
@@ -505,73 +535,85 @@ def clean_invalid_tags(text):
     
     return text.strip()
 
-async def preprocess_chapter(chapter_file, chapter_name, mcp_manager, previous_context="", next_context="", memory: Optional[NarrationMemory] = None):
-    """Preprocess a single chapter using the ReAct agent loop."""
-    print(f"\n📖 Processing: {chapter_name}", flush=True)
-    
-    # Check cache and ensure it is not an error placeholder
-    cache_file = CACHE_DIR / f"{chapter_name}.txt"
-    if cache_file.exists():
-        with open(cache_file, 'r') as f:
-            cached_text = f.read()
+async def preprocess_chapter(chapter: Dict[str, Any], mcp_manager, previous_context="", next_context="",
+                             memory: Optional[NarrationMemory] = None, force: bool = False) -> Optional[str]:
+    """Preprocess a single chapter (a manifest-style dict from book_manifest).
+
+    The cache is keyed by the stable chapter key and invalidated when the source
+    text hash changes. Returns the narration text, or None if the chapter was
+    skipped or the LLM failed (failures are never cached or written).
+    """
+    key = chapter['key']
+    print(f"\n📖 Processing: {key} ({chapter['title']})", flush=True)
+
+    # Check cache: must match the current source hash and not be an error placeholder
+    cache_file = bm.cache_path(key)
+    hash_file = bm.cache_hash_path(key)
+    if not force and cache_file.exists():
+        cached_text = cache_file.read_text(encoding='utf-8')
+        cached_hash = hash_file.read_text().strip() if hash_file.exists() else None
         if is_error_text(cached_text):
             print(f"   ⚠️  Cached version invalid (error placeholder); reprocessing", flush=True)
+        elif cached_hash != chapter['source_hash']:
+            print(f"   ⚠️  Cache is stale (source changed or unhashed); reprocessing", flush=True)
         else:
             print(f"   ✓ Using cached version", flush=True)
             if memory:
-                memory.add_chapter(chapter_name, cached_text)
+                memory.add_chapter(key, cached_text)
             return cached_text
-    
+
     # Extract text
     try:
-        text = extract_chapter_text(chapter_file)
+        text = extract_chapter_text(chapter['source'])
     except FileNotFoundError:
-        # Check if it's likely a Part divider without a content file
-        special_sections = ["Nuosmukis", "Pabėgimas", "Karas ir Tvarka"] # Add others as needed
-        if any(s in chapter_name for s in special_sections) or "Part" in chapter_name:
-            print(f"   ✨ Generating announcement for Part: {chapter_name}", flush=True)
-            text = f"Part: {chapter_name}"
-        else:
-            print(f"   ⚠️  Skipping (not found: {chapter_file})", flush=True)
-            return None
-    
-    is_part = "Part:" in (text or "")
-    if not text or (len(text) < 50 and not is_part):
+        print(f"   ⚠️  Skipping (not found: {chapter['source']})", flush=True)
+        return None
+
+    if not text or len(text) < 50:
         print(f"   ⚠️  Skipping ({'too short' if text else 'empty'})", flush=True)
         return None
-    
+
     # Get semantic context if memory is available
     semantic_context = ""
     if memory:
         semantic_context = memory.get_semantic_context(text)
-    
+
     # Split into chunks if too long
     max_chunk_size = 4000
     chunks = [text[i:i+max_chunk_size] for i in range(0, len(text), max_chunk_size)]
-    
+
     narrated_chunks = []
+    failed = False
     for i, chunk in enumerate(chunks):
         if len(chunks) > 1:
             logger.info(f"   🤖 Processing chunk {i+1}/{len(chunks)}...")
-        
+
         try:
             narrated = await agent_reasoning_loop(
-                chunk, 
+                chunk,
                 mcp_manager,
-                previous_context=previous_context, 
+                previous_context=previous_context,
                 next_context=next_context,
                 semantic_context=semantic_context
             )
-            narrated_chunks.append(narrated)
         except Exception as e:
             logger.error(f"   ❌ Error processing chunk {i+1}: {e}")
-            narrated_chunks.append(f"[Error: Chunk {i+1} failed]")
-    
+            failed = True
+            break
+        if is_error_text(narrated):
+            logger.error(f"   ❌ Chunk {i+1} failed: {narrated[:200]}")
+            failed = True
+            break
+        narrated_chunks.append(narrated)
+
+    if failed:
+        # Never cache or publish an error placeholder as narration.
+        return None
+
     final_text = '\n\n'.join(narrated_chunks)
     final_text = clean_invalid_tags(final_text)
-    
+
     # Comprehensive text cleaning for TTS
-    import re
     # Remove markdown formatting
     final_text = re.sub(r'\*\*(.+?)\*\*', r'\1', final_text)      # **bold**
     final_text = re.sub(r'\*(.+?)\*', r'\1', final_text)          # *italic*
@@ -589,196 +631,166 @@ async def preprocess_chapter(chapter_file, chapter_name, mcp_manager, previous_c
     final_text = re.sub(r'<parameter[^>]*>', '', final_text)
     final_text = re.sub(r'</parameter>', '', final_text)
     final_text = final_text.strip()
-    
-    # Add chapter announcement at the beginning
-    # Try to extract the actual title from the source file
-    chapter_title = None
-    try:
-        with open(BOOK_DIR / f"{chapter_name}.qmd", 'r') as f:
-            for line in f:
-                # Look for the first markdown header (# Title)
-                match = re.match(r'^#\s+(.+?)(\s+\{[^}]*\})?\s*$', line)
-                if match:
-                    chapter_title = match.group(1).strip()
-                    # Remove "Part" prefix if it's a part divider, keep the rest
-                    # e.g., "Part I: Historical Foundation" stays as is
-                    break
-    except:
-        pass
-    
-    # Fallback to filename-based title if extraction failed
-    if not chapter_title:
-        chapter_title = chapter_name.replace('-', ' ').replace('_', ' ').title()
-        # Strip leading zeros from numbers (e.g., "01 Foundations" -> "1 Foundations")
-        import re as re_module
-        chapter_title = re_module.sub(r'\b0+(\d+)', r'\1', chapter_title)
-    
-    # 2. Add numbering for regular chapters if missing
-    # Check if filename starts with a number (e.g., "01-foundations")
-    import re as re_module
-    num_match = re_module.match(r'^0*(\d+)-', chapter_name)
-    if num_match and "Part" not in chapter_title and "Transition" not in chapter_title:
-        chapter_num = num_match.group(1)
-        # Only prepend if title doesn't already start with the number
-        if not chapter_title.startswith(chapter_num):
-            chapter_title = f"{chapter_num} {chapter_title}"
 
-    # 3. Add "Chapter: " prefix CONDITIONALLY
-    # Don't add "Chapter:" for special sections
-    special_prefixes = ["part", "epigraph", "dedication", "acknowledgements", 
-                       "preface", "introduction", "copyright", "appendix", 
-                       "glossary", "bibliography", "about", "transition", 
-                       "call to action", "conclusion", "source index", "support"]
-    
-    # Check lower case title for robusntess
-    title_lower = chapter_title.lower()
-    is_special = any(p in title_lower for p in special_prefixes)
-    
-    # Removed automatic Lithuanian title prepending. The LLM handles translated titles.
-    # if is_special:
-    #     final_text = f"{chapter_title}.\n\n{final_text}"
-    # else:
-    #     final_text = f"Chapter: {chapter_title}.\n\n{final_text}"
-    
-    # Cache and Memorize
+    # Pronunciation pass (currently a no-op hook; see apply_pronunciation_lexicon)
+    final_text = apply_pronunciation_lexicon(final_text, "en")
+
+    # Cache (with the source hash) and memorize
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    with open(cache_file, 'w') as f:
-        f.write(final_text)
-    
+    cache_file.write_text(final_text, encoding='utf-8')
+    hash_file.write_text(chapter['source_hash'])
+
     if memory:
-        memory.add_chapter(chapter_name, final_text)
-        
+        memory.add_chapter(key, final_text)
+
     return final_text
 
-def build_context_summary(chapter_files, current_index, window=2):
-    """Build context summary from surrounding chapters with actual content."""
-    context_parts = []
-    
-    # Get previous chapters
+def build_context_summary(chapters, current_index, window=2):
+    """Build context summary from surrounding chapters (manifest-style dicts)."""
+    def summarize(ch):
+        try:
+            text = extract_chapter_text(ch['source'])
+            summary = text[:300].strip() + "..." if len(text) > 300 else text.strip()
+            return f"\n{ch['key']}:\n{summary}\n"
+        except Exception:
+            return f"\n{ch['key']}: (content unavailable)\n"
+
     prev_start = max(0, current_index - window)
-    if prev_start < current_index:
-        context_parts.append("PREVIOUS CHAPTERS:")
-        for i in range(prev_start, current_index):
-            chapter_file, chapter_name = chapter_files[i]
-            try:
-                # Extract first 300 chars as summary
-                text = extract_chapter_text(chapter_file)
-                summary = text[:300].strip() + "..." if len(text) > 300 else text.strip()
-                context_parts.append(f"\n{chapter_name}:\n{summary}\n")
-            except:
-                context_parts.append(f"\n{chapter_name}: (content unavailable)\n")
-    
-    prev_context = "\n".join(context_parts) if context_parts else ""
-    
-    # Get next chapters
-    context_parts = []
-    next_end = min(len(chapter_files), current_index + window + 1)
-    if current_index + 1 < next_end:
-        context_parts.append("UPCOMING CHAPTERS:")
-        for i in range(current_index + 1, next_end):
-            chapter_file, chapter_name = chapter_files[i]
-            try:
-                # Extract first 300 chars as preview
-                text = extract_chapter_text(chapter_file)
-                summary = text[:300].strip() + "..." if len(text) > 300 else text.strip()
-                context_parts.append(f"\n{chapter_name}:\n{summary}\n")
-            except:
-                context_parts.append(f"\n{chapter_name}: (content unavailable)\n")
-    
-    next_context = "\n".join(context_parts) if context_parts else ""
-    
-    return prev_context, next_context
+    prev_parts = ["PREVIOUS CHAPTERS:"] + [summarize(chapters[i]) for i in range(prev_start, current_index)] \
+        if prev_start < current_index else []
 
-def get_ordered_chapters(chapters):
-    """Clean the chapter list and extract names/paths."""
-    all_chapters = []
-    for chapter_entry in chapters:
-        if isinstance(chapter_entry, str):
-            chapter_file = chapter_entry
-            chapter_name = Path(chapter_file).stem
-            
-            # Skip non-content files
-            if chapter_file in ['index.qmd', 'copyright.qmd', 'references.qmd'] or chapter_name.startswith('interlude'):
-                continue
-            
-            all_chapters.append((chapter_file, chapter_name))
-            
-        elif isinstance(chapter_entry, dict):
-            # Handle part entries with nested chapters
-            if 'part' in chapter_entry and 'chapters' in chapter_entry:
-                for nested_chapter in chapter_entry['chapters']:
-                    if isinstance(nested_chapter, str):
-                        chapter_file = nested_chapter
-                        chapter_name = Path(chapter_file).stem
-                        
-                        # Skip non-content files
-                        if chapter_file in ['index.qmd', 'references.qmd'] or chapter_name.startswith('interlude'):
-                            continue
-                        
-                        all_chapters.append((chapter_file, chapter_name))
-    return all_chapters
+    next_end = min(len(chapters), current_index + window + 1)
+    next_parts = ["UPCOMING CHAPTERS:"] + [summarize(chapters[i]) for i in range(current_index + 1, next_end)] \
+        if current_index + 1 < next_end else []
 
-async def preprocess_book():
-    """Preprocess the entire book as an async agent."""
-    print(f"🤖 ReAct Agent initialized: {GENERATION_MODEL}")
-    
-    # Initialize MCP
+    return "\n".join(prev_parts), "\n".join(next_parts)
+
+def _resolve_only(book: int, only: Optional[List[str]], entries: List[Dict[str, Any]]) -> Optional[set]:
+    """Accept full keys (b1_03_x) or bare stems (03_x); error on unknown names."""
+    if not only:
+        return None
+    keys = {e['key'] for e in entries}
+    resolved = set()
+    for name in only:
+        cand = name if name in keys else f"b{book}_{name}"
+        if cand not in keys:
+            raise SystemExit(f"Unknown chapter '{name}' for book {book}. Known keys: {', '.join(sorted(keys))}")
+        resolved.add(cand)
+    return resolved
+
+async def preprocess_book(book: int = 1, only: Optional[List[str]] = None, force: bool = False,
+                          on_chapter_ready: Optional[Callable[[Dict[str, Any]], None]] = None) -> List[str]:
+    """Preprocess one book. Returns the keys that failed.
+
+    The manifest is written up front with every chapter (pending ones have
+    preprocessed_hash=None) and updated after each chapter, so Stage 2 can start
+    narrating while this stage is still running. on_chapter_ready(entry) is called
+    for every chapter whose narration text is ready (freshly produced or reused).
+    """
+    _require_gemini_key()
+    print(f"🤖 ReAct Agent initialized: {GENERATION_MODEL} (book {book})")
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    entries = bm.build_manifest_entries(book)
+    if not entries:
+        raise SystemExit(f"No story chapters discovered for book {book} in books/_quarto.yml")
+    selected = _resolve_only(book, only, entries)
+    bm.save_manifest(book, entries)
+
     mcp_manager = MCPManager(MCP_CONFIG_PATH)
     await mcp_manager.connect_all()
-    
-    try:
-        chapters = load_quarto_config()
-        all_chapters = get_ordered_chapters(chapters)
-        
-        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-        all_chapters = get_ordered_chapters(chapters)
-        
-        memory = NarrationMemory()
-        processed_chapters = []
-        
-        for chapter_index, (chapter_file, chapter_name) in enumerate(tqdm(all_chapters, desc="Processing")):
-            output_file = OUTPUT_DIR / f"{chapter_index:02d}_{chapter_name}.txt"
-            
-            # Check for existing output; skip only if it isn't an error placeholder
-            if output_file.exists() and output_file.stat().st_size > 100:
-                with open(output_file, 'r') as f:
-                    existing_text = f.read()
-                if is_error_text(existing_text):
-                    logger.info(f"⚠️  Reprocessing {chapter_name} (previous run failed)")
-                else:
-                    logger.info(f"✅ Skipping {chapter_name} (already exists)")
-                    # Still add to memory for context
-                    memory.add_chapter(chapter_name, existing_text)
-                    processed_chapters.append({'name': chapter_name, 'file': str(output_file.absolute()), 'index': chapter_index})
-                    # Update manifest incrementally
-                    with open(OUTPUT_DIR / "manifest.json", 'w') as f:
-                        json.dump(processed_chapters, f, indent=4)
-                    continue
+    failures: List[str] = []
 
-            prev_context, next_context = build_context_summary(all_chapters, chapter_index, window=2)
-            
+    try:
+        memory = NarrationMemory()
+
+        try:
+            from tqdm import tqdm
+            iterator = tqdm(list(enumerate(entries)), desc="Processing")
+        except ImportError:
+            iterator = list(enumerate(entries))
+
+        for idx, entry in iterator:
+            key = entry['key']
+            if selected is not None and key not in selected:
+                continue
+            output_file = Path(entry['file'])
+
+            # Skip when the narration exists, matches the current source, and is not an error placeholder
+            if not force and bm.is_ready(entry):
+                existing_text = output_file.read_text(encoding='utf-8')
+                if not is_error_text(existing_text):
+                    logger.info(f"✅ Skipping {key} (unchanged)")
+                    memory.add_chapter(key, existing_text)
+                    if on_chapter_ready:
+                        on_chapter_ready(entry)
+                    continue
+                logger.info(f"⚠️  Reprocessing {key} (previous run failed)")
+
+            prev_context, next_context = build_context_summary(entries, idx, window=2)
+
             try:
                 narrated_text = await preprocess_chapter(
-                    chapter_file, 
-                    chapter_name, 
-                    mcp_manager,
-                    previous_context=prev_context, 
-                    next_context=next_context, 
-                    memory=memory
+                    entry, mcp_manager,
+                    previous_context=prev_context, next_context=next_context,
+                    memory=memory, force=force
                 )
-                
-                if narrated_text:
-                    with open(output_file, 'w') as f:
-                        f.write(narrated_text)
-                    processed_chapters.append({'name': chapter_name, 'file': str(output_file.absolute()), 'index': chapter_index})
-                    
-                    # Update manifest incrementally
-                    with open(OUTPUT_DIR / "manifest.json", 'w') as f:
-                        json.dump(processed_chapters, f, indent=4)
             except Exception as e:
-                logger.error(f"❌ Failed to process {chapter_name}: {e}")
+                logger.error(f"❌ Failed to process {key}: {e}")
+                narrated_text = None
+
+            if not narrated_text:
+                failures.append(key)
+                continue
+
+            # Optional spoken part heading on the first chapter of each Quarto part
+            heading = bm.spoken_part_heading(entry.get('part_number'), entry.get('part')) if entry.get('first_in_part') else None
+            output_file.write_text(f"{heading}\n\n{narrated_text}" if heading else narrated_text, encoding='utf-8')
+            entry['preprocessed_hash'] = entry['source_hash']
+            bm.save_manifest(book, entries)
+            if on_chapter_ready:
+                on_chapter_ready(entry)
     finally:
         await mcp_manager.disconnect_all()
 
+    if failures:
+        logger.error(f"❌ Failed chapters: {', '.join(failures)}")
+    return failures
+
+
+def print_chapter_report(book: int) -> int:
+    """Dry run: list discovered chapters without any API / model usage."""
+    chapters, skipped = bm.discover_chapters_report(book)
+    print(f"Book {book}: {len(chapters)} story chapters discovered from books/_quarto.yml")
+    print(f"{'order':>5}  {'key':<34} {'sha256':<12}  title  [part / source]")
+    for ch in chapters:
+        part = f" | part {ch['part_number']}: {ch['part']}" + (" (spoken heading here)" if ch['first_in_part'] else "") if ch['part'] else ""
+        print(f"{ch['order']:>5}  {ch['key']:<34} {ch['source_hash'][:12]}  {ch['title']}  [{ch['source']}{part}]")
+    parts = []
+    for ch in chapters:
+        if ch['part'] and ch['part'] not in parts:
+            parts.append(ch['part'])
+    print(f"\nQuarto part titles (labels only, NOT narrated as chapters): {', '.join(parts) or '-'}")
+    print("Excluded pages:")
+    for source, reason in skipped:
+        print(f"  {source:<40} {reason}")
+    return 0 if chapters else 1
+
+
 if __name__ == "__main__":
-    asyncio.run(preprocess_book())
+    import argparse
+    parser = argparse.ArgumentParser(description="Stage 1: preprocess book chapters into narrator text with Gemini")
+    parser.add_argument("--book", type=int, default=1, help="Book number (books/<N>/), default 1")
+    parser.add_argument("--list-chapters", action="store_true",
+                        help="Dry run: print discovered chapters, keys, order and hashes, then exit (no API calls)")
+    parser.add_argument("--only", type=str, default=None,
+                        help="Comma-separated chapter keys to (re)process, e.g. b1_03_gintaro_sapnas or 03_gintaro_sapnas")
+    parser.add_argument("--force", action="store_true", help="Ignore cache / existing output for the selected chapters")
+    args = parser.parse_args()
+
+    if args.list_chapters:
+        sys.exit(print_chapter_report(args.book))
+
+    only = [k.strip() for k in args.only.split(",") if k.strip()] if args.only else None
+    failed = asyncio.run(preprocess_book(args.book, only=only, force=args.force))
+    sys.exit(1 if failed else 0)

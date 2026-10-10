@@ -1,0 +1,20 @@
+---
+title: "Jogaila baptised, married, crowned in Kraków"
+id: ev_krakow_1386
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_krakow_1386.md >}}
+
+## What the chronicles say [Record]
+<!-- Sources and disagreements. Mark (verify) where unsure. -->
+
+## What really happened [Saga]
+<!-- The mythic gap-filling. Must not contradict the record. -->
+
+## Consequences
+<!-- Mirror the 'causes' edges. -->
+
+## Dramatisation
+<!-- Book · chapter · POV · season. -->

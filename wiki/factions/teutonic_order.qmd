@@ -1,0 +1,16 @@
+---
+title: "Teutonic Order"
+id: teutonic_order
+type: faction
+categories: [faction]
+---
+
+{{< include ../_generated/teutonic_order.md >}}
+
+## Overview
+## Wants (by book)
+| Book | Goal | Leverage | Red line |
+|---|---|---|---|
+## Patron Force
+## Internal tensions
+## Notable members

@@ -1,0 +1,14 @@
+---
+title: "Žvaigždės (Stars)"
+id: el_stars
+type: element
+categories: [magic]
+---
+
+{{< include ../_generated/el_stars.md >}}
+
+## Deity & zenith
+## Boon
+## Minor / major cost
+## Limits
+## Uses in the books

@@ -2,13 +2,13 @@
 
 ![Render PDF](https://github.com/Algiras/wolf-saga/actions/workflows/render.yml/badge.svg)
 
-![Series Header](books/series_header.png)
+![Series covers](books/covers/out/contact_sheet.png)
 
 "Geležinio Vilko Saga" yra epinis tamsiosios fantastikos pasakojimas apie XIV amžiaus pabaigos Lietuvą — laiką, kai brolžudiškos kovos, senieji dievai ir plieninė Ordinų tvarka susidūrė viename kruviname mazge.
 
 ## I Knyga: Vilko Tremtis (The Wolf's Exile)
 
-![Book I Cover](books/1/cover.png)
+<img src="books/covers/out/book1/front_ebook_1600x2560.jpg" alt="I knyga: Vilko Tremtis" width="320">
 
 Pirmas sagos tomas pasakoja apie Kunigaikščio Vytauto nuosmukį, išdavystę ir transformaciją. Po klastingos tėvo Kęstučio mirties Krėvos požemiuose, Vytautas turi tapti tuo, ko labiausiai bijojo — negailestingu politiniu žaidėju, kad susigrąžintų savo tėvų žemę.
 
@@ -38,7 +38,7 @@ Sugrįžimas namo ne kaip herojaus, o kaip keršytojo, atsivedusio svetimą ugn�
 
 ## II Knyga: Vytis ir Šešėlis (The Knight and the Shadow) — ANONSAS
 
-![Book II Teaser Cover](books/2_teaser.png)
+<img src="books/covers/out/book2/front_ebook_1600x2560.jpg" alt="II knyga: Auksinis Šešėlis" width="320">
 
 Vytautas pasiekė vokiečių ordiną, bet kaina už jo laisvę kyla su kiekviena diena. Kol jis ruošiasi susigrąžinti Vilnių, šešėlis, kurį jis parsivežė iš Dykrų, pradeda kalbėti jo balsu. 
 

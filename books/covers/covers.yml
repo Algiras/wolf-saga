@@ -27,8 +27,8 @@ books:
     # colour key: [darkest background, mid tone, accent]
     colors: ["#0b1824", "#7f9db3", "#ffa63c"]
     focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
-    art_file: books/covers/art/book1.png
-    art_wide_file: books/covers/art/book1_wide.png
+    art_file: books/covers/art/book1.jpg
+    art_wide_file: books/covers/art/book1_wide.jpg
     art_portrait_aspect: "2:3"
     art_wide_aspect: "16:9"
     art_portrait_min_px: [2048, 3072]
@@ -90,8 +90,8 @@ books:
     # colour key: [darkest background, mid tone, accent]
     colors: ["#2a0a0c", "#c2411f", "#f2b441"]
     focus: [0.5, 0.45]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
-    art_file: books/covers/art/book2.png
-    art_wide_file: books/covers/art/book2_wide.png
+    art_file: books/covers/art/book2.jpg
+    art_wide_file: books/covers/art/book2_wide.jpg
     art_portrait_aspect: "2:3"
     art_wide_aspect: "16:9"
     art_portrait_min_px: [2048, 3072]
@@ -154,8 +154,8 @@ books:
     # colour key: [darkest background, mid tone, accent]
     colors: ["#06190f", "#2f6b3e", "#d8c46a"]
     focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
-    art_file: books/covers/art/book3.png
-    art_wide_file: books/covers/art/book3_wide.png
+    art_file: books/covers/art/book3.jpg
+    art_wide_file: books/covers/art/book3_wide.jpg
     art_portrait_aspect: "2:3"
     art_wide_aspect: "16:9"
     art_portrait_min_px: [2048, 3072]
@@ -215,8 +215,8 @@ books:
     # colour key: [darkest background, mid tone, accent]
     colors: ["#1a0b2b", "#5b3485", "#d4a640"]
     focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
-    art_file: books/covers/art/book4.png
-    art_wide_file: books/covers/art/book4_wide.png
+    art_file: books/covers/art/book4.jpg
+    art_wide_file: books/covers/art/book4_wide.jpg
     art_portrait_aspect: "2:3"
     art_wide_aspect: "16:9"
     art_portrait_min_px: [2048, 3072]
@@ -274,8 +274,8 @@ books:
     # colour key: [darkest background, mid tone, accent]
     colors: ["#121416", "#5c6166", "#d98e4a"]
     focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
-    art_file: books/covers/art/book5.png
-    art_wide_file: books/covers/art/book5_wide.png
+    art_file: books/covers/art/book5.jpg
+    art_wide_file: books/covers/art/book5_wide.jpg
     art_portrait_aspect: "2:3"
     art_wide_aspect: "16:9"
     art_portrait_min_px: [2048, 3072]
@@ -335,8 +335,8 @@ books:
     # colour key: [darkest background, mid tone, accent]
     colors: ["#1d0c04", "#8a3510", "#ff8a1f"]
     focus: [0.5, 0.5]   # subject centre (x, y fractions) used when cropping art to other aspect ratios
-    art_file: books/covers/art/book6.png
-    art_wide_file: books/covers/art/book6_wide.png
+    art_file: books/covers/art/book6.jpg
+    art_wide_file: books/covers/art/book6_wide.jpg
     art_portrait_aspect: "2:3"
     art_wide_aspect: "16:9"
     art_portrait_min_px: [2048, 3072]

@@ -112,7 +112,11 @@ def select(book: int, kind: str, version: int, books: dict[int, dict]) -> None:
         sys.exit(f"Candidate not found: {src.relative_to(ROOT)}")
     dest = ROOT / cfg["art_file" if kind == "portrait" else "art_wide_file"]
     dest.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(src, dest)
+    if dest.suffix.lower() in (".jpg", ".jpeg"):
+        from PIL import Image
+        Image.open(src).convert("RGB").save(dest, quality=92, optimize=True, progressive=True)
+    else:
+        shutil.copyfile(src, dest)
     print(f"Selected {src.relative_to(ROOT)} → {dest.relative_to(ROOT)}. Now run: python3 scripts/make_covers.py")
 
 

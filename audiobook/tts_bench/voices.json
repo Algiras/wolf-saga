@@ -1,0 +1,121 @@
+{
+  "_comment": "Cast roles and per-engine voice tables. Voice ids are PLACEHOLDERS to be confirmed by listening (and, for ElevenLabs/Gemini, replaced with the author's chosen library/designed voices). API plugins also read overrides from env: <ENGINE>_VOICE_<ROLE>, e.g. ELEVENLABS_VOICE_NARRATOR. Roles: narrator, male_old, male_young, female, divine, extra.",
+  "speaker_roles": {
+    "narrator": "narrator",
+    "kestutis": "male_old",
+    "vytautas": "male_young",
+    "skirgaila": "male_young",
+    "jogaila": "male_young",
+    "birute": "female",
+    "jadvyga": "female",
+    "ona": "female",
+    "amber_queen": "divine",
+    "divine": "divine",
+    "hanulas": "extra",
+    "hene": "extra",
+    "unknown": "extra"
+  },
+  "role_descriptions": {
+    "narrator": "mature, low, steady storyteller; carries all attribution and description",
+    "male_old": "Kestutis: weathered elder, tired restraint, gravel",
+    "male_young": "Vytautas / Jogaila: tense younger man, controlled anger",
+    "female": "Birute: grave, intuitive woman, can break into anguish",
+    "divine": "Amber Queen / Praurime: not human, vast, calm, slightly processed",
+    "extra": "envoys, guards, mercenaries: neutral male"
+  },
+  "engines": {
+    "elevenlabs": {
+      "*": {
+        "narrator": "JBFqnCBsd6RMkjVDRZzb",
+        "male_old": "N2lVS1w4EtoT3dr4eOWO",
+        "male_young": "onwK4e9ZLuTAKqWW03F9",
+        "female": "EXAVITQu4vr4xnSDxMaL",
+        "divine": "XrExE9yKIg1WjnnlVkGX",
+        "extra": "nPczCjzI2devNBz1zQrb"
+      },
+      "_note": "Legacy premade voice ids (George, Callum, Daniel, Sarah, Matilda, Brian) as placeholders; they speak English natively, so for Lithuanian pick Lithuanian-accent library voices or design voices and override via ELEVENLABS_VOICE_<ROLE>."
+    },
+    "gemini": {
+      "*": {
+        "narrator": "Charon",
+        "male_old": "Algenib",
+        "male_young": "Alnilam",
+        "female": "Gacrux",
+        "divine": "Vindemiatrix",
+        "extra": "Orus"
+      }
+    },
+    "azure": {
+      "lt": {
+        "narrator": "lt-LT-LeonasNeural", "male_old": "lt-LT-LeonasNeural", "male_young": "lt-LT-LeonasNeural",
+        "female": "lt-LT-OnaNeural", "divine": "lt-LT-OnaNeural", "extra": "lt-LT-LeonasNeural"
+      },
+      "en": {
+        "narrator": "en-GB-RyanNeural", "male_old": "en-US-GuyNeural", "male_young": "en-GB-ThomasNeural",
+        "female": "en-GB-SoniaNeural", "divine": "en-US-AriaNeural", "extra": "en-US-DavisNeural"
+      }
+    },
+    "edge": {
+      "lt": {
+        "narrator": "lt-LT-LeonasNeural", "male_old": "lt-LT-LeonasNeural", "male_young": "lt-LT-LeonasNeural",
+        "female": "lt-LT-OnaNeural", "divine": "lt-LT-OnaNeural", "extra": "lt-LT-LeonasNeural"
+      },
+      "en": {
+        "narrator": "en-GB-RyanNeural", "male_old": "en-US-GuyNeural", "male_young": "en-GB-ThomasNeural",
+        "female": "en-GB-SoniaNeural", "divine": "en-US-AriaNeural", "extra": "en-US-AndrewNeural"
+      }
+    },
+    "google_chirp": {
+      "lt": {
+        "narrator": "lt-LT-Chirp3-HD-Charon", "male_old": "lt-LT-Chirp3-HD-Algenib", "male_young": "lt-LT-Chirp3-HD-Fenrir",
+        "female": "lt-LT-Chirp3-HD-Kore", "divine": "lt-LT-Chirp3-HD-Aoede", "extra": "lt-LT-Chirp3-HD-Orus"
+      },
+      "en": {
+        "narrator": "en-GB-Chirp3-HD-Charon", "male_old": "en-GB-Chirp3-HD-Algenib", "male_young": "en-GB-Chirp3-HD-Fenrir",
+        "female": "en-GB-Chirp3-HD-Kore", "divine": "en-GB-Chirp3-HD-Aoede", "extra": "en-GB-Chirp3-HD-Orus"
+      },
+      "_note": "Voice-name pattern <locale>-Chirp3-HD-<Name> is from the vendor docs; which of the 30 names are offered for lt-LT was not confirmed. Run the voices.list call and edit."
+    },
+    "openai": {
+      "*": {
+        "narrator": "onyx", "male_old": "ash", "male_young": "echo",
+        "female": "coral", "divine": "shimmer", "extra": "alloy"
+      }
+    },
+    "say": {
+      "en": {
+        "narrator": "Daniel", "male_old": "Daniel", "male_young": "Daniel",
+        "female": "Samantha", "divine": "Moira", "extra": "Tessa"
+      }
+    },
+    "kokoro": {
+      "en": {
+        "narrator": "bm_george", "male_old": "bm_lewis", "male_young": "am_adam",
+        "female": "af_nicole", "divine": "af_heart", "extra": "am_michael"
+      }
+    },
+    "piper": {
+      "lt": {"narrator": "lt_LT-reginute1-medium", "male_old": "lt_LT-reginute1-medium", "male_young": "lt_LT-reginute1-medium",
+             "female": "lt_LT-reginute1-medium", "divine": "lt_LT-reginute1-medium", "extra": "lt_LT-reginute1-medium"}
+    },
+    "omnivoice": {
+      "*": {
+        "narrator": "male, low pitch",
+        "male_old": "male, elderly, very low pitch",
+        "male_young": "male, young adult, moderate pitch",
+        "female": "female, middle-aged, low pitch",
+        "divine": "female, low pitch, whisper",
+        "extra": "male, middle-aged"
+      },
+      "_note": "OmniVoice voice-design attributes (gender, age, pitch, style=whisper). Voice design is trained on zh/en only; for lt, cloning from a same-language reference clip (OMNIVOICE_REF_<ROLE>=path.wav + _TEXT) is the stable mode."
+    },
+    "higgs": {
+      "*": {"narrator": "auto", "male_old": "auto", "male_young": "auto", "female": "auto", "divine": "auto", "extra": "auto"},
+      "_note": "Zero-shot voice cloning needs reference clips: HIGGS_REF_<ROLE>=path.wav with HIGGS_REF_<ROLE>_TEXT. Consent-only references."
+    },
+    "chatterbox": {
+      "en": {"narrator": "default", "male_old": "default", "male_young": "default", "female": "default", "divine": "default", "extra": "default"},
+      "_note": "Per-role reference clips via CHATTERBOX_REF_<ROLE>=path.wav (consented voices only)."
+    }
+  }
+}

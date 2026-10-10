@@ -30,11 +30,22 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y fonts-dejavu
 
+      - name: Validate World Graph
+        run: python3 scripts/validate_world_graph.py --check
+
       - name: Render Book
         run: |
           cd books
           quarto render --to all
           cp ../llms.txt _book/llms.txt
+
+      - name: Render Wiki
+        run: |
+          python3 scripts/validate_world_graph.py
+          python3 scripts/build_wiki.py
+          quarto render wiki
+          mkdir -p books/_book/wiki
+          cp -r wiki/_site/. books/_book/wiki/
 
       - name: Create Release
         uses: softprops/action-gh-release@v2

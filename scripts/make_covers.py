@@ -697,6 +697,13 @@ def build_book(ctx: Ctx, n: int, kinds=("ebook", "square", "video", "thumb")):
     print(f"book {n} ({ctx.title(b)}): " + "; ".join(status))
 
 
+def _save_preview(img, path, max_w=1600):
+    """Contact sheets are committed previews: keep them small and deterministic."""
+    if img.width > max_w:
+        img = img.resize((max_w, round(img.height * max_w / img.width)), Image.LANCZOS)
+    img.convert("RGB").save(path, optimize=True)
+
+
 def contact_sheets(ctx: Ctx):
     od = ctx.out_root
     od.mkdir(parents=True, exist_ok=True)
@@ -719,7 +726,7 @@ def contact_sheets(ctx: Ctx):
     for t in thumbs:
         sheet.paste(t, (x, gap))
         x += t.width + gap
-    sheet.save(od / f"contact_sheet{suffix}.png")
+    _save_preview(sheet, od / f"contact_sheet{suffix}.png")
 
     # video backgrounds and thumbnails, 3 x 2
     cw, chh = 960, 540
@@ -729,7 +736,7 @@ def contact_sheets(ctx: Ctx):
     for i, b in enumerate(books):
         im = open_out(b, "video").resize((cw, chh), Image.LANCZOS)
         sheet2.paste(im, (gap + (i % cols) * (cw + gap), gap + (i // cols) * (chh + gap)))
-    sheet2.save(od / f"contact_sheet_wide{suffix}.png")
+    _save_preview(sheet2, od / f"contact_sheet_wide{suffix}.png")
     print(f"contact sheets: {od / ('contact_sheet' + suffix + '.png')}, {od / ('contact_sheet_wide' + suffix + '.png')}")
 
 

@@ -61,3 +61,10 @@ books/covers/out/**
 !books/covers/out/book*/front_ebook_1600x2560.jpg
 !books/covers/out/book*/video_bg_1920x1080.jpg
 books/covers/art/candidates/
+
+# Local tool settings and run artifacts (never commit)
+.claude/
+scripts/editorial_changes_log.json
+audiobook/state/
+audiobook/tts_bench/samples/
+*.env

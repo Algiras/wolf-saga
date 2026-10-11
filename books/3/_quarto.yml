@@ -1,0 +1,85 @@
+project:
+  type: book
+
+lang: lt
+
+book:
+  title: "Geležinio Vilko Saga"
+  subtitle: "III Knyga: Žaliasis Miškas"
+  author: "Algimantas Krasauskas"
+  output-file: saga-3
+  date: "10/10/2026"
+  cover-image: cover.jpg
+  navbar:
+    right:
+      - text: "I knyga"
+        href: ../
+      - text: "II knyga"
+        href: ../2/
+      - text: "III knyga"
+        href: index.html
+      - text: "VI knyga (priešistorė)"
+        href: ../6/
+      - text: "Wiki"
+        href: ../wiki/
+  chapters:
+    - index.qmd
+    - part: "Sušalę Pumpurai"
+      chapters:
+        - 01_susale_pumpurai.qmd
+        - 02_serno_kalavijas.qmd
+        - 03_vilniaus_ir_radomo_aktai.qmd
+        - 04_pirmasis_sukilimas.qmd
+        - 05_svitrigailos_pabegimas.qmd
+        - 06_racionzo_taika.qmd
+        - 07_pilkoji.qmd
+        - 08_sesesiu_pardavejo_pasiulymas.qmd
+        - 09_vilku_krikstas.qmd
+        - 10_ugros_krantai.qmd
+    - part: "Žaliasis Labirintas"
+      chapters:
+        - 11_malborko_sesesiai.qmd
+        - 12_antrasis_sukilimas.qmd
+        - 13_brastos_pasitarimas.qmd
+        - 14_juros_balsas.qmd
+        - 15_tiltas_per_vysla.qmd
+        - 16_misko_snabzdesiai.qmd
+        - 17_zibintas.qmd
+        - 18_du_kalavijai.qmd
+        - 19_traukimasis.qmd
+        - 20_gelezies_mirtis.qmd
+    - part: "Taikos Kaina"
+      chapters:
+        - 21_kruvini_lauzai.qmd
+        - 22_malborko_apgultis.qmd
+        - 23_galmino_giraite.qmd
+        - 24_laimetoju_nuovargis.qmd
+        - 25_torunes_taika.qmd
+        - 26_dvieju_gyvenimu_laisve.qmd
+        - 27_jogailos_sielvartas.qmd
+        - 28_vytautas_ir_trakai.qmd
+        - 29_saknu_motinos_padeka.qmd
+        - 30_epilogas_rasalas.qmd
+    - copyright.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+  pdf:
+    documentclass: scrreprt
+    number-sections: false
+    sec-num-depth: 0
+    toc: true
+    pdf-engine: lualatex
+    mainfont: "DejaVu Serif"
+    monofont: "DejaVu Sans Mono"
+    header-includes: |
+      \usepackage{fontspec}
+      \renewcommand{\partformat}{}
+      \renewcommand{\chapterformat}{}
+  epub:
+    cover-image: cover.jpg
+    title: "Geležinio Vilko Saga III: Žaliasis Miškas"
+    author: "Algimantas Krasauskas"
+    description: "Epinis tamsiosios fantastikos pasakojimas apie Žemaitijos sukilimus, Žalgirio mūšį ir Torunės taiką (1399–1411)."

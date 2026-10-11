@@ -16,6 +16,8 @@ book:
         href: ../
       - text: "II knyga"
         href: index.html
+      - text: "III knyga"
+        href: ../3/
       - text: "VI knyga (priešistorė)"
         href: ../6/
       - text: "Wiki"

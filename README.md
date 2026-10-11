@@ -46,6 +46,16 @@ Tylioji Sutartis mirusi, o Vytautas, laikydamas slaptą liepsną Trakų pamatuos
 
 ---
 
+## III Knyga: Žaliasis Miškas (The Green Wood), 1399–1411
+
+<img src="books/covers/out/book3/front_ebook_1600x2560.jpg" alt="III knyga: Žaliasis Miškas" width="320">
+
+Po Vorsklos pelenų: Žemaitijos sukilimai, Galmino giria, Žalgirio mūšis ir Torunės taika, grąžinanti Žemaitiją tik dviem gyvenimams.
+
+📖 **[Skaityti internete](https://Algiras.github.io/wolf-saga/3/)**
+
+---
+
 ## VI Knyga: Šventasis Miškas (The Holy Forest) — priešistorė, 1341–1377
 
 <img src="books/covers/out/book6/front_ebook_1600x2560.jpg" alt="VI knyga: Šventasis Miškas" width="320">

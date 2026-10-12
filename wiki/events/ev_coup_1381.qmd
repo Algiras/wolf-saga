@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_coup_1381.md >}}
 
 ## What the chronicles say [Record]
-In autumn 1381 (sources vary between August and December; the Order's raids that spring had tipped the Trakai duke) [Kęstutis](../characters/kestutis.qmd) learned of the secret treaty of [Dovydiškės](ev_dovydiskes.qmd). The English Wikipedia names Kuno von Liebenstein, komtur of Osterode, as the informant; the saga's canon has [Günther von Hohenstein](../characters/hohenstein.qmd) (verify; the Order's commanders are poorly documented). Vytautas denied knowing. While [Jogaila](../characters/jogaila.qmd) was putting down the rebellion in Polotsk, Kęstutis took Vilnius and was proclaimed Grand Duke; Jogaila was captured on his way back, swore loyalty, and was released with Krėva and Vitebsk. The sources are the Order's chroniclers (Wigand of Marburg) and later Lithuanian chronicles.
+
+In autumn 1381 (August to December in the sources; VLE says November) [Kęstutis](../characters/kestutis.qmd) learned of the secret treaty of [Dovydiškės](ev_dovydiskes.qmd) from the Order's komtur of Osterode, [Kuno von Liebenstein](../characters/liebenstein.qmd) (Ivinskis, via the English Wikipedia). Vytautas denied knowing. **Jogaila was away** putting down the Polotsk revolt; Kęstutis took Vilnius, which opened without a fight, and was proclaimed Grand Duke. Jogaila was caught on his way back, swore loyalty, and was freed with Krėva and Vitebsk. The sources are the Order's chroniclers (Wigand of Marburg) and later Lithuanian chronicles.
 
 ## What really happened [Saga]
-Hohenstein, who owed his life to Kęstutis's honesty at the 1361 ford and the Marienburg meals (Book VI), warns him. Kęstutis arrives at the gates, finds them deliberately unbarred, finds Jogaila nearly alone in the Lower Castle sweating, and finds the Dovydiškės parchment under his blanket. He spares him: "Kraujas yra kraujas." This is his tragic hinge: the mercy that will kill him in 1382.
+
+Liebenstein's warning (the saga keeps the historical informant; [Hohenstein](../characters/hohenstein.qmd) of Book VI is a different, invented man, and he does not warn anyone) sends Kęstutis to Vilnius with a band; he rides in three days, the city opens, and when Jogaila is brought back to the Lower Castle with two servants, sweating, the Dovydiškės parchment lies in his chest under his blanket. He spares him: "Kraujas yra kraujas." This is his tragic hinge: the mercy that will kill him in 1382.
 
 ## Consequences
+
 Caused by [Dovydiškės](ev_dovydiskes.qmd); leads to [Jogaila's retaking of Vilnius](ev_vilnius_retaken.qmd).
 
 ## Dramatisation
-Book I ch. 1 "Senasis Šernas" (Kęstutis recalls it in Trakai, late summer 1382). The 1361 root is Book VI ch. 16–18 (Hohenstein serving at Marienburg).
+
+Book I ch. 1 "Senasis Šernas" (Kęstutis recalls it in Trakai, late summer 1382; the city opened without a fight and Jogaila was caught coming back), ch. 2 (Vytautas: "Vilnius buvo mūsų"). Kęstutis's earlier honesty to the Order is Book VI ch. 16–18 (the 1361 capture and Marienburg).

@@ -21,6 +21,7 @@ The spine works: trust, then betrayal, then a death in prison, an escape in disg
 | III "Karas ir Tvarka" | 20–30 | ~8.5k | **~5 years (1383–1387+)** | Badly compressed. Ch. 23 says 1383 and ch. 29 says 1387, but nothing between them (the 1384 reconciliation, Krėva Union 1385, Jogaila's Kraków coronation 1386) appears on the page. Time jumps carry no signposts. |
 
 **Recommendations**
+
 - Pick a target of **90–120k words** (about 3–4k per chapter) if this is meant to read as an epic. Grow scenes, not adjectives.
 - **Merge or differentiate ch. 5 and 6.** Both stage Jogaila's doubt plus a childhood flashback. Keep the flashback in one chapter and give the other Skirgaila's POV.
 - **Write the interrogation.** The outline's ch. 8 ("Kęstutis refuses to abdicate") is missing, so the murder has no stated in-scene motive. One scene where Skirgaila demands abdication and Kęstutis refuses would fix it.
@@ -28,6 +29,7 @@ The spine works: trust, then betrayal, then a death in prison, an escape in disg
 - **Ch. 25 → 26:** Vytautas is a hunted fugitive with a dying band, then in the next chapter he is negotiating as an equal. Show the arrow message being answered, or show Jogaila's envoy finding him.
 
 ### 1.2 Repetition and copy-paste artefacts (fix these first)
+
 - **Ch. 20 reuses Ch. 5 verbatim.** "Staiga, kaip visada, kai jo siela buvo susiskaldžiusi…", the childhood run ("bėgančią… Lėčiau, lėčiau, jūs abu esate man sūnūs!"), "Ar aš parduodu savo kraują už tuščią karūną?", and "plyšys, iš kurio pradeda tekėti šalta, juoda kraujo upė" all appear word for word. Ch. 29 uses the same template a third time.
 - Ch. 1 has a duplicated sentence: "Medis nusitrynė nuo laiko… Medis per dešimtmečius nusitrynė…"
 - Ch. 3 has two consecutive near-identical dialogue tags ("o jos balsas nuskambėjo lyg tūkstančiai pamirštų giesmių").
@@ -36,6 +38,7 @@ The spine works: trust, then betrayal, then a death in prison, an escape in disg
 - Ch. 1 has a garbled markdown artefact: `**iš rytų** — **iš Bizantijos**…`
 
 ### 1.3 Prose (noted, not the focus)
+
 Adjective stacking ("mirtinai", "neįtikėtinai", "negailestingai" sometimes three to a sentence) flattens the intensity. Grammar slips are frequent: "Neik į jų irklas!" (ch. 2), "Vyras, kuris laivą valdo" for a guard captain (prologue), "Tai tikra žodis", "klykojo galva" (ch. 6), and gender agreement errors ("bėgančią" for Jogaila, "Vyties"). A human Lithuanian line edit is needed after the structural fixes.
 
 ---
@@ -90,12 +93,14 @@ Fantasy may bend history. The project's own conceit (`mythic_gaps.md`), though, 
 ## 4. Magic system and cosmology consistency
 
 ### 4.1 The core problem: two systems, no bridge
+
 - **System A: *Senovės Kalba*** (`senoves_kalba_magic_system.md`, appendix ch. 31). Five elements with deities (Praurimė, Gabija, Bangpūtys, Žemyna, Vėjopatis), zeniths, incantations, boons, costs, three Laws and the *Senovės Sutartis*.
 - **System B: the Meddling Forces** (`meddling_forces.md`, `hidden_immortals.md`). These are the Root-Mother, Perkūnas, the Shadow-Seller, the White Silence, the Amber Queen, the Iron Saint, the Steppe-Hunger and the Gold-Glutton, some walking as avatars.
 - The text mixes them freely: "Eglė, Žemynos, Šaknų Motinos pasiuntinė" (ch. 16) treats Žemyna and the Root-Mother as the same being. Perkūnas acts directly three times (ch. 10, 19, 21) but has no element. The Amber Queen speaks *from* amber to Birutė (ch. 3) while other docs say Birutė *is* her.
 - **Fix:** one cosmology with layers. A gods layer (old high gods), a Forces layer (what the gods become when they meddle), and a craft layer (*Senovės Kalba*, which is how mortals ask). See `world_rules/cosmology.md`.
 
 ### 4.2 Rule violations in the text
+
 | # | Where | Rule | What happens | Fix |
 |---|---|---|---|---|
 | M1 | Ch. 3 | **Law of Balance and element cost.** Praurimė costs temporary blindness. | Birutė feels the blindness "begin", then walks to Vytautas and reads his face the same night. | Show her blind: she finds him by touch and voice. It makes the scene better. |
@@ -112,6 +117,7 @@ Fantasy may bend history. The project's own conceit (`mythic_gaps.md`), though, 
 | M12 | Ch. 27 | New limits introduced. | "She could see only through amber, call winds only through waves, heal only through her blood" appear here for the first time. | Move these to Birutė's profile and seed them in ch. 3 and 11. |
 
 ### 4.3 What works and should become canon
+
 - **The amber pebble as a fidelity barometer** (warm, then dead at the baptism, cold, then hot when he betrays the Order, then glowing at the 1387 baptism). Make it an explicit rule: *it answers to the bearer's truth, not his faith.*
 - **The tarnaitė who stays behind** (ch. 13) as a secret Root-Mother devotee. A real historical echo (the maid Elena was executed) given mythic weight.
 - **Birutė's ring returned three times by the sea** (ch. 11). A perfect folk-rule beat.

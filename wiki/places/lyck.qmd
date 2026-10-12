@@ -1,0 +1,26 @@
+---
+title: "Lyck (Ełk)"
+id: lyck
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/lyck.md >}}
+
+## In the 1380s [Record]
+
+Lyck (Ełk), where the treaty of 19 Jan 1390 was signed ([event](../events/ev_lyck_1390.qmd)).
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+A consecrated stone dims the pebble.
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Book II ch. 6.

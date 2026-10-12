@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/veles.md >}}
 
 ## Folk source [Record]
+
 The souls of the dead. In the autumn season of the dead (*Vėlinės*; in Samogitia also *Ilgės*) families set food on the table overnight, left doors ajar and heated the bathhouse (*pirtis*) for their dead. At Kūčios a place was kept for them, and *kisielius* (oat jelly) was their food. Souls were imagined as birds, migrating along the Milky Way (the Birds' Way); a bird knocking at the window foretold a death.
 
 ## In the saga (where the folk are half-wrong)
+
 Exactly as the [cosmology](../codex/cosmology.qmd) has it: cremation is the fastest road up the Glass Mountain to Dausos, and slower-climbing dead linger as vėlės who must be fed. **Fed** vėlės are the land's memory and first line of defence: they warn their kin, guard the threshold and sometimes fight. A family with well-fed dead has a hidden army of grandparents. A fed vėlė can be asked for help through [Vėjopatis](../gods/vejopatis.qmd); it will ask in return to be remembered by a child who has forgotten it.
 
 ## Signs & habitat
+
 Birds that come too close; a chill at the empty place at table; food that loses its smell overnight.
 
 ## Before / after the Unbinding
+
 Before: honoured, content, protective. After: the Church moves the feast to All Souls and forbids the old offerings, and families that convert in earnest stop feeding them; their dead turn hungry (see [Alkanosios vėlės](alkanosios_veles.qmd)).
 
 ## Banes, wards, bargains, and their cost
+
 Feed them at Vėlinės and Kūčios, heat the pirtis, say their names (a family's best food, every year).
 
 ## Danger level
+
 I nuisance (protective), before and after.
 
 ## Story hooks
+
 Book I: the cremation question matters precisely because of this entry. Book V: Vėlinės 1435 after Pabaiskas, when the living cannot feed so many.

@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_czartorysk_truce.md >}}
 
 ## What the chronicles say [Record]
+
 After the Polish invasion of Volhynia from 25 June 1431 the king crossed on 21 July; [Švitrigaila](../characters/svitrigaila.qmd) was beaten on the Styr on 31 July; Lutsk castle was besieged from about 1 August and an assault repulsed on 13 August; an agreement was reached on 26 August and the Truce of Czartorysk, running to 24 June 1433, on 1 September 1431 (Wikipedia, Lithuanian Civil War 1431–35; Polish Wikipedia, Świdrygiełło). Goštautas was captured defending Lutsk (VLE).
 
 ## What really happened [Saga]
+
 The truce is the pause in which the lords turn against the new Grand Duke. [Žygimantas](../characters/zygimantas.qmd) watches from the edge of the Christmemel party and begins to count his chances.
 
 ## Consequences
+
 The graph records no outgoing edge. The Volhynian war follows [Christmemel](ev_christmemel.qmd) and the loss of Podolia ([Podolia seized](ev_podolia_seized.qmd)).
 
 ## Dramatisation
+
 Book V ch. 3 "Švitrigailos Pakilimas" (Švitrigaila; the chapter's dateline reaches September 1431; Lutsk).

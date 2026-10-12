@@ -8,6 +8,7 @@ categories: [house]
 {{< include ../_generated/kesgailos.md >}}
 
 ## House card
+
 | | |
 |---|---|
 | **Seat** | **Samogitia**, where they were elders (*seniūnai*). [Record] |
@@ -16,12 +17,15 @@ categories: [house]
 | **Patron / burden** | None canonical; the Samogitian lords sit between the Root-Mother's groves and the new Church. [Saga] |
 
 ## Lineage
+
 **Mykolas Kęsgaila** (Kieżgajło, d. 1450), son of Valimantas, was elder of Samogitia 1412–32, 1440–41 and 1443–50 (terms to verify). His brothers the **Valimantaičiai**, among them **Rumbaudas Valimantaitis**, were Vytautas's men in Samogitia c. 1409–11 and the bridge between Vilnius and the Samogitian assemblies. Kęsgaila was Švitrigaila's man, imprisoned by Žygimantas after 1432 and restored in 1440. [Record, verify offices]
 
 ## Feuds & alliances
+
 Servants of the Grand Duchy ([GDL](../factions/gdl.qmd)) and kin of the [Samogitians](../factions/samogitians.qmd). Opposed to Žygimantas; part of the council that made Casimir Grand Duke.
 
 ## Fate across the books
+
 - **III:** Rumbaudas Valimantaitis is POV in ch. 12 of the second Samogitian rising (1409).
 - **IV:** the Samogitian baptism (1413–17) and Melno (1422) fix the land's fate.
 - **V:** the Kęsgailos are one of the council houses in ch. 17 and share in the power that unmakes Žygimantas. As the groves fall, the family is a man between two orders. [Record, saga framing]

@@ -1,0 +1,41 @@
+---
+title: "Jonas Goštautas"
+id: gostautas
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/gostautas.md >}}
+
+## Summary
+
+Jonas Goštautas (d. 1458), the council lord who coordinates the elevation of Casimir in 1440; at the feast of Book V ch. 17 he gives a warm coin to a beggar ([event](../events/ev_gostautas_coin.qmd)).
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+
+- **[Record]:** Captured defending Lutsk in 1431; conspirator of the 1432 coup; voivode of Trakai, then Vilnius voivode and chancellor 1443-58 (sources differ on start years); coordinated the 1440 election of Casimir. VLE calls his part in the 1440 murder uncertain; the killers are recorded as the Czartoryski brothers, Švitrigaila's partisans.
+- **[Saga invention]:** The Counter, the warm coin, the ledger of villages (Book V ch. 17); the harness-mark in ch. 21 is an insinuation, not a claim.
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

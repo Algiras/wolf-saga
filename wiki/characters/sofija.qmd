@@ -8,12 +8,14 @@ categories: [character]
 {{< include ../_generated/sofija.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Sofija Vytautaitė (1371-1453), Vytautas's only child in the record; named among the hostages demanded at Lyck (19 Jan 1390), she left Marienburg via Danzig and Pskov in autumn 1390 and married Vasily I of Moscow on 9 Jan 1391.
 
 ## Appearance & tells
 <!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
 
 ## Want · Need · Lie · Truth
+
 | | |
 |---|---|
 | **Want** (external) | |
@@ -28,8 +30,9 @@ categories: [character]
 <!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
 
 ## Record vs saga
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+
+- **[Record]:** Hostage (Posilge via Grala; escorted by Ivan Olshanski); married 9 Jan 1391 (Trinity Chronicle); regent for Vasily II from 1425. The only recorded child of Vytautas.
+- **[Saga invention]:** Her letters in Book II ch. 8; the bead on Vytautas's tomb (Book V).
 
 ## Pronunciation
 <!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->

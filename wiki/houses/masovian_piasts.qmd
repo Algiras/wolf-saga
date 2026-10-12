@@ -8,6 +8,7 @@ categories: [house]
 {{< include ../_generated/masovian_piasts.md >}}
 
 ## House card
+
 | | |
 |---|---|
 | **Seat** | **Warsaw** and **Czersk** (Janusz I); **Płock** and **Rawa** (Siemowit IV). [Record] |
@@ -16,12 +17,15 @@ categories: [house]
 | **Patron / burden** | None canonical. Masovia is neutral ground where cousins meet. |
 
 ## Lineage
+
 A cadet line of the Piasts, small, proud and squeezed between the Order, Poland and Lithuania. **Janusz I** (c. 1346–1429) married [Danutė](../characters/danute.qmd) Kęstutaitė, and his brother **Siemowit IV** (c. 1352–1426) married Aleksandra Algirdaitė in 1387, so the two brothers married both Gediminid lines. **Henryk**, bishop-elect of Płock, married Rimgailė Kęstutaitė in 1392 and was dead within a year. [Record; details marked verify in the world bible]
 
 ## Feuds & alliances
+
 Steady allies of [Vytautas](../characters/vytautas.qmd) through Janusz. Siemowit was a failed candidate for the Polish crown in 1382–84, which makes him a quiet rival of Jogaila; Henryk carried Jogaila's offer to Vytautas before [Ostrów](../events/ev_ostrow.qmd) (1392). The Order's borders press on the duchy from the north.
 
 ## Fate across the books
+
 - **I:** after the [escape from Krėva](../events/ev_kreva_escape.qmd), Vytautas runs first to Janusz and Danutė in Masovia ([the refuge](../events/ev_masovia_refuge.qmd)). **II:** Henryk's embassy opens the road to Ostrów.
 - **III–IV:** the duchy stays between the two powers; Danutė outlives her brother's era in the record.
 - **V:** the Masovian dukes remain neighbours at the edge of the cousins' war. [Saga, minor]

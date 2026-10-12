@@ -1,0 +1,41 @@
+---
+title: "Tautvilas Kęstutaitis (Kondrat)"
+id: tautvilas
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/tautvilas.md >}}
+
+## Summary
+
+Tautvilas Kęstutaitis (baptised Kondrat, 21 Oct 1383), younger brother of Vytautas, fights on the Order's side and is killed at the siege of Vilnius in 1390.
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+
+- **[Record]:** Son of Kęstutis and Birutė (VLE, Tautvila 1). Killed besieging the Crooked Castle at Vilnius in September 1390, "believed killed by a crossbow bolt" (Wigand / Marburgietis; en.wikipedia, Siege of Vilnius 1390). VLE's "9-10 June" is nonsensical: the siege ran 11 Sep - 7 Oct. Fought on the Order's side, not as a hostage at Lyck.
+- **[Saga invention]:** The shooter is unknown in the book (Book II ch. 7 replaced the axe duel with a bolt at the gate); Sofija's letter in ch. 8 reports it so.
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

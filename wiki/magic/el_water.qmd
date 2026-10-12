@@ -17,7 +17,7 @@ categories: [magic]
 
 ## Minor / major cost
 
-**Minor:** raging thirst. **Major:** the caster **takes the patient's wound** in part. Book II ch. 27: after Vorskla Vytautas casts *Vanduo man teks* on a wounded Ruthenian boyar; the thirst vanishes, and "a side that was not his" passes into him, and though he pushes it away, part of the pain stays. Book II ch. 9: a Lagoon witch will draw the poison from the poisoned hostage boys "over any distance", but her old body cannot carry it, so the poison must go into a younger body: an Order child's. "Blood for poison; I only say what it costs."
+**Minor:** raging thirst. **Major:** the caster **takes the patient's wound** in part. Book II ch. 27: after Vorskla Vytautas casts *Vanduo man teks* on a wounded Ruthenian boyar; the thirst vanishes, and "a side that was not his" passes into him, and though he pushes it away, part of the pain stays. Book II ch. 9: a Lagoon witch will draw the poison from the poisoned hostage boys "over any distance", but her old body cannot carry it, so the poison must go into a younger body: an Order child's. "Blood for poison; I only say what it costs." Moving a healing's cost into another body is a **forbidden, costly working**: "the debt finds its owner" (`magic_rules.md` §4.1); Vytautas refuses it ("Ne").
 
 ## Limits
 

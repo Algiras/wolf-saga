@@ -8,6 +8,7 @@ categories: [house]
 {{< include ../_generated/rurikids.md >}}
 
 ## House card
+
 | | |
 |---|---|
 | **Seat** | The **Moscow Kremlin**. [Record] |
@@ -16,12 +17,15 @@ categories: [house]
 | **Patron / burden** | None canonical. The realm the Horde taught to collect tribute, so the [Steppe-Hunger](../forces/steppe_hunger.qmd)'s shadow lies on it lightly. [Saga suggestion] |
 
 ## Lineage
+
 Rurikids ruling [Moscow](../factions/moscow.qmd): **Dmitry Donskoy** (1350–89), victor of Kulikovo (8 Sep 1380); his son **Vasily I** (1371–1425), who married [Sofija Vytautaitė](../characters/sofija.qmd) on 9 Jan 1391 (day to verify); and **Vasily II** (1415–62), Vytautas's grandson, blinded in 1446. [Record] Algirdas's daughter Elena married Vladimir of Serpukhov, and his son Lengvenis married Dmitry's daughter. [Vasily I](../characters/vasily1.qmd) has his own page.
 
 ## Feuds & alliances
+
 Rival of Tver (the home of Uliana) and of Lithuania for the Rus' lands. Dmitry negotiated with Uliana in 1384 over an Orthodox alternative to Krėva. Algirdas's elder sons Andrius and Dmitrijus fought for Moscow at Kulikovo. Three wars between Vasily and his father-in-law (1406–08) end in the stand-off on the **Ugra**.
 
 ## Fate across the books
+
 - **II:** Sofija is sent north as a pawn (1391); the Kęstutaičiai blood takes root in Moscow. **III:** Sofija rides between the camps at the Ugra (1408).
 - **IV:** Vasily I dies and ten-year-old Vasily II is placed under Vytautas's protection; Sofija is regent.
 - **V:** Vasily II is blinded (1446). The blood the Order tried to wipe out sits on the Muscovite throne, the series' bitterest irony.

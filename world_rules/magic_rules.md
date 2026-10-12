@@ -31,6 +31,7 @@ The baptised **can** still use Kalba. The gods do not care about creed; they car
 ## 3. How a working is cast
 
 ### 3.1 The formula
+
 Every working names an **element**, a **recipient** and a **verb of giving**, in Old Lithuanian:
 
 > **[Element] [tau / man] [verb].**
@@ -41,11 +42,13 @@ Every working names an **element**, a **recipient** and a **verb of giving**, in
 - This is why Birutė says *tau* in ch. 3 and Vytautas says *man* in ch. 15. Both are correct.
 
 ### 3.2 Requirements
+
 - **Contact with a sacred medium:** amber (any element, the universal medium), living fire (Gabija), running or sea water (Bangpūtys), bare earth (Žemyna), open air with wind (Vėjopatis), a starlit sky (Praurimė).
 - **The words aloud.** A whisper is enough. Gagged casters cannot work; this is why the Order gags captured *žyniai*.
 - **Intent that is true** (Law of Truth). A caster who asks for what they do not truly want gets nothing, or gets what they *do* truly want.
 
 ### 3.3 Timing: zeniths
+
 | Element | Zenith | At zenith | Off zenith |
 |---|---|---|---|
 | Stars (Praurimė) | Kūčios, winter-solstice midnight | Cost **halved** | Cost **doubled** in daylight; impossible under overcast |
@@ -57,6 +60,7 @@ Every working names an **element**, a **recipient** and a **verb of giving**, in
 *Book I check:* Birutė's Praurimė vision in ch. 3 happens at **Dagotuvės**, off zenith, so it costs **double**. Show her fully blind afterwards (review M1/M11). Ch. 27's Bangpūtys working at the **full moon** is correctly timed.
 
 ### 3.4 Range
+
 - With an **amber anchor** that the caster has touched and charged (Vytautas's pebble), **distance is free**: Birutė can reach Krėva from Palanga.
 - Without an anchor, range is **line of sight**, and cost rises steeply beyond it.
 
@@ -65,24 +69,29 @@ Every working names an **element**, a **recipient** and a **verb of giving**, in
 ## 4. Costs (the Law of Balance made concrete)
 
 ### 4.1 Per element
+
 | Element | Minor working (a candle-length) | Major working (a night, an army, a life) |
 |---|---|---|
 | **Stars** (Clear Sight) | Hours of blindness | Blind for days, **or** the permanent loss of one beloved face from memory |
 | **Fire** (Soul Armour, strength) | Exhaustion | **Soul-chill**: empathy gone for days; the caster can kill without feeling |
-| **Water** (Life Spring, healing) | Raging thirst | The caster **takes the patient's wound** in part |
+| **Water** (Life Spring, healing) | Raging thirst | The caster **takes the patient's wound** in part. *Moving the cost into another body (a second person, a child) is a **forbidden, costly working**: "the debt finds its owner." Book II ch. 9 shows it (the Lagoon witch shifts the poison into another child) and the price returns to her.* |
 | **Earth** (Unmovable Will) | Stiffness | **Petrification** for the length of the effect; permanent loss of grace |
 | **Wind** (Shadow Speed, far-speech) | Vertigo | **Loss of voice**: only whistling, for days, and permanently with repeated use |
 
 ### 4.2 The Five-Voice invocation (*Penkių Balsų Šauksmas*)
+
 Speaking all five lines together (ch. 3, ch. 15) calls a **little of every boon** at once: sight, warmth, healing, endurance, concealment. It is a desperate act. **Cost: a little of every price**, permanent and cumulative: a dimming of sight and hearing, a fraying of memory (exactly what ch. 15 describes). It is the **only** permanent cost a minor working can carry. Each use leaves the caster a bit less *present*. By Book IV, an old Vytautas who has used it perhaps five times hears the world as if through water.
 
 ### 4.3 Surety: who pays when someone is bound
+
 In a **Senovės Sutartis**, the binder may stand **surety** (*laidas*) for the bound: *"Jo skola — mano skola"* ("his debt is my debt"). **Birutė stands surety for Vytautas.** Consequences:
+
 - Part of every price Vytautas incurs is **paid by Birutė**, wherever she is.
 - This is why his costs look light in Book I and why Birutė **declines**: voice failing after the Krėva fog, sight going, until ch. 27, when she pays the **whole** remaining debt at once.
 - After ch. 27 **there is no surety.** From Book II, Vytautas pays full price himself. The Vorskla flight has "no mother's fog, only shame" (Book II outline, ch. 18) *because* the surety is gone.
 
 ### 4.4 Unpaid debts
+
 A cost cannot be refused, only deferred, and deferred costs **compound**: memory first, then health, then years of life, then madness, then death.
 
 ---
@@ -90,19 +99,24 @@ A cost cannot be refused, only deferred, and deferred costs **compound**: memory
 ## 5. The Three Laws, clarified
 
 ### 5.1 Balance: "Kiek paimi, tiek atiduok"
+
 See §4. Write the bill on the page.
 
 ### 5.2 Truth: "Tiesa galingesnė už bet kokį burtą"
+
 - **Allowed:** hiding (real fog, real shadow), revealing, strengthening, healing, carrying messages, *showing possibilities*.
 - **Forbidden:** making anyone perceive what is not there. No glamours, no false faces, no illusions. The Krėva fog is **real fog** (ch. 14 is correct; `mythic_gaps.md` §2's "distortion reflecting expectations" is wrong and is corrected there).
 - **Corollary:** magic always reveals *some* truth, often unwanted. Every Praurimė vision shows the seer something about **herself**.
 
 ### 5.3 Memory: "Atmintis amžina"
+
 - The land remembers every working done on it. Places of great working carry **residue** that seers feel (the Krėva cell; the Palanga stone).
 - **Amber stores memory** (it is Saulė's grief). Amber that has carried a working **answers to the truth of whoever holds it.**
 
 ### 5.4 The amber barometer (canon rule)
+
 Vytautas's pebble responds to the **truth of the bearer**, not to his faith:
+
 | Chapter | State | Why |
 |---|---|---|
 | 3 | Warm, pulsing | Freely given in love |
@@ -117,12 +131,14 @@ Vytautas's pebble responds to the **truth of the bearer**, not to his faith:
 ## 6. The Senovės Sutartis (the Ancient Pact rite)
 
 **Four requirements, all on the page:**
+
 1. **Amber** charged by the binder.
 2. **The binder's blood** on the amber.
 3. **The bound person's true name** (*slaptas vardas*), the secret name the mother whispers at birth, known only to her and the elements (see `languages_and_naming.md`).
 4. **An unbreakable promise** exchanged both ways.
 
 **Canon for ch. 3 (to be written into the revision):**
+
 - Birutė cuts her palm and presses the pebble into Vytautas's hand, so her blood is on the amber.
 - She speaks his true name, which he has never heard. This gives the reader a jolt and leaves a mystery to pay off later.
 - **Her promise:** *"Jo skola — mano skola"* (surety, §4.3).
@@ -163,6 +179,7 @@ Vytautas's pebble responds to the **truth of the bearer**, not to his faith:
 ---
 
 ## 10. What magic cannot do
+
 - Raise the dead (the Amber Queen *keeps* the dead, she does not return them).
 - Create love or force a will (it can *strengthen* a will that is already there).
 - Change the past (prophecy shows branches, never a fixed trunk).
@@ -172,6 +189,7 @@ Vytautas's pebble responds to the **truth of the bearer**, not to his faith:
 ---
 
 ## 11. Quick checklist for writing a magic scene
+
 1. Who is casting, and by which path (born, noticed, bound)?
 2. Which mode: Kalba, Claim or Bargain?
 3. Is it at the zenith or off it? What does that do to the cost?

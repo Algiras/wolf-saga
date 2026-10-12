@@ -3,10 +3,12 @@
 Facts established in prose that other parts must respect. Chapters 1–20 were read (as they stood on disk when this part was written); the notes below keep to them.
 
 ## Dates, ages, anchors used
+
 - Kęstutis b. c.1297 (about 68 in 1365, 80 in 1377). Algirdas b. c.1296 (72 in 1368, 76 in 1372). Birutė b. c.1334/35 (43 in 1377). Butautas b. c.1335, Vaidotas c.1331 (ch. 12/19). Vytautas b. c.1350 (15 in 1365, 18 in 1368, 27 in 1377). Jogaila b. spring c.1362 (post-1990 consensus; ten in 1372, 13 in winter 1375/76, 15 in 1377; Vytautas is twelve years older). Eglė: about 9 in 1369, 12 in 1372, 17 in 1377. Sofija b. spring 1371 (13 months old at Rasos 1372; six in autumn 1377).
-- Dateline ladder: ch. 21 late winter 1365; ch. 22 Nov 1368; ch. 23 late winter 1369 (bell first rung Christmas 1368); ch. 24 17 Feb 1370; ch. 25 July 1372; ch. 26 Rasos 1372 plus a flashback to summer 1359; ch. 27 winter 1375/76; ch. 28 spring 1377 (first thunder); ch. 29 May 1377; ch. 30 autumn 1377.
+- Dateline ladder: ch. 21 summer 1365 (fact-check; was late winter); ch. 22 Nov 1368; ch. 23 Christmas 1369 (fact-check); ch. 24 17 Feb 1370; ch. 25 July 1372; ch. 26 Rasos 1372 plus a flashback to summer 1359; ch. 27 winter 1375/76; ch. 28 spring 1377 (first thunder); ch. 29 May 1377; ch. 30 autumn 1377.
 
 ## Per chapter
+
 - **21 (Butautas).** The plot: open the postern for 30 Order riders from Ragnit; the Order promised Kęstutis alive (Marienburg), Butautas baptism, a duchy on the Nemunas. The old Samogitian gate-warden **Mingaila** (invented) told Kęstutis eight days earlier; Kęstutis let it run. Šešiapirštis and two other hidden wolves wait in the passage. Kęstutis does not strike; he swears safe conduct "from this gate to the Nemunas" (*Duotas žodis nerūdija*); wolves shadow the road and do not touch him. Birutė gives bread, salt and a cloak. Vytautas (15) wants him dead; Kęstutis: "Eik gulti, Vyti." Baptised **Henrikas** in Prussia, early spring; the komtur buys his knowledge of Trakai (gates, watch change, lowest wall). Butautas remembers standing under the north gallery in 1359 and hearing "you both are my sons" (two, not three). Kęstutis has not spoken Vaidotas's name since Kaunas; "I count him every night" (Vaidotas's fate left open).
 - **22 (Moscow, 1368).** Kęstutis joins with about 1,000 western horse because Algirdas asked for "one winter" (saga choice; his actual part is unverified). Algirdas names no destination; the host burns the suburbs for three days, takes no stone wall, withdraws at dawn without a signal. Mikhail of Tver (Uliana's brother) is the cause. Horse-hair in village wells (Steppe-Hunger sign, echoing ch. 20); Šešiapirštis's wolves will not drink. Algirdas carries a small gold-ground icon taken from a burning church (returns ch. 25) and says "Aš skaičiuoju. Žodžiai tie patys." Kęstutis spares an old priest at a church door; the church burns anyway. Dmitry on the wall is 18, Vytautas's age. Kęstutis does not want the East. Algirdas: "Aš dar gyvas" when asked who inherits.
 - **23 (Franciscans, 1369).** Friary of the Assumption in Smėlynė, 14 friars. The new bell (copper, **iron clapper forged on Candlemas**) hurts the sacred snakes: three found dead, the Šventaragis flame sinks to a single coal for three nights. The friars are hanged on the old judgment oak behind Rusų gatvė (the 1347 place); Algirdas absent; the Krivis silent; no blood shown. POV: **Brother Tomas** (invented, 60, 23 years in Vilnius), the sole survivor; younger friar **Antanas**; Guardian **Jokūbas**. Birutė arrives (the amber went cold in her hand), says "To neprašė nė vienas iš mūsų dievų"; her riders (one with six fingers) dig the Christian graves; Eglė (about 9, yellow-cheeked žaltys) says "Varpas jam skauda." Birutė to the Krivis: "Tyla irgi sprendimas." The Krivis stays unnamed.
@@ -19,17 +21,20 @@ Facts established in prose that other parts must respect. Chapters 1–20 were r
 - **30 (Epilogue).** He hangs the sword (36 years old, still bright; the *perkūnėlis* was fed with his blood by a Trakai smith, per ch. 4). Foundations of the island castle stand in Lake Galvė, abandoned since the spring. Jogaila visits with 20 riders; bread and salt; "Paskui Vytautas." / "Žinoma, dėde." Jogaila never glances at the silver wolf. The dog follows Jogaila's horse; Kęstutis forbids the guard to shoot. Jonas (armour-bearer, 16 years) and the hidden nine sleep in the stable (wolves cannot sleep under a lit hearth). Ona asks if he is preparing to die. Vytautas: "Ar pasitiki juo?" / "Kito neturiu." Birutė, asleep on the tower floor, murmurs of a **black ship without sails**; one amber bead is missing from her string. Last image: fog rising off Galvė toward the castle, the sword on the wall, the oak chair from his father's father, the forest waiting (hand-off to Book I ch. 1).
 
 ## Deviations from the outline (with reasons)
+
 - Ch. 26 stages the boyhood moment as a 1359 flashback inside the 1372 scene (the outline's "young men and friends"). Reason: the canonical line in Book I ch. 5 needs small boys. Butautas appears in it, so ch. 21 can pre-echo the line from his side.
 - Ch. 23: the POV friar survives (invented). Reason: Birutė must speak to someone after the killing. No numbers given in-world; the text only notes that later tellers say fourteen.
 - Ch. 28: the oath is narrower than Algirdas asks. Reason: sets up Skirgaila's safe-conduct as the gap, and shows Kęstutis as the Oath-Keeper.
 - Ch. 25 sets the Jelena–Vladimir match at Lyubutsk in July 1372 (the houses file dates the marriage to 1372).
 
 ## Echoes and reuse (deliberate)
+
 - Ch. 20's dust-devil, horse-hair and "tik žengti" lines are re-used in ch. 22 and 25 as the Hunger repeating itself.
 - "Duotas žodis nerūdija" (ch. 13) in ch. 21, 24, 30.
 - Algirdas's "Šiąnakt kito neturiu" (ch. 22) is echoed by Kęstutis's "Kito neturiu" (ch. 30).
 
 ## Canon questions and flags
+
 - Pact clause 2 as sworn in ch. 4 says "Gedimino sūnus" shall not shed a "Gedimino sūnaus" blood. Ch. 21 lets Kęstutis spare Butautas (a grandson) without naming the clause; his mercy there is partly temperament, partly binding, and Butautas only suspects the latter.
 - Algirdas telling Birutė to "watch him carefully" at the wedding (ch. 28) is a small invention not covered in ch. 11–12; it can be cut.
 - The Krivis's name (Sirvydas, ch. 8) is never spoken in Part III; he is "Krivis" throughout.
@@ -40,6 +45,7 @@ Facts established in prose that other parts must respect. Chapters 1–20 were r
 ## Seam pass (continuity edit across Parts I–III)
 
 Edits made (ch. = books/6 chapter):
+
 - **Pact clause 2** (ch. 4): "Joks Gedimino sūnus nepralies Gedimino sūnaus kraujo" became "Joks Gediminaičių kraujo vyras nepralies Gediminaičių kraujo" (covers grandsons: Butautas, Jogaila's line, all). Ch. 21 got one clause in Butautas's POV: Kęstutis is bound by a word Butautas never heard, "kuris saugojo jo kraują ne dėl jo paties". Ch. 3 and `index.qmd` already said "Gediminaitis ... Gediminaičio kraujo".
 - **Palanga timing**: ch. 10 is now **April 1349** (the late ice-break; Birutė 15, sworn at 13 two summers earlier). Ch. 11 dateline "1349 m. pavasaris". Nine months from a May wedding puts Vytautas's birth in **early February 1350** (not late March): ch. 12 dateline "1349 pavasaris – 1350 vasaris", the "paskutinis šerkšnas ... kovo gale" became "stiprus šerkšnas ... vasario pradžioje", and Algirdas's "gimė paskutinio šerkšno naktį" became "gimė šerkšno naktį". Ch. 12's "Rudens pradžioje" (the old priestess's death news) became "Po kelių savaičių". Algirdas's "Aš sausį vedžiau" (Uliana, January 1350) still holds.
 - **Kęstutis's first wife** died early **1347** (alive in ch. 2 and ch. 4; gone by ch. 7): ch. 10 "prieš dvejus metus"; ch. 12 "prieš dvejus metus" (was "prieš šešerius"). Sons Vaidotas b. 1331 and Butautas b. 1335: 13/9 in 1344 (ch. 2), 14/10 in 1345 (ch. 4), 18/14 in 1349 (ch. 10 and 12; ch. 10 was 19/15), 31 at Kaunas, about 30 in 1365.
@@ -53,6 +59,7 @@ Edits made (ch. = books/6 chapter):
 - Tic trims: "pirmą kartą per daugelį metų" (five uses -> two: ch. 7, ch. 21 first), two "ilgai žiūrėjo į jį", two "tai buvo pirmas kartas, kai".
 
 Left unresolved (outside books/6):
+
 - Book I ch. 25 has Jonas say he took the name "prieš dvidešimt trejus metus", Book I ch. 8 says "prieš dvidešimt vienerius" (1361 -> 1382 = 21). Book VI follows ch. 8.
 - Book I ch. 2 introduces Jonas to Vytautas as if new, though by Book VI he has been Kęstutis's armour-bearer since about 1362.
 - Master chronology c. 1350 for Vytautas still holds; the 1349 wedding date is a saga dating (tradition gives c. 1350).

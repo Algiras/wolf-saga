@@ -8,12 +8,14 @@ categories: [character]
 {{< include ../_generated/kestutis.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Kęstutis (c. 1297-15 Aug 1382), Duke of Trakai, co-ruler of Lithuania with Algirdas, then with Jogaila. Captured at Lake Ublik on 21 Mar 1361, escaped from Marienburg on 11 Nov 1361; warned in Aug 1381 by Kuno von Liebenstein, took Vilnius in autumn 1381 while Jogaila was away; lured to Jogaila's camp near Trakai and arrested on 3 Aug 1382, found dead at Krėva on 15 Aug.
 
 ## Appearance & tells
 <!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
 
 ## Want · Need · Lie · Truth
+
 | | |
 |---|---|
 | **Want** (external) | |
@@ -28,8 +30,9 @@ categories: [character]
 <!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
 
 ## Record vs saga
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+
+- **[Record]:** Capture 21 Mar 1361 at Lake Ublik; escape 11 Nov 1361 with Alfas; the 1381 coup; the arrest at the camp near Trakai (3 Aug 1382); death at Krėva (strangled per VLE; Jogaila said he hanged himself); the body burned in Vilnius.
+- **[Saga invention]:** The Beggar's coin, the Pact and the silver wolf; Hohenstein as the third knight at Ublik.
 
 ## Pronunciation
 <!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->

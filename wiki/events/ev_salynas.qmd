@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_salynas.md >}}
 
 ## What the chronicles say [Record]
-Treaty of Salynas, 12 October 1398 (a preliminary treaty was signed at Grodno on 23 March 1398), on an islet of the Neman, probably between Kulautuva and the mouth of the Nevėžis. [Vytautas](../characters/vytautas.qmd) ceded Samogitia to the Order roughly up to the Nevėžis; the Order received part of Sudovia; the spheres of influence were Novgorod for Vytautas and Pskov for the Order; the Knights promised help against the Tatars; hostages including Sigismund Kęstutaitis (Žygimantas) were released. Konrad von Jungingen signed; Marquard von Salzbach helped negotiate. Posilge alone says the Lithuanian nobles may have proclaimed Vytautas king at the feast; Polish historians doubt it (Wikipedia, Treaty of Salynas). Vytautas needed his western front quiet for the campaign against the Golden Horde that ended at the Vorskla.
+
+Treaty of Salynas, **12 October 1398** (a preliminary treaty was signed at Grodno on 23 March 1398), on [an islet of the Nemunas](../places/salynas.qmd), probably between Kulautuva and the mouth of the Nevėžis. [Vytautas](../characters/vytautas.qmd) ceded Samogitia to the Order roughly up to the Nevėžis; the Order received part of Sudovia; the spheres of influence were Novgorod for Vytautas and Pskov for the Order; the Knights promised help against the Tatars; hostages including Sigismund Kęstutaitis (Žygimantas, hostage 1390–98) were released. Konrad von Jungingen signed; [Marquard von Salzbach](../characters/marquard.qmd) helped negotiate. Posilge alone says the Lithuanian nobles may have proclaimed Vytautas king at the feast; Polish historians doubt it (Wikipedia, Treaty of Salynas). Vytautas needed his western front quiet for the campaign against the Golden Horde that ended at the Vorskla.
 
 ## What really happened [Saga]
+
 A Samogitian elder, Gedgaudas, sixty-two, brings twelve elders as witnesses without knowing why. Henė pours; the Hidden Groves now lie under the Order's flag; Galminas watches from the far bank. Eglė's price comes due: the price of the 1382 rescue was "never sell the forest".
 
 ## Consequences
-Leads to [the Vorskla](ev_vorskla.qmd): the western peace frees Vytautas for the steppe. The graph gives the place as the Dykra; the real site is an island on the Neman.
+
+Leads to [the Vorskla](ev_vorskla.qmd): the western peace frees Vytautas for the steppe. The place is [an island in the Nemunas](../places/salynas.qmd), no longer the Dykra.
 
 ## Dramatisation
+
 Book II ch. 19 "Salyno Puota" (Gedgaudas, a Samogitian elder; 12 October 1398, autumn) and ch. 20 "Stepių Alkis" (Vytautas; winter 1398–99).

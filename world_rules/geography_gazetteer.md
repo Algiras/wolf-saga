@@ -129,191 +129,236 @@ Hence the **two Reise seasons** of the Order [Record]: the **winter Reise** (rou
 ### Core: Vilnius, Trakai and the east
 
 **1. Vilnius** (Pol. *Wilno*; Germ. *Wilna*; Lat. *Vilna*)
+
 - **[Record]** The capital since at least 1323 (Gediminas's letters). It sits at the **Neris–Vilnia confluence** among wooded hills. In the 1380s it is a fortified ducal centre with three castles (below) and a mixed town: a **Lithuanian pagan** population, a **Ruthenian quarter** with Orthodox churches (Algirdas's Orthodox wives endowed some; individual foundation dates are traditional (verify)), and a **German/Catholic merchant colony** with Franciscans (invited by Gediminas in the 1320s; the tradition of Franciscan martyrs under Algirdas (verify date)). Mostly timber, with brick only in the castles. **Magdeburg rights** come on 22 March 1387 and the **bishopric** in 1387.
 - **In the saga:** The city of the **Šventaragis flame** until 1387; then the city of the White Silence. Book I ch. 4–7 (the trap; note the record places the seizure at Jogaila's camp near Trakai: chronology), ch. 29 (the Neris baptism). Book II: the **1390 siege**. Ch. 4's "city on seven hills" is a Rome echo with no period basis; use "hills" or name them (Gediminas hill, Bald hill, Table hill).
 
 **2. The Upper Castle** (*Aukštutinė pilis*) on **Gediminas hill**
+
 - **[Record]** A brick castle on the steep hill above the confluence, first built in the 14th century. The present ruins are mostly Vytautas's rebuilding after a fire in 1419 (verify). Towers, a palace, and a sheer drop to the Neris.
 - **In the saga:** The keep where Jogaila broods. The place the Iron Wolf howled in the founding dream. A good vantage for watching the 1387 pyre of the grove.
 
 **3. The Lower Castle** (*Žemutinė pilis*)
+
 - **[Record]** The walled ducal residence at the foot of Gediminas hill, on the flat between the hill and the Neris, enclosing the residence, workshops and the site of the later cathedral. Beneath the cathedral are remains of earlier brick buildings, including what some archaeologists interpret as **Mindaugas's 13th-c. cathedral** and possibly a **pagan sanctuary** phase (the Kitkauskas hypothesis; contested (verify)).
 - **In the saga:** The court, the feast hall of ch. 7. The building site of 1387, with a church raised on the flame's ashes.
 
 **4. The Crooked Castle** (*Kreivoji pilis*; Lat. *castrum curvum*)
+
 - **[Record]** A **wooden** castle on the **Bald Hill** (*Plikasis kalnas*, today's Hill of Three Crosses) across the Vilnia. It is known chiefly because the Order and Vytautas **burned it during the 1390 siege**, when Jogaila's brother **Karigaila** died in its defence [Record; details (verify)]. It was never rebuilt.
 - **In the saga:** In Book I it is just "the third castle", wooden and old, where the poorer garrison drinks. In Book II it is **the fire Vytautas lit against his own city**. Plant it in Book I so it can burn in Book II.
 
 **5. Šventaragis valley** (*Šventaragio slėnis*)
+
 - **[Record]** The flat by the Neris–Vilnia confluence below the castle hill (around today's cathedral). The legend in the 16th-c. Lithuanian chronicles says the pagan prince **Šventaragis** was cremated here, the eternal flame burned here, and later dukes were burned here too. Długosz records Jogaila in 1387 **extinguishing the eternal fire, felling the sacred grove and killing the sacred snakes** in Vilnius [Record, with the usual Długosz caveats].
 - **In the saga:** **The holiest place in the realm** (D5, cosmology §4.1). The **Silent Pact was sworn here in 1345**, Eglė tended the flame here (prologue, moved from Romuva), and Kęstutis's pyre burned here in August 1382 (chronology: cremated in Vilnius). Its extinguishing in 1387 ends the Pact. Reuse it in every book: the grove (1382), the stump field (1387), the cathedral (1390s), the cathedral crypt (Book V).
 
 **6. Trakai: the Peninsula Castle** (*Pusiasalio pilis*; Pol. *Troki*; Germ. *Traken*)
+
 - **[Record]** "New" Trakai, Kęstutis's capital. The **Peninsula Castle** stands on the neck of land between **Lake Galvė** and **Lake Luka**, built by Kęstutis around the mid-14th century (verify) as a brick-and-stone enclosure castle with towers. It is **the castle Kęstutis actually lived in in 1382.** The Order besieged Trakai in July–August 1382 in support of Jogaila (chronology), and Order campaigns in 1383 took it (verify). In 1384 **Trakai went to Skirgaila**, not Vytautas [Record].
 - **In the saga:** Book I ch. 1–3 (ch. 1's fog on Galvė is fine: the Peninsula Castle looks onto it). Birutė's tower shrine (ch. 3). **Ch. 28's rebuilding by Vytautas in 1384 must change** (review H8): in 1384 Trakai is Skirgaila's, and Vytautas would see it only as a guest or an enemy.
 
 **7. Trakai: the Island Castle** (*Salos pilis*)
+
 - **[Record, contested]** On an island in **Lake Galvė**. Most sources say construction **began under Kęstutis in the second half of the 14th century**, was **interrupted by the wars of 1377–84**, and was **completed by Vytautas c. 1407–09**. Some historians argue it is essentially Vytautas's castle and push the start earlier or later (verify; Trakai History Museum; G. Rackevičius). It is **not** "the only water castle in Eastern Europe" (`references/logistics_architecture.md` line 10 overstates this).
 - **In the saga:** In 1382 the island holds **foundations and an abandoned building site, half-flooded, where the masons stopped when the war came.** That is a strong image: the castle Kęstutis began and never saw finished. From Book II–III it rises; by Book IV it is Vytautas's great residence. **The secret flame** burns in its deepest vault (magic_rules §6) until 27 Oct 1430. Žygimantas is murdered at Trakai in 1440 (Book V ch. 22; which castle is debated (verify)).
 
 **8. Senieji Trakai** (Old Trakai; Pol. *Stare Troki*)
+
 - **[Record]** Kęstutis's earlier seat, a few km east of new Trakai; the traditional **birthplace of Vytautas** (c. 1350). It was later granted to the Benedictines (1405, verify).
 - **In the saga:** The house where Birutė first lived as a wife, a hillfort of memory. A short ride from Trakai: a place for Birutė and Vytautas to talk unheard (ch. 3 could move here).
 
 **9. Krėva** (Pol. *Krewo*; Bel. *Kreva*)
+
 - **[Record]** About **75–80 km east-south-east of Vilnius** (straight line), in present-day Belarus. **Algirdas's patrimony, then Jogaila's.** A **stone-and-brick enclosure castle** of irregular plan on low marshy ground between two streams, with a large corner tower (the "Prince's tower") and a smaller tower (verify layout). One of the oldest masonry castles in the GDL: dated to the first half of the 14th century (Gediminas) by some, to Algirdas's time by others (verify). **Kęstutis died here on 15 Aug 1382. The Union of Krėva was signed here on 14 Aug 1385** [Record]. Badly damaged in the First World War.
 - **In the saga:** **The wound in the map.** Book I ch. 8–14, 30. The cell has **residue** (`magic_rules.md`): seers feel it for a century, and Žygimantas sees it in Book V. The Union scene (H10) should be staged **in the room above the death cell**. Krėva sits on the edge of the eastern Dykra, and the forest to the south is the first thing Vytautas reaches.
 
 **10. Medininkai castle** (Pol. *Miedniki*; not to be confused with Samogitian Medininkai, no. 19)
+
 - **[Record]** About **30 km south-east of Vilnius on the Vilnius–Ašmena–Krėva road.** The **largest enclosure castle in Lithuania** (a walled courtyard of several hectares (verify area) with a corner tower), built in the first half of the 14th century (verify). It is first mentioned in Order sources of the 1380s (1385 or the 1387 Wegeberichte (verify)), and burned by the Order in 1402.
 - **In the saga:** **The last stop before Krėva.** A prisoner convoy from Vilnius to Krėva would night here (D.2). An empty courtyard big enough to hold a herd or an army, where Kęstutis, under guard, may see the stars for the last time.
 
 **11. Ašmena** (Bel. *Ašmiany*; Pol. *Oszmiana*)
+
 - **[Record]** A town between Vilnius and Krėva, on the same road, about 25 km from Krėva. In **Book V's era** it is the site of **Žygimantas's coup against Švitrigaila (night of 31 Aug – 1 Sep 1432)** and of a **second battle in December 1433** (verify).
 - **In the saga:** Ašmena is where the 1382 road and the 1432 road cross. The same inn, the same ford, fifty years apart. Note: the word *ašmenys* (blade) in ch. 2 and the prologue is not this town.
 
 **12. Kernavė** (Pol. *Kiernów*)
+
 - **[Record]** The old ducal centre on the **Neris** about 35 km north-west of Vilnius: **five fortified hillforts** in a row above a floodplain town. Probably Traidenis's seat in the 13th c. Its wooden town was **destroyed by the Order in 1390** (verify) and never recovered. Now a UNESCO site.
 - **In the saga:** **The older holiness**, pre-Vilnius. A place for the *žyniai* to retreat to after 1387. Its hills are graves.
 
 **13. Kaunas** (Pol. *Kowno*; Germ. *Kauen*)
+
 - **[Record]** At the **Neris–Nemunas confluence**. The first brick castle was **destroyed by the Order at Easter 1362** after a siege with mining and possibly gunpowder (verify the gunpowder). In the following decades the site was refortified in **wood and earth (c. 1396–1401?)** and in **masonry (c. 1404–09)** (verify). In 1382 Kaunas is **a ruin with a settlement and a ferry**, not a functioning stone castle. The Order built **Gotteswerder** on Virgalė island downriver in 1369 (taken by Kęstutis); Kaunas becomes a Hanseatic **Kontor** town in 1441.
 - **In the saga:** **The broken gate of Lithuania.** Vaidotas, Kęstutis's son, was captured here in 1362 (warfare.md). The Order's castles of 1384 rise around its ruins (no. 26).
 
 **14. Lida** (Pol. *Lida*)
+
 - **[Record]** A brick enclosure castle built by **Gediminas c. 1323–30s** (verify), about 100 km south-west of Krėva on the road to Grodno.
 - **In the saga:** **The castle Vytautas must avoid.** It stands squarely on the obvious escape route (Krėva–Lida–Grodno–Masovia), so Skirgaila's riders would watch it. That is why he goes **into the Dykra** instead.
 
 **15. Naugardukas** (Navahrudak; Pol. *Nowogródek*)
+
 - **[Record]** The old centre of Black Ruthenia, traditionally linked to Mindaugas. Later an Orthodox metropolitan seat for the GDL (1415, Gregory Tsamblak (verify)).
 - **In the saga:** Where pagan Lithuania and Orthodox Ruthenia first married. A good Book II setting for the Ruthenian clergy.
 
 **16. The Naliboki forest** (*Nalibokų giria*; Bel. *Nalibockaja pušča*)
+
 - **[Record]** A vast swamp-forest between the **upper Nemunas** and the Berezina, south and south-west of Krėva. Today still one of the largest forests in Belarus.
 - **In the saga:** **The eastern Dykra, and Pelkių Eglė's country** (ch. 15–16). The swamp that eats Skirgaila's trackers. The stone rising from the water (ch. 16) is here. In Book V this is where the Root-Mother "reclaims the groves" nearest the capital.
 
 ### Samogitia and the coast
 
 **17. Palanga and Birutė's hill** (Pol. *Połąga*; Germ. *Polangen*)
+
 - **[Record]** A coastal settlement in the **Curonian–Samogitian borderland**, about **25 km north of the Order's Memel** and close to the Livonian border to the north (the Šventoji river). **Birutė's hill** (*Birutės kalnas*) is a dune hill with a **10th–13th c. hillfort and settlement**, a **defensive wall of the late 14th–early 15th c.**, and a **pagan sanctuary/observatory (late 14th–15th c.)** found by excavation in 1989 [Record; dates vary by source (verify)]. A **St George chapel** was built on the summit in **1506** to discourage the cult of Birutė's grave [Record]. Lithuanian tradition holds that Birutė was a *vaidilutė* here, taken by Kęstutis, and later buried on this hill [Record as tradition].
 - **In the saga:** **The Amber Queen's shore.** Book I ch. 3 (in memory), 11, 27; Book V ch. 25. The **Šventasis akmuo** (ch. 11) and the **kneeling amber woman** (ch. 27) stand here. **Correction:** ch. 11 has Birutė walk "back to the castle". There is no castle at Palanga. Use "the hill", "the palisade on the hill" or "the priestesses' house" (11_nasle.qmd:17).
 - **Scene potential:** The Order's Memel is **visible on a clear day as smoke down the coast**. The enemy is half a day's ride away, and Birutė's refuge is a front line.
 
 **18. The Samogitian groves** (*alkai*)
+
 - **[Record]** Samogitian sacred places (hills, groves, springs, stones) are attested in later records and place-names (many hills called *Alka* or *Alkos kalnas*). Samogitia was baptised in **1413–17** [Record].
 - **In the saga:** **The Hidden Groves** bought by Birutė's sacrifice (cosmology §4.2). Each is a real-feeling place with a guardian and a rule. They fall one by one in Books III–IV. Keep a separate list as they are invented; each fall should cost something on the page.
 
 **19. Medininkai of Samogitia** (later **Varniai**; Pol. *Worniany/Miedniki Żmudzkie*; Germ. *Medenicken*)
+
 - **[Record]** The central Samogitian district and later (1417) the **seat of the Samogitian bishopric**.
 - **In the saga:** Book III–IV's baptism of Samogitia happens here. Galminas's resistance has a grove within a night's ride of it (Book V).
 
 **20. The Dubysa crossing**
+
 - **[Record]** The Dubysa meets the Nemunas below Kaunas. On **31 Oct 1382** Jogaila and the Order agreed the **Treaty of Dubysa** (never ratified), promising baptism within four years and Samogitia to the Dubysa [Record].
 - **In the saga:** A meeting on a river island, both sides on boats, nobody wanting to stand on the other's ground. **The Iron Saint and the Shadow-Seller in one scene.** Optional Book I interlude (Jogaila's point of view, autumn 1382, while Vytautas is in the swamp).
 
 **21. Rambynas** (Germ. *Rombinus*)
+
 - **[Record as folklore]** A hill on the right bank of the Nemunas in Lithuania Minor, remembered in 19th-c. tradition as a sacred hill with an altar stone (destroyed in the 19th c. (verify)).
 - **In the saga:** A sacred hill **facing the Order's Ragnit across the river**: a pagan altar in the enemy's sight. Use it for Book III's pre-Grunwald omens.
 
 **22. Dovydiškės** (Lat./Germ. forms vary)
+
 - **[Record]** Where Jogaila and the Order concluded the **secret treaty of 31 May 1380**. **Its location is not securely identified** (verify).
 - **In the saga:** The uncertainty is useful. Dovydiškės can be **a manor in the Dykra that no map shows twice in the same place**, which makes it a Shadow-Seller place. Vytautas's scouts "were there" (ch. 2); have one scout unable to find it again.
 
 ### The Order's lands: Prussia
 
 **23. Marienburg** (Pol. *Malbork*; Lith. *Marienburgas*)
+
 - **[Record]** **Seat of the Grand Master from 1309**, on the **Nogat** arm of the Vistula. A complex of High Castle (convent, St Mary's church) and Middle Castle. The **Grand Master's Palace** was being built in the later 14th century (verify that its main phase falls in the 1380s–90s). Among the largest brick buildings in Europe.
 - **In the saga:** Book I ch. 18–19 ("a mountain of red brick" is exactly right). **Consecrated stone dampens Kalba** (`magic_rules.md`), so the amber dies here. The baptism belongs at **Tapiau** (H6); Marienburg is where Vytautas **negotiates and is received**. Book III ch. 22: the failed siege of 1410.
 
 **24. Königsberg** (Lith. *Karaliaučius*; Pol. *Królewiec*)
+
 - **[Record]** Founded 1255 on the **Pregel**. Seat of the **Order's Marshal** (who led the Reise), and the mustering point for crusader guests: English, French, German and Bohemian knights on the summer and winter Reise. Three towns (Altstadt, Löbenicht, Kneiphof); the **cathedral on the Kneiphof** was being built c. 1330s–1380 (verify). Site of the **Treaty of Königsberg, 30 Jan 1384** [Record].
 - **In the saga:** **The Iron Saint's barracks.** Heraldry, drinking, pious brutality, the **Table of Honour** (*Ehrentisch*) for the most distinguished guests (verify whether it was held in the 1380s). Vytautas meets the Western knighthood here.
 
 **25. Tepliava** (Germ. *Tapiau*; Rus. *Gvardeysk*)
+
 - **[Record]** An Order castle about 38 km east of Königsberg on the **Pregel, where the Deime branches north** to the Curonian Lagoon. **Vytautas was baptised Catholic here on 21 Oct 1383, as "Wigand"** [Record; officiant (verify)].
 - **In the saga:** **The lying baptism** (magic §5.4: the amber dies). A river-junction castle is a good image: the water that runs two ways. Vytautas arrives by boat from the Nemunas through the lagoon.
 
 **26. Naujapilis/Marienwerder by Kaunas, Jurgenburg (Jurbarkas) and Bayernburg**: the 1384 castles
+
 - **[Record]** In 1384 the Order fortified the Nemunas line for its vassal Vytautas: a castle at **Kaunas** called **Marienwerder** (also given as Marienburg or Naujasis Marienburgas; the Lithuanian *Naujapilis*), on the right bank or an island at Kaunas (verify the site; the *VLE* and Acta Baltico-Slavica 2017 call it the Order's furthest eastern point); **Jurgenburg/Georgenburg**, on **Bišpiliukai (Kalnėnai) hill about 3 km west of Jurbarkas** (an Order castle of 1343–1403; dating disputed against "1259"); and **Bayernburg** (site uncertain). In **July 1384** Vytautas reconciled secretly with Jogaila and **took and burned them** (Jurgenburg reportedly on **9 July**, "by deception") [Record]. Jurgenburg was rebuilt in 1387 and destroyed again in 1403 (verify).
 - **Warning:** Do not confuse these with **Marienwerder (Kwidzyn)**, the bishop of Pomesania's seat in Prussia proper, or with **Georgenburg near Insterburg**, another Order castle (verify).
 - **In the saga:** **The "Išdavikų išdavikas" set piece** (chronology: recast ch. 22–25 as these burnings, H7). Better staged than a siege: castles **opened from inside by their own lord** at a feast. Guests become captives, a traitor's hospitality mirrors Krėva, and the Iron Saint's men burn as Kęstutis did not.
 
 **27. Ragainė** (Germ. *Ragnit*; Rus. *Neman*)
+
 - **[Record]** An Order castle on the high left bank of the lower Nemunas, the seat of a commandery and a launch point for Reisen into Samogitia. The surviving brick castle was built **1397–1409** (verify), so in 1382 there is an **older fortress** on the site.
 - **In the saga:** The Iron Saint's forward altar. Across the river stands **Rambynas** (no. 21).
 
 **28. Įsrūtis** (Germ. *Insterburg*; Rus. *Chernyakhovsk*)
+
 - **[Record]** An Order castle (1336) at the edge of the Wildnis on the Pregel's upper waters; a base for raids across Sudovia.
 - **In the saga:** The last brick wall before the Dykra. Where Order scouts and Lithuanian turncoat guides (*Wegeleute*) are paid.
 
 **29. Klaipėda** (Germ. *Memel*; Pol. *Kłajpeda*)
+
 - **[Record]** An Order castle and town (1252) at the mouth of the Curonian Lagoon. Livonian at first, under the Teutonic Order from 1328 (verify). It **controls the Nemunas's exit to the sea**.
 - **In the saga:** Palanga's dark twin, 25 km away. The Order's sails off Palanga are "the Black Ship" Birutė dreams of (ch. 3).
 
 **30. Romuva** (Germ./Lat. *Romow*, *Romowe*)
+
 - **[Record]** A Prussian sanctuary in **Nadruvia** described by Peter von Dusburg (1326) as the seat of the high priest **Kriwe**. Its **existence and location are disputed** (verify), and the area was **under the Order from the 1270s–80s**.
 - **In the saga:** By 1382 **a lost place, a grove of stumps inside Order territory**, remembered as the flame that moved to Vilnius (chronology, 1283). Not a setting for 1382 (D5, H11). Book V's 1345 flashback should use Šventaragis, as cosmology §4.1 and the chronology do (Book V outline ch. 5 still says Romuva: see contradictions).
 
 **31. Danzig** (Pol. *Gdańsk*; Lith. *Gdanskas*)
+
 - **[Record]** Taken by the Order in 1308; a booming Hanseatic port for grain, timber, wax, furs and amber trade.
 - **In the saga:** The Gold-Glutton's counting-house. Book IV.
 
 **32. Grunwald / Žalgiris** (Germ. *Tannenberg*; Pol. *Grunwald*)
+
 - **[Record]** The battlefield of **15 July 1410**, between the villages of Grunwald, Stębark (Tannenberg) and Łodwigowo (Ludwigsdorf) in the Order's Prussia (Osterode district), roughly **95 km south-east of Marienburg**. The approach included the **pontoon bridge over the Vistula at Czerwińsk** [Record].
 - **In the saga:** Book III's climax. Open fields between woods and lakes: the one day the Root-Mother's forest and the Iron Saint's open ground meet on equal terms.
 
 ### Masovia, Poland and Livonia
 
 **33. Masovia: Czersk and Warsaw** (Pol. *Czersk, Warszawa*)
+
 - **[Record]** **Janusz I** rules from **Czersk** and the growing town of **Warsaw**, with Danutė as his wife. Vytautas went to them first after escaping (chronology; sources say he sought Danutė and Janusz's help and **received none**, then turned to the Order (verify detail)).
 - **In the saga:** **Danutė's hall**: the first warm room after Krėva, and the first refusal. A sister who weeps and a brother-in-law who calculates. Masovia borders the Order directly, so the **ch. 17 "border post" can be the Masovian–Prussian border** (Soldau/Działdowo or Neidenburg sector), with the Order's stone behind it.
 
 **34. Kraków** (Lith. *Krokuva*)
+
 - **[Record]** Poland's royal city (Wawel). **Jogaila is baptised here on 15 Feb 1386**, marries Jadwiga on the 18th and is crowned on 4 March [Record].
 - **In the saga:** The White Silence's cathedral. Book I ch. 29 (offstage), Books III–V.
 
 **35. Riga** (Lith. *Ryga*)
+
 - **[Record]** A Hanseatic city and archbishopric at the Daugava mouth, feuding with the Livonian Order. The home city of **Hanulas**.
 - **In the saga:** Where Henė's first mask learned to count. The Gold-Glutton's northern market.
 
 ### Ruthenia and the south
 
 **36. Gardinas** (Pol. *Grodno*; Bel. *Hrodna*)
+
 - **[Record]** An old Ruthenian town on a high bank of the **Nemunas**. Part of Kęstutis's domain, and **Vytautas's seat from 1384** (with Brest and Podlasie) [Record]. Vytautas later built a brick castle (verify date). **Jewish privilege 1389** [Record].
 - **In the saga:** Vytautas's **consolation prize** and his first court in exile-at-home. The Nemunas here is the same river that runs past Ragnit: the river ties his small domain to his enemy.
 
 **37. Brasta** (Pol. *Brześć*; Bel. *Brest*)
+
 - **[Record]** A Ruthenian town on the **Bug**, on the Polish–Masovian frontier. Given to Vytautas in 1384. Its **Jewish privilege of 1 July 1388** is usually cited as the earliest known GDL Jewish charter (authenticity debated, and a 1388 Trakai charter is also claimed (verify)). **The Order chronicler Wigand of Marburg** reports that Birutė was moved to Brest "for safety" and **drowned there in 1382**. Vytautas's 1390 complaint calls Jogaila the murderer of his father and mother, and the 1416 Samogitian delegation at Constance said she lived long and died naturally [Record]. Canon D3 attributes the drowning to Długosz; **the Brest drowning is Wigand's** (verify whether Długosz repeats it).
 - **In the saga:** This is **where Jogaila's men tried to drown her and failed** (D3). The Bug, a river that runs to the Vistula and so to the sea, would not keep her. It is a strong inland echo of the ring-thrice motif. If used, she was taken here **from** Trakai in August and escaped **to** Palanga, about 550 km, which fits a mid-September ch. 11.
 
 **38. Luckas** (Ukr. *Lutsk*; Pol. *Łuck*)
+
 - **[Record]** The capital of **Volhynia**: **Liubartas's** brick castle on the Styr (verify construction phase). Vytautas held it from 1387–88 (verify). Host of the **Congress of Lutsk, 1429** [Record].
 - **In the saga:** **Book IV**, not V (D2). Henė's crown bargain.
 
 **39. Kijevas** (Ukr. *Kyiv*; Pol. *Kijów*)
+
 - **[Record]** The former mother city of the Rus', still scarred by 1240. Under Lithuanian suzerainty from c. 1362, ruled by **Vladimiras Algirdaitis** until 1394, then **Skirgaila (1395–Jan 1397, died there; poison rumoured)** [Record]. The Caves Monastery and St Sophia.
 - **In the saga:** Book II, "Kijevo Šešėliai". The Steppe-Hunger's door. Skirgaila's death place.
 
 **40. The Vorskla** (Ukr. *Vorskla*)
+
 - **[Record]** A left tributary of the Dnieper near Poltava. **Battle on 12 Aug 1399**: Vytautas and Tokhtamysh are crushed by **Edigu** and Temür Qutlugh [Record]. Open steppe.
 - **In the saga:** Book II's atrocity. The land is "alien, endless": no forest, so the Root-Mother cannot follow. That is the point of the battle.
 
 **41. Polockas** (Bel. *Polatsk*; Pol. *Połock*)
+
 - **[Record]** An ancient Rus' principality on the Daugava, with St Sophia cathedral and close trade with Riga.
 - **In the saga:** The Orthodox north, a contested appanage. Švitrigaila flees here in 1432.
 
 **42. Vitebskas** (Bel. *Viciebsk*)
+
 - **[Record]** Julijona of Tver's dower land (verify). Jogaila's refuge in 1381–82.
 - **In the saga:** **Jogaila's mother's court**: Orthodox, shrewd, and the hand behind more than the chronicles say (Saga invention, flagged).
 
 **43. Smolenskas** (Smolensk)
+
 - **[Record]** An independent principality until 1395 (and again 1401–04). Book II.
 
 **44. Pabaiskas** (near Ukmergė/Vilkmergė; Pol. *Wiłkomierz*)
+
 - **[Record]** **Battle on 1 Sep 1435**: Žygimantas Kęstutaitis's army defeats Švitrigaila and the Livonian Order [Record].
 - **In the saga:** Book V's kin-slaughter, "worse than the crusades". A field where the dead stay unburned, the Unbinding at its height (chronology).
 
 **45. The Black Sea forts** (Dashiv/Ochakiv, Kachibey (Odesa), etc.)
+
 - **[Record]** Vytautas's southern outposts are attested **in the early 15th century** (verify each). The Book II outline puts "stone castles on the Black Sea" in 1387–95, which is probably too early (see contradictions).
 
 ---
@@ -359,7 +404,7 @@ Route factor: **×1.2–1.3** over the straight line in settled country, **×1.4
 
 ### D.3 What this means for Book I
 
-1. **The arrest (early August).** The record places it at Jogaila's camp **near Trakai** under Skirgaila's safe-conduct, then **Krėva (2–3 days)**. If the book keeps the Vilnius trap (ch. 4–6), the Vilnius–Krėva convoy is **two to three days** with Medininkai as a night stop. Either way, **Kęstutis's last journey takes about three days**, a chapter's worth of road (an opportunity for the missing interrogation of ch. 8).
+1. **The arrest (3 Aug 1382).** The record places it at Jogaila's camp **near Trakai** (Trakai had fallen on 20 Jul), under Skirgaila's safe-conduct, then **Krėva (2–3 days)**; Book I now stages it exactly there (the camp palisade gate is the "Iron Gates"; the Feast of Silence is held in a requisitioned Trakai manor; Kęstutis's body is still burned in Vilnius). **Kęstutis's last journey takes about three days**, a chapter's worth of road (an opportunity for the missing interrogation of ch. 8).
 2. **News of Kęstutis's death (15 Aug) reaching Palanga.** By the fastest relay of loyal Samogitians: **5–6 days (about 20–21 Aug)**. By ordinary messenger: **10–13 days (late August)**. By rumour: **2–3 weeks (early September)**. **[Saga]** Birutė knows **on the night itself**, through the amber (`magic_rules.md`: an amber anchor makes distance free). The strong scene is **the messenger arriving a week later to find her already in mourning white**, the ring already given to the sea. It proves her power to the household and frightens them. If ch. 3 keeps Birutė at Trakai in August, she must reach Palanga before ch. 11: **8–10 days**, and Trakai falls behind her. A flight scene with Jogaila's men following could be where the "attempted drowning" of D3 happens.
 3. **Ona's arrival at Krėva (ch. 12).** From Trakai or Vilnius: **2–4 days** with a cart. Weeks pass at Krėva between the death and the escape (the escape is "autumn": chronology), so her pleading for access is plausible.
 4. **The escape (autumn 1382; ch. 14–17).**
@@ -379,6 +424,7 @@ Route factor: **×1.2–1.3** over the straight line in settled country, **×1.4
 **Frame.** From **Riga (top centre-left)** down to **Kraków (bottom left)**, and from the **Baltic coast (left)** to **Kyiv (bottom right)**. Put the **Vorskla** in a corner inset (bottom right) rather than stretching the map. North is up. Scale bar: 100 km; also a "days on horseback" bar (1 day ≈ 40 km).
 
 **Skeleton (draw first).**
+
 1. **The Baltic coast** runs from the upper left down to the lower left. At its south-west corner the **Vistula Lagoon** and the **Vistula mouth (Danzig)**; further up the coast the long thin **Curonian Spit** enclosing the **Curonian Lagoon**, with **Memel/Klaipėda** at its northern mouth and **Palanga** a thumb's width north of that on open coast.
 2. **The Nemunas** is the backbone: draw it as a **sideways "S"**. It enters from the **right-centre** (south of Krėva, through the **Naliboki forest**), runs **west** to **Grodno**, bends **north** to **Kaunas**, then runs **west** past Jurbarkas, Ragnit and Tilsit into the **Curonian Lagoon** through a fanned delta.
 3. **The Neris** comes from the **east** (north of Krėva), passes **Vilnius** (with the little **Vilnia** joining), passes **Kernavė**, and meets the Nemunas at **Kaunas**.
@@ -386,6 +432,7 @@ Route factor: **×1.2–1.3** over the straight line in settled country, **×1.4
 5. **The Daugava** runs across the top from **Vitebsk** through **Polotsk** to **Riga**. The **Vistula** runs up the lower left from **Kraków** through **Warsaw** to **Marienburg** (on its Nogat arm) and **Danzig**. The **Dnieper** runs down the right side to **Kyiv**. The **Bug** flows past **Brest** towards the Vistula.
 
 **Places, relative to the skeleton.**
+
 - **Vilnius** on the Neris, about **⅔ across the map from the coast and level with Kaunas or slightly north**. **Trakai** is a small lake-cluster **just west-south-west of Vilnius** (25 km, a short finger's width), with **Senieji Trakai** beside it.
 - **Krėva** **east-south-east of Vilnius**, about three times the Trakai distance. **Medininkai** and **Ašmena** on the line between them.
 - **Kernavė** north-west of Vilnius on the Neris. **Lida** south-west of Krėva. **Naugardukas** south of Lida. **Grodno** on the Nemunas's westward stretch, south-west of Lida.
@@ -396,6 +443,7 @@ Route factor: **×1.2–1.3** over the straight line in settled country, **×1.4
 - **Muscovy, Smolensk, Novgorod and Pskov** at the right and top-right edges, as labelled arrows if they do not fit.
 
 **Shading and overlays.**
+
 - **The Dykra:** a broad hatched belt of forest-and-bog running **from south of the Nemunas in Sudovia (between Prussia and Grodno, the widest part)** north-west along Samogitia's western edge to the coast near Memel, **and** a second lobe running **east along the upper Nemunas through the Naliboki forest to just south of Krėva**. Draw the two lobes as one shape, joined along the Nemunas through the Grodno woods. Mark **Biebrza marshes** at its southern edge on the Masovian border.
 - **Order castles:** small black crosses (Marienburg large; Königsberg, Tapiau, Insterburg, Ragnit, Tilsit, Memel; in 1384, Jurbarkas/Jurgenburg and Kaunas/Marienwerder in red to show they burned).
 - **Lithuanian castles:** the Columns of Gediminas (Vilnius, Trakai, Krėva, Medininkai, Lida, Grodno, Kaunas ruin).
@@ -405,6 +453,7 @@ Route factor: **×1.2–1.3** over the straight line in settled country, **×1.4
 - **Route overlay (optional second plate):** Vytautas's 1382 flight as a dotted line: Krėva → into the Naliboki Dykra → along the Nemunas woods past Grodno → Biebrza → Czersk/Warsaw → north to the Prussian border → Marienburg. Then 1383 → Tapiau (baptism) → Königsberg; July 1384 → Jurbarkas and Kaunas (two red flames).
 
 **Insets.**
+
 - **Vilnius:** the Neris bend, the Vilnia, Gediminas hill (Upper Castle), the Lower Castle and the Šventaragis grove at its foot, the Bald Hill (Crooked Castle) across the Vilnia, the German and Ruthenian quarters.
 - **Trakai:** Lakes Galvė and Luka, the Peninsula Castle on the neck between them, the island in Galvė (marked "foundations, 1382"), and Senieji Trakai to the east.
 

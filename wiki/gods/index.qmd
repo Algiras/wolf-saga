@@ -5,6 +5,7 @@ title: "Gods"
 
 | Name | Type | Years |
 |---|---|---|
+| [Aušrinė (the morning star)](ausrine.qmd) | god |  |
 | [Bangpūtys](bangputys.qmd) | god |  |
 | [Dievas (Senelis)](dievas.qmd) | god |  |
 | [Gabija](gabija.qmd) | god |  |

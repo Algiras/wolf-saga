@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/milzinai.md >}}
 
 ## Folk source [Record]
+
 Lithuanian legends credit giants with shaping the land: throwing great stones, building hill-forts, heaping hills. The giantess **Neringa** is said to have made the Curonian Spit. Many tales say the giants dwindled over generations into ordinary people.
 
 ## In the saga (where the folk are half-wrong)
+
 The giants are not gone; they are **asleep in the land**, and their bones are the hills. They are what the people were in the age of the first oaths, before men became small enough to bargain. They take no part in events, and that is the point: they measure how much has already been lost. In the graph they stand under [Žemyna](../gods/zemyna.qmd).
 
 ## Signs & habitat
+
 Boulders with hand-prints (*milžinų akmenys*); hill-forts nobody remembers building; earth-tremors under barrows.
 
 ## Before / after the Unbinding
+
 Before: sleeping. After: still sleeping but turning over: landslips on hill-forts, stones that move between one dawn and the next.
 
 ## Banes, wards, bargains, and their cost
+
 None are needed and none would work. Do not dig into barrows or move giants' stones; the earth moves back.
 
 ## Danger level
+
 None (asleep).
 
 ## Story hooks
+
 Book V epilogue: the grandfather's story of the Iron Wolf told on a giant's stone, as the old world dwindles into folklore just as the giants did.

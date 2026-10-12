@@ -13,24 +13,29 @@ categories: [book]
 
 | Part | Chapters | Years | Core |
 |---|---|---|---|
-| **I · Antroji Išdavystė** (The Second Betrayal) | [ch. 1–10](https://algiras.github.io/wolf-saga/2/) | 1387–1392 | Skirgaila's Trakai; the flame in the flooded foundations; the plot of 1389; Lyck 1390; the [siege of Vilnius](../events/ev_vilnius_siege_1390.qmd); [the sons poisoned](../events/ev_sons_poisoned.qmd); [Ostrów](../events/ev_ostrow.qmd), Aug 1392. |
+| **I · Antroji Išdavystė** (The Second Betrayal) | [ch. 1–10](https://algiras.github.io/wolf-saga/2/) | 1387–1392 | Skirgaila's Trakai; the flame in the flooded foundations; the plot of 1389; [Lyck](../events/ev_lyck_1390.qmd), 19 Jan 1390; the [siege of Vilnius](../events/ev_vilnius_siege_1390.qmd); [the sons poisoned](../events/ev_sons_poisoned.qmd) (a contested tradition, Grunau); [Ostrów](../events/ev_ostrow.qmd), Aug 1392. |
 | **II · Imperijos Sapnas** (The Imperial Dream) | ch. 11–20 | 1392–1399 | Appanages crushed, Kyiv and Smolensk, [Skirgaila's death](../events/ev_skirgaila_dies.qmd) (Jan 1397), the Black Sea raids, [Salynas](../events/ev_salynas.qmd) (Oct 1398), Henė's vision. |
 | **III · Kraujo Horizontas** (The Horizon of Blood) | ch. 21–30 | 1399 | Jadwiga's death; the march to the Vorskla; [the battle](../events/ev_vorskla.qmd) (12 Aug 1399); the Ransom of Kyiv; the Marienburg map. |
 
 ## Premise
-The Pact is dead and the spirits go feral. Vytautas, twice baptised and holding only Grodno, must bow in Trakai to the man who held the rope at Krėva while he keeps the last flame alive in the flooded foundations of the island castle. Ambition drives him back to the Order (1389–92), to besiege the city he once saved, and then to betray the Order again. His hostage sons pay with their lives. Made Grand Duke at Ostrów, he builds an empire toward the Black Sea and rides it to the Vorskla.
+
+The Pact is dead and the spirits go feral. Vytautas, twice baptised and holding only Grodno, must bow in Trakai to the man who held the rope at Krėva while he keeps the last flame alive in the flooded foundations of the island castle. Ambition drives him back to the Order (1389–92), to besiege the city he once saved, and then to betray the Order again. By one late tradition (the afterword says it is only that) his hostage sons pay with their lives. Made Grand Duke at Ostrów, he builds an empire toward the Black Sea and rides it to the Vorskla.
 
 ## Protagonist arc (form at start → form at end)
-**Traitor of Traitors** (burned Teutonic armour, the silver wolf worn openly) → **Didysis Kunigaikštis** from Ostrów (Ruthenian robes, the Tatar court, Henė at his side) → broken at the Vorskla; plain armour is the first tell of the Iron Wolf. Want: to rule as a king among kings. Lie: "the horizon belongs to the bold". Truth: empire eats its builder. Cost: his sons, about twenty princes, a body without surety (every working at full price), Ona's regard.
+
+**Traitor of Traitors** (burned Teutonic armour, the silver wolf worn openly) → **Didysis Kunigaikštis** from Ostrów (Ruthenian robes, the Tatar court, Henė at his side) → broken at the Vorskla; plain armour is the first tell of the Iron Wolf. Want: to rule as a king among kings. Lie: "the horizon belongs to the bold". Truth: empire eats its builder. Cost: his sons (a contested tradition), about twenty princes, a body without surety (every working at full price), Ona's regard.
 
 ## Antagonists & outcomes
+
 - **Skirgaila** (Part I): defeated at Ostrów, compensated with Kyiv, dies there on 11 Jan 1397; Henė collects, three stones become two.
 - **[Edigu](../characters/edigu.qmd)** (Parts II–III), behind him the [Steppe-Hunger](../forces/steppe_hunger.qmd): **wins** the Vorskla. This is the book the protagonist loses.
 - Secondary: the Order ([Zöllner](../characters/zollner.qmd) to Konrad von Jungingen) loses Vytautas twice, takes revenge through hostages and gains Samogitia by treaty; [Jadwiga](../characters/jadvyga.qmd) dies 17 Jul 1399, her tomb the White Silence's anchor.
 
 ## Threads advanced (see books/series_arc.md)
+
 - **Unbinding** rises from 2 to 3; first Unburned, Quenched and Voiceless hunts; the [Iron Wolves](../factions/iron_wolves.qmd) become monster-hunters (the boy who will be the Flame-Keeper is rescued, ch. 14).
 - **B:** the flame moves from the foundations to the island vault (ch. 11). **D:** Henė changes masters at Ostrów and collects Skirgaila. **E:** Perkūnas punishes the broken oaths at the Vorskla. **H:** second civil war. **I:** [Sofija](../characters/sofija.qmd) marries Vasily I (1391). **J:** Steppe-Hunger and Gold-Glutton.
 
 ## Hands on to the next book
+
 A humbled Vytautas, the pebble cold, Henė with two stones; Samogitia sold (Salynas 1398) and ready to rise; Skirgaila dead; the wolves estranged; the Order under Konrad von Jungingen eyeing Samogitia. *Open title question:* the outline notes a README variant, *Vytis ir Šešėlis*.

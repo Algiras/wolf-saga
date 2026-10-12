@@ -63,19 +63,25 @@ Senovės Kalba is more than words; it is a rhythm that follows the natural cycle
 ## The Three Laws of Senovės Kalba
 
 ### 1. The Law of Balance
+
 "Kiek paimi, tiek atiduok" ("What you take, you must give back")
+
 - Every magical act requires an equal sacrifice
 - The greater the magic, the greater the cost
 - Balance must be maintained between the caster and the elements
 
 ### 2. The Law of Truth
+
 "Tiesa yra galingesnė už bet kokį burtą" ("Truth is more powerful than any spell")
+
 - Magic cannot create lies or illusions
 - All spells reveal some truth, even if unintended
 - False intentions corrupt magic
 
 ### 3. The Law of Memory
+
 "Atmintis yra amžina" ("Memory is eternal")
+
 - All magical acts are remembered by the elements
 - Forgotten spells lose their power
 - The land remembers all magic performed upon it
@@ -90,6 +96,7 @@ The most powerful form of *Senovės Kalba* is the *Senovės Sutartis*, a binding
 4. **An Unbreakable Promise**: The caster must swear to fulfill their part of the bargain
 
 ### Consequences of Breaking the Pact
+
 - Loss of magical ability
 - Cursed by the elements
 - Memory loss
@@ -99,30 +106,35 @@ The most powerful form of *Senovės Kalba* is the *Senovės Sutartis*, a binding
 ## Magical Lineages
 
 ### 1. Gintaro Šventikai (Amber Priests)
+
 - **Specialty**: Healing and protection magic
 - **Sacred Object**: Amber (gintaras)
 - **Limitations**: Must remain pure of heart
 - **Example**: Birutė and her lineage
 
 ### 2. Miško Šnibždeliai (Forest Whisperers)
+
 - **Specialty**: Nature and animal magic
 - **Sacred Object**: Oak leaves
 - **Limitations**: Must remain in forests
 - **Example**: Eglė and the swamp spirits
 
 ### 3. Vėjo Kalbėtojai (Wind Speakers)
+
 - **Specialty**: Communication and travel magic
 - **Sacred Object**: Feathers
 - **Limitations**: Must remain truthful
 - **Example**: The wind messengers
 
 ### 4. Ugnies Gynėjai (Fire Guardians)
+
 - **Specialty**: Protection and war magic
 - **Sacred Object**: Sacred fire
 - **Limitations**: Must protect the innocent
 - **Example**: The ancient warriors
 
 ### 5. Žvaigždžių Skaitovai (Star Readers)
+
 - **Specialty**: Prophecy and fate magic
 - **Sacred Object**: Star maps
 - **Limitations**: Cannot interfere with fate
@@ -131,17 +143,20 @@ The most powerful form of *Senovės Kalba* is the *Senovės Sutartis*, a binding
 ## Magical Limitations and Weaknesses
 
 ### Physical Limitations
+
 - Magic requires physical contact with sacred objects
 - Overuse causes physical exhaustion
 - Each element has specific physical costs
 
 ### Spiritual Limitations
+
 - Magic cannot resurrect the dead
 - Magic cannot create true love
 - Magic cannot force free will
 - Magic cannot change the past
 
 ### Environmental Limitations
+
 - Water magic weak in deserts
 - Fire magic weak in floods
 - Earth magic weak on water
@@ -153,12 +168,14 @@ The most powerful form of *Senovės Kalba* is the *Senovės Sutartis*, a binding
 All magic in *Senovės Kalba* comes with a price:
 
 ### Short-Term Costs
+
 - Physical exhaustion
 - Temporary sensory loss
 - Emotional vulnerability
 - Memory lapses
 
 ### Long-Term Costs
+
 - Premature aging
 - Elemental curses
 - Loss of magical ability
@@ -166,7 +183,9 @@ All magic in *Senovės Kalba* comes with a price:
 - Death
 
 ### The Ultimate Price
+
 The greatest magic requires the greatest sacrifice. The *Senovės Sutartis* can demand:
+
 - A lifetime of service
 - A beloved possession
 - A cherished memory
@@ -176,6 +195,7 @@ The greatest magic requires the greatest sacrifice. The *Senovės Sutartis* can 
 ## Historical Context
 
 *Senovės Kalba* dates back to the earliest Baltic tribes and is closely tied to:
+
 - The worship of Dievas (the supreme god)
 - The reverence for nature spirits (laumės)
 - The sacredness of amber (gintaras)
@@ -187,6 +207,7 @@ This magic system was nearly lost during Christianization but survived in secret
 ## Modern Survival
 
 Today, *Senovės Kalba* survives only in:
+
 - Fragmentary folk songs
 - Ancient rituals in remote villages
 - The memories of the oldest families
@@ -194,6 +215,7 @@ Today, *Senovės Kalba* survives only in:
 - The secrets of the amber
 
 Those who still practice risk:
+
 - Persecution by religious authorities
 - Isolation from modern society
 - The wrath of forgotten spirits

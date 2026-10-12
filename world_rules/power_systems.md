@@ -32,21 +32,26 @@
 ## 2. The six schools of asked power
 
 ### 2.1 Senovės Kalba (the Ancient Tongue): elemental working
+
 The high craft: five elements, deities, zeniths, costs. **Full rules in `magic_rules.md`.** It is the rarest and most powerful school and the only one that can reach across distance (via amber).
 
 ### 2.2 Užkalbėjimai (spoken charms): folk word-magic
+
 **[Record]** Lithuanian folk healers (*žiniuoniai*, *užkalbėtojai*) had a large real tradition of spoken charms against snakebite, bleeding, fright (*išgąstis*), toothache, fire, and the evil eye. They were whispered three or nine times, often over water, bread or salt, and **passed on only to a younger person of the opposite sex, or the charm lost its power.**
 
 **In the saga:** charms are **Kalba's humble cousin**. They need no gift, only the **exact words** learned from a living teacher, and a **medium** (water, bread, salt, linen thread, a knife).
+
 - **Scope:** one person and one ailment or danger at a time: stop bleeding, draw snake venom, calm a horse, ward a house from fire for a night, take away fright.
 - **Cost:** small but personal. The charmer takes a *trace* of what they remove (a headache, a cold hand, a nightmare). Healers who charm too much grow strange.
 - **Rules:** a charm told to the wrong person dies (it *stops working for the teller*); charms fail against someone who does not believe they are being helped (Law of Truth); a charm said for money works at half strength (Law of Balance: payment is already "giving back").
 - **After the Unbinding:** charms are the peasantry's main defence against unbound spirits. Priests condemn them, and village priests quietly use them.
 
 ### 2.3 Ženklai (carved signs): wards, marks and enchanting objects
+
 **[Record]** Baltic ornament carries a well-known set of folk symbols (sun-wheels, the "Perkūnas cross" (*perkūnėlis*), grass-snake zigzags (*žalčiukai*), Laima's tree, the *Austras* tree, stars, the moon), carved on lintels, spindles, cradles, beehives, belts and roof-ridges (*žirgeliai*, the horse-head gables).
 
 **In the saga:** signs are **stored intention**, the way to **enchant objects**. A sign is carved, burned, woven or embroidered, then **fed**: with blood for a strong sign, milk for a gentle one, ash for a binding one.
+
 - **Common signs and effects:**
 
 | Sign | Lithuanian | Effect | Feed |
@@ -63,15 +68,19 @@ The high craft: five elements, deities, zeniths, costs. **Full rules in `magic_r
 - **Enchantment tiers:** a **charm-object** (one sign, one effect, fades in a season); a **warded object** (several signs, fed by an owner, lasts a lifetime); a **bound object** (signs plus a Kalba working plus blood, which becomes an *artifact*; see §5).
 
 ### 2.4 Žolės (herb-lore): brews, smokes and poisons
+
 **[Record]** Lithuanian folk medicine was rich in herbs: wormwood (*kietis*), St John's wort (*jonažolė*), sweet flag (*ajeras*), mugwort, linden, chamomile, valerian, henbane (*drignė*), poppy. Herbs gathered at **Rasos/Joninės** night were held strongest.
 
 **In the saga:** herbs are **power anyone can carry**, with **no gift and no Law of Balance**, which is exactly why they are the most dangerous.
+
 - **Rasos herbs** (picked on solstice night before dawn, without speaking): double potency, keep for a year.
 - **Effects:** sleep (Ona's draught), truth-loosening, fever-breaking, wound-cleaning, and the **seer's smoke** (henbane and amber dust, as the prologue's "violet flame") that lets a *Kalba* seer see further at the cost of a terrible headache.
-- **Poison is the herb-lore of princes.** Skirgaila's death (1397) and the Order's poisoning of Vytautas's sons (1392) are herb-lore, not sorcery. The book should keep them mundane: the horror of the saga is that men need no magic for the worst things.
+- **Poison is the herb-lore of princes.** Skirgaila's death (1397, cause unrecorded) and the poisoning of Vytautas's sons (1392, a **contested** tradition from Grunau, which the saga adopts) are herb-lore, not sorcery. The book should keep them mundane: the horror of the saga is that men need no magic for the worst things.
 
 ### 2.5 Gintarystė (amber-craft): the universal medium
+
 Amber is Saulė's grief, and it **stores memory and carries workings**.
+
 - **Raw amber** carries any *Kalba* working (it is the only medium all five elements accept).
 - **Charged amber**: a caster breathes a working into it, to be released later by the bearer (even an ungifted one) with the right word. *This is how Birutė's protection outlives her contact with Vytautas.*
 - **Anchored amber**: amber carrying the caster's **blood** links caster and bearer **across any distance** (`magic_rules.md` §3.4). Only one anchor per caster at a time; a second one breaks the first.
@@ -80,9 +89,11 @@ Amber is Saulė's grief, and it **stores memory and carries workings**.
 - **The Order's amber monopoly [Record]:** the Teutonic Order controlled the Prussian amber trade and harshly punished private gathering. **In the saga:** the Order hoards amber **to keep it out of pagan hands**, and its *Bernsteinmeister* burn charged pieces in consecrated furnaces (a secret doctrine of the Iron Saint).
 
 ### 2.6 Priesaika (oath-binding): blood, earth and word
+
 **[Record]** Pagan Lithuanians swore by Perkūnas or the earth; treaties were sworn with pagan rites (e.g. Kęstutis's 1351 ox-sacrifice oath to Louis of Hungary).
 
 **In the saga:** an oath sworn with the right form is **literally binding**:
+
 - **Earth oath** (kissing or eating soil): the oath-breaker's **own land rejects him**. Crops fail, horses throw him, and the forest loses him.
 - **Thunder oath** (on an axe or by an oak struck by lightning): **Perkūnas enforces** it. Lightning seeks the oath-breaker; at minimum he loses Perkūnas's favour in war.
 - **Blood-brotherhood** (*susibroliavimas*): shared fate. One feels the other's death.
@@ -92,6 +103,7 @@ Amber is Saulė's grief, and it **stores memory and carries workings**.
 ---
 
 ## 3. Granted and bought power (summary)
+
 | Power | Source | Grants | Cost / bondage | Details |
 |---|---|---|---|---|
 | **Claim** (*Žymė*) | Perkūnas, Root-Mother, others | The Force acts through you at its moments | You must act in its nature or be punished | `magic_rules.md` §7 |
@@ -104,6 +116,7 @@ Amber is Saulė's grief, and it **stores memory and carries workings**.
 ---
 
 ## 4. Tiers of practitioners
+
 A shared ladder lets the reader judge power at a glance. Most people with any power stop at tier 2.
 
 | Tier | Title | Typical | Can do | Cannot do | Rough number (1382) |
@@ -117,11 +130,12 @@ A shared ladder lets the reader judge power at a glance. Most people with any po
 
 **Vytautas's tier:** officially **0**; really **bound-2**. Through Birutė's Sutartis he can use the Five-Voice and the pebble, *and nothing else*. Through Perkūnas's claim he is an **instrument**, not a caster. He never becomes a sorcerer, and that matters. **His power is political, not magical.**
 
-**Advancement:** only through **teaching** (a living lineage), **sacrifice** (an element notices you), or **binding** (someone else's Sutartis). After 1387, with the temples gone, lineages break and the tiers **collapse downward** across the series. By Book V there are no tier-4s left and fewer than ten tier-3s.
+**Advancement:** only through **teaching** (a living lineage), **sacrifice** (an element notices you), or **binding** (someone else's Sutartis). After 1387, with the temples gone, lineages break and the tiers **collapse downward** across the series. By Book V there are no tier-4s left and fewer than ten tier-3s. Galminas becomes a grove at Grunwald (1410); the **last žynys of Book V ch. 27 is his pupil, the beekeeper-žynys** (d. 1448), not Galminas.
 
 ---
 
 ## 5. Artifacts (bound objects)
+
 An artifact is an object carrying **signs + a Kalba working + blood**, or touched by a Force. Each has a **power**, a **rule**, a **cost** and a **fate** across the series.
 
 | Artifact | Lithuanian | Power | Rule / cost | Arc |
@@ -140,6 +154,7 @@ An artifact is an object carrying **signs + a Kalba working + blood**, or touche
 ---
 
 ## 6. Power scale (keep power consistent across books)
+
 | Scale | Example | Who can do it |
 |---|---|---|
 | **A person, an hour** | Stop bleeding; calm a horse; hide in shadow | Tier 1–2; Vytautas (the Five-Voice) |
@@ -154,6 +169,7 @@ An artifact is an object carrying **signs + a Kalba working + blood**, or touche
 ---
 
 ## 7. How the systems interlock (combinations the plot can use)
+
 - **Sign + amber:** a *žvaigždutė* carved around amber lets an ungifted bearer receive a seer's warning. *(Ona's hostage years: Birutė's last messages?)*
 - **Charm + herb:** a healer's bleeding-charm over a Rasos-herb poultice works on **mortal** wounds that *Kalba* alone cannot heal (Water's limit). This is why village women save knights the priests gave up on.
 - **Oath + Claim:** an oath sworn on a claimed person's name binds **the Force** too. *(Grunwald: Vytautas swears to Perkūnas before the battle, so Perkūnas is bound to act.)*
@@ -163,6 +179,7 @@ An artifact is an object carrying **signs + a Kalba working + blood**, or touche
 ---
 
 ## 8. Writing checklist (power scenes)
+
 1. Which **family** (asked, granted, bought) and which **school**?
 2. What **tier** is the user, and is the effect within the tier and the **power scale**?
 3. What is the **medium** (amber, water, signs, herbs, oath-object)?

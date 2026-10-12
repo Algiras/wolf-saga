@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_vilnius_radom.md >}}
 
 ## What the chronicles say [Record]
+
 After the Vorskla defeat and rebellions in Smolensk, Pskov and Novgorod, negotiations began at Grodno in late December 1400. On 18 January 1401 [Vytautas](../characters/vytautas.qmd) and the Lithuanian nobles issued their act in Vilnius, the first political act issued by Lithuanian nobles in their own name; [Jogaila](../characters/jogaila.qmd) issued a separate act (the original is lost), and on 11 March 1401 the Polish royal council issued the third at Radom. Vytautas was recognised as Grand Duke, with Jogaila holding the rights of overlord (in effect co-regents, with Jogaila dominant); on Vytautas's death the Grand Duchy would pass to Jogaila or his heir and be bound to the Crown; neither side would elect a king without consulting the other. Historians disagree whether it was a diplomatic failure for Vytautas (the road to a crown blocked), a Polish concession or a codification of existing relations (Wikipedia, Union of Vilnius and Radom).
 
 ## What really happened [Saga]
+
 Jogaila, widowed, prays at Jadwiga's tomb in Kraków and finds the stone frosted: the White Silence holds. The reversion clause is a fuse. Henė is at the table. Vytautas, who puts on plain armour in Book III ch. 2, is now Grand Duke by consent of Poland, and the saga sets up the Book IV conflict: a crown that Poland has agreed in advance he will never wear.
 
 ## Consequences
+
 Caused by [the Vorskla](ev_vorskla.qmd). It leads to [Grunwald](ev_grunwald.qmd): the cousins' reconciliation of 1401 is the alliance that wins 1410.
 
 ## Dramatisation
+
 Book III ch. 3 "Vilniaus ir Radomo Aktai" (Jogaila; 18 January and 11 March 1401, winter into spring; Vilnius, Radom, Kraków).

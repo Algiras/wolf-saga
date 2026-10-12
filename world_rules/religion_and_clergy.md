@@ -11,6 +11,7 @@
 ## 1. The Baltic religion as practised in 1382 [Record]
 
 ### 1.1 The sources and their problems
+
 Almost everything written about Lithuanian paganism before 1387 was written by **enemies, converts or later antiquarians**. No Lithuanian pagan text survives.
 
 | Source | Date | Value | Problem |
@@ -36,26 +37,31 @@ Almost everything written about Lithuanian paganism before 1387 was written by *
 | **Raganos** (witches, seers; linked to *regėti*, "to see", though the etymology is debated) | Folklore: women who see, heal, curse, fly to hilltop gatherings (Šatrija). | They belong to folk belief, not to any priesthood; witch-trial records are post-1500. |
 
 ### 1.3 Sacred places
+
 - **Alkai** (sing. *alkas*): sacred groves, hills, stones or fields where no tree was cut and no plough went. The word survives in hundreds of place names (*Alkos kalnas*, *Alkupis*). Oaths were sworn and offerings left there. [Record]
 - **Eternal flames**: Długosz describes the perpetual fire in **Vilnius**, tended by priests and extinguished by Jogaila in 1387. Lithuanian tradition places another on **Birutė's hill at Palanga**. Długosz and others describe **Samogitian** sacred fires extinguished during the 1413 conversion *(verify sites)*. [Record, late sources]
 - **Šventaragis**: in the 16th-c. chronicles, a legendary prince who asked to be burned at the confluence of the Neris and the Vilnia; the valley took his name and later rulers were cremated there. The traditional site lies under or beside **Vilnius Cathedral**. [Record: legend]
 
 ### 1.4 Offerings and oaths
+
 - **Offerings**: grain, bread, beer, milk (for the *žaltys*), first fruits, animals (goats, oxen, horses, cocks); amber and weapons appear in graves. [Record]
 - **Oaths**: sworn on earth, by the gods, with an animal sacrifice. In **1351** Kęstutis swore a pagan oath to King Louis of Hungary, sacrificing an ox, promised baptism, and then left without keeping it *(recorded by Polish chroniclers; verify Jan of Czarnków)*. The saga mirrors it in Vytautas's 1383 false baptism (master chronology). [Record]
 - **Human sacrifice**: Order chroniclers repeatedly report captured knights burned as thank-offerings. Dusburg reports that after the 1320 battle at **Medininkai** the Samogitians burned a captured Order official, **Gerhard Rude**, mounted on his horse *(verify name and details)*. These are hostile sources, but the reports are too frequent to dismiss. **The saga keeps them** (see §2.2).
 
 ### 1.5 Cremation
+
 - **Practice**: cremation was the normal rite of Lithuanian pagans into the 14th century; graves with horses, weapons and personal goods are common in the archaeology. [Record]
 - **Algirdas, May 1377**: cremated with his horses and goods in a pagan rite according to Order sources *(the "eighteen horses" figure and the forest of Kukaveitis are often cited; verify Wigand of Marburg)*. Some Rus' chronicles claim instead that he died an Orthodox monk. **Contested.** The saga takes the cremation (master chronology), and it can hint at the Orthodox rumour through his widow Uliana (§3). [Record, contested]
 - **Kęstutis, August 1382**: cremated with full pagan rites in Vilnius, with his horse, arms, hounds and falcons, by order of the nephew whose men killed him *(the detailed list follows Długosz; verify)*. [Record] Saga use: review H4, and `legends_and_songs.md` §4 (Sovijus).
 
 ### 1.6 Sacred animals
+
 - **Žalčiai** (grass snakes): kept in houses and sanctuaries, fed milk, killing one a disaster. Długosz says the snakes of the Vilnius sanctuary were killed in 1387; Aeneas Silvius tells of households keeping snakes as guardian spirits *(verify)*. [Record]
 - **Horses**: sacrificed and burned with their lords; white horses used in divination in Baltic sources (best attested for the Pomeranian Slavs and the Prussians; verify for Lithuania). [Record, partial]
 - **Wolves, aurochs, bees, the cuckoo** carry heavy folk symbolism (the Iron Wolf, the aurochs of Tauras hill, the cuckoo of the Eglė tale), but there is no reliable record of cult.
 
 ### 1.7 What the Order and the chroniclers saw
+
 Western chivalric writers often called the Lithuanians **"Saracens"** *(verify specific sources)*, and the Order presented them as worshippers of fire, groves, snakes and stones, so that the *Reise* could be preached as a crusade with indulgences. Its chroniclers were not stupid: they knew the land and its people well, recorded real oaths and real funerals, and negotiated with pagan dukes as equals when it suited them. Their descriptions are **accurate observations framed by a purpose**. The saga's priests and knights should talk that way too: precise about the enemy's rites and wrong about their meaning.
 
 ---
@@ -76,6 +82,7 @@ Western chivalric writers often called the Lithuanians **"Saracens"** *(verify s
 **Rule:** the pagan clergy are **not** the gods' servants in any simple sense. They are **brokers** between mortals and powers that are indifferent (gods) or hungry (Forces). Like all brokers, some are honest, some are frightened, and some take a cut.
 
 ### 2.2 Sympathetic and corrupt: the old faith
+
 - **Sympathetic:**
   - **Eglė**, who told Jogaila's captain the truth to his face and paid for it with her mortality (prologue; D5).
   - **Birutė**, who used a priestess's trick to marry for love and paid the bill herself (legends §5).
@@ -90,6 +97,7 @@ Western chivalric writers often called the Lithuanians **"Saracens"** *(verify s
 **[Record]** In **February–March 1387**, Jogaila, now King of Poland, came to Vilnius with Polish clergy. According to Długosz he had the **perpetual fire extinguished**, the **sacred grove felled** and the **sacred snakes killed**, while the people watched and wondered that the gods did nothing. Commoners were baptised **in groups**, each group given one Christian name, and the baptised received **woollen garments**, which drew many to the font *(verify Długosz's details)*. Few Polish priests spoke Lithuanian, and Długosz says **Jogaila himself taught the Creed and the Lord's Prayer** in Lithuanian *(verify)*. The **Vilnius bishopric** was founded, a cathedral begun on the sanctuary site, and privileges were issued favouring **Catholic** boyars *(verify the terms of the 1387 privilege)*. Samogitia remained pagan until **1413–17**.
 
 **[Saga invention]** What happened to the clergy:
+
 - **The Krivis** stays by the flame as it is put out. He does not resist. When the water hits the embers, he speaks the Pact's ending aloud ("*Sutartis baigta*"), so that the spirits of place hear it from a human mouth and not from a priest's Latin. That is the moment the Unbinding begins (cosmology §4.3). He walks into the felled grove and is not seen again. *(Option for the author: before the extinguishing he passes an ember to **Galminas**, who carries it to Vytautas that night. That would give Vytautas's secret Trakai flame (magic §6) its source on the page.)*
 - **The vaidilutės** of the city are baptised and married off to Catholic boyars, which is what the privileges reward. One or two go west to the **Hidden Groves** of Samogitia (D7). Their flames are the last legal pagan fires in Europe until 1413.
 - **The žyniai** scatter into the villages as healers, bone-setters and weather-askers. With no Krivis and no flames, nobody can bind new oaths with the gods, only bargains with Forces. **That is the Unbinding in a sentence**: after 1387, the only supernatural contracts left are bargains (magic §1), and bargains are Velnias's trade.
@@ -97,6 +105,7 @@ Western chivalric writers often called the Lithuanians **"Saracens"** *(verify s
 - **The žalčiai.** The snakes killed in Vilnius were the descendants of Žilvinas (legends §2). Eglė's is the last of the line. The threshold lullaby (legends §12.3) begins to be sung that spring.
 
 ### 2.4 Christian clergy and the Forces
+
 - **Christian priests cannot see the Baltic spirits**, and holy water does nothing to things that do not believe in it (cosmology §4.3). This is not a verdict on Christianity. Two orders of meaning are passing each other without touching.
 - **Consecrated stone dampens *Kalba*** (magic §9): the old powers are strangers in a church, as a Franciscan would be a stranger in an *alkas*. **Cold iron forged by a Christian smith on a feast day burns spirits** (magic §9), the one point where the two orders collide, and the saga should enjoy the irony of peasants hanging Order horseshoes over their doors after 1387.
 - **The egregores feed on appetite wearing faith's clothes, not on faith.** A Franciscan praying for a dying pagan feeds nothing. A *Reise* launched for indulgences and slaves feeds the **Iron Saint**. A baptism bought for a crown or a woollen shirt feeds the **White Silence**. A bishopric's tithe-ledger, once it outweighs its almonry, feeds the **Gold-Glutton**.
@@ -114,6 +123,7 @@ Western chivalric writers often called the Lithuanians **"Saracens"** *(verify s
 - **Vytautas and Orthodoxy**: Vytautas is often said to have taken Orthodox baptism (as Yuri / Jurgis) during his 1384 reconciliation *(verify)*. Ona's origins are uncertain; some identify her with a Smolensk princely family, which would make her Orthodox-born *(verify)*.
 
 ### 3.1 Saga overlay [Saga invention]
+
 - **Orthodoxy in Book I is a household faith, not a crusading one.** It is the faith of mothers, wives and the eastern half of the realm. The Vulture Forces barely notice it in 1382, because nobody is buying a crown with it yet. That changes in Book II, when Sofija's marriage to Vasily I of Moscow (1391) puts an Orthodox throne on the ledger.
 - **Double faith** (*dvoeverie*, `surrounding_folklore.md`): in Ruthenian Lithuania the žaltys gets milk and the icon gets a candle in the same house. The saga treats this as wisdom, not confusion.
 - **Sympathetic:**
@@ -126,23 +136,27 @@ Western chivalric writers often called the Lithuanians **"Saracens"** *(verify s
 ## 4. Catholicism [Record unless marked]
 
 ### 4.1 The Franciscans in Vilnius
+
 - **Gediminas's letters (1323)** invited merchants, craftsmen and clergy, mentioned friars (Franciscans and Dominicans) already serving in his realm, and spoke of churches built for them *(verify which churches)*. Catholic merchants and friars had a quiet presence in Vilnius through the pagan period. [Record]
 - **The Franciscan martyrs.** Later Franciscan tradition remembers friars killed in Vilnius under the pagan dukes: two in Gediminas's time and a larger group (often given as **fourteen**, sometimes dated **1369**, sometimes 1341) under Algirdas. The accounts are **late and partly legendary**; dates, numbers and circumstances vary *(verify)*. [Record: tradition, historicity debated]
 - **The Franciscan church "on the Sand"** (Church of the Assumption, *Smėlynė*) is traditionally the old Franciscan site of Vilnius *(verify founding date)*.
 
 ### 4.2 The 1387 bishopric
+
 - Jogaila founded the **Vilnius bishopric** in 1387, endowed the cathedral (dedicated to St Stanislaus) on or beside the sanctuary site, and the papacy confirmed it *(verify: Urban VI, 1388)*. The first bishop was **Andrzej Wasilko** (Andrew Jastrzębiec), **a Franciscan** *(verify)*. The new parishes were few and their clergy mostly Polish.
 - **Archaeology**: excavations under Vilnius Cathedral (led by Napoleonas Kitkauskas from the 1980s *(verify)*) found earlier structures. Whether they include a pagan sanctuary, Mindaugas's 13th-century cathedral, or both is **debated**. The saga may stack all three: the cathedral of 1387 on the ruins of Mindaugas's church on the flame of Šventaragis. [Record, contested interpretation]
 
 ### 4.3 The Teutonic Order's spirituality
+
 - **A religious order**: the *Ordo fratrum domus hospitalis Sanctae Mariae Theutonicorum in Jerusalem* (the Brothers of the German House of St Mary). Knight-brothers and priest-brothers took vows of poverty, chastity and obedience, kept the hours, and lived under a Rule. [Record]
 - **Marian devotion**: Mary was the Order's patroness; its capital was **Marienburg**; Prussia itself was "Mary's land". The castle church carried a colossal image of the Virgin *(verify date)*. The great campaigns were timed around Marian feasts, especially the **Purification (2 Feb)** for winter and the **Assumption (15 Aug)** for summer *(verify how consistently)*. [Record]
 - **The *Reise***: seasonal raids into Lithuania joined by **Western "guests"** (French, English, German, Scottish nobles) for honour and indulgence, sometimes celebrated by the **Table of Honour** (*Ehrentisch*) feast. Henry Bolingbroke rode in 1390 and 1392 (master chronology 1390). Chaucer's Knight is the period's own witness: "In Lettow hadde he reysed and in Ruce." [Record]
 - **Irony for the books**: **Kęstutis died on 15 August 1382, the Feast of the Assumption** (master chronology), the Order's high summer feast, when Marian hymns were being sung in Marienburg. The saga should let a knight remark on it, and should let the remark be devout rather than gloating.
 
 ### 4.4 Saga overlay [Saga invention]
+
 - **Sympathetic Catholics:**
-  - **Günther von Hohenstein**, commander of Osterode, who historically **warned Kęstutis** of Jogaila's treaty in 1381 (master chronology). He was a knight of the Order who kept faith with an enemy duke. Perkūnas would approve of him.
+  - **Kuno von Liebenstein**, komtur of Osterode, who historically **warned Kęstutis** of Jogaila's treaty in 1381 (Ivinskis, via en.wikipedia; master chronology). He was a knight of the Order who kept faith with an enemy duke. Perkūnas would approve of him. (The saga's **Günther von Hohenstein** is a different, invented young brother of Book VI, not the informant.)
   - **Konrad Zöllner von Rotenstein** (Grand Master 1382–90; H1): old, devout, a chess player. He believes honestly in Vytautas's conversion, which makes Vytautas's lie in ch. 19 cost something.
   - **The Franciscans of Vilnius** (cosmology §2.2): poor, Lithuanian-speaking in a few cases, and victims of both the pagan dukes and, later, of the bishops who arrive with money. A Franciscan in ch. 29 who baptises a frightened child by name, instead of by group, is the saga's quiet answer to the White Silence.
   - **Andrzej Wasilko**, the first bishop: portray him as an honest Franciscan placed in a political job. He is a historical person; keep invention light.
@@ -177,6 +191,7 @@ Western chivalric writers often called the Lithuanians **"Saracens"** *(verify s
 ---
 
 ## 6. Quick rules for writing faith scenes
+
 1. **Every faith gets one decent person per book.** If a chapter shows a corrupt cleric, another chapter must show an honest one of the same faith.
 2. **The gods never take creeds personally**; Forces take appetites personally.
 3. **Pagan rites are shown with their cost**: captives burned, children's blood owed, people kept ignorant.

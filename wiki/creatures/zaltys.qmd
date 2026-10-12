@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/zaltys.md >}}
 
 ## Folk source [Record]
+
 The grass snake (*Natrix natrix*), marked by yellow patches behind the head, was kept and fed in Lithuanian homes for health, fertility and luck; killing one brought misfortune. Late-medieval visitors report snake veneration (the account of Jerome of Prague's mission, retold by Aeneas Silvius Piccolomini), and Długosz records sacred snakes being killed at the 1387 baptism. The tale *Eglė žalčių karalienė* is the great žaltys story; folk tales also know a crowned snake-king.
 
 ## In the saga (where the folk are half-wrong)
+
 The žalčiai are the children of Žilvinas's spilled blood, which is why the living owe them. Each is a real guardian, but it is the [Root-Mother](../forces/root_mother.qmd)'s ear inside the house: it keeps the luck and tells the forest what it hears. Feeding it is a tax. The folk are right that killing it kills the luck and wrong that it is harmless: it cannot hurt anyone directly, but it can withdraw, and a house it leaves goes sick, barren and quarrelsome within a year. Eglė's žaltys is the eldest of them.
 
 ## Signs & habitat
+
 Under the threshold, in the warm straw by the oven, in the cowshed. A healthy household's žaltys is seen often and fearlessly; a žaltys that hides is a warning.
 
 ## Before / after the Unbinding
+
 Before: milk and respect keep it loyal for generations. After the sacred snakes are slaughtered at Šventaragis (Book I ch. 29) the survivors are unbound: many leave houses in a body, snakes crossing a road in a long line toward the forest; those that stay drink cows dry and coil in cradles.
 
 ## Banes, wards, bargains, and their cost
+
 Milk in a clay bowl at the threshold, daily (in a hungry spring it is the baby's milk). To move one, carry it to the forest edge in clean linen with a crust of bread and ask it aloud; it may refuse. Juniper smoke and feast-day iron drive it off, and the luck goes with it. Taking a snake-king's crown brings wealth for life and every žaltys in the parish hunting the thief's kin.
 
 ## Danger level
+
 I nuisance before 1387 → III dangerous after (it withdraws or turns on the household).
 
 ## Story hooks
+
 Book I: the 1387 snake-killing on the page, with Vytautas quietly saving one. Later: a crowned žaltys-king beneath Vilnius (see [Smakas](smakas.qmd)); a Samogitian village that keeps its žalčiai and is the only one spared a plague.

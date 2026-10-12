@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_coup_1432.md >}}
 
 ## What the chronicles say [Record]
+
 In the night of 31 August to 1 September 1432 the Lithuanian lords, among them Jonas Goštautas, Petras Mangirdaitis and Semen Olshanski, backed [Žygimantas Kęstutaitis](../characters/zygimantas.qmd) and overthrew [Švitrigaila](../characters/svitrigaila.qmd) at Ašmena. Švitrigaila escaped half-dressed to Polotsk; his pregnant wife was captured (Wikipedia, Lithuanian Civil War, 1432–38; VLE, Žygimantas Kęstutaitis). Most sources give 31 August, some 1 September.
 
 ## What really happened [Saga]
+
 [Henė](../characters/hanulas.qmd), holding Jogaila's last stone, whispers to Žygimantas anyway. The coup takes place at the same inn and ford Kęstutis passed on his way to Krėva fifty years before; the residue is still in the road. Žygimantas asks the keeper to relight the flame for him, and the keeper refuses.
 
 ## Consequences
+
 Caused by [the death of Vytautas](ev_vytautas_dies.qmd). It leads to three events: [Grodno](ev_grodno_1432.qmd), where the Poles swear him in, [the battle of Ašmena](ev_asmena_battle.qmd) in December, and [Pabaiskas](ev_pabaiskas.qmd) in 1435.
 
 ## Dramatisation
+
 Book V ch. 8 "Sąmokslas Trakuose" (Žygimantas, July 1432, Trakai), ch. 9 "Ašmenos Naktis" (Žiežirba, the night of 31 August, Ašmena).

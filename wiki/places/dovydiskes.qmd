@@ -1,0 +1,26 @@
+---
+title: "Dovydiškės (unidentified)"
+id: dovydiskes
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/dovydiskes.md >}}
+
+## In the 1380s [Record]
+
+The place of the secret treaty of 31 May 1380. The name appears only in Wigand of Marburg and German texts; the village is not securely identified.
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+The saga leaves it in the border wilderness.
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Mentioned in Book I ch. 1, 2, 4 and 8 (backstory).

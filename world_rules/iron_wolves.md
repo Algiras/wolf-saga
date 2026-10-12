@@ -38,14 +38,17 @@ The brotherhood is invented, but every piece of it stands on something real.
 ## 3. Origins [Saga invention]
 
 ### 3.1 Before Gediminas: the Sudovian wolves
+
 When the Order emptied Sudovia (1277–83), the last Sudovian warriors went into the new wilderness instead of into baptism or exile. They lived as wolf-bands in the bogs, raiding both sides. The **Root-Mother**, newly formed out of Žemyna's and Medeina's grief (`cosmology.md` §3.1), took some of them: the first men to lie down in the Dykra mud and get up changed. They had no master and no name. To the Lithuanians who traded with them, they were simply *vilkatai*.
 
 ### 3.2 Lizdeika's hundred
+
 The night of Gediminas's dream, Lizdeika understood something he never told the Grand Duke (`legends_and_songs.md` §3b). The Iron Wolf was collared because the house would devour itself, and **a collar needs a hand on the leash**. In the morning he climbed the hill and found a **wolf's skull** lying where the dream-wolf had stood, grown hard and grey as iron (*Geležinio Vilko kaukolė*, `power_systems.md` §5). He carried it into the Dykra and made the wolf-bands an offer. They would be given a **place in the land's order**, food, honour and a fire to give their names to. In return they would guard the Gediminid hearth and the Pact's peace, and they would be the house's leash. A hundred came. That is the "hundred voices" in the folk version, read by the brotherhood their own way.
 
 From then on, the brotherhood belonged to **two masters**: the **Root-Mother**, who made their bodies, and the **Gediminid flame** at Šventaragis, which kept their names. That double loyalty is the source of every tragedy below.
 
 ### 3.3 Kęstutis's wolves (1345–1382)
+
 After the **Silent Pact** of 1345 (`cosmology.md` §4.1), the brotherhood became the Pact's **teeth**. Kęstutis, holding the west from Trakai, used them as his border raiders in the Wildnis. They burned Order supply-dumps, drowned Reise columns in the bogs, and guided Lithuanian raids into Prussia along routes no *Wegeleute* knew. He also kept a **hidden guard** of nine at his side, never named in any chronicle. Algirdas in Vilnius kept the other half of the brotherhood near the Šventaragis flame. When Algirdas died in 1377 those **Vilnius packs** passed to Jogaila with the city. This split is the root of the **1382 schism** (§10).
 
 ---
@@ -57,6 +60,7 @@ The rite is called *krikštas*, "baptism", in mockery: the brotherhood took the 
 **Who is chosen.** Unmarried men, usually 16 to 25: younger sons, outlaws, the last of burned villages, the occasional boyar's bastard. Each must be **sponsored** by a sworn wolf (his *vilktėvis*, "wolf-father"), who answers for him with his own life.
 
 **The rite, in nine steps.**
+
 1. **The funeral feast.** The candidate's family holds a *šermenys* (wake) for him as though he had died. He eats his last meal at his mother's hearth. From then on he is dead to the household, and his kin may not speak his name.
 2. **The name to the fire.** At a sacred flame (Šventaragis before 1387; Vytautas's secret flame after), the candidate whispers his **true name** (`magic_rules.md` §6) into the fire. The fire keeps it. His name will go up to Dausos when he dies, without him.
 3. **The throat-mark.** The sponsor draws a shallow cut across the candidate's throat at the voice-box and rubs **live ash** from that same flame into it. It heals as a thin pale line, the ***gerklės žymė***. It is the only mark the brotherhood bears.
@@ -74,6 +78,7 @@ The rite is called *krikštas*, "baptism", in mockery: the brotherhood took the 
 ## 5. What it makes of a man
 
 ### 5.1 Gifts (the Wolf-Change, `power_systems.md` §3)
+
 - **The sight of the dvasios.** The most important gift and the reason for everything after 1387: a vilkatas **sees and hears spirits**: laumės at the river, a slogutis on a sleeper's chest, the hunger in an unfed grave. Priests cannot see them (`cosmology.md` §4.3).
 - **Night-sight and scent.** He sees by starlight as a man sees at dusk, and he can track by smell across a bog a day old.
 - **The Root-Mother's healing.** Wounds packed with bog-moss and mud close in days instead of weeks; their blood is dark, runs slow, and smells of peat. This healing does **not** work on wounds made by feast-day iron.
@@ -82,6 +87,7 @@ The rite is called *krikštas*, "baptism", in mockery: the brotherhood took the 
 - **The iron hour (*geležinė valanda*).** A battle-frenzy like the berserkers' or *úlfheðnar*'s. For about an hour the wolf feels no pain or fear, and fights at a ferocity that has given the folk their tales of men becoming wolves. They do **not** change shape (see §5.4).
 
 ### 5.2 Flaws
+
 - **No hearth.** A vilkatas cannot sleep under a roof with a lit hearth. The fire that holds his name rejects his body, and he wakes choking, with a slogutis's weight on his chest. They sleep in barns, byres and under the sky.
 - **Feast-day iron** burns them like any spirit (`bestiary.md` preface). Smith's iron stings; bog-iron does not.
 - **Consecrated stone** sickens them: dizziness, nausea, their gifts dimmed (compare `magic_rules.md` §9).
@@ -90,12 +96,15 @@ The rite is called *krikštas*, "baptism", in mockery: the brotherhood took the 
 - **They cannot weep.**
 
 ### 5.3 Physical tells (for prose)
+
 The thin pale **throat-scar**. **Cold skin** even in summer. Dogs bristle and whine around them, and a farm-dog will not stay in a room with one (ch. 15–16's fleeing hounds). A faint smell of peat and wet fur. Old wolves' **eye-teeth lengthen** and their body-hair coarsens. No wolf-eyes, no glowing: they look like hard, weathered, quiet men.
 
 ### 5.4 The folk are half right: do they change?
+
 Peasants are sure the vilkatai become wolves. In the iron hour they do not. But the **Seniai** (§7), wolves who have lived past twenty years sworn, can **put on the wolf** at need: real flesh, granted by the Root-Mother. Each time they come back less. The last time, they do not come back at all, and they run into the Dykra on four feet. Galminas's beast-rage (`persona/Galminas/`) is a different thing again: the Root-Mother's direct possession of her host, not the brotherhood's gift.
 
 ### 5.5 The price under the Law of Balance
+
 The Wolf-Change is **granted** power, bound by the Root-Mother's nature rather than by the Three Laws. Even so, "Kiek paimi, tiek atiduok" still holds, because the Root-Mother keeps strict accounts.
 
 | Taken | Given |
@@ -146,15 +155,19 @@ Rule 9 and rule 2 together make the brotherhood's tragedy. In 1382 the Šventara
 ## 8. Weapons and craft
 
 ### 8.1 Arms
+
 Light gear for bog-country: no plate, little mail. Wolf-hide over quilted wool or leather. Their weapons are **bog-iron** spears, heavy fighting knives and axes, hunting bows, and **crossbows taken from the Order**. They fight from ambush, at night, in water and reeds, and they prefer drowning a knight in a bog to fighting him on dry ground.
 
 ### 8.2 Bog-craft
+
 They know every *kūlgrinda* in the Dykra and have laid many themselves. Lairs (*guoliai*) are bog-islands reached only by these paths. Signals are howls (a whole vocabulary, which the Order's guides learned to fear) and **marks cut in birch-bark**. They speak with *Wegeleute* on both sides, and some of them are *Wegeleute* (§13, Rūdis).
 
 ### 8.3 The spirit-hunter's kit (after 1387)
+
 Each pack carries a **salt horn** (bought dear from Hanseatic smugglers), **linen thread** spun by the wolves' sisters, a **poppy-seed pouch**, **juniper**, a **thunder-stone** if they can find one, the **ash-pot**, flint and steel, and a **pyre-axe**.
 
 Their method is grim and practical, and it turns their worst flaw into a tool.
+
 1. **Find it.** They read the signs (`bestiary.md`) and talk to the village, the ragana and the dead.
 2. **Ask.** Most spirits can be bargained with (rule 7). Most hunts end here, with a feast for a forgotten grandmother or a žaltys carried to the forest.
 3. **Bait.** If asking fails, a wolf **offers himself**: the hungry dead are drawn to him (§5.2). He lies down inside a ring of live ash beside a prepared pyre.
@@ -178,13 +191,14 @@ Their method is grim and practical, and it turns their worst flaw into a tool.
 
 Until 1382 the brotherhood does three jobs: **border war** in the Wildnis for Kęstutis; **guard** (Kęstutis's hidden nine; the Vilnius packs at the Šventaragis flame); and **custom-keeping** among the peasantry. That last job is the one the saga's grey tone needs. A man who killed a žaltys or felled a sacred oak could expect a visit at night. The wolves were the Pact's police, and the villages feared them for it.
 
-**The 1382 schism (*Skilimas*).** When Jogaila took Vilnius in 1382, the **Vilnius packs** under their leader Kalvis (§13) obeyed rule 9: the flame was in Jogaila's city, so they owed Jogaila. They did not kill Kęstutis's men. They **held the doors** while Skirgaila's killers did (ch. 7), and they told themselves that this kept rule 2. **Kęstutis's packs** went with their prince, and most of the hidden nine died in the Vilnius slaughter. The brotherhood has been at war with itself ever since. Wolves have eaten wolves, as ch. 21 puts it ("Vilkas pradėjo ėsti savo paties gaują").
+**The 1382 schism (*Skilimas*).** When Jogaila took Vilnius in 1382, the **Vilnius packs** under their leader Kalvis (§13) obeyed rule 9: the flame was in Jogaila's city, so they owed Jogaila. They did not kill Kęstutis's men. They stood aside while Skirgaila's killers did their work at **Jogaila's camp near Trakai** (ch. 7), and they told themselves that this kept rule 2. **Kęstutis's packs** went with their prince; **seven of the hidden nine died in the camp slaughter and were buried in the bog**, while **Jonas's men stayed in Kęstutis's own camp** and were not in the tents. The brotherhood has been at war with itself ever since. Wolves have eaten wolves, as ch. 21 puts it ("Vilkas pradėjo ėsti savo paties gaują").
 
 ---
 
 ## 11. After the Unbinding: the only ones who hunt (1387–1450)
 
 In **1387** Jogaila puts out the Šventaragis flame (ch. 29). In one stroke:
+
 - The Vilnius packs' master **broke the Pact himself**, and their loyalty to Jogaila is void.
 - The only Gediminid flame left is the one **Vytautas** lights in secret that night (`magic_rules.md` §6). By rule 9, the **whole brotherhood now answers to Vytautas**, including the men who held the doors at his father's murder.
 - **New initiations need a kept flame.** Every future wolf must be named into Vytautas's fire, so the brotherhood's survival is tied to his. When his flame dies in 1430, so does the krikštas.
@@ -197,19 +211,21 @@ From then on the vilkatai are what `cosmology.md` §4.3 promises: **the feared, 
 ## 12. The wolves and Vytautas, Books I–V
 
 ### 12.1 Why he is never one of them
+
 Vytautas is **bound** by his mother's Sutartis and **claimed** by Perkūnas (`magic_rules.md` §2, §7). The Root-Mother cannot take a man already owned twice. Claims can be contested, and she would lose. So the wolves follow a man who is **not** a wolf. They call him *Vilkų kunigaikštis*, prince of the wolves, half in irony.
 
 ### 12.2 Book I hooks (for the revision)
+
 | Where | Hook |
 |---|---|
 | **Ch. 2:67** ("Geriausius savo vyrus, kurie negeria Jogailos midaus") | These "men who don't drink Jogaila's mead" are **Kęstutis's hidden nine**, with Jonas among them. They literally will not drink from a hand that has not given bread (rule 1). Plant the silver wolf here: Kęstutis gives it to Vytautas in the armoury, "show this in the Dykra" |
-| **Ch. 7:9** (the barracks slaughter) | The ordinary guard dies asleep or drinking. The hidden nine do **not** sleep under the lit barracks roof. They are in the stables, which Skirgaila's men know because **Kirmėlė** sold them (§13). They are shot with **feast-day iron** crossbow bolts, which fits review H2: Order iron arriving with Order silver via Hanulas. The **Vilnius packs hold the doors**. Survivors: **Jonas** and **Kirmėlė** |
+| **Ch. 7:9** (the slaughter of Kęstutis's guard at **Jogaila's camp near Trakai**, in the tents beyond the manor fence: the killers block the tent openings) | The ordinary guard dies asleep or drinking. Of the hidden nine, **seven die in their tents and are buried in the bog**; **Jonas's men stayed in Kęstutis's own camp**, and **Kirmėlė was not in the tent**. They are shot with **feast-day iron** crossbow bolts (review H2: Order iron arriving with Order silver via Hanulas). Survivors: **Jonas** and **Kirmėlė** |
 | **Ch. 9:41** (the wolves howl) | The Iron Wolf and its pack of the dead, answered by the living wolves in the forest beyond Krėva |
 | **Ch. 13–14** | The brotherhood does **not** storm Krėva. Šešiapirštis judges it impossible, and Birutė's line in ch. 9 ("Miškas pats pasirūpins savo vilku") is the Root-Mother's word: the wolf must reach the forest on his own |
 | **Ch. 15** (review C4: the horse from nowhere) | **Jonas leaves the horse** at a named oak a night's walk from Krėva. This fixes the continuity hole |
 | **Ch. 16:9–11** (skulls under the water; the trackers drowned) | The skulls and rusted armour include **wolves laid in the bog** (rule 6). The trackers do not just sink: the packs are in the reeds, and they drown Skirgaila's men, who are not Gediminids. The stone of offering is the brotherhood's own |
 | **Ch. 16 vs 17, 26** (review C3: the amulet) | Vytautas **cannot** give the silver wolf to the swamp, because it is not his to give: it carries the brotherhood's sign (`power_systems.md` §5). Eglė's silence on the stone accepts the buckle and refuses the wolf |
-| **Ch. 17** | **Rūdis**, the Order's guide at the border fort, recognises the sign on the silver wolf. That is why the guards stop laughing |
+| **Ch. 17** | **Rūdis**, the Order's guide at the border fort, recognises the sign on the silver wolf (a grey Prussian border guide; the book shows only his recognition, not his oath). That is why the guards stop laughing |
 | **Ch. 21:31** | The wolves refuse to fight Lithuanians beside the Order. Vytautas loses his pack, and the line "Vilkas pradėjo ėsti savo paties gaują" becomes literal |
 | **Ch. 22–24** (recast as the July 1384 Neman castle burnings, review H7) | The wolves come back for this: they open the gates of Marienwerder and Georgenburg from inside |
 | **Ch. 25** (the band, Jonas, the "Iron Wolf" rumour) | The "small band" is the **remnant of Kęstutis's packs**, led by **Jonas** as their *vilkų vyresnysis*. He dies under the oak. *Add a scene:* Vytautas does not burn him but carries him to a bog (rule 6), the first time he keeps a wolf's law. The **rumour** at 25:17 is the folk seeing a ragged prince among men in wolf-hides who drown knights, and calling the whole thing the Iron Wolf. **Šešiapirštis lets the rumour stand**: it hides the brotherhood behind a man. *Cost:* everything the wolves do is now blamed on Vytautas |
@@ -217,6 +233,7 @@ Vytautas is **bound** by his mother's Sutartis and **claimed** by Perkūnas (`ma
 | **Ch. 29** | After the flame is put out, **Kalvis** carries the last Šventaragis ember out to Vytautas (one reading of the *Paskutinė žarija*, `power_systems.md` §5) and asks to be judged |
 
 ### 12.3 Books II–V
+
 - **Book II (1387–99).** The wolves guard the secret flame in the Trakai island vault. Vytautas must judge Kalvis (he spares him, and the old Kęstutis wolves never forgive either of them). **1392:** Šešiapirštis goes into Prussia to save Vytautas's hostage sons, finds them already poisoned (herb-lore, mundane: `power_systems.md` §2.4), and comes back to lay himself in the bog. **1399, Vorskla:** the wolves will not follow Vytautas into the steppe, because the Root-Mother's gifts fade far from forest. The few who go die. "No mother's fog, only shame" (`magic_rules.md` §4.3), and no wolves either.
 - **Book III (1399–1411).** The Samogitian uprisings (1401, 1409) beside **Galminas**. On campaign an ash-bearer carries the secret flame in a lantern (`books/series_arc.md`, Book III). **Grunwald, 1410:** the wolves are Vytautas's **vanguard**, and they run in the Lithuanian retreat, real or feigned (`master_chronology.md`), leading pursuing knights into the woods. The **Riders of the Reise** scream when the Iron Saint breaks (`bestiary.md` §25).
 - **Book IV (1411–30).** The Hidden Groves fall, and with Samogitia baptised the Church **hunts** the wolves in earnest. A second split: the ***krikštyti vilkai*** (baptised wolves) buy their lives by taking bishops' coin to hunt the unbound in parishes, and by informing on the rest, while Pilkoji's faction keeps the old way. **Henė's offer** (the crown for the flame, `magic_rules.md` §6) threatens the brotherhood's existence. If Vytautas lets the flame die, there will be no more wolves, and rule 2 forbids them to stop him by force. *The key Book IV wolf scene:* Pilkoji at the vault door, deciding whether to break rule 2. **1430:** Vytautas dies and the flame goes out.
@@ -225,12 +242,13 @@ Vytautas is **bound** by his mother's Sutartis and **claimed** by Perkūnas (`ma
 ---
 
 ## 13. Notable members [Saga invention]
+
 *Skin-names are given; birth-names were pagan two-part names (in the style of Daugirdas, Rambaudas: `houses_and_lineages.md`) and are lost, by rule 4.*
 
 - **Šešiapirštis (Six-Fingers)**, *Vilkų Tėvas*, c. 1325–1392. Grandson of Sudovian wolves; sworn in the year of the Pact. Kęstutis's oldest captain, who knew the man and not the prince. Dry, patient, merciless to his own. Book I: unseen in the Dykra (ch. 15–16); he meets Vytautas only after ch. 25, at the hunters' hut. Dies in Book II.
 - **Jonas**, c. 1335–1384. Kęstutis's armour-bearer and the *vilkų vyresnysis* (pack-elder) of the hidden nine, and so of the ch. 25 band (`books/character_arcs.md` §5). His skin-name is the baptismal name of an Order sergeant he killed in 1361 during Kęstutis's escape from Marienburg: the brotherhood's grim habit of wearing the enemy's Christian name as a trophy. This explains why a pagan wolf has a saint's name (ch. 25:7). He survives ch. 7, leaves the horse in ch. 15, and dies in ch. 25.
-- **Kirmėlė (the Worm)**. One of the hidden nine. In 1382 he sold the hidden guard's sleeping-place to Skirgaila through **Pinčiukas** (`bestiary.md` §21) to save his home village from burning. The village was burned anyway. He is exposed in Book II, and Vytautas lets him live, because he needs every wolf. Grey to the bone.
-- **Rūdis (Rust)**. A Sambian Prussian, an Order *Wegeleute* guide for twenty years, and a sworn wolf for nineteen of them: the brotherhood's eyes inside the Order. Book I ch. 17; a double agent through Books II–III; dies at Grunwald in Order colours, killed by a Lithuanian who never knew.
+- **Kirmėlė (the Worm)**. One of the hidden nine. In 1382 he sold the hidden guard's sleeping-place to Skirgaila through **Pinčiukas** (`bestiary.md` §21) to save his home village from burning; he was not in the tent that night. The village was burned anyway. He is exposed in Book II (ch. 11, the Trakai vault; Henė, Pušis), and Vytautas lets him live, because he needs every wolf. Grey to the bone.
+- **Rūdis (Rust)**. A Sambian Prussian, an Order *Wegeleute* guide of long standing, and (in the canon, not yet on the page in Book I) a sworn wolf: the brotherhood's eyes inside the Order. Book I ch. 17 shows only his recognition of the silver wolf (the "nineteen of twenty years" figure is unsupported by the text); a double agent through Books II–III; dies at Grunwald in Order colours, killed by a Lithuanian who never knew.
 - **Kalvis (the Smith)**, leader of the Vilnius packs. He held the doors in 1382 by the letter of rule 9. He carries the ember out in 1387 and asks Vytautas for judgement. Book II: spared, despised, loyal unto death.
 - **Pilkoji (the Grey One)**, born c. 1390. A Samogitian girl whose village's dead rose in 1404. She walked into the Dykra, and the Root-Mother took her into the krikštas against all custom: after the Unbinding, custom no longer binds even the Root-Mother. The first woman sworn. Books III–V; the only ***Vilkų Motina***.
 - **The Flame-Keeper** (name to be chosen), born c. 1390. **Book V's protagonist** (`books/character_arcs.md` §4): a boy rescued during the first Unbinding hunts of Book II, sworn young, and raised in the Trakai vault as the secret flame's guard. Pilkoji's foster-son in all but name. After 1430 he wants to relight the flame and cannot, because the Pact cannot be re-sworn by one man. He is the brotherhood's **last wolf**.
@@ -263,6 +281,7 @@ Vytautas is **bound** by his mother's Sutartis and **claimed** by Perkūnas (`ma
 ---
 
 ## 16. Open questions for the author
+
 1. Is the **schism** (the Vilnius packs holding the doors in ch. 7) too dark for Book I's reader? It makes ch. 21 and ch. 29 hit far harder.
 2. Should the silver wolf be **given in ch. 2** (armoury) or **ch. 4** (the road, after the Beggar)? Ch. 4 pairs it with the "wolf or dog" line.
 3. Who carries the **Šventaragis ember** in ch. 29: Kalvis (this doc), Eglė's successor, or Vytautas himself (`power_systems.md` §5 leaves it open)?

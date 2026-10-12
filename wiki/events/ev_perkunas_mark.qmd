@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_perkunas_mark.md >}}
 
 ## What the chronicles say [Record]
+
 Nothing in the record: a private event of the night of 15 August 1382 in the Krėva cell, with no witnesses beyond the jailer. The record gives only that [Vytautas](../characters/vytautas.qmd), on learning of his father's death, lived through the next weeks in the same castle until the escape in autumn.
 
 ## What really happened [Saga]
+
 In the morning Vytautas sees the body in the yard on a cart under a fur. [Perkūnas](../gods/perkunas.qmd) touches him: "the first true touch of Perkūnas". It is a claim, not a gift: Perkūnas, keeper of oaths and justice, marks the warrior whose oaths he will hold to account. Canon's reason is that Vytautas is the Amber Queen's vessel's son, and the god's old feud with Jūratė is unfinished. Vytautas shaves and strips his insignia, with a dulled knife kept by a miracle. Ona arrives. The claim will tighten when he breaks his oaths (the second defection, the Vorskla), relent when he keeps one (Grunwald), and fall silent at his death.
 
 ## Consequences
+
 Caused by [the death of Kęstutis](ev_kestutis_death.qmd). It is the first marker on Thread E of the series arc ([Perkūnas's claim](../magic/claim.qmd)).
 
 ## Dramatisation
+
 Book I ch. 10 "Šaltas Rytas" (Vytautas; the morning of 15 August 1382).

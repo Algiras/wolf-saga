@@ -1,0 +1,26 @@
+---
+title: "Ritterswerder (Nemunas island near Lampėdžiai)"
+id: ritterswerder
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/ritterswerder.md >}}
+
+## In the 1380s [Record]
+
+A Nemunas island near Lampėdžiai where the Order built a fort in autumn 1391; its guests were seized and the fort destroyed in summer 1392 ([event](../events/ev_ritterswerder_1392.qmd)).
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+The wooden fort smells of resin and Order ale; Vytautas's name hangs over its gate: "dar viena dovana, kuri buvo paskola".
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Book II ch. 9.

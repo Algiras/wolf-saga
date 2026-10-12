@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_podolia_seized.md >}}
 
 ## What the chronicles say [Record]
+
 Immediately after Vytautas's death (October–November 1430) Polish lords seized Podolia; Kamianets refused to hand it over (lt.wikipedia, Švitrigaila; zamki.name). [Švitrigaila](../characters/svitrigaila.qmd) had been raised Grand Duke unilaterally by the Lithuanian lords against the Horodło clauses; [Jogaila](../characters/jogaila.qmd), who was in Vilnius for the funeral, announced his approval on 7 November 1430 and then withdrew under pressure from the Polish lords. Jogaila lodged in Vilnius castle as a virtual hostage until just before Christmas.
 
 ## What really happened [Saga]
+
 The news arrives in late November "when the roads were already freezing". The saga treats it as the first deal of the new reign: Švitrigaila promises the east a return to the old realm and finds the west moving before he sits.
 
 ## Consequences
+
 Caused by [the death of Vytautas](ev_vytautas_dies.qmd). It leads, via the Polish invasion of Volhynia, to [the truce of Czartorysk](ev_czartorysk_truce.qmd) and the treaty of [Christmemel](ev_christmemel.qmd).
 
 ## Dramatisation
+
 Book V ch. 3 "Švitrigailos Pakilimas" (Švitrigaila; the news arrives in late November 1430), mentioned again in ch. 6 "Paskutinis Akmuo" (Jogaila, Kraków, 1431).

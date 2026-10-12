@@ -1,6 +1,7 @@
 # Book V, ch. 14-16 notes (Mirštantis Ordinas / Švitrigailos Žlugimas / Nedegintųjų Žiema)
 
 ## End state after ch. 16 (spring 1436, Jurginės, 23 Apr)
+
 - **Place/time:** the Pabaiskas field above the Šventoji, near Ukmergė. The last pit burned in the last days of April 1436, "just before Jurginės". The grass is green for the first time without frost.
 - **Wolves alive (4 + keeper = 5 sworn):** Pilkoji (69, turning 70), **Uosis** (white muzzle, old, the ash-bearer), **Spyglys**, **Dobilas** (youngest, "falls asleep sitting up"), plus Žiežirba. This matches ch. 22 (four answer from the south) and ch. 28 (Uosis last of the old ones to die; Spyglys, Šiurpas, Šermukšnis and Dobilas are voices in the bog by 1449).
 - **Wolves dead in the winter, laid in the peat bog beyond the Šventoji (never burned):** Šermukšnis (first, forgot himself), Šiurpas and Kadagys (froze standing at the watch-pyre), Erškėtis (walked into the forest, found frozen under spruces in spring), Griovys (53, did not wake). Earlier: Kirmėlė collapsed in the night of 1 Sep (ch. 13); Lazdynas lost his memory and ran into the Dykra on four legs (ch. 13). Total: 9 wolves incl. Pilkoji at the start of the winter, 4 at the end.
@@ -12,6 +13,7 @@
 - **Livonian brother:** **Hermanas**, hospital-brother (sergeant, a Riga cooper's son) from Fellin, 22 years in the Order. Speaks broken Samogitian (learned from Lithuanian captives). He carried the dead for Sokalskis with 22 other Livonian prisoners. He leaves with Sokalskis (as a ransom prisoner) for Livonia, resolved to ask Fellin chapter to read **51 names** a morning instead of 50, the last one empty, "so there is room for the one nobody knows". He told Pilkoji that he has felt cold since Pabaiskas; "before, I was never cold. Now at least I can ask."
 
 ## Facts established in ch. 14 (1 Sep 1435, the fords)
+
 - Kerskorfas (Livonian master) is killed **in the middle of the Šventoji ford** by a speared side-thrust from riders with white eagles on shields (Polish); Hermanas holds his head in the water; the Master's last words to Hermanas: "Man baisu" (I am afraid).
 - **Mechanism of the rout:** the Order's knights, filled with the Iron Saint's furnace-heat, are the warmest things on the field, so the Unburned (including the Order's own old dead from earlier Reise, buried unconsecrated in the lower slope pits) go to them first. Knights simply sit down. The line breaks lengthwise.
 - **Riders of the Reise** ride in from the north, steaming, crosses ringing like anvils, to rescue the Order; they cannot cross the *unfrozen running* Šventoji. They ride back and forth along the bank, then dismount and walk into the river and dissolve into rust; the rest crumble to iron-dust. At that instant the **Iron Saint's voice (the single high shout the Order's men had been uttering) breaks off**: the furnace-heat leaves every surviving Order man, they feel fear for the first time and weep. This is "the Iron Saint silenced in the North". The wind swung from north to south at the same moment (matches ch. 13).
@@ -20,6 +22,7 @@
 - Order men named: brother Johan of Dorpat (sat down), the smith (sat down, later wept).
 
 ## Facts established in ch. 15 (autumn 1435 - winter 1436-37)
+
 - Švitrigaila is 65. Fled in armour (the "shirt-only" story is a baker's rumour; he took the armour off on day 4 because it stank). He remembers only the dead sitting down in the field.
 - Since 1433 he dreamed each night of a forest road with someone at the end who knew his childhood name. **After Pabaiskas the dream stopped** (the Root-Mother has left him). He told no one except, in April 1436, his mother Uliana's grave in Vitebsk.
 - Jan 1436: letter via Riga that the Prussian master and the Polish Crown made peace "last day of last year, at **Brėstas Kujavijoje**"; the Order pledges not to help him; Livonia has no master; no Livonian company will move from the Daugava.
@@ -28,6 +31,7 @@
 - Winter 1436-37: he rides south to **Lutsk** (the three towers of Lubartas, the hall of the 1429 congress). About 300 men left. No wolf tracks any more; the hearth at Lutsk now needs constant rekindling (callback to ch. 3, where fire burned easily at Lutsk in 1431). Henė does not appear (only remembered in 1429 at Sigismund's feet). Last image: he opens the shutters, breathes, "something answers" - nothing; it is only snowing. Narration states he will live **15 more years** and outlive Žygimantas and the Polish king (Švitrigaila d. 1452).
 
 ## Verify items
+
 1. **Švitrigaila's holdings 1436-37.** The order and timing of losses (Polotsk, Vitebsk, Smolensk, Podolia) are deliberately vague. Record: he ends as prince of Lutsk/Volhynia, d. 1452. Check before anyone adds city names or years. I only name Polotsk (lost, no year), Vitebsk (church visited, still his in Apr 1436) and Lutsk.
 2. **Peace of Brest (Kujavian), 31 Dec 1435**: I gave only "the Order pledges to stop helping Švitrigaila". Other terms not used. Brest is *Brześć Kujawski*, not Brest Litovsk.
 3. **Kerskorfas's manner of death** is Saga (speared in the ford); record says only killed at Pabaiskas. The "400 Livonian riders" figure comes from ch. 13 (Pilkoji's estimate).

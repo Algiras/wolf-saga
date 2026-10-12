@@ -1,0 +1,26 @@
+---
+title: "Road to Jogaila's camp (from Kęstutis's pine hill beyond the Trakai lake)"
+id: road_to_jogaila_camp
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/road_to_jogaila_camp.md >}}
+
+## In the 1380s [Record]
+
+Not a named road in the sources: the way from the pine hill where Kęstutis's army stood to Jogaila's camp by Trakai.
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+The Beggar meets the retinue at the roadside in the afternoon of 3 August 1382 ([the coin](../events/ev_beggar_coin.qmd)).
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Book I ch. 4 "Kelionė į stovyklą".

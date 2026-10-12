@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_krakow_1386.md >}}
 
 ## What the chronicles say [Record]
+
 [Jogaila](../characters/jogaila.qmd) arrived in Kraków on 12 February 1386 and was baptised three days later, on 15 February, taking the name Władysław. He married [Jadwiga](../characters/jadvyga.qmd) on 18 February and was crowned King of Poland *jure uxoris* on 4 March. Pope Urban VI did not confirm the marriage; Boniface IX later declared it valid (Wikipedia, Union of Krewo). Vytautas was re-baptised Catholic in Kraków, as Aleksandras, according to the saga's canon (the sources for his presence and the name are thin; verify). Jadwiga had been crowned "king" on 16 October 1384.
 
 ## What really happened [Saga]
+
 Offstage. The White Silence, which has been settling over the realm since Krėva, finds its vessel crowned: the child-king's marriage to a pagan prince buys the baptism of a nation. Jogaila's hands stop trembling. Skirgaila is left as regent in Lithuania.
 
 ## Consequences
+
 Caused by [the Union of Krėva](ev_kreva_union.qmd); it leads to [the baptism of Lithuania and the quenching of the Šventaragis flame](ev_lithuania_baptism.qmd) a year later.
 
 ## Dramatisation
+
 Offstage in Book I: ch. 28 "Nauja Tvarka" (autumn 1384; a merchant tells Jogaila the Poles have crowned Jadwiga, and his hands stop trembling) and ch. 29 "Krikštas" (Vytautas recalls Kraków and the name Aleksandras). Winter 1386.

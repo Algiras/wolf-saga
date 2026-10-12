@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/vandenis.md >}}
 
 ## Folk source [Record]
+
 Many Baltic and Slavic communities believed certain lakes and rivers demand a drowning each year and house a water-spirit; *vandenis* is a Lithuanian name for a male water-spirit. *Undinė* (water-maiden) is probably a later borrowing shaped by German and literary tradition; older water-maidens overlap with laumės. People offered bread or animals to waters and floated a loaf with a candle to find a drowned body.
 
 ## In the saga (where the folk are half-wrong)
+
 Every lake is an **eye of the World Tree**, and an eye must be kept open: each year a lake takes one life to see through, and the drowned become its vandeniai, looking up at the world through the water. The folk are right about the annual drowning and wrong that it can be avoided; it can only be chosen. The sea's *jūrų mergelės* are the remnants of [Jūratė](../gods/jurate.qmd)'s drowned court and answer, faintly, to the [Amber Queen](../forces/amber_queen.qmd).
 
 ## Signs & habitat
+
 Deep lakes no one has sounded; a spot where the ice never closes; a pale face just under the surface at dusk; a village avoiding one shore in early summer.
 
 ## Before / after the Unbinding
+
 Before: one a year, and villages "gave" the lake a black rooster or a condemned thief. After: lakes take many, and at the spring ice-break whole carts go through.
 
 ## Banes, wards, bargains, and their cost
+
 An offering at the ice-break (it shortens the wait but does not replace the death). A willing drowning: old people sometimes walked in to spare the young. A line of salt along the shore holds a vandenis for one night (a fortune in salt). The floating loaf finds the body so it can be burned, and the lake is then owed again.
 
 ## Danger level
+
 III dangerous → IV deadly.
 
 ## Story hooks
+
 Book I: Birutė's ring returned three times by the sea (ch. 11) is a jūrų mergelė refusing a gift. Book V: the Iron Wolf howling in the Trakai lake after Vytautas's death (ch. 22).

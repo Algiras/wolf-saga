@@ -252,7 +252,7 @@ Required by the Senovės Sutartis (`magic_rules.md` §6, requirement 3).
 ### 6.4 Teutonic Order names [Record]
 
 - **Given names common among the brethren:** Konrad, Kuno, Heinrich, Ulrich, Friedrich, Werner, Dietrich, Johann, Hermann, Siegfried, Gottfried, Marquard, Günther, Wigand, Winrich, Ludolf, Burchard, Arnold, Thomas, Michael, Paul.
-- **Real officers of the period** (from `houses_and_lineages.md`): Kuno von Hattenstein, Konrad von Wallenrode, Friedrich von Wallenrode, Marquard von Salzbach, Günther von Hohenstein, Thomas von Merheim, Werner von Tettingen, Wilhelm von Friemersheim.
+- **Real officers of the period** (from `houses_and_lineages.md`): Kuno von Hattenstein, Konrad von Wallenrode, Friedrich von Wallenrode, Marquard von Salzbach, Kuno von Liebenstein (the 1381 informant; Günther von Hohenstein is the saga's invented young brother, sharing a name with an older real komtur), Thomas von Merheim, Werner von Tettingen, Wilhelm von Friemersheim.
 - **Inventing a brother.** Use *Bruder* + given name + *von* + a place in Franconia, Swabia, Thuringia, Hesse or the Rhineland (the Order's recruiting grounds). Brethren were German-born; natives of Prussia were not admitted.
 - **Offices** (German, then Lithuanian): Hochmeister (*didysis magistras*), Großkomtur (*didysis komtūras*), Marschall (*maršalas*), Komtur (*komtūras*), Vogt (*vogtas*), Tressler (*iždininkas*).
 

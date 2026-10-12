@@ -1,11 +1,12 @@
 # Book II, Part 2 (ch. 11–20): notes for other parts
 
 ## Dates and places used
+
 - **Ch. 11** autumn 1392, Trakai: keys handed over in the Peninsula Castle hall ("two months" after Ostrów). The flame is moved the same night from its stone hearth under a broken vault arch at the **south corner** of the island (as in Part 1 ch. 2) by boat to the **dry vaulted undercroft on the island's east side, by the landing**, in sight of Skirgaila's old watch-tower (so it could not burn there before). Cover story: **powder cellar** ("parako rūsys"), so the bishop does not bless it.
 - **Ch. 12** spring 1393 Vitebsk (Švitrigaila's seat, taken by wolves crossing the ice-run, gate opened from inside); summer 1393 Novhorod-Siverskyi (Kaributas yields, gets a new holding in the south); winter 1393–94 Kamianets in Podolia (Fiodoras Karijotaitis already fled towards Hungary); chains put on at the Sluch, to be sent to Jogaila in Kraków.
 - **Ch. 13** spring 1395 Kyiv (Vladimiras removed in Easter week, takes the Pechersk Mother of God icon; Skirgaila arrives two weeks later); summer 1395 Smolensk by the feigned Ryazan campaign (Prince Yuri/Jurgis flees to Ryazan, no killing; a boyar's mother rebukes Vytautas).
 - **Ch. 14** winter 1395–96, village **Šermukšniai** at the Dykra edge.
-- **Ch. 15** winter 1395–96 Kyiv (Tokhtamysh received by Skirgaila), autumn 1396 Lutsk (Tokhtamysh meets Vytautas; *jarlykas* offered). Arrival date kept loose (the outline's "verify").
+- **Ch. 15** winter 1395–96 Kyiv (Tokhtamysh received by Skirgaila), autumn 1396 Lutsk (Tokhtamysh meets Vytautas; *jarlykas* offered). Arrival date kept loose (c. 1395-96).
 - **Ch. 16** **11 Jan 1397**, Kyiv, after Epiphany. News reaches Vytautas 9 days later.
 - **Ch. 17** summer 1397, the steppe past the Dnieper rapids to the Black Sea shore. Raid camp ~10 days out; sea after ~14 more days. No forts.
 - **Ch. 18** autumn 1397 – summer 1398, Trakai (Karaims first seen at the Black Sea in ch. 17).
@@ -13,6 +14,7 @@
 - **Ch. 20** January 1399 (after Epiphany), Vilnius Lower Castle.
 
 ## Facts established (please respect)
+
 - **Flame/vault:** the flame is a small yellow, smokeless flame, palm-sized, that does not bend in a draught. Pelenų (live ash) is taken from it in pinches; every pinch is a risk to Vytautas (ch. 14). **Šešiapirštis's wolf's tooth** (ch. 9) lies at the edge of the flame's shelf. Mason **Mikalojus of Kaunas** cut a hidden sun-wheel in the vault's keystone brick. The vault is never blessed.
 - **Magic cost (ch. 11):** Vytautas says *"Ugnis tau degs"* over the ember in a rainy crossing (off-zenith, doubled): legs go numb, cold to the elbows. Kalvis carries him ashore, the first touch between them since 1382.
 - **Wolves:** **Kalvis** (burn scars, half-bearded; rows, forges at night on the island: the "hammers" fishermen hear in Part 1 ch. 1); **Spyglys** (young ash-bearer = the white-throat-mark youth of Part 1 ch. 2); **Kirmėlė** (exposed by Henė in the vault, spared; in 1396 acts as bait and the Unburned eat his memory of his village's name; Kalvis refuses to tell it: "bread for bread, you have paid"); **Žirnis** (a 20-year-old cub who breaks the ash ring); **Pušis** (old Kęstutis wolf, split nose; "we serve as the Word says, but not for you"). The brotherhood has no Wolf-Father after Šešiapirštis (the bog will choose). **Kalvis's cost (ch. 14):** the iron hour takes his mother's lullaby words. Wolves stop at **the last oak at the Dnieper rapids** in 1397: "the roots end here, we hear only our hearts" (Kalvis); Vytautas says he will be back by autumn.
@@ -25,14 +27,16 @@
 - **Black Sea (ch. 17):** Vytautas rides into the sea to the horse's belly; the pebble is **neither warm nor cold** (its warmth came through the Baltic, which is not here); he says "Nuo jūros iki jūros" aloud; a dust devil stands on the water. About **12,000 captives** are sent north; 30 Karaim families (a man with a book and an unlit copper lamp) ask for rye and "a house of prayer": "Bus." He refuses to have the "sea reached" recorded. He counts captives aloud in the Counter's voice.
 - **Karaims and Tatars at Trakai (ch. 18):** ~30 Karaim families by the north shore of Galvė, ~100 Tatar families behind the ditch. **Elijas, son of Mošė**, captain of 40 guards (karaims and some Tatars), wife **Rachelė**, daughter **Sara**; Tatar **Alimas**. He sees the boy feeding the flame, a gray wolf on the stair says "Ne", he orders the east vault stair not to be patrolled, and later stands with his back to the stair while Vytautas listens at the door. His own lamp: a copper lamp from Crimea, refilled daily (parallel only). **Ona** brings bread and weekly milk in winter 1397–98 and holds the children, unspoken grief. Kenesa begun summer 1398 beyond the ditch.
 - **Salynas (ch. 19):** the lists read are **invented** (120 castles/castellanies, 440 villages, 350 groves *lucos paganorum*; Part 3 reuses "350 groves"). **Konrad von Jungingen** present. "Karalius! Vytautas karalius!": nobody agrees who shouted first; Vytautas raises a hand too long. **Žygimantas** (aged ~33, an Order hostage since the Lyck hand-over of Jan 1390 per Part 1 ch. 6, i.e. eight years (record: VLE c. 1389/90-1398; corrected in the historical-fact pass); grey eyes, speaks German better than Lithuanian) is released as "part of the price" and embraces Vytautas. Samogitian elder **Gedgaudas** (62) and the Šatrija žynys **Kantaudas** (tier 3): Kantaudas says *"Žemė man laikys"* at an old sacred oak on the island (off the Earth zenith, cost doubled) and **turns to stone, standing, dead**; the Order's carpenters leave the oak. Remaining tier-3 count: "17 or 18". **Eglė** appears in the reeds with the yellow-cheeked snake: the buckle at the stone in 1382 was a **pledge**, the price was "never sell the forest"; from this night the Root-Mother **stops hiding his tracks**. **Galminas** watches from the far bank. Vytautas to Gedgaudas: "I sold the land, not the forest." — "The forest *is* the land." — "Žinau."
-- **Ch. 20:** the papal crusade bull reaches Vilnius after Epiphany 1399 (kept loose: "verify"); letters from Andrius and Dmitrijus ("prince and brother"); Samogitian elders absent at Christmas, the Order's priests in Raseiniai. **Henė's vision:** Sarai whole, Vytautas on the throne (a figure recognised by posture), Toktamyšas kneeling with the seal, Vasily I at his feet, the Baltic and the Black Sea as two blades at the throne's corners; coins with his tamga. The "last window" (a river, a bank of bodies, banners, horses; **no ash-man**) is shown; Vytautas turns away: "Sutinku." Henė: "Ar tai tau?" — "Taip." The pebble goes **cold**; an ash devil spins in the hearth. **Ona**, silent since Aug 1392 (nearly seven years), looks at the pebble in his hand and says only *"Tavo motina būtų pažiūrėjusi."* (a mother-in-law who always looked to the end).
+- **Ch. 20:** the papal crusade bull reaches Vilnius after Epiphany 1399 (bull date not found; January is saga); letters from Andrius and Dmitrijus ("prince and brother"); Samogitian elders absent at Christmas, the Order's priests in Raseiniai. **Henė's vision:** Sarai whole, Vytautas on the throne (a figure recognised by posture), Toktamyšas kneeling with the seal, Vasily I at his feet, the Baltic and the Black Sea as two blades at the throne's corners; coins with his tamga. The "last window" (a river, a bank of bodies, banners, horses; **no ash-man**) is shown; Vytautas turns away: "Sutinku." Henė: "Ar tai tau?" — "Taip." The pebble goes **cold**; an ash devil spins in the hearth. **Ona**, silent since Aug 1392 (nearly seven years), looks at the pebble in his hand and says only *"Tavo motina būtų pažiūrėjusi."* (a mother-in-law who always looked to the end).
 
 ## Magic ledger (Part 2)
+
 - Pebble: warm (ch. 11, 13, dulled) → neutral/unanswered on the Black Sea (ch. 17) → **cold** (ch. 20).
 - Henė's stones: 3 → 2 at ch. 16. Chain with Henė. Unbinding shown: Quenched, Unburned, Voiceless mentioned in Part 1; ch. 14 first hunt; ch. 19 tier-3 death (Kantaudas). The two poisonings (Skirgaila here; the sons in Part 1) are herb-lore only.
 - The only working by Vytautas in Part 2 is the minor "Ugnis tau degs" in ch. 11 (cost shown). No surety anywhere.
 
 ## Deviations from the outline (and why)
+
 - **Ch. 11:** the flame is moved in the same night as the keys; Kirmėlė is exposed by **Henė** (not by Part 1), which uses Pinčiukas as Henė's clerk (one mention).
 - **Ch. 12:** Švitrigaila is not chained until the Sluch; "revolts" are told through failed promises (he never gets Kaributas's or Fiodoras's help), as the record is thin.
 - **Ch. 13:** Smolensk by feigned Ryazan campaign (record hedged); Skirgaila's Kyiv handover and Vladimiras's removal are shown in one place (1395).
@@ -42,6 +46,7 @@
 - **Ch. 20:** Ona's line is delivered only after she sees the cold pebble (she was with him in Prussia in 1383–84 and knew the stone).
 
 ## Canon questions
+
 - Salynas treaty lists (120/440/350) and the "groves as assets" wording are Saga invention; Part 3 reuses 350.
 - "Henė never lies in deals" (ch. 16) vs magic_rules §1 (he *can* lie/illusion): meant as the letter-of-the-deal principle (D2).
 - The sons' names ("Jurgis, Ivanėlis" in Part 1 ch. 9) are not used in Part 2; the nursery key/door beat from the outline is not used.

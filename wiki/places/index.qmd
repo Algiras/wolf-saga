@@ -9,15 +9,22 @@ title: "Places"
 | [Brześć Kujawski](brzesc_kujawski.qmd) | place |  |
 | [Christmemel (Skirsnemunė)](christmemel.qmd) | place |  |
 | [Czartorysk (Volhynia)](czartorysk.qmd) | place |  |
+| [Dovydiškės (unidentified)](dovydiskes.qmd) | place |  |
 | [Dykra (swamp-forest wilderness)](dykra.qmd) | place |  |
 | [Grodno](grodno.qmd) | place |  |
+| [Gródek (Horodok near Lviv)](grodek.qmd) | place |  |
+| [Horodło (on the Bug)](horodlo.qmd) | place |  |
+| [Jogaila's camp near Trakai](jogaila_camp_trakai.qmd) | place |  |
 | [Jurbarkas (Georgenburg)](jurbarkas.qmd) | place |  |
 | [Kamianets (Podolia)](kamianets.qmd) | place |  |
 | [Kraków](krakow.qmd) | place |  |
 | [Krėva](kreva.qmd) | place |  |
 | [Kyiv](kyiv.qmd) | place |  |
 | [Königsberg (Karaliaučius)](konigsberg.qmd) | place |  |
+| [Kęstutis's hunting lodge beyond the Neris](kestutis_lodge.qmd) | place |  |
+| [Lake Ublik (Wobel), Masuria](lake_ublik.qmd) | place |  |
 | [Lutsk](lutsk.qmd) | place |  |
+| [Lyck (Ełk)](lyck.qmd) | place |  |
 | [Marienburg (Malbork)](marienburg.qmd) | place |  |
 | [Masovia (Płock / Warsaw)](masovia.qmd) | place |  |
 | [Naujapilis (Marienwerder)](marienwerder.qmd) | place |  |
@@ -25,6 +32,10 @@ title: "Places"
 | [Ostrów](ostrow.qmd) | place |  |
 | [Pabaiskas](pabaiskas.qmd) | place |  |
 | [Palanga](palanga.qmd) | place |  |
+| [Raciążek (Vistula island)](raciazek.qmd) | place |  |
+| [Ritterswerder (Nemunas island near Lampėdžiai)](ritterswerder.qmd) | place |  |
+| [Road to Jogaila's camp (from Kęstutis's pine hill beyond the Trakai lake)](road_to_jogaila_camp.qmd) | place |  |
+| [Salynas (island in the Nemunas)](salynas.qmd) | place |  |
 | [Tapiau (Tepliava)](tapiau.qmd) | place |  |
 | [Trakai](trakai.qmd) | place |  |
 | [Vilnius](vilnius.qmd) | place |  |

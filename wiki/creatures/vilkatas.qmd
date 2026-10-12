@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/vilkatas.md >}}
 
 ## Folk source [Record]
+
 Lithuanian werewolf belief has two strands: a witch or sorcerer turns people into wolves (a whole wedding party in some tales) with a belt, hoop or spell; or a person turns himself by somersaulting over a stump with a knife stuck in it, and if someone pulls the knife he cannot change back. A werewolf is restored by bread on the tip of a knife, or by being called by name. Olaus Magnus (1555) describes werewolves gathering on Christmas night in Prussia, Livonia and Lithuania to drink cellars dry; Herodotus (4.105) says the Neuri became wolves for a few days each year.
 
 ## In the saga (where the folk are half-wrong)
+
 One word covers **two things**. (1) The cursed *vilkolakis*: an ordinary person changed by a bargain, real flesh-change, [Velnias](../gods/velnias.qmd)'s craft sold through raganos; the victim keeps a human mind for a season, then loses it. (2) The sworn **vilkatai**, the wolf-brotherhood of the Dykra, who are men and do not change shape (see [Vilkatai (Iron Wolves)](../factions/iron_wolves.qmd)). Bread-on-a-knife cures the cursed, because bread is courtesy and iron reminds the flesh it was human; it only offends a sworn vilkatas. Galminas's beast-rage is a third thing, the Root-Mother's possession, and should not be called vilkolakis.
 
 ## Signs & habitat
+
 A wolf that hangs around one village and will not attack its people; a wolf with human eyes; a stump with a knife in it at a crossroads.
 
 ## Before / after the Unbinding
+
 Before: rare, a ragana's worst curse. After: with raganos learning from Velnias, curse-belts multiply and whole hamlets of runaways and debtors are turned.
 
 ## Banes, wards, bargains, and their cost
+
 Bread on the tip of a knife offered to the wolf (you must stand within reach of its jaws). Call the person by name (if you are wrong, you have just told a hungry wolf your name). Burn the belt that made it (you must take it from the ragana). Pulling the knife from the stump traps the self-changer as a wolf forever: someone's son.
 
 ## Danger level
+
 III dangerous, before and after.
 
 ## Story hooks
+
 Books II–V: a vilkatas of the brotherhood hunting a cursed vilkolakis who turns out to be his own brother.

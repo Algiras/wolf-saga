@@ -1,0 +1,26 @@
+---
+title: "Raciążek (Vistula island)"
+id: raciazek
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/raciazek.md >}}
+
+## In the 1380s [Record]
+
+Raciążek on an island of the Vistula at the confluence with the Drwęca, where the Peace of Raciąż was made on 22-23 May 1404 ([event](../events/ev_raciaz_1404.qmd)).
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+The evening feast where Marquard insults Birutė.
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Book III ch. 6.

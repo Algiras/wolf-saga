@@ -1,0 +1,41 @@
+---
+title: "Rimgailė (Palanga fisherwoman)"
+id: rimgaile_palanga
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/rimgaile_palanga.md >}}
+
+## Summary
+
+Rimgailė, a Palanga fisherwoman (about sixty in 1450), receives the silver wolf from the dying keeper "bread for bread" and puts it under her threshold; her granddaughter Gedvilė's line sweeps the statue's stone (Book V ch. 25, 29, 30).
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+
+- **[Record]:** No such person in the record. (Not Kęstutis's daughter Rimgailė, who married Henryk of Masovia.)
+- **[Saga invention]:** All of her.
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

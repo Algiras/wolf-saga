@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/aitvaras.md >}}
 
 ## Folk source [Record]
+
 A spirit that brings its keeper wealth stolen from neighbours. It hatches from the egg of an old rooster (seven or nine years old) kept warm by its owner, or is bought from a merchant. Outdoors it flies as a fiery streak; indoors it is a black cockerel or cat. It is fed scrambled eggs, and when offended it burns the farm. Named in 16th-century church writings against peasant superstition; Christian-era tales make it a devil's gift paid for with the keeper's soul.
 
 ## In the saga (where the folk are half-wrong)
+
 A hatchling of [Velnias](../gods/velnias.qmd)'s root-wealth that hungers for fire. It does not make wealth, it moves it: every grain it brings is a grain a neighbour lost. The folk are right that it steals and burns, and wrong that it serves the devil: it serves the trade, and anyone who feeds it. "A soul for an aitvaras" is true: the keeper goes down to Velnias's roots at death, and in life the household slowly stops being able to give anything away freely.
 
 ## Signs & habitat
+
 Fiery streaks at dusk from a poor farm to a rich one; a neighbour who prospers in a bad year; eggshells by the oven; a smell of singed feathers.
 
 ## Before / after the Unbinding
+
 Before: a nuisance kept in bounds by custom. After: aitvarai turn arsonist; near Hanseatic towns the [Gold-Glutton](../forces/gold_glutton.qmd) courts them and they carry warm coin instead of grain, which starts quarrels wherever it is spent.
 
 ## Banes, wards, bargains, and their cost
+
 Feed it and it stays loyal (cost: the neighbours' enmity, eventually a lynching). Sell it on, or set it an impossible count such as a sack of poppy seed (while it counts it is still yours). Spoiling its dish makes it burn the house; some families burn their own farm to be free. Cursing or baring yourself at a flying aitvaras makes it drop its load on your land, so the stolen goods are in your barn when the owner comes.
 
 ## Danger level
+
 II hazard → IV deadly.
 
 ## Story hooks
+
 Book II: Jogaila's Vilnius and its new Magdeburg merchants crawling with aitvarai fed by the Gold-Glutton. Book IV: a fire in Trakai's town blamed on Vytautas's enemies, really an aitvaras abandoned by a bankrupt Hanseatic factor.

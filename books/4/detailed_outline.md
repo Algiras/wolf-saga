@@ -98,12 +98,14 @@ Grunwald won the war and lost the gods. Samogitia is baptised (1413–17) and th
 ## Continuity checklist
 
 **Historical anchors (D3; check each against `master_chronology.md`)**
+
 - [ ] **Horodło 2 Oct 1413**; **Samogitian baptism 1413–17** (Medininkai bishopric 1417); **Constance 1414–18** (Hus 6 Jul 1415; Samogitian delegation, verify year); **Ona d. 31 Jul 1418**, **Vytautas ⚭ Julijona 13 Nov 1418** (not 1429–30); Breslau 1420; Hussite crown 1420–22; Jogaila ⚭ Sophia 7 Feb 1422; **Melno 27 Sep 1422**; Oleśnicki bishop 1423; Władysław 1424, Casimir 1427; Vasily I d. 1425; Opochka 1426, Porkhov 1428; **Lutsk Jan 1429**; **crown embassy blocked Aug 1430**; **Vytautas d. 27 Oct 1430, Trakai**.
 - [ ] **Sigismund is not emperor until 1433**: in 1429 he is King of the Romans and of Hungary. (The old chapter title "The Emperor's Offer" is replaced.)
 - [ ] Black Sea forts dated **early 15th century (verify each)**, never before 1399.
 - [ ] Two Sophias: **Sofija** (Vytautas's daughter, Moscow) and **Sonka / Sophia of Halshany** (Jogaila's queen). Keep the spellings distinct.
 
 **Magic ledger**
+
 - [ ] Pebble: **warm** → burning at the refusal (ch. 22) → **cracked** at death (ch. 29).
 - [ ] Henė's stones: **two** → **one** (ch. 29–30; graph 1430). He serves Vytautas to 1428, Sigismund 1429–30 (D2).
 - [ ] Unbinding 3 → **4** (1417, ch. 7) → **5** (1430). Tiers 0/14/160 → 0/9/90.
@@ -112,12 +114,15 @@ Grunwald won the war and lost the gods. Samogitia is baptised (1413–17) and th
 - [ ] The Lutsk crown never existed as gold on the road: Henė's leaves (`power_systems.md` §5; `mythic_gaps.md` §4). The blocking of the embassy at the border is [Record]; no crown was ever seized (the seizure is a later legend).
 
 **Objects**
+
 - [ ] Golden chain: Henė → **Oleśnicki's envoy** (ch. 20; graph 1429–30). Silver wolf and pebble: willed to Žiežirba via Pilkoji (ch. 28; handed over in Book V ch. 7). Kneeling statue: survives the clergy (ch. 8). Kęstutis's sword: with Vytautas to his death (fate after 1430 open).
 
 **Iron Wolves**
+
 - [ ] Baptised wolves split off (ch. 6); Pilkoji becomes Vilkų Motina (ch. 6, timing a suggestion); Pilkoji at the vault door (ch. 22); the wolves find the leaves (ch. 23). After ch. 29: no more krikštas.
 
 **Grey rule (series_arc §3.6)**
+
 - [ ] Sympathetic Order brother: the envoy at Constance who admits the truth (ch. 4). Decent Pole: **Paulus Vladimiri** (ch. 4). Monstrous Lithuanian: the baptised wolves who hunt for bishops' coin (ch. 6), and the Pskov–Novgorod ransoms (ch. 16). Pagan option worse: the shore-women's offer to drown the clergy (ch. 8).
 
 **Thread coverage**
@@ -129,4 +134,5 @@ Grunwald won the war and lost the gods. Samogitia is baptised (1413–17) and th
 | 3 (ch. 21–30) | 30 | 22, 25, 28, 29 | 22, 27, 29 | 21, 22, 23, 26, 29, 30 | 29 (the held storm) | 25, 27 | 22, 23, 28 | 24, 26, 30 | 24, 28 | 21, 23 |
 
 **Open items for the author**
+
 - [ ] Whether Ona knew of the vault (ch. 9) (Saga choice). [ ] The cause of Vytautas's last illness (verify the record before choosing). [ ] Whether Jogaila is at the deathbed (verify).

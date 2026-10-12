@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_grunwald.md >}}
 
 ## What the chronicles say [Record]
+
 Fought on 15 July 1410 between the armies of [Jogaila](../characters/jogaila.qmd) and [Vytautas](../characters/vytautas.qmd) and the Teutonic Order under Grand Master [Ulrich von Jungingen](../characters/jungingen.qmd) near the villages of Grunwald, Stębark and Łodwigowo. Estimates of strength range from about 16,000 to 39,000 on the Polish-Lithuanian side and 11,000 to 27,000 on the Order's side, and the sources are poor. Jungingen was killed; the *Cronica conflictus* says by Dobiesław of Oleśnica, Długosz says by Mszczuj of Skrzynno. Before the battle the Order's heralds brought the king two naked swords as a taunt. Jogaila was heard at Mass after Mass; Długosz says Zbigniew Oleśnicki, the king's secretary, saved him from the knight Lupold of Kökeritz. A Tatar contingent led by Jalal ad-Din fought beside the allies. The Lithuanian wing withdrew; historians disagree whether this was a planned feigned retreat (argued from a German letter published by Sven Ekdahl, 1963; disputed by Stephen Turnbull) or a rout, as Długosz presents it while crediting the Poles alone. Of the Order's roughly 270 brothers on the field between 203 and 211 died. The siege of Marienburg was lifted on 19 September; the First Peace of Thorn of February 1411 gave Dobrzyń to Poland, Samogitia to Lithuania for the lifetimes of the two rulers, and a silver indemnity. See Wikipedia, Battle of Grunwald, and the Banderia Prutenorum.
 
 ## What really happened [Saga]
+
 The eve of the battle is the lantern: the flame leaves Trakai for the first time, in a horn lantern carried by Žiežirba, and Vytautas opens it before a single Medvėgalis žynys and swears the thunder-oath to [Perkūnas](../gods/perkunas.qmd) on Kęstutis's sword; an oath on a claimed man's name binds the Force too. In the morning the wolves lead pursuing knights into bog and wood when the Lithuanian wing withdraws; [Galminas](../characters/galminas.qmd) becomes the wood-skinned beast and the Root-Mother takes her harvest. When Jungingen falls the [Iron Saint](../forces/iron_saint.qmd) breaks, the Riders of the Reise scream on every road, and lightning stands on the field. The Medvėgalis žynys dies. In autumn an oak and hazel grove grows through the graves.
 
 ## Consequences
+
 Caused by [the Union of Vilnius and Radom](ev_vilnius_radom.qmd), which allied the cousins. It leads, in the graph, to [the Union of Horodło](ev_horodlo.qmd) (1413). The saga's price is that the victory changes nothing for the gods: the gods remain unbound and Samogitia will be baptised.
 
 ## Dramatisation
+
 Book III ch. 15 "Tiltas per Vyslą" (Žiežirba), ch. 16 (Eglė), ch. 17 "Žibintas" (the Medvėgalis žynys; night 14–15 July), ch. 18 "Du Kalavijai" (Zawisza Czarny; the morning), ch. 19 "Traukimasis?" (Rūdis), ch. 20 "Geležies Mirtis" (Vytautas; the afternoon), ch. 21 "Kruvini Laužai" (Ona by letter and Vytautas; the night), ch. 23 "Galmino Giraitė" (Eglė; autumn). Midsummer heat.

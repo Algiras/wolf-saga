@@ -8,18 +8,23 @@ categories: [artifact]
 {{< include ../_generated/wolf_skull.md >}}
 
 ## Description
+
 A skull too large to be a man's or any wolf's, grey as old iron, with deep empty orbits, but light enough to lift with two fingers (Book V ch. 28). In Book VI ch. 18 it is cracked, with a round hole through one eye socket. It rests on a flat stone or pine stump on a bog-island in the [Dykra](../places/dykra.qmd).
 
 ## Power
+
 The brotherhood's oath-stone. A wolf who lays both hands on it swears the nine laws of the Pack's Word, and every sworn wolf from the Neman to the Narew hears a lie spoken there (`power_systems.md` §5; Book VI ch. 5). Its keeper is the Wolf-Father, later once the Wolf-Mother.
 
 ## Rule & cost
+
 Rules sworn on it, such as "no Gediminid blood" (Book III ch. 15), bind even the guilty. The keeper is chosen by the Root-Mother in the bog (Book IV ch. 6). A wolf is laid to the bog, never burned, and the skull goes down last.
 
 ## Origin
+
 [Saga] Found by Lizdeika where the dream-wolf stood after Gediminas's dream on the Šventaragis hunt, 1323, hard and grey as iron (`iron_wolves.md` §3.2). He carried it into the Dykra and the packs swore on it.
 
 ## Arc across the books
+
 - **Vilkatai, 1323-1450.** Graph holder; Lizdeika's hundred.
 - **Kuolas, 1345.** The Wolf-Father presides at Šešiapirštis's oath over it (Book VI ch. 5).
 - **Pušis, 1405-1415.** It lies on a stump while Žiežirba swears (Book III ch. 9, Dec 1405) and while Pilkoji is chosen and takes it up (Book IV ch. 6, 1415-16).

@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_birute_sacrifice.md >}}
 
 ## What the chronicles say [Record]
+
 Not in the record. What the sources do say about [Birutė](../characters/birute.qmd) conflicts. The Order's chronicler Wigand of Marburg is cited (via Wikipedia's civil-war article) for a drowning at Brest, probably in autumn 1382 after Vytautas's flight; no other source confirms it, and it is unclear whether Długosz repeats it (verify). Lithuanian tradition, by contrast, has her return to Palanga, where she kept the shrine until her death, a date given as about 1389 in one popular summary and about 1416 in canon D3 (verify). A Samogitian delegation at the Council of Constance (1415–16) is said to have denied the story of her murder, which fits the long-life version.
 
 ## What really happened [Saga]
+
 Birutė's drowning at Brest is the in-world attempt on her life in 1382, which the sea refused three times (the ring returned thrice, ch. 11). Her second "death", by choice, is this one. At the full moon of [Bangpūtys](../gods/bangputys.qmd), after the cousins' truce in the burnt church, she walks into the sea and becomes the amber kneeling woman on the Palanga shore. It pays Vytautas's surety in full (Sutartis, "Jo skola yra mano skola") and buys the Hidden Groves, the gods' last foothold in Samogitia, a remnant of the Pact's protection. The cost is shown: her mortal form, her voice (lost since the fog at Krėva) and her failing sight. After it the [Amber Queen](../forces/amber_queen.qmd) can act only through amber she has touched.
 
 ## Consequences
+
 Caused by [the truce in the ashes](ev_truce_ashes.qmd). It makes the [Klūpančioji](../artifacts/kneeling_woman.qmd) amber statue at Palanga, which later books use as the Queen's anchor and as a target of Polish clergy.
 
 ## Dramatisation
+
 Book I ch. 27 "Gintaro Auka" (Birutė, with a cutaway to Vytautas; the full moon after the July reconciliation; the text's imagery is of first November ice). Retold in Book IV ch. 8 "Klūpančioji" and framed throughout Book V (ch. 1 and 29).

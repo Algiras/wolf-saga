@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/bebalsiai.md >}}
 
 ## Folk source [Record]
+
 [Saga invention.] Built on the chroniclers' report that the newly baptised of 1387 were given white woollen shirts, and that some came for the shirt and not the faith.
 
 ## In the saga (where the folk are half-wrong)
+
 The [White Silence](../forces/white_silence.qmd)'s hollowed ones. The White Silence gathers wherever a baptism is **bought**; the bought baptism is the opening, and it settles into the empty place where neither old custom nor new faith lives. Not monsters but victims: over months a bebalsis loses voice, then shadow, then warmth. They are harmless themselves, but the White Silence listens through them, and where several gather, sound dies, Wind workings fail and Water workings freeze.
 
 ## Signs & habitat
+
 Frost flowers in their footprints; people who stop speaking after a mass baptism; villages along the Neris where nobody sings.
 
 ## Before / after the Unbinding
+
 Before: almost none (Mindaugas's bought baptism of the 13th century produced a few, long dead). After 1387: many, around Vilnius first; after 1413 in Samogitia.
 
 ## Banes, wards, bargains, and their cost
+
 Real belief in anything, old or new, closes the opening; an honest Christian or honest pagan cannot become one (belief cannot be forced, and that is the whole problem). Speaking the victim's old name by a living fire returns the voice for a night, and the White Silence notices who did it.
 
 ## Danger level
+
 II hazard (after 1387).
 
 ## Story hooks
+
 Book I ch. 29: the crowds at the Neris baptism include the first of them. Books II–IV: Jadwiga's frost-touch and the bebalsiai as two faces of the same Force.

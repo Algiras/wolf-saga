@@ -1,5 +1,5 @@
 ---
-title: "Günther von Hohenstein"
+title: "Günther von Hohenstein (invented Order brother)"
 id: hohenstein
 type: character
 categories: [character]
@@ -8,12 +8,14 @@ categories: [character]
 {{< include ../_generated/hohenstein.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+**Günther von Hohenstein is a saga invention** in Book VI: a young brother of the Teutonic Order (22 in 1353, about 30 in 1361), fluent in Lithuanian from a Curonian nurse of the Ragnit march, who asks to serve at Ragnit, is the third knight to take [Kęstutis](kestutis.qmd) at [Lake Ublik](../places/lake_ublik.qmd), carries and translates the prisoner's meals at Marienburg, and stands at Kaunas in 1362. He is the honest enemy of the Order's side. He is **not** the 1381 informant: that was [Kuno von Liebenstein](liebenstein.qmd).
 
 ## Appearance & tells
 <!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
 
 ## Want · Need · Lie · Truth
+
 | | |
 |---|---|
 | **Want** (external) | |
@@ -28,8 +30,9 @@ categories: [character]
 <!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
 
 ## Record vs saga
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+
+- **[Record]:** A real Günther von Hohenstein (c. 1310-1380) was komtur of Osterode from 1349 and later of Brandenburg; he is attested only weakly (a Russian archaeology press release) and in any case died before 1381, so he cannot have warned Kęstutis.
+- **[Saga invention]:** The young brother, his Lithuanian, his terms offered at Ublik, the meals and translation at Marienburg (Book VI ch. 14, 16, 17, 19). The old canon line that he "warned Kęstutis in 1381" is withdrawn; the afterword of Book VI says so.
 
 ## Pronunciation
 <!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->

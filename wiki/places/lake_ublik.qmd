@@ -1,0 +1,26 @@
+---
+title: "Lake Ublik (Wobel), Masuria"
+id: lake_ublik
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/lake_ublik.md >}}
+
+## In the 1380s [Record]
+
+Lake Ublik (Wobel) in Masuria near Johannisburg, where in March 1361 a small band of knights surprised Kęstutis's camp ([capture](../events/ev_kestutis_captured_1361.qmd)).
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+Frost and thaw; the hidden nine arrive too late.
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Book VI ch. 16.

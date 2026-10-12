@@ -14,6 +14,7 @@ categories: [character]
 <!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
 
 ## Want · Need · Lie · Truth
+
 | | |
 |---|---|
 | **Want** (external) | |
@@ -28,6 +29,7 @@ categories: [character]
 <!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
 
 ## Record vs saga
+
 - **[Record]:** <!-- what history says (dates, deeds) -->
 - **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
 

@@ -1,0 +1,41 @@
+---
+title: "Kuno von Liebenstein"
+id: liebenstein
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/liebenstein.md >}}
+
+## Summary
+
+Kuno von Liebenstein, komtur of Osterode and godfather of Danutė, is the Order's informant who warned [Kęstutis](kestutis.qmd) of the secret treaty of [Dovydiškės](../events/ev_dovydiskes.qmd) in August 1381. He is named in Book I ch. 1.
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+
+- **[Record]:** Ivinskis (1978), followed by the English Wikipedia (Civil War 1381-84; Treaty of Dovydiškės): Kuno von Liebenstein, komtur of Osterode, in August 1381. VLE and Wigand name no informant, so the name is one of several versions (`books/sources.qmd`). Not to be confused with Kuno von Lichtenstein, the Grand Commander killed at Grunwald.
+- **[Saga invention]:** Nothing beyond the warning; the saga keeps the historical informant and does not turn him into a character of the Book VI cast.
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

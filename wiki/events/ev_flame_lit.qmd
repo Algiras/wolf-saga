@@ -8,15 +8,19 @@ categories: [event]
 {{< include ../_generated/ev_flame_lit.md >}}
 
 ## What the chronicles say [Record]
+
 Nothing in the record. Długosz reports that when Jogaila came to Vilnius in 1387 he put out the sacred fire, felled the sacred groves and had the sacred snakes killed (the details are of disputed accuracy). Whether any ember survived the extinguishing is not asked in the sources; that is the gap the saga fills.
 
 ## What really happened [Saga]
+
 That night [Vytautas](../characters/vytautas.qmd) rides out alone to the wet black ashes of the [Šventaragis](../places/sventaragis.qmd) hearth, kneels where the fire burned the day before, and finds in the ashes one red grain, no larger than a pea, that never went out. He carries it in a clay cup under his cloak to Kęstutis's old hunting lodge beyond the Neris, a windowless hut that no one in Jogaila's service knows of. He lights it with birch bark. "Kol aš gyvas, paskutinė ugnis neužges." The scar over his heart warms. If it dies while he lives, the debt of the Sutartis falls on him. The wolves answer from the forest, from several sides.
 
 The flame moves later: to the half-flooded foundations of the Trakai island castle (Book II ch. 2), and after Ostrów to a dry vault (ch. 11); it goes out at his death in 1430 ([the Last Flame ember](../artifacts/ember.qmd)).
 
 ## Consequences
-Caused by [the baptism of Lithuania](ev_lithuania_baptism.qmd). It creates the ember and makes Vytautas the keeper of the only flame the vilkatai can still serve (D10). The graph places the event at Trakai; the book puts the lighting in the lodge beyond the Neris and the moves to Trakai come in Book II (canon D11).
+
+Caused by [the baptism of Lithuania](ev_lithuania_baptism.qmd). It creates the ember and makes Vytautas the keeper of the only flame the vilkatai can still serve (D10). The graph places the event at [Kęstutis's hunting lodge beyond the Neris](../places/kestutis_lodge.qmd) (canon D11), not at Trakai; the moves to Trakai come in Book II. [Kalvis](../characters/kalvis.qmd) guards the lodge flame; later keepers are [Spyglys](../characters/spyglys.qmd) and the Flame-Keeper [Žiežirba](../characters/flame_keeper.qmd).
 
 ## Dramatisation
+
 Book I ch. 29 "Krikštas" (Vytautas; the night after the baptism in the Neris, February 1387) and Book II ch. 2 "Salos Pamatai" (Vytautas; the following spring, the flame moved to the island foundations).

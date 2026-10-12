@@ -1,9 +1,11 @@
 # Book V ch. 1-5: notes and end state
 
 ## Files
+
 01 Paskutinis Atodūsis, 02 Perkūno Laidotuvės, 03 Švitrigailos Pakilimas, 04 Užgesusios Krosnys, 05 Senieji Balsai.
 
 ## End state for ch. 6-10
+
 - **Žiežirba** (~40, b. c.1390): after ch. 2 he carries the **Perkūnas lightning-fire in the clay ash-pot** (white, narrow, leans west, gives no warmth, drinks from the bearer). Cost shown: left hand numb to the wrist, fingertips blue. By ch. 7 (Kūčios) it is already in his horn lantern (the old Book III lantern); ch. 2 does not show the transfer. He does **not** hold the silver wolf or the pebble yet. He left Trakai after the funeral and went north with Pilkoji.
 - **Pilkoji** keeps silver wolf + cracked pebble (from Vytautas's body) until Kūčios (24 Dec 1430), ch. 7. She now also holds **Eglė's names** (four fell into her at the flame's death: Mantas, Vykintė, Šventaragio, Žalioji; ch. 1). Eglė's small copper buckle (Book IV says "varinė") lies on the cold black ring in the vault; Zacharijas saw it in ch. 4.
 - **Žiežirba's true name** rose with the last smoke (ch. 1); Birutė says the sea carried the names 20 years and she "kept one" (pays off in ch. 29). He heard it for a moment, in his mother's voice, and could not hold it. Flame's death: names of all sworn wolves (living and dead) rose; the Iron Wolf dissolved in mist above the Duke's tower at dusk, collar of grey light falling as rime; Pilkoji: "he only has no house now". Henė (cap doffed) is the figure on the overturned boat on the south shore (only hinted).
@@ -14,9 +16,11 @@
 - **Ch. 5**: the Pact night told through the **Palanga amber bead** Krivis threw into the fire (same shore as Birutė's pebble); Birutė (age 10 then, at Palanga) narrates. Matches Book VI ch. 4 line for line in the oath and the three exchanges (Tu pasakei / Ugnis jau pasakė / Kada? / Nė žodžio niekam / tylioji sutartis / Niekas nėra klausiamas). Adds Birutė's reading: three parties (gods, two brothers, the land with all who live on it) and the people never asked; she names it "Gintaro Skola" (term used later by the Krivis in Book VI ch. 8). Žiežirba's lie seeded: "two gave their word, so one can" (fails ch. 20, nine years later).
 
 ## Reconciliation of ch. 5 with the outline
+
 Outline: Žiežirba sees the vision in the cracked pebble. But he does not hold the pebble until ch. 7. Ch. 5 is told in Birutė's frame voice **to the reader**, through the Palanga bead (not Žiežirba's eyes). She says he will see the same thing later: Pilkoji gives him the pebble at Kūčios and tells him not to look "kol neprireiks"; he does not look for about a year and a half (matches ch. 27: he first looked "prieš septyniolika metų", i.e. 1432; ch. 20: "gintare ... jis buvo matęs"; ch. 11, 1433: he whispers "Pasakė"). **Ch. 8 or 9 (summer 1432) should show or mention the first look** if not already.
 
 ## Verify
+
 1. **Jogaila at the funeral.** Book IV hand-off says he is in Lithuania and approves Švitrigaila; ch. 2 has him present. Check burial date/route/who attended (kept vague: "lapkritis, kelios dienos po Vėlinių").
 2. Švitrigaila raised before the funeral (ch. 2 says "prieš dešimt dienų"; Book IV ch. 30 rumour ~31 Oct). Consistent but vague.
 3. Podolia/Lutsk detail in ch. 3 deliberately thin (Kamianets taken; Lutsk besieged July 1431; outcome unstated). Verify history before any later chapter names Polish commanders or the truce.

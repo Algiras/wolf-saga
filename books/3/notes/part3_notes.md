@@ -1,6 +1,7 @@
 # Book III, Part 3 (ch. 21–30): notes for other parts
 
 ## Dates and places used
+
 - **Ch. 21** (night 15–16 Jul 1410): Vytautas's camp at the edge of the field; the burning Order camp; Polish *Bogurodzica* in the distance. Beheaded in the dark: **Markvardas fon Zalcbachas** (Brandenburg komtur) and **Heinrichas Šaumburgas** (Sembos vaitas); the reason for the second is deliberately never recorded.
 - **Ch. 22** (26 Jul – 19 Sep 1410, Marienburg): Plauen rides in on 17 Jul with what he could raise at Schwetz; Ulrich's body arrives the next day and is laid in St Anne's chapel; the royal army arrives 26 Jul; Plauen burns the suburbs; the siege is lifted on 19 Sep. Vytautas's departure in early Sept is shown only by Plauen's three rumours (sickness, Samogitia, "something else": he stood alone before the church's Madonna mosaic).
 - **Ch. 23** (autumn 1410, the field): twelve days' walk from the Dykra; the grove lies between the field and Lubienio lake, over the trench graves; the alder bog of ch. 19 beside it holds the Order knights the roots took.
@@ -13,6 +14,7 @@
 - **Ch. 30** (summer 1411, Kraków chancery).
 
 ## Facts established (please respect)
+
 **Vytautas.** After the lightning column of ch. 20 the **left ear hears nothing at all** (before: deaf in practice); the right ear works and rings. He now sits so speakers are on his right (Jogaila notices at Vilnius; Ona has been reading his lips since the Vorskla). The sword's **thin bright line** (plienas švietė sidabru) from the guard to the point stays: the rust has not spread since the oath of ch. 17. Pebble **warm** and *remembers for him*: since Grunwald the warmth brings the dead's faces (the boys, in ch. 21 and 25; "Akmuo atsimena už jį. Ji nepasakė, kad atmintis boli."). He has **no joy** at Grunwald; he is relieved that the Medvėgalis žynys, the only witness, is dead, and pays for the feeling by noticing it. He had Marquard beheaded *because* of his toast at Marienburg (ch. 14: "jūra negalėjo manęs nuryti"); Marquard answered "Kad gaila" and did not beg. Pebble neither warms nor cools at the killing ("akmuo neatsiliepia į teisingumą, jis atsiliepia į tiesą"). Wears plain black armour, silver wolf, grey ash again in the lines of his right hand by Feb 1411 (he washed it, it returned).
 **The Order's sword** (one of the two sent by Ulrich, ch. 18) stands where Vytautas planted it, in the camp; no one touches it overnight (ch. 21 ends on its shadow). Not followed further: treat it as taken to the king's treasury afterwards (the record's "two swords" as Polish relics).
 **The Medvėgalis žynys:** died on his cart at the bog (ch. 20); the grove-fire in his pot went out with him (ch. 21 shows the cold pot with a pinch of grey ash, which Kirmėlė carried); his clenched fist held his **teeth** (the price of the oath), which a Samogitian put back in his mouth before the pyre; no one else knows what he saw. Tier 4 = 0.
@@ -28,12 +30,14 @@
 **Oleśnicki (ch. 25, 30; ch. 13, 18, 20).** Named **Zbignevas iš Olesnicos** (formal: Zbignevas Olesnickis); 22 in 1411; large nose, ink-black fingers, wax tablet and stylus (no pencil). He copies the Thorn text, murmurs *kol gyvi* at the Samogitia line, and in 1411 lays Thorn beside the Radom act and sees that both give **a lifetime, not land** ("Todėl ir reikia rašyti"). The **warm gold coin** came from the German knight's slashed purse at Grunwald; he keeps it on a wooden tablet, never carries or spends it; it is always warm. He boils the chancery ink himself. The old clerk **Stanislovas** is invented. Jogaila hears Oleśnicki **perfectly** through the Silence (a hint, not an explanation). Last line: *"Kalavijas savo darbą atliko. Dabar rašalas turi atlikti mūsų."*
 
 ## Objects and magic ledger (Part 3)
+
 - Pebble: **warm** from ch. 17; ch. 21/25 show the cost (it returns the dead's faces). Henė's stones: **two**. Golden chain: on Henė (not shown). Silver wolf: on Vytautas (Jogaila at last holds his gaze on it at Grunwald and in Vilnius). Kęstutis's sword: bright line; carried at Grunwald and to Trakai.
 - Unbinding 3. Tiers: 4 → **0** (žynys dead). The Hidden Groves: Galminas's grove (Prussia), the Kražiai grove (cold), the Dykra (Pilkoji, Pušis).
 - White Silence: banners frozen in Wawel; Wawel's silence gives way near Vytautas (the Šventaragis plot at Vilnius), returns at the Bug bridge.
 - Costs on the page: Vytautas (dead ear, memory flooding); the žynys (teeth, life); Eglė (heel, names, lakštutė); the Queen's statue (ch. 14, not repeated); Žiežirba (ugly slip of his name, ch. 15).
 
 ## Deviations from the outline (and why)
+
 - **Ch. 21:** Ona's letter is read aloud by Žiežirba. The beheaded are named with offices (komtur of Brandenburg, vogt of Sambia: Wikipedia/Długosz tradition; "verify the occasion" respected: no occasion is stated beyond Vytautas's choice). The wolves "carry their dead to the bog" (seven + Rūdis) per ch. 19–20.
 - **Ch. 22:** nothing is said about the Livonian relief or Hungarian threat; Vytautas's reasons for leaving are only rumours.
 - **Ch. 23:** the grove is placed beside Lubienio lake and its alder bog (ch. 19), not at the field's centre; the dead are the field's trench graves. Eglė does not know Thorn's terms yet and Galminas says "ne visam laikui" without foreknowledge.
@@ -46,15 +50,18 @@
 - Word counts are at the lower end of the brief (about 1,500–2,100).
 
 ## Canon questions
+
 - Whether Vytautas truly attended the Thorn signing; whether Jogaila visited Vilnius in winter 1410–11 (the saga invents it).
 - The **Krėva secret** is now defined: not a deed but a *pause* after a question put by Henė's voice through Skirgaila's mouth. Book IV/V should not "confess" it in plain words before Jogaila's death (1434) unless as a scene where sound dies again.
 - Žiežirba's age (born c. 1390–91) is "about twenty" in 1410–11 (Part 1 notes: 14–15 in Dec 1405).
 - Ona's cough hints at the 1418 death without naming it.
 
 ## Hands on to Book IV
+
 Samogitia Lithuanian **for two lifetimes**; the Hidden Groves cold and listening; Galminas a grove and the Root-Mother asleep; Eglė translucent, losing names, her žaltys nearly white; the flame back in the vault, Žiežirba its keeper (heir to the oath); the pebble warm; Vytautas's left ear dead; Henė at Vytautas's court with two stones; Jogaila hearing only a child and Oleśnicki clearly; Oleśnicki, 22, with a warm coin and the maps, certain "ink" will do the rest; Plauen as the Order's survivor (Grand Master from 9 Nov, deposed 1413); Ona coughing at Trakai. The wolves: Pušis, Kirmėlė, Pilkoji and Žiežirba alive; Pilkoji keeps names.
 
 ## Seam pass (continuity edit, whole book)
+
 Decisions made when reading ch. 1-30 in order. Edits are minimal line adjustments (books/3/[0-9]*.qmd only).
 
 - **Henė's stones:** ch. 3 (Jan 1401) showed three; now "du juodus akmenis". Two in every Book III scene (ch. 5, 8, 13, 17, 25, 27, 28); the "three" appear only as memory (ch. 13, 28).

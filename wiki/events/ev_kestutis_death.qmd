@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_kestutis_death.md >}}
 
 ## What the chronicles say [Record]
-Kęstutis was found dead at Krėva on 15 August 1382, the feast of the Assumption, five days after his imprisonment according to Wikipedia (which also lists the lead as "3 or 15 August"; I take 15 August as standard, but the arrest date and the interval are loose). [Jogaila](../characters/jogaila.qmd) claimed that his uncle had hanged himself; few believed it, and Lithuanian and Polish tradition has him strangled (the Order's chronicler Wigand of Marburg is the main near-contemporary for these years; verify his wording). The body was cremated with pagan rites in Vilnius, according to tradition. Whether he died "naturally or was murdered" is stated as debated in the English Wikipedia article on Kęstutis; most historians accept murder. Skirgaila found the body.
+
+Kęstutis was found dead at Krėva on 15 August 1382, the feast of the Assumption, about twelve days after the arrest of 3 August (some sources say "a week later"). [Jogaila](../characters/jogaila.qmd) claimed that his uncle had hanged himself, which few believed. VLE says he was killed (strangled); the Lithuanian Wikipedia has him strangled on the orders of Julijona or Skirgaila, the body burned in Vilnius; the Order's chronicler Wigand of Marburg is the main near-contemporary. Whether he died "naturally or was murdered" is stated as debated in the English Wikipedia; most historians accept murder. The body was cremated with pagan rites in Vilnius, according to tradition. Skirgaila found the body.
 
 ## What really happened [Saga]
+
 [Henė](../characters/hanulas.qmd)'s Breath of the Void muffled the tower so that no struggle was heard, and a shard of Velnias strangled the duke while the guards slept in unnatural stupor (mythic_gaps §1). Four Rus' mercenaries, paid in Riga silver, strangle him with the golden chain whose clasp bears the Riga mark of two crossed keys under a cross. Kęstutis, who took the beggar's coin knowing, says: Gabija will not shine on your masters today; the cowards are Skirgaila and Jogaila. [Birutė](../characters/birute.qmd) appears as an apparition leading his soul. The wolves of the Dykra howl. It is the kin-murder that breaks clause 2 of the Silent Pact: no Gediminid sheds Gediminid blood. The gods' protection lapses and the Shadow-Seller collects.
 
 ## Consequences
+
 Caused by [the arrest](ev_arrest.qmd). It breaks [clause 2 of the Silent Pact](../magic/silent_pact.qmd) and leads to [Perkūnas claiming Vytautas](ev_perkunas_mark.qmd) and to [the escape from Krėva](ev_kreva_escape.qmd). It also sets Skirgaila and Jogaila on the road that ends in the 1385 Union signed above the cell, and Žygimantas in the cell in 1438.
 
 ## Dramatisation
+
 Book I ch. 8 "Krėvos Požemiai" (Kęstutis and Vytautas, talking through the stones; about ten to fourteen August), ch. 9 "Paskutinė Giesmė" (Kęstutis, then Vytautas; the night of 14–15 August; Žolinė eve), ch. 10 "Šaltas Rytas" (Vytautas; the morning of 15 August). Echoes: ch. 28b (Vytautas in the cell, 1385), Book I ch. 30 (Skirgaila), Book V ch. 19 (Žygimantas).

@@ -1,0 +1,26 @@
+---
+title: "Kęstutis's hunting lodge beyond the Neris"
+id: kestutis_lodge
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/kestutis_lodge.md >}}
+
+## In the 1380s [Record]
+
+Not in the record.
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+Saga place (D11): Kęstutis's old hunting lodge across the Neris in the pines, a windowless hut known to none of Jogaila's men. Vytautas lights the Last Flame there on the night of the 1387 baptism ([the flame](../events/ev_flame_lit.qmd)); Kalvis guards it. It is moved to the flooded foundations of the Trakai island castle in Book II.
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Book I ch. 29.

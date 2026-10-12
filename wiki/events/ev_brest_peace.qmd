@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_brest_peace.md >}}
 
 ## What the chronicles say [Record]
+
 The Peace of Brześć Kujawski, 31 December 1435, ended the war between Poland and the Teutonic Order. The Order dropped [Švitrigaila](../characters/svitrigaila.qmd) and agreed to support only dukes of Lithuania chosen jointly by Poland and Lithuania (Wikipedia, Lithuanian Civil War of 1431–35; VLE, Bresto taika). It follows the defeat of Švitrigaila and the Livonian Order at [Pabaiskas](ev_pabaiskas.qmd) on 1 September.
 
 ## What really happened [Saga]
+
 The peace is the Iron Saint's retreat in the North: the Order, shorn of Livonia's leadership, cuts loose a client it can no longer afford. Švitrigaila, who is a man of the old realm in his own telling, loses Polotsk, Vitebsk and Smolensk piece by piece; the saga's own judgement is that the dynasty's id survives and its soul does not. His mother Uliana of Tver is remembered in the monastery she founded at Vitebsk.
 
 ## Consequences
+
 Caused by [Pabaiskas](ev_pabaiskas.qmd). The graph attaches no outgoing edge: the saga uses it as the last act of the Order as Lithuania's patron of civil war.
 
 ## Dramatisation
+
 Book V ch. 15 "Švitrigailos Žlugimas" (Švitrigaila; autumn 1435 to winter 1437; Polotsk and Lutsk).

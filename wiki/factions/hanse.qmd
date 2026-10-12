@@ -8,9 +8,11 @@ categories: [faction]
 {{< include ../_generated/hanse.md >}}
 
 ## Overview
+
 [Record] The German merchant league. The Prussian towns (Danzig, Thorn, Elbing, Königsberg) are the Order's subjects and increasingly its opponents: the Prussian Confederation of 1440. Riga dominates Daugava trade and Polotsk. The Hanse's Peterhof sits at Novgorod; a Hanseatic Kontor at Kaunas is dated 1441 (most sources; one gives 1445). A Riga-born merchant, [Hanul](../characters/hanulas.qmd), was a burgher and namiestnik of Vilnius in 1382-87 and in 1382 led the townsfolk who yielded Vilnius to Jogaila.
 
 ## Wants (by book)
+
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
 | I | A friendly lord in Vilnius; safe roads | Silver and the chain from Riga (I ch. 1, 5); the Trakai envoys (I ch. 28) | The Reise closing the rivers |
@@ -19,10 +21,13 @@ categories: [faction]
 | V | A Kontor at Kaunas; relief from the Order | Hansa merchant Tilmanas of Riga at Goštautas's feast (V ch. 17) | The Confederation going to war |
 
 ## Patron Force
+
 [Saga] The [Gold-Glutton](../forces/gold_glutton.qmd) (Mercator-Rex): tolls, ledgers and warm coins. Its envoys walk Trakai in Book I ch. 28. The Shadow-Seller's first mask, Hanulas, is a Riga merchant (D2; Book I ch. 1, 5).
 
 ## Internal tensions
+
 Prussian towns against the Order; Riga against its archbishop and the Livonian Order; Lübeck against the rest. The amber trade is the Order's monopoly and the towns want it.
 
 ## Notable members
+
 [Hanulas](../characters/hanulas.qmd) (the Shadow-Seller's mask).

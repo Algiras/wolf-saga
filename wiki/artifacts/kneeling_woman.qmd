@@ -8,21 +8,27 @@ categories: [artifact]
 {{< include ../_generated/kneeling_woman.md >}}
 
 ## Description
-A human-sized kneeling woman of honey-coloured amber, with small insects and grains of sand suspended inside. She kneels at the tide line facing the sea. In Book I ch. 27 her head is bowed and hands clasped; in Book IV ch. 8 her arms are stretched out, palms up. Her face is "like candle wax". Fishermen tie ribbons to her neck.
+
+A human-sized kneeling woman of honey-coloured amber, with small insects and grains of sand suspended inside. She kneels at the tide line facing the sea. Her head is bowed and her hands are clasped (Book I ch. 27; the books now agree on this pose). Her face is "like candle wax". Fishermen tie ribbons to her neck.
 
 ## Power
+
 The Amber Queen's last anchor on land (graph: anchors [Gintaro Karalienė](../forces/amber_queen.qmd) 1384-1450). She calms storms along that shore. She is warm to the touch and light as a sleeping child. Her glow tracks how well she is remembered.
 
 ## Rule & cost
+
 Whoever moves her dies at sea (`power_systems.md` §5). Gifts of bread or fish must be left for her when amber is taken from the shore; amber taken without an offering stays cold for life (Book V ch. 25). She dims as people forget her story (V ch. 25).
 
 ## Origin
+
 Left where [Birutė](../characters/birute.qmd) vanished into the sea at Palanga on the night of the Amber Sacrifice, 1384 (Book I ch. 27), the payment of the Amber Debt that bought the Hidden Groves.
 
 ## Arc across the books
+
 No one "holds" her; the graph gives only her anchor edge.
+
 - **1384.** The wave leaves her on the sand (Book I ch. 27).
 - **March 1410.** Vytautas visits; she pales and the Queen's voice grows quieter (Book III ch. 14, which also has the Queen speak through the pebble).
 - **Oct 1417.** The priest Andžej Radzimski takes six men to remove her. Hammers fail; the boat sinks calmly; she is back at dawn with six crosses in her hands (Book IV ch. 8).
 - **1445-1446.** The village forgets and she goes grey (Book V ch. 25).
-- **March 1450.** She glows again the evening Žiežirba tells his stories, and is the pyre's site (V ch. 29). The closing tide of Book V is Birutė's own, the water reaching her chin (V ch. 29); the chapter notes read it as the sea taking the statue, but the text never says she is lost, and a mother in 1553 still speaks of "the kneeling woman" (V ch. 30).
+- **March 1450.** She glows again the evening Žiežirba tells his stories, and is the pyre's site (V ch. 29). The closing tide of Book V is Birutė's own, the water reaching her chin (V ch. 29); the sea takes the statue (V ch. 29); in 1553 the mother's talk of "the kneeling woman" is memory and tale (V ch. 30).

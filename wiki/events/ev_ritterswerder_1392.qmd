@@ -1,0 +1,24 @@
+---
+title: "The break: Ritterswerder guests seized, Order forts burned"
+id: ev_ritterswerder_1392
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_ritterswerder_1392.md >}}
+
+## What the chronicles say [Record]
+
+Ritterswerder was built by the Order in autumn 1391 on a Nemunas island near Lampėdžiai. In summer 1392 (July) Vytautas invited the Knights to festivities there, took most of the prominent guests prisoner, and destroyed Ritterswerder, Metenburg and Neugarten near Grodno (en.wikipedia, Civil War 1389-92 and Ostrów Agreement). **No source gives a day.** In May the Order had released [Ona](../characters/ona.qmd) so that she could travel to Lithuania and spread pro-Lithuanian rumours; Žygimantas stayed a hostage.
+
+## What really happened [Saga]
+
+The important guests are seized and the rest of the garrison is put out alive. The Rasos (St John's) night of the burning is the saga's invention. The Order hears of the burned forts; by a contested tradition it takes its revenge on the [hostage sons](ev_sons_poisoned.qmd).
+
+## Consequences
+
+Caused by [the siege of Vilnius](ev_vilnius_siege_1390.qmd). Leads to [the Agreement of Ostrów](ev_ostrow.qmd) and, by the tradition, [the poisoning](ev_sons_poisoned.qmd).
+
+## Dramatisation
+
+Book II ch. 9 "Kraujo Puta" (Vytautas; spring to summer 1392, the Nemunas and Prussia).

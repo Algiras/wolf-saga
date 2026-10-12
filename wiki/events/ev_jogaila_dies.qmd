@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_jogaila_dies.md >}}
 
 ## What the chronicles say [Record]
-Jogaila died on 1 June 1434 at Gródek near Lviv, in the forty-eighth year of his reign. According to Długosz he caught a cold in a late-April frost at Medyka, listening to nightingales at night, was ill for weeks and was taken to Gródek; the day before he died he summoned loyal knights and entrusted his sons to them. Queen Sophia was in Kraków; Oleśnicki and the chancellor, bound for Basel, turned back at Poznań. The body reached Kraków on 11 June and the funeral was at Wawel on 18 June (historia.org.pl, 11 October 2024). His birth year is c. 1362 on current scholarship (Tęgowski 1999), so about 72; an older view gives c. 1352 (verify). The graph shows the place as Kraków; he died at Gródek.
+
+Jogaila died on 1 June 1434 at Gródek near Lviv, in the forty-eighth year of his reign. According to Długosz he caught a cold in a late-April frost at Medyka, listening to nightingales at night, was ill for weeks and was taken to Gródek; the day before he died he summoned loyal knights and entrusted his sons to them. Queen Sophia was in Kraków; Oleśnicki and the chancellor, bound for Basel, turned back at Poznań. The body reached Kraków on 11 June and the funeral was at Wawel on 18 June (historia.org.pl, 11 October 2024). His birth year is c. 1362 on current scholarship (Tęgowski 1999), so about 72; an older view gives c. 1352 (verify). The graph now places the death at [Gródek](../places/grodek.qmd); the body was taken to Kraków.
 
 ## What really happened [Saga]
+
 His death ends the cousins' feud, and [Henė](../characters/hanulas.qmd) loses his last stone, Jogaila's: it drops and his hands are empty. Jogaila, who had dreamed of a jester turning a black stone, sees Kęstutis at the foot of the bed and pretends not to. The last confession is invention (the record is silent).
 
 ## Consequences
+
 The graph records no outgoing edge. [Žygimantas](../characters/zygimantas.qmd)'s Orthodox-rights privilege follows on 6 May 1434, and the war of the heirs moves to [Pabaiskas](ev_pabaiskas.qmd).
 
 ## Dramatisation
+
 Book V ch. 12 "Lakštingala" (Jogaila; late April to 1 June 1434; Medyka and Gródek) and ch. 6 "Paskutinis Akmuo" (his dream, 1431).

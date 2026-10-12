@@ -1,0 +1,26 @@
+---
+title: "Horodło (on the Bug)"
+id: horodlo
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/horodlo.md >}}
+
+## In the 1380s [Record]
+
+Horodło on the Bug, where the union was signed on 2 Oct 1413 ([event](../events/ev_horodlo.qmd)).
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+A heraldry ceremony that is a declaration of civil war twenty years early.
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Book IV ch. 2.

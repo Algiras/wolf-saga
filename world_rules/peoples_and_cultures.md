@@ -138,6 +138,7 @@
 | **Pagan clergy** | *krivis* (high priest), *žyniai* (priests, seers), *vaidilutės* (priestesses of the flame), *burtininkai* (lot-casters) | The keepers of the cult | Rites, divination, the flames | Honour and offerings; **the structure is poorly documented** (most titles come from Prussian sources or later writers (verify)), and the saga's priesthood is largely invention |
 
 **Rules of thumb for scenes.**
+
 - **Status is personal and armed.** A boyar is what his horse, retinue and ancestors make him. There are no coats of arms in pagan Lithuania: the **Horodło union of 1413** gives 47 Lithuanian families Polish arms [Record]. Use **personal signs** (seal-marks, house-marks, horse brands) in Book I and heraldry from Book III.
 - **Baptism becomes a class line in 1387.** Jogaila's 1387 privilege grants rights to **Catholic** boyars [Record], so after it, conversion buys status. That is exactly the "purchased baptism" the White Silence eats (cosmology §3.3).
 - **Hostages** (*įkaitai*) are the hinge of every treaty. Vytautas's wife and children with the Order (1383–84, again 1390–92) are standard practice, and his sons' deaths in 1392 (verify) are its cruellest result.
@@ -147,11 +148,13 @@
 ## Part C. Daily life
 
 ### C.1 Law and blood-feud
+
 - **[Record]** There is no written Lithuanian law until the **First Statute (1529)**. In 1382 justice is **customary**, administered by the grand duke, princes and elders, with the duke as final judge. The statutes later preserve old principles: **compensation for killing** (head-money, *galvapinigiai*), graded by the victim's status, and recognised **private vengeance** curbed by it.
 - **[Ethnographic/Saga]** **Blood-feud** between boyar kin-groups is a live threat: a killing obliges the kin to take vengeance or accept payment. Kęstutis's murder is, in this frame, the ultimate unpaid blood-debt, and Vytautas's whole life is the feud. **The saga can treat the 1392 Ostrów settlement as head-money paid in land.**
 - **Ordeals and oaths** decide what witnesses cannot. Treaties are secured by **oaths plus hostages**.
 
 ### C.2 Oaths
+
 - **[Record]** In **1351 Kęstutis swore an oath to Louis of Hungary with a pagan rite, sacrificing an ox**, promised baptism, and slipped away (chronology). Order and Rus' sources show pagan Lithuanians swearing treaties by their own gods and rites (details are scanty (verify)).
 - **[Saga, per cosmology]:**
   - **By earth (Žemyna):** kneel and **kiss the bare earth** or take a handful into the mouth. **Binding physically**: the oath-breaker's land rejects him (crops fail, horses balk at his threshold).
@@ -160,11 +163,13 @@
 - **Christian oaths on relics and the Gospels** arrive with baptism. **[Saga]** They bind nothing in the old cosmology, which is why the old gods regard Christian treaties as "unwitnessed" and why the Order's treaties feel unreal to pagans.
 
 ### C.3 Hospitality: bread and salt
+
 - **[Ethnographic]** Welcoming a guest with **bread and salt** is a deep Baltic and Slavic custom, recorded richly in later centuries. Projecting it to 1382 is reasonable (ch. 1 uses it well).
 - **Salt is precious**: Lithuania has **no salt of its own** and imports it from Prussia, the Hanse and Galicia [Record]. Offering salt is offering wealth.
 - **[Saga rule]** **Bread-and-salt makes the guest sacred for three days**, and harming him breaks custom (the dvasios notice). The Krėva arrest and the 1384 burnings are both **violations of hospitality**, from opposite sides. This is the grey symmetry: Vytautas repays Skirgaila's betrayal with his own.
 
 ### C.4 Marriage and women's power
+
 - **[Record]** Gediminid women are **instruments and agents of diplomacy**. **Danutė (Anna) Kęstutaitė** married **Janusz I of Masovia**. **Rimgailė** married into Masovia too (verify). Algirdas's daughters married into Rus' and Poland. **Julijona of Tver** (Jogaila's mother) is a political force in the 1370s–80s. **Ona** (Vytautas's wife) manages the Krėva escape, endures years as hostage, and later **travels to Prussia as Vytautas's envoy** (c. 1400 (verify)) [Record].
 - **Pagan custom (verify):** Order and Christian writers accuse pagan Lithuanian nobles of **polygyny**. Treat it as possible but unproven; the saga need not use it.
 - **Bride-taking:** The **Birutė legend** (16th-c. chronicles) has Kęstutis take the Palanga priestess **by force**, because she was vowed to the flame [Record as legend]. **[Saga]** That violence is part of the Amber Debt. Keep it uncomfortable, not romantic.
@@ -177,6 +182,7 @@
   - **Jadvyga:** power by **crown and sacrifice**.
 
 ### C.5 Death: cremation and burial
+
 - **[Record]** Pagan Lithuanian rulers were **cremated**. **Kęstutis was burned in Vilnius in August 1382** with his horses, weapons, hounds and falcons, and with **lynx and bear claws** so that he could climb on Judgement Day (Długosz). Algirdas's 1377 funeral is reported as a cremation with horses, though some Rus' sources claim he died Orthodox (verify).
 - Ordinary Lithuanians in the 14th century used **both cremation and inhumation**. Samogitia kept cremation longest (into the 15th c. (verify)). Christians (Ruthenians, Catholics) bury.
 - **[Record/Ethnographic]** The dead are **fed** at autumn feasts (*Vėlinės*, the "souls' days", later fused with All Souls). Food is left on the table, a place is set, the doors are opened.
@@ -184,18 +190,21 @@
 - **Pilėnai (1336) [Record, Order chronicles]:** the defenders, under **Margiris**, burned themselves and their property rather than surrender. **[Saga]** A sacred memory: "the Pilėnai choice". It is the place-name to invoke when a character chooses fire over the cross.
 
 ### C.6 Food and drink
+
 - **Staples [Record/archaeology]:** **rye** (bread; sacred, never thrown away, a dropped crust is kissed [Ethnographic]), barley (groats, beer), oats, wheat for the elite, **peas, beans, turnips, cabbage, onions, garlic, hemp and flax seed**; dairy (curd cheese, butter, sour milk); pork, beef, mutton, poultry; **game** (venison, boar, wisent, beaver tail as a fast-day dish (verify)); **fish** (pike, bream, eel, salted herring imported via the Hanse); mushrooms and berries; **honey**.
 - **Drink:** **alus** (beer: everyday), **midus** (mead: festive, elite, ritual; famous abroad [Record]), **gira** (kvass-like), **birch sap** in spring [Ethnographic]; **wine** imported for church and high table.
 - **Anachronism watch:** **no potatoes, tomatoes, maize, peppers, tobacco, coffee, tea, chocolate, or New World turkey**. **Sugar** is a rare imported spice. **Lemons** are a miracle. **Cucumbers** (in `references/daily_life_symbols.md` line 7) are doubtful for 1380s Lithuania (verify). **Beetroot soups** belong to later centuries (verify). **Buckwheat** is spreading in the east (verify the period).
 - **Feast rules [Saga + Ethnographic]:** The first drops of every drink go to the earth (Žemyna). The first slice of bread goes to the hearth (Gabija). A guest is fed before he is questioned.
 
 ### C.7 Clothing and arms
+
 - **Common folk [Record/archaeology + Ethnographic]:** linen shirts and wool overgarments (*sermėga*, *rudinė*), patterned woven belts (*juostos*: protective, gifted at weddings), leg-wraps and bast shoes (*vyžos*) or leather shoes, fur caps and sheepskins in winter. **Married women cover their hair** (linen headwraps, *nuometas*); **maidens** wear headbands or crowns [Ethnographic]. Bronze and silver jewellery; **amber beads and amulets**.
 - **Boyars:** Ruthenian-style kaftans and furs with Western touches; imported cloth (Flemish scarlet is a status marker); silver belts; good boots.
 - **Arms, Lithuanian [Record]:** mail shirts; conical or rounded helmets; **lamellar** and scale from the east; round shields and the large **pavise** (the "Lithuanian shield" is a possible origin of the pavise (verify)); **spears**, **javelins** (the *sulica* type), axes, swords (often imported), bows and increasingly **crossbows**. **Light, hardy horses** (ancestors of the *žemaitukai*) that cross bog where Western chargers founder.
 - **Arms, Order:** see A.8. Bombards are **new and few in the 1380s** (the Order uses guns in the 1380s–90s; their first use in the region is debated, and `references/warfare.md` line 12's "early 14th century" is too early (verify)).
 
 ### C.8 Housing
+
 - **[Record/archaeology + Ethnographic]** A Lithuanian homestead is **timber**, log-built:
   - **troba / numas:** the dwelling, often a **smoke-hut** without a chimney (the smoke finds the roof).
   - **klėtis:** storehouse and granary; the family's valuables, the bride's chest, summer sleeping for the young; [Ethnographic] a semi-sacred place.
@@ -206,12 +215,14 @@
 - **Castles:** most are **wood and earth** on hillforts; a handful are **brick and stone** (Vilnius, Trakai, Krėva, Medininkai, Lida, Kaunas before 1362). See the gazetteer.
 
 ### C.9 Crafts and amber
+
 - **Smiths** are respected and feared. **[Record]** The 1261 *Malalas* gloss names a divine smith, **Teliavelis**, who forged the sun (verify). **[Saga]** Smiths stand between Gabija's fire and the Iron Saint's iron, and a smith's oath is double.
 - **Amber [Record]:** The **Order holds an amber monopoly (the *Bernsteinregal*)** on the **Samland coast**. Coastal people must hand over what they gather, under oath and harsh penalties, with gallows on the shore remembered in later centuries (verify for the 14th c.). The Order sells raw amber to the **rosary-makers' guilds of Bruges and Lübeck** (the *Paternostermacher*) [Record]. **Saulė's tears end up as Christian prayer beads.** The irony writes itself; use it once, well.
 - **At Palanga** (outside the monopoly, in Samogitia) amber is gathered after storms, worked into beads and cone-shaped amulets, and **offered to the sea** [Saga + archaeology of amber ornaments].
 - **Other crafts:** weaving (belts, linen), pottery, bone and antler, leather and fur, **beekeeping in tree-hives** (*drevininkai*), carpentry (the whole world is wooden), boat-building on the rivers.
 
 ### C.10 The economy
+
 - **[Record] Exports:** **furs** (squirrel by the hundred-thousand, marten, beaver, sable via the east), **wax** (one of the great exports: the Order and the Hanse pay well, and **Lithuanian wax lights Western altars**), honey, hides, timber, amber (via the Order).
 - **Imports:** **salt** (critical, and embargoable), **cloth**, **iron and weapons** (papal and Order bans on selling arms to pagans; smuggling is constant (verify specifics)), silver, wine, spices.
 - **Tribute of the Ruthenian lands:** silver, furs and grain flow from Polotsk, Vitebsk, Kyiv and Volhynia to Vilnius. **The empire pays for the pagan core**, an uncomfortable truth for saga Lithuanians who see themselves as the persecuted ones.
@@ -220,6 +231,7 @@
 - **Ch. 2's "Venetian wax" as a luxury gift to Lithuania** (02_vilko_perspejimas.qmd:21; 03_gintaro_sapnas.qmd:7) is **coals to Newcastle**: Lithuania exports wax. Either make it an intended **insult** (Vytautas can say so) or swap it for **Venetian glass**, **Flemish scarlet**, or **perfumed** candles (the perfume, not the wax, being the luxury).
 
 ### C.11 War customs
+
 - **The raid** (*žygis*, Germ. *Reise*) **[Record]:** Lithuanian and Order warfare in the 14th century is mostly **raiding**: fast columns that burn crops, drive off cattle and **take captives**. Set battles are rare (Strėva 1348, Rudau 1370). Castles are besieged in great campaigns.
 - **The Reise from the other side [Record + Saga]:** Smoke on the horizon three villages away, then **horns from the hillfort**. Cattle driven into the bog islands; the old, women and children into the hillfort or the forest; grain buried; the žaltys left to guard the empty house. The column arrives, burns, takes whoever is slow, and is gone in a day. Two weeks later the winter kills more than the raid did. **Write the Reise once from a Samogitian girl's point of view** and every Order scene after it will carry weight.
 - **Captives and ransom [Record]:** Captives are wealth. Nobles are **ransomed**; commoners are **settled as labour** (Lithuanians) or **sold or settled** (the Order also takes Lithuanian captives to Prussia as peasants). **Exchange of prisoners** is part of every truce.

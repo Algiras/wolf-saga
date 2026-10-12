@@ -1,0 +1,24 @@
+---
+title: "Kęstutis captured at Lake Ublik"
+id: ev_kestutis_captured_1361
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_kestutis_captured_1361.md >}}
+
+## What the chronicles say [Record]
+
+[Kęstutis](../characters/kestutis.qmd), over sixty, and Algirdas had taken the Order's Eckersberg and Johannisburg in Masuria. Returning, his camp by [Lake Ublik (Wobel)](../places/lake_ublik.qmd) was fallen on by a small band of knights coming back from another raid (en.wikipedia; Baronas 2003; the English article says he was overcome by the third knight who attacked him). **Wigand dates the capture 21 March 1361**, Hermann von Wartberge 13 March; VLE says "near Įsrutė". He was held at Marienburg about half a year.
+
+## What really happened [Saga]
+
+The saga keeps the record's chance meeting (an older draft staged a trap with 600 riders at the Šešupė ford in August; that is gone). The third knight is the invented young brother [Hohenstein](../characters/hohenstein.qmd), who offers terms; Kęstutis, bound by the mark on his palm, will not say "I surrender" because he could not then escape. The hidden nine cannot reach him in time.
+
+## Consequences
+
+Leads to [the escape from Marienburg](ev_kestutis_escape_1361.qmd) on 11 Nov 1361.
+
+## Dramatisation
+
+Book VI ch. 16 "Paimtas" (Kęstutis; March 1361, frost and thaw, the Masurian lakes of Sūduva).

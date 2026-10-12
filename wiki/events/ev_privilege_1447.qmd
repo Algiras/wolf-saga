@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_privilege_1447.md >}}
 
 ## What the chronicles say [Record]
+
 Casimir Jagiellon, born 30 November 1427, was proclaimed Grand Duke by the lords in Vilnius on 29 June 1440 (aged twelve) and issued his privilege for Lithuania in Vilnius on 2 May 1447 (the VLE says 5 May). It gave offices only to locals, forbade the arrest or confiscation of a noble without trial, allowed free travel abroad, promised no reduction of Lithuania's territory, gave landowners jurisdiction over their peasants and secured the rights of townspeople and of nobles regardless of rite. He was crowned King of Poland at Wawel by Archbishop Wincenty Kot on 25 June 1447 (pl.wikipedia, Kazimierz IV). Casimir died on 7 June 1492.
 
 ## What really happened [Saga]
+
 Laws, seals and charters replace oath and omen. A jester at the feast offers the young king a deal and Casimir looks straight through him. The old world becomes folklore; the gods do not die but are written out.
 
 ## Consequences
+
 The graph records no causes edges; the privilege follows [the murder of Žygimantas](ev_zygimantas_killed.qmd) and the raising of Casimir, and the Lithuanian lords' bargain it records is the end-point of Book V's slow drift from oath to ledger.
 
 ## Dramatisation
+
 Book V ch. 26 "Raštas prieš Burtus" (Casimir; 2 May to 25 June 1447, Vilnius and Kraków, spring into early summer).

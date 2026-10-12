@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/smakas.md >}}
 
 ## Folk source [Record]
+
 The usual Lithuanian folk dragon is the **slibinas**, often many-headed, which demands tribute (often maidens) and is slain by a hero in the international dragon-slayer pattern. *Smakas* is a Slavic borrowing (*smok*). The folk dragon overlaps with the fiery-flying aitvaras and with serpents generally.
 
 ## In the saga (where the folk are half-wrong)
+
 A smakas is a **žaltys that grew wrong**: a snake-king fed on blood instead of milk, with the žaltys's link to a household's luck swollen into a link with a whole town's. After the sacred snakes of Šventaragis are killed (Book I ch. 29) their bodies are thrown unburned into the trench for the new cathedral; snake-blood in the ground breeds snakes, and blood spilled in hatred breeds a single smakas beneath the bishop's floor. Its demand for maidens is the folk memory of towns paying daughters to keep their prosperity. Eglė's žaltys remains the last living snake of the old line; the smakas is the line's revenant.
 
 ## Signs & habitat
+
 Under hill-forts, cathedrals and old cellars; cattle vanishing; a town that prospers inexplicably while its girls disappear.
 
 ## Before / after the Unbinding
+
 Before: very rare, put down by the Krivis's people. After 1387: one beneath the Vilnius cathedral, feeding on the city's wealth; the [Gold-Glutton](../forces/gold_glutton.qmd) and the [Root-Mother](../forces/root_mother.qmd) both want it.
 
 ## Banes, wards, bargains, and their cost
+
 Fire and smith's iron (it lives deep; digging it out means digging up the town). Tribute, as towns have always paid. Starve it of luck: if the town stops prospering it weakens, and the town stops prospering.
 
 ## Danger level
+
 IV deadly → V calamity.
 
 ## Story hooks
+
 Books II–V: **"The Smakas under the Cathedral"**, the revenant of the slaughtered sacred snakes, grown monstrous under the bishop's floor.

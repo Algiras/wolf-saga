@@ -8,6 +8,7 @@ categories: [house]
 {{< include ../_generated/jogailaiciai.md >}}
 
 ## House card
+
 | | |
 |---|---|
 | **Seat** | **Vilnius** (as Grand Dukes), **Krėva** (Algirdas's patrimonial castle, Jogaila's refuge and prison of 1381–82), **Vitebsk** (Uliana's dower lands), later **Kraków** (Wawel). [Record] |
@@ -16,14 +17,17 @@ categories: [house]
 | **Patron / burden** | The [Shadow-Seller](../forces/shadow_seller.qmd) (Jogaila's 1382 bargain: his line inherits the crown and loses the land); the [White Silence](../forces/white_silence.qmd) where baptisms are bought; later the [Gold-Glutton](../forces/gold_glutton.qmd). [Saga] |
 
 ## Lineage
+
 Algirdas's second marriage (1350) to **Uliana of Tver** produced the inner dynasty: [Jogaila](../characters/jogaila.qmd) (c. 1362 – 1 Jun 1434; Władysław from 1386), [Skirgaila](../characters/skirgaila.qmd), Kaributas, Lengvenis, Karigaila, Vygantas and [Švitrigaila](../characters/svitrigaila.qmd). [Record]
 
 Jogaila's four marriages: **Jadwiga of Anjou** (1386; one daughter, who died in infancy in 1399), **Anna of Celje** (1402; Jadwiga, 1408–31), **Elżbieta Granowska** (1417; none) and **Sophia of Halshany** (1422), mother of **Władysław III** (1424–44), **Casimir IV** (1427–92) and a short-lived Kazimierz. [Record] Sophia's family is the [Alšėniškiai](alseniskiai.qmd). Casimir was elected Grand Duke on 29 Jun 1440, aged 12, and crowned King of Poland on 25 Jun 1447.
 
 ## Feuds & alliances
+
 Jogaila against Kęstutis (1380–82) and Vytautas (1382–84, 1389–92); Švitrigaila against everyone (1393, 1402, 1408, 1430–32); Skirgaila's resentment of Jogaila's ingratitude. Marriage web: Moscow (Lengvenis, Elena), Masovia (Aleksandra and [Siemowit IV](masovian_piasts.qmd)), Pomerania, Mecklenburg. After 1386 the house is also the Polish crown, and the Lesser Poland lords rule through it.
 
 ## Fate across the books
+
 - **I:** Jogaila, bought by Henė, kills his uncle and agrees the Krėva Union (1385); baptised 1386. **II:** distant in Kraków; Skirgaila rules for him. **III:** reconciliation at Grunwald.
 - **IV:** outlives Vytautas, still guilty; his sons come only from the last wife, and the lords sell their succession for privileges.
 - **V:** Jogaila dies at Gródek (1 Jun 1434), Henė's last stone dropping. Casimir inherits both realms, and the Grand Duchy becomes a province of his house, as the bargain's letter said. [Saga]

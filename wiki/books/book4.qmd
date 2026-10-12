@@ -18,18 +18,23 @@ categories: [book]
 | **III · Nematoma Karūna** (The Invisible Crown) | ch. 21–30 | 1430 | The crown's journey; the last bargain; the [crown intercepted](../events/ev_crown_intercepted.qmd); [Vytautas dies](../events/ev_vytautas_dies.qmd), 27 Oct 1430. |
 
 ## Premise
+
 Grunwald won the war and lost the gods. Samogitia is baptised and the Hidden Groves fall (1413–17) while Vytautas preaches by day and keeps the Last Flame by night. He rules from the Baltic toward the Black Sea and wants a crown so the realm will not revert to Poland. At Lutsk, Sigismund offers one. The Bishop of Kraków sets out to stop it, and the Shadow-Seller makes his last offer: the crown if the flame is allowed to die. Vytautas refuses. The embassy is blocked at the Polish border in August 1430, and he dies uncrowned; the flame goes out with him.
 
 ## Protagonist arc (form at start → form at end)
+
 **Geležinis Vilkas**, its last tells fading across Part I, until Ona's death turns him into **Ugnies Sargas** (Keeper of the Flame): old, half-deaf, with Julijona beside him and the vault beneath. Want: the crown. Lie: "legitimacy comes from Rome or Kraków". Truth: it comes from what you keep. Costs: the crown, Ona, his life.
 
 ## Antagonists & outcomes
+
 - **[Zbigniew Oleśnicki](../characters/olesnicki.qmd)**, Bishop of Kraków from 1423, with the Gold-Glutton behind him: **wins** the crown fight; the inner battle goes to Vytautas.
 - **[Henė](../forces/shadow_seller.qmd)**: refused; his stones fall from two to one.
 - **[Sigismund](../characters/sigismund.qmd)**: the ally who turns temptation and withdraws. [Jogaila](../characters/jogaila.qmd) outlives Vytautas, still guilty.
 
 ## Threads advanced (see books/series_arc.md)
+
 - **A:** the groves fall (1417); Unbinding 4, then 5 at his death. **B:** the flame kept by Žiežirba, then extinguished. **C:** the amber statue is the target of Polish clergy (ch. 8). **D:** Henė moves to Sigismund's court (ch. 17). **E:** Perkūnas silent. **F:** Eglė fades. **G:** wolves hunted by the Church; Pilkoji the first Vilkų Motina. **I:** Ona's death; Vasily II under Vytautas's protection. **J:** the Gold-Glutton's ledgers (the Counter).
 
 ## Hands on to the next book
+
 The flame is out and the pebble cracked; the silver wolf waits for the keeper; Henė holds one stone. Lords raise Švitrigaila while Žygimantas Kęstutaitis waits; Polish lords seize Podolia; Sofija rules Moscow as regent. Book V ch. 1 replays the going-out from the vault.

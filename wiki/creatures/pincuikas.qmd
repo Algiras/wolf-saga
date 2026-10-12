@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/pincuikas.md >}}
 
 ## Folk source [Record]
+
 A folk name for a minor devil, best known in literature from Kazys Boruta's novel *Baltaragio malūnas* (1945), where Pinčiukas is the devil who bargains with the miller. Boruta drew on oral tradition, but how widespread the name was in folk use is uncertain.
 
 ## In the saga (where the folk are half-wrong)
+
 One named velniukas, the **Shadow-Seller's clerk**. Where [Henė](../forces/shadow_seller.qmd) makes the great deals with princes, Pinčiukas makes the small ones with millers, sextons and serving-maids and keeps the threads that bind them. Fussy, polite, fond of mills and millponds, always carrying a ledger: the reason Henė always knows who in a castle can be bought.
 
 ## Signs & habitat
+
 Mills and millponds; a dapper little man who knows everyone's debts; a stammering polite voice behind a door.
 
 ## Before / after the Unbinding
+
 Before: one clerk among many. After: promoted; the Unbinding is a boom time for small bargains.
 
 ## Banes, wards, bargains, and their cost
+
 Make him write the bargain down, then read it back aloud (he cannot resist reading), and be able to spot the trick when he does. Never let him name the price "later"; he will refuse the bargain and you will not get what you came for.
 
 ## Danger level
+
 II hazard → III dangerous.
 
 ## Story hooks
+
 Book II ch. 5: he sold the plot of 1389 to Skirgaila for a miller's debt. Book VI ch. 27: the polite clerk with a ledger at the mill. Books II–IV: Henė's comic, frightening go-between.

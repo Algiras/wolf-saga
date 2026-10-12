@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/reizos_raiteliai.md >}}
 
 ## Folk source [Record]
+
 [Saga invention.] Built on a historical practice: the Order's crusading season, the *Reise*, brought guest-knights from across Europe each winter and summer to raid Lithuania.
 
 ## In the saga (where the folk are half-wrong)
+
 The [Iron Saint](../forces/iron_saint.qmd)'s creatures. Knights who died on Reise in a state of complete fearless conviction, the state the Iron Saint grants, did not stop. They ride the old raid-routes on the anniversary of their death: a column of armoured riders whose mail never rusts, smelling of quench-water and hot iron, who ride through villages without seeing them and kill everything in their path as they once did. They do not hunger; they repeat.
 
 ## Signs & habitat
+
 Furnace heat in winter; crosses that ring like anvils; the Reise routes through the Wildnis, along the Neman and into Samogitia; hoof-prints that steam in snow.
 
 ## Before / after the Unbinding
+
 Before 1387 they ride only in Prussia, harmlessly, on Order land. After: the Pact no longer bars them from Lithuanian soil.
 
 ## Banes, wards, bargains, and their cost
+
 They cannot cross unfrozen running water (the Reise needed frozen ground and fords; in winter everything is frozen). Bog-iron does nothing and feast-day iron feeds them; only smith's iron forged at a pagan hearth bites, and few such smiths remain. Stand still and do not fear: they see only fear and pass the fearless by.
 
 ## Danger level
+
 IV deadly (after 1387).
 
 ## Story hooks
+
 Book III: the Riders strengthen before Grunwald and scream when the Iron Saint breaks. Book IV: Riders on the Samogitian roads as the Hidden Groves fall. Book V ch. 14: they break at the unfrozen river at Pabaiskas.

@@ -1,13 +1,15 @@
 # Book II, Part 3 (ch. 21–30): notes for other parts
 
 ## Dates and places used
+
 - **Kraków:** Elżbieta Bonifacja born Sun **22 Jun 1399** (baptised the same day; second name from the pope), dies Sun **13 Jul**; Jadwiga dies **Thu 17 Jul** at dawn; the child is laid in her arms. Frost on Wawel's windows in July; sound dies on the bells' way out of the castle (the White Silence's anchor begins). Wawel "colder than other castles" afterwards.
 - **Kyiv:** Spytko receives the chancellor's letter about Jadwiga c. 28 Jul; the army crosses the Dnieper at dawn c. 30–31 Jul; ~10 days' march; reaches the Vorskla on day 10 (10 Aug). Parley **Mon 11 Aug**; Lithuanians cross the ford that afternoon and camp on the east bank with the river at their back. Battle **Tue 12 Aug**. Vytautas reaches the Dnieper oakwoods (south of Kyiv) on day 4 of the flight and the Pechersk monastery at night about 8 days after the battle. Edigu stands before Kyiv at the start of September; the ransom is paid; the Tatars burn Volhynia (towards Lutsk). Vytautas is back at Trakai in **September 1399** (outline said "autumn"). Epilogue: Marienburg, Dec 1399.
 
 ## Facts established (please respect)
+
 - **Jadvyga:** heals by touch and pays in frost (healed a leper at Easter 1396; cold for a week afterwards). Her will leaves jewels to refound the Kraków school and money to the Vilnius church ("they have a language"). To Jogaila: "be needed by more than the Poles"; "go to Vytautas, and do not speak in the king's voice"; she senses something Jogaila has never told anyone (**hook for Book III: his Krėva confession**). Jogaila talks in his sleep ("not under the floor"). Eglė appears in her dream and says the White Silence will freeze her heart before it saves her soul; Jadvyga's burning cross is now ice. She worried about the steppe war as her own private view (not attributed to Długosz).
 - **Spytkas iš Melštyno** (Lith. form; Leliwa arms: blue field, gold crescent and star): ~200 lances; Lithuanian-speaking squire **Stachas** (Pole raised in Naugarduk); young knight Mikołaj (18). Wrote 500 florins to Wawel for daily Mass for the queen into his will; dies by the ducal wagon, last words: "tell the king the Poles stood", "Jogaila needs you alive". Andrius was held 7 years at Chęciny and came over because Vytautas wrote to him as "Algirdas's first-born"; Spytko calls him "Andriau" once.
-- **Coalition:** Lithuanians, Ruthenians (Smolensk, Polotsk, Bryansk, Kyiv, Volhynia), Poles, Tokhtamysh's Tatars; Order knights only a rumour ("thirty, or a hundred"), never seen. No army sizes given.
+- **Coalition:** Lithuanians, Ruthenians (Smolensk, Polotsk, Bryansk, Kyiv, Volhynia), Poles, Tokhtamysh's Tatars; the Order's knights under Marquard von Salzbach present openly (fact-check; "about 1,600" is only a rumoured figure in the text). No other army sizes given.
 - **Wolves:** old **Pušis** (split nose) leads those who refuse at the Dnieper ("our ground is not there; nothing there holds us"); **Kalvis and eleven** cross. Past the Dnieper the Root-Mother's gift fades: they cough grey ash, cannot hear one another. At the Vorskla Kalvis tries the Change and it stops half-way; the twelve crumble to ash (no bog to lay them in). Their ash stays in the lines of Vytautas's hands; he does not wash it. **Spyglys** (ash-bearer), Kirmėlė and two young wolves are at Trakai; Pušis left for the Dykra the week the news came ("I will come back when the fire asks"). Kalvis is the only one named when Vytautas has the dead read at the Pechersk caves ("Kalvis and eleven without names").
 - **Eglė at Kyiv** (last forest before the steppe): "The Green Wood is dying"; "out there are no roots, only grass, and grass makes roots hungry"; she will not hear him past the river.
 - **Henė:** two stones; makes the golden-city (Sarai) mirage on day 9; after Vorskla he vanishes (absent in ch. 29). Said: "I promised to show you. I showed. Nobody ever said it was yours."
@@ -19,18 +21,21 @@
 - **Marienburg (ch. 30):** Konrad (cautious, counts costs, five castles "cheaper than one lost battle") and Ulrich (39–40, the "holy machine", fearless; feels the Iron Saint as a metal taste and a presence at his side). The map shows Samogitia with **350 groves** (as listed at Salynas). The Memel komtur reports an old tall man at the oath who said "I am already dead" (Galminas). The beam in the Grand Master's hall is Samogitian oak felled c. 1381; Galminas hears the words through its roots in the Dubysa valley.
 
 ## Deviations from the outline
+
 - Spytko's ch. 22 also holds Eglė's farewell and the wolves' refusal; ch. 25 ends before his death, which is shown in ch. 26 from Vytautas's side.
 - Vytautas passes through Kyiv ahead of Edigu (invented; the record is silent).
-- Ransom sum, army sizes and the Order knights' presence kept vague ("verify" items).
+- Ransom sum and army sizes kept vague; the Order knights' presence is now stated (Posilge: nine brothers killed, Marquard saved).
 - Ch. 29 dated September, not "autumn/October".
 - Checked against the finished ch. 20: Ona's single sentence ("Tavo motina būtų pažiūrėjusi") is only alluded to in ch. 23 (Henė: "silent seven years, then one sentence"); ch. 29 has her look at Vytautas himself (in ch. 20 she looked at his hand and the pebble). Ch. 20's glimpse of the defeat (ash-man, dead soldiers) is what ch. 23/26 pay off.
 
 ## Open questions
+
 - Does the girl have a name in Part 1/2 (persona says Elena)? Ch. 27/29 avoid it; if Part 1 names her, a one-word fix makes the loss sharper.
 - Vytautas's permanent deafness/dim sight now starts in 1399 (Book IV had "half-deaf" after five uses); the Five-Voice count by this chapter is at least two (ch. 15 in Book I and ch. 27).
 - Lithuanian forms used: Spytkas, Edigėjus, Temiras Kutlugas, Toktamyšas, Sarajus, Marienburgas.
 
 ## Seam pass (continuity edit, whole book)
+
 Decisions made when reading ch. 1-30 in order. Edits are minimal line adjustments.
 
 - **Elena:** Onos tarnaitė (Book I ch. 12-13, 17) is now named in ch. 27 (the face-loss list: "Elena. Ona buvo liepusi prisiminti jos vardą") and ch. 29 (Vytautas's question to Ona). In ch. 27 the girl is remembered as saying "šaknys ją atsimins" (Book I ch. 13), not as silent.

@@ -1,18 +1,20 @@
 # Book III, Part 1 (ch. 1–10): notes for other parts
 
 ## Dates and places used
+
 - **Ch. 1:** Jan 1400, thaw then frost; Dirvėnai (Gedgaudas's village on the Dubysa), Medvėgalis hill. Ch. 1 is placed in winter 1399–1400, i.e. just after Book II's seam (Dec 1399 Marienburg, Galminas hearing the Grand Master's hall beam).
 - **Ch. 2:** spring 1400 (Dnieper ice-break), Skirgaila's Kyiv estate; three weeks' road north; Trakai island.
 - **Ch. 3:** Vilnius, Lower Castle, 18 Jan 1401; Radom, 11 Mar 1401 (Polish lords; archbishop of Gniezno unnamed); Jogaila at Wawel four days later; March frost on Jadwiga's tomb.
 - **Ch. 4:** April 1401, the Order's new fort at the Dubysa ford; two more forts burn the same week (Venta bank, Neman bend; none named, "verify which"). Smolensk revolt reported by Kirmėlė (Yuri Svyatoslavich back with Ryazan help).
-- **Ch. 5:** Jan–Feb 1402; Marienburg (Konrad von Jungingen), then a nine-day winter Reise to Medininkai (burned); Jogaila's wedding (29 Jan) is "two days ago" in the Medininkai tent scene.
-- **Ch. 6:** 22 May 1404, Raciąż, a parish church and tents; Smolensk retaken "before winter" 1404 (no battle stated).
+- **Ch. 5 (fact-check):** Jan 1402 flight and Marienburg (Konrad von Jungingen; treaty 2 Mar), then a nine-day **summer** Reise (June-July 1402) to Medininkai (burned); Jogaila's wedding (29 Jan) is "in winter" in the Medininkai tent scene.
+- **Ch. 6 (fact-check):** 22-23 May 1404, Raciążek, a castle chapel and tents; Marquard's insult to Birutė at the evening feast (moved here from Book II ch 6; Vytautas: "Aš tai prisiminsiu", second time); Smolensk retaken "tą pačią vasarą" (July 1404).
 - **Ch. 7:** Vėlinės 1404 (village Kalniškės) to the nine nights after Kūčios 1404/05 (Dykra, western/Samogitian side).
 - **Ch. 8:** 13 Sep 1405, eve of Dagotuvės, Trakai island castle (two wings finished, third in scaffolding).
 - **Ch. 9:** Kūčios 1405 (midnight rite in the vault), nine nights in the southern Dykra, return early Jan 1406.
 - **Ch. 10:** Moscow winter 1406 (Pskov war), Ugra stand-off Aug 1408, Švitrigaila arrives in Moscow autumn 1408, Edigu before Moscow Dec 1408 (chapter ends before the ransom/withdrawal).
 
 ## Facts established (please respect)
+
 **Vytautas (Form 6).** Black plain armour, Kęstutis's sword on his belt, unwashed ("Rūdys yra sąskaita"). Hands grey with Kalvis's ash (never washed, visible to everyone including Sofija in 1408). Right ear works, left is deaf; sight blurred beyond two steps and cannot read (needs a scribe: Danila at Kyiv). He hears the Counter's voice under the Kyiv estate: "Trisdešimt" (30 years left, in 1400; consistent with Book II's 35 from 1395). He left his brown Ruthenian kaftan hanging in the empty sword chest in Kyiv; the Kyiv estate was sold, the stripped Pechersk icon oklads returned, the debts paid to the Order. Henė is absent through 1400 (reappears 1401).
 **Pebble:** cold through 1404 (explicitly "five years" in 1405). Stirs once at the refusal in ch. 8 ("kaip pavargusios rankos pirštas", a single tremor, then nothing; later "truputį šilta" when he tells Ona). In ch. 9 it turns warm briefly when Žiežirba's name goes into the flame (Vytautas raises his hand to his chest). Do not let Part 2 call it warm before ch. 17; "stirring" is the most it has done.
 **The sword (ch. 2):** found by Spyglys's scent in the third of twelve oak chests; rust along the *perkūnėlis* under the grip, one blot per oath-break (Dovydiškės, Skirgaila's safe-conduct, Tepliava baptism, the Order oath/Marienwerder, Lyck, Vorskla). Rusted to the guard; not cleaned. Žiežirba: "Jam skauda. Po rankena." Vytautas: "Mumis." (Rust "stopped spreading" at the oath in ch. 17 is Part 2's business.)
@@ -34,21 +36,24 @@
 **Sofija (ch. 10):** Moscow; the Kremlin cathedral stone is cold, her amber bead (from Birutė at 9) is cold in the chapel, weak by the Moskva, **hot at the Ugra** with a sound of surf behind her. Children named: **Ivan** (12 in 1408) and **Anna** (15). Vasily sleeps with a hand on a dagger. She carries Ona's herb pouch and the note "jei kas nors staiga susirgtų, paklausk, ką jis valgė". Ugra: sudden illness in both camps (rumour of poison) is traced to a backwater with three dead horses, fish and crayfish; Vytautas has to ask "Ar tu valgei?" because Ona told him to. Vasily calls him *uošvi*, Vytautas calls him *žente*; the Ugra is the border. Dec 1408: Vasily goes to Kostroma to raise troops (record says he left Moscow; her staying is invented); Moscow burns its own suburbs; snow-devils stand around Edigu's campfires; horsehair on the well rope in the Kremlin. Her unsent letter: "Maskva dabar mano, ir aš neišvažiuosiu. Jei kada nors tau jos prireiks, paprašyk manęs."
 
 ## Objects and magic ledger (Part 1)
+
 - No mortal working over a person's scale. The costs on the page: Galminas's sap (black); Pilkoji's tears and road up; Žiežirba's name, tears, bed; Kirmėlė's life staked; Vytautas's hearing/sight (no new cost). The one casting-level event, the **name-to-fire** in ch. 9, uses no formula (an exchange with the flame itself).
 - Henė's stones: two. Golden chain: on Henė. Silver wolf: on Vytautas (Jogaila cannot look at it for longer than "tris atodūsius"). Kneeling statue: not visited in Part 1.
 - Unbinding level 3 shown by: the Kalniškės dead; Henė's offer; the Reise dead are not shown.
 - Wolves: Pušis, Kirmėlė, Spyglys, Pilkoji, Žiežirba (candidate to wolf in Part 1). Brotherhood still has no Wolf-Father.
 
 ## Deviations from the outline (and why)
+
 - **Pilkoji (ch. 7):** the outline says a fourteen-year-old girl. **Canon Q13's default** (canon_decisions.md) says "Make Pilkoji older (born c. 1365)" because the Flame-Keeper is born c. 1390 and she is his foster-mother. I wrote her as a 38-year-old village layer-out and midwife whose own 14-year-old daughter is among the risen dead. This makes her about 83 in 1449 (Book V ch. 28, "Pilkoji Atsigula") which is long-lived but she is a wolf; Book V may want to say so.
 - **Ch. 8:** the outline says "first deal he has turned down since Krėva". Book II ch. 9 already shows a refusal (the ragana's offer, 1392), so the text says "pirmasis dalykas, kurį atsisakei nuo tada, kai pasakei *sutinku*" (since Book II ch. 20).
 - **Ch. 1:** the opening is set in January 1400 (not "winter 1399–1400" vaguely) so that Galminas has already heard the Marienburg beam (Book II epilogue); the elders' children are taken the same winter.
 - **Ch. 3:** I put Jogaila physically in Vilnius for the 18 Jan 1401 act and in Radom/Kraków in March (record: the Radom act was by the Polish lords; his presence at both is plausible but verify).
-- **Ch. 5:** Medininkai is burned in a winter Reise (Feb 1402) with Brother Dietrichas present; the outline's "Henė's smile at Trakai" is the Trakai-stable memory from Book II ch. 12.
+- **Ch. 5:** Medininkai is burned in a summer Reise (July 1402) with Brother Dietrichas present; the outline's "Henė's smile at Trakai" is the Trakai-stable memory from Book II ch. 12.
 - **Ch. 6:** terms limited to "Samogitia sold again; Order drops Švitrigaila", nothing on Dobrzyń (verify).
 - **Ch. 10:** the outline's "grandfather and son-in-law, two riders" is rendered as father-in-law/son-in-law (Vytautas is the *grandfather* of Sofija's children, which the text does not stress). The "rides between camps" is a ford crossing on horseback; the illness cause (dead horses) is invented.
 
 ## Canon questions
+
 - Ulrich speaking fluent Lithuanian is new (Part 2 ch. 11 and the Grunwald chapters should not contradict).
 - The tally-cord and the second cord's count (2,653) are Saga invention; the žynys's flame leaning east and the vault cord matter for ch. 17.
 - Whether the Order returns any of the 41 hostages: left open ("kai taika sustiprės").

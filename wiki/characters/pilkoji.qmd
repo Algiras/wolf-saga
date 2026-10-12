@@ -1,0 +1,41 @@
+---
+title: "Pilkoji (the Grey One, Vilkų Motina)"
+id: pilkoji
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/pilkoji.md >}}
+
+## Summary
+
+Pilkoji (the Grey One), last Mother of the wolves (*Vilkų Motina*), born c. 1365 (Q13), the first sworn woman; keeps the silver wolf and the pebble from Vytautas's body from 27 Oct to Kūčios (24 Dec) 1430, then gives both to the Flame-Keeper [Žiežirba](flame_keeper.qmd). She lies down in the oldest bog of the Dykra with the Iron Wolf's skull on Vėlinės, 2 Nov 1449 (Book V ch. 28).
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+
+- **[Record]:** No such person in the record.
+- **[Saga invention]:** Everything: her village's dead rose in 1404; she carries Eglė's four names; she is 84 in 1449.
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

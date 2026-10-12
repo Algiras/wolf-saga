@@ -8,12 +8,14 @@ categories: [character]
 {{< include ../_generated/hanulas.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Hanulas, a Riga merchant of Vilnius, led the townspeople who took the castle for Jogaila on 12 Jun 1382 and became first elder of Vilnius (1382-87); in the saga he is [Henė](../forces/shadow_seller.qmd)'s first mask.
 
 ## Appearance & tells
 <!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
 
 ## Want · Need · Lie · Truth
+
 | | |
 |---|---|
 | **Want** (external) | |
@@ -28,8 +30,9 @@ categories: [character]
 <!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
 
 ## Record vs saga
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+
+- **[Record]:** Hanul of Riga (Hennecke, Hannike): took the castle and handed castle and city to Jogaila; Jogaila's deputy in Vilnius 1382-87; took part in the missions before the Act of Krėva; died in Kraków c. 1417-18.
+- **[Saga invention]:** Henė's possession of him 1380-82; the sack of Riga silver is only a rumour in Book I.
 
 ## Pronunciation
 <!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->

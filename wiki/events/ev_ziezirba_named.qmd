@@ -1,0 +1,24 @@
+---
+title: "The keeper is named at the Palanga fire"
+id: ev_ziezirba_named
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_ziezirba_named.md >}}
+
+## What the chronicles say [Record]
+
+Nothing in the record.
+
+## What really happened [Saga]
+
+On the longest night by the drifted calendar (12 Dec 1449; the calendar has drifted twelve days from Kūčios; Praurimė's zenith halves Birutė's cost) [Žiežirba](../characters/flame_keeper.qmd) lights an ordinary driftwood fire on the Palanga shore, the first fire of his own in forty-four years (green-blue with salt). The Amber Queen speaks through the pebble for the last time and gives him his name.
+
+## Consequences
+
+Leads to [his death](ev_keeper_dies.qmd) in early March 1450.
+
+## Dramatisation
+
+Book V ch. 29 "Vardas prie Ugnies" (Birutė's frame voice; 12 Dec 1449).

@@ -14,22 +14,27 @@ categories: [book]
 | Part | Chapters | Years | Core |
 |---|---|---|---|
 | **I · Tylioji Sutartis** (The Silent Pact) | [ch. 1–10](https://algiras.github.io/wolf-saga/6/) | 1341–1350 | Gediminas's pyre; Jaunutis deposed and the diarchy (1345); the [pact sworn](../events/ev_pact_sworn.qmd); Strėva (1348); Birutė at Palanga. |
-| **II · Jūra ir Ugnis** (Sea and Fire) | ch. 11–20 | 1350–1362 | The marriage; Vytautas born; the 1351 ox-oath; Kniprode's Order; the 1361 capture and Marienburg escape; Kaunas (Easter 1362); Blue Waters. |
+| **II · Jūra ir Ugnis** (Sea and Fire) | ch. 11–20 | 1350–1362 | The marriage; Vytautas born; the 1351 ox-oath; Kniprode's Order; the [capture at Lake Ublik](../events/ev_kestutis_captured_1361.qmd) (March 1361) and the [Marienburg escape](../events/ev_kestutis_escape_1361.qmd) (11 Nov 1361; the invented young brother Günther von Hohenstein, not the real komtur and not the 1381 informant); Kaunas (Easter 1362); Blue Waters. |
 | **III · Senasis Šernas** (The Old Boar) | ch. 21–30 | 1365–1377 | Butautas's betrayal; Moscow campaigns; Rudau (1370); Algirdas's will and pyre (May 1377); the epilogue at Trakai. |
 
 ## Premise
+
 In 1345 two brothers push their brother Jaunutis aside and, at night in the Šventaragis valley, swear the Silent Pact: the land will not be conquered while a Gediminid keeps the sacred flames, while no Gediminid sheds Gediminid blood, and while royal blood is paid for land lost. Kęstutis says the last clause aloud, and [Algirdas](../characters/algirdas.qmd) never forgives him. Across thirty years Kęstutis pays the price in kin and keeps his word, marries an amber priestess by a trick the gods must accept, and buries his brother by fire in 1377. The reader learns the clauses here, so every breach in Book I lands.
 
 ## Protagonist arc (form at start → form at end)
+
 **Jaunesnysis Brolis** (the Younger Brother) → **Priesaikos Laikytojas** (the Oath-Keeper), marked by Perkūnas at the 1351 ox-oath → **Senasis Šernas** (the Old Boar), the tired man on whom Book I opens. Vytautas is born in ch. 12 and enters Book I as the Son.
 
 ## Antagonists & outcomes
+
 - **[Winrich von Kniprode](../characters/kniprode.qmd)**: sincere chess-player; wins Kaunas (1362) and Rudau (1370) and **survives** the book (d. 24 Jun 1382). Earlier, Dusemer wins at Strėva (1348).
 - **[Iron Saint](../forces/iron_saint.qmd)** (mythic): grows with each victory.
 - **[Shadow-Seller](../forces/shadow_seller.qmd)**: only watching, through a black dog and a clerk with a ledger; no stones (made 1380) and no mask yet.
 
 ## Threads advanced (see books/series_arc.md)
+
 Mostly seeding. **A:** the Pact sworn (ch. 4), the first Amber Debt (Strėva, ch. 7–8), the Pact weakens at Algirdas's death (ch. 29). **C:** Birutė chosen. **E:** the ox-oath. **F:** the Wildnis becomes the Dykra (ch. 9). **G:** the [Iron Wolves](../factions/iron_wolves.qmd) at their height (c. 100), the [silver wolf](../artifacts/silver_wolf.qmd) given in 1345. **H:** the brothers' bond, the first wound.
 
 ## Hands on to the next book
+
 Kęstutis alone holds the oath, bound to protect the nephew who will kill him; Jogaila is Grand Duke with Uliana behind him; the Pact is weakened; Birutė dreams of a Black Ship. [Book I](book1.qmd) ch. 1 opens where this book ends. *Open item:* Vaidotas and Butautas must be sons of an earlier wife, since a c. 1350 marriage cannot produce adult sons by 1362.

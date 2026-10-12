@@ -1,0 +1,24 @@
+---
+title: "Goštautas gives the warm coin to a beggar"
+id: ev_gostautas_coin
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_gostautas_coin.md >}}
+
+## What the chronicles say [Record]
+
+Nothing in the record. Jonas Goštautas's Vilnius feast (February 1437) is the saga's; the Hanseatic loan for the bricks is invention on top of the real Hansa office at Kaunas (c. 1441).
+
+## What really happened [Saga]
+
+After the last guest leaves, a warm coin lies by the untouched sugar swan (a coin that warms from someone else, not from a hand). Goštautas gives it to an old beggar on the threshold without looking at it. Under the floor the [Counter](../creatures/skaiciuotojas.qmd) falls silent for three breaths; then: "Viena moneta pasiekė žmogų. Neįvertinta. Neužskaityta." The beggar is not named in the text; read as [Dievas Senelis](../gods/dievas.qmd), the same Beggar who turned [Kęstutis's coin to stone](ev_beggar_coin.qmd) in 1382. The Counter then reads the term on Trakai: three years and a month.
+
+## Consequences
+
+No outgoing edge in the graph: it foreshadows [Žygimantas's murder at Trakai](ev_zygimantas_killed.qmd) in March 1440.
+
+## Dramatisation
+
+Book V ch. 17 "Aukso Rijūno Puota" (Goštautas; February 1437, Vilnius).

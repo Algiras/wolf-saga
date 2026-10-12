@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_second_defection.md >}}
 
 ## What the chronicles say [Record]
-In May 1389 at Lublin Jogaila mediated between Skirgaila and [Vytautas](../characters/vytautas.qmd); Vytautas signed a declaration of loyalty to Skirgaila, but his position as Duke of Lutsk was not formally recognised. In 1389 a plot to seize Vilnius castle using wagons was betrayed to Skirgaila by a German spy (Wikipedia, Lithuanian Civil War 1389–92, citing Urban and Ivinskis) and the conspirators were executed; Vytautas's allies Tautvilas and Ivan Olshanski lost their lands. Vytautas fled to the Teutonic Order and on 19 January 1390 signed the Treaty of Lyck (Ełk), reaffirming the 1384 Königsberg terms; the Order demanded hostages, including family members. His brother Žygimantas (Sigismund) was a hostage from about 1389/90 to 1398 (VLE).
+
+In May 1389 at Lublin Jogaila mediated between Skirgaila and [Vytautas](../characters/vytautas.qmd); Vytautas signed a declaration of loyalty to Skirgaila, but his position as Duke of Lutsk was not formally recognised. In 1389 a plot to seize Vilnius castle using armed men in supply wagons "sent for his sister's wedding" was betrayed by a spy (Wikipedia, Lithuanian Civil War 1389–92, citing Urban and Ivinskis) and the conspirators were executed; Vytautas's allies Tautvilas and Ivan Olshanski lost Navahrudak and Halshany. (The wedding detail may be a Narbutt-type embellishment.) Vytautas fled to the Teutonic Order and on **19 January 1390** signed the [Treaty of Lyck](ev_lyck_1390.qmd) (Ełk), reaffirming the 1384 Königsberg terms; the Order demanded hostages: his brother Žygimantas (Sigismund), wife Ona, daughter Sofija, sister Rymgajla and other nobles. Žygimantas was a hostage from 1390 to 1398 (VLE gives 1389–98).
 
 ## What really happened [Saga]
-The wedding wagons of the Book II ch. 5 plot (forty-two wagons, a real wedding, arms beneath the oat sacks) are the saga's elaboration of the supply-wagon plot. Pinčiukas sold the plan to Skirgaila for a miller's debt. Perkūnas's claim tightens: thunder without rain over the road. At Lyck the oaths are sworn on relics, and the Iron Saint keeps Christian oaths. Marquard von Salzbach insults Birutė at table, planting Grunwald.
+
+The wedding wagons of the Book II ch. 5 plot (forty-two wagons, a real wedding, arms beneath the oat sacks; bride Daumantė and her father Rimgaudas are the saga's) are the saga's elaboration of the supply-wagon plot. Pinčiukas sold the plan to Skirgaila for a miller's debt. Perkūnas's claim tightens: thunder without rain over the road. At Lyck the oaths are sworn on relics, and the Iron Saint keeps Christian oaths. [Marquard von Salzbach](../characters/marquard.qmd), Vytautas's old captive and friend, signs for the Order and offers a velvet threat to the hostages ("grąžinu skolą"); Vytautas says "Aš tai prisiminsiu". (The insult to Birutė belongs to [Raciąż, 1404](ev_raciaz_1404.qmd), not to Lyck.)
 
 ## Consequences
-Caused by [Trakai being granted to Skirgaila](ev_trakai_to_skirgaila.qmd). It leads to [the siege of Vilnius](ev_vilnius_siege_1390.qmd) in September 1390, where Vytautas stands with the Order against the city he saved in 1384.
+
+Caused by [Trakai being Skirgaila's](ev_trakai_to_skirgaila.qmd). It leads to [the Treaty of Lyck](ev_lyck_1390.qmd) and [the siege of Vilnius](ev_vilnius_siege_1390.qmd) in September 1390, where Vytautas stands with the Order against the city he saved in 1384.
 
 ## Dramatisation
-Book II ch. 5 "Vestuvių Vežimai" (Vytautas; autumn 1389, Vilnius, then the road to Prussia in winter) and ch. 6 "Įkaitų Pilis" (Ona; January to August 1390, Lyck and Rastenburg). The graph places the event at Königsberg.
+
+Book II ch. 5 "Vestuvių Vežimai" (Vytautas; autumn 1389, Vilnius, then the road to Prussia in winter) and ch. 6 "Įkaitų Pilis" (Ona; January to August 1390, Lyck and Rastenburg; the hostages are Ona, Sofija, Žygimantas, Rymgailė, Jonas Alšėniškis and others). The graph places the event at Königsberg.

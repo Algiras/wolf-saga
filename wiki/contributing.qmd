@@ -5,20 +5,26 @@ title: "How to add to the world"
 The wiki is generated from **one source of truth**, `world_rules/graph/world_graph.json`, plus hand-written prose pages.
 
 ## Add a new entity (character, place, artifact…)
+
 1. Add a node to `world_graph.json` (`id`, `type`, `name`, and years: `born`/`died`, `year`, `start`/`end` or `created`; `record: true|false`).
 2. Add its relations as edges (`s`, `t`, `type`, optional `from`/`to`, `note`). Allowed types are listed in the file's `meta.edge_types`.
 3. Validate:
+
    ```bash
    python3 scripts/validate_world_graph.py
    ```
+
    The validator catches dead people acting, effects before causes, two holders of one artifact at once, magic that rises when it must decline, books without a protagonist or antagonists, orphan nodes and events without places.
 4. Build:
+
    ```bash
    python3 scripts/build_wiki.py && quarto render wiki
    ```
+
    A new page `wiki/<section>/<id>.qmd` is created **from its template** in `wiki/_templates/`. Write your prose there; it is never overwritten. The infobox, relations, backlinks, timeline and relation graph at the top are regenerated every build.
 
 ## Templates
+
 | Type | Template | Sections |
 |---|---|---|
 | character | `_templates/character.md` | Summary · Tells · Want/Need/Lie/Truth · Arc by book · Power · Record vs saga · Pronunciation · Appearances |
@@ -32,11 +38,13 @@ The wiki is generated from **one source of truth**, `world_rules/graph/world_gra
 | book | `_templates/book.md` | Premise · Arc · Antagonists · Threads · Hand-off |
 
 ## Rules of the world (check before writing)
+
 - [Canon decisions](codex/canon-decisions.qmd)
 - [Magic rules](codex/magic-rules.qmd) and [Power systems](codex/power-systems.qmd): every working shows its cost
 - [Master chronology](codex/master-chronology.qmd): the record is fixed; myth fills the gaps
 
 ## Images
+
 Entries show `wiki/images/<id>.jpg` at the top of their infobox. Until AI art exists, freely licensed Wikimedia stand-ins are fetched with
 `python3 scripts/fetch_wiki_images.py` (mapping: `scripts/wiki_image_map.json`; options `--ids`, `--dry-run`, `--force`).
 AI-generated images are never overwritten. Every Wikimedia image is credited in its caption and on the [Image credits](image-credits.qmd) page.

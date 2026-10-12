@@ -13,11 +13,13 @@
 ## 1. Jūratė ir Kastytis: how the Amber Queen began
 
 ### (a) The folk version [Record]
+
 Jūratė, a sea goddess, lived in a palace of amber on the floor of the Baltic, near where the river Šventoji meets the sea. A young fisherman, Kastytis, cast his nets at the river mouth and took her fish. She sent her mermaids to warn him off; he ignored them. She rose to punish him herself and fell in love with him instead, and took him down to her palace. Perkūnas, angered that an immortal had given her love to a mortal (some versions say she had been promised to the water god Patrimpas *(verify)*), struck the palace with lightning, killed Kastytis, and chained Jūratė to the ruins. The pieces of amber the sea throws onto the Palanga shore after storms are fragments of her palace, and the moaning of the sea in a storm is Jūratė weeping.
 
 *Source note:* the tale is first known in print from Liudvikas Adomas Jucevičius (Ludwik Adam Jucewicz), 1842 *(verify title and year)*, and it was made famous by later literary versions (Maironis's ballad among them). Folklorists debate how much of it is genuine oral tradition and how much is 19th-century romantic composition. The saga treats it as old; the author should know that it may not be.
 
 ### (b) As the saga tells it [Saga invention]
+
 *As the amber-priestesses of Palanga tell it to a girl on the night her blood first comes, with the door barred and the shore-fire banked.*
 
 Forget the fishwives' tale, child. They tell it as if the sea were a jealous girl and the Thunderer a jealous husband. The sea is not a girl, and Perkūnas has never been jealous of anything. He keeps oaths. That is all he is.
@@ -42,6 +44,7 @@ So when you find amber on the beach after a storm, don't call it treasure. Hold 
 Because she was right to love him, child, and the law was right to stop her. Both. That is the grief that cannot end.
 
 ### (c) Tellers and meaning
+
 - **Who tells it:** the Palanga amber-priestess line (the version above is their initiation tale); the fisherfolk tell the romantic version; the Order's amber wardens in Prussia, who held collecting as a monopoly and punished illicit gatherers *(record of the Order's amber regality: verify period and penalties)*, tell it as proof that the heathens worship flotsam.
 - **For the books:** it is the charter of the Amber Queen office (cosmology §3.4; D1). It explains why each vessel ends by giving her mortality back to the sea, and why Birutė's ch. 27 transformation is the line paying its last instalment. It also sets up why Perkūnas presses so hard on Vytautas (cosmology §3.4 item 5): the son of the last vessel carries the unpaid half of an old judgment.
 - **Scene use:** Birutė told Vytautas the fishwives' version when he was small and the priestesses' version only once, on the night before Vilnius (ch. 3 revision). He should remember the line "a god's tomorrow is long" when Jogaila promises him Trakai.
@@ -51,6 +54,7 @@ Because she was right to love him, child, and the law was right to stop her. Bot
 ## 2. Eglė žalčių karalienė: the bride of the grass snake
 
 ### (a) The folk version [Record]
+
 Eglė, the youngest of twelve sisters (with three brothers), went bathing with her sisters and found a grass snake coiled in the sleeve of her shirt. It would not leave until she promised to marry it. She promised, thinking it a joke. A host of snakes came to claim her. Her family tried three times to fob them off with a goose, a sheep and a cow, and each time a cuckoo called out the deceit, so at last Eglė went. Her bridegroom, Žilvinas, became a handsome man; they lived happily in his palace under the sea and had three sons, Ąžuolas (Oak), Uosis (Ash) and Beržas (Birch), and a daughter, Drebulė (Aspen).
 
 Years later Eglė visited her family. Her brothers wanted to keep her and beat the children to learn the words that summon Žilvinas. The sons kept silent; the little daughter, frightened, told. The brothers went to the shore, called *"Žilvine, Žilvinėli, jei tu gyvas, pieno puta, jei negyvas, kraujo puta"* ("if you live, let the foam be milk; if you are dead, let it be blood"), and cut the serpent down with scythes. When Eglė called, the sea answered with bloody foam. In grief she turned her sons into the trees they were named for, her daughter into the trembling aspen, and herself into a spruce (*eglė*).
@@ -58,6 +62,7 @@ Years later Eglė visited her family. Her brothers wanted to keep her and beat t
 *Source note:* one of the best known Lithuanian folk tales, recorded in many variants from the 19th century on; tale type ATU 425M *(verify classification)*.
 
 ### (b) As the saga tells it [Saga invention]
+
 *As the swamp-folk of the Dykra tell it, low, so the reeds will not carry it.*
 
 Nobody in the villages remembers that Eglė's brothers loved her. That is the whole of the sorrow, so remember it.
@@ -77,6 +82,7 @@ And the blood remembers its bride. In every generation there is one girl named f
 If she shows you the path, follow it, and leave something on the stone. If she does not show you the path, *nesek jos*, do not follow her. The first Eglė forgave no one either.
 
 ### (c) Tellers and meaning
+
 - **Who tells it:** every Lithuanian mother tells the folk version. The **Dykra** version above is told by the swamp-folk and, in Books II–III, by Samogitian hedge-*raganos* who know who the "last Eglė" is.
 - **For the books (D5):** it is the mythic charter of **Pelkių Eglė**. The prologue priestess and the swamp-guide of ch. 15–16 are one woman; her žaltys (ch. 16) is the inheritance of Žilvinas. Her silence in ch. 15 ("Ne gintaro. Šaknų.") is the correction of Vytautas's mistake.
 - **The grey edge:** the tale's villains are loving brothers with scythes. That is exactly how the saga wants the Order, Jogaila and even Vytautas read in 1387: people who destroy the old world sincerely believing they are rescuing it. In 1387, when the sacred snakes of Šventaragis are killed (cosmology §4.2, after Długosz), Eglė's žaltys is the last of the line to survive, which makes it a target in Book II.
@@ -87,11 +93,13 @@ If she shows you the path, follow it, and leave something on the stone. If she d
 ## 3. The Iron Wolf: Gediminas's dream and the founding of Vilnius
 
 ### (a) The folk version [Record]
+
 Grand Duke Gediminas, hunting in the forests at the confluence of the Neris and the Vilnia, killed a great aurochs on the hill later called Tauras hill. Night fell, and he slept in the valley of Šventaragis, where the old dukes were burned. He dreamed of an iron wolf standing on the hill, howling with the voice of a hundred wolves. In the morning the pagan priest **Lizdeika**, who as a baby had been found in an eagle's nest, explained the dream: the iron wolf meant a strong castle and a city that Gediminas must build there, and the hundred voices meant that its fame would spread through the world. Gediminas built the castle, and Vilnius was founded.
 
 *Source note:* the story appears in the 16th-century Lithuanian chronicles (the later redactions of the *Chronicle of the Grand Duchy of Lithuania and Samogitia*, including the Bychowiec Chronicle) *(verify redactions)*. These chronicles are late and legendary. Vilnius is first named as a capital in Gediminas's letters of 1323 (`master_chronology.md`). The same chronicles make Lizdeika the high priest, and later families claimed descent from him.
 
 ### (b) As the saga tells it [Saga invention]
+
 *As the Krivis tells it to a Gediminid boy on the night he first carries a sword into the valley.*
 
 Lizdeika told Gediminas the truth. He did not tell him all of it. A priest who tells a duke everything at once is a dead priest, and Lizdeika had been raised by eagles; he knew how far a thing falls.
@@ -113,6 +121,7 @@ Do you understand, boy? Your city stands on the dead. The fire keeps them sleepi
 Now take the sword. And never ask a priest for the whole of a dream.
 
 ### (c) Tellers and meaning
+
 - **Who tells it:** court bards and every Vilnius child tell the proud version. The **Krivis's** version passes down the priesthood of Šventaragis; in 1382 only the Krivis, Eglė and perhaps Birutė know the "unsaid" half.
 - **For the books:** Eglė's prophecy in the prologue ("Geležinis Vilkas šią nakties klyksta ne iš alkio, o iš sielos skausmo…") is a deliberate echo of Lizdeika's unsaid line. The collared wolf and the thorn-crowned wolf in her vision are Vytautas and Jogaila, which makes the series title literal: the Iron Wolf is the Gediminid house devouring itself.
 - **The Pact link:** the flame on Šventaragis guards the dead beneath Vilnius. When Jogaila extinguishes it in 1387 (cosmology §4.2), the Unbinding begins in the capital first: the earliest ravenous *vėlės* of Book II should rise in Vilnius itself.
@@ -123,11 +132,13 @@ Now take the sword. And never ask a priest for the whole of a dream.
 ## 4. Sovijus: why the dead are burned
 
 ### (a) The folk version [Record]
+
 A short tale preserved as an insertion in the 1261 Old Rus' translation of the *Chronicle* of John Malalas (the "Sovijus legend"). Sovijus caught a wild boar and gave its nine spleens to his sons to roast; the sons ate them. Angered, Sovijus resolved to go down into the underworld, and he found the way only with one son's help *(details of the gates vary between translations: verify)*. After his death his sons first buried him in the earth, and he complained that worms and creeping things tormented him. They laid him in a tree, and he complained of bees and gnats. Then they burned him on a pyre, and he said that he slept as sweetly as a child in a cradle. From then on, the text says, the Lithuanians and their neighbours burned their dead. The same passage names gods to whom Sovijus taught sacrifice, including a smith, Teliavelis, who forged the sun *(verify names and spellings)*.
 
 *Source note:* the earliest surviving written myth about Baltic religion; its interpretation is much debated (Beresnevičius, Vėlius and others).
 
 ### (b) As the saga tells it [Saga invention]
+
 *As the žyniai sing it at a pyre, while the smoke is still white.*
 
 There were nine spleens in the boar because the boar had been fed for nine years on oaths. Sovijus knew this. He gave the spleens to his sons to roast and told them to keep them for the gods. His sons were hungry and young, and they ate them, all nine, and laughed with grease on their chins.
@@ -151,6 +162,7 @@ So we burn them. The fire is the fastest road up. The earth is slow, and a body 
 And the sons? They had to live knowing their father's first two deaths were their thrift. That is why at every pyre the eldest son puts in the first log with his own hands. He is paying for a boar's spleen.
 
 ### (c) Tellers and meaning
+
 - **Who tells it:** sung by the *žyniai* at cremations; every pagan Lithuanian knows the ending ("like a baby in its cradle").
 - **For the books:** it is the in-world reason for cosmology §1: fire is the road to Dausos, and the buried may linger as *vėlės*. It makes the **Order's insistence on burial** an atrocity in pagan eyes and seeds the **unburned dead** of the Unbinding (cosmology §4.3).
 - **Kęstutis's pyre (H4):** Jogaila gives his uncle a full cremation with horses and hounds (master chronology, Aug 1382). In the saga, Jogaila putting in the first log himself, as the son of the house, is the most chilling thing he does in Book I: he is performing Sovijus's sons' penance for a murder he ordered. The žyniai sing both verses about the youngest son, and everyone at the pyre hears which one is meant.
@@ -162,11 +174,13 @@ And the sons? They had to live knowing their father's first two deaths were thei
 ## 5. Birutė and Kęstutis at Palanga
 
 ### (a) The folk version [Record]
+
 The 16th-century Lithuanian chronicles tell that Duke Kęstutis heard of a maiden of Palanga, **Birutė**, renowned for beauty and wisdom, who served the gods as a *vaidilutė* and had vowed to keep her virginity in their service. He went to Palanga and asked for her. She refused, citing her vow. He took her anyway, against her will by some accounts, and brought her to Trakai, where they were married with great ceremony. Folk tradition adds that after Kęstutis's murder she returned to Palanga, served the sacred fire again, died old, and was buried on the hill that bears her name. Polish tradition (Długosz) says instead that she was drowned in 1382 on Jogaila's orders.
 
 *Source note:* the marriage is traditionally dated c. 1350 (`master_chronology.md`). The vaidilutė element and the "abduction" come from late and partly legendary chronicle material *(verify which redaction first carries the vow)*.
 
 ### (b) As the saga tells it [Saga invention]
+
 *As the shore-women of Palanga tell it, mending nets, when no men are near.*
 
 The chroniclers say he stole her. That is what men write. The women on this shore say she let herself be stolen, and that it was the cleverest thing ever done on the Palanga sand.
@@ -192,6 +206,7 @@ Two years later she walked into the water at the full moon and paid all of it, t
 Kęstutis knew. She told him on their wedding night. He laughed until he wept, the women say, and said: *Then I married a thief. Good. So did my father.*
 
 ### (c) Tellers and meaning
+
 - **Who tells it:** the chronicle version is court knowledge. The **shore-women's** version is Palanga's secret. The Order's chroniclers tell a third version, in which a heathen duke rapes a pagan nun, used in sermons as proof of Lithuanian savagery.
 - **For the books:** it reconciles the record's contradictions in-world, as D3 requires. The "abduction" was staged, which is why both the chronicle and the folk version are true. **Długosz's 1382 drowning happened and failed** (the ring-thrice motif, ch. 11), and Birutė paid her debt by choice in 1384 (ch. 27).
 - **Magic link:** this tale is the folk-level demonstration of a rule from `magic_rules.md` §8: gods keep the letter, and the clever can beat them by it, but the spirit of the bargain is written down and comes due. Birutė's whole arc is that bill.
@@ -202,11 +217,13 @@ Kęstutis knew. She told him on their wedding night. He laughed until he wept, t
 ## 6. The Silent Pact of 1345: *Tylioji Sutartis* [Saga invention]
 
 ### (a) The folk version
+
 There is none. The Pact is the saga's invention (D7; cosmology §4.1). In-world it survives only as a **song fragment that must not be sung aloud**: it is hummed, and the words are passed mouth to ear. What follows is the "folk" form it takes among Samogitian *žyniai* after 1387.
 
 *Historical anchor [Record]:* in 1345 Kęstutis seized Vilnius and deposed his brother Jaunutis, and Algirdas joined him; the brothers divided the realm, Algirdas ruling from Vilnius in the east and Kęstutis from Trakai in the west. The Grand Duchy remained the last unconquered pagan state in Europe until 1387.
 
 ### (b) As the saga tells it: the song
+
 *Sung (hummed) by the Samogitian žyniai in the Hidden Groves, Books III–IV. The English is the gloss of a Lithuanian original which in-world is never written down; the refrain alone is given in Lithuanian.*
 
 > In the year the young brother lost his chair,
@@ -247,6 +264,7 @@ There is none. The Pact is the saga's invention (D7; cosmology §4.1). In-world 
 > the ones who paid it were not asked.
 
 ### (c) Tellers and meaning
+
 - **Who knows it:** in 1382, only the Krivis, the surviving oath-taker Kęstutis, and (through the sea) Birutė. Eglė knows the fire's part. Jogaila does **not** know the terms, which is part of why he breaks them so lightly; the Shadow-Seller knows them exactly, which is why he brokers the murder at Krėva (cosmology §4.2).
 - **Why "silent":** the song's last stanza is the moral core. The Pact was a treaty between the land's people and the land's spirits, made by two princes on behalf of people who were never told the price. That is the saga's grey: the protection that kept Lithuania free for forty years was paid for, without consent, in the blood of children such as Vytautas's sons *(their deaths as Order hostages in the 1390s: verify, see master chronology 1392)*.
 - **The "crooked staff":** the Krivis's *krivulė* (see `religion_and_clergy.md`).
@@ -257,9 +275,11 @@ There is none. The Pact is the saga's invention (D7; cosmology §4.1). In-world 
 ## 7. Saulė, Mėnuo and Aušrinė: why the Moon is cut
 
 ### (a) The folk version [Record]
+
 A mythological *daina*: in the first spring the Moon (Mėnuo) married the Sun (Saulė). Saulė rose early; Mėnuo wandered off alone and fell in love with Aušrinė, the morning star. Perkūnas, in great anger, cut the Moon in two with his sword, asking why he had left Saulė and loved Aušrinė. The Moon's waning and waxing are the wound. The best known form is the song beginning *"Mėnuo Saulužę vedė / Pirmą pavasarėlį"* ("The Moon married the little Sun / in the first spring"), published by Liudvikas Rėza (Ludwig Rhesa) in 1825 *(verify)*.
 
 ### (b) As the saga tells it [Saga invention]
+
 *As the Krivis teaches it to young oath-takers, holding a knife.*
 
 This is not a song about love. It is a song about oaths, and children only think it is about love because they have not sworn any yet.
@@ -281,6 +301,7 @@ That is why we swear by the Moon when we swear something we are afraid of breaki
 Now: hold out your hand. You will swear by the sky, as he did. If you ever break it, do not pray to Perkūnas. Pray to be the Moon, who at least gets to heal between the cuts.
 
 ### (c) Tellers and meaning
+
 - **Who tells it:** sung as a *daina* by everyone; used as **oath-law** by the Krivis and the *žyniai*.
 - **For the books:** it establishes, at the level of nursery song, that **Perkūnas punishes oath-breakers endlessly, even among gods**. That makes Perkūnas's claim on Vytautas (`magic_rules.md` §7) intelligible to any Lithuanian character: Vytautas's false baptism in 1383 is Mėnuo's sin, and the cracked window of ch. 19 is the sword being drawn.
 - **Links:** Saulė's tears become amber, which is the raw material of Jūratė's palace (legend 1) and of every working (magic §5.3). Mėnuo governs tides, so the amber washes ashore at the full moon: Saulė's tears are returned by her faithless husband, which the amber-priestesses consider the Moon's monthly apology.
@@ -291,9 +312,11 @@ Now: hold out your hand. You will swear by the sky, as he did. If you ever break
 ## 8. Perkūnas and Velnias: why lightning strikes trees
 
 ### (a) The folk version [Record]
+
 In many Lithuanian tales Perkūnas pursues Velnias with thunder and lightning. Velnias flees and hides wherever he can: in trees (especially old or hollow ones), under stones, in water, behind animals, even behind people. So lightning strikes trees and stones, and peasants avoid sheltering under trees in a storm, chase black cats and dogs out of the house, and close doors and windows, so that the devil cannot hide near them and draw the bolt. In some tales Velnias has stolen something of Perkūnas's (his wife, his weapon or his instrument); in others a man helps Perkūnas by shooting at the taunting devil and is rewarded. The myth of the thunder god chasing his serpentine or underworld opponent is old and Indo-European in its outlines (Gimbutas, Ivanov and Toporov) *(verify)*.
 
 ### (b) As the saga tells it [Saga invention]
+
 *As the herdsmen tell it, sitting out a storm in the open, away from the oaks.*
 
 The priests in the stone towns say Perkūnas hunts Velnias because Velnias is wicked. The priests in the groves say it is because Velnias stole his wife. A herdsman knows better. A herdsman has stood out in enough storms.
@@ -313,6 +336,7 @@ My grandfather saw a whole hamlet burn once, all twelve roofs, because a strange
 *Kai Perkūnas medžioja, kaimas dega.* When Perkūnas hunts, the village burns. Give Velnias no shelter, even when he knocks politely, and especially then.
 
 ### (c) Tellers and meaning
+
 - **Who tells it:** herdsmen, peasants, soldiers. Christian priests after 1387 recast it ("God's lightning seeks the devil"), and the peasants nod, because it is the same story.
 - **For the books:** it explains, in folk terms, the rules for Perkūnas's **signs** (lightning on oaks and banners, cosmology §5) and makes the **three blackened stones** (D2) the Shadow-Seller's calling card in rumour. Wherever **Henė** sits at a duke's fire, lightning will eventually come looking.
 - **Ch. 21:** the lightning in the first battle (magic §7: "ambiguous by design") reads differently through this tale. Was Perkūnas favouring Vytautas, or hunting something standing behind him?
@@ -323,9 +347,11 @@ My grandfather saw a whole hamlet burn once, all twelve roofs, because a strange
 ## 9. How Velnias was cheated: the field divided
 
 ### (a) The folk version [Record]
+
 A widely told trickster tale (international tale type ATU 1030, "The Crop Division", well attested in Lithuanian collections). A poor peasant and Velnias agree to farm a field together and split the harvest. In the first year the peasant offers Velnias the choice of tops or roots; Velnias takes the tops, and the peasant plants turnips (or potatoes in later versions), so Velnias gets the leaves. In the second year Velnias demands the roots, and the peasant plants grain, so Velnias gets stubble. In some versions there is a third round, or a contest, and Velnias, beaten each time, gives up in a rage. Velnias in Lithuanian tales is often more stupid than wicked, and the clever peasant always wins.
 
 ### (b) As the saga tells it [Saga invention]
+
 *As Henė the jester tells it at Jogaila's table, Vilnius, 1384, with the cousins seated on either side of the duke.*
 
 Once there was a peasant called Survila who had one field, and in that field nothing grew but stones. So he made a deal with the devil. Of course he did. Everyone in this hall has made one; only Survila was honest enough to admit it.
@@ -355,6 +381,7 @@ You see, my lords, you can beat the devil with cleverness. Nobody has ever beate
 Now which of you is the peasant, and which of you is the field?
 
 ### (c) Tellers and meaning
+
 - **Who tells it:** every Lithuanian village tells the folk version as comedy. **Henė** tells the saga version above at the **1384 division** (ch. 28 revision), when Vytautas receives Grodno, Brest and Podlasie and **Trakai goes to Skirgaila** (master chronology 1384; review H8). Nobody at the table can tell whether he means Vytautas or Jogaila as the peasant.
 - **For the books:** it is the folk proof of cosmology §2.1 and magic §8: Velnias is **hungry and fair**, keeps every deal to the letter, and can be beaten only by cleverness. The twist adds the saga's grey: beating the devil does not protect you from people. Rumour of a successful bargain is as deadly as the bargain.
 - **Anachronism, used on purpose:** maize did not exist in Europe in 1384. Henė knows this; it is the Shadow-Seller showing off that he sees all of time (D2: "all of the past at once", and evidently some of the future). One alert reader will notice; nobody at the table can.
@@ -365,9 +392,11 @@ Now which of you is the peasant, and which of you is the field?
 ## 10. Laima at the cradle
 
 ### (a) The folk version [Record]
+
 In many Lithuanian tales and beliefs, **Laima** (sometimes three Laimos, or Laima with her sisters) comes to every newborn on its first night and decrees its fate, which cannot be changed. A typical tale: a traveller lodging overnight in a house where a child has just been born hears the Laimos at the window deciding the child's life. The first proposes one death, the second another; the last decree stands, often that the child will die on its wedding day (drowned, struck by lightning, or killed by a wolf). The parents try everything to avert it, and the fate comes true anyway, sometimes through the very precaution. Offerings were made to Laima at births, and the phrase *taip Laima lėmė* ("so Laima decreed") is used to accept what cannot be helped. In mythology Laima is linked with Dalia (allotted share) and Giltinė (death) *(the exact relationships vary by source; cosmology §3.1 makes them sisters)*.
 
 ### (b) As the saga tells it [Saga invention]
+
 *As the Amber Queen tells it, in Birutė's voice, in the frame narration (00_pradzia).*
 
 I was a seer before I was anything else, so I heard them come. Senieji Trakai (so tradition places it), the year the brothers' Pact was five years old. The boy was an hour born, red and furious, and his father had gone out to the yard to shout his name at the stars. I lay in the straw with the child on my breast and the shutters open, because a mother of my line leaves the shutters open on the first night. You cannot keep Laima out. You can only be awake when she comes.
@@ -397,6 +426,7 @@ Here is what the villages get wrong about Laima. They think her decree is a wall
 My son has his crown on the road now, and I can see it from here, in the amber, coming and coming.
 
 ### (c) Tellers and meaning
+
 - **Who tells it:** the folk version is told at every birth. The saga version belongs to **Birutė / the Amber Queen** in the frame narration (D1; `00_pradzia.qmd` as her post-transformation voice).
 - **For the books:** Laima's sentence *"a crown will travel toward him and never arrive"* is the series-long prophecy for the **Lutsk crown of 1429–30** (master chronology; mythic_gaps §4; D2), intercepted on the road and turned to leaves by Henė. *"Baptised three times and believe none of them"* covers Tapiau 1383 (Wigand), Kraków 1386 (Aleksandras) and a third baptism the author may place (Vytautas is often said to have taken Orthodox baptism c. 1384 *(verify)*; if not, the 1387 Neris scene of ch. 29, where he is a witness, can serve as a symbolic third). *"He will outlive every heir"* covers the sons poisoned as Order hostages *(verify, master chronology 1392)* and his death without a male heir in 1430.
 - **Rule reconciliation:** cosmology §3.1 says Laima's spinning is why seers see *possibilities, not certainties*, while folk Laima decrees are unchangeable. The tale reconciles them: **the words are fixed, their meaning is open.** That also matches magic §10 ("prophecy shows branches, never a fixed trunk").
@@ -441,6 +471,7 @@ My son has his crown on the road now, and I can see it from here, in the amber, 
 *Original verse in the style of Lithuanian dainos (diminutives, parallelism, nature images, short lines). These are Saga inventions unless marked. Glosses are literal, not poetic. **A native-speaker check of the Lithuanian is recommended before prose use**, in line with the line-edit note in `story_review.md` §1.3.*
 
 ### 12.1 *Jūrele, mėlynoji*: the Palanga lament [Saga invention]
+
 *Sung by the shore-women after 1384, at the amber kneeling woman (ch. 27). It folds together the ring-thrice motif (ch. 11) and Birutė's sacrifice.*
 
 > Oi jūrele, mėlynoji,
@@ -456,6 +487,7 @@ My son has his crown on the road now, and I can see it from here, in the amber, 
 *Gloss:* Oh little sea, the blue one, / why did you take my ring? / Three times you gave it back to me, / the fourth time, you took me myself. // A little amber on the little sand / kneels with its little head bowed. / Don't weep, little son, don't weep, little wolf, / your mother in the sea does not fall asleep.
 
 ### 12.2 *Degė laužas Vilniaus slėny*: a lament for Kęstutis [Saga invention]
+
 *A rauda sung at Kęstutis's pyre in Vilnius, August 1382 (master chronology; review H4). The singers are Jogaila's own household women, which is why the second stanza is so careful never to name the kin.*
 
 > Degė laužas Vilniaus slėny,
@@ -473,6 +505,7 @@ My son has his crown on the road now, and I can see it from here, in the amber, 
 *Note:* "sava ranka" (one's own hand, a kinsman's hand) is the dangerous line. In Book II it is forbidden at Skirgaila's court.
 
 ### 12.3 *Miegok, vaikeli*: the threshold lullaby [Saga invention]
+
 *A cradle song. The first stanza is "old"; the second is added after 1387, when the sacred snakes are killed. It is the Unbinding (cosmology §4.3) in eight lines.*
 
 > Miegok, vaikeli, lopšely,
@@ -488,6 +521,7 @@ My son has his crown on the road now, and I can see it from here, in the amber, 
 *Gloss:* Sleep, little child, in the little cradle, / the little grass snake keeps watch under the threshold. / As long as you don't begrudge him his milk, / he will not wake you. // The priests killed the little snake, / the milk sours in the little pot. / Sleep, little child: who, now, / keeps watch under your threshold?
 
 ### 12.4 Two genuine fragments [Record]
+
 Very short traditional formulas, public domain, usable in prose as quotation:
 
 - From the Eglė tale: *"Žilvine, Žilvinėli, jei tu gyvas, pieno puta, jei negyvas, kraujo puta."* ("Žilvinas, little Žilvinas, if you are alive, let the foam be milk; if you are dead, let the foam be blood.") Wording varies between recorded variants.
@@ -498,6 +532,7 @@ Do not quote further than these openings without checking the edition; use the s
 ---
 
 ## 13. Open questions for the author
+
 1. **Lizdeika as Krivis:** the saga's Krivis line descends from Lizdeika (legend 3). That fits the chronicles' claim but conflicts with nothing in canon; confirm.
 2. **Vytautas's third baptism** (legend 10): adopt the Orthodox baptism (c. 1384, verify) as record, or keep the 1387 Neris witnessing as the symbolic third?
 3. **Silent Pact song:** Book V should "correct" the song. Approve the planned discrepancy (who spoke the fire's clause aloud)?

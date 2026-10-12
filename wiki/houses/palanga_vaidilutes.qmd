@@ -8,6 +8,7 @@ categories: [house]
 {{< include ../_generated/palanga_vaidilutes.md >}}
 
 ## House card
+
 | | |
 |---|---|
 | **Seat** | **Birutės kalnas** (Birutė Hill) at [Palanga](../places/palanga.qmd), its shore flame and the sea-stone. [Saga] |
@@ -16,12 +17,15 @@ categories: [house]
 | **Patron / burden** | The [Amber Queen](../forces/amber_queen.qmd): the line supplies her vessels. |
 
 ## Lineage
+
 **Basis [Record]:** Birutė's Palanga origin is a strong Lithuanian tradition (Birutė Hill, her role as a *vaidilutė* guarding a sacred fire). Długosz has her drowned in 1382; Lithuanian tradition has her living to c. 1416. Everything else is invention. The gift runs through the **mothers**, and each generation gives one daughter to the shore flame. [Birutė](../characters/birute.qmd) is the last vessel. Her maternal kin stay unnamed and few; a grandmother who was a vessel before her is the cleanest invention. The tradition that Birutė's relatives were killed in 1382 can mean that Jogaila's men tried to end the line (source to verify).
 
 ## Feuds & alliances
+
 Allied to the Kęstutaičiai by Birutė's marriage; patron of [Kęstutaičiai](../factions/kestutaiciai.qmd) through the Amber Queen. Opposed in the saga by the Polish clergy who come to break the statue in 1417–18.
 
 ## Fate across the books
+
 - **VI:** Birutė is chosen; the "abduction" (*Būk paimta*) places the Amber Queen's vessel in the Gediminid bed; Vytautas is born under the three spinners.
 - **I:** Birutė becomes the Queen (1384); the kneeling amber statue stands at Palanga ([the pebble](../artifacts/pebble.qmd); [the statue](../artifacts/kneeling_woman.qmd)).
 - **IV:** the clergy try to break the idol; their boat goes down.

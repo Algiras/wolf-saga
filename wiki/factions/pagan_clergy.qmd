@@ -8,9 +8,11 @@ categories: [faction]
 {{< include ../_generated/pagan_clergy.md >}}
 
 ## Overview
+
 [Record] Little is certain. Długosz describes the Vilnius sacred fire, grove and snakes destroyed in Feb-Mar 1387. Peter of Dusburg describes a Prussian high priest, the *Criwe* at Romuva. Whether Lithuania had a single Krivis is debated; the title *Krivių Krivaitis* is mostly 16th-century and later. Lizdeika, Gediminas's dream-reader, is a chronicle legend. *Žynys* and *vaidilutė* survive as folk terms, and the Palanga amber-priestess is shaped by 19th-century Romanticism.
 
 ## Wants (by book)
+
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
 | VI | Bind the brothers to the gods (the Pact, 1345; VI ch. 3) | Oath ceremonies | Kin-blood |
@@ -20,10 +22,13 @@ categories: [faction]
 | V | Pass the words on | The beekeeper-žynys gives them away in 1433 (V ch. 11); dies Sep 1448 (V ch. 27) | The Pact sung wrong |
 
 ## Patron Force
+
 [Saga] The gods themselves, the Pact's human party ([Tylioji Sutartis](../magic/silent_pact.qmd)). The clergy are brokers, not servants: some honest, some frightened. Raganos stand outside the Pact.
 
 ## Internal tensions
+
 The Krivis of 1345-82 hid the Pact's blood price. Lot-casters read what the paymaster wants. After 1387 the clergy scatter: the žyniai into villages as healers, the vaidilutės baptised and married off, and the Krivis walks into the felled grove. Canon says Galminas is the last of the old žyniai in 1409-10; the "last žynys" of Book V is his pupil, and five singers remain after 1448 (V ch. 27).
 
 ## Notable members
+
 [Krivis](../characters/krivis.qmd), [Eglė](../characters/egle.qmd), [Galminas](../characters/galminas.qmd).

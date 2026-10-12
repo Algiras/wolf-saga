@@ -1,5 +1,5 @@
 ---
-title: "Vytautas's hostage sons poisoned"
+title: "Vytautas's hostage sons poisoned (a contested tradition)"
 id: ev_sons_poisoned
 type: event
 categories: [event]
@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_sons_poisoned.md >}}
 
 ## What the chronicles say [Record]
-Contested. The story that [Vytautas](../characters/vytautas.qmd)'s two sons, held as hostages by the Order, were poisoned in 1392 rests on a weak base, mainly the 16th-century Prussian chronicler Simon Grunau. Wikipedia's article on the Ostrów Agreement records the rumour that his sons Iwan and Georg were poisoned and adds that no reliable sources confirm such sons existed. Some historians call it a rumour. His wife Ona was freed and sent to Lithuania in 1392 or before. The place is unknown (the graph says Königsberg; verify).
+
+**Contested; a late tradition, not a recorded fact.** The story that [Vytautas](../characters/vytautas.qmd)'s two sons, held as hostages by the Order, were poisoned rests on Simon Grunau, a 16th-century Prussian chronicler, who has a knight poison "Iwan and Georg" in revenge for the father's betrayal. The English Wikipedia (Ostrów Agreement, citing Jonynas 1984) calls it a false rumour and notes that no reliable source knows of the sons; Sofija is the only child in the record. Vytautas's own letters name only his sister and brother as hostages and never accuse the Order of killing sons; a "Jurgis and Jonas" on the 1390–92 hostage list were kinsmen who came back alive. The tradition puts the poisoning after the break (the real break is July 1392, no day known) and before Ostrów (4 August). His wife Ona was released by the Order in May 1392.
 
 ## What really happened [Saga]
-Adopted as canon for Book II with the doubt voiced in-world (Q11): Ona half-believes it was fever. In spring 1392 Šešiapirštis goes into Prussia for the boys and finds them already dead of poison, herb-lore, mundane. He lays himself in the bog afterwards. A ragana offers to buy them back with an Order child's blood, and Vytautas refuses: the pagan option is worse. Ona gets out by her own wits. This is the price of the second defection, and it ends Form 4.
+
+Adopted as canon for Book II as a tradition, with the doubt voiced in-world (Q11): the sons are *not* on the Order's written hostage list ("the household's escort, nobody writes those down"), and Henrik's "kai kurie sako, kad ne" keeps the doubt alive. After the burned forts the Order's cook vanishes and the boys sicken at Balga. Šešiapirštis carries a Sambian ragana's offer to draw the poison for the blood of an Order child; Vytautas says "Ne" (the forbidden transfer of the wound). The boys die that morning, herb-lore, mundane. Šešiapirštis dies afterwards. This ends Form 4 and deepens Ona's silence.
 
 ## Consequences
-Caused by the turn that [Ostrów](ev_ostrow.qmd) rewards (the graph orders the edge Ostrów → poisoning, the reverse of the book). It is the worst price paid in Form 4 and deepens Ona's silence toward her husband.
+
+Caused by [the break at Ritterswerder](ev_ritterswerder_1392.qmd) (the Order's revenge, per the tradition). The graph no longer puts it after Ostrów: it precedes [the Agreement of Ostrów](ev_ostrow.qmd), as in the book.
 
 ## Dramatisation
-Book II ch. 9 "Kraujo Puta" (Vytautas and Šešiapirštis; spring to summer 1392; the Neman and Prussia). Ona's grief is in ch. 10 and ch. 20.
+
+Book II ch. 9 "Kraujo Puta" (Vytautas and Šešiapirštis; spring to summer 1392; the Neman and Prussia), with ch. 6 (the hostage list) and ch. 10 (Henrik: "some say no"). Ona's grief is in ch. 10 and ch. 20. The afterword says plainly that the tradition is Grunau's and that the saga chose it.

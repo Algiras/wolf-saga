@@ -9,22 +9,24 @@ title: "Timeline"
 | 1345 | ◇ | [Silent Pact sworn](events/ev_pact_sworn.qmd) | VI · Šventasis Miškas (prequel) |
 | 1345 | ✦ | [Algirdas & Kęstutis depose Jaunutis](events/ev_diarchy.qmd) | VI · Šventasis Miškas (prequel) |
 | 1350 | ✦ | [Kęstutis marries Birutė](events/ev_marriage.qmd) | VI · Šventasis Miškas (prequel) |
-| 1361 | ✦ | [Kęstutis escapes Marienburg](events/ev_kestutis_escape_1361.qmd) | VI · Šventasis Miškas (prequel) |
+| 1361-03-21 | ✦ | [Kęstutis captured at Lake Ublik](events/ev_kestutis_captured_1361.qmd) | VI · Šventasis Miškas (prequel) |
+| 1361-11-11 | ✦ | [Kęstutis escapes Marienburg](events/ev_kestutis_escape_1361.qmd) | VI · Šventasis Miškas (prequel) |
 | 1377 | ✦ | [Algirdas dies; cremated](events/ev_algirdas_dies.qmd) | VI · Šventasis Miškas (prequel) |
 | 1380-05-31 | ✦ | [Treaty of Dovydiškės](events/ev_dovydiskes.qmd) | I · Vilko Tremtis |
-| 1381 | ✦ | [Kęstutis seizes Vilnius, spares Jogaila](events/ev_coup_1381.qmd) | I · Vilko Tremtis |
-| 1382 | ✦ | [Jogaila retakes Vilnius (Hanulas opens gates)](events/ev_vilnius_retaken.qmd) | I · Vilko Tremtis |
+| 1381 | ✦ | [Kęstutis takes Vilnius; Jogaila caught on his way back](events/ev_coup_1381.qmd) | I · Vilko Tremtis |
 | 1382 | ◇ | [Birutė binds Vytautas (Sutartis, surety, flame promise)](events/ev_sutartis.qmd) | I · Vilko Tremtis |
 | 1382 | ◇ | [Perkūnas claims Vytautas](events/ev_perkunas_mark.qmd) | I · Vilko Tremtis |
 | 1382 | ✦ | [Vytautas escapes Krėva in the maid's clothes](events/ev_kreva_escape.qmd) | I · Vilko Tremtis |
 | 1382 | ◇ | [Eglė leads Vytautas through the Dykra](events/ev_dykra_rescue.qmd) | I · Vilko Tremtis |
 | 1382 | ◇ | [The Beggar turns Kęstutis's coin to stone](events/ev_beggar_coin.qmd) | I · Vilko Tremtis |
 | 1382 | ✦ | [Vytautas shelters with Janusz I in Masovia](events/ev_masovia_refuge.qmd) | I · Vilko Tremtis |
-| 1382-08 | ✦ | [Kęstutis & Vytautas seized under safe-conduct](events/ev_arrest.qmd) | I · Vilko Tremtis |
+| 1382 | ✦ | [Vytautas before Zöllner at Marienburg](events/ev_marienburg_audience.qmd) | I · Vilko Tremtis |
+| 1382-06-12 | ✦ | [Hanulas and the townsfolk take Vilnius for Jogaila](events/ev_vilnius_retaken.qmd) | I · Vilko Tremtis |
+| 1382-07 | ✦ | [Trakai granted to Skirgaila (1382-92)](events/ev_trakai_to_skirgaila.qmd) | I · Vilko Tremtis |
+| 1382-08-03 | ✦ | [Kęstutis & Vytautas lured to Jogaila's camp near Trakai and arrested](events/ev_arrest.qmd) | I · Vilko Tremtis |
 | 1382-08-15 | ✦ | [Kęstutis strangled at Krėva](events/ev_kestutis_death.qmd) | I · Vilko Tremtis |
 | 1383-10-21 | ✦ | [Vytautas baptised 'Wigand' (a lie)](events/ev_tapiau_baptism.qmd) | I · Vilko Tremtis |
 | 1384 | ✦ | [Truce in the ashes with Jogaila](events/ev_truce_ashes.qmd) | I · Vilko Tremtis |
-| 1384 | ✦ | [Trakai granted to Skirgaila](events/ev_trakai_to_skirgaila.qmd) | I · Vilko Tremtis |
 | 1384 | ◇ | [Birutė's Amber Sacrifice](events/ev_birute_sacrifice.qmd) | I · Vilko Tremtis |
 | 1384-01-30 | ✦ | [Treaty of Königsberg (Samogitia ceded)](events/ev_konigsberg.qmd) | I · Vilko Tremtis |
 | 1384-07 | ✦ | [Vytautas burns Order castles; turns on the Order](events/ev_burnings_1384.qmd) | I · Vilko Tremtis |
@@ -33,16 +35,19 @@ title: "Timeline"
 | 1387 | ✦ | [Baptism of Lithuania; Šventaragis flame put out](events/ev_lithuania_baptism.qmd) | I · Vilko Tremtis |
 | 1387 | ◇ | [Vytautas secretly lights the Last Flame](events/ev_flame_lit.qmd) | I · Vilko Tremtis |
 | 1389 | ✦ | [Vytautas flees to the Order again](events/ev_second_defection.qmd) | II · Auksinis Šešėlis |
-| 1390 | ✦ | [Siege of Vilnius; Crooked Castle burned](events/ev_vilnius_siege_1390.qmd) | II · Auksinis Šešėlis |
-| 1392 | ✦ | [Vytautas's hostage sons poisoned](events/ev_sons_poisoned.qmd) | II · Auksinis Šešėlis |
+| 1390-01-19 | ✦ | [Treaty of Lyck; hostages demanded](events/ev_lyck_1390.qmd) | II · Auksinis Šešėlis |
+| 1390-09-11 | ✦ | [Siege of Vilnius (11 Sep - 7 Oct); Crooked Castle falls 16 Sep](events/ev_vilnius_siege_1390.qmd) | II · Auksinis Šešėlis |
+| 1392-07 | ◇ | [Vytautas's hostage sons poisoned (Grunau tradition, contested)](events/ev_sons_poisoned.qmd) | II · Auksinis Šešėlis |
+| 1392-07 | ✦ | [The break: Ritterswerder guests seized, Order forts burned](events/ev_ritterswerder_1392.qmd) | II · Auksinis Šešėlis |
 | 1392-08-04 | ✦ | [Agreement of Ostrów](events/ev_ostrow.qmd) | II · Auksinis Šešėlis |
 | 1397 | ✦ | [Skirgaila dies in Kyiv](events/ev_skirgaila_dies.qmd) | II · Auksinis Šešėlis |
 | 1398-10-12 | ✦ | [Treaty of Salynas](events/ev_salynas.qmd) | II · Auksinis Šešėlis |
 | 1399-07-17 | ✦ | [Jadvyga dies](events/ev_jadvyga_dies.qmd) | II · Auksinis Šešėlis |
 | 1399-08-12 | ✦ | [Battle of the Vorskla](events/ev_vorskla.qmd) | II · Auksinis Šešėlis |
 | 1401 | ✦ | [Union of Vilnius and Radom](events/ev_vilnius_radom.qmd) | III · Žaliasis Miškas |
+| 1404-05-22 | ✦ | [Peace of Raciąż; Marquard insults Birutė](events/ev_raciaz_1404.qmd) | III · Žaliasis Miškas |
 | 1410-07-15 | ✦ | [Battle of Grunwald / Žalgiris](events/ev_grunwald.qmd) | III · Žaliasis Miškas |
-| 1413 | ✦ | [Union of Horodło; Samogitian baptism begins](events/ev_horodlo.qmd) | IV · Nematoma Karūna |
+| 1413-10-02 | ✦ | [Union of Horodło; Samogitian baptism begins](events/ev_horodlo.qmd) | IV · Nematoma Karūna |
 | 1418-07-31 | ✦ | [Ona dies](events/ev_ona_dies.qmd) | IV · Nematoma Karūna |
 | 1429 | ✦ | [Congress of Lutsk: the crown offered](events/ev_lutsk.qmd) | IV · Nematoma Karūna |
 | 1430 | ✦ | [Crown embassy blocked at the Polish border (Aug 1430); Vytautas refuses Henė](events/ev_crown_intercepted.qmd) | IV · Nematoma Karūna |
@@ -53,8 +58,11 @@ title: "Timeline"
 | 1432-08-31 | ✦ | [Žygimantas's coup at Ašmena](events/ev_coup_1432.qmd) | V · Vilko Palikimas |
 | 1432-10-15 | ✦ | [Grodno: Žygimantas sworn Grand Duke before Oleśnicki (Jogaila absent)](events/ev_grodno_1432.qmd) | V · Vilko Palikimas |
 | 1432-12-08 | ✦ | [Battle of Ašmena: Žygimantas defeats Švitrigaila](events/ev_asmena_battle.qmd) | V · Vilko Palikimas |
-| 1434-06-01 | ✦ | [Jogaila dies](events/ev_jogaila_dies.qmd) | V · Vilko Palikimas |
+| 1434-06-01 | ✦ | [Jogaila dies at Gródek](events/ev_jogaila_dies.qmd) | V · Vilko Palikimas |
 | 1435-09-01 | ✦ | [Battle of Pabaiskas](events/ev_pabaiskas.qmd) | V · Vilko Palikimas |
 | 1435-12-31 | ✦ | [Peace of Brest (Brześć Kujawski): the Order drops Švitrigaila](events/ev_brest_peace.qmd) | V · Vilko Palikimas |
+| 1437 | ◇ | [Goštautas gives the warm coin to a beggar](events/ev_gostautas_coin.qmd) | V · Vilko Palikimas |
 | 1440-03-20 | ✦ | [Žygimantas assassinated at Trakai](events/ev_zygimantas_killed.qmd) | V · Vilko Palikimas |
 | 1447-05-02 | ✦ | [Casimir's privilege for Lithuania](events/ev_privilege_1447.qmd) | V · Vilko Palikimas |
+| 1449-12-12 | ◇ | [The keeper is named at the Palanga fire](events/ev_ziezirba_named.qmd) | V · Vilko Palikimas |
+| 1450-03 | ◇ | [Žiežirba dies; cremated on the beach](events/ev_keeper_dies.qmd) | V · Vilko Palikimas |

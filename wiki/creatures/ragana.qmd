@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/ragana.md >}}
 
 ## Folk source [Record]
+
 The Lithuanian witch. The word is commonly linked to *regėti*, "to see". Raganos gather on the Šatrija hill in Samogitia and other hills on Midsummer night; spoil cows' milk and steal "milk-luck" with dew gathered on Rasos morning; cause illness and turn people into animals; and in tales threaten or devour children. They also heal. The figure blends a wise woman, a seer and a dangerous neighbour.
 
 ## In the saga (where the folk are half-wrong)
+
 A woman **born** with Kalba (*prigimtis*) outside the priestly lines: no vaidilutė training, no shrine, only gift and need. The folk are right that she sees and can harm, and wrong that she serves Velnias, at least before 1387. After the Krivis and the vaidilutės are gone, [Velnias's small shapes](velnio_pavidalai.qmd) are the only teachers left and many raganos learn from them. They pay their own costs (blindness, voicelessness, thirst) and pass them on in their prices.
 
 ## Signs & habitat
+
 A woman alone at the edge of the village whom everyone visits and no one invites; dew-marks dragged through the rye on Rasos morning; cows dry for no reason.
 
 ## Before / after the Unbinding
+
 Before: the village's healer and occasional scapegoat. After: needed and hunted at once, the only defence against the hungry dead and the first one blamed for them.
 
 ## Banes, wards, bargains, and their cost
+
 Against a hostile ragana: rowan over the cowshed, iron in the churn, juniper smoke (she will know you did it). Hiring one is expensive: she works by Kalba and pays the price herself, so she charges what she asks, plus your silence, plus the risk you will need her again.
 
 ## Danger level
+
 II hazard → III dangerous.
 
 ## Story hooks
+
 Book I: the prologue's captain calls Eglė *raganos dukteri*, a half-right insult to a vaidilutė. Book II ch. 9: a ragana offers to buy the boys back with an Order child's blood and Vytautas refuses. Books II–V: a ragana and a vilkatas working together, each despising the other's methods.

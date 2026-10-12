@@ -8,9 +8,11 @@ categories: [faction]
 {{< include ../_generated/golden_horde.md >}}
 
 ## Overview
+
 [Record] The Mongol khanate of the western steppe, tributary master of the Rus' lands. [Tokhtamysh](../characters/tokhtamysh.qmd) reunited it in 1380, burned Moscow in Aug 1382, and was broken by Timur in 1391 and 1395. He then fled to Vytautas. The beglerbeg [Edigu](../characters/edigu.qmd), kingmaker for Temür Qutlugh, crushed Vytautas's coalition at the Vorskla on 12 Aug 1399. Edigu raided Moscow in 1408, and died in 1419 (some say 1420), probably killed by a son of Tokhtamysh. Tokhtamysh's son Jalal ad-Din led Tatars at Grunwald. After the 1420s the Horde fractured, and Crimea broke away under Hacı Giray with Lithuanian support.
 
 ## Wants (by book)
+
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
 | I | Tribute from the Rus'; punish Moscow (1382) | Cavalry | Moscow strong |
@@ -20,10 +22,13 @@ categories: [faction]
 | V | Fragmenting Horde; Crimea, Kazan | Lithuanian clients | None canonical |
 
 ## Patron Force
+
 [Saga] [Stepių Alkis](../forces/steppe_hunger.qmd) (Erdene-Chuluu), which is not Tengri but the hunger of horizon-kings. It speaks through Tokhtamysh at Lutsk (II ch. 15), feeds on Vytautas as well as on Edigu, and shows Vytautas a golden Sarai through Henė before the Vorskla (II ch. 20).
 
 ## Internal tensions
+
 Khan against kingmaker (Edigu against Tokhtamysh's line); Timur's invasions; Moscow's growing independence; Karaims and Tatars settled at Trakai serving Vytautas, a sign of the split.
 
 ## Notable members
+
 [Tokhtamysh](../characters/tokhtamysh.qmd), [Edigu](../characters/edigu.qmd).

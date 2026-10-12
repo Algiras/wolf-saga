@@ -8,12 +8,14 @@ categories: [character]
 {{< include ../_generated/skirgaila.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Skirgaila (c. 1354-11 Jan 1397), Duke of Trakai from 1382 (until 1392), Jogaila's governor (regent) of Lithuania from 13 Mar 1386, took Polotsk in April 1387, held Kyiv from 1395; died in Kyiv, circumstances unclear.
 
 ## Appearance & tells
 <!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
 
 ## Want · Need · Lie · Truth
+
 | | |
 |---|---|
 | **Want** (external) | |
@@ -28,8 +30,9 @@ categories: [character]
 <!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
 
 ## Record vs saga
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+
+- **[Record]:** Duke of Trakai 1382-92 (VLE); governor from 13 Mar 1386 (Frost 2015; VLE gives 1387); Polotsk Mar/Apr 1387; lost to Vytautas at Ostrów (1392); died 11 Jan 1397 (infobox 8 Jan), ill after a hunt, "some sources" poison; no chronicle names a monk.
+- **[Saga invention]:** The safe-conduct oath on Perkūnas, the book of names, Henė's stone, the monk Pachomijus (Book II).
 
 ## Pronunciation
 <!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->

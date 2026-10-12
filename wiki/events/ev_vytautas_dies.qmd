@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_vytautas_dies.md >}}
 
 ## What the chronicles say [Record]
+
 Vytautas (born c. 1350; a minority puts it at 1354–55) died on 27 October 1430 at Trakai Island Castle, uncrowned. He had been well until a sudden decline after a fall from his horse on the road from Vilnius to Trakai about 15–16 October, while escorting Jogaila (Długosz, written c. 30 years later; Petrauskas doubts details; Kraszewski adds an ulcer between the shoulder blades). On 21 October he issued a testamentary donation to Vilnius cathedral naming his burial place, St Michael's altar beside Ona. He was bedridden about eleven days. He died "in Jogaila's arms" (pl.wikipedia, Kraszewski), with Julijona and Bishop Matthias hearing confession; Švitrigaila was already acting as lord at Trakai (Kraszewski). He was buried in Vilnius cathedral about eight days later (Kraszewski: 7 November). The crown embassy had been blocked in August ([the crown intercepted](ev_crown_intercepted.qmd)). Whether the fall was an accident, a fever, a plot (some later writers suspected one; there is no evidence) or all three is unrecorded. Sources: pl.wikisource, Litwa za Witolda (1430); en/pl Wikipedia on Vytautas; the 15min.lt summary of Petrauskas's argument.
 
 ## What really happened [Saga]
+
 On the morning of 27 October he feels better, eats soup and sees the lake through the window with a thin film of ice and cranes going south. He has turned Giltinė once, buying a week, which he spent on Žiežirba: the pebble and the silver wolf will go to him through Pilkoji. He dies as one promise is kept: "Neužgeso." The pebble cracks and a small hard round thing falls on the floor and rolls: Henė's stone, two to one. In the vault below, the Last Flame goes out, "like a pot taken off the fire". He hears with both ears at last, and his mother says his true name, the one she whispered once in the tower at Trakai forty-eight years before. He waits for thunder. There is none: [Perkūnas](../gods/perkunas.qmd) holds his storm, not from anger but out of respect. The vilkatai feel their true names go up the last smoke. Jogaila sits in the corridor outside, not asking to be let in.
 
 ## Consequences
+
 Mirrors the graph: the death 'ends' [the Last Flame promise](../magic/flame_promise.qmd) and leads to [Žygimantas's coup at Ašmena](ev_coup_1432.qmd) (the war of the heirs) and to [the seizure of Podolia](ev_podolia_seized.qmd). The vilkatai die with the flame: new wolves can be made only at a living flame.
 
 ## Dramatisation
+
 Book IV ch. 24 "Vilniaus Laukimas" (Jogaila), ch. 25 "Kritimas" (Vytautas; mid-October), ch. 26 "Paskutinis Susitikimas" (Jogaila), ch. 27 "Šaknų Motinos Atsisveikinimas" (Eglė; the night of 19–20 October), ch. 28 "Giltinė prie Lovos" (20–26 October), ch. 29 "Vilko Mirtis" (Vytautas; 27 October 1430, evening; the Trakai island castle) and ch. 30 "Epilogas: Nematoma Karūna" (Henė; Lake Galvė, late autumn). The same night is replayed from the vault in Book V ch. 1 "Paskutinis Atodūsis" (Birutė frame; Žiežirba).

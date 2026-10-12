@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_christmemel.md >}}
 
 ## What the chronicles say [Record]
+
 Treaty of Christmemel (Skirsnemunė), 19 June 1431, between [Švitrigaila](../characters/svitrigaila.qmd), Grand Master Paul von Rusdorf and the Livonian Master Zisse von Rutenberg. Terms: mutual aid if attacked, war only by joint consent, shared spoils (Wikipedia; VLE, Skirsnemunės sutartis). Witnesses included Jonas Goštautas, Kristinas Astikas, Mykolas Kęsgaila and [Žygimantas Kęstutaitis](../characters/zygimantas.qmd). Sources disagree on whether Palanga was ceded (the English Wikipedia says so; VLE says the Melno borders held); the saga keeps Palanga Lithuanian.
 
 ## What really happened [Saga]
+
 The pact between Švitrigaila and the crusader Orders is the old enemy's re-entry through the front door: the alliance that Vytautas refused to the end. Žygimantas rides with him as a witness, already watching.
 
 ## Consequences
+
 The graph records no outgoing edge. The treaty is the diplomatic root of the war that ends at [Pabaiskas](ev_pabaiskas.qmd), and the Polish reply (the invasion of Volhynia) leads to [the Czartorysk truce](ev_czartorysk_truce.qmd).
 
 ## Dramatisation
+
 Book V ch. 3 "Švitrigailos Pakilimas" (Švitrigaila; the chapter runs from autumn 1430 to September 1431; the treaty falls in midsummer 1431).

@@ -1,0 +1,24 @@
+---
+title: "Peace of Raciąż; Marquard insults Birutė"
+id: ev_raciaz_1404
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_raciaz_1404.md >}}
+
+## What the chronicles say [Record]
+
+Peace of Raciąż, **22-23 May 1404** (en.wikipedia 22 May; VLE 23 May), on an island in the Vistula at Raciążek, at the confluence of the Drwęca and the Vistula; talks from September 1403 through Vytautas's plenipotentiaries. The 1398 Salynas borders were kept; the Order regained Samogitia and part of Sudovia and ended support for Švitrigaila; Poland could buy back Dobrzyń; Vytautas might move 250 Samogitian noble families into Lithuania. Smolensk was retaken in July 1404. Marquard von Salzbach had nearly derailed the talks by accusing Vytautas of treachery; **after the peace he insulted Vytautas by attacking his murdered mother Birutė** (en.wikipedia, after Ekdahl 1992). Ulrich von Jungingen (marshal from 1404) is plausibly present.
+
+## What really happened [Saga]
+
+At the Order's evening feast [Marquard](../characters/marquard.qmd) toasts "the witch" Birutė and the sea that "could not swallow her"; Vytautas answers "Aš tai prisiminsiu", for the second time he says it to Marquard (the first was at Lyck). At Grunwald he keeps the promise. The Amber Queen later names Marquard (Book III ch. 14: "Raciążeke").
+
+## Consequences
+
+Caused by [the Union of Vilnius and Radom](ev_vilnius_radom.qmd). Leads, through Marquard's execution, to [Grunwald](ev_grunwald.qmd).
+
+## Dramatisation
+
+Book III ch. 6 (Vytautas; 22-23 May 1404, a castle chapel at Raciążek); ch. 14 and ch. 21 (the execution after Grunwald).

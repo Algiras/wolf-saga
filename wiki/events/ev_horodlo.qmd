@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_horodlo.md >}}
 
 ## What the chronicles say [Record]
+
 The Union of Horodło was signed on 2 October 1413 at Horodło on the Bug. Forty-seven Lithuanian noble families were adopted into Polish heraldic clans; Catholics alone could hold the new offices of voivode of Vilnius (Albertas Manvydas) and of Trakai, closing high office to the Orthodox (Wikipedia, Union of Horodło). In November 1413 Jogaila and Vytautas baptised Samogitians for about a week near the Dubysa, Vytautas preaching in the local tongue (Długosz); the process was complete in 1417 with the bishopric of Medininkai. Some scholars think the 1413 mission was modest. The young Oleśnicki at the ceremony is plausible but unattested.
 
 ## What really happened [Saga]
+
 For the saga it is a heraldry ceremony that is a declaration of civil war twenty years early. The Samogitian baptism that follows fells the first Hidden Grove, and the Quenched multiply in the hearths. By day Vytautas preaches; by night he thinks of the vault. The Riders of the Reise take to the Samogitian roads.
 
 ## Consequences
-Caused by [Grunwald](ev_grunwald.qmd); it has no outgoing graph edge. The Hidden Groves then fall one by one until the founding of the bishopric (1417). The graph places the event at the Lutsk node as a placeholder; the real place is Horodło on the Bug.
+
+Caused by [Grunwald](ev_grunwald.qmd); it has no outgoing graph edge. The Hidden Groves then fall one by one until the founding of the bishopric (1417). The event now sits at its own place node, [Horodło on the Bug](../places/horodlo.qmd) (no longer the Lutsk placeholder).
 
 ## Dramatisation
+
 Book IV ch. 2 "Horodlės Herbai" (a Lithuanian boyar, 2 October 1413, autumn) and ch. 3 "Žemaičių Krikštas" (Vytautas, November 1413, Samogitia).

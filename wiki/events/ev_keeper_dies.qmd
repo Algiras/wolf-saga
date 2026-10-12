@@ -1,0 +1,24 @@
+---
+title: "Žiežirba dies; cremated on the beach"
+id: ev_keeper_dies
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_keeper_dies.md >}}
+
+## What the chronicles say [Record]
+
+Nothing in the record.
+
+## What really happened [Saga]
+
+Žiežirba dies in early March 1450 and is cremated on the beach; the silver wolf passes to [Rimgailė](../characters/rimgaile_palanga.qmd); the kneeling statue glows once with remembering, and the sea takes her (Book V ch. 29). The frame closes: "Vanduo siekia smakrą."
+
+## Consequences
+
+Ends the [kneeling statue](../artifacts/kneeling_woman.qmd)'s watch on the shore.
+
+## Dramatisation
+
+Book V ch. 29 (frame); the 1553 epilogue is ch. 30.

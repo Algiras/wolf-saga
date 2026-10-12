@@ -1,0 +1,37 @@
+// Markdown lint for the wiki and world bible. Only rules that change how Pandoc/Quarto renders a
+// page are on; style rules (line length, heading wording, inline HTML) stay off.
+//   npx markdownlint-cli2            # check
+//   npx markdownlint-cli2 --fix      # auto-fix blank lines around tables, lists, headings, fences
+{
+  "config": {
+    "default": false,
+    "MD058": true,  // blanks-around-tables: a table glued to a paragraph renders as plain text
+    "MD055": true,  // table-pipe-style: consistent leading/trailing pipes
+    "MD056": true,  // table-column-count: rows with too many/few cells
+    "MD022": true,  // blanks-around-headings
+    "MD031": true,  // blanks-around-fences
+    "MD032": true,  // blanks-around-lists: a list glued to a paragraph is not a list in Pandoc
+    "MD037": true,  // no-space-in-emphasis: "** bold **" does not render
+    "MD038": true,  // no-space-in-code
+    "MD039": true,  // no-space-in-links
+    "MD042": true,  // no-empty-links
+    "MD045": false, // images without alt text are allowed (generated infobox images carry captions)
+    "MD011": true,  // no-reversed-links: (text)[url]
+    "MD034": false  // bare URLs are fine
+  },
+  "globs": [
+    "wiki/**/*.qmd",
+    "world_rules/**/*.md",
+    "books/*.md",
+    "books/*/*.md",
+    "books/*/notes/*.md"
+  ],
+  "ignores": [
+    "wiki/_site/**",
+    "wiki/_generated/**",
+    "wiki/codex/**",
+    "wiki/.quarto/**",
+    "**/_book/**",
+    "node_modules/**"
+  ]
+}

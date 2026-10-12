@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_zygimantas_killed.md >}}
 
 ## What the chronicles say [Record]
+
 [Žygimantas Kęstutaitis](../characters/zygimantas.qmd) was murdered at Trakai on 20 March 1440, which was Palm Sunday (Easter 1440 fell on 27 March). The conspirators were boyars led by Aleksandras and Jonas (Ivan) Czartoryski, supporters of Švitrigaila, who then returned Lutsk to him (VLE; Wikipedia says possibly led by Alexander Czartoryski). The complicity of Jonas Goštautas is flagged as uncertain by the VLE. He had been Grand Duke since 1432 and had turned increasingly suspicious, executing boyars and negotiating with Albert II of Habsburg in 1438–39. Casimir was proclaimed Grand Duke on 29 June 1440.
 
 ## What really happened [Saga]
+
 The last Kęstutaitis to rule dies in his father's castle. The wolves heard the Czartoryskis' plan and were too few to stop it, and the keeper decided not to save a tyrant and is not sure he is right. When he dies the Iron Wolf's last howl rises from the lake: the pack of the dead mourning the last of the prince they were first sworn to. The ice breaks round the island in one circle, from shore to shore, as if cut by a knife, and the castle stands in black water as if built anew. Palm Sunday bells ring on the Trakai belfry.
 
 ## Consequences
+
 The graph attaches no outgoing 'causes' edge. The saga's consequence is the elevation of [Casimir](ev_privilege_1447.qmd) in June 1440 and the council's rule; [Henė](../characters/hanulas.qmd) appears to the keeper on the ice in the winter.
 
 ## Dramatisation
+
 Book V ch. 21 "Bajorų Sąmokslas" (Pilkoji; February 1440, Vilnius and Trakai) and ch. 22 "Kraujas ant Trakų Akmenų" (Žiežirba; 20 March 1440, Palm Sunday, the island castle; the ice song).

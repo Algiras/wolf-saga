@@ -7,6 +7,7 @@ Precedence for everything else: `canon_decisions.md` > `cosmology.md` / `magic_r
 ---
 
 ## D1. Birutė is a vessel who becomes the Amber Queen
+
 *Decided 2026-10-10 by the author.*
 
 - Birutė is born mortal, the last of the **Palanga amber-priestess line** (*vaidilutės* of the shore flame). The **Amber Queen** (*Gintaro Karalienė*) is not a person but an **office of grief and memory** first held by the sea goddess **Jūratė** (see `cosmology.md` §3.4). It needs a living vessel to act in the Middle World.
@@ -15,6 +16,7 @@ Precedence for everything else: `canon_decisions.md` > `cosmology.md` / `magic_r
 - **Must change:** `hidden_immortals.md` §1 (no longer "never mortal"; no "drowning in Book II"); `persona/Birute/divine_origin.md`.
 
 ## D2. Henė (the Shadow-Seller) is a shard of Velnias
+
 *Decided 2026-10-10 by the author.*
 
 - *Šešėlių Pardavėjas* is a splinter of **Velnias**, lord of the dead, of wealth and of bargains. He wears mortal masks. His best known is **Henė the jester**, and his first mask in the saga is **Hanulas**, the Riga-born Vilnius merchant who historically opened Vilnius to Jogaila in 1382 (*Saga invention*: the names echo).
@@ -24,6 +26,7 @@ Precedence for everything else: `canon_decisions.md` > `cosmology.md` / `magic_r
 - **Must change:** ch. 30 wording; `hidden_immortals.md` §2 (Lutsk is **Book IV**, not V).
 
 ## D3. History is the record plus mythic gaps
+
 *Decided 2026-10-10 by the author.*
 
 - **Fixed:** real dates, real names of office-holders, real outcomes of battles, treaties, deaths and baptisms (see `master_chronology.md`).
@@ -33,6 +36,7 @@ Precedence for everything else: `canon_decisions.md` > `cosmology.md` / `magic_r
 - **Must change:** see `books/1/story_review.md` §3 (H1–H13).
 
 ## D4. Real names in prose and docs
+
 *Decided 2026-10-10 by the author.*
 
 - Prose and docs use **Vytautas, Jogaila, Kęstutis, Ona, Skirgaila, Birutė, Švitrigaila, Jadvyga (Jadwiga)**.
@@ -41,6 +45,7 @@ Precedence for everything else: `canon_decisions.md` > `cosmology.md` / `magic_r
 - **Must change:** persona folders renamed (`Vytis → Vytautas`, `Jagelis → Jogaila`, `Kestus → Kestutis`, `Anna → Ona`); `books/1/outline.md` name table; stray "Kestutis"/"Kęsto" in ch. 1 and 10.
 
 ## D5. The two Eglės are one woman
+
 *Recommended by the reviewer 2026-10-10; the author may override.*
 
 - **Eglė** is the last *vaidilutė* of the eternal flame in the **Šventaragis valley** (Vilnius), not Romuva (Romuva lay in Order-held Prussia by 1382). The prologue's prophecy night is her last night as a mortal priestess.
@@ -49,11 +54,13 @@ Precedence for everything else: `canon_decisions.md` > `cosmology.md` / `magic_r
 - **Must change:** prologue location; ch. 15 line; `senoves_kalba_magic_system.md` lineage examples (fine as is: Forest Whisperers).
 
 ## D6. One cosmology, three layers
+
 *Reviewer decision 2026-10-10, required to make D1 and D2 coherent.*
 
 The five-element *Senovės Kalba* and the Meddling Forces are **one system** seen from two sides. Gods are the *source*, Forces are gods *hungry and meddling in history*, and *Kalba* is the mortal craft of *asking*. Full rules are in `cosmology.md` and `magic_rules.md`.
 
 ## D7. The Silent Pact is the series engine
+
 *Reviewer decision 2026-10-10, unifies Books I–V.*
 
 - In **1345**, when Algirdas and Kęstutis took power, they swore the **Tylioji Sutartis** with the old gods. The gods would keep Lithuania unconquered while a Gediminid kept the sacred flames, and they would take **royal blood for land lost** (the "Amber Debt").
@@ -73,25 +80,28 @@ The five-element *Senovės Kalba* and the Meddling Forces are **one system** see
 | Project name **Geležinio Vilko Saga** | "Lithium Thrones" (old name in `meddling_forces.md`, `hidden_immortals.md`) |
 
 ## D9. Kinship terms (applies to all prose)
+
 - Kęstutis → Jogaila, Skirgaila, Švitrigaila: **dėdė** (uncle), and they are his **sūnėnai**.
 - Vytautas ↔ Jogaila, Skirgaila: **pusbroliai** (cousins).
 - Ona → Kęstutis: **uošvis**; Ona → Birutė: **anyta**.
 - Algirdas and Kęstutis: **broliai**.
 
 ## D10. The Iron Wolves serve two masters
+
 *Proposed 2026-10-10 in `iron_wolves.md`; the author must confirm.*
 
 - The vilkatai are the Root-Mother's servants (`cosmology.md` §3.2) **and** are sworn to **whoever keeps a Gediminid sacred flame**. They may **never shed Gediminid blood**.
-- In 1382 this splits the brotherhood: the Vilnius packs owe Jogaila and hold the doors during the ch. 7 massacre. After 1387, Vytautas's secret flame is the only one left, so every surviving wolf answers to him. New wolves can be made only at a living flame, so the brotherhood dies when the flame goes out in 1430.
+- In 1382 this splits the brotherhood: the Vilnius packs owe Jogaila and stand aside during the ch. 7 massacre at Jogaila's camp near Trakai (seven of the hidden nine die there; Jonas's men stayed in Kęstutis's own camp). After 1387, Vytautas's secret flame is the only one left, so every surviving wolf answers to him. New wolves can be made only at a living flame, so the brotherhood dies when the flame goes out in 1430.
 - Only wolves sworn twenty years or more can take wolf shape. The folk belief that all vilkatai shape-shift is half wrong.
 
 ---
 
 ## Open author decisions (collected from the world-bible pass)
+
 | # | Question | Raised in | Default if undecided |
 |---|---|---|---|
 | Q1 | Book II title: *Auksinis Šešėlis* or *Vytis ir Šešėlis*? | series_outline / README | Keep *Auksinis Šešėlis* in docs |
-| Q2 | Is it too dark for Book I that the Vilnius wolves hold the doors during the ch. 7 massacre? | iron_wolves §16 | Keep it, off-page |
+| Q2 | Is it too dark for Book I that the Vilnius wolves stand aside during the ch. 7 massacre (camp near Trakai)? | iron_wolves §16 | Keep it, off-page |
 | Q3 | The Krivis of 1382: name ("Sirvydas"?) and descent from Lizdeika? | legends_and_songs, religion_and_clergy | Unnamed "Krivis" |
 | Q4 | Vytautas's third baptism: the Orthodox one (c. 1384, verify) or only the two Catholic ones? | legends_and_songs | Two Catholic (1383, 1386) |
 | Q5 | Book V corrects details of the Silent Pact song (a deliberate mismatch)? | legends_and_songs | Yes |
@@ -106,6 +116,7 @@ The five-element *Senovės Kalba* and the Meddling Forces are **one system** see
 | Q14 | Birutė as a vessel: from 1382 (power_systems §4) or only on transformation in 1384 (D1)? | persona pass | Becoming from 1382; complete in 1384 |
 
 ## D11. Choices made while realigning the outlines and revising Book I (2026-10-10; the author may override)
+
 - **Where the Last Flame is:** lit in 1387 in **Kęstutis's old hunting lodge beyond the Neris** (Book I ch. 29); moved by Vytautas to the **half-flooded foundations of the Trakai island castle** while Skirgaila holds Trakai (Book II); in the finished island-castle vault after Ostrów (1392 →).
 - **Who carries the 1387 ember:** Vytautas himself (Book I ch. 29). The Book II outline's mention of Kalvis (iron_wolves.md) is to be read as Kalvis *guarding* the lodge flame.
 - **The flame goes out** at the moment of Vytautas's death (IV ch. 29); Book V ch. 1 replays the same night from the vault.

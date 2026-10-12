@@ -7,6 +7,7 @@
 ## 1. The protagonist: Vytautas (c. 1350–1430)
 
 ### 1.1 The through-line
+
 **The lie he starts with:** *"Honour and blood will keep us safe."* (inherited from Kęstutis)
 **The lie he adopts after Krėva:** *"Only cunning survives; trust is weakness."* (the Wolf)
 **The truth he finally earns:** *"Cunning is a tool, faith is a choice, and some fires must be kept even at the cost of a crown."*
@@ -14,6 +15,7 @@
 He is not a hero who becomes good. He is a good man who becomes **effective**, pays for it in people, and in the end chooses **one** thing to stay faithful to.
 
 ### 1.2 The seven forms (his "morph")
+
 Each form gets a name the narrative can use, a **visible tell** (body, objects, speech) and a **trigger** that ends it.
 
 | # | Form | Book / chapters | Want | Visible tells | Trigger that ends it |
@@ -36,6 +38,7 @@ Each form gets a name the narrative can use, a **visible tell** (body, objects, 
 | **IV** | The crown that would make Lithuania sovereign | Decide what he is faithful to | "Legitimacy comes from Rome or Kraków" | It comes from what you keep | The crown itself; Ona (1418); his life |
 
 ### 1.4 What keeps him sympathetic while he does terrible things
+
 - **He always pays personally** for every betrayal (rule from `series_arc.md` §3.2).
 - **He keeps one promise** across forty-three years (the flame), which the reader knows about and no one in-world does.
 - **He saves Vilnius twice** (I ch. 24 and II 1390, where this time he is besieging it, and he has to live with that).
@@ -59,6 +62,7 @@ Each book needs **one mortal antagonist with a face**, **one mythic antagonist**
 | **V** | **Žygimantas Kęstutaitis** vs **Švitrigaila** (both antagonists to the new protagonist) | Vytautas's own brother turns tyrant; Jogaila's brother, the wild East | **The Unbinding itself** (the unfed dead) + Henė's final unmasking | Both fall (Pabaiskas 1435; Žygimantas assassinated 1440); the realm survives as an ordinary state |
 
 ### 2.1 The overarching antagonist: Henė / the Shadow-Seller
+
 - He is the **only** antagonist present in every book. He **never wins by force** and **never loses by force**; he is beaten only by **refusal** or **cleverness**.
 - **His score across the series:** Jogaila (bought, Book I); Skirgaila (bought, collected 1397); Vytautas (half-bought at the Vorskla; **refuses** at Lutsk). **The series climax is Vytautas's refusal in Book IV.**
 - **Visible decline:** three stones (Book I) → two (after Skirgaila, Book II) → one (after Vytautas, Book IV) → none (Book V: he unmasks because there is no one left to deal with).
@@ -83,6 +87,7 @@ Each book needs **one mortal antagonist with a face**, **one mythic antagonist**
 ---
 
 ## 4. Book V's protagonist: passing the torch
+
 Vytautas dies at the end of Book IV. Book V needs a **new point of view with a clear want**:
 
 - **Recommended: the Flame-Keeper.** An invented **vilkatas** of the Iron Wolves *(Saga invention)*, a boy rescued during Book II's Unbinding hunts and raised in the Trakai vault as the flame's secret guard. **Want:** relight the flame after Vytautas's death. **Antagonists:** Žygimantas (who would use him) and the unbound dead. **Arc:** he learns the Pact cannot be re-sworn by one man, and lets the gods *become stories*. That ending is the series' last word on memory (the Law of Memory: "the land remembers").
@@ -91,6 +96,7 @@ Vytautas dies at the end of Book IV. Book V needs a **new point of view with a c
 ---
 
 ## 5. Book I revision checklist (character)
+
 - [ ] Ch. 1–2: show Kęstutis's **1381 mercy** toward Jogaila, the tragic flaw that pays off at Krėva.
 - [ ] Ch. 3: stage the **Sutartis** (blood, true name, surety, flame promise).
 - [ ] Ch. 5 or 6: give **Skirgaila** a POV beat. He must be a person, not a fist.

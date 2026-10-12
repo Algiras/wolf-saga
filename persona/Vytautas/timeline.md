@@ -2,7 +2,7 @@
 
 ## Era: The Civil War (Book I)
 1.  **The Uneasy Summer (1381–82)**: Vytautas holds Grodno and stands by his father Kęstutis, sole surviving oath-taker since Algirdas's death (1377). In autumn 1381 Kęstutis seizes Vilnius and spares Jogaila.
-2.  **The Betrayal (early Aug 1382)**: Comes with Kęstutis to parley at Jogaila's camp near Trakai under Skirgaila's safe-conduct. Seized and sent to Krėva. (The book stages the trap in Vilnius; acceptable dramatisation.)
+2.  **The Betrayal (early Aug 1382)**: Comes with Kęstutis to parley at Jogaila's camp near Trakai under Skirgaila's safe-conduct. Seized on 3 Aug 1382 and sent to Krėva. (Book I stages it exactly so: the camp palisade gate is the "Iron Gates".)
 3.  **The Dungeon**: Imprisoned at Krėva. His father is found strangled on 15 Aug 1382.
 4.  **The Escape (autumn 1382)**: Leaves in the clothes of Ona's maid, who stays behind in his place. Birutė's fog covers him.
 5.  **The Exile**: Flees through the Dykra, hunted by Skirgaila's men; Eglė's price. Reaches his sister Danutė in Masovia, then the Order in Prussia.

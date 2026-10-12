@@ -5,6 +5,7 @@ Files: `23_vaikas_soste.qmd` (1,658 w), `24_seseliu_pardavejo_veidas.qmd` (1,946
 ## Established per chapter
 
 **Ch 23, 29 Jun 1440, Vilnius (POV Kazimieras, 12).**
+
 - Sonka let him out of Kraków at the Florian Gate ("eik, kol jie nesusigriebė"), ten days before. Zbigniew Oleśnicki's sealed letter (Kraków council: keep him there, rule Vilnius by appointee) overtakes the party near Trakai. Goštautas pockets it unopened: "Rytoj. Kai atsakyti jau nebebus kam." Kazimieras vows to read every line from then on.
 - Escort: Jonas Goštautas, Kristinas Astikas, Kęsgaila, Daugirdas. Both Čartoriskiai ride along: Ivanas (tall) has shaking hands; Aleksandras (short) is calm and nods (matches ch 21/22).
 - Mykolas Žygimantaitis has fled (rumours: Moldavia / Moscow / still hiding). Goštautas explains the Prussian Confederation (Mar 1440) and says the Germans will ask for a Hanseatic office at Kaunas "next year or the one after".
@@ -12,6 +13,7 @@ Files: `23_vaikas_soste.qmd` (1,658 w), `24_seseliu_pardavejo_veidas.qmd` (1,946
 - Kazimieras speaks Ruthenian well and Lithuanian only by half (from his nurse).
 
 **Ch 24, Jan 1441 (full moon), ice of Lake Galvė (POV Žiežirba, 51).**
+
 - The ice has been **mute since Palm Sunday 1440**. He sits each full moon, 200 paces from the island at the south arch, on a fishermen's log beside the ice-hole, with the horn lantern (white lightning-fire, no names) and a crust of bread left out for the Iron Wolf. The Iron Wolf has not returned. A fox takes the bread.
 - **Henė comes with no stones**: his hands still mime juggling. He ticks off the stones: Skirgaila collected; Jogaila died holding his; Vytautas said no. Henė brings **no Breath of the Void** (the sounds stay).
 - **Unmasking:** he peels off his face like a glove. Beneath it is *tuštuma*, not skull or darkness: a depth that gives off warmth like a banked oven. All of the past stands in it at once (Žygimantas at the pillar listening, the two brothers in the valley, Pušis, Kalvis, Šešiapirštis, Rūdis, the boy with the clay pot). "Ne Dausose ir ne po akmeniu. Pas mane." In the hollow he speaks **in the keeper's own voice** (the Echo).
@@ -21,11 +23,13 @@ Files: `23_vaikas_soste.qmd` (1,658 w), `24_seseliu_pardavejo_veidas.qmd` (1,946
 - Count of wolves stated: Pilkoji **76**, plus **three** other wolves besides the keeper (so five in all, as ch 22 and ch 16 give: Uosis, Spyglys, Dobilas).
 
 **Ch 25, autumn 1445 to Lent 1446, Palanga (POV the fisherman Dargis; Birutė frame coda in italics).**
+
 - The kneeling statue **no longer glows**: grey, cool to the touch (not cold), still standing and never moved. Dargis's wife **Rimgailė**; the old midwife **Gedvilė** ("ją reikia prisiminti"); the young fisherman **Gaudas**, who takes shore amber without an offering (it is cold in the hand). Danzig cog; Varna rumour (king's body never found; "lenkai jau antri metai laukia"); Kazimieras still hesitating over the Polish crown. A Riga pedlar brings, in Lent 1446, the blinding of Vasilijus ("Tamsusis", Sofija's son, Vytautas's grandson).
 - Rimgailė kneels at the statue; the sea withdraws five paces and returns. The statue stays grey but seems to lean toward her.
 - Frame: the Queen says the light was always the people's (bread, candle, a name told to a child). The voice through the cracked pebble now runs "like a spring-vein under snow: felt, not heard". The sea "is learning her shore by heart", an early hint of 1450. She saw her great-grandson blinded through the amber bead that Sofija's envoy left on Vytautas's tomb (ch 2).
 
 **Ch 26, May and 25 Jun 1447, Vilnius then Kraków (POV Kazimieras, 19).**
+
 - The privilege is read in the Lower Castle by the old clerk **Mikalojus** (grandfather wrote for Algirdas, father for Vytautas). Clauses shown: no noble arrested or punished without a court; inherited lands not taken; offices not to foreigners; court rulings carried out without the duke's grace. "Pasitikėjimas pasenta. Raštas pasenta lėčiau." Clerk: the fire "knew whether he would hold"; now "vaškas nežino. Žino tik tas, kuris paskui skaito." Kazimieras signs; Goštautas seals. Goštautas privately says he counted the cup (eleven pounds of silver) and that he too once gave a coin away unmeasured (ch 17).
 - Coronation at Wawel on 25 Jun 1447; the crown weighs less than the Vilnius cap. At the feast **Henė appears as a jester** (black and red, silent bells, empty juggling hands). Kazimieras, who has learned to look just behind a speaker, hears only scraps: "brolis... parodysiu... kur jis guli". He asks Sonka whether anyone spoke of Vladislovas; says aloud: "Jei kas turi žinių apie mano brolį, tegul parašo man laišką. Aš perskaitysiu." Henė sighs and goes; his steps down the stairs make no bell-sound. Kazimieras compares the Lithuanian and Polish privileges that night and finds two clauses that contradict each other.
 - Henė is **finished as an actor**: stoneless, refused by keeper (ch 24) and unseen by Kazimieras (ch 26). Do **not** bring him back on stage except at most as an unseen presence in ch 30.

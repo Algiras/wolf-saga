@@ -22,7 +22,8 @@
 ## 2. Factions inside the Grand Duchy
 
 ### 2.1 The Algirdaičiai (Jogaila's party)
-**[Record]** Uliana of Tver's sons and their followers: **Jogaila, Skirgaila, Kaributas, Lengvenis, Karigaila, Vygantas, Švitrigaila**, with Uliana herself until c.1391. They hold **Vilnius** and the eastern appanages. After 1386 Jogaila is **King of Poland** and governs Lithuania through Skirgaila (1387–92), then through Vytautas as lieutenant (1392 onward).
+
+**[Record]** Uliana of Tver's sons and their followers: **Jogaila, Skirgaila, Kaributas, Lengvenis, Karigaila, Vygantas, Švitrigaila**, with Uliana herself until c.1391. They hold **Vilnius** and the eastern appanages. After 1386 Jogaila is **King of Poland** and governs Lithuania through Skirgaila (governor from 13 Mar 1386; VLE gives 1387–92), then through Vytautas as lieutenant (1392 onward).
 
 | Book | What they want |
 |---|---|
@@ -37,6 +38,7 @@
 - **Force patron:** **Šešėlių Pardavėjas** (Jogaila's 1382 bargain: the crown gained, the land lost; magic_rules §8); the **White Silence** settles where his baptism is bought (cosmology §3.3); the **Gold-Glutton** feeds on his heirs' privileges. [Saga invention]
 
 ### 2.2 The Kęstutaičiai (Vytautas's party)
+
 **[Record]** **Kęstutis** (to 1382), **Vytautas**, his brothers **Tautvilas** and **Žygimantas**, his sisters' Masovian husbands, the **Samogitians**, and the Trakai and Grodno boyars.
 
 | Book | What they want |
@@ -52,6 +54,7 @@
 - **Force patron:** the **Amber Queen** through Birutė (D1; cosmology §3.4); **Perkūnas's claim** (magic_rules §7), contested by the **Root-Mother**; the **flame vow** (magic_rules §6). [Saga invention]
 
 ### 2.3 The boyars
+
 **[Record]** Lithuanian servitor nobility: before 1413 they are the duke's men; after **Horodło** (1413), Catholic boyars hold Polish arms and the new offices; by the 1440s the **council lords** (Goštautas, Daugirdas, Kęsgaila) are the state.
 
 - **Want:** land grants, offices, privileges (1387, 1413, 1432, 1434, 1447 *(verify each)*), **no Polish governors**, and a grand duke **of their choosing**.
@@ -61,6 +64,7 @@
 - **Force patron:** the **Gold-Glutton** (Book V outline ch. 17). [Saga invention]
 
 ### 2.4 The Orthodox Ruthenian princes
+
 **[Record]** Algirdas's elder sons (Andrius of Polotsk, Dmitrijus of Bryansk, Vladimiras of Kyiv), the **Karijotaičiai** of Podolia, the Volhynian houses (**Ostrogski**, **Czartoryski**), the **Halshany** princes, the Smolensk Rurikids. Orthodox, Ruthenian-speaking, the **majority** of the Grand Duchy's population and land.
 
 - **Want:** their patrimonies; protection of **Orthodoxy**; equal access to office; a Kyivan metropolitan independent of Moscow (Vytautas had **Gregory Tsamblak** elected Metropolitan of Kyiv in **1415** *(verify)*).
@@ -70,6 +74,7 @@
 - **Force patron:** none canonical. Their *dvoeverie* (`surrounding_folklore.md`) keeps the household spirits fed after the gods fall silent. **[Saga suggestion]** the Unbinding is **gentler** in the Orthodox east because custom never stopped there.
 
 ### 2.5 The Samogitians (Žemaičiai) as a political actor
+
 **[Record]** The western lowland between Prussia and Livonia: the **land bridge** the Order needs to join its two halves. Ceded on paper in **1382 (Dubysa), 1384 (Königsberg), 1390 (Lyck), 1398 (Salynas), 1404 (Raciąż)**; actually held by the Order only **1404–09** (and partly 1398–1401). It **rose** in **1401** and **1409** (the second rising triggered the Great War). Restored to Lithuania for the lifetimes of Jogaila and Vytautas at **Thorn (1411)** and **permanently at Melno (1422)**. **Baptised 1413** (with Jogaila and Vytautas present) and **1417** (bishopric of **Medininkai**). Samogitian delegates **testified at Constance** (1416) that the Order had never tried to convert them, only to conquer them. A **revolt against the new clergy in 1418** *(verify)*. In **1440–41** they negotiated their own terms with Casimir *(verify)*.
 
 - **Want:** to be left alone by everyone: the Order, Vilnius and the Church.
@@ -78,9 +83,10 @@
 - **Force patron:** **Šaknų Motina** and **Perkūnas**; the **Hidden Groves** bought by Birutė's sacrifice (cosmology §4.2) are Samogitian. Galminas is their voice (persona). [Saga invention]
 
 ### 2.6 The pagan clergy
+
 **[Record]** Little is certain. Długosz describes the **Vilnius sacred fire**, grove and snakes destroyed in **1387**. Peter of Dusburg describes a Prussian high priest (*Criwe*) at **Romuva**; whether Lithuania had an equivalent **Krivis** is debated. Legend names **Lizdeika**, interpreter of Gediminas's dream. Priestly titles (*žynys*, *vaidilutė*) survive in later sources and folklore.
 
-- **[Saga invention]:** the **Krivis of Šventaragis** witnessed the **Silent Pact** (1345). The flames of **Šventaragis**, **Palanga** and the Samogitian *alkai* are its collateral. After 1387 the priesthood **breaks into lineages** that are dying out (power_systems §4). The last *žynys*, Galminas, dies in the 1440s (Book V ch. 27).
+- **[Saga invention]:** the **Krivis of Šventaragis** witnessed the **Silent Pact** (1345). The flames of **Šventaragis**, **Palanga** and the Samogitian *alkai* are its collateral. After 1387 the priesthood **breaks into lineages** that are dying out (power_systems §4). Galminas (a Samogitian elder of the record, Vytautas's deputy in the 1409 rising) becomes a grove at Grunwald (1410, D11). The last *žynys* of Book V ch. 27, who dies in the 1440s, is **his pupil, the beekeeper-žynys**, not Galminas.
 - **Want:** the flames kept; the Pact honoured; kin-killing punished.
 - **Leverage:** the commons' belief; the **oath ceremonies** that treaties need; the ability to **read signs** in public (a priest who declares a lightning-struck oak a verdict can end a campaign).
 - **Red lines:** the extinguishing of a flame (1387 is the end of the world for them).
@@ -91,6 +97,7 @@
 ## 3. Factions outside the Grand Duchy
 
 ### 3.1 The Teutonic Order (Prussia)
+
 **[Record]** A crusading corporation with an amber monopoly, grain exports, Hanse towns, papal and imperial privileges, and the **Reise**: seasonal raids into Lithuania with Western guests. Grand Masters: Kniprode (to 24 Jun 1382), **Zöllner** (1382–90), **Wallenrode** (1391–93), **Konrad von Jungingen** (1393–1407), **Ulrich von Jungingen** (1407–10), **Plauen** (1410–13), **Küchmeister** (1414–22), **Rusdorf** (1422–41).
 
 | Book | What the Order wants |
@@ -106,6 +113,7 @@
 - **Force patron:** **Geležinis Šventasis (Iron Saint)**: Reise, forced baptism, furnace heat in winter (cosmology §3.3). Its "final screams" at Grunwald (series outline).
 
 ### 3.2 The Livonian Order
+
 **[Record]** The Order's autonomous northern branch (Riga, Wenden, Dünaburg) under its own **Landmeister**. Feuded with the **archbishops of Riga** and with **Pskov** and **Novgorod**. Supported **Andrius of Polotsk** against Jogaila (1380s *(verify)*). Raided Lithuania from the north. Allied with **Švitrigaila** and **crushed at Pabaiskas (1 Sep 1435)**, where Master **Franco Kerskorff** and much of the Livonian leadership died.
 
 - **Want:** Samogitia (the land bridge to Prussia); Polotsk and the Daugava trade; to dominate Riga.
@@ -114,6 +122,7 @@
 - **Force patron:** the **Iron Saint**'s northern face. Book V ch. 14: "the Iron Saint is finally silenced in the North." [Saga invention]
 
 ### 3.3 Poland: the Crown and the Lesser Poland lords
+
 **[Record]** After **Louis I's death (Sep 1382)**, two years of interregnum. The **Lesser Poland lords** (Spytko II of Melsztyn, Jan of Tarnów, Dobiesław of Kurozwęki and others) crown **Jadwiga** (16 Oct 1384), reject Wilhelm of Habsburg and Siemowit IV, and choose **Jogaila** (Krėva 1385). Jadwiga recovers **Red Ruthenia** from Hungary (1387). Later the **Oleśnicki** generation fights the Lithuanian crown (1429–30) and the Hussite sympathisers (Spytko III, d. 1439).
 
 | Book | What Poland's lords want |
@@ -129,6 +138,7 @@
 - **Force patron:** the **Gold-Glutton** (Oleśnicki, character_arcs) and the **White Silence** (purchased purity; Jadwiga's anchor, written as its victim). [Saga invention]
 
 ### 3.4 Hungary and the Luxembourgs
+
 **[Record]** **Louis I** (d. 1382) ruled Hungary and Poland. **Sigismund of Luxembourg** married Louis's daughter Mary (1385), ruled Hungary from 1387, lost the crusade at **Nicopolis (1396)**, sold the **Neumark** to the Order (1402) *(verify)*, arbitrated between Poland and the Order (Buda 1412; **Breslau 1420**, which went in the Order's favour), hosted **Constance**, and at **Lutsk (1429)** offered Vytautas a crown.
 
 - **Want:** Hungarian claims to **Red Ruthenia** and **Moldavia**; an anti-Ottoman coalition; **to split Poland from Lithuania**; money (often the Order's).
@@ -137,6 +147,7 @@
 - **Force patron:** **the Shadow-Seller serves him in 1429–30** (D2); the **Gold-Glutton** flatters him. [Saga invention]
 
 ### 3.5 Masovia
+
 **[Record]** The Piast duchies north of Poland: **Janusz I** (Warsaw, Czersk) ⚭ Danutė Kęstutaitė; **Siemowit IV** (Płock, Rawa) ⚭ Aleksandra Algirdaitė; **Henryk**, bishop-elect, ⚭ Rimgailė (1392). Vassals of the Polish crown, neighbours of the Order.
 
 - **Want:** survival as Piast duchies; to avoid both absorption by Kraków and Order raids.
@@ -145,6 +156,7 @@
 - **Force patron:** none. Masovia is **neutral ground** in the saga.
 
 ### 3.6 The Golden Horde and its succession wars
+
 **[Record]** **Tokhtamysh** reunited the Horde (1380), **burned Moscow (Aug 1382)**, was broken by **Timur** (1391, 1395), and fled to Vytautas. **Edigu**, beglerbeg and kingmaker, with **Temur Qutlugh**, destroyed Vytautas's coalition at the **Vorskla (12 Aug 1399)**. Tokhtamysh's sons (**Jalal ad-Din** at Grunwald) were Lithuania's clients. The Horde fractured in the 1420s–40s: **Ulugh Muhammad**, and **Hacı Giray**'s Crimea, founded with Lithuanian backing *(verify year)*.
 
 | Book | What the steppe wants |
@@ -160,6 +172,7 @@
 - **Force patron:** **Stepių Alkis (Steppe-Hunger)**, which is not Tengri (cosmology §2.2), but the hunger of horizon-kings. It feeds on **Vytautas** as much as on Edigu.
 
 ### 3.7 Muscovy
+
 **[Record]** **Dmitry Donskoy** (to 1389): Kulikovo 1380; the 1384 marriage draft with Uliana. **Vasily I** (1389–1425) ⚭ **Sofija Vytautaitė** (1391); fought his father-in-law over **Smolensk**, Pskov and Novgorod in **1406–08**, ending with the stand-off on the **Ugra (1408)**. Received the defecting **Švitrigaila** (1408). **Vasily II** (1425–62) was placed under **Vytautas's protection** (Vasily I's testament *(verify)*), with Sofija as regent, and was blinded in 1446 in the Muscovite civil war.
 
 - **Want:** to "gather the Rus' lands": Smolensk, Novgorod, Tver; the Metropolitan of all Rus' to sit in Moscow.
@@ -168,6 +181,7 @@
 - **Force patron:** none canonical. **[Saga suggestion]:** the Steppe-Hunger's shadow, since Moscow learned rule as the Horde's tribute-collector.
 
 ### 3.8 Novgorod and Pskov
+
 **[Record]** Merchant republics that **hire princes**: Lithuanian Gediminids served them (Narimantas earlier, **Lengvenis** 1389–92 and again in the 1400s *(verify)*). Vytautas besieged **Opochka** (Pskov land, 1426) and **Porkhov** (Novgorod land, 1428), taking large ransoms *(verify sums)*. Their trade runs through the Hanse's **Peterhof** in Novgorod.
 
 - **Want:** independence; trade; a prince who protects without ruling.
@@ -176,7 +190,8 @@
 - **Force patron:** **[Saga suggestion]:** the **Gold-Glutton**, through the Hanse.
 
 ### 3.9 The Hanse
-**[Record]** The German merchant league. The Prussian towns (**Danzig, Thorn, Elbing, Königsberg**) are the Order's subjects and increasingly its opponents (**Prussian Confederation, 1440**). **Riga** dominates Daugava trade and Polotsk. Hanseatic merchants in **Vilnius** (Hanulas of Riga opened the city to Jogaila in 1382). A Hanseatic office (*Kontor*) at **Kaunas** from **1441** *(verify)*.
+
+**[Record]** The German merchant league. The Prussian towns (**Danzig, Thorn, Elbing, Königsberg**) are the Order's subjects and increasingly its opponents (**Prussian Confederation, 1440**). **Riga** dominates Daugava trade and Polotsk. Hanseatic merchants in **Vilnius** (Hanulas of Riga led the townspeople who took Vilnius castle for Jogaila on 12 Jun 1382 and became first elder of Vilnius). A Hanseatic office (*Kontor*) at **Kaunas** from **1441** *(verify)*.
 
 - **Want:** privileges, safe roads, an end to the Reise's disruption, wax, furs, grain and amber.
 - **Leverage:** credit; ships; the Order's tax base.
@@ -184,6 +199,7 @@
 - **Force patron:** the **Gold-Glutton**: its envoys walk Trakai in Book I ch. 28 (cosmology §3.3). The Shadow-Seller's first mask, **Hanulas**, is a **Riga merchant** (D2). [Saga invention]
 
 ### 3.10 The Papacy and the Councils
+
 **[Record]** The **Western Schism** (1378–1417): Rome against Avignon (and Pisa from 1409). Poland and Lithuania follow **Rome**. The bishopric of **Vilnius** is founded in 1387–88. The **Council of Constance (1414–18)** ends the schism, burns **Jan Hus** (6 Jul 1415), and hears the Polish–Lithuanian case against the Order: **Paulus Vladimiri** (Paweł Włodkowic) argues that pagans have rights; the **Samogitian delegation** testifies (1416); the Order's **Johannes Falkenberg** attacks Jogaila in a libel later condemned *(verify outcome)*. The Council sets up the **Samogitian bishopric** (1417). **Martin V** (1417–31) presses Lithuania over the Hussites. The **Council of Basel** (1431–49) and the **Union of Florence** (1439) follow.
 
 - **Want:** unity, Church union with the Orthodox, crusade against the Ottomans, control over the Order's crusade.
@@ -192,6 +208,7 @@
 - **Force patron:** the **White Silence** gathers around **purchased** baptism and purity (cosmology §3.3). **Honest clerics** (Włodkowic, the Vilnius Franciscans) are its victims, never its agents (cosmology §2.2). [Saga invention]
 
 ### 3.11 Bohemia and the Hussites
+
 **[Record]** After Hus's burning, Bohemia revolts (1419). The Hussites offer their crown to **Jogaila** and then to **Vytautas** (1420–21), who sends his nephew **Žygimantas Kaributaitis** to Prague (1422; again 1424–27). Jogaila issues the anti-Hussite **Edict of Wieluń** (1424) under papal pressure. In **1433** a Polish–Hussite army raids the Order's Pomerania to the Baltic *(verify details)*. **Lipany** (1434) breaks the radicals. Hussite sympathy survives among Polish lords (Spytko III, killed at Grotniki in 1439).
 
 - **Want:** allies against Sigismund; recognition.
@@ -210,17 +227,17 @@
 | Autumn 1381 | Kęstutis's coup | — | Kęstutis takes Vilnius; Jogaila released to Krėva and Vitebsk | Kęstutaičiai | **Kęstutis's mercy.** |
 | **31 Oct 1382** | **Dubysa** | Jogaila; Order | Baptism within four years; Samogitia to the Dubysa; four-year truce; alliance | Pledged to the Dubysa (**never ratified**) | Bought with Kęstutis's death. |
 | **30 Jan 1384** | **Königsberg** | Vytautas; Order | Vytautas becomes vassal; Samogitia to the Nevėžis | Pledged | **The Amber Debt comes due.** |
-| Jul 1384 | Vytautas's first defection | Vytautas; Jogaila | Vytautas burns Georgenburg and Marienwerder; receives Grodno, Brest, Podlasie, later Lutsk *(verify)*; **Trakai to Skirgaila** | Back to Lithuania | "Išdavikų išdavikas"; the **Hidden Groves** bought. |
+| Jul 1384 | Vytautas's first defection | Vytautas; Jogaila | Vytautas burns Georgenburg (9 Jul 1384) and Marienwerder; receives Grodno, Brest, Podlasie, later Lutsk *(verify)*; **Trakai stays with Skirgaila (his since 1382; Jogaila had promised it to Vytautas in spring 1384)** | Back to Lithuania | "Išdavikų išdavikas"; the **Hidden Groves** bought. |
 | 1384 (draft) | **Moscow marriage draft** | Uliana, Jogaila; Dmitry Donskoy | Jogaila to marry Dmitry's daughter and accept Orthodoxy *(verify)* | — | The road not taken. |
 | **14 Aug 1385** | **Krėva** | Jogaila; Polish lords and envoys | Baptism of Jogaila and Lithuania; marriage to Jadwiga; recovery of lost Polish lands; Lithuania "attached" to the Crown | — | Signed one floor above the death cell; **the White Silence settles**. |
 | **19 Jan 1390** *(verify)* | **Lyck (Ełk)** | Vytautas; Order | Renews Königsberg; hostages (incl. Žygimantas; Ona and the children *(verify)*) | Pledged again | Surety, again. |
-| **4–5 Aug 1392** | **Ostrów (Astravas)** | Jogaila; Vytautas | Vytautas lieutenant (*de facto* Grand Duke) for life; Trakai and his patrimony returned; Skirgaila compensated (Kyiv, 1395) | Lithuanian | Henė changes masters (D2). Vytautas's **sons poisoned** by the Order (1392). |
+| **4–5 Aug 1392** | **Ostrów (Astravas)** | Jogaila; Vytautas | Vytautas lieutenant (*de facto* Grand Duke) for life; Trakai and his patrimony returned; Skirgaila compensated (Kyiv, 1395) | Lithuanian | Henė changes masters (D2). The Order's revenge: Vytautas's **sons poisoned** (1392; a **contested** tradition, Grunau; Sofija is the only child in the record). |
 | **12 Oct 1398** | **Salynas** | Vytautas; Order | Samogitia ceded to the Nevėžis; peace; Order aid against the Horde. Lithuanian lords proclaim Vytautas "king" at the feast *(verify)* | **Ceded** | The Hidden Groves under the Order's flag. |
 | 18 Jan / 11 Mar 1401 | **Vilnius–Radom** | Jogaila, Polish lords; Vytautas, Lithuanian boyars | Vytautas Grand Duke for life; lands revert to Jogaila and the Crown after him | Ceded (uprising 1401) | The reversion clause: Book IV's crown is its answer. |
-| **22 May 1404** *(verify)* | **Raciąż** | Poland, Lithuania; Order | Samogitia to the Order; Dobrzyń bought back by Poland | **Ceded** (held 1404–09) | The last sale. |
+| **22–23 May 1404** (en.wikipedia 22nd, VLE 23rd) | **Raciąż** | Poland, Lithuania; Order | Samogitia to the Order; Dobrzyń bought back by Poland | **Ceded** (held 1404–09) | The last sale. |
 | 1408 | **Ugra stand-off** | Vytautas; Vasily I | Peace; the Ugra as border | — | Grandfather and son-in-law, two riders. |
 | **15 Jul 1410** | **Grunwald / Žalgiris** | Poland, Lithuania; Order | Order defeated; Ulrich von Jungingen killed | Rising since 1409 | The Iron Saint screams. |
-| **1 Feb 1411** | **First Peace of Thorn** | Poland, Lithuania; Order | Samogitia to Lithuania **for the lifetimes** of Jogaila and Vytautas; Dobrzyń to Poland; a large indemnity *(verify sum)* | Lithuanian (lifetimes) | Victory that changes nothing for the gods. |
+| **1 Feb 1411** | **First Peace of Thorn** | Poland, Lithuania; Order | Samogitia to Lithuania **for the lifetimes** of Jogaila and Vytautas; Dobrzyń to Poland; 100,000 kopas of Prague groschen in four instalments; a clause that both rulers will convert the remaining pagans | Lithuanian (lifetimes) | Victory that changes nothing for the gods. |
 | **2 Oct 1413** | **Horodło** | Poland; Lithuania | Union renewed; separate Grand Duke kept; **47 boyar families** take Polish arms; **Catholic-only** high offices; voivodes of Vilnius and Trakai | Baptism begins | The heraldic marriage; the Orthodox grievance. |
 | 1414–18 | **Council of Constance** | All | Samogitian case; Medininkai bishopric (1417) | Baptised | Groves fall one by one. |
 | **27 Sep 1422** | **Melno** | Poland, Lithuania; Order | **Samogitia permanently Lithuanian**; Klaipėda (Memel) to the Order; the border lasts until 1918 *(verify that the border held so long)* | **Lithuanian** | The land is won as the gods are lost. |
@@ -265,7 +282,7 @@
 | Order | Zöllner | **Konrad von Jungingen** |
 | Horde | Tokhtamysh | **Temur Qutlugh and Edigu**; Tokhtamysh a refugee |
 | Moscow | Dmitry Donskoy | **Vasily I ⚭ Sofija** |
-| Losses | — | **Vytautas's sons** (1392); **Andrius, Dmitrijus, Spytko II** and many princes at the **Vorskla** |
+| Losses | — | **Vytautas's sons** (1392, a contested tradition); **Andrius, Dmitrijus, Spytko II** and many princes at the **Vorskla** |
 
 ### Book III: *Žaliasis Miškas* (1399 → 1411)
 
@@ -312,8 +329,8 @@
 
 ## 6. Political story engines
 
-1. **Trakai in Skirgaila's hands (1384–92).** Vytautas must bow in his father's hall to the man who held the rope. Every feast at Trakai is a provocation; Skirgaila drinks there with Henė (Book II opens here, series_arc). The engine burns until **Ostrów**.
-2. **Ona and the children as hostages (1383–84; c.1390).** The Order's surety for Vytautas's loyalty. Each defection is a decision to **risk his family**; the second costs him his **sons** (1392). Ona stops looking at him (character_arcs).
+1. **Trakai in Skirgaila's hands (1382–92).** Vytautas must bow in his father's hall to the man who held the rope. Every feast at Trakai is a provocation; Skirgaila drinks there with Henė (Book II opens here, series_arc). The engine burns until **Ostrów**.
+2. **Ona and the children as hostages (1383–84; c.1390).** The Order's surety for Vytautas's loyalty. Each defection is a decision to **risk his family**; the second, by one tradition, costs him his **sons** (1392; contested). Ona stops looking at him (character_arcs).
 3. **Vytautas's two defections (1384, 1392).** Both times he **holds Order castles** when he turns (Georgenburg, Marienwerder; later Neman forts *(verify)*). The Order's knights who trusted him burn; his name in Prussia becomes a curse. Perkūnas, keeper of oaths, keeps score (magic_rules §7).
 4. **The Samogitia-for-peace trades.** Dubysa, Königsberg, Lyck, Salynas, Raciąż: five times the same land is sold by men who do not hold it. The **Samogitians** never sign and always pay. Each sale is a grove felled in the Hidden Groves.
 5. **Kęstutis's mercy (1381).** He held Jogaila, read the treaty, and **let him go**. Every Kęstutaitis afterwards must choose between mercy and survival; Žygimantas (Book V) chooses survival and becomes a tyrant.
@@ -325,7 +342,7 @@
 11. **Tokhtamysh's yarlik.** A deposed khan offers the Rus' lands for an army. Vytautas's empire dream is a **contract with a ghost**; the Vorskla collects (Steppe-Hunger, Henė's vision).
 12. **Švitrigaila, the perpetual pretender.** Rebels in 1393, 1402 and 1408; imprisoned at Kremenets for nine years; freed by an Orthodox prince's raid (1418 *(verify)*); Grand Duke in 1430; loser at Pabaiskas. He is the dynasty's **id**, and he **outlives everyone**.
 13. **Horodło's two faces (1413).** Catholic boyars adopt Polish arms and gain offices, and the Orthodox princes are shut out. The grievance becomes **Švitrigaila's army** in 1432. A heraldry ceremony is a declaration of civil war twenty years early.
-14. **The Order's insult to Birutė.** Marquard von Salzbach once insulted Vytautas's mother (Długosz *(verify)*); after Grunwald Vytautas has him **beheaded**. Plant the insult early; let the Amber Queen's son answer it on the field of the Iron Saint.
+14. **The Order's insult to Birutė.** Marquard von Salzbach insulted Vytautas's murdered mother after the Peace of Raciąż (**1404**, not 1390: en.wikipedia after Ekdahl); after Grunwald Vytautas has him **beheaded** for refusing to apologise. Plant the insult early; let the Amber Queen's son answer it on the field of the Iron Saint.
 15. **The propaganda war (Constance, 1414–18).** Włodkowic against Falkenberg; Samogitian witnesses in a German city. The Order needs Lithuania's baptism to be **fake**; Lithuania needs it to be **real**. Vytautas, who keeps a secret pagan flame, is the one man for whom the Order is right.
 16. **The crown affair (1429–30).** Sigismund offers it to break the union; Oleśnicki stops it to save the union; Jogaila is caught between; Henė offers the last bargain (**the crown for the flame**, magic_rules §6). Vytautas refuses and dies uncrowned (series_arc).
 17. **The Hussite crown (1420–27).** Lithuania flirts with heresy: Vytautas accepts the Bohemian offer and sends **Kaributaitis**, then abandons him under papal pressure. Kaributaitis ends at Pabaiskas on **Švitrigaila's** side, captured by the Kęstutaitis army and dead soon after *(verify how)*.

@@ -1,0 +1,41 @@
+---
+title: "Karigaila (Jogaila's brother)"
+id: karigaila
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/karigaila.md >}}
+
+## Summary
+
+Karigaila, Jogaila's brother (not Kaributas), defends the Crooked Castle in 1390 and dies in its fall.
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+
+- **[Record]:** Died on 16 Sep 1390 when the Crooked Castle fell; Jogaila charged that the Knights beheaded him, the Order said he fell in the fighting; his head was carried on a stake round the Lower Castle (en.wikipedia, Siege of Vilnius 1390).
+- **[Saga invention]:** In Book II ch. 7 he dies when the arch falls and his head is carried on a pole afterwards.
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

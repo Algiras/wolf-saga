@@ -8,12 +8,14 @@ categories: [character]
 {{< include ../_generated/flame_keeper.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+**Žiežirba**, the Flame-Keeper (Book V's point-of-view character, b. c. 1390), raised in the Trakai vault as the flame's guard. After the flame goes out in 1430 he wanders with the silver wolf and the cracked pebble; on 12 Dec 1449, the longest night by the drifted calendar, he reaches Palanga and is named at a driftwood fire; he dies in early March 1450 and is cremated on the beach (Book V ch. 29).
 
 ## Appearance & tells
 <!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
 
 ## Want · Need · Lie · Truth
+
 | | |
 |---|---|
 | **Want** (external) | |
@@ -28,8 +30,9 @@ categories: [character]
 <!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
 
 ## Record vs saga
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+
+- **[Record]:** No such person in the record.
+- **[Saga invention]:** All of him. Dates: arrival at Palanga 12 Dec 1449; death early March 1450 (graph: [named](../events/ev_ziezirba_named.qmd), [dies](../events/ev_keeper_dies.qmd)).
 
 ## Pronunciation
 <!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->

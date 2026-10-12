@@ -8,9 +8,11 @@ categories: [faction]
 {{< include ../_generated/teutonic_order.md >}}
 
 ## Overview
+
 [Record] A crusading order that settled in Prussia in 1226-30 and ruled it from Marienburg. In this saga's years it is the Grand Duchy's chief enemy and its main source of hostages and treaties. Grand Masters: Winrich von Kniprode (1351-24 Jun 1382), [Konrad Zöllner von Rotenstein](../characters/zollner.qmd) (elected 5 Oct 1382, d. 20 Aug 1390), Konrad von Wallenrode (1391-93), Konrad von Jungingen (1393-1407), [Ulrich von Jungingen](../characters/jungingen.qmd) (1407, killed at Grunwald 15 Jul 1410), Heinrich von Plauen (1410-13), Michael Küchmeister (1414-22), Paul von Rusdorf (1422-41). Key dates: Dovydiškės 31 May 1380; Dubysa 31 Oct 1382; Königsberg 30 Jan 1384; Salynas 12 Oct 1398; First Peace of Thorn 1 Feb 1411; Melno 27 Sep 1422; Christmemel 19 Jun 1431; Brest 31 Dec 1435; the Prussian Confederation, 1440.
 
 ## Wants (by book)
+
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
 | VI | Break the Pact's guard on the west border | Reise raids; Kęstutis's capture, 1361 | Strėva and Rudau are wins, not conquest |
@@ -21,10 +23,13 @@ categories: [faction]
 | V | Back Švitrigaila (Christmemel 1431), then drop him (Brest 1435) | The Livonian branch | The crusade's legitimacy |
 
 ## Patron Force
+
 [Saga] [Geležinis Šventasis](../forces/iron_saint.qmd), fed by the Reise and forced baptism. Signs: furnace heat in winter, crosses that ring like anvils. It screams at Grunwald (Book III ch. 20).
 
 ## Internal tensions
+
 The Livonian branch has its own Landmeister and feuds. The Prussian towns drift to the Confederation (1440). Plauen is deposed after Marienburg. Feuds: [Vytautas](../characters/vytautas.qmd), whom it baptised and armed in 1383 and who burned Marienwerder and Georgenburg in July 1384 (see the [Order's sword](../artifacts/order_sword.qmd)), and who defected again in 1392, the year his hostage sons died. Poland and Lithuania after Grunwald.
 
 ## Notable members
-[Kniprode](../characters/kniprode.qmd), [Zöllner](../characters/zollner.qmd), [Hohenstein](../characters/hohenstein.qmd), [Ulrich von Jungingen](../characters/jungingen.qmd).
+
+[Kniprode](../characters/kniprode.qmd), [Zöllner](../characters/zollner.qmd), [Liebenstein](../characters/liebenstein.qmd), [Marquard von Salzbach](../characters/marquard.qmd), the invented brother [Hohenstein](../characters/hohenstein.qmd), [Ulrich von Jungingen](../characters/jungingen.qmd).

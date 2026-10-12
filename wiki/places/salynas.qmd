@@ -1,0 +1,26 @@
+---
+title: "Salynas (island in the Nemunas)"
+id: salynas
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/salynas.md >}}
+
+## In the 1380s [Record]
+
+An islet of the Nemunas, probably between Kulautuva and the mouth of the Nevėžis; the treaty was signed here on 12 Oct 1398 ([event](../events/ev_salynas.qmd)).
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+Eglė's price comes due here: "never sell the forest".
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Book II ch. 19.

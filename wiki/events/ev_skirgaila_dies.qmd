@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_skirgaila_dies.md >}}
 
 ## What the chronicles say [Record]
+
 [Skirgaila](../characters/skirgaila.qmd) died in Kyiv in January 1397, on 11 January in the body of the Wikipedia article and 8 January in its infobox; he was buried in the Kyiv Pechersk Lavra. The circumstances of his death are not entirely clear. He had been Duke of Trakai (1382–92) and Jogaila's regent in Lithuania (1386–92), was moved to Kyiv after Ostrów, and held it from 1395. The Wikipedia article gives no cause; poison is rumoured in later accounts (verify the source).
 
 ## What really happened [Saga]
+
 Thunder in January over the Dnieper: Perkūnas's verdict on the safe-conduct broken in 1382. Skirgaila dies after a feast. [Henė](../characters/hanulas.qmd), who sees four storeys of Kyiv at once, reclaims the golden chain; a stone drops, three to two. The sword is lost in the dead man's estate. Everyone suspects Vytautas, who did not do it and is not sorry.
 
 ## Consequences
+
 The graph records no outgoing edge. The sword, found in the estate, returns to Vytautas in Book III ch. 2, which begins Form 6.
 
 ## Dramatisation
+
 Book II ch. 16 "Skirgailos Pabaiga" (Henė; 11 January 1397, winter, Kyiv).

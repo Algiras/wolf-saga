@@ -1,8 +1,9 @@
 # Book III, Part 2 (ch. 11–20): notes for other parts
 
 ## Dates and places used
+
 - **Ch. 11** (late Jun 1407, Marienburg): Konrad died "in spring" (no date given); Ulrich elected on a Sunday (26 Jun) after a three-month interregnum. Konrad lies in St Anne's chapel. The Grand Master's hall beam of Samogitian oak creaks (Galminas hears it, Part 1 ch. 1).
-- **Ch. 12** (20 May – Oct 1409, Samogitia): spark at an oak near **Ąžuolupiai** (invented village, Kražantė ford; "Naujas Ordino bokštas", not the Dubysa fort of 1401). Vytautas's riders come in early June; the Order's relief column dies on the old log bridge over the **Dubysa bog** in mid-July. Rūdis appears in Oct 1409 (declaration of war on Poland 6 Aug; truce "iki Rasos").
+- **Ch. 12** (26 May – Oct 1409, Samogitia): spark at an oak near **Ąžuolupiai** (invented village, Kražantė ford; "Naujas Ordino bokštas", not the Dubysa fort of 1401). Vytautas's riders come in early June; the Order's relief column dies on the old log bridge over the **Dubysa bog** in mid-July. Rūdis appears in Oct 1409 (declaration of war on Poland 6 Aug; truce "iki Rasos").
 - **Ch. 13** (Dec 1409, Brest on the Bug): three days; plan = one united host, meeting at Červinskas (Czerwińsk) on the Vistula, then straight to Marienburg; winter feints (Samogitians from the east, Poles in Pomerania).
 - **Ch. 14** (March 1410, Palanga): ice-break; three days after the ice broke.
 - **Ch. 15** (30 Jun – 2 Jul 1410, Czerwińsk): the wolves reach the right bank on 30 Jun; the Polish host crosses the pontoon bridge; Jogaila crosses on 2 Jul and meets Vytautas at the bridgehead on the right bank (the Lithuanians themselves do not cross: record). Flame left Trakai about 22 days earlier (c. 8 Jun).
@@ -12,6 +13,7 @@
 - **Ch. 19, 20** (15 Jul 1410, midday–evening): alder bog beside **Lubienio ežeras** (ch. 23 of Part 3 uses the same place).
 
 ## Facts established (please respect)
+
 **Ulrich (ch. 11, 19, 20).** About 47 in 1407, "apie penkiasdešimt" in 1410. White cloak always clean. Feels the Iron Saint as a **metal taste, furnace-heat and a hand on his shoulder**; in June 1407 the Marienburg firing chambers under the Great Refectory are cold stoves that radiate heat, an anvil-note rings beneath the castle, and a lantern flame bends towards him. He says nothing aloud to the Saint except "Aš čia." He welcomes the Riders of the Reise as "mūsų broliai" and wants the roads kept in memory. He pays Rūdis 20 Prussian marks for a written survey of all Reise roads, **including those the guides fear**. On the day, Ulrich himself orders a white cloak pinned on Rūdis. He is not shown speaking Lithuanian (Part 1 notes allow it). He is killed at the Polish line in his reserve charge (sixteen white banners), on foot, **no one knows whose hand**; in ch. 20 he looks at Vytautas from five steps, with weariness, not hatred.
 **The Iron Saint (ch. 20).** Seen only by Vytautas, as a standing heaviness in the air a few paces behind Ulrich, much taller than a man, hands folded, head bowed; when Ulrich falls it does not move; the furnace heat of the whole day leaves at once; a high thin ringing like a splitting bell runs through the earth and "tūkstantis balsų, kurie staiga prisiminė, kad bijo" screams from every Reise road (heard in his right ear). **The surviving Order knights weep** (the Saint's gift: no pity, no tears) in the field. The lightning is a **silent white column**, a man's width, from a clear sky onto the place where Ulrich fell, for three breaths, then thunder (a Force's sign; no mortal working; it kills no one on the page).
 **Rūdis (ch. 11, 12, 16, 19).** Sambian, 46 in 1410 (so b. c. 1364; the "jauniausias, kurį kiti vadino Rūdžiu" of Book I ch. 25, aged 20 in 1384). Order clerks write "Rudde". Thin, wind-dark, silver beard, the **throat scar** (the Order thinks "pagonių peilis, berniukas"). With the Order twenty years and a sworn wolf nineteen. He wrote the Order's road-maps for Ulrich in 1407 and marked the **Gilgenburg road "nepravažiuojamas. Pelkė. Reisių mirusieji"**; Ulrich "tiki juo kaip evangelija" (this is why the Order waits at Kauernik). He tells Rumbaudas "Tiems, kurie dar neprašė", Eglė "Jei neišlaikysiu iki pabaigos, paprašyk, kad broliai mane nuneštų į pelkę, net jei būsiu apsivilkęs jų spalvomis." In ch. 19, as the Marshal's guide, he follows **wolf trail-marks on birches** (three cuts, two slanted, one straight), leads **300 knights** of the left wing into the alder bog; he cannot tell whether the Lithuanian withdrawal was ordered (**left open**: "vilkai bėgo prieš lietuvius, ne paskui"). The Root-Mother's roots take the knights, the 400 Samogitians finish them; a Samogitian youth (about 20, unnamed, with an axe) kills Rūdis, who shouts "aš savas" and wears the white Order cloak; the youth says "Dėkui, Perkūne" and never knows. Rūdis hears the **chorus of the Iron Wolf's pack** at the roots before the bog closes (Part 3 ch. 21: Pilkoji recovers the body in its cloak).
@@ -31,13 +33,15 @@
 **Smolensk banners:** three, hold in the centre until Vytautas returns; "kelios dešimtys vyrų" left (ch. 20).
 
 ## Magic ledger (Part 2)
+
 - Costs on the page: **Root-Mother** (ch. 12, 19): 73 + 12 dead; Galminas's bark; Rūdis (life). **Amber Queen** (ch. 14): the statue pales, her voice will be quieter. **Flame/Žiežirba** (ch. 15): the memory of his mother's lips for a moment. **Eglė** (ch. 16): translucent to the second joint, forgets to name birds, žalčiai halved. **Žynys** (ch. 17): teeth; life. **Vytautas** (ch. 17, 20): blood, left ear, the flood of memory.
 - Scale: the oath is **Priesaika/Claim** (asked power bound by the Force's nature), not a mortal working; the lightning, the bog harvest, the Iron Saint's break are **Forces**; the žynys's "castle-night" ceiling is not exceeded. The Saint's break is deniable as a **tactical** event (Order's cohesion collapses when its commander falls).
 - Pebble: cold (ch. 11–14) → warm (ch. 17) → burning (ch. 20) → warm (ch. 21 onwards). Henė's stones: two. Tier 4: 1 → 0 (ch. 20). Unbinding 3.
 
 ## Deviations from the outline (and why)
+
 - **Ch. 11:** the title is **"Marienburgo Šešėliai"** (outline: "Malborko"), following Book II's seam pass (Book II ch. 30 is "Marienburgo Žemėlapis"); the file slug keeps `malborko`.
-- **Ch. 12:** the dateline runs **May – October 1409**: the outline's truce to midsummer 1410 dates from 8 Oct 1409, so Rūdis brings the news in October. The Marienburg scene is **reported** by Rūdis (the declaration of war and Ulrich's refusal to touch the hostages), not shown; Rumbaudas is a local elder, not an Order court figure. The names of the 1409 leaders are left vague (outline: verify).
+- **Ch. 12 (fact-check: rising begins 26 May, not 20 May):** the dateline runs **May – October 1409**: the outline's truce to midsummer 1410 dates from 8 Oct 1409, so Rūdis brings the news in October. The Marienburg scene is **reported** by Rūdis (the declaration of war and Ulrich's refusal to touch the hostages), not shown; Rumbaudas is a local elder, not an Order court figure. The names of the 1409 leaders are left vague (outline: verify).
 - **Ch. 15:** the record has the Lithuanian host meeting the Poles on the **right bank** at Czerwińsk after the Poles crossed; the wolves therefore watch the crossing and the cousins meet at the bridgehead (the Lithuanians do not cross).
 - **Ch. 17:** the camp is by **burnt Gilgenburg**, not literally "by Grunwald" (the allied army marched a few hours on the morning of 15 Jul). The nameless Šatrija žynys of Part 1 does not appear.
 - **Ch. 18:** the outline says Jogaila hears "Mass after Mass" and the Lithuanian light horse and Tatars charge first; shown from Zawisza (Polish) with **one sword carried by him to Vytautas**, who plants it. Banner counts are avoided (outline: verify Długosz).
@@ -46,6 +50,7 @@
 - **Word counts** run 1,700–2,500 (ch. 13 and 14 near the lower end).
 
 ## Canon questions
+
 - **Henė's stones** in Part 1 ch. 3 (Jan 1401) read as three; canon (D2, Book II) has two from Skirgaila's death in 1397. Ch. 13 treats two as normal ("Anksčiau jų buvo trys" is a memory of before 1397).
 - Whether a Samogitian leader named **Rumbaudas Valimantaitis** is attested for 1409 (the saga uses the outline's POV name).
 - **"Zbignevas Olesnickis"** (table name) vs **"Zbignevas iš Olesnicos"** (used in ch. 13); the latter reads better as a first mention.

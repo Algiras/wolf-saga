@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/girinis.md >}}
 
 ## Folk source [Record]
+
 Lithuanian tradition knows forest guardians under several names (*girinis*, *miškinis*, *medinis*), less sharply personified than the Slavic leshy. Pre-Christian Lithuanians venerated sacred groves (*alkai*) and particular trees, above all oaks, and cutting them was taboo; legends tell of trees that bled or took revenge. A stray-herb (*klystžolė*) makes whoever steps on it lose the way. Hunters made offerings for game.
 
 ## In the saga (where the folk are half-wrong)
+
 A girinis is the **local face of the [Root-Mother](../forces/root_mother.qmd)**: the spirit of one grove, wood or ancient oak. It cares about people only as they affect the trees. It gives game and safe paths to those who ask and repay, and leads the greedy in circles until they die. The oaks of the *alkai* are the Pact's pillars; each one felled loosens it.
 
 ## Signs & habitat
+
 Silence where there should be birdsong (Book I ch. 1, 20); paths that return to the same stump; a branch that falls exactly where you stood.
 
 ## Before / after the Unbinding
+
 Before: a stern host. After a grove is felled (Šventaragis 1387, and hundreds more) its girinis does not die: it becomes a homeless hunger attached to the family of the man who swung the axe, following them for generations.
 
 ## Banes, wards, bargains, and their cost
+
 Bread and salt on a stump before hunting or cutting, and *"Leisk, medi"* ("Permit me, tree"); never take more than you asked. Turn your clothes inside out if lost (it may let you go but will remember your face). The axe that felled a sacred oak must be thrown into running water.
 
 ## Danger level
+
 II hazard → IV deadly.
 
 ## Story hooks
+
 Book I: the silence in ch. 1 and 20 is the girinis listening for the Pact to break. Books II–V: the bishop's woodcutters who cleared Šventaragis, and their haunted grandchildren.

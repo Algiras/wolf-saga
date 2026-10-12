@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_beggar_coin.md >}}
 
 ## What the chronicles say [Record]
-Nothing in the record. On the road to Jogaila's camp in early August 1382, [Kęstutis](../characters/kestutis.qmd) and [Vytautas](../characters/vytautas.qmd) were riding to the talks near [Trakai](../places/trakai.qmd); that the old man gave alms to a beggar on the way is a motif of folk tale, not of chronicle.
+
+Nothing in the record. On 3 August 1382 [Kęstutis](../characters/kestutis.qmd) and [Vytautas](../characters/vytautas.qmd) rode to the talks at Jogaila's camp near [Trakai](../places/trakai.qmd); that the old man gave alms to a beggar on the way is a motif of folk tale, not of chronicle.
 
 ## What really happened [Saga]
-The Beggar is [Dievas Senelis](../gods/dievas.qmd), walking as a stranger with a staff. He asks Kęstutis for a coin, and the duke gives it. The silver turns to grey stone and the old man vanishes into a grey stone at the road's edge. Rule of the cosmology (§5): those who give are not saved, they are *seen*; their road becomes clear to them even if it leads to death. Kęstutis rides on to Vilnius knowing. The Beggar calls Vytautas "Vyti", an allowed exception to the intimate-vocative rule (Q7). The coin turning to stone says that what is paid for truth is worth nothing as money.
+
+The Beggar is [Dievas Senelis](../gods/dievas.qmd), walking as a stranger with a staff. He asks Kęstutis for a coin, and the duke gives it. The silver turns to grey stone and the old man vanishes into a grey stone at the road's edge. Rule of the cosmology (§5): those who give are not saved, they are *seen*; their road becomes clear to them even if it leads to death. Kęstutis rides on to the camp knowing. The Beggar calls Vytautas "Vyti", an allowed exception to the intimate-vocative rule (Q7). The coin turning to stone says that what is paid for truth is worth nothing as money. (A second beggar turns up in Book V: [Goštautas gives a warm coin](ev_gostautas_coin.qmd) to a beggar on his threshold.)
 
 ## Consequences
+
 The graph records no outgoing 'causes' edge. The beggar's seeing is the first signal of Kęstutis's walk into [the arrest](ev_arrest.qmd) and [death at Krėva](ev_kestutis_death.qmd); it is also the model for later epiphanies of Dievas in the saga.
 
 ## Dramatisation
-Book I ch. 4 "Kelionė į Vilnių" (Vytautas; the day after Birutė's night, early August 1382 on the record, with autumn cues in the text; the hunting memory and the beggar come at noon and in the afternoon). The graph places the event at the Dykra's forest edge; the text puts it on the road between Trakai and Vilnius.
+
+Book I ch. 4 "Kelionė į stovyklą" (Vytautas; the afternoon of 3 August 1382, on the [road to Jogaila's camp](../places/road_to_jogaila_camp.qmd), after the hunting memory at noon).

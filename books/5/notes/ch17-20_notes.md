@@ -1,10 +1,13 @@
 # Notes: Book V ch. 17–20 (Part II close)
 
 ## Files
+
 17 `17_aukso_rijuno_puota.qmd` (Goštautas, Vilnius, Feb 1437) · 18 `18_paranojos_pilis.qmd` (Žygimantas, Trakai, Apr 1438) · 19 `19_isdavystes_aidas.qmd` (Žygimantas, Krėva, night 14–15 Aug 1438) · 20 `20_katedros_kripta.qmd` (Žiežirba + Birutė frame in italics, Vilnius, night 1–2 Nov 1439).
 
 ## Established facts
+
 **Ch 17**
+
 - The Counter (*Skaičiuotojas*) counts **years left** (same device as ch 23, Casimir "52"). Goštautas hears it when music stops; it counts plates, souls (42 villages = 2,389 souls), and says "Trakai: trejus metus ir mėnesį" (Feb 1437 → 20 Mar 1440). Goštautas first took it for a loan term and wrote *terminas?* in his ledger.
 - An unmeasured gift silences it for 3–4 breaths (Goštautas gives a warm Hansa coin to a beggar without looking). He writes Casimir's name (age 9) in the margin: "dar ne".
 - Žygimantas's morning grant: 42 villages near Ašmena + manor at Maišiagala, confiscated from Švitrigaila's partisans. "Kas bijo, tas dalija."
@@ -27,9 +30,11 @@
 - After leaving, outside the stone, he again hears the *užgesėlės* (thousand small blue sparks under the hill, ch 2); none came to his fire.
 
 ## End state for ch 21
+
 Feb 1440. Žiežirba (49/50) carries the lightning-fire in the horn lantern, silver wolf, cold cracked pebble on thong; has stopped seeking; slept in byres; **no longer Žygimantas's man** (broken at Krėva, Aug 1438). Wolves left: Pilkoji (74/75) + 4 + him (ch 16: "keturi; su juo penki"; ch 22 hears four answers). Žygimantas (nearly 75), wearing the chain, hears Kęstutis's breath, has stopped appearing in Vilnius (since 1439); list includes chamberlain's son Petras; Karaim guard captain still loyal. Goštautas has the Counter's "3 years" number in his ledger.
 
 ## Verify
+
 - Official dating of Žygimantas's Habsburg approach (written around; envoy and king unnamed). Albert II election March 1438 (verify) matches "spring".
 - Skirmantas Gaidys, Vaitiekus, Petras, Mikalojus, Tilmanas, Gaudė: invented minor names.
 - Goštautas: no office named. Kęsgaila "žemaičių seniūnas" (verify terms). Radvila Astikaitis: "vos išaugęs iš berniuko".

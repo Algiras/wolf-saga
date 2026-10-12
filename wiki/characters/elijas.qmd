@@ -1,0 +1,41 @@
+---
+title: "Elijas, son of Mošė (Karaim guard captain)"
+id: elijas
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/elijas.md >}}
+
+## Summary
+
+Elijas, son of Mošė, the Karaim captain of the Trakai guards (wife Rachelė), keeps the vault door; his younger son holds it in 1430.
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+
+- **[Record]:** The Karaims settled at Trakai in 1397-98 (tradition; numbers disputed).
+- **[Saga invention]:** Elijas himself and his role at the vault door (Book II ch. 18, 29; Book III ch. 15, 28).
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

@@ -8,6 +8,7 @@ categories: [house]
 {{< include ../_generated/gediminaiciai.md >}}
 
 ## House card
+
 | | |
 |---|---|
 | **Seat** | **Vilnius** (Upper Castle, Lower Castle, the wooden Crooked Castle, burnt 1390); older seats **Kernavė** and **Trakai**. [Record] |
@@ -16,17 +17,20 @@ categories: [house]
 | **Patron / burden** | The [Silent Pact](../magic/silent_pact.qmd), sworn by the house, not by one branch; every kin-killing costs something. The omen-spirit [Geležinis Vilkas](../creatures/gelezinis_vilkas.qmd). [Saga] |
 
 ## Lineage
+
 **Gediminas** (c. 1275 – winter 1341/42) became Grand Duke c. 1316 and wrote to the Pope and the Hanse in 1323, the first time Vilnius is named as capital. His sons: Manvydas and Narimantas (d. 1348), [Algirdas](../characters/algirdas.qmd), [Kęstutis](../characters/kestutis.qmd), Karijotas, Liubartas and Jaunutis; his daughters married Casimir III of Poland (Aldona-Ona, 1325) and Simeon of Moscow (Aigusta, 1333). [Record; his wife or wives are disputed]
 
 Branches in this wiki: [Algirdaičiai](../factions/algirdaiciai.qmd), [Kęstutaičiai](../factions/kestutaiciai.qmd), [Jogailaičiai](jogailaiciai.qmd) and [Čartoriskiai](czartoriskiai.qmd). Lesser lines: the Karijotaičiai (Podolia), Liubartaičiai (Volhynia), Jaunutaičiai (Zasławski) and Olelkaičiai (Kyiv). The house's genius was the appanage: every son got a city, and every city got a son who might rebel.
 
 ## Feuds & alliances
+
 - **1345:** Algirdas and Kęstutis depose their brother Jaunutis, the first Gediminid wronged by Gediminids. [Record]
 - **Algirdaičiai against Kęstutaičiai:** 1380–1392 (Jogaila and Skirgaila against Kęstutis and Vytautas) and again 1432–1440 (Švitrigaila against Žygimantas).
 - **Maria's sons against Uliana's sons:** the elder, Orthodox Algirdaičiai were passed over in 1377.
 - The Order and Poland court one branch against another; Masovia and Moscow marry into both.
 
 ## Fate across the books
+
 - **VI:** the Pact is sworn (1345); Algirdas's pyre (1377) weakens it.
 - **I:** Krėva, 15 Aug 1382: clause 2 broken by Jogaila and Skirgaila. **II:** Karigaila and Tautvilas die on opposite sides of the Vilnius walls (1390); the Vorskla (1399) takes Andrius and Dmitrijus.
 - **III–IV:** a reconciled house wins Grunwald; Vytautas dies without a male heir (1430); his blood survives in Moscow through Sofija.

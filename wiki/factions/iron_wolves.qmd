@@ -8,23 +8,28 @@ categories: [faction]
 {{< include ../_generated/iron_wolves.md >}}
 
 ## Overview
+
 [Saga invention] The sworn wolf-brotherhood (*Brolija*; each pack a *gauja* of five to nine), which calls itself *Dievo šunys*, "God's dogs". Folk sources: Baltic werewolf belief and the 1692 Thiess trial. The packs hold the [Iron Wolf's skull](../artifacts/wolf_skull.qmd) (since 1323) and give [Kęstutis](../characters/kestutis.qmd) the [silver wolf](../artifacts/silver_wolf.qmd) in 1345. About 120 in 1382; about 40 after the Vilnius massacre (Book I ch. 7) and the schism; 14 at Kūčios 1430 (V ch. 7); a dozen at Pabaiskas, 1 Sep 1435; Pilkoji lies down with the skull on 2 Nov 1449 (V ch. 28). The Flame-Keeper, burned at Palanga in March 1450, is the last (V ch. 29).
 
 ## Wants (by book)
+
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
 | VI | Guard Kęstutis and the border | Bog-craft; the hidden nine | Gediminid blood |
-| I | Obey the flame; hold the doors in 1382 | Vilnius packs; Jonas rescues Vytautas (I ch. 25) | Shedding kin blood |
+| I | Obey the flame; stand aside in 1382 (the Vilnius packs) | Vilnius packs; Jonas rescues Vytautas (I ch. 25) | Shedding kin blood |
 | II | Follow the flame, not the man | Hunters of the Unbound (II ch. 14); Kalvis at the lodge | Crossing the Dnieper, where the gift fails (II ch. 26) |
 | III | Take the krikštas to Žiežirba; go with the flame to Grunwald | Carry the lantern (III ch. 9, 15) | The Order's iron |
 | IV | Survive the Church | Pilkoji becomes Vilkų Motina (IV ch. 6) | The flame going out |
 | V | Keep faith after 27 Oct 1430 | Lightning-fire; ash-pot | New wolves, impossible without a flame (V ch. 20) |
 
 ## Patron Force
+
 [Saga] [Šaknų Motina](../forces/root_mother.qmd), who made their bodies. They serve two masters (D10): the Root-Mother, and whoever keeps a Gediminid flame. Rule 2 forbids shedding Gediminid blood, and rule 9 says the pack answers the flame, not the man.
 
 ## Internal tensions
-The 1382 schism split Vilnius packs (loyal to Jogaila's flame) from Kęstutis's nine. The order of the dead after 1430 is a ledger: four taken at Pabaiskas (V ch. 13), five that winter (V ch. 16), then Dobilas, Uosis and Pilkoji. The Order puts a bounty on their hides; the Church hunts them.
+
+The 1382 schism split Vilnius packs (loyal to Jogaila's flame) from Kęstutis's nine: seven of the nine died in the tents at Jogaila's camp near Trakai and were buried in the bog; Jonas's men stayed in Kęstutis's own camp. The order of the dead after 1430 is a ledger: four taken at Pabaiskas (V ch. 13), five that winter (V ch. 16), then Dobilas, Uosis and Pilkoji. The Order puts a bounty on their hides; the Church hunts them.
 
 ## Notable members
+
 [Jonas](../characters/jonas.qmd), [The Flame-Keeper (Žiežirba)](../characters/flame_keeper.qmd); Pilkoji, Kalvis, Šešiapirštis, Kirmėlė and Spyglys have no wiki pages.

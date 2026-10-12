@@ -1,0 +1,41 @@
+---
+title: "Mykolas Žygimantaitis"
+id: mykolas
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/mykolas.md >}}
+
+## Summary
+
+Mykolas Žygimantaitis, son of Žygimantas Kęstutaitis, commands the Lithuanians at [Pabaiskas](../events/ev_pabaiskas.qmd) in 1435 (with about 4,000 Poles under Jakub Kobylański).
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+
+- **[Record]:** VLE; en.wikipedia (Battle of Wiłkomierz): commander at Pabaiskas; after 1440 contested the throne against Casimir (Trakai voivodeship and Samogitia backed him 1440-41, Masovia until 1447); in 1448-49 with the Crimean khan took Starodub, Novhorod-Siverskyi and Kyiv; captured, died in Moscow shortly before 10 Feb 1452, poisoning suspected, buried in Vilnius cathedral. Birth year unknown.
+- **[Saga invention]:** Rumours in Book V ch. 23 put him in Mozūrija, Moscow, or hiding in Samogitia.
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

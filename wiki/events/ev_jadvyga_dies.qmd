@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_jadvyga_dies.md >}}
 
 ## What the chronicles say [Record]
+
 [Jadwiga](../characters/jadvyga.qmd) of Poland (crowned "king" in Kraków on 16 October 1384, married to Jogaila on 18 February 1386) gave birth to a daughter, Elisabeth Bonifacia, on 22 June 1399; the child died on 13 July, and Jadwiga herself on 17 July 1399, aged about 25, of postpartum complications. They were buried together at Wawel on 24 August as her will required; she was canonised in 1997. Her death weakened [Jogaila](../characters/jogaila.qmd)'s claim to the Polish crown, which rested on the marriage: he left for Ruthenia six days after the funeral, the Polish lords renewed their oaths, and he married Anna of Celje on 29 January 1402. See Wikipedia, Jadwiga of Poland. That she warned against the steppe war is in Długosz (verify).
 
 ## What really happened [Saga]
+
 She is the Relic of the White Silence, a saint by the cold, not by decree: her touch heals and leaves frost. In July there is frost on the sheets. Her body does not decay and her tomb becomes the White Silence's anchor in the Polish heartland: a tragedy, not a villainy.
 
 ## Consequences
+
 The graph records no outgoing edge. In the saga her tomb frosts in March 1401 when Jogaila prays there, and the White Silence holds Poland while Lithuania's flames go out.
 
 ## Dramatisation
+
 Book II ch. 21 "Šerkšnas ant Vavelio" (Jadvyga; 22 June to 17 July 1399, midsummer, Wawel) and Book III ch. 3 (Jogaila at her tomb).

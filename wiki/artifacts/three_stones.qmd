@@ -8,21 +8,26 @@ categories: [artifact]
 {{< include ../_generated/three_stones.md >}}
 
 ## Description
+
 Three black, worn, round stones "like river pebbles, but not from a river" (Book V ch. 12). [Henė](../forces/shadow_seller.qmd) juggles them in every book. Two fly true; the third always wobbles. When he is working, the bells on his cap are silent and the stones make no sound.
 
 ## Power
+
 Each stone is one cousin's bargain, tied to [Jogaila](../characters/jogaila.qmd), [Skirgaila](../characters/skirgaila.qmd) and [Vytautas](../characters/vytautas.qmd) (graph: `hene_stones`). A stone shows that a deal is in progress; its fall marks the collection of that bargain (`power_systems.md` §5; `magic_rules.md` §8).
 
 ## Rule & cost
+
 Henė keeps bargains to the letter and "never lies; I only write it down". Each stone falls when its cousin's deal is collected: Skirgaila's in 1397, Vytautas's in 1430 and Jogaila's in 1434. Once his hands are empty, Henė has no leverage left and unmasks (Book V).
 
 ## Origin
+
 [Saga] Made in 1380 (graph), the year of Dovydiškės. The first deal is with Jogaila at Krėva in 1382, "the easy way": the crown for his line, the land lost.
 
 ## Arc across the books
+
 - **Three, 1385-1397.** First seen juggled at the Krėva union (Book I ch. 28b) and in the Trakai hall before Skirgaila (I ch. 30, with an offer of "ten good years"). At Ostrów, 1392, he holds all three while kneeling to Vytautas (II ch. 10).
 - **Two, 11 Jan 1397.** Skirgaila's stone falls through the floor at Kyiv "like falling into water" (II ch. 16). Two are shown through Books III-IV.
 - **One, 27-28 Oct 1430.** Vytautas's stone falls in the death chamber (IV ch. 29). Henė throws it into Lake Galvė at dawn on 28 Oct: no splash, a film of ice parts and closes (IV ch. 30).
 - **None, 1 Jun 1434.** Jogaila's stone drops on the floor of his deathbed room and does not roll; it is an ordinary river pebble. After 52 years Henė's hands are empty (V ch. 12). He keeps them empty in V ch. 19, 24, 26 and 30.
 
-Graph gap: `three_stones` shows Henė as sole holder 1380-1450; the books end the series with no stones after 1434.
+Graph: Henė holds the stones 1380-1434 (the `hene_stones` progression runs 3, 2 in 1397, 1 in Oct 1430, 0 on 1 Jun 1434); no stones after 1434.

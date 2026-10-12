@@ -98,6 +98,7 @@ The series ends here. For readers going on to **Book VI** (*Šventasis Miškas*,
 ## Continuity checklist
 
 **Historical anchors (D3; check each against `master_chronology.md`)**
+
 - [ ] Vytautas d. **27 Oct 1430**; Švitrigaila Grand Duke 1430; Christmemel 19 Jun 1431; **coup at Ašmena, night 31 Aug – 1 Sep 1432**; Grodno 15 Oct 1432; **Jogaila d. 1 Jun 1434 (Part II, before Pabaiskas)**; **Pabaiskas 1 Sep 1435**; Brest 31 Dec 1435; **Žygimantas assassinated 20 Mar 1440**; **Casimir Grand Duke 1440 (aged 12), King of Poland 1447**; Varna 1444; Vasily II blinded 1446; **the 1440s document is Casimir's privilege of 1447** (2 May 1447, Vilnius; VLE gives 5 May).
 - [ ] **The Order's vassalage (1466) and the First Lithuanian Statute (1529) appear only in the epilogue**, as things the grandfather has lived to see.
 - [ ] **No Radvilos as magnates** before about 1450: use the Goštautai, the Astikai (Radvila Astikaitis is a young son), the Kęsgailos, Daugirdas.
@@ -105,6 +106,7 @@ The series ends here. For readers going on to **Book VI** (*Šventasis Miškas*,
 - [ ] Book V is **3 parts / 30 chapters**; the old Part IV is folded into Part III.
 
 **Magic ledger**
+
 - [ ] The flame goes out in ch. 1 (the same instant as Book IV ch. 29). The lightning-fire of ch. 2 is **not** the Gediminid flame: no names, no live ash, no krikštas.
 - [ ] Henė: **one stone** → **none** at Jogaila's death (ch. 12). He **unmasks with no stones** (ch. 24). His Žygimantas deal (graph 1432–40) is not a cousin-stone.
 - [ ] Unbinding 5; tiers 0/9/90 → 0/5/50 (ch. 27).
@@ -113,9 +115,11 @@ The series ends here. For readers going on to **Book VI** (*Šventasis Miškas*,
 - [ ] The keeper's relighting fails (ch. 20) because **the Pact needs many mortals' consent** (`power_systems.md` §6: "a realm, an age"), not because his craft is weak.
 
 **Objects**
+
 - [ ] Silver wolf and pebble: Pilkoji → keeper (ch. 7, Kūčios 1430–31; reconciles the graph's 1431 with `iron_wolves.md` §14). The skull into the bog (ch. 28). The golden chain: Henė → Žygimantas (ch. 19, Saga choice).
 
 **Grey rule (series_arc §3.6)**
+
 - [ ] Sympathetic Order brother: the **Livonian brother** of Pabaiskas (ch. 14, 16). Decent Pole: the **Polish captain** who has the dead burned (ch. 16). Monstrous Lithuanian: **Žygimantas** (ch. 18), and the lords who murder him (ch. 21–22). Pagan option worse: Henė's blood-price for the flame (ch. 24).
 
 **Thread coverage**
@@ -127,4 +131,5 @@ The series ends here. For readers going on to **Book VI** (*Šventasis Miškas*,
 | III (ch. 21–30) | 27, 30 | 24, 29 | 25, 29 | 22, 24, 26 | (spent) | 27, 28 | 21, 22, 28, 29, 30 | 21, 22, 23, 26 | 25, 29 | 23, 26, 30 |
 
 **Open items for the author**
+
 - [ ] The Flame-Keeper's skin-name (working: **Žiežirba**) and whether he is the "Book V keeper" of `power_systems.md` (this outline: yes; Pilkoji is the last Vilkų Motina, not the keeper). [ ] The names going up the smoke (ch. 1) (Saga suggestion). [ ] How much frame narration: this outline gives Birutė ch. 1, 5, 10, 20, 25, 29.

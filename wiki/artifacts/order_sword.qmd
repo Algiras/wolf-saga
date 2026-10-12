@@ -8,18 +8,23 @@ categories: [artifact]
 {{< include ../_generated/order_sword.md >}}
 
 ## Description
+
 A heavy straight German sword with a cross-shaped hilt, consecrated at Marienburg; it smells of cold steel and "a new religion" (Book I ch. 19, 24).
 
 ## Power
+
 It dampens Kalba around it (`power_systems.md` §5). While Vytautas carries it, his pebble cannot answer, his blood feels strange and his Five-Voice is closed to him. It also marks him publicly as the Order's vassal.
 
 ## Rule & cost
+
 Consecrated metal smothers amber and fire. It can be removed only by a free act: Vytautas must put it in fire himself (Book I ch. 24). As the replacement of Kęstutis's sword it bears no history, only a debt.
 
 ## Origin
+
 [Record] Konrad Zöllner von Rotenstein was Grand Master 5 Oct 1382-20 Aug 1390; Vytautas was baptised "Wigand" at Tapiau on 21 Oct 1383 and swore vassalage by the Treaty of Königsberg, 30 Jan 1384. [Saga] The sword is presented to him at the baptism by Zöllner (Book I ch. 19), made by the [Order](../factions/teutonic_order.qmd) for its protégé.
 
 ## Arc across the books
+
 - **Vytautas, Oct 1383-Jul 1384.** It knocks his thigh on the Order's march into Lithuania (Book I ch. 20). He fights his first battle against his own people with it (ch. 21).
 - **July 1384.** He unbuckles it at Marienwerder (Naujapilis) and throws it into the burning tower, whereupon the pebble lights and the silence lifts (I ch. 23-24; [Marienwerder](../places/marienwerder.qmd)).
 - **After.** No other holder. Later Order swords at Grunwald (III ch. 18, the "two swords" of the record) are a separate matter.

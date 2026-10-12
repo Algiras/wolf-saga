@@ -58,7 +58,7 @@ LABEL = {
     "element_of": ("Element", "Deity"), "binds": ("Binds", "Bound by"),
     "surety_for": ("Surety for", "Surety"), "counters": ("Counters", "Countered by"),
     "holds": ("Holds", "Held by"), "created_by": ("Created by", "Created"),
-    "anchors": ("Anchors", "Anchored by"), "participant": ("Took part in", "Participants"),
+    "anchors": ("Anchors", "Anchored by"), "keeper_of": ("Keeps", "Kept by"), "participant": ("Took part in", "Participants"),
     "causes": ("Causes", "Caused by"), "breaks": ("Breaks", "Broken by"), "ends": ("Ends", "Ended by"),
     "occurs_at": ("Location", "Events here"), "protagonist_of": ("Protagonist of", "Protagonist"),
     "antagonist_of": ("Antagonist of", "Antagonists"),

@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/skaiciuotojas.md >}}
 
 ## Folk source [Record]
+
 [Saga invention.] No folk source; it is the saga's face of the ledger-age: tolls, counting-houses and land sold by the furlong.
 
 ## In the saga (where the folk are half-wrong)
+
 A spirit of the [Gold-Glutton](../forces/gold_glutton.qmd), formed wherever ledgers, tolls and land sold by the furlong gather: tollhouses, counting-rooms, the Order's commanderies, Hanseatic factories. A voice, never a body, that **counts**: the coins in the room, then the goods, then the people, then the years each person has left, in a soft monotone. Those who listen too long begin to see one another as sums. It does not kill; it empties people out, leaving them prosperous and hollow.
 
 ## Signs & habitat
+
 Coins that are always warm; a voice under the floor of a counting-house; merchants who have stopped caring for their children and cannot say why.
 
 ## Before / after the Unbinding
+
 Before: confined to Order and Hanseatic towns. After: everywhere money changes hands; dominant in Book IV.
 
 ## Banes, wards, bargains, and their cost
+
 An **unmeasured gift**: giving something away without counting it (the reverse of the laumė's linen) silences the Counter in that room, though it makes counting feel like breathing. Fill the room with song, since counting and singing cannot share a room.
 
 ## Danger level
+
 III dangerous (after 1387).
 
 ## Story hooks
+
 Book I ch. 28: the Hanseatic envoys bring it into Vilnius. Book IV ch. 1 and 18: it speaks under the floor after the war and numbers the gems of the crown at Lutsk.

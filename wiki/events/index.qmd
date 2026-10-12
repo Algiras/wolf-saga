@@ -8,40 +8,45 @@ title: "Events"
 | [Silent Pact sworn](ev_pact_sworn.qmd) | event | 1345 |
 | [Algirdas & Kęstutis depose Jaunutis](ev_diarchy.qmd) | event | 1345 |
 | [Kęstutis marries Birutė](ev_marriage.qmd) | event | 1350 |
-| [Kęstutis escapes Marienburg](ev_kestutis_escape_1361.qmd) | event | 1361 |
+| [Kęstutis escapes Marienburg](ev_kestutis_escape_1361.qmd) | event | 1361-11-11 |
+| [Kęstutis captured at Lake Ublik](ev_kestutis_captured_1361.qmd) | event | 1361-03-21 |
 | [Algirdas dies; cremated](ev_algirdas_dies.qmd) | event | 1377 |
 | [Treaty of Dovydiškės](ev_dovydiskes.qmd) | event | 1380-05-31 |
-| [Kęstutis seizes Vilnius, spares Jogaila](ev_coup_1381.qmd) | event | 1381 |
-| [Jogaila retakes Vilnius (Hanulas opens gates)](ev_vilnius_retaken.qmd) | event | 1382 |
-| [Kęstutis & Vytautas seized under safe-conduct](ev_arrest.qmd) | event | 1382-08 |
+| [Kęstutis takes Vilnius; Jogaila caught on his way back](ev_coup_1381.qmd) | event | 1381 |
+| [Hanulas and the townsfolk take Vilnius for Jogaila](ev_vilnius_retaken.qmd) | event | 1382-06-12 |
+| [Kęstutis & Vytautas lured to Jogaila's camp near Trakai and arrested](ev_arrest.qmd) | event | 1382-08-03 |
 | [Kęstutis strangled at Krėva](ev_kestutis_death.qmd) | event | 1382-08-15 |
 | [Birutė binds Vytautas (Sutartis, surety, flame promise)](ev_sutartis.qmd) | event | 1382 |
 | [Perkūnas claims Vytautas](ev_perkunas_mark.qmd) | event | 1382 |
 | [Vytautas escapes Krėva in the maid's clothes](ev_kreva_escape.qmd) | event | 1382 |
 | [Eglė leads Vytautas through the Dykra](ev_dykra_rescue.qmd) | event | 1382 |
+| [Trakai granted to Skirgaila (1382-92)](ev_trakai_to_skirgaila.qmd) | event | 1382-07 |
 | [The Beggar turns Kęstutis's coin to stone](ev_beggar_coin.qmd) | event | 1382 |
 | [Vytautas shelters with Janusz I in Masovia](ev_masovia_refuge.qmd) | event | 1382 |
+| [Vytautas before Zöllner at Marienburg](ev_marienburg_audience.qmd) | event | 1382 |
 | [Vytautas baptised 'Wigand' (a lie)](ev_tapiau_baptism.qmd) | event | 1383-10-21 |
 | [Treaty of Königsberg (Samogitia ceded)](ev_konigsberg.qmd) | event | 1384-01-30 |
 | [Vytautas burns Order castles; turns on the Order](ev_burnings_1384.qmd) | event | 1384-07 |
 | [Truce in the ashes with Jogaila](ev_truce_ashes.qmd) | event | 1384 |
-| [Trakai granted to Skirgaila](ev_trakai_to_skirgaila.qmd) | event | 1384 |
 | [Birutė's Amber Sacrifice](ev_birute_sacrifice.qmd) | event | 1384 |
 | [Union of Krėva](ev_kreva_union.qmd) | event | 1385-08-14 |
 | [Jogaila baptised, married, crowned in Kraków](ev_krakow_1386.qmd) | event | 1386-02-15 |
 | [Baptism of Lithuania; Šventaragis flame put out](ev_lithuania_baptism.qmd) | event | 1387 |
 | [Vytautas secretly lights the Last Flame](ev_flame_lit.qmd) | event | 1387 |
 | [Vytautas flees to the Order again](ev_second_defection.qmd) | event | 1389 |
-| [Siege of Vilnius; Crooked Castle burned](ev_vilnius_siege_1390.qmd) | event | 1390 |
-| [Vytautas's hostage sons poisoned](ev_sons_poisoned.qmd) | event | 1392 |
+| [Siege of Vilnius (11 Sep - 7 Oct); Crooked Castle falls 16 Sep](ev_vilnius_siege_1390.qmd) | event | 1390-09-11 |
+| [Treaty of Lyck; hostages demanded](ev_lyck_1390.qmd) | event | 1390-01-19 |
+| [Vytautas's hostage sons poisoned (Grunau tradition, contested)](ev_sons_poisoned.qmd) | event | 1392-07 |
 | [Agreement of Ostrów](ev_ostrow.qmd) | event | 1392-08-04 |
+| [The break: Ritterswerder guests seized, Order forts burned](ev_ritterswerder_1392.qmd) | event | 1392-07 |
 | [Skirgaila dies in Kyiv](ev_skirgaila_dies.qmd) | event | 1397 |
 | [Treaty of Salynas](ev_salynas.qmd) | event | 1398-10-12 |
 | [Battle of the Vorskla](ev_vorskla.qmd) | event | 1399-08-12 |
 | [Jadvyga dies](ev_jadvyga_dies.qmd) | event | 1399-07-17 |
 | [Union of Vilnius and Radom](ev_vilnius_radom.qmd) | event | 1401 |
+| [Peace of Raciąż; Marquard insults Birutė](ev_raciaz_1404.qmd) | event | 1404-05-22 |
 | [Battle of Grunwald / Žalgiris](ev_grunwald.qmd) | event | 1410-07-15 |
-| [Union of Horodło; Samogitian baptism begins](ev_horodlo.qmd) | event | 1413 |
+| [Union of Horodło; Samogitian baptism begins](ev_horodlo.qmd) | event | 1413-10-02 |
 | [Ona dies](ev_ona_dies.qmd) | event | 1418-07-31 |
 | [Congress of Lutsk: the crown offered](ev_lutsk.qmd) | event | 1429 |
 | [Crown embassy blocked at the Polish border (Aug 1430); Vytautas refuses Henė](ev_crown_intercepted.qmd) | event | 1430 |
@@ -52,8 +57,11 @@ title: "Events"
 | [Žygimantas's coup at Ašmena](ev_coup_1432.qmd) | event | 1432-08-31 |
 | [Grodno: Žygimantas sworn Grand Duke before Oleśnicki (Jogaila absent)](ev_grodno_1432.qmd) | event | 1432-10-15 |
 | [Battle of Ašmena: Žygimantas defeats Švitrigaila](ev_asmena_battle.qmd) | event | 1432-12-08 |
-| [Jogaila dies](ev_jogaila_dies.qmd) | event | 1434-06-01 |
+| [Jogaila dies at Gródek](ev_jogaila_dies.qmd) | event | 1434-06-01 |
 | [Battle of Pabaiskas](ev_pabaiskas.qmd) | event | 1435-09-01 |
 | [Peace of Brest (Brześć Kujawski): the Order drops Švitrigaila](ev_brest_peace.qmd) | event | 1435-12-31 |
+| [Goštautas gives the warm coin to a beggar](ev_gostautas_coin.qmd) | event | 1437 |
 | [Žygimantas assassinated at Trakai](ev_zygimantas_killed.qmd) | event | 1440-03-20 |
 | [Casimir's privilege for Lithuania](ev_privilege_1447.qmd) | event | 1447-05-02 |
+| [The keeper is named at the Palanga fire](ev_ziezirba_named.qmd) | event | 1449-12-12 |
+| [Žiežirba dies; cremated on the beach](ev_keeper_dies.qmd) | event | 1450-03 |

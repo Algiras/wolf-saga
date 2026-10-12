@@ -1,0 +1,24 @@
+---
+title: "Aušrinė (the morning star)"
+id: ausrine
+type: god
+categories: [god]
+---
+
+{{< include ../_generated/ausrine.md >}}
+
+## Folk sources [Record]
+
+*Aušrinė* is the morning star (Venus), in the mythological *daina* of the Moon's marriage the one for whom [Mėnuo](menuo.qmd) leaves [Saulė](saule.qmd); [Perkūnas](perkunas.qmd) cuts the Moon in two for it ([legends §7](../codex/legends-songs.qmd)). Old women say she was a child, village girls say she was a thief; she is never punished. Several variants make her Saulė's or Dievas's daughter.
+
+## In the saga
+
+A figure of folk myth only: no domain, no element, no Force-face. She is the unpunished seducer of the saga's law (the oath-breaker is cut, the seducer goes free), which Book II can use as a theme. The graph links her to Mėnuo as the folk tale's third party.
+
+## Offerings & taboos
+
+No cult or offering is recorded.
+
+## Pronunciation
+
+**OW-shree-neh** (stress *AUŠ-ri-nė*).

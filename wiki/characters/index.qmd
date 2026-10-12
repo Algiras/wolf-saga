@@ -6,35 +6,47 @@ title: "Characters"
 | Name | Type | Years |
 |---|---|---|
 | [Algirdas](algirdas.qmd) | character | c. 1296–1377 |
+| [Baltramiejus Rogala (Oleśnicki's envoy)](rogala.qmd) | character | ?–? |
 | [Birutė](birute.qmd) | character | c. 1330–1384 |
 | [Danutė](danute.qmd) | character | c. 1358–1424 |
 | [Edigu](edigu.qmd) | character | c. 1352–1419 |
 | [Eglė (vaidilutė → Pelkių Eglė)](egle.qmd) | character | c. 1355–1420 |
 | [Elena (Ona's maid)](elena.qmd) | character | c. 1360–1382 |
+| [Elijas, son of Mošė (Karaim guard captain)](elijas.qmd) | character | ?–? |
 | [Galminas](galminas.qmd) | character | c. 1340–1410 |
 | [Gediminas](gediminas.qmd) | character | c. 1275–1341 |
-| [Günther von Hohenstein](hohenstein.qmd) | character | c. 1330–1390 |
-| [Hanulas (Riga merchant)](hanulas.qmd) | character | c. 1340–1382 |
+| [Günther von Hohenstein (invented Order brother)](hohenstein.qmd) | character | c. 1331–? |
+| [Hanulas (Riga merchant)](hanulas.qmd) | character | c. 1340–1418 |
 | [Jadvyga (Jadwiga)](jadvyga.qmd) | character | 1373–1399 |
 | [Janusz I of Masovia](janusz1.qmd) | character | c. 1346–1429 |
 | [Jogaila](jogaila.qmd) | character | c. 1362–1434 |
 | [Jonas (vilkų vyresnysis)](jonas.qmd) | character | c. 1330–1384 |
+| [Jonas Goštautas](gostautas.qmd) | character | ?–1458 |
 | [Julijona Alšėniškė](julijona.qmd) | character | c. ?–1448 |
+| [Kalvis (the Smith)](kalvis.qmd) | character | c. ?–1399 |
 | [Kaributas](kaributas.qmd) | character | c. 1355–1404 |
+| [Karigaila (Jogaila's brother)](karigaila.qmd) | character | ?–1390 |
 | [Konrad Zöllner von Rotenstein](zollner.qmd) | character | c. 1325–1390 |
 | [Krivis of Šventaragis](krivis.qmd) | character | c. 1310–1387 |
+| [Kuno von Liebenstein](liebenstein.qmd) | character | ?–? |
 | [Kęstutis](kestutis.qmd) | character | c. 1297–1382 |
-| [Ona](ona.qmd) | character | c. 1350–1418 |
+| [Marquard von Salzbach](marquard.qmd) | character | ?–1410 |
+| [Mykolas Žygimantaitis](mykolas.qmd) | character | c. ?–1452 |
+| [Ona](ona.qmd) | character | c. 1352–1418 |
+| [Pilkoji (the Grey One, Vilkų Motina)](pilkoji.qmd) | character | c. 1365–1449 |
+| [Rimgailė (Palanga fisherwoman)](rimgaile_palanga.qmd) | character | c. 1390–? |
 | [Sigismund of Luxembourg](sigismund.qmd) | character | 1368–1437 |
 | [Skirgaila](skirgaila.qmd) | character | c. 1354–1397 |
 | [Sofija Vytautaitė](sofija.qmd) | character | c. 1371–1453 |
-| [The Flame-Keeper (Book V POV)](flame_keeper.qmd) | character | c. 1390–1450 |
+| [Spyglys (young ash-bearer)](spyglys.qmd) | character | ?–? |
+| [Tautvilas Kęstutaitis (Kondrat)](tautvilas.qmd) | character | ?–1390 |
 | [Tokhtamysh](tokhtamysh.qmd) | character | c. 1342–1406 |
 | [Ulrich von Jungingen](jungingen.qmd) | character | 1360–1410 |
 | [Vasily I of Moscow](vasily1.qmd) | character | 1371–1425 |
 | [Vytautas](vytautas.qmd) | character | c. 1350–1430 |
-| [Vytautas's sons (hostages)](vytautas_sons.qmd) | character | c. 1375–1392 |
+| [Vytautas's sons Jurgis and Ivanas (hostages; contested)](vytautas_sons.qmd) | character | c. 1375–1392 |
 | [Winrich von Kniprode](kniprode.qmd) | character | c. 1310–1382 |
 | [Zbigniew Oleśnicki](olesnicki.qmd) | character | 1389–1455 |
 | [Švitrigaila](svitrigaila.qmd) | character | c. 1370–1452 |
+| [Žiežirba (the Flame-Keeper, Book V POV)](flame_keeper.qmd) | character | c. 1390–1450 |
 | [Žygimantas Kęstutaitis](zygimantas.qmd) | character | c. 1365–1440 |

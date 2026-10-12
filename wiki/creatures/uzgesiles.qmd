@@ -8,22 +8,29 @@ categories: [creature]
 {{< include ../_generated/uzgesiles.md >}}
 
 ## Folk source [Record]
+
 [Saga invention.] No folk source; it grows from the Baltic reverence for the sacred hearth-flame and from the historical putting-out of the Šventaragis flame at the baptism of 1387.
 
 ## In the saga (where the folk are half-wrong)
+
 Born of **killed sacred flames**. When the Šventaragis flame was put out in 1387 the fire did not simply stop: its sparks, cut off from [Gabija](../gods/gabija.qmd), scattered into Vilnius's hearths as cold things that remember being fire. Tiny blue sparks like embers that nest in hearths and eat fire, so a house with užgesėlės cannot keep a hearth lit, which in winter is death. They are not malicious; they are trying to become fire again.
 
 ## Signs & habitat
+
 Hearths that go out every night; blue glints in cold ash; children who are always cold. Worst near Vilnius and around every grove-flame put out after 1387.
 
 ## Before / after the Unbinding
+
 They exist only after 1387 and multiply with every flame extinguished (the Samogitian alkai, 1413–17).
 
 ## Banes, wards, bargains, and their cost
+
 **Live ash** from a still-kept sacred flame, scattered in the hearth, gives them what they want, and they go out content; after 1387 the only kept flame is Vytautas's secret one at Trakai, and every pinch is a risk to its keeper (the graph records [the ember](../artifacts/ember.qmd) as their counter). Gabija's own words, *"Ugnis tau degs"*, spoken by a caster at the hearth, cost exhaustion and soul-chill.
 
 ## Danger level
+
 III dangerous (after 1387).
 
 ## Story hooks
+
 Books II–IV: why the wolves need Vytautas, and he them. Book V ch. 4: the winter of 1430–31 after the flame goes out, when the hearths of Trakai fail one by one.

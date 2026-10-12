@@ -8,12 +8,14 @@ categories: [character]
 {{< include ../_generated/birute.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Birutė of Palanga, Kęstutis's wife by tradition (c. 1350), mother of Vytautas; in the saga the Amber Queen's last vessel (D1).
 
 ## Appearance & tells
 <!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
 
 ## Want · Need · Lie · Truth
+
 | | |
 |---|---|
 | **Want** (external) | |
@@ -28,8 +30,9 @@ categories: [character]
 <!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
 
 ## Record vs saga
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+
+- **[Record]:** Death date unknown. Wigand (c. 1394): Jogaila had her drowned (en.wikipedia: at Brest, with relatives Vidimantas and Butrimas, likely in answer to Vytautas's escape; VLE: Kęstutis had sent her there in 1382). Vytautas's 1390 letter accuses Jogaila of killing both parents; at Constance (1416) delegates said she lived long and died naturally; the Palanga burial first appears in Stryjkowski (1582). The drowning is Wigand's, not Długosz's.
+- **[Saga invention]:** The drowning attempt at Brest in the Bug, which she survives, then Palanga; her mortal end in July 1384 (Book I ch. 27) and her life as the Amber Queen; Marquard's insult to her after Raciąż (1404).
 
 ## Pronunciation
 <!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->

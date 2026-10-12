@@ -61,7 +61,7 @@ graph TD
   KAR --> ZKAR["Žygimantas Kaributaitis<br/>c.1395–1435"]
 
   %% Kęstutis
-  BIR["Birutė of Palanga<br/>d. 1382 or c.1416"]
+  BIR["Birutė of Palanga<br/>d. unknown (1382 or later)"]
   KES -.-|"⚭ c.1350"| BIR
   KES --> VAI["Vaidotas<br/>(verify dates)"]
   KES --> BUT["Butautas / Henrikas<br/>d. 1380"]
@@ -105,7 +105,7 @@ graph TD
 | Name | Dates | Seat / role | Notes |
 |---|---|---|---|
 | **Gediminas** | c.1275 – winter 1341/42 *(verify)* | Grand Duke c.1316; Vilnius | Letters of 1323 to the Pope and the Hanseatic towns; Vilnius first named as capital. Legend (16th-century chronicles): the **Iron Wolf dream**, read by the priest **Lizdeika**, founds Vilnius. Wife traditionally **Jaunė (Jewna)**, d. 1344, per the Bychowiec Chronicle; whether he had one wife or several is disputed *(verify)*. |
-| **Manvydas** | d. 1348 | Kernavė, Slonim | Usually listed as eldest. Died the year of Strėva *(verify circumstances)*. |
+| **Manvydas** | d. 1348 | Kernavė, Slonim | Usually listed as eldest. Died in 1348; **only a guess ties his death to Strėva** (2 Feb 1348), and Book VI keeps him alive in Feb 1348 *(circumstances unrecorded)*. |
 | **Narimantas** (Gleb) | d. 1348 | Pinsk; served Novgorod | Killed at **Strėva (2 Feb 1348)** in most accounts *(verify)*. The chronology's "first Amber Debt payment" fits him. |
 | **Algirdas** | c.1296 – May 1377 | Vitebsk, then Vilnius (1345–77) | Grand Duke; the eastern half of the diarchy. |
 | **Kęstutis** | c.1297 – 15 Aug 1382 | Trakai, Samogitia, Grodno | The western half; fifty years of war with the Order. |
@@ -134,7 +134,7 @@ graph TD
 | Name (pagan / baptismal) | Dates | Seat(s) | Fate |
 |---|---|---|---|
 | **Jogaila** / Jakov (Orthodox, possibly) / **Władysław** (Catholic, 1386) | c.1362 *(post-1990 consensus; older view c.1352)* – 1 Jun 1434 | Vilnius, Krėva, Vitebsk; Kraków | Grand Duke 1377–81, 1382–92 (then overlord); **King of Poland 1386–1434**. Died at Gródek (Horodok) near Lviv. |
-| **Skirgaila** / Ivan / **Kazimierz** (1386) | c.1354 – 11 Jan 1397 | **Trakai** (1382/84–92), Polotsk (1387), **Kyiv** (1395–97) | Jogaila's regent in Lithuania from 1387; lost to Vytautas at Ostrów 1392; died in Kyiv, poison rumoured (a monk named in the chronicle tradition *(verify)*). No known legitimate heirs. |
+| **Skirgaila** / Ivan / **Kazimierz** (1386) | c.1354 – 11 Jan 1397 | **Trakai** (duke 1382–92; Trakai fell 20 Jul 1382), Polotsk (Apr 1387), **Kyiv** (1395–97) | Jogaila's governor (regent) in Lithuania from **13 Mar 1386** (VLE gives 1387–92); lost to Vytautas at Ostrów 1392; died in Kyiv on 11 Jan 1397 (infobox 8 Jan), circumstances unclear; VLE: ill after a hunt, "some sources" poison (no chronicle names a monk; Pachomijus is the saga's). No known legitimate heirs. |
 | **Kaributas** / Dmitry | after 1350 – after 1404 | Novhorod-Siverskyi | Rebelled against Jogaila in 1382 (the campaign that took Kęstutis away from Vilnius) and against Vytautas in 1393. Father of **Žygimantas Kaributaitis** (c.1395–1435), Hussite claimant in Bohemia (1422–27), wounded and captured at **Pabaiskas**, died soon after *(verify)*. |
 | **Lengvenis** / Simon | c.1356 – 1431 *(verify)* | Mstsislaw; prince-for-hire of **Novgorod** | ⚭ **Maria, daughter of Dmitry Donskoy of Moscow** (1394 *(verify)*). The Algirdaičiai brother who married into Moscow after all. |
 | **Karigaila** / Kazimierz | d. 1390 | — | Killed defending Vilnius in **1390** against Vytautas and the Order *(verify manner of death)*. |
@@ -155,10 +155,10 @@ graph TD
 | Name (pagan / baptismal) | Dates | Seat | Fate |
 |---|---|---|---|
 | **Vaidotas** | fl. 1362 *(verify dates)* | Kaunas | Defended **Kaunas** when the Order destroyed it at Easter 1362; captured *(verify)*. Disappears from the record. |
-| **Butautas** / **Henrikas** (Heinrich) | d. 1380 | — | Plotted against his father in **1365**, fled to the Order and was baptised; died at the imperial court in Prague, 1380 *(verify)*. **The first Kęstutaitis traitor.** |
+| **Butautas** / **Henrikas** (Heinrich) | d. 1380 | — | Plotted in summer **1365** against Algirdas and Kęstutis jointly (while Kęstutis was in Volhynia), fled to the Order and was baptised; died at Prague, **7 May 1380**. **The first Kęstutaitis traitor.** |
 | **Vytautas** / Wigand (1383) / **Aleksandras** (1386) | c.1350 – 27 Oct 1430 | Grodno, Brest, Podlasie (1384); **Trakai** (1392); **Vilnius** (as Grand Duke) | Grand Duke 1392–1430. Born, by tradition, at Senieji Trakai *(verify)*. Died at Trakai. |
-| **Tautvilas** / Konrad | d. 1390 | — | Killed at the **siege of Vilnius, 1390**, fighting on his brother's side with the Order *(verify)*. Same siege, same walls, same year as Karigaila on the other side. |
-| **Žygimantas** / Sigismund | c.1365 – 20 Mar 1440 | Starodub; Trakai | Hostage of the Order c.1389/90–1398 (given during Vytautas's second defection, freed after Salynas; VLE); Grand Duke 1432–40; assassinated at Trakai on Palm Sunday 1440. Son **Mykolas Žygimantaitis** (d. 1452 in Moscow, reputedly poisoned *(verify)*). |
+| **Tautvilas** / Konrad | d. 1390 | — | Killed at the **siege of Vilnius, 1390**, fighting on the Order's side (baptised Kondrat, 21 Oct 1383), "believed killed by a crossbow bolt" (Wigand) while besieging the Crooked Castle. Same siege, same walls, same year as Karigaila on the other side. |
+| **Žygimantas** / Sigismund | c.1365 – 20 Mar 1440 | Starodub; Trakai | Hostage of the Order **1390–98** (binding decision, after pl.wikipedia: Jan 1390; VLE says 1389–98; in 1382–84 he was Jogaila's prisoner; freed after Salynas); Grand Duke 1432–40; assassinated at Trakai on Palm Sunday 1440. Son **Mykolas Žygimantaitis** (commander at Pabaiskas 1435; pretender after 1440; captured, d. in Moscow shortly before 10 Feb 1452, poisoning suspected). |
 | **Danutė** (baptismal name Anna/Ona in some sources (verify); the saga uses only 'Danutė' to avoid confusion with Vytautas's wife) | c.1358 – 1448 *(verify)* | Warsaw, Czersk | ⚭ c.1373 **Janusz I of Masovia** *(verify date)*. Vytautas's refuge after Krėva (late 1382). |
 | **Rimgailė** / Elžbieta *(verify baptismal name)* | d. 1423 *(verify)* | Płock; Suceava | ⚭ 1392 **Henryk of Masovia** (bishop-elect of Płock, Jogaila's envoy at Ostrów), who died within a year; ⚭ c.1419 **Alexandru the Good of Moldavia** *(verify)*. |
 | **Miklausė** / Anna | — | — | Married a Masovian or Ruthenian prince *(verify; omit from prose until checked)*. |
@@ -166,9 +166,9 @@ graph TD
 
 ### 1.5 Vytautas and Ona
 
-- **Ona** (Anna). Married Vytautas c.1370 *(verify)*. Her parentage is **unknown**. One hypothesis makes her a princess of Smolensk, another a daughter of a Lithuanian boyar house *(verify; leave her origin a mystery in prose)*. **Died 1418** at Trakai. She organised the Krėva escape of autumn 1382, in which her maid (**Elena** *(verify name)*) stayed in Vytautas's bed and was executed. Hostage of the Order in 1383–84 and again around 1390 (`master_chronology.md`).
+- **Ona** (Anna). Married Vytautas c.1370 *(verify)*. Her parentage is **unknown**. One hypothesis makes her a princess of Smolensk, another a daughter of a Lithuanian boyar house *(verify; leave her origin a mystery in prose)*. **Died 1418** at Trakai. She organised the Krėva escape of autumn 1382, in which her maid (**Elena** *(verify name)*) stayed in Vytautas's bed and was executed. Hostage of the Order in 1383–84 (saga) and, in the record, from the Treaty of Lyck (19 Jan 1390); the Order freed her in May 1392 to spread pro-Lithuanian rumours; she confirmed Ostrów in two letters. Born c. 1350–52 (the record has no date; Book IV's ch. 9 makes her 66 in 1418).
 - **Sofija** (1371 – 1453). Betrothed to **Vasily Dmitrievich** of Moscow. By tradition the match was made when Vasily escaped from the Horde in 1386–87 and passed through Lithuanian lands *(verify)*. Married **9 Jan 1391** *(verify day)*. Grand Princess of Moscow 1391–1425; **regent for her son Vasily II** from 1425 in the Muscovite civil war. Her children include **Vasily II the Blind** (1415–62), **Anna** (1393–1417), who married the Byzantine heir **John VIII Palaiologos** in 1411 and died of plague, and **Anastasija**, who married Olelka of Kyiv, so Vytautas's granddaughter married Algirdas's great-grandson *(verify)*.
-- **The sons.** Vytautas had sons who died young. The Lithuanian chronicle tradition holds that they were **poisoned while hostages of the Order** after one of his defections. `master_chronology.md` places it in **1392**. Sources differ on names (Jurgis and Ivan are sometimes given), number and year *(verify all; the saga follows the chronology: two sons, 1392)*.
+- **The sons: a CONTESTED tradition.** **Sofija is the only child of Vytautas in the record.** The late tradition (Simon Grunau, 16th c.) says that two young sons, **Iwan and Georg** (Jurgis and Ivanas: the names are the tradition's, not the saga's), were **poisoned by a knight while hostages of the Order**, as revenge for the betrayal (after the break, before Ostrów, summer 1392). en.wikipedia (Jonynas 1984) calls it a false rumour; Vytautas's letters never accuse the Order of it; a "Jurgis and Jonas" on the 1390–92 hostage list were kinsmen who came back alive. The saga adopts the tradition (D3) and says so in Book II's afterword.
 - **Second wife: Julijona Alšėniškė** (Uliana Olshanska), ⚭ 13 Nov 1418, daughter of Prince Ivan of Halshany (Alšėnai) *(verify)*. No children. **[Record], with genealogy to verify:** she was aunt of **Sophia of Halshany**, so Vytautas and Jogaila ended up married to an aunt and her niece.
 
 **Consequence [Record].** Vytautas died with **no male heir**. His blood survived only in **Moscow**: his grandson Vasily II. Vasily I's testament (1423) placed the boy under Vytautas's protection *(verify date)*. The Kęstutaičiai line that the Order tried to wipe out ends up on the Muscovite throne, which is the bitterest irony in the series.
@@ -206,6 +206,7 @@ graph TD
 Mottos are **[Saga invention]** unless stated. Heraldry follows the record where it exists and says so where it does not.
 
 ### A note on Lithuanian heraldry [Record]
+
 - **The Vytis** (Pogonia, Pogoń): an armed rider charging, sword raised. Mounted-warrior seals appear among the Gediminids in the second half of the 14th century. **Which duke used it first is debated** (attributions to Algirdas's era and to Narimantas or Kęstutis circulate) *(verify before stating in prose)*. Under **Jogaila and Vytautas** it becomes the arms of the Grand Duchy. In the 1380s it is a princely seal, not yet a "national" flag.
 - **The Columns** (*Gediminaičių stulpai*): the "Gediminid" name is a **19th-century** label. The sign is first attested on **Vytautas's coins and seals in the late 14th century** *(verify earliest date; c.1397 is often cited)*, and is used afterwards by **Žygimantas Kęstutaitis**. It is plausibly a family *tamga* (property mark) of the **Kęstutaičiai**. In the period the Columns are **Vytautas's mark**, not Jogaila's.
 - **The double cross** (Jagiellonian cross): appears on **Jogaila's** seals after his baptism (1386) *(verify)*. It is Jogaila's personal sign as a Christian king.
@@ -290,7 +291,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 
 ### 2.8 The Palanga amber-priestess line (*Gintaro vaidilutės*) [Saga invention]
 
-- **Basis [Record]:** Birutė's Palanga origin is a strong **Lithuanian tradition** (Birutė Hill at Palanga, her legendary role as a *vaidilutė* guarding a sacred fire). Długosz has her drowned in 1382; Lithuanian tradition has her living to c.1416. **Everything else below is invention.**
+- **Basis [Record]:** Birutė's Palanga origin is a strong **Lithuanian tradition** (Birutė Hill at Palanga, her legendary role as a *vaidilutė* guarding a sacred fire). **Wigand of Marburg** (c. 1394), not Długosz, has Jogaila drown her (en.wikipedia: at Brest, with relatives Vidimantas and Butrimas killed); VLE thinks Kęstutis sent her to Brest in 1382; at Constance (1416) delegates said she lived long and died a natural death; the Palanga burial first appears in Stryjkowski (1582). Her death date is unknown. **Everything else below is invention.**
 - **Seat:** **Birutės kalnas** (Birutė Hill), its shore flame and the sea-stone (*Šventasis akmuo*, ch. 11).
 - **Sigil:** **a drop of amber with a flame inside** [Saga invention].
 - **Words:** ***Jūra atsimena.*** "The sea remembers." [Saga invention]
@@ -328,6 +329,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 ## 4. The neighbouring houses
 
 ### 4.1 The Masovian Piasts [Record]
+
 - **Seat:** **Warsaw** and **Czersk** (Janusz I); **Płock** and **Rawa** (Siemowit IV).
 - **Arms:** the **Masovian (Piast) eagle** *(verify tinctures)*.
 - **Words:** ***Między dwoma ogniami.*** "Between two fires." (Polish) [Saga invention]
@@ -336,6 +338,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 - **Patron:** none canonical. In the saga Masovia is the **neutral ground** where cousins meet and where Vytautas runs first after Krėva.
 
 ### 4.2 The Polish court and the Lesser Poland lords
+
 - **The Anjou queen.** **Jadwiga** (see 1.6). Daughter of **Louis I of Hungary and Poland** (d. 10/11 Sep 1382) and **Elizabeth of Bosnia** (murdered 1387). Persona patron: the **White Silence** (cosmology §2.2 says honest Christians are its *victims*, not its servants. Write her as **used by** it.)
 - **The Lesser Poland (Małopolska) lords [Record]:** the oligarchy that chose Jogaila over Wilhelm of Habsburg and Siemowit IV (1384–85). Key names: **Spytko II of Melsztyn** (Leliwa arms; voivode of Kraków; **killed at the Vorskla, 1399**); **Jan of Tarnów** (Leliwa); **Dobiesław of Kurozwęki**; **Jan Tęczyński**; **Krystyn of Ostrów**, castellan of Kraków *(verify each office)*.
 - **Two Spytkos, do not merge them.** **Spytko II** (d. 1399), Jogaila's backer, dies beside Vytautas at the Vorskla. **Spytko III of Melsztyn**, his son (d. **4 May 1439** at **Grotniki**), led the Hussite-leaning confederation against Oleśnicki (persona/Spytek is Spytko III) *(verify dates)*.
@@ -343,6 +346,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 - **Words (Lesser Poland lords):** ***Rex regnat, nos regimus.*** "The king reigns; we rule." (Latin) [Saga invention]
 
 ### 4.3 The Luxembourgs [Record]
+
 - **Seat:** **Buda** (Hungary), **Prague** (Bohemia), the imperial court.
 - **Arms:** the Luxembourg lion; Sigismund's arms combine Hungary, Bohemia and the imperial eagle. Sigismund founded the **Order of the Dragon** (1408) [Record].
 - **Key figure:** **Sigismund** (1368–1437). ⚭ Mary of Hungary (1385), then **Barbara of Celje** (1405/08). King of Hungary 1387, King of the Romans 1411, of Bohemia 1419/1436, Emperor 1433. Hosted the **Council of Constance**. Arbiter between Poland and the Order (the 1420 Breslau award went against Poland). **Offered Vytautas a crown at Lutsk (1429).**
@@ -350,6 +354,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 - **Patron:** **the Shadow-Seller serves him in 1429–30** (D2) and the **Gold-Glutton** flatters him.
 
 ### 4.4 The Rurikids of Moscow [Record]
+
 - **Seat:** the **Moscow Kremlin**.
 - **Arms:** the mounted **St George** appears on Moscow coins from the late 14th century *(verify)*. **Two riders**, Lithuania's and Moscow's, facing each other across the Ugra.
 - **Key figures:** **Dmitry Donskoy** (1350–89), victor of **Kulikovo** (8 Sep 1380), negotiated with Uliana in **1384** to marry a daughter to Jogaila (an Orthodox alternative to Krėva). **Vasily I** (1371–1425) ⚭ **Sofija Vytautaitė**: three wars with his father-in-law (1406–08), ended by the stand-off on the **Ugra** (1408). **Vasily II** (1415–62), Vytautas's grandson, under Vytautas's protection from 1425.
@@ -357,6 +362,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 - **Patron:** none canonical. **[Saga suggestion]**: Moscow is the realm the **Horde taught** to collect tribute, so the Steppe-Hunger's shadow lies on it lightly.
 
 ### 4.5 The Horde khans [Record]
+
 - **Tokhtamysh** (khan c.1380–95; killed c.1406 near Tyumen *(verify)*). Reunited the Horde, **burned Moscow in August 1382** (the same month Kęstutis died), was broken by **Timur** (1391, 1395), and fled to Vytautas, granting him rights over the Rus' lands in exchange for restoration *(verify terms)*. Sons **Jalal ad-Din** (fought beside Vytautas at **Grunwald**; briefly khan 1411–12) and **Kadir Berdi** (killed Edigu in 1419) *(verify)*.
 - **Temur Qutlugh** (khan 1397/98–99). Nominal victor of the Vorskla; died months later.
 - **Edigu** (c.1352–1419). Manghit emir and **beglerbeg**, the kingmaker of khans; field commander at the **Vorskla**; raided Moscow (1408) and Kyiv (1416) *(verify)*. Persona: "the Steppe Butcher".
@@ -370,6 +376,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 ## 5. The Teutonic Order as an institution-house
 
 ### 5.1 House card
+
 - **Seat:** **Marienburg** (Malbork), the Grand Master's seat since 1309. The **Marshal** at **Königsberg**. Frontier houses on the Neman: **Ragnit**, **Georgenburg (Jurbarkas)**, **Christmemel**, **Marienwerder (Naujapilis)**, built for Vytautas in 1384.
 - **Arms:** the **black cross on white** [Record]. The **Grand Master's arms** add a gold cross over the black, with the **imperial eagle** on an inescutcheon *(verify details)*. The fleur-de-lis ends attributed to St Louis are legend.
 - **Words:** no period motto. *Helfen – Wehren – Heilen* is a **modern** motto; do not use it in 14th-century scenes. Saga motto: ***Per crucem, ferro.*** "Through the cross, by iron." [Saga invention]
@@ -387,7 +394,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 | — | *(vacancy; Grand Commander governs)* | Aug 1390 – Mar 1391 | Lyck/1390 diplomacy. |
 | 24 | **Konrad von Wallenrode** | 12 Mar 1391 – d. 25 Jul 1393 | Hard and anti-clerical by reputation; Reisen against Vilnius. *(Mickiewicz's 1828 poem "Konrad Wallenrod", a Lithuanian disguised as Grand Master, is pure fiction, and shows exactly the impossibility behind H5.)* |
 | 25 | **Konrad von Jungingen** | 30 Nov 1393 – d. 30 Mar 1407 | Salynas (1398), Raciąż (1404); took Gotland (1398). Preferred diplomacy to battle. |
-| 26 | **Ulrich von Jungingen** | 26 Jun 1407 – **killed 15 Jul 1410** | Grunwald (persona/Ulrich). |
+| 26 | **Ulrich von Jungingen** (b. 1360) | 26 Jun 1407 – **killed 15 Jul 1410** (earlier komtur of Balga 1396–1404, marshal 1404) | Grunwald (persona/Ulrich). |
 | 27 | **Heinrich von Plauen** | 9 Nov 1410 – **deposed Oct 1413** (d. 1429) | Saved **Marienburg** (1410) as commander of Schwetz; Thorn (1411); deposed and imprisoned by his own brethren. |
 | 28 | **Michael Küchmeister von Sternberg** | 9 Jan 1414 – resigned Mar 1422 (d. 1423) | The Hunger War (1414); Constance. |
 | 29 | **Paul von Rusdorf** | 10 Mar 1422 – resigned 2 Jan 1441 (d. 9 Jan 1441) | **Melno** (1422); Lutsk-era intrigue; allied with **Švitrigaila** (Christmemel, 1431); the Livonian disaster at **Pabaiskas** (1435); Peace of **Brest** (1435). |
@@ -396,6 +403,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 **Livonian branch (Landmeister in Livonia)** *(verify all)*: Wilhelm von Freimersheim (1364–85), Robin von Eltz (1385–89), Wennemar von Brüggenei (1389–1401), Konrad von Vietinghoff (1401–13), Dietrich Tork (1413–15), Siegfried Lander von Spanheim (1415–24), Zisse von dem Rutenberg (1424–33), **Franco Kerskorff** (1433–35, **killed at Pabaiskas, 1 Sep 1435**), Heinrich von Buckenvorde (1435–37).
 
 ### 5.3 The great offices (*Großgebietiger*) [Record]
+
 | Office | German | Seat | Function |
 |---|---|---|---|
 | **Grand Master** | *Hochmeister* | Marienburg | Elected for life by the **General Chapter**; governs with the five great officers. |
@@ -409,6 +417,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 **Membership.** **Brother-knights** (*Ritterbrüder*) took the three monastic vows of **poverty, chastity and obedience**; they had to be of knightly, legitimate birth and, in practice, from the **German** lands. **Priest-brothers** served as chaplains. **Half-brothers** (*Graumäntler*) and **familiares** were associates. **Guests** (*Gäste*) were Western crusaders on the Reise.
 
 ### 5.4 Why Vytautas could not be Marshal (review H5)
+
 1. **The Marshal was a professed brother-knight**: a monk under vows. A **married** man could not take the vow of chastity without his wife's consent and separation, and **Vytautas was married to Ona**, who was then a hostage in the Order's hands.
 2. **The great offices were filled from senior brothers** with decades in the Order. A **convert of weeks** (baptised at Tapiau on 21 Oct 1383) was not even a novice.
 3. **Recruitment was effectively German-only.** No Lithuanian ever held a great office.
@@ -416,13 +425,14 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 5. **What he really was [Record]:** a baptised **ally and vassal** under the **Treaty of Königsberg (30 Jan 1384)**. He pledged Samogitia to the Nevėžis and was entrusted with **castles to hold** (Marienwerder, Georgenburg) and with Order troops "lent" to his war. **This is the correct Book I status:** a vassal-prince with borrowed knights, not an officer. The **Marshal** of ch. 20 is a real Order brother. *(The Marshal around 1383 may be **Kuno von Hattenstein** (verify) before naming him.)*
 
 ### 5.5 Order figures relevant to the books
+
 | Figure | Office | Record | Saga use |
 |---|---|---|---|
-| **Günther von Hohenstein** | **Komtur of Osterode** | Friend of Kęstutis, who **warned him in 1381** of Jogaila's secret Dovydiškės treaty (Lithuanian chronicle tradition) *(verify source)* | The honest enemy: proof that the Order is men, not only egregore. Mentioned in ch. 1–2 backstory. |
+| **Günther von Hohenstein** (real, c. 1310–1380; komtur of Osterode from 1349, later Brandenburg) | **Komtur of Osterode** | **Not** the 1381 informant (he was dead; his own attestation is weak). **The saga's Hohenstein is an invented young brother (22 in 1353)** who shares his name: the honest enemy of Book VI, third knight at Lake Ublik (1361), translator at Marienburg. | Proof that the Order is men, not only egregore. Book VI ch. 14, 16, 17, 19. |
 | **Konrad Zöllner von Rotenstein** | Grand Master 1382–90 | Received Vytautas; Dubysa, Königsberg | Book I ch. 18–19 (replaces Kniprode; keep the chess-player characterisation). |
 | **Kuno von Hattenstein** | Marshal (1380s) *(verify term)* | — | Candidate for ch. 20's Marshal. |
-| **Kuno von Liebenstein** | Komtur (1380s) *(verify offices and dates)* | Active in the Lithuanian negotiations of the 1380s *(verify)* | Use only after checking. **Do not confuse** with **Kuno von Lichtenstein**, Grand Commander killed at Grunwald (1410). |
-| **Marquard von Salzbach** | **Komtur of Brandenburg** (Prussia) and earlier frontier posts *(verify)* | An old acquaintance of Vytautas from his Prussian years *(verify)*. Captured at **Grunwald**; **Długosz says Vytautas had him beheaded because he had once insulted Vytautas's mother** *(verify the occasion)*. Beheaded with **Heinrich von Schaumburg**, former Vogt of Samogitia *(verify)* | **A gift for the saga:** an insult to **Birutė**, the Amber Queen's vessel, answered on the field where the Iron Saint screams. Plant the insult in Book II or early III. |
+| **Kuno von Liebenstein** | **Komtur of Osterode**, godfather of Danutė | **The 1381 informant**: warned Kęstutis of the Dovydiškės treaty in Aug 1381 (Ivinskis 1978, via en.wikipedia; VLE and Wigand name no one) | Named in Book I ch. 1. **Do not confuse** with **Kuno von Lichtenstein**, Grand Commander killed at Grunwald (1410). |
+| **Marquard von Salzbach** | **Komtur of Brandenburg** (Prussia) and earlier frontier posts *(verify)* | An old acquaintance of Vytautas from his Prussian years *(verify)*. Captured at **Grunwald**; Vytautas had him beheaded (with **Heinrich von Schaumburg**) when he refused to apologise for **insulting Vytautas's murdered mother after the Peace of Raciąż (1404)** (en.wikipedia, after Ekdahl 1992; Długosz's *Banderia Prutenorum*). In 1384 Vytautas's captive, 1389 his adviser; komtur of Ragnit by 1399 (Lyck 1390, Vorskla with an Order contingent, Salynas). | **A gift for the saga:** the insult to **Birutė**, the Amber Queen's vessel, answered on the field where the Iron Saint screams. Planted at **Raciąż, Book III ch. 6** (not 1390). |
 | **Friedrich von Wallenrode** | Marshal | Killed at Grunwald | — |
 | **Kuno von Lichtenstein** | Grand Commander | Killed at Grunwald | — |
 | **Thomas von Merheim** | Treasurer | Killed at Grunwald | — |
@@ -437,7 +447,7 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 1. **Kinship terms** are fixed by D9: Kęstutis is *dėdė* to Jogaila, Skirgaila and Švitrigaila; Vytautas and Jogaila are *pusbroliai*.
 2. **Baptismal names** appear only after the baptisms: Vytautas is *Wigand* from Oct 1383 and *Aleksandras* from 1386; Jogaila is *Władysław* from 15 Feb 1386; Skirgaila is *Kazimierz* and Švitrigaila *Bolesław* from 1386.
 3. **No Columns on Jogaila's men.** The rider on seals and banners is fine.
-4. **Ona dies in 1418**, Sofija marries in **1391**, and the sons die in **1392** (master_chronology).
+4. **Ona dies in 1418** (31 Jul), Sofija marries in **1391** (9 Jan), and the sons (a contested tradition) die in **1392** (master_chronology).
 5. **Radvilos are not a power before c.1450**; Goštautai are a power from the 1430s.
 6. **Before 1413 no Lithuanian boyar has a Polish coat of arms.**
 7. When a date carries **(verify)** here, keep it out of chapter text until it is checked, or blur it ("that winter", "the year the Order burned Kaunas").

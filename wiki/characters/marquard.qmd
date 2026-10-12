@@ -1,0 +1,41 @@
+---
+title: "Marquard von Salzbach"
+id: marquard
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/marquard.md >}}
+
+## Summary
+
+Marquard von Salzbach, komtur of Ragnit and later of Brandenburg, is Vytautas's captive of July 1384, his adviser in 1389 and then his enemy: he signs the [Treaty of Lyck](../events/ev_lyck_1390.qmd) (1390), helps negotiate [Salynas](../events/ev_salynas.qmd) (1398), fights at the [Vorskla](../events/ev_vorskla.qmd) (1399), insults Birutė after the [Peace of Raciąż](../events/ev_raciaz_1404.qmd) (**1404**, not 1390) and is beheaded by Vytautas after Grunwald for refusing to apologise.
+
+## Appearance & tells
+<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+## Want · Need · Lie · Truth
+
+| | |
+|---|---|
+| **Want** (external) | |
+| **Need** (internal) | |
+| **Lie** they believe | |
+| **Truth** they learn (or refuse) | |
+
+## Arc by book
+<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+## Power & magic
+<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+## Record vs saga
+
+- **[Record]:** En.wikipedia (Marquard von Salzbach; Ekdahl 1992 pp. 58-59; Urban 2003): after Raciąż (1404) he insulted Vytautas by attacking his murdered mother Birutė; at Grunwald, as komtur of Brandenburg, he was beheaded with Heinrich Schaumburg. At the Vorskla he brought a force (1,600 horse is unconfirmed); Posilge lists nine of the Order dead and names Marquard among the rescued.
+- **[Saga invention]:** His velvet threat to the hostages at Lyck ("grąžinu skolą"; Book II ch. 6) and Vytautas's "Aš tai prisiminsiu"; the toast to "the witch" Birutė at the Order's feast after Raciąż (Book III ch. 6).
+
+## Pronunciation
+<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+## Appearances
+<!-- Book · chapter list; continuity notes -->

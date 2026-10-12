@@ -3,6 +3,7 @@
 Source: Book IV ch. 21–30 as written (ch. 30 = `30_epilogas_nematoma_karuna.qmd`). Facts below are on the page; "verify" marks gaps or tensions.
 
 ## Timeline of the end (1430)
+
 - **15 Aug (Žolinė):** crown on the road in a gold-painted oak chest (ch. 21); Henė's last offer in the vault the same night (ch. 22).
 - **Late Aug:** at the Noteć ford on the Greater Poland border, the Polish border guard (**Jan Czarnkowski**, formerly "kaštelionas Jakub of Gorlice"; Oleśnicki's envoy **Baltramiejus Rogala**, formerly Stanislovas, ch. 23) find the chest full of dry leaves. The Hungarian goldsmith's apprentice **Pál** (19) swears he held real gold. Henė tells Pilkoji: "I never offered a lie; it was my most honest bargain, and I lost it."
 - **Early Oct (Jogaila has arrived with the Poles; the 8 Sep date had already slipped to 29 Sep):** Vilnius, the coronation that does not happen; Vytautas rages, then adjourns "until St Martin" (11 Nov) (ch. 24, re-dated in the fact-check pass; it was "8 Sep"). **Mid-Oct (c. 15-16 Oct, was "9 Sep"):** his fall on the Trakai road while riding out of Vilnius behind Jogaila (three ribs and an old boil between the shoulder blades; the black root and fresh moss that Eglė's forest leaves; the "washerwoman" Giltinė seen at the stream). He is carried to Trakai and the bed is moved onto the warm floor.
@@ -12,6 +13,7 @@ Source: Book IV ch. 21–30 as written (ch. 30 = `30_epilogas_nematoma_karuna.qm
 - **27 Oct night – 1 Nov:** ch. 30 (below).
 
 ## State at the moment of death (ch. 29)
+
 - The flame in the vault **goes out at once**. The pebble in its pouch **cracks** ("like thin ice"). The warmth leaves him "in one sigh". Both his ears open for a moment; he hears a small hard round thing fall and roll (Henė's stone). Birutė's whispered name for him is said once more (never written out in the text). **No thunder**: Perkūnas holds his storm "out of respect".
 - Julijona is reading him **Ona's letter** (Ona knew about the vault; "Grįžk, jei gali. Jei negali, žinok, kad aš žinau"). Julijona also knows. Elijas (the Karaim) is long dead.
 - **Wishes (ch. 28):** buried in **Vilnius cathedral** ("where a fire once burned"). **Silver wolf and pebble** to **Žiežirba, via Pilkoji, handed over at Kūčios (24 Dec 1430)**, not at once. Pilkoji is to tell him: show the wolf in the Dykra to his wolves ("jie pažins"). Julijona is asked that **no one go down to the vault for three days**; Žiežirba decides for himself. Franciscan **father Benediktas** (Samogitian, Kražiai) took the confession; Vytautas withheld one thing, so absolution covers what it can.
@@ -19,6 +21,7 @@ Source: Book IV ch. 21–30 as written (ch. 30 = `30_epilogas_nematoma_karuna.qm
 - Švitrigaila sent greetings at noon on the 27th; Vytautas: "Pasakyk jam, kad palauktų."
 
 ## Characters (alive, where, what they carry)
+
 - **Žiežirba**: ~40, throat-scar, grey at the temples; in the vault with a pot of cold ash. True name still forgotten. He fed the flame from Kalvis's ash to the last. Eglė left the small **brass buckle** (Vytautas's, which she wore under the žaltys, Book III ch. 23/Book I ch. 16) on the black ring's edge, and asked the flame to give Pilkoji her names; so the buckle lies by the cold ring (verify in V ch. 1).
 - **Pilkoji** (*Vilkų Motina*, 26 years of carried names): lost the face of her sister Dalia (ch. 23); keeps a rowan leaf under her coat; carried the feast-day bog-iron knife and nearly "entered" at the vault door (a second burn on her palm, ch. 22); she keeps **Eglė's lost names** (Šventaragis valley, Mantas, Vykintė, the pine Žalioji). Wolves with her in 1430: **Kirmėlė** (old, white beard), **Uosis** (white-muzzled).
 - **Eglė**: no žaltys since 1417; at the end of ch. 27 she walks into the pines with only her name left, which she remembers at dawn; the forest draws back from the lake. She says the Root-Mother **sleeps** (will wake when the axes are gone). Her cost this time: her last names. **Pilkoji carries her.**
@@ -30,12 +33,14 @@ Source: Book IV ch. 21–30 as written (ch. 30 = `30_epilogas_nematoma_karuna.qm
 - Ona's letter box with the old letters is with Julijona.
 
 ## Magic and objects ledger
+
 - Pebble **cracked**. Flame **out**; there will be no more krikštas. Unbinding **5** (by book end); tier 4/3/2 = 0/9/90. Perkūnas's storm is **held for the funeral** (V ch. 2, Vilnius). Iron Wolf seen **dissolving into mist above the Duke's tower at dusk** (also glimpsed from the south shore in ch. 30; V ch. 1 should show it from the island).
 - **Henė's stones: one**, Jogaila's (light, floating, old crack that "grew a hair's width overnight" in ch. 30). Vytautas's stone fell in the death chamber, rolled to where Giltinė had stood by the bed's foot, and stopped.
 - **Henė's golden chain**: with Oleśnicki's people (V ch. 19 returns it to Henė, then Žygimantas). His **yellow Hungarian bell** (left on Vytautas's knees in ch. 17) is on the sill of the death room; Henė left it there. His cap's bells are stuffed with wool.
 - Henė's cost on stairs: each stroke of the death-bell shaved the edge of his shadow (shorter by a hand); it grew back away from the blessed walls.
 
 ## What ch. 30 establishes (new facts)
+
 - Henė watched the dying from an **overturned boat on the south shore of Galvė** (folk belief: lightning doesn't look under a boat). He doffed his cap to the dissolving Iron Wolf ("Nieko asmeniško").
 - That night he **climbed the stairs** to the death room (the Karaim captain at the door could not see him). Julijona received him. She told him that **Vytautas laughed once alone when Henė left in 1428**, with the bell on his knees: Henė silently counts "three" (ch. 17: Vytautas had counted two). Julijona asked him for nothing and offered nothing.
 - At dawn on **28 Oct** he threw **Vytautas's stone into the lake** (no splash; a film of ice parted and closed). It is the **only stone gone from play**; Jogaila's remains.
@@ -43,6 +48,7 @@ Source: Book IV ch. 21–30 as written (ch. 30 = `30_epilogas_nematoma_karuna.qm
 - His next move (for V ch. 6, 8): he reckons the old king has "four years, maybe five", and thinks of the **quiet brother (Žygimantas Kęstutaitis)** as the cheap, patient buy. He does not yet go.
 
 ## Verify and tensions inside Book IV
+
 1. **Oath years:** ch. 22 "prieš keturiasdešimt šešerius metus" (the pebble) vs ch. 28/29 "keturiasdešimt aštuonerius" (the name/pebble 1382) and ch. 29's "forty-three years" for the flame (1387–1430). Not mine to fix; pick one reading in V.
 2. **Švitrigaila's election date** and whether Jogaila was in Vilnius for it: kept vague.
 3. **Burial** (cathedral, route, date): not shown.
@@ -55,6 +61,7 @@ Source: Book IV ch. 21–30 as written (ch. 30 = `30_epilogas_nematoma_karuna.qm
 Continuity edit of ch. 1-30 read in order (books/4/[0-3][0-9]_*.qmd, index.qmd). Edits are minimal line adjustments; no chapter rewritten, nothing committed, other books untouched. This section supersedes "Verify and tensions" items 1 and 6 above.
 
 ### Decisions
+
 - **Oath years (fixed):** the oath / Sutartis / flame promise dates from **1382** (Birutė binds Vytautas; graph `flame_promise` 1382-1430) = **48 years** in 1430. The Last Flame was lit **Feb-Mar 1387** = **43 years**. Krėva (15 Aug 1382) is also 48. So: ch. 22 "46" and ch. 21 "46" became 48; ch. 28/29/30 and Book V ch. 1 (48) and V ch. 7 (43) already agree.
 - **Counter's countdown** is consistent and left alone: ch. 1 "Devyniolika" (1411), ch. 10 "Dvylika" (1418), ch. 16 "Ketveri" (1426) and "Dveji" (1428), all counting down to 1430.
 - **Jogaila's Silence** runs from Grunwald, 1410: 12 years in 1422 (ch. 13), 14 in 1424 (ch. 14), 17 in 1427, 20 in 1430 (ch. 24). (Superseded by the fact-check pass: Jogaila b. c. 1362, so 62 in 1424 and 65 in 1427 in ch. 14, and "beveik septyniasdešimt" in 1430, i.e. the ~68 of the first hand-off.)
@@ -67,6 +74,7 @@ Continuity edit of ch. 1-30 read in order (books/4/[0-3][0-9]_*.qmd, index.qmd).
 - **Crown timeline:** Aug 15 (ch. 21 and 22 same night) -> ford ~17 Aug -> Poles and Hungarians standing about a week -> Pilkoji arrives ~24-25 Aug (ch. 23; left Trakai 16 Aug, "ninth day") -> back at Trakai ~2 Sep (ch. 25 "a week ago") -> (fact-check pass: the chapters now run Vytautas postpones 8 Sep -> 29 Sep, Jogaila reaches Vilnius early Oct, Vilnius scene of ch. 24, next morning the ride to Trakai and the fall, c. 15-16 Oct).
 
 ### Changes (file: change)
+
 - `index.qmd`: "Oleśnickis" -> "Olesnickis".
 - `03_zemaiciu_krikstas.qmd`: Vytautas's "kaip pats sakei pavasarį" -> "prieš dvejus pavasarius" (Mingaila said it in spring 1411).
 - `05_zemaiciu_skundas.qmd`: pebble-warmth simile varied (copy of ch. 3); Gedvydas's look varied.
@@ -93,6 +101,7 @@ Continuity edit of ch. 1-30 read in order (books/4/[0-3][0-9]_*.qmd, index.qmd).
 Checked and clean: every chapter has `# Title`, one italic dateline, no front matter, `---` scene breaks; no English, TODO, outline or "verify" markers; names consistent (Julijona, Žiežirba, Pilkoji, Eglė, Švitrigaila, Sofija vs Sonka, Zigmantas Liuksemburgietis as King of the Romans, never emperor); anchors in ch. 2, 4, 9-10, 13, 14, 15, 16, 18, 19, 29 match the outline's [Record] list.
 
 ### Unresolved items for the author
+
 1. **8 Sep 1430 coronation** is asserted (ch. 19 "Mergelės Marijos Gimimą", ch. 21, ch. 24 dateline); the outline marks it "verify". Historiography supports 8 Sep, left in; if changed, fix ch. 19, 21, 22, 24 and the 9 Sep ride in ch. 24/25. **[RESOLVED in the fact-check pass: 8 Sep is the historical planned date and is kept in ch. 19/21/22; Vytautas moved it to 29 Sep; the ch. 24 scene is re-dated to early October.]**
 2. **Ch. 5 "1416 pavasaris"** (Samogitian delegation, verify year), **ch. 15** (Vasily I's testament naming Vytautas, verify), **ch. 9** (Švitrigaila's escape from Kremenets with Ostrogski's help, "nine years" held, repeated in ch. 26; verify), **ch. 18** guest list (verify), **ch. 20/23** Jakub of Gorlice as border castellan (verify). **[RESOLVED: ch. 5 dateline is now Feb 1416; Vasily I testament confirmed; Kremenets escape 24 Mar 1418, "nine years" confirmed; Lutsk guest list checked (ch. 18 reordered); Jakub of Gorlice replaced by Jan Czarnkowski.]**
 3. **Švitrigaila's election date** and whether Jogaila was in Vilnius for it: left vague (ch. 30 now "ponai jau šaukia"); Book V ch. 2-3 put it about ten days before the funeral. **[RESOLVED: elected unilaterally by the Lithuanian lords after 27 Oct, date unrecorded; Jogaila, present for the funeral, announced his approval on 7 Nov 1430. Ch. 30 stays vague.]**
@@ -104,6 +113,7 @@ Checked and clean: every chapter has `# Title`, one italic dateline, no front ma
 9. **Ch. 2 vs the rest:** Oleśnicki is "Zbignevas iš Olesnicos" there, "Olesnickis" in ch. 18-24; fine as designation vs surname, change only if one form is wanted everywhere.
 
 ### Risks for Book V
+
 - Book V ch. 1 (48 years) and ch. 7 (43 years) already match the fixed oath/flame figures.
 - **Sofija's amber bead** stays with Vasily II in Moscow (ch. 15); Book V ch. 2 has her boyar lay a bead on the slab: it must be a second bead or a gift.
 - **Švitrigaila at Lutsk** (V ch. 15) is not in IV ch. 18 (see 4 above).

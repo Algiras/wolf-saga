@@ -3,6 +3,7 @@
 The canon for the saga, the Lithuanian answer to what Sapkowski did for Polish history: folklore taken literally, history kept to the record, and grey morality on every side. Browse it rendered in the wiki (`wiki/`, the **Codex** and **Atlas** sections), or read the files here.
 
 ## Canon core (read first; precedence top to bottom)
+
 | Doc | What it settles |
 |---|---|
 | [canon_decisions.md](canon_decisions.md) | Every resolved contradiction (D1–D10), glossary, kinship, open questions |
@@ -12,6 +13,7 @@ The canon for the saga, the Lithuanian answer to what Sapkowski did for Polish h
 | [master_chronology.md](master_chronology.md) | Dated record 1009–1447 with hidden history and book mapping |
 
 ## The world
+
 | Doc | |
 |---|---|
 | [geography_gazetteer.md](geography_gazetteer.md) | Lands, the Dykra, 45 places, travel times |
@@ -27,14 +29,17 @@ The canon for the saga, the Lithuanian answer to what Sapkowski did for Polish h
 | [calendar_and_festivals.md](calendar_and_festivals.md) | Month names, festival wheel, zeniths, Book I dates |
 
 ## The graph (machine-checked canon)
+
 - [graph/world_graph.json](graph/world_graph.json): nodes, time-bounded relations, and progressions (Pact, Unbinding, practitioner decline, Henė's stones, Vytautas's forms, the amber pebble).
 - `python3 scripts/validate_world_graph.py` checks consistency and writes [graph/relation_maps.md](graph/relation_maps.md).
 - `python3 scripts/build_wiki.py && quarto render wiki` builds the wiki and the Atlas.
 
 ## Story docs
+
 - [../books/series_arc.md](../books/series_arc.md): the ten threads braided through Books I–VI
 - [../books/character_arcs.md](../books/character_arcs.md): the protagonist's seven forms, antagonists per book, supporting arcs
 - [../books/1/story_review.md](../books/1/story_review.md) · [../books/1/continuity_bible.md](../books/1/continuity_bible.md): Book I review and line-level fix list
 
 ## Older docs (superseded where they conflict)
+
 `mythology_pantheon.md`, `meddling_forces.md`, `hidden_immortals.md`, `mythic_gaps.md`, `mystical_mechanics.md`, `history_timeline.md`, `surrounding_folklore.md`. Each carries a canon note pointing to its replacement.

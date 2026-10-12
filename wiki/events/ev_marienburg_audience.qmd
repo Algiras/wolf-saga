@@ -1,0 +1,24 @@
+---
+title: "Vytautas before Zöllner at Marienburg"
+id: ev_marienburg_audience
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_marienburg_audience.md >}}
+
+## What the chronicles say [Record]
+
+After the escape from Krėva (autumn 1382) and the stop in Masovia, [Vytautas](../characters/vytautas.qmd) went to the Order in Prussia. Winrich von Kniprode had died on 24 June 1382; Konrad Zöllner von Rotenstein was elected Grand Master in 1382. The saga's audience itself is not in the record.
+
+## What really happened [Saga]
+
+In the austere negotiating room Zöllner offers recognition for a price: baptism when and where the Order chooses, Samogitia, and Ona and the children as "guests" (hostages). The [Iron Saint](../forces/iron_saint.qmd), fed by the prayers of the Marienburg church, watches with steel satisfaction. Vytautas: "Sutinku, magistre." The two voices in him split.
+
+## Consequences
+
+Caused by [the Dykra rescue](ev_dykra_rescue.qmd) and [the refuge in Masovia](ev_masovia_refuge.qmd). Leads to [the baptism at Tapiau](ev_tapiau_baptism.qmd) (21 Oct 1383).
+
+## Dramatisation
+
+Book I ch. 18 "Geležinis Magistras" (Vytautas; Marienburg, winter 1382-83).

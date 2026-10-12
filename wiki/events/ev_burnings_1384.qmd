@@ -8,13 +8,17 @@ categories: [event]
 {{< include ../_generated/ev_burnings_1384.md >}}
 
 ## What the chronicles say [Record]
+
 In July 1384 [Vytautas](../characters/vytautas.qmd) abandoned the Teutonic Order and reconciled with [Jogaila](../characters/jogaila.qmd). Wikipedia's civil-war article (Urban, Ivinskis, Kiaupa) records that he burned the Order's new castles on the Neman, including Georgenburg ([Jurbarkas](../places/jurbarkas.qmd)), and that the joint forces of Jogaila and Vytautas besieged New Marienwerder ([Naujapilis](../places/marienwerder.qmd)) for six weeks until it fell; Vytautas captured Marquard von Salzbach. The Order had begun building New Marienwerder in May 1384 and he had reconfirmed the Königsberg terms there in June and July (the Wikipedia article on the treaty gives 14 June and 16 July; they differ and need checking). Earlier in 1384 Jogaila had offered Volhynia with Lutsk, which Vytautas refused, demanding his Trakai patrimony.
 
 ## What really happened [Saga]
+
 The book recasts a fictional 1383 Vilnius siege as these July 1384 events (canon Q9). Vytautas sees the Order's bombards trained on the city he intends to defend; his father's shade and Eglė's ashes come to him in the camp; he cuts a rope, kills a young sentry and fires the siege tower "Lietuvos griovėjas", sends an arrow with the message "Geležis degia" and flees. Next day the Order's soldiers hunt him through the forest; he loses Jonas, [Birutė's](../characters/birute.qmd) weak fog saves him (cost implied), and the 'Geležinis Vilkas' legend is born. Henė calls him *Išdavikų išdavikas*, the traitor of traitors.
 
 ## Consequences
+
 Caused by [the Treaty of Königsberg](ev_konigsberg.qmd); leads to [the truce in the ashes](ev_truce_ashes.qmd). With it Vytautas is the Order's most dangerous apostate and the surety of the Pact (Birutė's sacrifice) falls due.
 
 ## Dramatisation
+
 Book I ch. 22 "Naujapilis", ch. 23 "Ugnis ir Pelenai", ch. 24 "Pasirinkimas", ch. 25 "Išdavikų Išdavikas" (all Vytautas; summer 1384, the siege heat; the older Vilnius-siege dating is superseded).

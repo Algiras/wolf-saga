@@ -1,0 +1,26 @@
+---
+title: "Jogaila's camp near Trakai"
+id: jogaila_camp_trakai
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/jogaila_camp_trakai.md >}}
+
+## In the 1380s [Record]
+
+On 20 July 1382 Trakai fell to Jogaila and the Order; the armies then stood facing each other near the town for two weeks. On 3 August Kęstutis and Vytautas were persuaded by Skirgaila to come to talks at Jogaila's camp, where both were arrested (VLE, Skirgaila; en.wikipedia).
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+Book I's camp: a palisaded field between the lakes and the pines, a requisitioned Trakai manor as the negotiating hall, tents beyond the manor fence, an iron-bound gate made by the Order's carpenters in a few days (the "Iron Gates"). Sound dies inside it.
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+[The arrest](../events/ev_arrest.qmd); Book I ch. 5-7.

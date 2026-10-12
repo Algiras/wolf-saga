@@ -1,0 +1,26 @@
+---
+title: "Gródek (Horodok near Lviv)"
+id: grodek
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/grodek.md >}}
+
+## In the 1380s [Record]
+
+Gródek (Horodok) near Lviv, where Jogaila died on 1 Jun 1434, after catching a cold at Medyka in a late-April frost ([event](../events/ev_jogaila_dies.qmd)).
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+
+The nightingale that is "the first sound without holes".
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here
+
+Book V ch. 12.

@@ -1,0 +1,24 @@
+---
+title: "Treaty of Lyck; hostages demanded"
+id: ev_lyck_1390
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_lyck_1390.md >}}
+
+## What the chronicles say [Record]
+
+Signed at Lyck (Ełk) on **19 January 1390** by Marquard von Salzbach, komtur Arnold von Bürglen and Thomas son of Survila; it confirmed the 1384 Königsberg treaty (Samogitia to the Nevėžis, vassalage). Hostages demanded: his brother Sigismund (Žygimantas), wife Anna (Ona), daughter Sofija, sister Rymgajla, brother-in-law Ivan Olshanski and other nobles. **Sofija was a hostage**; the Moscow embassy reached Prussia at the end of the summer and she left from Marienburg by ship via Danzig and Pskov (Grala, citing Posilge). The marshal is not attested; some doubt the treaty's originality.
+
+## What really happened [Saga]
+
+Vytautas swears "honestly", to keep faith as long as the Order does; the pebble is dim in the consecrated stone. [Marquard von Salzbach](../characters/marquard.qmd), his old captive and friend, offers a velvet threat to the hostages. The Order lets mother and daughter spend a day together before Sofija's autumn departure.
+
+## Consequences
+
+Caused by [the second defection](ev_second_defection.qmd). Leads to [the siege of Vilnius](ev_vilnius_siege_1390.qmd).
+
+## Dramatisation
+
+Book II ch. 6 "Įkaitų Pilis" (Ona; January 1390, Lyck); ch. 8 (Sofija's road to Moscow: Marienburg - Danzig - ship - Pskov).

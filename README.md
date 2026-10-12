@@ -56,6 +56,26 @@ Po Vorsklos pelenų: Žemaitijos sukilimai, Galmino giria, Žalgirio mūšis ir 
 
 ---
 
+## IV Knyga: Nematoma Karūna (The Invisible Crown), 1411–1430
+
+<img src="books/covers/out/book4/front_ebook_1600x2560.jpg" alt="IV knyga: Nematoma Karūna" width="320">
+
+Žalgiris laimėjo karą, bet pralaimėjo dievus: Žemaitijos krikštas, Onos mirtis, imperija nuo jūros iki jūros, Lucko suvažiavimas ir karūna, sulaikyta pakeliui. Vytautas miršta Trakuose 1430 m. spalio 27-ąją, ir kartu užgęsta Paskutinė Liepsna. Trys dalys: *Krikštas be Ugnies*, *Nuo Jūros iki Jūros*, *Nematoma Karūna*.
+
+📖 **[Skaityti internete](https://Algiras.github.io/wolf-saga/4/)**
+
+---
+
+## V Knyga: Vilko Palikimas (The Wolf's Legacy), 1430–1450
+
+<img src="books/covers/out/book5/front_ebook_1600x2560.jpg" alt="V knyga: Vilko Palikimas" width="320">
+
+Liepsna užgesusi, o paskutinis prisiekęs vilkas nori ją vėl uždegti. Švitrigaila prieš Žygimantą, Pabaisko laukas, Žygimanto nužudymas Trakuose, Kazimieras soste ir raštas vietoj burtų. Gintaro Karalienė užbaigia savo pasakojimą. Trys dalys: *Tuštuma*, *Brolis prieš Brolį*, *Vaiduoklių Amžius*.
+
+📖 **[Skaityti internete](https://Algiras.github.io/wolf-saga/5/)**
+
+---
+
 ## VI Knyga: Šventasis Miškas (The Holy Forest) — priešistorė, 1341–1377
 
 <img src="books/covers/out/book6/front_ebook_1600x2560.jpg" alt="VI knyga: Šventasis Miškas" width="320">
@@ -83,6 +103,7 @@ Norėdami sugeneruoti knygą patys lokaliai (kiekviena knyga yra atskiras Quarto
 cd books
 quarto render --to all      # I knyga -> books/_book
 cd 2 && quarto render --to all   # II knyga -> books/2/_book
+cd ../3 && quarto render --to all  # III knyga -> books/3/_book (taip pat 4, 5)
 cd ../6 && quarto render --to all  # VI knyga -> books/6/_book
 ```
 

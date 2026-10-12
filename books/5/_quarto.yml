@@ -1,0 +1,88 @@
+project:
+  type: book
+
+lang: lt
+
+book:
+  title: "Geležinio Vilko Saga"
+  subtitle: "V Knyga: Vilko Palikimas"
+  author: "Algimantas Krasauskas"
+  output-file: saga-5
+  date: "10/12/2026"
+  cover-image: cover.jpg
+  navbar:
+    right:
+      - text: "I knyga"
+        href: ../
+      - text: "II knyga"
+        href: ../2/
+      - text: "III knyga"
+        href: ../3/
+      - text: "IV knyga"
+        href: ../4/
+      - text: "V knyga"
+        href: index.html
+      - text: "VI knyga (priešistorė)"
+        href: ../6/
+      - text: "Wiki"
+        href: ../wiki/
+  chapters:
+    - index.qmd
+    - part: "Tuštuma"
+      chapters:
+        - 01_paskutinis_atodusis.qmd
+        - 02_perkuno_laidotuves.qmd
+        - 03_svitrigailos_pakilimas.qmd
+        - 04_uzgesusios_krosnys.qmd
+        - 05_senieji_balsai.qmd
+        - 06_paskutinis_akmuo.qmd
+        - 07_pilkosios_dovana.qmd
+        - 08_samokslas_trakuose.qmd
+        - 09_asmenos_naktis.qmd
+        - 10_gardino_sutartis.qmd
+    - part: "Brolis prieš Brolį"
+      chapters:
+        - 11_saknu_motinos_sugrizimas.qmd
+        - 12_lakstingala.qmd
+        - 13_pabaisko_laukas.qmd
+        - 14_mirstantis_ordinas.qmd
+        - 15_svitrigailos_zlugimas.qmd
+        - 16_nedegintuju_ziema.qmd
+        - 17_aukso_rijuno_puota.qmd
+        - 18_paranojos_pilis.qmd
+        - 19_isdavystes_aidas.qmd
+        - 20_katedros_kripta.qmd
+    - part: "Vaiduoklių Amžius"
+      chapters:
+        - 21_bajoru_samokslas.qmd
+        - 22_kraujas_ant_traku_akmenu.qmd
+        - 23_vaikas_soste.qmd
+        - 24_seseliu_pardavejo_veidas.qmd
+        - 25_gintaro_karalienes_tylejimas.qmd
+        - 26_rastas_pries_burtus.qmd
+        - 27_paskutine_zynio_giesme.qmd
+        - 28_pilkoji_atsigula.qmd
+        - 29_vardas_prie_ugnies.qmd
+        - 30_epilogas.qmd
+    - copyright.qmd
+format:
+  html:
+    theme:
+      - cosmo
+  pdf:
+    documentclass: scrreprt
+    number-sections: false
+    sec-num-depth: 0
+    toc: true
+    pdf-engine: lualatex
+    mainfont: "DejaVu Serif"
+    monofont: "DejaVu Sans Mono"
+    header-includes: |
+      \usepackage{fontspec}
+      \renewcommand{\partformat}{}
+      \renewcommand{\chapterformat}{}
+  epub:
+    cover-image: cover.jpg
+    title: "Geležinio Vilko Saga V: Vilko Palikimas"
+    author: "Algimantas Krasauskas"
+    description: "Epinis tamsiosios fantastikos pasakojimas apie Paskutinės Liepsnos užgesimą, pilietinį karą ir paskutinį vilką (1430–1450)."

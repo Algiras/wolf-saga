@@ -53,6 +53,20 @@ jobs:
           mkdir -p ../_book/3
           cp -r _book/. ../_book/3/
 
+      - name: Render Book IV
+        run: |
+          cd books/4
+          quarto render --to all
+          mkdir -p ../_book/4
+          cp -r _book/. ../_book/4/
+
+      - name: Render Book V
+        run: |
+          cd books/5
+          quarto render --to all
+          mkdir -p ../_book/5
+          cp -r _book/. ../_book/5/
+
       - name: Render Book VI
         run: |
           cd books/6
@@ -79,6 +93,10 @@ jobs:
             books/2/_book/*.epub
             books/3/_book/*.pdf
             books/3/_book/*.epub
+            books/4/_book/*.pdf
+            books/4/_book/*.epub
+            books/5/_book/*.pdf
+            books/5/_book/*.epub
             books/6/_book/*.pdf
             books/6/_book/*.epub
           generate_release_notes: true
@@ -93,7 +111,7 @@ jobs:
           gh release create latest --title "Latest Build" --prerelease --notes "Automatiškai sugeneruota naujausia knygos versija (PDF ir EPUB)."
           
           # Upload files with --clobber to overwrite existing assets
-          gh release upload latest books/_book/*.pdf books/_book/*.epub books/2/_book/*.pdf books/2/_book/*.epub books/3/_book/*.pdf books/3/_book/*.epub books/6/_book/*.pdf books/6/_book/*.epub --clobber
+          gh release upload latest books/_book/*.pdf books/_book/*.epub books/2/_book/*.pdf books/2/_book/*.epub books/3/_book/*.pdf books/3/_book/*.epub books/4/_book/*.pdf books/4/_book/*.epub books/5/_book/*.pdf books/5/_book/*.epub books/6/_book/*.pdf books/6/_book/*.epub --clobber
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Bestiary – Geležinio Vilko Saga · Wiki</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-f8463e37fa3918fd74fa755198b02ef7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<!-- Cinzel (display), Crimson Pro (body), Alegreya Sans SC (labels): all three ship a latin-ext subset
+     (ą č ę ė į š ų ū ž); the css2 API serves it automatically via unicode-range. -->
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&amp;family=Cinzel:wght@500;600;700&amp;family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;display=swap" rel="stylesheet">
+<script>
+/* Cosmetic hooks for the sourcebook look (the page works without them):
+   1. mark the first prose paragraph of an entity page for the drop cap (skipping the generated sections);
+   2. relabel default callout titles: Note -> Lore, Tip -> Read-aloud. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    var GEN = /^(relations|timeline|relation-graph|forms-arc-stages|state-over-time)(-\d+)?$/;
+    var root = document.getElementById("quarto-document-content") || document.querySelector("main");
+    if (root && root.querySelector(".infobox")) {
+      var secs = root.querySelectorAll("section.level2");
+      for (var i = 0; i < secs.length; i++) {
+        if (GEN.test(secs[i].id)) continue;
+        var p = secs[i].querySelector(":scope > p");
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
+        break;
+      }
+    }
+    var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
+    Object.keys(map).forEach(function (cls) {
+      document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
+        if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Geležinio Vilko Saga · Wiki</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../timeline.html"> 
+<span class="menu-text">Timeline</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../graph-explorer.html"> 
+<span class="menu-text">Atlas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../diagrams.html"> 
+<span class="menu-text">Diagrams</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Encyclopedia</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-encyclopedia">    
+        <li>
+    <a class="dropdown-item" href="../characters/index.html">
+ <span class="dropdown-text">Characters</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../houses/index.html">
+ <span class="dropdown-text">Houses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../factions/index.html">
+ <span class="dropdown-text">Factions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../places/index.html">
+ <span class="dropdown-text">Places</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../events/index.html">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../gods/index.html">
+ <span class="dropdown-text">Gods</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../forces/index.html">
+ <span class="dropdown-text">Forces</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../magic/index.html">
+ <span class="dropdown-text">Magic &amp; Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../artifacts/index.html">
+ <span class="dropdown-text">Artifacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../creatures/index.html">
+ <span class="dropdown-text">Creatures</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../books/index.html">
+ <span class="dropdown-text">Books</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../codex/index.html"> 
+<span class="menu-text">Codex</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contributing.html"> 
+<span class="menu-text">How to add</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-books">    
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">I · Vilko Tremtis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../2/index.html">
+ <span class="dropdown-text">II · Auksinis Šešėlis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../3/index.html">
+ <span class="dropdown-text">III · Žaliasis Miškas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../4/index.html">
+ <span class="dropdown-text">IV · Nematoma Karūna</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../5/index.html">
+ <span class="dropdown-text">V · Vilko Palikimas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../6/index.html">
+ <span class="dropdown-text">VI · Šventasis Miškas (prequel)</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#preface-how-to-use-this-book" id="toc-preface-how-to-use-this-book" class="nav-link active" data-scroll-target="#preface-how-to-use-this-book">Preface: how to use this book</a>
+  <ul class="collapse">
+  <li><a href="#the-tone-folklore-taken-at-its-word" id="toc-the-tone-folklore-taken-at-its-word" class="nav-link" data-scroll-target="#the-tone-folklore-taken-at-its-word">The tone: folklore taken at its word</a></li>
+  <li><a href="#the-folk-are-half-right" id="toc-the-folk-are-half-right" class="nav-link" data-scroll-target="#the-folk-are-half-right">“The folk are half right”</a></li>
+  <li><a href="#the-unbinding-changes-everything" id="toc-the-unbinding-changes-everything" class="nav-link" data-scroll-target="#the-unbinding-changes-everything">The Unbinding changes everything</a></li>
+  <li><a href="#three-irons-a-note-every-reader-of-this-file-needs" id="toc-three-irons-a-note-every-reader-of-this-file-needs" class="nav-link" data-scroll-target="#three-irons-a-note-every-reader-of-this-file-needs">Three irons (a note every reader of this file needs)</a></li>
+  <li><a href="#the-common-banes-and-what-they-cost" id="toc-the-common-banes-and-what-they-cost" class="nav-link" data-scroll-target="#the-common-banes-and-what-they-cost">The common banes and what they cost</a></li>
+  </ul></li>
+  <li><a href="#i.-house-and-farm" id="toc-i.-house-and-farm" class="nav-link" data-scroll-target="#i.-house-and-farm">I. House and farm</a>
+  <ul class="collapse">
+  <li><a href="#žaltys-the-household-grass-snake" id="toc-žaltys-the-household-grass-snake" class="nav-link" data-scroll-target="#žaltys-the-household-grass-snake">1. Žaltys / the household grass snake</a></li>
+  <li><a href="#aitvaras-the-fire-tailed-thief" id="toc-aitvaras-the-fire-tailed-thief" class="nav-link" data-scroll-target="#aitvaras-the-fire-tailed-thief">2. Aitvaras / the fire-tailed thief</a></li>
+  <li><a href="#kaukas-and-the-barzdukai-the-bearded-field-luck" id="toc-kaukas-and-the-barzdukai-the-bearded-field-luck" class="nav-link" data-scroll-target="#kaukas-and-the-barzdukai-the-bearded-field-luck">3. Kaukas (and the barzdukai) / the bearded field-luck</a></li>
+  <li><a href="#barstukai-the-under-elder-miners" id="toc-barstukai-the-under-elder-miners" class="nav-link" data-scroll-target="#barstukai-the-under-elder-miners">4. Barstukai / the under-elder miners</a></li>
+  <li><a href="#slogutis-the-presser" id="toc-slogutis-the-presser" class="nav-link" data-scroll-target="#slogutis-the-presser">5. Slogutis / the presser</a></li>
+  </ul></li>
+  <li><a href="#ii.-water-and-swamp" id="toc-ii.-water-and-swamp" class="nav-link" data-scroll-target="#ii.-water-and-swamp">II. Water and swamp</a>
+  <ul class="collapse">
+  <li><a href="#laumės-the-weavers-by-the-water" id="toc-laumės-the-weavers-by-the-water" class="nav-link" data-scroll-target="#laumės-the-weavers-by-the-water">6. Laumės / the weavers by the water</a></li>
+  <li><a href="#laumiukai-the-laumės-changelings" id="toc-laumiukai-the-laumės-changelings" class="nav-link" data-scroll-target="#laumiukai-the-laumės-changelings">7. Laumiukai / the laumės’ changelings</a></li>
+  <li><a href="#vandenis-and-undinės-the-lakes-keepers" id="toc-vandenis-and-undinės-the-lakes-keepers" class="nav-link" data-scroll-target="#vandenis-and-undinės-the-lakes-keepers">8. Vandenis and undinės / the lake’s keepers</a></li>
+  <li><a href="#žaltvykslės-bog-lights-and-burning-treasure" id="toc-žaltvykslės-bog-lights-and-burning-treasure" class="nav-link" data-scroll-target="#žaltvykslės-bog-lights-and-burning-treasure">9. Žaltvykslės / bog-lights and burning treasure</a></li>
+  <li><a href="#baubas-and-maumas-the-told-terrors" id="toc-baubas-and-maumas-the-told-terrors" class="nav-link" data-scroll-target="#baubas-and-maumas-the-told-terrors">10. Baubas and maumas / the told terrors</a></li>
+  </ul></li>
+  <li><a href="#iii.-forest-and-field" id="toc-iii.-forest-and-field" class="nav-link" data-scroll-target="#iii.-forest-and-field">III. Forest and field</a>
+  <ul class="collapse">
+  <li><a href="#girinis-miškinis-and-the-oak-spirits-the-groves-keepers" id="toc-girinis-miškinis-and-the-oak-spirits-the-groves-keepers" class="nav-link" data-scroll-target="#girinis-miškinis-and-the-oak-spirits-the-groves-keepers">11. Girinis, miškinis and the oak-spirits / the grove’s keepers</a></li>
+  <li><a href="#vilkatas-and-vilkolakis-the-werewolf" id="toc-vilkatas-and-vilkolakis-the-werewolf" class="nav-link" data-scroll-target="#vilkatas-and-vilkolakis-the-werewolf">12. Vilkatas and vilkolakis / the werewolf</a></li>
+  <li><a href="#milžinai-the-giants" id="toc-milžinai-the-giants" class="nav-link" data-scroll-target="#milžinai-the-giants">13. Milžinai / the giants</a></li>
+  <li><a href="#smakas-and-slibinas-the-dragon-serpent" id="toc-smakas-and-slibinas-the-dragon-serpent" class="nav-link" data-scroll-target="#smakas-and-slibinas-the-dragon-serpent">14. Smakas and slibinas / the dragon-serpent</a></li>
+  </ul></li>
+  <li><a href="#iv.-the-dead" id="toc-iv.-the-dead" class="nav-link" data-scroll-target="#iv.-the-dead">IV. The dead</a>
+  <ul class="collapse">
+  <li><a href="#vėlės-fed-the-honoured-dead" id="toc-vėlės-fed-the-honoured-dead" class="nav-link" data-scroll-target="#vėlės-fed-the-honoured-dead">15. Vėlės (fed) / the honoured dead</a></li>
+  <li><a href="#alkanosios-vėlės-the-hungry-dead" id="toc-alkanosios-vėlės-the-hungry-dead" class="nav-link" data-scroll-target="#alkanosios-vėlės-the-hungry-dead">16. Alkanosios vėlės / the hungry dead</a></li>
+  <li><a href="#vaiduokliai-the-apparitions" id="toc-vaiduokliai-the-apparitions" class="nav-link" data-scroll-target="#vaiduokliai-the-apparitions">17. Vaiduokliai / the apparitions</a></li>
+  <li><a href="#giltinė-death" id="toc-giltinė-death" class="nav-link" data-scroll-target="#giltinė-death">18. Giltinė / Death</a></li>
+  </ul></li>
+  <li><a href="#v.-fate" id="toc-v.-fate" class="nav-link" data-scroll-target="#v.-fate">V. Fate</a>
+  <ul class="collapse">
+  <li><a href="#laima-dalia-and-the-deivės-the-spinners-of-share" id="toc-laima-dalia-and-the-deivės-the-spinners-of-share" class="nav-link" data-scroll-target="#laima-dalia-and-the-deivės-the-spinners-of-share">19. Laima, Dalia and the deivės / the spinners of share</a></li>
+  </ul></li>
+  <li><a href="#vi.-velniass-kin-and-those-who-trade-with-him" id="toc-vi.-velniass-kin-and-those-who-trade-with-him" class="nav-link" data-scroll-target="#vi.-velniass-kin-and-those-who-trade-with-him">VI. Velnias’s kin and those who trade with him</a>
+  <ul class="collapse">
+  <li><a href="#velniass-small-shapes-the-cat-the-dog-and-the-gentleman-in-green" id="toc-velniass-small-shapes-the-cat-the-dog-and-the-gentleman-in-green" class="nav-link" data-scroll-target="#velniass-small-shapes-the-cat-the-dog-and-the-gentleman-in-green">20. Velnias’s small shapes / the cat, the dog and the gentleman in green</a></li>
+  <li><a href="#pinčiukas-the-clerk-of-small-bargains" id="toc-pinčiukas-the-clerk-of-small-bargains" class="nav-link" data-scroll-target="#pinčiukas-the-clerk-of-small-bargains">21. Pinčiukas / the clerk of small bargains</a></li>
+  <li><a href="#ragana-the-seer-witch" id="toc-ragana-the-seer-witch" class="nav-link" data-scroll-target="#ragana-the-seer-witch">22. Ragana / the seer-witch</a></li>
+  </ul></li>
+  <li><a href="#vii.-omens" id="toc-vii.-omens" class="nav-link" data-scroll-target="#vii.-omens">VII. Omens</a>
+  <ul class="collapse">
+  <li><a href="#geležinis-vilkas-the-iron-wolf" id="toc-geležinis-vilkas-the-iron-wolf" class="nav-link" data-scroll-target="#geležinis-vilkas-the-iron-wolf">23. Geležinis Vilkas / the Iron Wolf</a></li>
+  </ul></li>
+  <li><a href="#viii.-saga-inventions-born-of-the-unbinding-and-the-vulture-forces" id="toc-viii.-saga-inventions-born-of-the-unbinding-and-the-vulture-forces" class="nav-link" data-scroll-target="#viii.-saga-inventions-born-of-the-unbinding-and-the-vulture-forces">VIII. Saga inventions: born of the Unbinding and the Vulture Forces</a>
+  <ul class="collapse">
+  <li><a href="#nedegintieji-the-unburned-saga-invention" id="toc-nedegintieji-the-unburned-saga-invention" class="nav-link" data-scroll-target="#nedegintieji-the-unburned-saga-invention">24. Nedegintieji / the Unburned [Saga invention]</a></li>
+  <li><a href="#reizos-raiteliai-the-riders-of-the-reise-saga-invention" id="toc-reizos-raiteliai-the-riders-of-the-reise-saga-invention" class="nav-link" data-scroll-target="#reizos-raiteliai-the-riders-of-the-reise-saga-invention">25. Reizos raiteliai / the Riders of the Reise [Saga invention]</a></li>
+  <li><a href="#bebalsiai-the-voiceless-saga-invention" id="toc-bebalsiai-the-voiceless-saga-invention" class="nav-link" data-scroll-target="#bebalsiai-the-voiceless-saga-invention">26. Bebalsiai / the Voiceless [Saga invention]</a></li>
+  <li><a href="#užgesėlės-the-quenched-saga-invention" id="toc-užgesėlės-the-quenched-saga-invention" class="nav-link" data-scroll-target="#užgesėlės-the-quenched-saga-invention">27. Užgesėlės / the Quenched [Saga invention]</a></li>
+  <li><a href="#skaičiuotojas-the-counter-saga-invention" id="toc-skaičiuotojas-the-counter-saga-invention" class="nav-link" data-scroll-target="#skaičiuotojas-the-counter-saga-invention">28. Skaičiuotojas / the Counter [Saga invention]</a></li>
+  </ul></li>
+  <li><a href="#quick-reference-table" id="toc-quick-reference-table" class="nav-link" data-scroll-target="#quick-reference-table">Quick-reference table</a></li>
+  <li><a href="#sources-for-the-author-to-check" id="toc-sources-for-the-author-to-check" class="nav-link" data-scroll-target="#sources-for-the-author-to-check">Sources for the author to check</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Bestiary</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>Source: <code>world_rules/bestiary.md</code></em></p>
+<p><em>Canonical for creatures and spirits (the </em>dvasios* of <code>cosmology.md</code> §2.3). Where this file and <code>cosmology.md</code>, <code>magic_rules.md</code> or <code>canon_decisions.md</code> disagree, those files win. The sworn wolf-brotherhood is covered separately in <code>iron_wolves.md</code>.*</p>
+<hr>
+<section id="preface-how-to-use-this-book" class="level2">
+<h2 class="anchored" data-anchor-id="preface-how-to-use-this-book">Preface: how to use this book</h2>
+<section id="the-tone-folklore-taken-at-its-word" class="level3">
+<h3 class="anchored" data-anchor-id="the-tone-folklore-taken-at-its-word">The tone: folklore taken at its word</h3>
+<p>The saga treats Lithuanian and Baltic folk belief as <strong>field notes, not fairy tales</strong>. When a grandmother says “leave milk for the žaltys or the house will sicken”, she is reporting an observed fact about a real animal-spirit, the way a fisherman reports where the pike lie. The creatures here obey <strong>folk rules</strong> because those rules were learned the hard way over centuries of living beside them. Nobody in the saga “defeats” a laumė. People bargain, avoid, appease, trick, and pay.</p>
+<p>The model is gritty and practical. Every entry answers four questions a peasant would ask: <em>what is it, how do I know it is here, what does it want, and what will it cost me to be rid of it?</em> There are no glamorous slayers. There are tired people with salt, linen thread and a bad feeling about the well.</p>
+</section>
+<section id="the-folk-are-half-right" class="level3">
+<h3 class="anchored" data-anchor-id="the-folk-are-half-right">“The folk are half right”</h3>
+<p>This is the governing rule, set out in <code>cosmology.md</code>. Every folk belief in this book is <strong>partly true and partly wrong</strong>, and the wrong half is where stories happen.</p>
+<ul>
+<li>The peasant who leaves milk for the žaltys is right. The priest who calls it a demon is wrong. The old woman who says it is harmless is <em>also</em> wrong.</li>
+<li>A folk remedy usually works, but for a different reason than the folk give, so it fails in exactly the case they did not foresee.</li>
+<li>Christian-era explanations (“the kaukai are unbaptised babies”) are often a <strong>distorted memory</strong> of something older and stranger (in the saga, the kaukai are <em>unnamed</em> infants, which is not the same thing).</li>
+</ul>
+<p>Each entry therefore has a <strong>[Record]</strong> section (what genuine folklore says, kept as accurate as possible; where traditions disagree we say “regional variants differ” rather than inventing) and an <strong>In the saga</strong> section (the hidden truth). Five creatures at the end are marked <strong>[Saga invention]</strong>: they exist nowhere in folk tradition and were born of the Unbinding or of the Vulture Forces.</p>
+</section>
+<section id="the-unbinding-changes-everything" class="level3">
+<h3 class="anchored" data-anchor-id="the-unbinding-changes-everything">The Unbinding changes everything</h3>
+<p>Before 1387, the spirits were bound by the <strong>Silent Pact</strong> (<code>cosmology.md</code> §4) and followed custom: courtesy for courtesy. As the Pact unwinds (kin-blood at Krėva in 1382; the Šventaragis flame put out in 1387), the spirits become <strong>unbound</strong> (<code>cosmology.md</code> §4.3). Every entry records the change. As a rule of thumb:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Before 1387</th>
+<th>After 1387</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Spirits keep bargains as custom</td>
+<td>Spirits keep bargains only as <strong>letter</strong>, and look for loopholes</td>
+</tr>
+<tr class="even">
+<td>Offences are punished in proportion</td>
+<td>Offences are punished <strong>in excess</strong>, and sometimes without any offence at all</td>
+</tr>
+<tr class="odd">
+<td>Folk remedies work as advertised</td>
+<td>Folk remedies work <strong>once</strong>, or at a higher price</td>
+</tr>
+<tr class="even">
+<td>Priests are irrelevant to spirits</td>
+<td>Priests are still irrelevant, and now <strong>blind</strong> as well: holy water does nothing to things that do not believe in it</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="three-irons-a-note-every-reader-of-this-file-needs" class="level3">
+<h3 class="anchored" data-anchor-id="three-irons-a-note-every-reader-of-this-file-needs">Three irons (a note every reader of this file needs)</h3>
+<p><code>magic_rules.md</code> §9 says cold iron forged by a Christian smith on a feast day burns most spirits, and <code>cosmology.md</code> §4.3 says holy water is useless against them. Both hold, and here is why:</p>
+<ol type="1">
+<li><strong>Bog-iron</strong> (<em>pelkių geležis</em>), smelted from swamp ore, is the Root-Mother’s own metal. Spirits tolerate it. It barely bites them. The barstukai trade it, and the vilkatai carry it.</li>
+<li><strong>Smith’s iron</strong>, forged at an ordinary hearth, carries <strong>Gabija’s fire and Perkūnas’s hammer</strong> in it. It “remembers fire”, and most spirits flinch from it. This is the folk bane: the knife under the cradle, the nail in the doorpost.</li>
+<li><strong>Feast-day iron</strong>, forged by a Christian smith on a holy day (which is itself a sin, since he breaks the day of rest), is tempered by <strong>appetite rather than faith</strong>. The Iron Saint egregore (<code>cosmology.md</code> §3.3) gathers in it. It burns spirits worst of all, including friendly ones: an Order horseshoe hung over a door will scald the household žaltys. Whoever wields it is <strong>noticed</strong> by the Iron Saint. Holy water carries faith and does nothing; feast-day iron carries crusade, and crusade is something the spirits have learned to fear.</li>
+</ol>
+</section>
+<section id="the-common-banes-and-what-they-cost" class="level3">
+<h3 class="anchored" data-anchor-id="the-common-banes-and-what-they-cost">The common banes and what they cost</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Bane</th>
+<th>Lithuanian</th>
+<th>Why it works (saga truth)</th>
+<th>Cost in 1382</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Salt</td>
+<td><em>druska</em></td>
+<td>Salt is dried sea, and the sea is the edge of the world; spirits of land and bog cannot cross a line of it</td>
+<td><strong>Expensive.</strong> Imported through Hanseatic and Order ports. A sack of salt costs a calf. Wasting it on spirits is wasting food</td>
+</tr>
+<tr class="even">
+<td>Smith’s iron</td>
+<td><em>geležis</em></td>
+<td>Remembers fire (above)</td>
+<td>A knife’s worth of iron is a season’s barter for a poor family</td>
+</tr>
+<tr class="odd">
+<td>Rowan and juniper</td>
+<td><em>šermukšnis</em>, <em>kadagys</em></td>
+<td>Red berries and resinous smoke “count” as fire to small spirits</td>
+<td>Cheap, but juniper smoke also drives off the žaltys</td>
+</tr>
+<tr class="even">
+<td>Linen thread</td>
+<td><em>lininis siūlas</em></td>
+<td>Laumės spin custom; an unbroken thread is a small custom, a boundary they respect</td>
+<td>Thread must be spun by the user, and <strong>never on a Thursday evening</strong> (see Laumės)</td>
+</tr>
+<tr class="odd">
+<td>Poppy seed</td>
+<td><em>aguonos</em></td>
+<td>Many hungry dead must count what they find; a scattered handful buys hours until dawn</td>
+<td>Poppy is a festival food; scattering it is waste, and it buys time, never safety</td>
+</tr>
+<tr class="even">
+<td>Ash</td>
+<td><em>pelenai</em></td>
+<td>Ash is fire’s memory. <strong>Live ash</strong> from a sacred flame is the strongest ward in the land</td>
+<td>After 1387, live ash is <strong>irreplaceable</strong> (see <code>magic_rules.md</code> §6 and <code>iron_wolves.md</code>)</td>
+</tr>
+<tr class="odd">
+<td>Milk, bread, kisielius</td>
+<td><em>pienas, duona, kisielius</em></td>
+<td>Food is courtesy, and courtesy is the Pact in miniature</td>
+<td>Food given to spirits is food not given to children</td>
+</tr>
+<tr class="even">
+<td>Names</td>
+<td><em>vardai</em></td>
+<td>To name a thing is to set its custom; to know a true name is to hold its owner (<code>magic_rules.md</code> §10)</td>
+<td>Naming a spirit binds <em>you</em> to it as well</td>
+</tr>
+<tr class="odd">
+<td>Thunder-stones</td>
+<td><em>velnio pirštai</em>, stone axes</td>
+<td>Fossil belemnites and Stone Age axe-heads, believed to be Perkūnas’s spent bolts. Velnias’s kin flee them</td>
+<td>Rare; found after storms; worth stealing</td>
+</tr>
+<tr class="even">
+<td>Fire</td>
+<td><em>ugnis</em></td>
+<td>The road up (<code>cosmology.md</code> §1). Burning releases the dead and closes their road back</td>
+<td>After 1387, <strong>burning the dead is heresy</strong> under the new order</td>
+</tr>
+</tbody>
+</table>
+<p>Carved signs (<em>ženklai</em>: the sun-wheel, the thunder-cross, the horse-heads on the roof), spoken charms (<em>užkalbėjimai</em>) and herb-lore work alongside these banes. Their rules are in <code>power_systems.md</code> §2 and are not repeated here.</p>
+<hr>
+</section>
+</section>
+<section id="i.-house-and-farm" class="level2">
+<h2 class="anchored" data-anchor-id="i.-house-and-farm">I. House and farm</h2>
+<section id="žaltys-the-household-grass-snake" class="level3">
+<h3 class="anchored" data-anchor-id="žaltys-the-household-grass-snake">1. Žaltys / the household grass snake</h3>
+<p><em>Pronunciation: ZHAHL-tees (plural žalčiai, ZHAHL-chay).</em></p>
+<p><strong>Folk source [Record].</strong> The grass snake (<em>Natrix natrix</em>), recognised by the yellow patches behind its head, was kept and fed in Lithuanian homes as a bringer of health, fertility and luck. Milk was set out for it, and killing a žaltys was believed to bring misfortune or death to the household. Late-medieval visitors reported snake veneration among Lithuanians (the account of Jerome of Prague’s mission, retold by Aeneas Silvius Piccolomini, is the best known), and Długosz records the killing of sacred snakes during the 1387 baptism. The tale <em>Eglė žalčių karalienė</em> (Eglė, Queen of Serpents) is the great žaltys story. Folk tales also speak of a <strong>snake-king who wears a crown</strong>; whoever takes the crown gains wealth and is pursued by the snakes.</p>
+<p><strong>In the saga.</strong> The žalčiai are the children of <strong>Žilvinas’s</strong> spilled blood (<code>legends_and_songs.md</code> §2b), which is why the living owe them. Each is a real guardian, but not a free one. It is the <strong>Root-Mother’s ear inside the house</strong>: it keeps the household’s luck, and in return it tells the forest everything it hears. Feeding it is not charity; it is a tax. The folk are right that killing it kills the luck. They are wrong that it is harmless: a žaltys cannot hurt anyone directly, but it can <strong>withdraw</strong>, and a house it leaves goes sick, barren and quarrelsome within a year. Eglė’s žaltys (ch.&nbsp;15, 16, 23) is the eldest of them, which is why every žaltys in the Dykra moves aside for Vytautas.</p>
+<p><strong>Signs and habitat.</strong> Under the threshold, in the warm straw near the oven, in the cowshed. A healthy household’s žaltys is seen often and fearlessly; a žaltys that hides is a warning.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: milk and respect keep it loyal for generations. After the sacred snakes are slaughtered at Šventaragis (ch.&nbsp;29), the surviving žalčiai are unbound. Many <strong>leave houses in a body</strong> (a sign the saga should use: snakes crossing a road in a long line, all going toward the forest). Those that stay demand more. They drink cows dry at night and coil in cradles beside nursing mothers.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Milk in a clay bowl at the threshold, renewed daily. <em>Cost:</em> in a hungry spring, the žaltys’s milk is the baby’s milk.</li>
+<li>To move a žaltys without offence: carry it to the forest edge in a clean linen cloth with a crust of bread and <strong>ask it aloud</strong> to go. It may refuse.</li>
+<li>Juniper smoke and feast-day iron drive it off. <em>Cost:</em> the luck goes with it.</li>
+<li>Taking a snake-king’s crown: wealth for life, and every žaltys in the parish will hunt the thief’s kin.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: the 1387 snake-killing (ch.&nbsp;29) should be on the page; Vytautas quietly saving one žaltys is a strong silent beat. Later books: a crowned žaltys-king beneath Vilnius (see Smakas); a Samogitian village that keeps its žalčiai after baptism and is the only one spared a plague.</p>
+<hr>
+</section>
+<section id="aitvaras-the-fire-tailed-thief" class="level3">
+<h3 class="anchored" data-anchor-id="aitvaras-the-fire-tailed-thief">2. Aitvaras / the fire-tailed thief</h3>
+<p><em>Pronunciation: AIT-vah-rahs (plural aitvarai).</em></p>
+<p><strong>Folk source [Record].</strong> A spirit that brings its keeper wealth (grain, milk, money) <strong>stolen from neighbours</strong>. It is said to hatch from the egg of an old rooster (commonly seven or nine years old) kept warm by its owner, or to be bought from a merchant. Outdoors it flies as a <strong>fiery streak or fiery serpent</strong>; indoors it may look like a black cockerel or a cat. Its keeper must feed it, traditionally with scrambled eggs or an omelette (<em>kiaušinienė</em>). Offended, it <strong>burns the farm</strong>. Aitvarai are among the spirits named in 16th-century church writings that complain of peasant superstition, and Christian-era tales make the aitvaras a devil’s gift paid for with the keeper’s soul. In some tales a passer-by can make an aitvaras drop its load by cursing it or showing it his bare backside.</p>
+<p><strong>In the saga.</strong> The aitvaras is a hatchling of <strong>Velnias’s root-wealth</strong> that hungers for fire. It does not make wealth; it <strong>moves</strong> it, so every grain it brings is a grain a neighbour lost. The folk are right that it steals and right that it burns. They are wrong that it serves the devil: it serves <em>the trade</em>, and it will serve anyone who feeds it. Folk say “a soul for an aitvaras”, and they are right (<code>power_systems.md</code> §3): the keeper does not climb the Glass Mountain at death but goes down to Velnias’s roots with the rest of the wealth. What the folk miss is the price paid <em>before</em> death: the keeper’s household slowly stops being able to give anything away freely.</p>
+<p><strong>Signs and habitat.</strong> Fiery streaks at dusk going from a poor farm to a rich one. A neighbour who prospers in a bad year. Eggshells by the oven. A smell of singed feathers.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: a nuisance and a sin, kept within limits by custom (it steals grain, rarely more). After: aitvarai turn <strong>arsonist</strong> (<code>cosmology.md</code> §4.3). Near Hanseatic towns, the Gold-Glutton courts them, and they begin to carry <strong>coin</strong> instead of grain: warm coins that cause quarrels wherever they are spent.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Feed it its eggs and it stays loyal. <em>Cost:</em> the neighbours’ enmity, eventually a lynching.</li>
+<li>To be rid of it: sell it on (the buyer inherits the risk), or set it a task it cannot finish (counting the grains of a sack of poppy seed). <em>Cost:</em> while it counts, it is still yours.</li>
+<li>Spoiling its dish insults it into burning the house. Some families choose this deliberately, burning their own farm to be free.</li>
+<li>Cursing or baring yourself at a flying aitvaras makes it drop its load on your land. <em>Cost:</em> the stolen goods are now in <em>your</em> barn when the owner comes looking.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book II: Jogaila’s Vilnius and its new Magdeburg merchants crawling with aitvarai fed by the Gold-Glutton. Book IV: a fire in Trakai’s town blamed on Vytautas’s enemies, actually an aitvaras abandoned by a bankrupt Hanseatic factor.</p>
+<hr>
+</section>
+<section id="kaukas-and-the-barzdukai-the-bearded-field-luck" class="level3">
+<h3 class="anchored" data-anchor-id="kaukas-and-the-barzdukai-the-bearded-field-luck">3. Kaukas (and the barzdukai) / the bearded field-luck</h3>
+<p><em>Pronunciation: KOW-kahs (plural kaukai); BAHRZ-doo-kai.</em></p>
+<p><strong>Folk source [Record].</strong> Small (thumb- to knee-high) household and field spirits, often described as <strong>bearded</strong> (hence the name <em>barzdukai</em>, “little beards”, used in some sources and regions). A kaukas brings its household grain and plenty, usually by <strong>multiplying</strong> what is already there (a small store that never runs out) rather than stealing. It must be fed. A common motif, shared with house-spirits across Europe, is that <strong>giving a kaukas clothes</strong> makes it leave. Kaukai are named alongside aitvarai in 16th-century church writings. Christian-era belief in some regions holds that kaukai are the <strong>souls of unbaptised infants</strong>. Folklorists often draw the distinction this way: the aitvaras <em>brings from elsewhere</em>, the kaukas <em>increases what is here</em>. Regional variants differ widely on their size, origin and temper.</p>
+<p><strong>In the saga.</strong> The kaukai are the <strong>unnamed dead</strong>: infants who died before their mother spoke their secret name (<code>magic_rules.md</code> §6). With no name, they cannot climb the Glass Mountain, so Žemyna keeps them in the soil to tend the fields. The Christian belief (“unbaptised”) is a distorted memory of this truth (“unnamed”). They are small because they never grew; they are bearded because the earth ages them while they wait. A kaukas is a family’s own dead child working the family’s field. Most families half know this and never say it.</p>
+<p>The <strong>barzdukai</strong> are simply the folk’s nickname for kaukai, but the folk often apply it to <strong>barstukai</strong> too (see the next entry). The confusion is useful in fiction: a peasant who leaves porridge for “the barzdukai” may be feeding the wrong creature.</p>
+<p><strong>Signs and habitat.</strong> A grain-bin that stays fuller than it should. Tiny footprints in flour. The barn on threshing nights. Kaukai live under the threshing floor and in the corners of the granary.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: they tend and multiply, asking only porridge and a place. After: with no courtesy owed, the unnamed dead become <strong>hungry</strong>. They eat the grain they once multiplied: granaries rot from the inside, and a family’s own lost children sit in the dark gnawing.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Porridge on the threshing floor at harvest. <em>Cost:</em> minimal, which is why the bargain lasted so long.</li>
+<li>Giving clothes sends it away. In the saga this is a <strong>funeral</strong>: clothing is what the dead are given, and a clothed kaukas is released to climb. <em>Cost:</em> the field’s luck goes with it.</li>
+<li><strong>Naming it.</strong> A mother may speak a name over the threshing floor and burn a lock of her hair in the hearth. The kaukas goes up to Dausos. <em>Cost:</em> the mother loses the memory of that child’s face (Law of Balance; compare Praurimė’s price).</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: none needed. Book III–V: a Samogitian widow who names her three kaukai one after another as the Hidden Groves fall, choosing her children’s peace over her family’s bread.</p>
+<hr>
+</section>
+<section id="barstukai-the-under-elder-miners" class="level3">
+<h3 class="anchored" data-anchor-id="barstukai-the-under-elder-miners">4. Barstukai / the under-elder miners</h3>
+<p><em>Pronunciation: bahr-STOO-kai.</em></p>
+<p><strong>Folk source [Record].</strong> Small underground beings attested in 16th-century accounts of Prussian and Samogitian belief. In the Prussian material they serve an earth-god, <strong>Puškaitis</strong> (<em>Puschkayt</em>), who lives beneath the <strong>elder bush</strong> (<em>šeivamedis</em>), and people left bread and beer under the elder for them. Whether barstukai are the same beings as the Lithuanian kaukai or barzdukai, and whether the words are even related, is debated by scholars; regional variants differ.</p>
+<p><strong>In the saga.</strong> The barstukai are not house-spirits at all. They are the <strong>Root-Mother’s diggers</strong>: miners of bog-ore and buried amber, who live in the roots of elder thickets and in the dark under hill-forts. They hate smelted iron and the plough, but they <strong>trade</strong>: bog-iron for bread, amber for beer, a safe path for a promise. Every Lithuanian smith of the old school had a barstukas bargain somewhere, and the vilkatai’s bog-iron comes from them. The folk mix them up with kaukai (see above), which is half right: both are small and live in earth. But a kaukas is your dead and a barstukas is <em>nobody’s</em>.</p>
+<p><strong>Signs and habitat.</strong> Elder thickets, especially on old hill-forts and by bogs. Lumps of bog-iron left on a stump. Hammering underground at night.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: honest traders. After 1387, the Order and then Polish and Lithuanian lords begin to <strong>drain and mine</strong> (the furlong-measured land of the Gold-Glutton). The barstukai stop trading and begin to <strong>collapse wells and mine-shafts</strong>.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Bread and beer under the elder bush, given at dusk and never watched. <em>Cost:</em> watching ends the bargain for your whole family.</li>
+<li>Never cut an elder without asking three times. <em>Cost:</em> the ground under your house becomes hollow.</li>
+<li>Smith’s iron drives them back underground; feast-day iron kills them. <em>Cost:</em> no more bog-iron for your forge.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book III: barstukai helping Samogitians tunnel under an Order stockade. Book IV: a Kraków mining venture in Lithuanian Podlasie collapses, and the survivors swear the earth spoke.</p>
+<hr>
+</section>
+<section id="slogutis-the-presser" class="level3">
+<h3 class="anchored" data-anchor-id="slogutis-the-presser">5. Slogutis / the presser</h3>
+<p><em>Pronunciation: SLOH-goo-tis (also slogutė).</em></p>
+<p><strong>Folk source [Record].</strong> The nightmare spirit (from <em>slėgti</em>, “to press”), which sits on sleepers’ chests so they cannot breathe or move. It also <strong>rides horses at night</strong>, leaving them sweating in the morning with their manes tangled into knots and braids. In some regions it is believed to be the wandering soul of a living person, often a witch. Defences reported across the wider region include stopping keyholes, keeping a blade by the bed, and inviting the presser to come for something in the morning, so that whoever arrives to borrow it is unmasked. Regional variants differ.</p>
+<p><strong>In the saga.</strong> The slogutis is a shard of a <strong>living person’s grudge</strong>. Anyone who falls asleep in envy or hatred may send one without knowing. The folk are right that it is a living soul. They are wrong that only witches send it: the jealous sister-in-law, the cheated neighbour and the bitter old soldier all do, and wake tired without knowing why. In a court full of resentment (Jogaila’s Vilnius in 1382), the sloguciai are thick as moths.</p>
+<p><strong>Signs and habitat.</strong> A heavy weight on the chest at the edge of sleep; braided horse-manes; a neighbour who looks bruised and exhausted the next day.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: frightening but rarely fatal. After: sloguciai <strong>kill</strong>. They press infants and the old to death, and hatred concentrated in towns and camps produces sloguciai that can be seen.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>A knife or sickle at the bedside, blade up. <em>Cost:</em> children roll onto it.</li>
+<li>Stop every hole. <em>Cost:</em> in winter, a sealed smoky hut is its own danger.</li>
+<li>Say aloud in the dark: <em>“Ateik rytoj druskos”</em> (“Come tomorrow for salt”). Whoever comes to borrow salt in the morning is the sender. <em>Cost:</em> now you know, and you have a feud. And you must give the salt.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: Jogaila pressed nightly after ch.&nbsp;7 (his own guilt, or Ona’s grief, sending the slogutis); a cheap and chilling device. Book IV: Vytautas, old and full of grudges, realises <em>he</em> has been the sender in his own court.</p>
+<hr>
+</section>
+</section>
+<section id="ii.-water-and-swamp" class="level2">
+<h2 class="anchored" data-anchor-id="ii.-water-and-swamp">II. Water and swamp</h2>
+<section id="laumės-the-weavers-by-the-water" class="level3">
+<h3 class="anchored" data-anchor-id="laumės-the-weavers-by-the-water">6. Laumės / the weavers by the water</h3>
+<p><em>Pronunciation: LOW-mehs (singular laumė, LOW-meh).</em></p>
+<p><strong>Folk source [Record].</strong> Supernatural women of meadows, rivers, lakes and swamps. They are beautiful, with long hair, but often betray themselves by <strong>bird’s (hen’s) feet</strong> or goat’s feet, and in some tales by breasts so long they throw them over their shoulders. They spin, weave and <strong>wash linen at night</strong>, beating it with paddles by the water. They reward diligent, kind and orphaned girls and punish the lazy; it is a widespread taboo that women must <strong>not spin on Thursday evening</strong>, the laumės’ time. A laumė’s gift of linen or thread <strong>never runs out</strong> unless the recipient measures it to the end or speaks of it. Laumės dance in moonlit meadows, sometimes marry mortal men (and leave when a taboo is broken), and are known to <strong>swap human babies</strong> for their own. The rainbow is <em>laumės juosta</em>, the laumė’s sash. Stones with hollows are called laumės’ footprints. Regional variants differ sharply: in some areas laumės are generous helpers of the poor, in others they are hard to tell apart from witches.</p>
+<p><strong>In the saga.</strong> The laumės are the <strong>weavers of custom</strong>. Every courtesy between the land’s people and the land’s spirits (a bowl of milk, a word of thanks to a tree) is a thread they spin, and the Silent Pact is their great tapestry. They are its most direct <strong>witnesses</strong> (<code>cosmology.md</code> §4.1). They are neither kind nor cruel. They enforce a law of <strong>work and courtesy</strong>, which looks like kindness to the diligent and cruelty to everyone else. The Thursday taboo is real: Thursday is Perkūnas’s day, and a woman spinning then is spinning <em>against</em> the laumės’ own wheel.</p>
+<p><strong>Signs and habitat.</strong> Paddle-beats by the river at midnight; wet linen spread on meadows at dawn with no one about; hen-tracks in the dew; a rainbow ending at a lake.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: hard but fair. After: the tapestry tears. Laumės who once swapped babies now <strong>drown them</strong> (<code>cosmology.md</code> §4.3), and their endless linen becomes <strong>shrouds</strong>.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Spin diligently, never on Thursday evening, and leave a hank of flax by the water at Rasos. <em>Cost:</em> the labour is real; a poor girl’s spinning is her dowry.</li>
+<li>Never measure a laumė’s gift. <em>Cost:</em> you never know how much you have, so you can never sell it.</li>
+<li>Never watch laumės bathe or wash. <em>Cost:</em> the curious are blinded or drowned.</li>
+<li>Iron does little; they are of custom, not of the wild. Courtesy is the only real ward.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: Birutė’s women (ch.&nbsp;11) washing linen in the sea as laumės once did is a lovely echo. Book II: a laumė-wife in Vytautas’s southern castle who leaves when a Catholic priest blesses the bed. Book V: laumės’ shrouds wrapping the unburned dead of Pabaiskas.</p>
+<hr>
+</section>
+<section id="laumiukai-the-laumės-changelings" class="level3">
+<h3 class="anchored" data-anchor-id="laumiukai-the-laumės-changelings">7. Laumiukai / the laumės’ changelings</h3>
+<p><em>Pronunciation: low-MYOO-kai (singular laumiukas).</em></p>
+<p><strong>Folk source [Record].</strong> In Lithuanian tradition, laumės (and in some places other water-beings) steal unattended or unprotected infants and leave their own in the cradle: an ugly, big-headed, ever-hungry, never-growing child. Remedies resemble those found across Europe: mistreating the changeling (beating it on the threshold or dung-heap) so that the laumė, pitying her own, returns the stolen child; or provoking it to reveal its great age by doing something absurd. Infants were protected before their naming and christening by never being left alone and by placing <strong>iron, a knife or a broom</strong> near the cradle. Regional variants differ.</p>
+<p><strong>In the saga.</strong> The swap is real, and it is a <strong>bargain enforced without consent</strong>. Laumės take children whose mothers broke courtesy, or children born on a laumės’ night, to raise as weavers. What they leave is sometimes a laumė’s own sickly child, but often it is a <strong>dying human child from another house</strong> that the laumė is trying to save: the laumės move babies the way the aitvaras moves grain. The cruel folk remedies (beating, threatening with fire) do work, because they offend custom so badly that the laumė returns the stolen child to stop it. That means the remedy works by torturing a child who might be someone else’s.</p>
+<p><strong>Signs and habitat.</strong> A baby who changes overnight: eyes too old, appetite too great, never cries at the right times. Wet hen-tracks by the cradle.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: swaps happen, and the child is often returned at seven, trained and strange. After: laumės no longer leave anything. The cradle is empty, or holds a log wrapped in linen.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Never leave an unnamed infant alone; a knife or broom under the cradle. <em>Cost:</em> a mother cannot work the fields.</li>
+<li>Carve <em>Laimos medis</em> (Laima’s tree) on the cradle and feed it with a thread of the mother’s hair (<code>power_systems.md</code> §2.3). <em>Cost:</em> it fades unless fed, and a tired mother forgets.</li>
+<li>Whisper the child’s secret name into its ear at birth (<code>magic_rules.md</code> §6). A named child is far harder to take. <em>Cost:</em> the name is now known to the elements, and to anyone who overhears.</li>
+<li>The cruel remedy. <em>Cost:</em> you may be beating somebody else’s baby.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book II–III: a grown changeling, raised by laumės and returned, who weaves for Vytautas’s court and sees threads no one else can. Book V: an Orthodox priest in Švitrigaila’s lands baptising a changeling, which is the beginning of a horror.</p>
+<hr>
+</section>
+<section id="vandenis-and-undinės-the-lakes-keepers" class="level3">
+<h3 class="anchored" data-anchor-id="vandenis-and-undinės-the-lakes-keepers">8. Vandenis and undinės / the lake’s keepers</h3>
+<p><em>Pronunciation: VAHN-deh-nis; oon-DEE-nehs.</em></p>
+<p><strong>Folk source [Record].</strong> Many Baltic and Slavic communities believed that certain lakes and rivers <strong>demand a drowning each year</strong>, and that a water-spirit lives in them; <em>vandenis</em> is a Lithuanian name for a male water-spirit. The word <em>undinė</em> (water-maiden, mermaid) is probably a later borrowing shaped by German and literary tradition; in older folk material, water-maidens overlap with laumės. Communities offered bread or animals to waters, and in some places floated a loaf with a candle to find a drowned body. Regional variants differ.</p>
+<p><strong>In the saga.</strong> Every lake is an <strong>eye of the World Tree</strong> (<code>cosmology.md</code> §1), and an eye must be kept open. Each year a lake takes <strong>one life</strong> to see through. The drowned become its vandeniai, and they look up at the world through the water. The folk are right about the annual drowning. They are wrong to think it can be avoided: it can only be <strong>chosen</strong>. The sea’s water-maidens (<em>jūrų mergelės</em>) are the remnants of <strong>Jūratė’s</strong> drowned court and answer, faintly, to the Amber Queen.</p>
+<p><strong>Signs and habitat.</strong> Deep lakes with no bottom anyone has found; a spot where the ice never closes; a pale face just under the surface at dusk; the whole village avoiding a certain shore in early summer.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: one a year, and villages “gave” the lake a black rooster or a condemned thief to spare the children. After: lakes take <strong>many</strong>, and at the spring ice-break whole carts go through.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>An offering at the ice-break (bread, a black rooster). <em>Cost:</em> it shortens the wait; it does not replace the death.</li>
+<li>A willing drowning. Old people sometimes walked in to spare the young. <em>Cost:</em> the one who goes.</li>
+<li>Salt poured in a line along the shore keeps a vandenis in the water for one night. <em>Cost:</em> a fortune in salt.</li>
+<li>The floating loaf with a candle finds the body, so the dead can be burned and freed from the lake. <em>Cost:</em> the lake is then owed again.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: Birutė’s ring returned three times by the sea (ch.&nbsp;11) is a jūrų mergelė refusing a gift; this is canon-consistent and should stay. Book V: the Trakai lakes after Vytautas’s death (the Iron Wolf howling in the lake, Book V ch.&nbsp;22).</p>
+<hr>
+</section>
+<section id="žaltvykslės-bog-lights-and-burning-treasure" class="level3">
+<h3 class="anchored" data-anchor-id="žaltvykslės-bog-lights-and-burning-treasure">9. Žaltvykslės / bog-lights and burning treasure</h3>
+<p><em>Pronunciation: ZHAHLT-veeks-lehs (also klystžvakės, “straying candles”).</em></p>
+<p><strong>Folk source [Record].</strong> Lights over bogs and meadows at night, believed to be <strong>souls</strong> that lead travellers astray. Lithuanian tradition includes the belief that some are the souls of <strong>dishonest land-surveyors</strong> condemned to measure the fields at night. Separately, hidden <strong>treasure</strong> was said to reveal itself as a flame (<em>pinigai dega</em>, “the money is burning”) on certain nights. A brave finder might claim it by throwing an item of clothing onto the flame, though the devil or the dead guard it and demand a price.</p>
+<p><strong>In the saga.</strong> Both are true and both belong to <strong>Velnias’s ledger</strong>. Bog-lights are the dead who cheated on boundaries and on debts; they walk the lines they falsified. Treasure-flames are wealth buried with a curse or a bargain, still owed to the roots. Following a light means joining its measuring. Taking a treasure means taking on its debt.</p>
+<p><strong>Signs and habitat.</strong> Lights that move against the wind; a flame in a field on Rasos or Vėlinės night that throws no heat.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: rare, and largely harmless if ignored. After the Order and then the new lords measure land by the furlong (the Gold-Glutton’s appetite, <code>cosmology.md</code> §3.3), the bog-lights <strong>multiply</strong>. Over Samogitia after 1398 they walk in rows, like surveyors.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Do not follow. Turn your coat inside out to break the pull (a remedy known across Europe). <em>Cost:</em> none, if you remember in time.</li>
+<li>Claiming a treasure: throw a shirt on the flame and do not look back. <em>Cost:</em> in the saga, a death in the finder’s family within the year, and the money is warm.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book II: Henė’s minor devils seeding treasure-flames to buy Vytautas’s boyars. Book IV: the Treaty of Melno (1422) border lit at night by ten thousand bog-lights.</p>
+<hr>
+</section>
+<section id="baubas-and-maumas-the-told-terrors" class="level3">
+<h3 class="anchored" data-anchor-id="baubas-and-maumas-the-told-terrors">10. Baubas and maumas / the told terrors</h3>
+<p><em>Pronunciation: BOW-bahs; MOW-mahs.</em></p>
+<p><strong>Folk source [Record].</strong> Vague bogeys used to frighten children into obedience: <em>“Baubas ateis!”</em> (“The baubas will come!”). The <strong>maumas</strong> is a bogey of wells and water used to keep children away from them. The great bittern, whose booming call carries over reed-beds, is called <em>didysis baublys</em> in Lithuanian, and the swamp-booming may lie behind some baubas lore. The creatures have no fixed shape.</p>
+<p><strong>In the saga.</strong> The baubas is <strong>made of telling</strong>. Under the Pact, told fears stayed stories. After the Unbinding, every time a mother says “the baubas will come”, a little fear settles in the dark corner of the house. A family that threatens its children nightly <strong>feeds</strong> a real thing that eventually comes. The folk are right that it exists and wrong to think they are only pretending.</p>
+<p><strong>Signs and habitat.</strong> A dark corner that children will not look at; a well that booms at night; a shape that matches whatever the household fears most.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: harmless. After: real, in proportion to how often it is invoked. Baubai are worst in households that have lost their other spirits.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Laughter, light, and calling it by a small pet-name (<em>baubiukas</em>). <em>Cost:</em> nothing, which is why grown-ups forget to.</li>
+<li>Stop using it as a threat. <em>Cost:</em> you need another way to keep children from the well.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book III–V: a camp of conscripts whose dread of the knights grows a baubas the night before battle.</p>
+<hr>
+</section>
+</section>
+<section id="iii.-forest-and-field" class="level2">
+<h2 class="anchored" data-anchor-id="iii.-forest-and-field">III. Forest and field</h2>
+<section id="girinis-miškinis-and-the-oak-spirits-the-groves-keepers" class="level3">
+<h3 class="anchored" data-anchor-id="girinis-miškinis-and-the-oak-spirits-the-groves-keepers">11. Girinis, miškinis and the oak-spirits / the grove’s keepers</h3>
+<p><em>Pronunciation: gi-RI-nis; mish-KI-nis.</em></p>
+<p><strong>Folk source [Record].</strong> Lithuanian tradition knows forest guardians under several names (<em>girinis</em>, <em>miškinis</em>, <em>medinis</em>), generally less sharply personified than the Slavic leshy (<code>surrounding_folklore.md</code>). Pre-Christian Lithuanians venerated <strong>sacred groves</strong> (<em>alkai</em>) and particular trees, above all oaks, and cutting them was taboo; legends tell of sacred trees that bled or took revenge. A stray-herb (<em>klystžolė</em> or <em>paklydimo žolė</em>) is said to make whoever steps on it lose their way. Hunters made offerings for game. Regional variants differ.</p>
+<p><strong>In the saga.</strong> A girinis is the <strong>local face of the Root-Mother</strong>: the spirit of one grove, one wood, one ancient oak. It does not care about people at all except as they affect the trees. It gives game and safe paths to those who ask and repay, and it leads the greedy in circles until they die. The oaks of the <em>alkai</em> are the Pact’s <strong>pillars</strong>; each one felled loosens it.</p>
+<p><strong>Signs and habitat.</strong> Silence where there should be birdsong (ch.&nbsp;1, 20); paths that return to the same stump; a branch that falls exactly where you were standing.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: a stern host. After a grove is felled (Šventaragis, 1387, and hundreds more), its girinis does not die. It becomes a <strong>homeless hunger</strong> that attaches itself to the family of the man who swung the axe and follows them for generations.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Bread and salt on a stump before hunting or cutting; say <em>“Leisk, medi”</em> (“Permit me, tree”). <em>Cost:</em> salt; and never take more than you asked for.</li>
+<li>Turn your clothes inside out if lost. <em>Cost:</em> the girinis may let you go, but will remember your face.</li>
+<li>The axe that felled a sacred oak must be thrown into running water. <em>Cost:</em> a good axe.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: the silence of the forest in ch.&nbsp;1 and ch.&nbsp;20 is the girinis listening for the Pact to break (<code>cosmology.md</code> §4.3). Book II–V: the bishop’s woodcutters who cleared Šventaragis, and their haunted grandchildren.</p>
+<hr>
+</section>
+<section id="vilkatas-and-vilkolakis-the-werewolf" class="level3">
+<h3 class="anchored" data-anchor-id="vilkatas-and-vilkolakis-the-werewolf">12. Vilkatas and vilkolakis / the werewolf</h3>
+<p><em>Pronunciation: VEEL-kah-tahs; veel-KOH-lah-kis.</em></p>
+<p><strong>Folk source [Record].</strong> Lithuanian werewolf belief runs in two main strands. In the first, a witch or sorcerer <strong>turns people into wolves</strong>, a whole wedding party in some tales, with a belt, a hoop or a spell. In the second, a person turns himself, for instance by somersaulting over a stump with a knife stuck in it; if someone pulls out the knife, he cannot change back. A werewolf may be restored by being offered <strong>bread on the tip of a knife</strong>, or by being recognised and called by name. In 1555 the Swedish writer <strong>Olaus Magnus</strong> described werewolves gathering on Christmas night in Prussia, Livonia and Lithuania, breaking into cellars and drinking the beer. <strong>Herodotus</strong> (Histories 4.105) reports that the Neuri, a people usually placed somewhere in this region, turned into wolves for a few days each year. Wolves themselves were called <em>Dievo šunys</em>, “God’s dogs”, and St Jurgis (George) was their shepherd.</p>
+<p><strong>In the saga.</strong> The folk use one word for <strong>two different things</strong>:</p>
+<ol type="1">
+<li><strong>The cursed vilkolakis</strong>: an ordinary person changed by a bargain. It is real flesh-change and not illusion. It is Velnias’s craft, sold through raganos, which is why it is possible at all (Forces are not bound by the Law of Truth; <code>magic_rules.md</code> §1). The victim keeps a human mind for a season, then loses it.</li>
+<li><strong>The sworn vilkatai</strong>, the wolf-brotherhood of the Dykra, who are men and <strong>do not change shape</strong> (except their eldest, rarely). See <code>iron_wolves.md</code>.</li>
+</ol>
+<p>The folk are half right: the bread-on-a-knife cure works on the cursed, because bread is courtesy and a knife is iron, and together they remind the flesh that it was human. It does nothing to a sworn vilkatas except offend him.</p>
+<p><strong>Signs and habitat.</strong> A wolf that hangs around one village and will not attack its people; a wolf with human eyes; a stump with a knife in it at a crossroads.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: rare, a ragana’s worst curse. After: with raganos turning to Velnias for teaching, <strong>curse-belts multiply</strong>, and whole hamlets of runaways and debtors are turned.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Bread on the tip of a knife, offered to the wolf. <em>Cost:</em> you must stand within reach of its jaws.</li>
+<li>Call the person by name. <em>Cost:</em> if you are wrong, you have just told a hungry wolf your name.</li>
+<li>Burn the belt that made it. <em>Cost:</em> you must take it from the ragana.</li>
+<li>Pull the knife from the stump: a cruel trick that traps the self-changer as a wolf forever. <em>Cost:</em> someone’s son.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: Galminas’s beast-rage (<code>persona/Galminas/</code>) is a third thing again (the Root-Mother’s direct possession) and should not be called <em>vilkolakis</em>. Book II–V: a vilkatas of the brotherhood hunting a cursed vilkolakis who turns out to be his own brother.</p>
+<hr>
+</section>
+<section id="milžinai-the-giants" class="level3">
+<h3 class="anchored" data-anchor-id="milžinai-the-giants">13. Milžinai / the giants</h3>
+<p><em>Pronunciation: mil-ZHI-nai.</em></p>
+<p><strong>Folk source [Record].</strong> Lithuanian legends credit giants with shaping the land: throwing great stones, building hill-forts, heaping hills. The giantess <strong>Neringa</strong> is said to have made the Curonian Spit. Many tales say the giants <strong>dwindled</strong> over generations into ordinary people.</p>
+<p><strong>In the saga.</strong> The giants are not gone; they are <strong>asleep in the land</strong>, and their bones are the hills. They are what Lithuania’s people were in the age of the first oaths, before men became small enough to bargain. They take no part in the saga’s events, and that is the point: they are the measure of how much has already been lost.</p>
+<p><strong>Signs and habitat.</strong> Boulders with hand-prints (<em>milžinų akmenys</em>); hill-forts nobody remembers building; earth-tremors under barrows.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: sleeping. After: still sleeping, but <strong>turning over</strong>. Landslips on hill-forts and stones that move between one dawn and the next.</p>
+<p><strong>Banes, wards, bargains.</strong> None are needed and none would work. Do not dig into barrows; do not move giants’ stones. <em>Cost of ignoring this:</em> the earth moves back.</p>
+<p><strong>Story hooks.</strong> Book V epilogue: the grandfather’s story of the Iron Wolf, told on a giant’s stone, as the old world dwindles into folklore just as the giants did.</p>
+<hr>
+</section>
+<section id="smakas-and-slibinas-the-dragon-serpent" class="level3">
+<h3 class="anchored" data-anchor-id="smakas-and-slibinas-the-dragon-serpent">14. Smakas and slibinas / the dragon-serpent</h3>
+<p><em>Pronunciation: SMAH-kahs; SLI-bi-nahs.</em></p>
+<p><strong>Folk source [Record].</strong> The usual Lithuanian folk dragon is the <strong>slibinas</strong>, often many-headed, which demands tribute (often maidens) and is slain by a hero, in the international dragon-slayer tale pattern. <em>Smakas</em> is another word for dragon, borrowed from the Slavic <em>smok</em>. In folk imagination the dragon overlaps with the fiery-flying <strong>aitvaras</strong> and with the <strong>serpent</strong> generally.</p>
+<p><strong>In the saga.</strong> A smakas is a <strong>žaltys that grew wrong</strong>: a snake-king fed on blood instead of milk, or one that took tribute too long. It has the žaltys’s link to the household’s luck, swollen into a link with a whole <strong>town’s</strong> luck. Its demand for maidens is the folk memory of towns that paid in daughters to keep their prosperity. The Order’s St George (<code>surrounding_folklore.md</code>) sees all of Lithuania as one great dragon, which is half right too.</p>
+<p><strong>Signs and habitat.</strong> Under hill-forts, cathedrals and old cellars; cattle vanishing; a town that prospers inexplicably while its girls disappear.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: smakai were very rare, put down by the Krivis’s people. After 1387: the sacred snakes of Šventaragis are killed (ch.&nbsp;29) and their bodies are thrown, unburned, into the trench being dug for the new cathedral’s foundations (the cathedral is traditionally built on the site of the pagan sanctuary). As in the Dykra telling of the Eglė tale (<code>legends_and_songs.md</code> §2b), snake-blood in the ground breeds snakes. This blood was spilled in hatred, and what it breeds beneath the bishop’s floor is a single smakas. (Eglė’s žaltys remains the last <em>living</em> snake of the old line; the smakas is the line’s revenant.)</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Fire and smith’s iron. <em>Cost:</em> it lives deep, and digging it out means digging up the town.</li>
+<li>Tribute. <em>Cost:</em> what towns have always paid.</li>
+<li>Starving it of luck: if the town stops prospering, it weakens. <em>Cost:</em> the town stops prospering.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book II–V: <strong>“The Smakas under the Cathedral”</strong>: the revenant of the slaughtered sacred snakes of Šventaragis, grown monstrous under the bishop’s floor, feeding on Vilnius’s wealth. The Gold-Glutton and the Root-Mother both want it.</p>
+<hr>
+</section>
+</section>
+<section id="iv.-the-dead" class="level2">
+<h2 class="anchored" data-anchor-id="iv.-the-dead">IV. The dead</h2>
+<section id="vėlės-fed-the-honoured-dead" class="level3">
+<h3 class="anchored" data-anchor-id="vėlės-fed-the-honoured-dead">15. Vėlės (fed) / the honoured dead</h3>
+<p><em>Pronunciation: VEH-lehs (singular vėlė).</em></p>
+<p><strong>Folk source [Record].</strong> The souls of the dead. In the autumn season of the dead (<em>Vėlinės</em>; in Samogitia also <em>Ilgės</em>), families set food on the table overnight, left doors ajar, and in places heated the bathhouse (<em>pirtis</em>) for their dead. At <strong>Kūčios</strong> a place was kept for them, and <em>kisielius</em> (oat jelly) was a food of the dead. Souls were imagined as <strong>birds</strong>, migrating along the Milky Way (<em>Paukščių Takas</em>, the Birds’ Way). A bird knocking at the window foretold a death.</p>
+<p><strong>In the saga.</strong> Exactly as <code>cosmology.md</code> §1 describes: cremation is the fastest road up the Glass Mountain to Dausos, and the slower-climbing dead linger as vėlės who must be fed. <strong>Fed</strong> vėlės are the land’s memory and its first line of defence: they warn their kin, guard the threshold, and sometimes fight. A family with well-fed dead is a family with a hidden army of grandparents.</p>
+<p><strong>Signs and habitat.</strong> Birds that come too close; a chill at the empty place at table; food that loses its smell overnight.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: honoured, content, protective. After: the Church moves the feast to All Souls and forbids the old offerings, and families that convert in earnest stop feeding them. Their dead turn <strong>hungry</strong> (next entry).</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Feed them at Vėlinės and Kūčios; heat the pirtis; say their names. <em>Cost:</em> a family’s best food, given every year.</li>
+<li>A fed vėlė can be <strong>asked</strong> for help, through Vėjopatis (<code>cosmology.md</code> §3.1). <em>Cost:</em> it will ask in return, usually to be remembered by a child who has forgotten it.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: the cremation question (review H4) matters precisely because of this entry. Book V: Vėlinės 1435 after Pabaiskas, when the living cannot feed so many.</p>
+<hr>
+</section>
+<section id="alkanosios-vėlės-the-hungry-dead" class="level3">
+<h3 class="anchored" data-anchor-id="alkanosios-vėlės-the-hungry-dead">16. Alkanosios vėlės / the hungry dead</h3>
+<p><em>Pronunciation: AHL-kah-noh-sios VEH-lehs.</em></p>
+<p><strong>Folk source [Record].</strong> Folk tradition everywhere in the region knows dead who return because they were <strong>not properly mourned, buried or fed</strong>: suicides, the murdered, the drowned, those buried without rites. They wander, harm livestock, and trouble the living until set right. Practices for keeping the dead from returning varied widely; scattering seed (poppy and other) to keep the dead busy counting is reported across the Slavic and Baltic region. Regional variants differ.</p>
+<p><strong>In the saga.</strong> A vėlė that is no longer fed does not fade. It <strong>starves</strong>, and starving makes it a predator. It eats warmth first (cold houses), then memory (the living forget the dead person’s face), then life (the old and the sick die in its presence). The worst are the <strong>unburned</strong>: the buried who cannot climb at all.</p>
+<p><strong>Signs and habitat.</strong> Houses that will not stay warm; a family that cannot remember a grandmother’s name; cattle dead in the stall without a mark; graves in unconsecrated ground near abandoned groves.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: rare (bad deaths only). After: <strong>legion</strong>. Abandoned groves breed them (<code>cosmology.md</code> §4.3). This is the saga’s central later-book threat.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Feed them late: bread, kisielius, beer left on the grave, and their name spoken. <em>Cost:</em> the priest will ask why you are feasting on a grave.</li>
+<li>Poppy seed scattered on the path from the grave. They must count it. <em>Cost:</em> it buys a night, not a cure.</li>
+<li>A ring of ash around the house, renewed nightly. <em>Cost:</em> ash from an ordinary hearth thins quickly; live ash is priceless.</li>
+<li><strong>Burning the body.</strong> The only true cure (<code>magic_rules.md</code> §9). <em>Cost:</em> after 1387, opening a grave and burning a corpse is a crime and a heresy, and someone always sees the smoke.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book II onwards: the core of the vilkatai’s later trade (<code>iron_wolves.md</code>). Book I: Kęstutis’s enemies leaving him unburned would have made him one of these, which is another reason the honoured cremation matters.</p>
+<hr>
+</section>
+<section id="vaiduokliai-the-apparitions" class="level3">
+<h3 class="anchored" data-anchor-id="vaiduokliai-the-apparitions">17. Vaiduokliai / the apparitions</h3>
+<p><em>Pronunciation: vai-DUOK-lyai (singular vaiduoklis).</em></p>
+<p><strong>Folk source [Record].</strong> Ghosts and apparitions: the visible return of the dead, especially of those who died violently or left something undone, haunting a place or a person.</p>
+<p><strong>In the saga.</strong> A vaiduoklis is <strong>not a soul</strong>. It is the land’s memory replaying (the Law of Memory, <code>magic_rules.md</code> §5.3): a residue of something so strongly felt that the place keeps showing it. The folk confuse vaiduokliai with vėlės, which is half right: a vėlė <em>can</em> use a vaiduoklis as a mask, but most apparitions have no one inside. This is why you cannot feed or bargain with most ghosts. They are pictures. <strong>Amber</strong> shows them most clearly, because amber stores memory.</p>
+<p><strong>Signs and habitat.</strong> The same figure at the same hour; places of great working or great grief (the Krėva cell; the Palanga stone).</p>
+<p><strong>Before / after the Unbinding.</strong> Unchanged in nature, but more of them. The Unbinding is a century of grief, and grief leaves pictures.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>None needed. Most vaiduokliai do no harm. <em>Cost of mistaking one for a vėlė:</em> wasted offerings, and false hope.</li>
+<li>To lay one: change the place (burn the room, fell the tree). <em>Cost:</em> the memory goes with it.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: Kęstutis appears in ch.&nbsp;23 <em>after an honoured cremation</em>. That is not his vėlė (he is gone up) but a vaiduoklis carried by Birutė’s amber, which is why the scene smells of sea salt. This is consistent with canon and worth keeping. Book IV: Vytautas, near death, sees his own younger self in the Trakai halls.</p>
+<hr>
+</section>
+<section id="giltinė-death" class="level3">
+<h3 class="anchored" data-anchor-id="giltinė-death">18. Giltinė / Death</h3>
+<p><em>Pronunciation: GIL-ti-neh.</em></p>
+<p><strong>Folk source [Record].</strong> The goddess or personification of death, often named as <strong>Laima’s sister</strong>. Later tradition pictures her as a tall, thin woman in white, sometimes with a scythe (<strong>in Book I she is “tall and grey, with shears”, unnamed; from Book IV she is named: ch.&nbsp;28 is titled <em>Giltinė prie Lovos</em> and ch.&nbsp;29 has her at his head</strong>), sometimes with a long poisonous tongue. Tales of the “Godfather Death” type are well known in Lithuania: Giltinė’s godson becomes a famous doctor because he can see where she stands (at the head, the patient dies; at the feet, the patient lives) and cheats her by turning the bed around, until she takes him instead. Other tales have clever people trap or delay her for a time.</p>
+<p><strong>In the saga.</strong> Giltinė cuts the thread that Laima spins (<code>cosmology.md</code> §3.1). She is the one being in this book <strong>unaffected by the Unbinding</strong>, because death owes no courtesy and was never bound by the Pact. She cannot be bribed and does not bargain. She <strong>can</strong> be tricked once, as in the tales, but the trick is noted and the debt is collected at the worst possible moment.</p>
+<p><strong>Signs and habitat.</strong> A tall woman in white (in the books: tall and grey, with shears) seen at the foot or head of a sickbed; a smell of cut grass in winter; the cuckoo falling silent.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: busy. After: busier, and nothing else changes.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>There are none. Turning the bed (as in the tale) works once per lineage. <em>Cost:</em> she returns when the trickster’s family is at its height.</li>
+<li>Water-working (Bangpūtys) can pull a soul back from the gate but cannot heal a mortal wound (<code>magic_rules.md</code>). <em>Cost:</em> the healer takes part of the wound.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: Giltinė is glimpsed at Krėva on 15 August 1382 (ch.&nbsp;9, shown on the page), unnamed, tall and grey with shears, standing at the cell door, not entering, because the killing is Velnias’s work and she is only there to cut. Book IV: ch.&nbsp;28 (<em>Giltinė prie Lovos</em>, named): Vytautas sees her at the foot of his bed in 1430 and turns it, buying perhaps a week; ch.&nbsp;29: she comes to his head.</p>
+<hr>
+</section>
+</section>
+<section id="v.-fate" class="level2">
+<h2 class="anchored" data-anchor-id="v.-fate">V. Fate</h2>
+<section id="laima-dalia-and-the-deivės-the-spinners-of-share" class="level3">
+<h3 class="anchored" data-anchor-id="laima-dalia-and-the-deivės-the-spinners-of-share">19. Laima, Dalia and the deivės / the spinners of share</h3>
+<p><em>Pronunciation: LAI-mah; DAH-lyah; DAY-vehs.</em></p>
+<p><strong>Folk source [Record].</strong> <strong>Laima</strong> determines each person’s fate at birth (<em>Laima lėmė</em>, “Laima decreed”), and folk songs show her present at births and weddings. <strong>Dalia</strong> is associated with one’s <em>share</em> or lot. Gifts of linen and towels were made to Laima at a birth. The <strong>cuckoo</strong> (<em>gegutė</em>) is linked with Laima and with foretelling (counting the years left by its calls). A group of fate-goddesses who spin, weave and cut human lives, sometimes called <strong>deivės valdytojos</strong> (“governing goddesses”), is known from fragmentary early-modern sources and was reconstructed in the 20th century, most influentially by Marija Gimbutas, as seven sisters. Their names and number are contested; treat details as reconstruction.</p>
+<p><strong>In the saga.</strong> Laima spins, Dalia measures, and Giltinė cuts. The <strong>deivės</strong> are Laima’s handmaids, the ones who actually sit at the wheels; the saga uses seven, each with one task (spinning, measuring, weaving, binding, guarding, spoiling, cutting), and lets characters disagree about their names. Fate is <strong>threads, not a road</strong>: Praurimė’s seers see the threads lit up as possibilities (<code>cosmology.md</code> §3.1). The deivės can occasionally be <strong>asked to re-tie</strong> a thread, but every re-tying shortens another thread somewhere.</p>
+<p><strong>Signs and habitat.</strong> Seen only at births, in the pirtis, as women at the edge of lamplight. A cuckoo calling in winter.</p>
+<p><strong>Before / after the Unbinding.</strong> Unchanged in substance. After 1387, fewer families give Laima her linen, and fates spun without a gift are <strong>plainer</strong>: fewer surprises, good or bad.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Linen and a towel left in the pirtis at a birth. <em>Cost:</em> linen.</li>
+<li>Asking the deivės to re-tie a thread: possible for a born seer at the winter-solstice midnight. <em>Cost:</em> another life somewhere, unknown, shortened by as much.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: Birutė at Vytautas’s birth (Book VI or a flashback) giving Laima her best linen, and being told the price. Book V: the deivės leaving the land. The last midwife in a village notices that no one comes to the pirtis any more.</p>
+<hr>
+</section>
+</section>
+<section id="vi.-velniass-kin-and-those-who-trade-with-him" class="level2">
+<h2 class="anchored" data-anchor-id="vi.-velniass-kin-and-those-who-trade-with-him">VI. Velnias’s kin and those who trade with him</h2>
+<section id="velniass-small-shapes-the-cat-the-dog-and-the-gentleman-in-green" class="level3">
+<h3 class="anchored" data-anchor-id="velniass-small-shapes-the-cat-the-dog-and-the-gentleman-in-green">20. Velnias’s small shapes / the cat, the dog and the gentleman in green</h3>
+<p><em>Pronunciation: VEL-nyahs.</em></p>
+<p><strong>Folk source [Record].</strong> Velnias is one of the most vivid figures of Lithuanian folk tales. He often appears as a <strong>gentleman</strong>, frequently a “little German” (<em>vokietukas</em>) in a green or black coat, with a hat hiding his horns and a goose- or horse-foot he cannot hide. He also takes the shapes of <strong>black cats and black dogs</strong>. He haunts swamps, stones and mills, makes bargains (in Christian-era tales signed in blood), and is regularly <strong>cheated by clever peasants</strong> (dividing a harvest “tops and bottoms”, and so on). He fears <strong>Perkūnas</strong>, who hunts him with lightning; during thunderstorms people chased cats and dogs out of the house, lest Velnias hide in them and draw the bolt. The great collection of Velnias carvings in Kaunas shows how loved the figure is.</p>
+<p><strong>In the saga.</strong> These are not the Shadow-Seller himself (D2), but <strong>small change</strong> from the same purse: <em>velniukai</em>, minor shards of Velnias that do small deals in villages and serve as his eyes. The Shadow-Seller uses them as scouts; a black dog at the edge of the firelight is often how he learns what a prince will need. Velnias is <em>hungry and fair</em> (<code>cosmology.md</code> §3.1): his small shapes keep every deal to the letter and lose to anyone cleverer.</p>
+<p><strong>Signs and habitat.</strong> A black cat that arrives the day before a quarrel; a stranger in a too-fine green coat at a village wedding who will not dance (he would show his foot); a dog that won’t leave during a thunderstorm.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: country tricksters. After 1387, the green-coated gentlemen <strong>move to towns</strong>, where the Gold-Glutton’s ledgers make better bargains than any peasant’s harvest.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Thunder-stones and, after 1387, the Candlemas <strong>thunder candle</strong> (<em>grabnyčių žvakė</em>) lit in storms. <em>Cost:</em> Perkūnas’s attention comes with them.</li>
+<li>Never shake his hand; never accept the first gift. <em>Cost:</em> rudeness to strangers is itself a sin against custom, so you may insult the Beggar (<code>cosmology.md</code> §5) by mistake.</li>
+<li>Out-think him: draft the deal yourself. <em>Cost:</em> if you are less clever than you think, the letter of the deal is your ruin.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: a black dog at Krėva the night of 15 August (ch.&nbsp;8–9), sitting in the courtyard and watching the tower, would seed the Breath of the Void without a word of explanation.</p>
+<hr>
+</section>
+<section id="pinčiukas-the-clerk-of-small-bargains" class="level3">
+<h3 class="anchored" data-anchor-id="pinčiukas-the-clerk-of-small-bargains">21. Pinčiukas / the clerk of small bargains</h3>
+<p><em>Pronunciation: pin-CHOO-kahs.</em></p>
+<p><strong>Folk source [Record].</strong> A folk name for a minor devil. It is best known in literature from Kazys Boruta’s novel <em>Baltaragio malūnas</em> (1945), where Pinčiukas is the devil who bargains with the miller; Boruta drew on oral tradition, but how widespread the name was in folk use is uncertain, and regional variants differ.</p>
+<p><strong>In the saga.</strong> Pinčiukas is one named velniukas, the <strong>Shadow-Seller’s clerk</strong>. Where the Shadow-Seller makes the great deals with princes, Pinčiukas makes the small ones with millers, sextons and serving-maids, and keeps the threads that bind them. He is fussy, polite, fond of mills and millponds, and always carries a ledger. He is the reason Henė always knows who in a castle can be bought.</p>
+<p><strong>Signs and habitat.</strong> Mills and millponds; a dapper little man who knows everyone’s debts; a stammering polite voice behind a door.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: one clerk among many. After: promoted. The Unbinding is a boom time for small bargains.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Make him write the bargain down, then make him read it back aloud (he cannot resist reading). <em>Cost:</em> you must be able to spot the trick when he reads it.</li>
+<li>Never let him name the price “later”. <em>Cost:</em> he will refuse the bargain, and you will not get what you came for.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: the miller or sexton who opens the Krėva refuse-gate (ch.&nbsp;14) could have a Pinčiukas debt. Book II–IV: Pinčiukas as Henė’s comic, frightening go-between.</p>
+<hr>
+</section>
+<section id="ragana-the-seer-witch" class="level3">
+<h3 class="anchored" data-anchor-id="ragana-the-seer-witch">22. Ragana / the seer-witch</h3>
+<p><em>Pronunciation: RAH-gah-nah (plural raganos; male raganius).</em></p>
+<p><strong>Folk source [Record].</strong> The Lithuanian witch. The word is commonly linked to <em>regėti</em>, “to see”, so a ragana is “one who sees”. Raganos are said to gather on the <strong>Šatrija</strong> hill in Samogitia (and other hills) on Midsummer night; to spoil cows’ milk and steal “milk-luck” by gathering dew on Rasos morning; to cause illness and turn people into animals; and in tales to threaten or devour children. They also heal. The figure blends a wise woman, a seer and a dangerous neighbour.</p>
+<p><strong>In the saga.</strong> A ragana is a woman <strong>born</strong> with Kalba (<em>prigimtis</em>, <code>magic_rules.md</code> §2) outside the priestly lines: no vaidilutė training, no shrine, only gift and need. The folk are right that she sees and right that she can harm. They are wrong that she serves Velnias, at least before 1387. After the Krivis and the vaidilutės are gone, Velnias’s small shapes are <strong>the only teachers left</strong>, and many raganos learn from them. Raganos pay their own costs (blindness, voicelessness, thirst) and pass them on in their prices. The hedge-raganos are among the few the peasantry can turn to after the Unbinding (<code>cosmology.md</code> §4.3).</p>
+<p><strong>Signs and habitat.</strong> A woman alone at the edge of the village whom everyone visits and no one invites; dew-marks dragged through the rye on Rasos morning; cows dry for no reason.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: the village’s healer and occasional scapegoat. After: <strong>needed and hunted</strong> at once. She is the only defence against the hungry dead and the first one blamed for them.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>Against a hostile ragana: rowan over the cowshed, iron in the churn, juniper smoke. <em>Cost:</em> small, but she will know you did it.</li>
+<li>Hiring one: she works by Kalba and pays the price herself, so she charges heavily. <em>Cost:</em> what she asks, plus your silence, plus the risk that you will need her again.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: the prologue’s captain calls Eglė <em>“raganos dukteri”</em> (prologue). It is an insult to a vaidilutė and a deliberately half-right one. Book II–V: a ragana and a vilkatas working together, each despising the other’s methods.</p>
+<hr>
+</section>
+</section>
+<section id="vii.-omens" class="level2">
+<h2 class="anchored" data-anchor-id="vii.-omens">VII. Omens</h2>
+<section id="geležinis-vilkas-the-iron-wolf" class="level3">
+<h3 class="anchored" data-anchor-id="geležinis-vilkas-the-iron-wolf">23. Geležinis Vilkas / the Iron Wolf</h3>
+<p><em>Pronunciation: geh-leh-ZHI-nis VEEL-kahs.</em></p>
+<p><strong>Folk source [Record].</strong> In the legend recorded in the 16th-century Lithuanian chronicles, Grand Duke <strong>Gediminas</strong>, after hunting near the Šventaragis valley, slept on a hill and dreamt of an <strong>iron wolf</strong> howling with the voice of a hundred wolves. The pagan priest <strong>Lizdeika</strong> interpreted the dream: Gediminas should build a castle and city there, whose fame would carry like that howl. Thus Vilnius was founded.</p>
+<p><strong>In the saga.</strong> The Iron Wolf is not a creature that can be met, fought or fed. It is an <strong>omen-entity</strong>: the bound spirit of the <strong>Gediminid house</strong> itself. As the Krivis’s version of the legend explains (<code>legends_and_songs.md</code> §3b), it is iron because it is collared, and its hundred voices are the house’s own sons and grandsons tearing at one another. The Iron Wolf <strong>howls at the turning points of Gediminid fate</strong>: when a Gediminid is betrayed, kneels at a foreign altar, or dies.</p>
+<p>It never howls alone. The <strong>thousands of wolves</strong> who answer it (ch.&nbsp;9) are the <strong>dead sworn vilkatai</strong>, laid in the bogs and never burned, gathered at the roots of the World Tree as its pack. They were sworn to the house in life and they remain its chorus in death. The folk hear only wolves. The brotherhood keeps the one physical relic of the dream: a wolf’s skull, found on the hill the morning after and grown hard and grey as iron, on which every initiate swears (<code>power_systems.md</code> §5; <code>iron_wolves.md</code>).</p>
+<p><strong>Signs and habitat.</strong> Thousands of wolves howling at once in the deep forest; a wolf of grey iron glimpsed in mist on an island or hill; frost on iron in summer.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: it howled once in Gediminas’s dream and seldom since. After 1382 it howls <strong>often</strong>: at the prologue’s prophecy (“not from hunger, but from grief, for it sees its master kneeling at a foreign altar”), at Kęstutis’s death (ch.&nbsp;9), and on through the series. When the last flame dies in 1430, it is seen dissolving into mist on Trakai island (Book V ch.&nbsp;1), and its last howl rises from the Trakai lake in 1440 (Book V ch.&nbsp;22).</p>
+<p><strong>Banes, wards, bargains.</strong> None. Those who hear it learn their <strong>master’s</strong> fate, not their own. <em>Cost:</em> knowing.</p>
+<p><strong>Story hooks.</strong> Book I: prologue; ch.&nbsp;9; ch.&nbsp;25’s “Iron Wolf” rumour (the folk attach the omen to Vytautas himself, which is half right). Book V: the epilogue’s grandfather (<em>“Kai miškai buvo žali, jis buvo”</em>).</p>
+<hr>
+</section>
+</section>
+<section id="viii.-saga-inventions-born-of-the-unbinding-and-the-vulture-forces" class="level2">
+<h2 class="anchored" data-anchor-id="viii.-saga-inventions-born-of-the-unbinding-and-the-vulture-forces">VIII. Saga inventions: born of the Unbinding and the Vulture Forces</h2>
+<section id="nedegintieji-the-unburned-saga-invention" class="level3">
+<h3 class="anchored" data-anchor-id="nedegintieji-the-unburned-saga-invention">24. Nedegintieji / the Unburned [Saga invention]</h3>
+<p><em>Pronunciation: neh-deh-GIN-tie-yi.</em></p>
+<p><strong>Origin.</strong> The <strong>crusade dead</strong>: Lithuanians killed in Order raids and buried by the Order in pits rather than burned, and the Order’s own dead buried in pagan ground far from any church. With no fire to lift them, no kin to feed them, and a century of crusade fervour soaked into them, they rise in <strong>abandoned groves</strong> after 1387 (<code>cosmology.md</code> §4.3). They are hungry vėlės crossed with the Iron Saint’s appetite: they march as well as hunger.</p>
+<p><strong>What they are.</strong> Cold, silent dead who walk in the formation they died in, pagan and Christian side by side, still carrying their wounds. They attack the living not to eat but to <strong>take warmth</strong>, moving from hearth to hearth. A village they pass through is left with fires that will not catch.</p>
+<p><strong>Signs and habitat.</strong> Mass graves near old Reise routes; groves left untended; lines of frost-prints in a summer field.</p>
+<p><strong>Before / after the Unbinding.</strong> Before 1387: none (the Pact kept them in the ground). After: the commonest serious threat of Books II–V. They are at their height after <strong>Pabaiskas (1435)</strong>, when the field holds thousands.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li><strong>Fire.</strong> Only cremation stops one for good. <em>Cost:</em> heresy; and burning a whole pit takes cartloads of wood and a day nobody can hide.</li>
+<li>Live ash in a ring holds them off. <em>Cost:</em> after 1430, there is no more live ash.</li>
+<li>Feed and name them, if anyone remembers the names. <em>Cost:</em> no one does.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book II: the first rising in a felled Šventaragis-side grove. Book V: Pabaiskas and the last hunt of the vilkatai (<code>iron_wolves.md</code>).</p>
+<hr>
+</section>
+<section id="reizos-raiteliai-the-riders-of-the-reise-saga-invention" class="level3">
+<h3 class="anchored" data-anchor-id="reizos-raiteliai-the-riders-of-the-reise-saga-invention">25. Reizos raiteliai / the Riders of the Reise [Saga invention]</h3>
+<p><em>Pronunciation: RAY-zoh RAI-teh-lyai.</em></p>
+<p><strong>Origin.</strong> The <strong>Iron Saint’s</strong> creatures. The Order’s crusading season, the <em>Reise</em>, brought guest-knights from across Europe each winter and summer to raid Lithuania (historical). Knights who died on Reise in a state of complete fearless conviction, the state the Iron Saint grants (<code>cosmology.md</code> §3.3), did not stop. They still ride the old raid-routes on the anniversary of their death.</p>
+<p><strong>What they are.</strong> A column of armoured riders whose mail never rusts, smelling of quench-water and hot iron, who ride through villages without seeing them, and kill everything in their path as they once did. They do not hunger. They <strong>repeat</strong>.</p>
+<p><strong>Signs and habitat.</strong> Furnace heat in winter; crosses that ring like anvils (the Iron Saint’s signs); the old Reise routes through the Wildnis, along the Neman and into Samogitia; hoof-prints that steam in snow.</p>
+<p><strong>Before / after the Unbinding.</strong> Before 1387: they ride only in Prussia, harmlessly, on Order land. After: the Pact no longer bars them from Lithuanian soil, and they ride where they once raided.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li>They cannot cross <strong>unfrozen running water</strong>: the Reise needed frozen ground and fords. <em>Cost:</em> in winter, everything is frozen.</li>
+<li>Bog-iron does nothing; feast-day iron feeds them. Only smith’s iron forged at a <strong>pagan</strong> hearth bites. <em>Cost:</em> very few such smiths remain after 1387.</li>
+<li>Stand still and do not fear. They see only fear, and pass the fearless by. <em>Cost:</em> almost nobody manages it.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book III: the Riders strengthen before Grunwald and <strong>scream</strong> when the Iron Saint breaks (series outline: “the Iron Saint’s final screams”). Book IV: Riders on the Samogitian roads as the Hidden Groves fall.</p>
+<hr>
+</section>
+<section id="bebalsiai-the-voiceless-saga-invention" class="level3">
+<h3 class="anchored" data-anchor-id="bebalsiai-the-voiceless-saga-invention">26. Bebalsiai / the Voiceless [Saga invention]</h3>
+<p><em>Pronunciation: beh-BAHL-syai.</em></p>
+<p><strong>Origin.</strong> The <strong>White Silence’s</strong> hollowed ones. The White Silence gathers wherever a baptism is <strong>bought</strong> (<code>cosmology.md</code> §3.3). The newly baptised of 1387 were given white woollen shirts, as chroniclers report, and some came for the shirt and not the faith. The bought baptism is the opening: the White Silence settles into the empty place where neither old custom nor new faith lives.</p>
+<p><strong>What they are.</strong> Not monsters but <strong>victims</strong>. Over months, a bebalsis loses its voice, then its shadow, then its warmth. They are harmless in themselves, but the White Silence <strong>listens through them</strong>, and where several gather, sound dies, Wind workings fail and Water workings freeze (<code>magic_rules.md</code> §9).</p>
+<p><strong>Signs and habitat.</strong> Frost flowers in their footprints; people who stop speaking after a mass baptism; villages along the Neris where nobody sings.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: almost none (Mindaugas’s bought baptism in the 13th century produced a few, long dead). After <strong>1387</strong>: many, around Vilnius first; after 1413 in Samogitia.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li><strong>Real belief</strong> in anything, old or new, closes the opening. An honest Christian or an honest pagan cannot become one. <em>Cost:</em> belief cannot be forced, and that is the whole problem.</li>
+<li>Speaking the victim’s <strong>old name</strong> to them by a living fire returns their voice for a night. <em>Cost:</em> the White Silence notices who did it.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: the crowds of ch.&nbsp;29 (the Neris baptism) should include the first of them. Book II–IV: Jadvyga’s frost-touch (<code>hidden_immortals.md</code> §5) and the bebalsiai as two faces of the same Force.</p>
+<hr>
+</section>
+<section id="užgesėlės-the-quenched-saga-invention" class="level3">
+<h3 class="anchored" data-anchor-id="užgesėlės-the-quenched-saga-invention">27. Užgesėlės / the Quenched [Saga invention]</h3>
+<p><em>Pronunciation: oo-zheh-GEH-leh-lehs.</em></p>
+<p><strong>Origin.</strong> Born of <strong>killed sacred flames</strong>. When Jogaila had the Šventaragis flame put out in 1387 (historical), the fire did not simply stop. Its sparks, cut off from Gabija, scattered into Vilnius’s hearths as cold things that remember being fire.</p>
+<p><strong>What they are.</strong> Tiny cold sparks, like blue embers, that nest in hearths and <strong>eat fire</strong>. A house with užgesėlės cannot keep its hearth lit. In winter, that is death. They are not malicious; they are trying to become fire again, and they swallow every flame they find.</p>
+<p><strong>Signs and habitat.</strong> Hearths that go out at night, every night; blue glints in cold ash; children who are always cold. Worst near Vilnius, and around every grove-flame put out after 1387.</p>
+<p><strong>Before / after the Unbinding.</strong> They exist only after 1387. They multiply with every flame extinguished (the Samogitian alkai, 1413–17).</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li><strong>Live ash</strong> from a still-kept sacred flame, scattered in the hearth, gives them what they want, and they go out content. <em>Cost:</em> after 1387 the only kept flame is <strong>Vytautas’s secret flame</strong> at Trakai (<code>magic_rules.md</code> §6), and every pinch taken from it is a risk to the man who keeps it.</li>
+<li>Gabija’s own words, <em>“Ugnis tau degs”</em>, spoken by a caster at the hearth. <em>Cost:</em> exhaustion and soul-chill (<code>magic_rules.md</code> §4.1).</li>
+</ul>
+<p><strong>Story hooks.</strong> Book II–IV: why the vilkatai need Vytautas, and why he needs them (<code>iron_wolves.md</code>). Book V: the winter of 1430–31 after Vytautas’s flame goes out, when the hearths of Trakai fail one by one.</p>
+<hr>
+</section>
+<section id="skaičiuotojas-the-counter-saga-invention" class="level3">
+<h3 class="anchored" data-anchor-id="skaičiuotojas-the-counter-saga-invention">28. Skaičiuotojas / the Counter [Saga invention]</h3>
+<p><em>Pronunciation: skai-CHUO-toh-yahs.</em></p>
+<p><strong>Origin.</strong> A spirit of the <strong>Gold-Glutton</strong> (<code>cosmology.md</code> §3.3), formed wherever ledgers, tolls and land sold by the furlong gather: tollhouses, counting-rooms, the Order’s commanderies, Hanseatic factories. Its sign is in the canon already: “a counting voice in quiet rooms”.</p>
+<p><strong>What it is.</strong> A voice, never a body, that <strong>counts</strong>. It counts the coins in the room, then the goods, then the people, then the years each person has left, and lists them aloud in a soft monotone. Those who listen too long begin to see one another as sums. The Counter does not kill. It <strong>empties</strong> people out, leaving them prosperous and hollow (the Force’s grant).</p>
+<p><strong>Signs and habitat.</strong> Coins that are always warm; a voice under the floor of a counting-house; merchants who have stopped caring for their children and cannot say why.</p>
+<p><strong>Before / after the Unbinding.</strong> Before: confined to Order and Hanseatic towns. After: everywhere money changes hands. Dominant in Book IV.</p>
+<p><strong>Banes, wards, bargains.</strong></p>
+<ul>
+<li><strong>An unmeasured gift.</strong> Giving something away without counting it (the reverse of the laumė’s linen) silences the Counter in that room. <em>Cost:</em> you must truly not count, and the Counter makes counting feel like breathing.</li>
+<li>Fill the room with song (counting and singing cannot share a room). <em>Cost:</em> none, but merchants rarely sing.</li>
+</ul>
+<p><strong>Story hooks.</strong> Book I: the Hanseatic envoys of ch.&nbsp;28 bring it into Vilnius. Book IV: the Lutsk congress chamber, where the Counter numbers the crown’s gems while the princes argue.</p>
+<hr>
+</section>
+</section>
+<section id="quick-reference-table" class="level2">
+<h2 class="anchored" data-anchor-id="quick-reference-table">Quick-reference table</h2>
+<p><strong>Danger:</strong> I nuisance · II hazard · III dangerous · IV deadly · V calamity (after 1387 in brackets where it rises).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Creature</th>
+<th>Danger (pre-1387 → after)</th>
+<th>Chief bane or bargain</th>
+<th>Book appearances</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Žaltys</td>
+<td>I → III</td>
+<td>Milk at the threshold; never kill</td>
+<td>I (ch.&nbsp;15–16, 23, 29), III</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Aitvaras</td>
+<td>II → IV</td>
+<td>Its omelette; sell it on; burn your own farm</td>
+<td>II, IV</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Kaukas / barzdukai</td>
+<td>I → III</td>
+<td>Porridge; clothes release it; naming</td>
+<td>III–V</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Barstukai</td>
+<td>I → III</td>
+<td>Bread and beer under the elder</td>
+<td>III, IV</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Slogutis</td>
+<td>II → IV</td>
+<td>Blade by the bed; “come for salt”</td>
+<td>I (Jogaila), IV</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Laumės</td>
+<td>II → IV</td>
+<td>Diligence; never spin on Thursday evening</td>
+<td>I (ch.&nbsp;11 echo), II, V</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Laumiukai</td>
+<td>II → IV</td>
+<td>Name the child; never leave it alone</td>
+<td>II–III, V</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Vandenis / undinės</td>
+<td>III → IV</td>
+<td>Offering at the ice-break; floating loaf</td>
+<td>I (ch.&nbsp;11 ring), V</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Žaltvykslės / treasure-flames</td>
+<td>I → II</td>
+<td>Do not follow; coat inside out</td>
+<td>II, IV</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Baubas / maumas</td>
+<td>I → II</td>
+<td>Laughter; stop invoking it</td>
+<td>III–V</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Girinis / miškinis</td>
+<td>II → IV</td>
+<td>Bread and salt on a stump; ask the tree</td>
+<td>I (ch.&nbsp;1, 20), II–V</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Vilkatas / vilkolakis (cursed)</td>
+<td>III → III</td>
+<td>Bread on a knife; the true name</td>
+<td>II–V</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Milžinai</td>
+<td>—</td>
+<td>Leave the stones be</td>
+<td>V epilogue</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Smakas / slibinas</td>
+<td>IV → V</td>
+<td>Fire, smith’s iron, tribute</td>
+<td>II–V (under the Cathedral)</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Vėlės (fed)</td>
+<td>I → I</td>
+<td>Feed them at Vėlinės and Kūčios</td>
+<td>I (H4), V</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Alkanosios vėlės</td>
+<td>III → IV</td>
+<td>Feeding; poppy; ash; <strong>burning</strong></td>
+<td>II–V</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Vaiduokliai</td>
+<td>I → I</td>
+<td>None needed; change the place</td>
+<td>I (ch.&nbsp;23), IV</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Giltinė</td>
+<td>V → V</td>
+<td>None; turn the bed once</td>
+<td>I (ch.&nbsp;9), IV</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Laima, Dalia, deivės</td>
+<td>—</td>
+<td>Linen in the pirtis</td>
+<td>VI / flashback, V</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Velnias’s small shapes</td>
+<td>II → III</td>
+<td>Thunder-stones; out-think him</td>
+<td>I (ch.&nbsp;8–9), II–IV</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Pinčiukas</td>
+<td>II → III</td>
+<td>Make him read it back</td>
+<td>I (ch.&nbsp;14 hook), II–IV</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Ragana</td>
+<td>II → III</td>
+<td>Rowan, iron in the churn; or hire her</td>
+<td>I (prologue insult), II–V</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>Geležinis Vilkas</td>
+<td>omen</td>
+<td>None; it tells the master’s fate</td>
+<td>I (prologue, ch.&nbsp;9, 25), V (ch.&nbsp;1, 22, 30)</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Nedegintieji [Saga]</td>
+<td>— → IV</td>
+<td>Cremation; live ash</td>
+<td>II–V (Pabaiskas)</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Reizos raiteliai [Saga]</td>
+<td>— → IV</td>
+<td>Running water; stillness</td>
+<td>III (Grunwald), IV</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>Bebalsiai [Saga]</td>
+<td>— → II</td>
+<td>True belief; the old name</td>
+<td>I (ch.&nbsp;29), II–IV</td>
+</tr>
+<tr class="odd">
+<td>27</td>
+<td>Užgesėlės [Saga]</td>
+<td>— → III</td>
+<td>Live ash from a kept flame</td>
+<td>II–V</td>
+</tr>
+<tr class="even">
+<td>28</td>
+<td>Skaičiuotojas [Saga]</td>
+<td>— → III</td>
+<td>An unmeasured gift; song</td>
+<td>I (ch.&nbsp;28), IV</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="sources-for-the-author-to-check" class="level2">
+<h2 class="anchored" data-anchor-id="sources-for-the-author-to-check">Sources for the author to check</h2>
+<p>The [Record] sections draw on the general shape of Lithuanian folk belief as presented in standard works. Before quoting specifics in prose, verify against: Norbertas Vėlius (ed.), <em>Baltų religijos ir mitologijos šaltiniai</em> (the multi-volume source collection); Algirdas Julien Greimas, <em>Apie dievus ir žmones</em> (1990; English <em>Of Gods and Men</em>); Marija Gimbutas, <em>The Balts</em> (1963); Pranė Dundulienė, <em>Pagonybė Lietuvoje</em> (1989); Olaus Magnus, <em>Historia de gentibus septentrionalibus</em> (1555), on northern werewolves; Herodotus, <em>Histories</em> 4.105, on the Neuri.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../image-credits.html">
+<p>Image credits</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

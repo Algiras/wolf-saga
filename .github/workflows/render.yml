@@ -3,8 +3,6 @@ name: Render and Deploy
 on:
   push:
     branches: [ main ]
-    tags:
-      - 'v*'
   workflow_dispatch:
 
 jobs:
@@ -22,53 +20,23 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install LaTeX (TinyTeX)
-        run: |
-          quarto install tinytex
+        run: quarto install tinytex
 
       - name: Install Fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y fonts-dejavu poppler-utils
-          # The print interior uses EB Garamond bundled in books/_extensions/saga-print/fonts (SIL OFL),
-          # so local and CI builds use the same font files; no apt package is needed for it.
+          sudo apt-get install -y fonts-dejavu
 
-      - name: Set up Java (for epubcheck)
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
-
-      - name: Install epubcheck
-        run: |
-          curl -sSL -o epubcheck.zip https://github.com/w3c/epubcheck/releases/download/v5.4.0/epubcheck-5.4.0.zip
-          echo "33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c  epubcheck.zip" | sha256sum -c -
-          unzip -q epubcheck.zip -d "$RUNNER_TEMP"
-          echo "EPUBCHECK_JAR=$RUNNER_TEMP/epubcheck-5.4.0/epubcheck.jar" >> "$GITHUB_ENV"
-
-      - name: Lint Markdown
-        run: npx --yes markdownlint-cli2@0.23.3
-
-      - name: Validate World Graph
-        run: python3 scripts/validate_world_graph.py --check
-
-      - name: Render Book
+      - name: Render Book I
         run: |
           cd books
           quarto render --to all
-          # Print interior (KDP 6x9) and store e-book (EPUB 3): separate files next to the normal outputs.
-          # --no-clean keeps the html/pdf/epub just rendered. Never put chapters in a profile.
-          quarto render --profile print --to saga-print-pdf --no-clean
-          quarto render --profile store --to saga-store-epub --no-clean
           cp ../llms.txt _book/llms.txt
 
       - name: Render Book II
         run: |
           cd books/2
           quarto render --to all
-          # Print interior (KDP 6x9) and store e-book (EPUB 3): separate files next to the normal outputs.
-          # --no-clean keeps the html/pdf/epub just rendered. Never put chapters in a profile.
-          quarto render --profile print --to saga-print-pdf --no-clean
-          quarto render --profile store --to saga-store-epub --no-clean
           mkdir -p ../_book/2
           cp -r _book/. ../_book/2/
 
@@ -76,10 +44,6 @@ jobs:
         run: |
           cd books/3
           quarto render --to all
-          # Print interior (KDP 6x9) and store e-book (EPUB 3): separate files next to the normal outputs.
-          # --no-clean keeps the html/pdf/epub just rendered. Never put chapters in a profile.
-          quarto render --profile print --to saga-print-pdf --no-clean
-          quarto render --profile store --to saga-store-epub --no-clean
           mkdir -p ../_book/3
           cp -r _book/. ../_book/3/
 
@@ -87,10 +51,6 @@ jobs:
         run: |
           cd books/4
           quarto render --to all
-          # Print interior (KDP 6x9) and store e-book (EPUB 3): separate files next to the normal outputs.
-          # --no-clean keeps the html/pdf/epub just rendered. Never put chapters in a profile.
-          quarto render --profile print --to saga-print-pdf --no-clean
-          quarto render --profile store --to saga-store-epub --no-clean
           mkdir -p ../_book/4
           cp -r _book/. ../_book/4/
 
@@ -98,10 +58,6 @@ jobs:
         run: |
           cd books/5
           quarto render --to all
-          # Print interior (KDP 6x9) and store e-book (EPUB 3): separate files next to the normal outputs.
-          # --no-clean keeps the html/pdf/epub just rendered. Never put chapters in a profile.
-          quarto render --profile print --to saga-print-pdf --no-clean
-          quarto render --profile store --to saga-store-epub --no-clean
           mkdir -p ../_book/5
           cp -r _book/. ../_book/5/
 
@@ -109,70 +65,21 @@ jobs:
         run: |
           cd books/6
           quarto render --to all
-          # Print interior (KDP 6x9) and store e-book (EPUB 3): separate files next to the normal outputs.
-          # --no-clean keeps the html/pdf/epub just rendered. Never put chapters in a profile.
-          quarto render --profile print --to saga-print-pdf --no-clean
-          quarto render --profile store --to saga-store-epub --no-clean
           mkdir -p ../_book/6
           cp -r _book/. ../_book/6/
 
-      - name: Validate store EPUBs (epubcheck) and print PDFs
+      - name: Add Wiki (pre-rendered)
         run: |
-          set -e
-          for n in 1 2 3 4 5 6; do
-            if [ "$n" = 1 ]; then d=books/_book; else d=books/$n/_book; fi
-            echo "== epubcheck saga-$n-store.epub"
-            java -jar "$EPUBCHECK_JAR" "$d/saga-$n-store.epub"
-            echo "== print PDF saga-$n-print.pdf"
-            info=$(pdfinfo "$d/saga-$n-print.pdf")
-            echo "$info" | grep -E "Pages|Page size"
-            echo "$info" | grep -q "Page size:.*432 x 648" || { echo "not 6x9 in"; exit 1; }
-            pages=$(echo "$info" | awk '/^Pages:/ {print $2}')
-            [ $((pages % 2)) -eq 0 ] || { echo "odd page count"; exit 1; }
-            [ "$pages" -ge 24 ] && [ "$pages" -le 828 ] || { echo "outside KDP page range"; exit 1; }
-            if pdffonts "$d/saga-$n-print.pdf" | tail -n +3 | grep -Eq '[[:space:]]no[[:space:]]+(yes|no)[[:space:]]+(yes|no)[[:space:]]+[0-9]+'; then echo "unembedded font"; exit 1; fi
-          done
-
-      - name: Render Wiki
-        run: |
-          python3 scripts/validate_world_graph.py
-          python3 scripts/build_wiki.py
-          quarto render wiki
-          python3 scripts/check_wiki.py --quiet-warnings
           mkdir -p books/_book/wiki
-          cp -r wiki/_site/. books/_book/wiki/
-
-      - name: Create Release
-        uses: softprops/action-gh-release@v2
-        if: github.event_name == 'push' && contains(github.ref, 'tags')
-        with:
-          files: |
-            books/_book/*.pdf
-            books/_book/*.epub
-            books/2/_book/*.pdf
-            books/2/_book/*.epub
-            books/3/_book/*.pdf
-            books/3/_book/*.epub
-            books/4/_book/*.pdf
-            books/4/_book/*.epub
-            books/5/_book/*.pdf
-            books/5/_book/*.epub
-            books/6/_book/*.pdf
-            books/6/_book/*.epub
-          generate_release_notes: true
+          cp -r wiki/. books/_book/wiki/
 
       - name: Update Latest Release
         env:
           GH_TOKEN: ${{ github.token }}
-        if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
         run: |
-          # Create or update the 'latest' release
-          gh release edit latest --title "Latest Build" --prerelease --notes "Automatiškai sugeneruota naujausia knygos versija (PDF ir EPUB)." || \
-          gh release create latest --title "Latest Build" --prerelease --notes "Automatiškai sugeneruota naujausia knygos versija (PDF ir EPUB)."
-          
-          # Upload files with --clobber to overwrite existing assets. The *.pdf / *.epub globs also pick up
-          # the saga-N-print.pdf (KDP 6x9 interior) and saga-N-store.epub (store e-book) next to saga-N.pdf/epub.
-          gh release upload latest books/_book/*.pdf books/_book/*.epub books/2/_book/*.pdf books/2/_book/*.epub books/3/_book/*.pdf books/3/_book/*.epub books/4/_book/*.pdf books/4/_book/*.epub books/5/_book/*.pdf books/5/_book/*.epub books/6/_book/*.pdf books/6/_book/*.epub --clobber
+          gh release edit latest --title "Latest Build" --prerelease --notes "Automatiškai sugeneruotos naujausios knygų versijos (PDF ir EPUB)." || \
+          gh release create latest --title "Latest Build" --prerelease --notes "Automatiškai sugeneruotos naujausios knygų versijos (PDF ir EPUB)."
+          gh release upload latest books/_book/*.pdf books/_book/*.epub books/[2-6]/_book/*.pdf books/[2-6]/_book/*.epub --clobber
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

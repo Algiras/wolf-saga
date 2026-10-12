@@ -1,0 +1,2547 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Relation maps by book – Geležinio Vilko Saga · Wiki</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-f8463e37fa3918fd74fa755198b02ef7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<!-- Cinzel (display), Crimson Pro (body), Alegreya Sans SC (labels): all three ship a latin-ext subset
+     (ą č ę ė į š ų ū ž); the css2 API serves it automatically via unicode-range. -->
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&amp;family=Cinzel:wght@500;600;700&amp;family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;display=swap" rel="stylesheet">
+<script>
+/* Cosmetic hooks for the sourcebook look (the page works without them):
+   1. mark the first prose paragraph of an entity page for the drop cap (skipping the generated sections);
+   2. relabel default callout titles: Note -> Lore, Tip -> Read-aloud. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    var GEN = /^(relations|timeline|relation-graph|forms-arc-stages|state-over-time)(-\d+)?$/;
+    var root = document.getElementById("quarto-document-content") || document.querySelector("main");
+    if (root && root.querySelector(".infobox")) {
+      var secs = root.querySelectorAll("section.level2");
+      for (var i = 0; i < secs.length; i++) {
+        if (GEN.test(secs[i].id)) continue;
+        var p = secs[i].querySelector(":scope > p");
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
+        break;
+      }
+    }
+    var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
+    Object.keys(map).forEach(function (cls) {
+      document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
+        if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Geležinio Vilko Saga · Wiki</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../timeline.html"> 
+<span class="menu-text">Timeline</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../graph-explorer.html"> 
+<span class="menu-text">Atlas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../diagrams.html"> 
+<span class="menu-text">Diagrams</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Encyclopedia</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-encyclopedia">    
+        <li>
+    <a class="dropdown-item" href="../characters/index.html">
+ <span class="dropdown-text">Characters</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../houses/index.html">
+ <span class="dropdown-text">Houses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../factions/index.html">
+ <span class="dropdown-text">Factions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../places/index.html">
+ <span class="dropdown-text">Places</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../events/index.html">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../gods/index.html">
+ <span class="dropdown-text">Gods</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../forces/index.html">
+ <span class="dropdown-text">Forces</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../magic/index.html">
+ <span class="dropdown-text">Magic &amp; Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../artifacts/index.html">
+ <span class="dropdown-text">Artifacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../creatures/index.html">
+ <span class="dropdown-text">Creatures</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../books/index.html">
+ <span class="dropdown-text">Books</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../codex/index.html"> 
+<span class="menu-text">Codex</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contributing.html"> 
+<span class="menu-text">How to add</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-books">    
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">I · Vilko Tremtis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../2/index.html">
+ <span class="dropdown-text">II · Auksinis Šešėlis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../3/index.html">
+ <span class="dropdown-text">III · Žaliasis Miškas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../4/index.html">
+ <span class="dropdown-text">IV · Nematoma Karūna</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../5/index.html">
+ <span class="dropdown-text">V · Vilko Palikimas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../6/index.html">
+ <span class="dropdown-text">VI · Šventasis Miškas (prequel)</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#vi-šventasis-miškas-prequel-13411377" id="toc-vi-šventasis-miškas-prequel-13411377" class="nav-link active" data-scroll-target="#vi-šventasis-miškas-prequel-13411377">VI · Šventasis Miškas (prequel) (1341–1377)</a></li>
+  <li><a href="#i-vilko-tremtis-13771387" id="toc-i-vilko-tremtis-13771387" class="nav-link" data-scroll-target="#i-vilko-tremtis-13771387">I · Vilko Tremtis (1377–1387)</a></li>
+  <li><a href="#ii-auksinis-šešėlis-13871399" id="toc-ii-auksinis-šešėlis-13871399" class="nav-link" data-scroll-target="#ii-auksinis-šešėlis-13871399">II · Auksinis Šešėlis (1387–1399)</a></li>
+  <li><a href="#iii-žaliasis-miškas-13991411" id="toc-iii-žaliasis-miškas-13991411" class="nav-link" data-scroll-target="#iii-žaliasis-miškas-13991411">III · Žaliasis Miškas (1399–1411)</a></li>
+  <li><a href="#iv-nematoma-karūna-14111430" id="toc-iv-nematoma-karūna-14111430" class="nav-link" data-scroll-target="#iv-nematoma-karūna-14111430">IV · Nematoma Karūna (1411–1430)</a></li>
+  <li><a href="#v-vilko-palikimas-14301450" id="toc-v-vilko-palikimas-14301450" class="nav-link" data-scroll-target="#v-vilko-palikimas-14301450">V · Vilko Palikimas (1430–1450)</a></li>
+  <li><a href="#progressions" id="toc-progressions" class="nav-link" data-scroll-target="#progressions">Progressions</a>
+  <ul class="collapse">
+  <li><a href="#silent_pact_state" id="toc-silent_pact_state" class="nav-link" data-scroll-target="#silent_pact_state">silent_pact_state</a></li>
+  <li><a href="#unbinding_level" id="toc-unbinding_level" class="nav-link" data-scroll-target="#unbinding_level">unbinding_level</a></li>
+  <li><a href="#practitioners" id="toc-practitioners" class="nav-link" data-scroll-target="#practitioners">practitioners</a></li>
+  <li><a href="#hene_stones" id="toc-hene_stones" class="nav-link" data-scroll-target="#hene_stones">hene_stones</a></li>
+  <li><a href="#vytautas_forms" id="toc-vytautas_forms" class="nav-link" data-scroll-target="#vytautas_forms">vytautas_forms</a></li>
+  <li><a href="#pebble_state" id="toc-pebble_state" class="nav-link" data-scroll-target="#pebble_state">pebble_state</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Relation maps by book</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>Source: <code>world_rules/graph/relation_maps.md</code></em></p>
+<p><em>Generated by <code>scripts/validate_world_graph.py</code> from <code>world_graph.json</code>. Do not edit by hand.</em></p>
+<section id="vi-šventasis-miškas-prequel-13411377" class="level2">
+<h2 class="anchored" data-anchor-id="vi-šventasis-miškas-prequel-13411377">VI · Šventasis Miškas (prequel) (1341–1377)</h2>
+<p>91 nodes · 87 relations</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+  aitvaras["Aitvaras (fire-tailed thief)"]
+  algirdas["Algirdas"]:::char
+  alkanosios_veles["Alkanosios vėlės (the hungry dead)"]
+  amber_queen["Gintaro Karalienė (Amber Queen)"]:::force
+  ausrine["Aušrinė (the morning star)"]:::god
+  bargain["Sandėris (bargain)"]:::school
+  barstukai["Barstukai (under-elder miners)"]
+  bebalsiai["Bebalsiai (the Voiceless)"]
+  birute["Birutė"]:::char
+  claim["Žymė (claim)"]:::school
+  danute["Danutė"]:::char
+  edigu["Edigu"]:::char
+  el_stars["Žvaigždės (Stars)"]:::school
+  el_water["Vanduo (Water)"]:::school
+  gabija["Gabija"]:::god
+  galminas["Galminas"]:::char
+  gdl["Grand Duchy of Lithuania"]:::fac
+  gediminaiciai["Gediminaičiai (House of Gediminas)"]
+  gediminas["Gediminas"]:::char
+  gelezinis_vilkas["Geležinis Vilkas (the Iron Wolf omen)"]
+  giltine["Giltinė"]:::god
+  gintaryste["Gintarystė (amber-craft)"]:::school
+  girinis["Girinis / miškinis (grove-keepers)"]
+  gold_glutton["Aukso Rijūnas (Mercator-Rex)"]:::force
+  golden_horde["Golden Horde"]:::fac
+  hanse["Hanseatic merchants"]:::fac
+  hohenstein["Günther von Hohenstein (invented Order brother)"]:::char
+  iron_gift["Iron Saint's fearlessness"]:::school
+  iron_saint["Geležinis Šventasis (Ferrum Sanctum)"]:::force
+  iron_wolves["Vilkatai (Iron Wolves)"]:::fac
+  janusz1["Janusz I of Masovia"]:::char
+  jogaila["Jogaila"]:::char
+  jurate["Jūratė"]:::god
+  kalba["Senovės Kalba"]:::school
+  kaributas["Kaributas"]:::char
+  kaukas["Kaukas / barzdukai (field-luck)"]
+  kestutaiciai["Kęstutaičiai (Kęstutis's line)"]:::fac
+  kestutis["Kęstutis"]:::char
+  kestutis_sword["Šerno kalavijas (Kęstutis's sword)"]:::art
+  kniprode["Winrich von Kniprode"]:::char
+  laima["Laima"]:::god
+  laumes["Laumės (weavers by the water)"]
+  laumiukai["Laumiukai (changelings)"]
+  medeina["Medeina"]:::god
+  menuo["Mėnuo"]:::god
+  milzinai["Milžinai (giants)"]
+  moscow["Grand Principality of Moscow"]:::fac
+  mykolas["Mykolas Žygimantaitis"]:::char
+  nedegintieji["Nedegintieji (the Unburned)"]
+  ona["Ona"]:::char
+  pagan_clergy["Pagan clergy (Krivis, žyniai, vaidilutės)"]:::fac
+  palanga_vaidilutes["Palanga amber-priestess line (Gintaro vaidilutės)"]
+  perkunas["Perkūnas"]:::god
+  perkuno_rustybe["Perkūno Rūstybė"]:::force
+  pincuikas["Pinčiukas (clerk of small bargains)"]
+  poland["Kingdom of Poland (Lesser Poland lords)"]:::fac
+  priesaika["Priesaika (oath-binding)"]:::school
+  reizos_raiteliai["Reizos raiteliai (Riders of the Reise)"]
+  root_mother["Šaknų Motina (Root-Mother)"]:::force
+  rurikids["Rurikids of Moscow"]
+  saule["Saulė"]:::god
+  shadow_seller["Šešėlių Pardavėjas / Henė"]:::force
+  silent_pact["Tylioji Sutartis (Silent Pact)"]:::pact
+  silver_wolf["Sidabrinis vilkas (Kęstutis's amulet)"]:::art
+  skaiciuotojas["Skaičiuotojas (the Counter)"]
+  skirgaila["Skirgaila"]:::char
+  slogutis["Slogutis (the presser)"]
+  smakas["Smakas (the dragon under the cathedral)"]
+  sofija["Sofija Vytautaitė"]:::char
+  steppe_hunger["Stepių Alkis (Erdene-Chuluu)"]:::force
+  svitrigaila["Švitrigaila"]:::char
+  tautvilas["Tautvilas Kęstutaitis (Kondrat)"]:::char
+  teutonic_order["Teutonic Order"]:::fac
+  uzgesiles["Užgesėlės (the Quenched)"]
+  uzkalbejimai["Užkalbėjimai (charms)"]:::school
+  vandenis["Vandenis and undinės (lake-keepers)"]
+  vejopatis["Vėjopatis"]:::god
+  veles["Vėlės (the fed dead)"]
+  velnias["Velnias"]:::god
+  velnio_pavidalai["Velnias's small shapes (velniukai)"]
+  vilkatas["Vilkatas / vilkolakis (cursed werewolf)"]
+  vytautas["Vytautas"]:::char
+  vytautas_sons["Vytautas's sons Jurgis and Ivanas (hostages; contested)"]:::char
+  white_silence["Baltoji Tyla (White Silence)"]:::force
+  white_touch["White Silence's frost-touch"]:::school
+  wolf_change["Vilkų krikštas (wolf-change)"]:::school
+  wolf_skull["Geležinio Vilko kaukolė"]:::art
+  zaltvyksles["Žaltvykslės (bog-lights, treasure-flames)"]
+  zaltys["Žaltys (household grass snake)"]
+  zemyna["Žemyna"]:::god
+  zygimantas["Žygimantas Kęstutaitis"]:::char
+  gediminas --&gt;|parent_of| algirdas
+  gediminas --&gt;|parent_of| kestutis
+  algirdas --&gt;|parent_of| jogaila
+  algirdas --&gt;|parent_of| skirgaila
+  algirdas --&gt;|parent_of| svitrigaila
+  algirdas --&gt;|parent_of| kaributas
+  kestutis --&gt;|spouse_of| birute
+  kestutis --&gt;|parent_of| vytautas
+  birute --&gt;|parent_of| vytautas
+  kestutis --&gt;|parent_of| zygimantas
+  kestutis --&gt;|parent_of| danute
+  danute --&gt;|spouse_of| janusz1
+  vytautas --&gt;|spouse_of| ona
+  vytautas --&gt;|parent_of| sofija
+  vytautas --&gt;|parent_of| vytautas_sons
+  algirdas --&gt;|rules| gdl
+  kestutis --&gt;|rules| gdl
+  jogaila --&gt;|rules| gdl
+  kniprode --&gt;|rules| teutonic_order
+  root_mother --&gt;|face_of| zemyna
+  root_mother --&gt;|face_of| medeina
+  perkuno_rustybe --&gt;|face_of| perkunas
+  shadow_seller --&gt;|shard_of| velnias
+  amber_queen --&gt;|face_of| jurate
+  iron_saint -.-&gt;|egregore_fed_by| teutonic_order
+  white_silence -.-&gt;|egregore_fed_by| poland
+  steppe_hunger -.-&gt;|egregore_fed_by| golden_horde
+  gold_glutton -.-&gt;|egregore_fed_by| hanse
+  jurate --&gt;|vessel_of| amber_queen
+  galminas --&gt;|vessel_of| root_mother
+  perkuno_rustybe -.-&gt;|claims| kestutis
+  root_mother -.-&gt;|patron_of| iron_wolves
+  amber_queen -.-&gt;|patron_of| kestutaiciai
+  steppe_hunger -.-&gt;|patron_of| edigu
+  gintaryste --&gt;|binds| kalba
+  saule -.-&gt;|patron_of| gintaryste
+  perkunas -.-&gt;|patron_of| priesaika
+  zemyna -.-&gt;|patron_of| priesaika
+  laima -.-&gt;|patron_of| el_stars
+  root_mother -.-&gt;|patron_of| wolf_change
+  perkuno_rustybe -.-&gt;|patron_of| claim
+  iron_saint -.-&gt;|patron_of| iron_gift
+  white_silence -.-&gt;|patron_of| white_touch
+  shadow_seller -.-&gt;|patron_of| bargain
+  silent_pact --&gt;|binds| algirdas
+  silent_pact --&gt;|binds| kestutis
+  silent_pact --&gt;|binds| pagan_clergy
+  kestutis --&gt;|holds| kestutis_sword
+  kestutis --&gt;|holds| silver_wolf
+  iron_wolves --&gt;|holds| wolf_skull
+  giltine --&gt;|servant_of| laima
+  menuo -.-&gt;|patron_of| el_water
+  laima -.-&gt;|patron_of| uzkalbejimai
+  gediminaiciai --&gt;|rules| gdl
+  silent_pact --&gt;|binds| gediminaiciai
+  rurikids --&gt;|rules| moscow
+  amber_queen -.-&gt;|patron_of| palanga_vaidilutes
+  zaltys --&gt;|servant_of| root_mother
+  aitvaras --&gt;|servant_of| velnias
+  kaukas --&gt;|servant_of| zemyna
+  barstukai --&gt;|servant_of| root_mother
+  laumes --&gt;|surety_for| silent_pact
+  laumiukai --&gt;|servant_of| laumes
+  vandenis --&gt;|servant_of| jurate
+  zaltvyksles --&gt;|servant_of| velnias
+  girinis --&gt;|shard_of| root_mother
+  vilkatas --&gt;|servant_of| velnias
+  milzinai --&gt;|servant_of| zemyna
+  smakas --&gt;|shard_of| zaltys
+  veles --&gt;|servant_of| vejopatis
+  alkanosios_veles --&gt;|shard_of| veles
+  velnio_pavidalai --&gt;|shard_of| velnias
+  pincuikas --&gt;|servant_of| shadow_seller
+  gelezinis_vilkas --&gt;|servant_of| gediminaiciai
+  nedegintieji --&gt;|shard_of| alkanosios_veles
+  nedegintieji --&gt;|servant_of| iron_saint
+  reizos_raiteliai --&gt;|servant_of| iron_saint
+  bebalsiai --&gt;|servant_of| white_silence
+  uzgesiles --&gt;|shard_of| gabija
+  skaiciuotojas --&gt;|servant_of| gold_glutton
+  hohenstein --&gt;|ally_of| kestutis
+  kestutis --&gt;|parent_of| tautvilas
+  zygimantas --&gt;|parent_of| mykolas
+  saule --&gt;|spouse_of| menuo
+  menuo --&gt;|ally_of| ausrine
+  medeina -.-&gt;|patron_of| girinis
+  slogutis --&gt;|servant_of| velnias
+  classDef char fill:#f3efe6,stroke:#6b5b3e,color:#222
+  classDef force fill:#2d2a3e,stroke:#a08cff,color:#fff
+  classDef god fill:#1f3b4d,stroke:#7fc8f8,color:#fff
+  classDef art fill:#f9d77e,stroke:#a8741a,color:#222
+  classDef fac fill:#e2e8f0,stroke:#475569,color:#222
+  classDef pact fill:#7f1d1d,stroke:#fca5a5,color:#fff
+  classDef school fill:#14532d,stroke:#86efac,color:#fff
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="i-vilko-tremtis-13771387" class="level2">
+<h2 class="anchored" data-anchor-id="i-vilko-tremtis-13771387">I · Vilko Tremtis (1377–1387)</h2>
+<p>108 nodes · 126 relations</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+  aitvaras["Aitvaras (fire-tailed thief)"]
+  algirdaiciai["Algirdaičiai (Algirdas's line)"]:::fac
+  algirdas["Algirdas"]:::char
+  alkanosios_veles["Alkanosios vėlės (the hungry dead)"]
+  amber_queen["Gintaro Karalienė (Amber Queen)"]:::force
+  ausrine["Aušrinė (the morning star)"]:::god
+  bargain["Sandėris (bargain)"]:::school
+  barstukai["Barstukai (under-elder miners)"]
+  bebalsiai["Bebalsiai (the Voiceless)"]
+  birute["Birutė"]:::char
+  claim["Žymė (claim)"]:::school
+  danute["Danutė"]:::char
+  edigu["Edigu"]:::char
+  egle["Eglė (vaidilutė → Pelkių Eglė)"]:::char
+  el_stars["Žvaigždės (Stars)"]:::school
+  el_water["Vanduo (Water)"]:::school
+  ember["Paskutinė žarija (Šventaragis ember)"]:::art
+  flame_promise["The Last Flame promise"]:::pact
+  gabija["Gabija"]:::god
+  galminas["Galminas"]:::char
+  gdl["Grand Duchy of Lithuania"]:::fac
+  gediminaiciai["Gediminaičiai (House of Gediminas)"]
+  gelezinis_vilkas["Geležinis Vilkas (the Iron Wolf omen)"]
+  giltine["Giltinė"]:::god
+  gintaryste["Gintarystė (amber-craft)"]:::school
+  girinis["Girinis / miškinis (grove-keepers)"]
+  gold_glutton["Aukso Rijūnas (Mercator-Rex)"]:::force
+  golden_chain["Auksinė grandinė (the strangling chain)"]:::art
+  golden_horde["Golden Horde"]:::fac
+  hanse["Hanseatic merchants"]:::fac
+  hanulas["Hanulas (Riga merchant)"]:::char
+  iron_gift["Iron Saint's fearlessness"]:::school
+  iron_saint["Geležinis Šventasis (Ferrum Sanctum)"]:::force
+  iron_wolves["Vilkatai (Iron Wolves)"]:::fac
+  jadvyga["Jadvyga (Jadwiga)"]:::char
+  janusz1["Janusz I of Masovia"]:::char
+  jogaila["Jogaila"]:::char
+  jogailaiciai["Jogailaičiai (Jagiellonians)"]
+  jurate["Jūratė"]:::god
+  kalba["Senovės Kalba"]:::school
+  kaributas["Kaributas"]:::char
+  kaukas["Kaukas / barzdukai (field-luck)"]
+  kestutaiciai["Kęstutaičiai (Kęstutis's line)"]:::fac
+  kestutis["Kęstutis"]:::char
+  kestutis_sword["Šerno kalavijas (Kęstutis's sword)"]:::art
+  kniprode["Winrich von Kniprode"]:::char
+  laima["Laima"]:::god
+  laumes["Laumės (weavers by the water)"]
+  laumiukai["Laumiukai (changelings)"]
+  liebenstein["Kuno von Liebenstein"]:::char
+  marquard["Marquard von Salzbach"]:::char
+  masovian_piasts["Masovian Piasts"]
+  medeina["Medeina"]:::god
+  menuo["Mėnuo"]:::god
+  milzinai["Milžinai (giants)"]
+  moscow["Grand Principality of Moscow"]:::fac
+  mykolas["Mykolas Žygimantaitis"]:::char
+  nedegintieji["Nedegintieji (the Unburned)"]
+  ona["Ona"]:::char
+  order_sword["Kryžiaus kalavijas (the Order's sword)"]:::art
+  pagan_clergy["Pagan clergy (Krivis, žyniai, vaidilutės)"]:::fac
+  palanga_vaidilutes["Palanga amber-priestess line (Gintaro vaidilutės)"]
+  pebble["Motinos gintaras (Birutė's pebble)"]:::art
+  perkunas["Perkūnas"]:::god
+  perkuno_rustybe["Perkūno Rūstybė"]:::force
+  pincuikas["Pinčiukas (clerk of small bargains)"]
+  poland["Kingdom of Poland (Lesser Poland lords)"]:::fac
+  priesaika["Priesaika (oath-binding)"]:::school
+  ragana["Ragana (seer-witch)"]
+  reizos_raiteliai["Reizos raiteliai (Riders of the Reise)"]
+  root_mother["Šaknų Motina (Root-Mother)"]:::force
+  rurikids["Rurikids of Moscow"]
+  saule["Saulė"]:::god
+  shadow_seller["Šešėlių Pardavėjas / Henė"]:::force
+  silent_pact["Tylioji Sutartis (Silent Pact)"]:::pact
+  silver_wolf["Sidabrinis vilkas (Kęstutis's amulet)"]:::art
+  skaiciuotojas["Skaičiuotojas (the Counter)"]
+  skirgaila["Skirgaila"]:::char
+  slogutis["Slogutis (the presser)"]
+  smakas["Smakas (the dragon under the cathedral)"]
+  sofija["Sofija Vytautaitė"]:::char
+  steppe_hunger["Stepių Alkis (Erdene-Chuluu)"]:::force
+  sutartis_birute["Birutė's Senovės Sutartis over Vytautas"]:::pact
+  svitrigaila["Švitrigaila"]:::char
+  tautvilas["Tautvilas Kęstutaitis (Kondrat)"]:::char
+  teutonic_order["Teutonic Order"]:::fac
+  three_stones["Henė's three black stones"]:::art
+  tokhtamysh["Tokhtamysh"]:::char
+  trakai["Trakai"]
+  uzgesiles["Užgesėlės (the Quenched)"]
+  uzkalbejimai["Užkalbėjimai (charms)"]:::school
+  vandenis["Vandenis and undinės (lake-keepers)"]
+  vejopatis["Vėjopatis"]:::god
+  veles["Vėlės (the fed dead)"]
+  velnias["Velnias"]:::god
+  velnio_pavidalai["Velnias's small shapes (velniukai)"]
+  vilkatas["Vilkatas / vilkolakis (cursed werewolf)"]
+  vytautas["Vytautas"]:::char
+  vytautas_sons["Vytautas's sons Jurgis and Ivanas (hostages; contested)"]:::char
+  white_silence["Baltoji Tyla (White Silence)"]:::force
+  white_touch["White Silence's frost-touch"]:::school
+  wolf_change["Vilkų krikštas (wolf-change)"]:::school
+  wolf_skull["Geležinio Vilko kaukolė"]:::art
+  zaltvyksles["Žaltvykslės (bog-lights, treasure-flames)"]
+  zaltys["Žaltys (household grass snake)"]
+  zemyna["Žemyna"]:::god
+  zollner["Konrad Zöllner von Rotenstein"]:::char
+  zygimantas["Žygimantas Kęstutaitis"]:::char
+  algirdas --&gt;|parent_of| jogaila
+  algirdas --&gt;|parent_of| skirgaila
+  algirdas --&gt;|parent_of| svitrigaila
+  algirdas --&gt;|parent_of| kaributas
+  kestutis --&gt;|spouse_of| birute
+  kestutis --&gt;|parent_of| vytautas
+  birute --&gt;|parent_of| vytautas
+  kestutis --&gt;|parent_of| zygimantas
+  kestutis --&gt;|parent_of| danute
+  danute --&gt;|spouse_of| janusz1
+  vytautas --&gt;|spouse_of| ona
+  vytautas --&gt;|parent_of| sofija
+  vytautas --&gt;|parent_of| vytautas_sons
+  jogaila --&gt;|spouse_of| jadvyga
+  algirdas --&gt;|rules| gdl
+  kestutis --&gt;|rules| gdl
+  jogaila --&gt;|rules| gdl
+  skirgaila --&gt;|rules| trakai
+  jogaila --&gt;|rules| poland
+  jadvyga --&gt;|rules| poland
+  kniprode --&gt;|rules| teutonic_order
+  zollner --&gt;|rules| teutonic_order
+  tokhtamysh --&gt;|rules| golden_horde
+  jogaila --&gt;|ally_of| teutonic_order
+  jogaila --x|enemy_of| kestutis
+  skirgaila --x|enemy_of| kestutis
+  vytautas --x|enemy_of| jogaila
+  vytautas --x|enemy_of| skirgaila
+  vytautas --&gt;|ally_of| janusz1
+  vytautas --&gt;|vassal_of| teutonic_order
+  vytautas --x|enemy_of| teutonic_order
+  ona --&gt;|hostage_of| teutonic_order
+  vytautas --&gt;|ally_of| jogaila
+  root_mother --&gt;|face_of| zemyna
+  root_mother --&gt;|face_of| medeina
+  perkuno_rustybe --&gt;|face_of| perkunas
+  shadow_seller --&gt;|shard_of| velnias
+  amber_queen --&gt;|face_of| jurate
+  iron_saint -.-&gt;|egregore_fed_by| teutonic_order
+  white_silence -.-&gt;|egregore_fed_by| poland
+  white_silence -.-&gt;|egregore_fed_by| algirdaiciai
+  steppe_hunger -.-&gt;|egregore_fed_by| golden_horde
+  gold_glutton -.-&gt;|egregore_fed_by| hanse
+  birute --&gt;|vessel_of| amber_queen
+  jurate --&gt;|vessel_of| amber_queen
+  jadvyga --&gt;|vessel_of| white_silence
+  galminas --&gt;|vessel_of| root_mother
+  egle --&gt;|servant_of| root_mother
+  hanulas -.-&gt;|mask_of| shadow_seller
+  shadow_seller -.-&gt;|bargain_with| jogaila
+  shadow_seller -.-&gt;|bargain_with| skirgaila
+  perkuno_rustybe -.-&gt;|claims| kestutis
+  perkuno_rustybe -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|patron_of| iron_wolves
+  amber_queen -.-&gt;|patron_of| kestutaiciai
+  iron_saint -.-&gt;|patron_of| zollner
+  steppe_hunger -.-&gt;|patron_of| edigu
+  gintaryste --&gt;|binds| kalba
+  saule -.-&gt;|patron_of| gintaryste
+  perkunas -.-&gt;|patron_of| priesaika
+  zemyna -.-&gt;|patron_of| priesaika
+  laima -.-&gt;|patron_of| el_stars
+  root_mother -.-&gt;|patron_of| wolf_change
+  perkuno_rustybe -.-&gt;|patron_of| claim
+  iron_saint -.-&gt;|patron_of| iron_gift
+  white_silence -.-&gt;|patron_of| white_touch
+  shadow_seller -.-&gt;|patron_of| bargain
+  sutartis_birute --&gt;|binds| vytautas
+  birute --&gt;|surety_for| vytautas
+  flame_promise --&gt;|binds| vytautas
+  silent_pact --&gt;|binds| algirdas
+  silent_pact --&gt;|binds| kestutis
+  silent_pact --&gt;|binds| pagan_clergy
+  vytautas --&gt;|holds| pebble
+  kestutis --&gt;|holds| kestutis_sword
+  skirgaila --&gt;|holds| kestutis_sword
+  kestutis --&gt;|holds| silver_wolf
+  vytautas --&gt;|holds| silver_wolf
+  jogaila --&gt;|holds| golden_chain
+  skirgaila --&gt;|holds| golden_chain
+  vytautas --&gt;|holds| ember
+  vytautas --&gt;|holds| order_sword
+  shadow_seller --&gt;|holds| three_stones
+  iron_wolves --&gt;|holds| wolf_skull
+  giltine --&gt;|servant_of| laima
+  menuo -.-&gt;|patron_of| el_water
+  laima -.-&gt;|patron_of| uzkalbejimai
+  gediminaiciai --&gt;|rules| gdl
+  jogailaiciai --&gt;|rules| poland
+  silent_pact --&gt;|binds| gediminaiciai
+  kestutaiciai --&gt;|ally_of| masovian_piasts
+  rurikids --&gt;|rules| moscow
+  amber_queen -.-&gt;|patron_of| palanga_vaidilutes
+  zaltys --&gt;|servant_of| root_mother
+  aitvaras --&gt;|servant_of| velnias
+  kaukas --&gt;|servant_of| zemyna
+  barstukai --&gt;|servant_of| root_mother
+  laumes --&gt;|surety_for| silent_pact
+  laumiukai --&gt;|servant_of| laumes
+  vandenis --&gt;|servant_of| jurate
+  zaltvyksles --&gt;|servant_of| velnias
+  girinis --&gt;|shard_of| root_mother
+  vilkatas --&gt;|servant_of| velnias
+  milzinai --&gt;|servant_of| zemyna
+  smakas --&gt;|shard_of| zaltys
+  veles --&gt;|servant_of| vejopatis
+  alkanosios_veles --&gt;|shard_of| veles
+  velnio_pavidalai --&gt;|shard_of| velnias
+  pincuikas --&gt;|servant_of| shadow_seller
+  ragana -.-&gt;|bargain_with| velnio_pavidalai
+  gelezinis_vilkas --&gt;|servant_of| gediminaiciai
+  nedegintieji --&gt;|shard_of| alkanosios_veles
+  nedegintieji --&gt;|servant_of| iron_saint
+  reizos_raiteliai --&gt;|servant_of| iron_saint
+  bebalsiai --&gt;|servant_of| white_silence
+  uzgesiles --&gt;|shard_of| gabija
+  skaiciuotojas --&gt;|servant_of| gold_glutton
+  liebenstein --&gt;|ally_of| kestutis
+  kestutis --&gt;|parent_of| tautvilas
+  marquard --&gt;|ally_of| vytautas
+  zygimantas --&gt;|parent_of| mykolas
+  saule --&gt;|spouse_of| menuo
+  menuo --&gt;|ally_of| ausrine
+  medeina -.-&gt;|patron_of| girinis
+  slogutis --&gt;|servant_of| velnias
+  classDef char fill:#f3efe6,stroke:#6b5b3e,color:#222
+  classDef force fill:#2d2a3e,stroke:#a08cff,color:#fff
+  classDef god fill:#1f3b4d,stroke:#7fc8f8,color:#fff
+  classDef art fill:#f9d77e,stroke:#a8741a,color:#222
+  classDef fac fill:#e2e8f0,stroke:#475569,color:#222
+  classDef pact fill:#7f1d1d,stroke:#fca5a5,color:#fff
+  classDef school fill:#14532d,stroke:#86efac,color:#fff
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="ii-auksinis-šešėlis-13871399" class="level2">
+<h2 class="anchored" data-anchor-id="ii-auksinis-šešėlis-13871399">II · Auksinis Šešėlis (1387–1399)</h2>
+<p>99 nodes · 114 relations</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+  aitvaras["Aitvaras (fire-tailed thief)"]
+  algirdaiciai["Algirdaičiai (Algirdas's line)"]:::fac
+  alkanosios_veles["Alkanosios vėlės (the hungry dead)"]
+  amber_queen["Gintaro Karalienė (Amber Queen)"]:::force
+  ausrine["Aušrinė (the morning star)"]:::god
+  bargain["Sandėris (bargain)"]:::school
+  barstukai["Barstukai (under-elder miners)"]
+  bebalsiai["Bebalsiai (the Voiceless)"]
+  claim["Žymė (claim)"]:::school
+  danute["Danutė"]:::char
+  edigu["Edigu"]:::char
+  egle["Eglė (vaidilutė → Pelkių Eglė)"]:::char
+  el_stars["Žvaigždės (Stars)"]:::school
+  el_water["Vanduo (Water)"]:::school
+  ember["Paskutinė žarija (Šventaragis ember)"]:::art
+  flame_promise["The Last Flame promise"]:::pact
+  gabija["Gabija"]:::god
+  galminas["Galminas"]:::char
+  gdl["Grand Duchy of Lithuania"]:::fac
+  gediminaiciai["Gediminaičiai (House of Gediminas)"]
+  gelezinis_vilkas["Geležinis Vilkas (the Iron Wolf omen)"]
+  giltine["Giltinė"]:::god
+  gintaryste["Gintarystė (amber-craft)"]:::school
+  girinis["Girinis / miškinis (grove-keepers)"]
+  gold_glutton["Aukso Rijūnas (Mercator-Rex)"]:::force
+  golden_chain["Auksinė grandinė (the strangling chain)"]:::art
+  golden_horde["Golden Horde"]:::fac
+  hanse["Hanseatic merchants"]:::fac
+  iron_gift["Iron Saint's fearlessness"]:::school
+  iron_saint["Geležinis Šventasis (Ferrum Sanctum)"]:::force
+  iron_wolves["Vilkatai (Iron Wolves)"]:::fac
+  jadvyga["Jadvyga (Jadwiga)"]:::char
+  janusz1["Janusz I of Masovia"]:::char
+  jogaila["Jogaila"]:::char
+  jogailaiciai["Jogailaičiai (Jagiellonians)"]
+  jurate["Jūratė"]:::god
+  kalba["Senovės Kalba"]:::school
+  kaukas["Kaukas / barzdukai (field-luck)"]
+  kestutaiciai["Kęstutaičiai (Kęstutis's line)"]:::fac
+  kestutis_sword["Šerno kalavijas (Kęstutis's sword)"]:::art
+  laima["Laima"]:::god
+  laumes["Laumės (weavers by the water)"]
+  laumiukai["Laumiukai (changelings)"]
+  marquard["Marquard von Salzbach"]:::char
+  masovian_piasts["Masovian Piasts"]
+  medeina["Medeina"]:::god
+  menuo["Mėnuo"]:::god
+  milzinai["Milžinai (giants)"]
+  moscow["Grand Principality of Moscow"]:::fac
+  mykolas["Mykolas Žygimantaitis"]:::char
+  nedegintieji["Nedegintieji (the Unburned)"]
+  ona["Ona"]:::char
+  pagan_clergy["Pagan clergy (Krivis, žyniai, vaidilutės)"]:::fac
+  palanga_vaidilutes["Palanga amber-priestess line (Gintaro vaidilutės)"]
+  pebble["Motinos gintaras (Birutė's pebble)"]:::art
+  perkunas["Perkūnas"]:::god
+  perkuno_rustybe["Perkūno Rūstybė"]:::force
+  pincuikas["Pinčiukas (clerk of small bargains)"]
+  poland["Kingdom of Poland (Lesser Poland lords)"]:::fac
+  priesaika["Priesaika (oath-binding)"]:::school
+  ragana["Ragana (seer-witch)"]
+  reizos_raiteliai["Reizos raiteliai (Riders of the Reise)"]
+  root_mother["Šaknų Motina (Root-Mother)"]:::force
+  rurikids["Rurikids of Moscow"]
+  saule["Saulė"]:::god
+  shadow_seller["Šešėlių Pardavėjas / Henė"]:::force
+  silent_pact["Tylioji Sutartis (Silent Pact)"]:::pact
+  silver_wolf["Sidabrinis vilkas (Kęstutis's amulet)"]:::art
+  skaiciuotojas["Skaičiuotojas (the Counter)"]
+  skirgaila["Skirgaila"]:::char
+  slogutis["Slogutis (the presser)"]
+  smakas["Smakas (the dragon under the cathedral)"]
+  sofija["Sofija Vytautaitė"]:::char
+  steppe_hunger["Stepių Alkis (Erdene-Chuluu)"]:::force
+  sutartis_birute["Birutė's Senovės Sutartis over Vytautas"]:::pact
+  teutonic_order["Teutonic Order"]:::fac
+  three_stones["Henė's three black stones"]:::art
+  tokhtamysh["Tokhtamysh"]:::char
+  trakai["Trakai"]
+  uzgesiles["Užgesėlės (the Quenched)"]
+  uzkalbejimai["Užkalbėjimai (charms)"]:::school
+  vandenis["Vandenis and undinės (lake-keepers)"]
+  vasily1["Vasily I of Moscow"]:::char
+  vejopatis["Vėjopatis"]:::god
+  veles["Vėlės (the fed dead)"]
+  velnias["Velnias"]:::god
+  velnio_pavidalai["Velnias's small shapes (velniukai)"]
+  vilkatas["Vilkatas / vilkolakis (cursed werewolf)"]
+  vytautas["Vytautas"]:::char
+  vytautas_sons["Vytautas's sons Jurgis and Ivanas (hostages; contested)"]:::char
+  white_silence["Baltoji Tyla (White Silence)"]:::force
+  white_touch["White Silence's frost-touch"]:::school
+  wolf_change["Vilkų krikštas (wolf-change)"]:::school
+  wolf_skull["Geležinio Vilko kaukolė"]:::art
+  zaltvyksles["Žaltvykslės (bog-lights, treasure-flames)"]
+  zaltys["Žaltys (household grass snake)"]
+  zemyna["Žemyna"]:::god
+  zollner["Konrad Zöllner von Rotenstein"]:::char
+  zygimantas["Žygimantas Kęstutaitis"]:::char
+  danute --&gt;|spouse_of| janusz1
+  vytautas --&gt;|spouse_of| ona
+  vytautas --&gt;|parent_of| sofija
+  vytautas --&gt;|parent_of| vytautas_sons
+  sofija --&gt;|spouse_of| vasily1
+  jogaila --&gt;|spouse_of| jadvyga
+  jogaila --&gt;|rules| gdl
+  skirgaila --&gt;|rules| trakai
+  vytautas --&gt;|rules| gdl
+  jogaila --&gt;|rules| poland
+  jadvyga --&gt;|rules| poland
+  zollner --&gt;|rules| teutonic_order
+  tokhtamysh --&gt;|rules| golden_horde
+  edigu --&gt;|rules| golden_horde
+  vasily1 --&gt;|rules| moscow
+  vytautas --x|enemy_of| skirgaila
+  vytautas --x|enemy_of| teutonic_order
+  vytautas --&gt;|ally_of| jogaila
+  vytautas --x|enemy_of| jogaila
+  vytautas --&gt;|ally_of| teutonic_order
+  vytautas_sons --&gt;|hostage_of| teutonic_order
+  vytautas --&gt;|ally_of| jogaila
+  vytautas --x|enemy_of| teutonic_order
+  vytautas --&gt;|ally_of| tokhtamysh
+  vytautas --x|enemy_of| edigu
+  root_mother --&gt;|face_of| zemyna
+  root_mother --&gt;|face_of| medeina
+  perkuno_rustybe --&gt;|face_of| perkunas
+  shadow_seller --&gt;|shard_of| velnias
+  amber_queen --&gt;|face_of| jurate
+  iron_saint -.-&gt;|egregore_fed_by| teutonic_order
+  white_silence -.-&gt;|egregore_fed_by| poland
+  white_silence -.-&gt;|egregore_fed_by| algirdaiciai
+  steppe_hunger -.-&gt;|egregore_fed_by| golden_horde
+  gold_glutton -.-&gt;|egregore_fed_by| hanse
+  jurate --&gt;|vessel_of| amber_queen
+  jadvyga --&gt;|vessel_of| white_silence
+  galminas --&gt;|vessel_of| root_mother
+  egle --&gt;|servant_of| root_mother
+  shadow_seller -.-&gt;|bargain_with| jogaila
+  shadow_seller -.-&gt;|bargain_with| skirgaila
+  shadow_seller -.-&gt;|bargain_with| vytautas
+  perkuno_rustybe -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|patron_of| iron_wolves
+  amber_queen -.-&gt;|patron_of| kestutaiciai
+  iron_saint -.-&gt;|patron_of| zollner
+  steppe_hunger -.-&gt;|patron_of| edigu
+  gintaryste --&gt;|binds| kalba
+  saule -.-&gt;|patron_of| gintaryste
+  perkunas -.-&gt;|patron_of| priesaika
+  zemyna -.-&gt;|patron_of| priesaika
+  laima -.-&gt;|patron_of| el_stars
+  root_mother -.-&gt;|patron_of| wolf_change
+  perkuno_rustybe -.-&gt;|patron_of| claim
+  iron_saint -.-&gt;|patron_of| iron_gift
+  white_silence -.-&gt;|patron_of| white_touch
+  shadow_seller -.-&gt;|patron_of| bargain
+  sutartis_birute --&gt;|binds| vytautas
+  flame_promise --&gt;|binds| vytautas
+  silent_pact --&gt;|binds| pagan_clergy
+  vytautas --&gt;|holds| pebble
+  skirgaila --&gt;|holds| kestutis_sword
+  vytautas --&gt;|holds| silver_wolf
+  skirgaila --&gt;|holds| golden_chain
+  vytautas --&gt;|holds| ember
+  shadow_seller --&gt;|holds| three_stones
+  iron_wolves --&gt;|holds| wolf_skull
+  shadow_seller --&gt;|holds| golden_chain
+  giltine --&gt;|servant_of| laima
+  menuo -.-&gt;|patron_of| el_water
+  laima -.-&gt;|patron_of| uzkalbejimai
+  zygimantas --&gt;|hostage_of| teutonic_order
+  gediminaiciai --&gt;|rules| gdl
+  jogailaiciai --&gt;|rules| poland
+  silent_pact --&gt;|binds| gediminaiciai
+  kestutaiciai --&gt;|ally_of| masovian_piasts
+  rurikids --&gt;|rules| moscow
+  kestutaiciai --&gt;|ally_of| rurikids
+  amber_queen -.-&gt;|patron_of| palanga_vaidilutes
+  zaltys --&gt;|servant_of| root_mother
+  aitvaras --&gt;|servant_of| velnias
+  kaukas --&gt;|servant_of| zemyna
+  barstukai --&gt;|servant_of| root_mother
+  laumes --&gt;|surety_for| silent_pact
+  laumiukai --&gt;|servant_of| laumes
+  vandenis --&gt;|servant_of| jurate
+  zaltvyksles --&gt;|servant_of| velnias
+  girinis --&gt;|shard_of| root_mother
+  vilkatas --&gt;|servant_of| velnias
+  milzinai --&gt;|servant_of| zemyna
+  smakas --&gt;|shard_of| zaltys
+  veles --&gt;|servant_of| vejopatis
+  alkanosios_veles --&gt;|shard_of| veles
+  velnio_pavidalai --&gt;|shard_of| velnias
+  pincuikas --&gt;|servant_of| shadow_seller
+  ragana -.-&gt;|bargain_with| velnio_pavidalai
+  gelezinis_vilkas --&gt;|servant_of| gediminaiciai
+  nedegintieji --&gt;|shard_of| alkanosios_veles
+  nedegintieji --&gt;|servant_of| iron_saint
+  reizos_raiteliai --&gt;|servant_of| iron_saint
+  bebalsiai --&gt;|servant_of| white_silence
+  uzgesiles --&gt;|shard_of| gabija
+  skaiciuotojas --&gt;|servant_of| gold_glutton
+  ona --&gt;|hostage_of| teutonic_order
+  sofija --&gt;|hostage_of| teutonic_order
+  marquard --&gt;|ally_of| vytautas
+  marquard --x|enemy_of| vytautas
+  zygimantas --&gt;|parent_of| mykolas
+  iron_wolves --&gt;|holds| kestutis_sword
+  saule --&gt;|spouse_of| menuo
+  menuo --&gt;|ally_of| ausrine
+  medeina -.-&gt;|patron_of| girinis
+  slogutis --&gt;|servant_of| velnias
+  classDef char fill:#f3efe6,stroke:#6b5b3e,color:#222
+  classDef force fill:#2d2a3e,stroke:#a08cff,color:#fff
+  classDef god fill:#1f3b4d,stroke:#7fc8f8,color:#fff
+  classDef art fill:#f9d77e,stroke:#a8741a,color:#222
+  classDef fac fill:#e2e8f0,stroke:#475569,color:#222
+  classDef pact fill:#7f1d1d,stroke:#fca5a5,color:#fff
+  classDef school fill:#14532d,stroke:#86efac,color:#fff
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="iii-žaliasis-miškas-13991411" class="level2">
+<h2 class="anchored" data-anchor-id="iii-žaliasis-miškas-13991411">III · Žaliasis Miškas (1399–1411)</h2>
+<p>95 nodes · 98 relations</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+  aitvaras["Aitvaras (fire-tailed thief)"]
+  algirdaiciai["Algirdaičiai (Algirdas's line)"]:::fac
+  alkanosios_veles["Alkanosios vėlės (the hungry dead)"]
+  amber_queen["Gintaro Karalienė (Amber Queen)"]:::force
+  ausrine["Aušrinė (the morning star)"]:::god
+  bargain["Sandėris (bargain)"]:::school
+  barstukai["Barstukai (under-elder miners)"]
+  bebalsiai["Bebalsiai (the Voiceless)"]
+  claim["Žymė (claim)"]:::school
+  danute["Danutė"]:::char
+  edigu["Edigu"]:::char
+  egle["Eglė (vaidilutė → Pelkių Eglė)"]:::char
+  el_stars["Žvaigždės (Stars)"]:::school
+  el_water["Vanduo (Water)"]:::school
+  ember["Paskutinė žarija (Šventaragis ember)"]:::art
+  flame_promise["The Last Flame promise"]:::pact
+  gabija["Gabija"]:::god
+  galminas["Galminas"]:::char
+  gdl["Grand Duchy of Lithuania"]:::fac
+  gediminaiciai["Gediminaičiai (House of Gediminas)"]
+  gelezinis_vilkas["Geležinis Vilkas (the Iron Wolf omen)"]
+  giltine["Giltinė"]:::god
+  gintaryste["Gintarystė (amber-craft)"]:::school
+  girinis["Girinis / miškinis (grove-keepers)"]
+  gold_glutton["Aukso Rijūnas (Mercator-Rex)"]:::force
+  golden_chain["Auksinė grandinė (the strangling chain)"]:::art
+  golden_horde["Golden Horde"]:::fac
+  hanse["Hanseatic merchants"]:::fac
+  iron_gift["Iron Saint's fearlessness"]:::school
+  iron_saint["Geležinis Šventasis (Ferrum Sanctum)"]:::force
+  iron_wolves["Vilkatai (Iron Wolves)"]:::fac
+  jadvyga["Jadvyga (Jadwiga)"]:::char
+  janusz1["Janusz I of Masovia"]:::char
+  jogaila["Jogaila"]:::char
+  jogailaiciai["Jogailaičiai (Jagiellonians)"]
+  jungingen["Ulrich von Jungingen"]:::char
+  jurate["Jūratė"]:::god
+  kalba["Senovės Kalba"]:::school
+  kaukas["Kaukas / barzdukai (field-luck)"]
+  kestutaiciai["Kęstutaičiai (Kęstutis's line)"]:::fac
+  kestutis_sword["Šerno kalavijas (Kęstutis's sword)"]:::art
+  laima["Laima"]:::god
+  laumes["Laumės (weavers by the water)"]
+  laumiukai["Laumiukai (changelings)"]
+  marquard["Marquard von Salzbach"]:::char
+  masovian_piasts["Masovian Piasts"]
+  medeina["Medeina"]:::god
+  menuo["Mėnuo"]:::god
+  milzinai["Milžinai (giants)"]
+  moscow["Grand Principality of Moscow"]:::fac
+  mykolas["Mykolas Žygimantaitis"]:::char
+  nedegintieji["Nedegintieji (the Unburned)"]
+  olesnicki["Zbigniew Oleśnicki"]:::char
+  ona["Ona"]:::char
+  palanga_vaidilutes["Palanga amber-priestess line (Gintaro vaidilutės)"]
+  pebble["Motinos gintaras (Birutė's pebble)"]:::art
+  perkunas["Perkūnas"]:::god
+  perkuno_rustybe["Perkūno Rūstybė"]:::force
+  pincuikas["Pinčiukas (clerk of small bargains)"]
+  poland["Kingdom of Poland (Lesser Poland lords)"]:::fac
+  priesaika["Priesaika (oath-binding)"]:::school
+  ragana["Ragana (seer-witch)"]
+  reizos_raiteliai["Reizos raiteliai (Riders of the Reise)"]
+  root_mother["Šaknų Motina (Root-Mother)"]:::force
+  rurikids["Rurikids of Moscow"]
+  saule["Saulė"]:::god
+  shadow_seller["Šešėlių Pardavėjas / Henė"]:::force
+  silver_wolf["Sidabrinis vilkas (Kęstutis's amulet)"]:::art
+  skaiciuotojas["Skaičiuotojas (the Counter)"]
+  slogutis["Slogutis (the presser)"]
+  smakas["Smakas (the dragon under the cathedral)"]
+  sofija["Sofija Vytautaitė"]:::char
+  steppe_hunger["Stepių Alkis (Erdene-Chuluu)"]:::force
+  sutartis_birute["Birutė's Senovės Sutartis over Vytautas"]:::pact
+  teutonic_order["Teutonic Order"]:::fac
+  three_stones["Henė's three black stones"]:::art
+  tokhtamysh["Tokhtamysh"]:::char
+  uzgesiles["Užgesėlės (the Quenched)"]
+  uzkalbejimai["Užkalbėjimai (charms)"]:::school
+  vandenis["Vandenis and undinės (lake-keepers)"]
+  vasily1["Vasily I of Moscow"]:::char
+  vejopatis["Vėjopatis"]:::god
+  veles["Vėlės (the fed dead)"]
+  velnias["Velnias"]:::god
+  velnio_pavidalai["Velnias's small shapes (velniukai)"]
+  vilkatas["Vilkatas / vilkolakis (cursed werewolf)"]
+  vytautas["Vytautas"]:::char
+  white_silence["Baltoji Tyla (White Silence)"]:::force
+  white_touch["White Silence's frost-touch"]:::school
+  wolf_change["Vilkų krikštas (wolf-change)"]:::school
+  wolf_skull["Geležinio Vilko kaukolė"]:::art
+  zaltvyksles["Žaltvykslės (bog-lights, treasure-flames)"]
+  zaltys["Žaltys (household grass snake)"]
+  zemyna["Žemyna"]:::god
+  zygimantas["Žygimantas Kęstutaitis"]:::char
+  danute --&gt;|spouse_of| janusz1
+  vytautas --&gt;|spouse_of| ona
+  vytautas --&gt;|parent_of| sofija
+  sofija --&gt;|spouse_of| vasily1
+  jogaila --&gt;|spouse_of| jadvyga
+  vytautas --&gt;|rules| gdl
+  jogaila --&gt;|rules| poland
+  jadvyga --&gt;|rules| poland
+  jungingen --&gt;|rules| teutonic_order
+  edigu --&gt;|rules| golden_horde
+  vasily1 --&gt;|rules| moscow
+  vytautas --&gt;|ally_of| jogaila
+  vytautas --x|enemy_of| teutonic_order
+  vytautas --&gt;|ally_of| tokhtamysh
+  vytautas --x|enemy_of| edigu
+  vytautas --x|enemy_of| jungingen
+  root_mother --&gt;|face_of| zemyna
+  root_mother --&gt;|face_of| medeina
+  perkuno_rustybe --&gt;|face_of| perkunas
+  shadow_seller --&gt;|shard_of| velnias
+  amber_queen --&gt;|face_of| jurate
+  iron_saint -.-&gt;|egregore_fed_by| teutonic_order
+  white_silence -.-&gt;|egregore_fed_by| poland
+  white_silence -.-&gt;|egregore_fed_by| algirdaiciai
+  steppe_hunger -.-&gt;|egregore_fed_by| golden_horde
+  gold_glutton -.-&gt;|egregore_fed_by| hanse
+  gold_glutton -.-&gt;|egregore_fed_by| poland
+  jurate --&gt;|vessel_of| amber_queen
+  jadvyga --&gt;|vessel_of| white_silence
+  galminas --&gt;|vessel_of| root_mother
+  egle --&gt;|servant_of| root_mother
+  shadow_seller -.-&gt;|bargain_with| jogaila
+  shadow_seller -.-&gt;|bargain_with| vytautas
+  perkuno_rustybe -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|patron_of| iron_wolves
+  amber_queen -.-&gt;|patron_of| kestutaiciai
+  iron_saint -.-&gt;|patron_of| jungingen
+  steppe_hunger -.-&gt;|patron_of| edigu
+  gold_glutton -.-&gt;|patron_of| olesnicki
+  gintaryste --&gt;|binds| kalba
+  saule -.-&gt;|patron_of| gintaryste
+  perkunas -.-&gt;|patron_of| priesaika
+  zemyna -.-&gt;|patron_of| priesaika
+  laima -.-&gt;|patron_of| el_stars
+  root_mother -.-&gt;|patron_of| wolf_change
+  perkuno_rustybe -.-&gt;|patron_of| claim
+  iron_saint -.-&gt;|patron_of| iron_gift
+  white_silence -.-&gt;|patron_of| white_touch
+  shadow_seller -.-&gt;|patron_of| bargain
+  sutartis_birute --&gt;|binds| vytautas
+  flame_promise --&gt;|binds| vytautas
+  vytautas --&gt;|holds| pebble
+  vytautas --&gt;|holds| kestutis_sword
+  vytautas --&gt;|holds| silver_wolf
+  vytautas --&gt;|holds| ember
+  shadow_seller --&gt;|holds| three_stones
+  iron_wolves --&gt;|holds| wolf_skull
+  shadow_seller --&gt;|holds| golden_chain
+  giltine --&gt;|servant_of| laima
+  menuo -.-&gt;|patron_of| el_water
+  laima -.-&gt;|patron_of| uzkalbejimai
+  gediminaiciai --&gt;|rules| gdl
+  jogailaiciai --&gt;|rules| poland
+  kestutaiciai --&gt;|ally_of| masovian_piasts
+  rurikids --&gt;|rules| moscow
+  kestutaiciai --&gt;|ally_of| rurikids
+  amber_queen -.-&gt;|patron_of| palanga_vaidilutes
+  zaltys --&gt;|servant_of| root_mother
+  aitvaras --&gt;|servant_of| velnias
+  kaukas --&gt;|servant_of| zemyna
+  barstukai --&gt;|servant_of| root_mother
+  laumiukai --&gt;|servant_of| laumes
+  vandenis --&gt;|servant_of| jurate
+  zaltvyksles --&gt;|servant_of| velnias
+  girinis --&gt;|shard_of| root_mother
+  vilkatas --&gt;|servant_of| velnias
+  milzinai --&gt;|servant_of| zemyna
+  smakas --&gt;|shard_of| zaltys
+  veles --&gt;|servant_of| vejopatis
+  alkanosios_veles --&gt;|shard_of| veles
+  velnio_pavidalai --&gt;|shard_of| velnias
+  pincuikas --&gt;|servant_of| shadow_seller
+  ragana -.-&gt;|bargain_with| velnio_pavidalai
+  gelezinis_vilkas --&gt;|servant_of| gediminaiciai
+  nedegintieji --&gt;|shard_of| alkanosios_veles
+  nedegintieji --&gt;|servant_of| iron_saint
+  reizos_raiteliai --&gt;|servant_of| iron_saint
+  bebalsiai --&gt;|servant_of| white_silence
+  uzgesiles --&gt;|shard_of| gabija
+  skaiciuotojas --&gt;|servant_of| gold_glutton
+  marquard --x|enemy_of| vytautas
+  zygimantas --&gt;|parent_of| mykolas
+  iron_wolves --&gt;|holds| kestutis_sword
+  saule --&gt;|spouse_of| menuo
+  menuo --&gt;|ally_of| ausrine
+  medeina -.-&gt;|patron_of| girinis
+  slogutis --&gt;|servant_of| velnias
+  classDef char fill:#f3efe6,stroke:#6b5b3e,color:#222
+  classDef force fill:#2d2a3e,stroke:#a08cff,color:#fff
+  classDef god fill:#1f3b4d,stroke:#7fc8f8,color:#fff
+  classDef art fill:#f9d77e,stroke:#a8741a,color:#222
+  classDef fac fill:#e2e8f0,stroke:#475569,color:#222
+  classDef pact fill:#7f1d1d,stroke:#fca5a5,color:#fff
+  classDef school fill:#14532d,stroke:#86efac,color:#fff
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="iv-nematoma-karūna-14111430" class="level2">
+<h2 class="anchored" data-anchor-id="iv-nematoma-karūna-14111430">IV · Nematoma Karūna (1411–1430)</h2>
+<p>98 nodes · 100 relations</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+  aitvaras["Aitvaras (fire-tailed thief)"]
+  algirdaiciai["Algirdaičiai (Algirdas's line)"]:::fac
+  alkanosios_veles["Alkanosios vėlės (the hungry dead)"]
+  alseniskiai["Alšėniškiai (Holszański, princes of Halshany)"]
+  amber_queen["Gintaro Karalienė (Amber Queen)"]:::force
+  ausrine["Aušrinė (the morning star)"]:::god
+  bargain["Sandėris (bargain)"]:::school
+  barstukai["Barstukai (under-elder miners)"]
+  bebalsiai["Bebalsiai (the Voiceless)"]
+  claim["Žymė (claim)"]:::school
+  danute["Danutė"]:::char
+  edigu["Edigu"]:::char
+  egle["Eglė (vaidilutė → Pelkių Eglė)"]:::char
+  el_stars["Žvaigždės (Stars)"]:::school
+  el_water["Vanduo (Water)"]:::school
+  ember["Paskutinė žarija (Šventaragis ember)"]:::art
+  flame_promise["The Last Flame promise"]:::pact
+  gabija["Gabija"]:::god
+  gdl["Grand Duchy of Lithuania"]:::fac
+  gediminaiciai["Gediminaičiai (House of Gediminas)"]
+  gelezinis_vilkas["Geležinis Vilkas (the Iron Wolf omen)"]
+  giltine["Giltinė"]:::god
+  gintaryste["Gintarystė (amber-craft)"]:::school
+  girinis["Girinis / miškinis (grove-keepers)"]
+  gold_glutton["Aukso Rijūnas (Mercator-Rex)"]:::force
+  golden_chain["Auksinė grandinė (the strangling chain)"]:::art
+  golden_horde["Golden Horde"]:::fac
+  hanse["Hanseatic merchants"]:::fac
+  iron_gift["Iron Saint's fearlessness"]:::school
+  iron_saint["Geležinis Šventasis (Ferrum Sanctum)"]:::force
+  iron_wolves["Vilkatai (Iron Wolves)"]:::fac
+  janusz1["Janusz I of Masovia"]:::char
+  jogaila["Jogaila"]:::char
+  jogailaiciai["Jogailaičiai (Jagiellonians)"]
+  julijona["Julijona Alšėniškė"]:::char
+  jurate["Jūratė"]:::god
+  kalba["Senovės Kalba"]:::school
+  kaukas["Kaukas / barzdukai (field-luck)"]
+  kestutaiciai["Kęstutaičiai (Kęstutis's line)"]:::fac
+  kestutis_sword["Šerno kalavijas (Kęstutis's sword)"]:::art
+  laima["Laima"]:::god
+  laumes["Laumės (weavers by the water)"]
+  laumiukai["Laumiukai (changelings)"]
+  lutsk_crown["The Lutsk crown (turned to leaves)"]:::art
+  luxembourg["House of Luxembourg"]
+  masovian_piasts["Masovian Piasts"]
+  medeina["Medeina"]:::god
+  menuo["Mėnuo"]:::god
+  milzinai["Milžinai (giants)"]
+  moscow["Grand Principality of Moscow"]:::fac
+  mykolas["Mykolas Žygimantaitis"]:::char
+  nedegintieji["Nedegintieji (the Unburned)"]
+  olesnicki["Zbigniew Oleśnicki"]:::char
+  ona["Ona"]:::char
+  palanga_vaidilutes["Palanga amber-priestess line (Gintaro vaidilutės)"]
+  pebble["Motinos gintaras (Birutė's pebble)"]:::art
+  perkunas["Perkūnas"]:::god
+  perkuno_rustybe["Perkūno Rūstybė"]:::force
+  pilkoji["Pilkoji (the Grey One, Vilkų Motina)"]:::char
+  pincuikas["Pinčiukas (clerk of small bargains)"]
+  poland["Kingdom of Poland (Lesser Poland lords)"]:::fac
+  priesaika["Priesaika (oath-binding)"]:::school
+  ragana["Ragana (seer-witch)"]
+  reizos_raiteliai["Reizos raiteliai (Riders of the Reise)"]
+  rogala["Baltramiejus Rogala (Oleśnicki's envoy)"]:::char
+  root_mother["Šaknų Motina (Root-Mother)"]:::force
+  rurikids["Rurikids of Moscow"]
+  saule["Saulė"]:::god
+  shadow_seller["Šešėlių Pardavėjas / Henė"]:::force
+  sigismund["Sigismund of Luxembourg"]:::char
+  silver_wolf["Sidabrinis vilkas (Kęstutis's amulet)"]:::art
+  skaiciuotojas["Skaičiuotojas (the Counter)"]
+  slogutis["Slogutis (the presser)"]
+  smakas["Smakas (the dragon under the cathedral)"]
+  sofija["Sofija Vytautaitė"]:::char
+  steppe_hunger["Stepių Alkis (Erdene-Chuluu)"]:::force
+  sutartis_birute["Birutė's Senovės Sutartis over Vytautas"]:::pact
+  svitrigaila["Švitrigaila"]:::char
+  teutonic_order["Teutonic Order"]:::fac
+  three_stones["Henė's three black stones"]:::art
+  uzgesiles["Užgesėlės (the Quenched)"]
+  uzkalbejimai["Užkalbėjimai (charms)"]:::school
+  vandenis["Vandenis and undinės (lake-keepers)"]
+  vasily1["Vasily I of Moscow"]:::char
+  vejopatis["Vėjopatis"]:::god
+  veles["Vėlės (the fed dead)"]
+  velnias["Velnias"]:::god
+  velnio_pavidalai["Velnias's small shapes (velniukai)"]
+  vilkatas["Vilkatas / vilkolakis (cursed werewolf)"]
+  vytautas["Vytautas"]:::char
+  white_silence["Baltoji Tyla (White Silence)"]:::force
+  white_touch["White Silence's frost-touch"]:::school
+  wolf_change["Vilkų krikštas (wolf-change)"]:::school
+  wolf_skull["Geležinio Vilko kaukolė"]:::art
+  zaltvyksles["Žaltvykslės (bog-lights, treasure-flames)"]
+  zaltys["Žaltys (household grass snake)"]
+  zemyna["Žemyna"]:::god
+  zygimantas["Žygimantas Kęstutaitis"]:::char
+  danute --&gt;|spouse_of| janusz1
+  vytautas --&gt;|spouse_of| ona
+  vytautas --&gt;|spouse_of| julijona
+  vytautas --&gt;|parent_of| sofija
+  sofija --&gt;|spouse_of| vasily1
+  vytautas --&gt;|rules| gdl
+  jogaila --&gt;|rules| poland
+  svitrigaila --&gt;|rules| gdl
+  edigu --&gt;|rules| golden_horde
+  vasily1 --&gt;|rules| moscow
+  vytautas --&gt;|ally_of| jogaila
+  vytautas --x|enemy_of| teutonic_order
+  vytautas --x|enemy_of| edigu
+  vytautas --&gt;|ally_of| sigismund
+  vytautas --x|enemy_of| olesnicki
+  root_mother --&gt;|face_of| zemyna
+  root_mother --&gt;|face_of| medeina
+  perkuno_rustybe --&gt;|face_of| perkunas
+  shadow_seller --&gt;|shard_of| velnias
+  amber_queen --&gt;|face_of| jurate
+  iron_saint -.-&gt;|egregore_fed_by| teutonic_order
+  white_silence -.-&gt;|egregore_fed_by| poland
+  white_silence -.-&gt;|egregore_fed_by| algirdaiciai
+  steppe_hunger -.-&gt;|egregore_fed_by| golden_horde
+  gold_glutton -.-&gt;|egregore_fed_by| hanse
+  gold_glutton -.-&gt;|egregore_fed_by| poland
+  jurate --&gt;|vessel_of| amber_queen
+  egle --&gt;|servant_of| root_mother
+  shadow_seller -.-&gt;|bargain_with| jogaila
+  shadow_seller --&gt;|servant_of| sigismund
+  perkuno_rustybe -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|patron_of| iron_wolves
+  amber_queen -.-&gt;|patron_of| kestutaiciai
+  steppe_hunger -.-&gt;|patron_of| edigu
+  gold_glutton -.-&gt;|patron_of| olesnicki
+  gintaryste --&gt;|binds| kalba
+  saule -.-&gt;|patron_of| gintaryste
+  perkunas -.-&gt;|patron_of| priesaika
+  zemyna -.-&gt;|patron_of| priesaika
+  laima -.-&gt;|patron_of| el_stars
+  root_mother -.-&gt;|patron_of| wolf_change
+  perkuno_rustybe -.-&gt;|patron_of| claim
+  iron_saint -.-&gt;|patron_of| iron_gift
+  white_silence -.-&gt;|patron_of| white_touch
+  shadow_seller -.-&gt;|patron_of| bargain
+  sutartis_birute --&gt;|binds| vytautas
+  flame_promise --&gt;|binds| vytautas
+  vytautas --&gt;|holds| pebble
+  vytautas --&gt;|holds| kestutis_sword
+  vytautas --&gt;|holds| silver_wolf
+  vytautas --&gt;|holds| ember
+  shadow_seller --&gt;|holds| three_stones
+  iron_wolves --&gt;|holds| wolf_skull
+  shadow_seller --&gt;|holds| golden_chain
+  giltine --&gt;|servant_of| laima
+  menuo -.-&gt;|patron_of| el_water
+  laima -.-&gt;|patron_of| uzkalbejimai
+  gediminaiciai --&gt;|rules| gdl
+  jogailaiciai --&gt;|rules| poland
+  kestutaiciai --&gt;|ally_of| masovian_piasts
+  luxembourg --&gt;|ally_of| kestutaiciai
+  rurikids --&gt;|rules| moscow
+  kestutaiciai --&gt;|ally_of| rurikids
+  alseniskiai --&gt;|ally_of| kestutaiciai
+  alseniskiai --&gt;|ally_of| jogailaiciai
+  amber_queen -.-&gt;|patron_of| palanga_vaidilutes
+  zaltys --&gt;|servant_of| root_mother
+  aitvaras --&gt;|servant_of| velnias
+  kaukas --&gt;|servant_of| zemyna
+  barstukai --&gt;|servant_of| root_mother
+  laumiukai --&gt;|servant_of| laumes
+  vandenis --&gt;|servant_of| jurate
+  zaltvyksles --&gt;|servant_of| velnias
+  girinis --&gt;|shard_of| root_mother
+  vilkatas --&gt;|servant_of| velnias
+  milzinai --&gt;|servant_of| zemyna
+  smakas --&gt;|shard_of| zaltys
+  veles --&gt;|servant_of| vejopatis
+  alkanosios_veles --&gt;|shard_of| veles
+  velnio_pavidalai --&gt;|shard_of| velnias
+  pincuikas --&gt;|servant_of| shadow_seller
+  ragana -.-&gt;|bargain_with| velnio_pavidalai
+  gelezinis_vilkas --&gt;|servant_of| gediminaiciai
+  nedegintieji --&gt;|shard_of| alkanosios_veles
+  nedegintieji --&gt;|servant_of| iron_saint
+  reizos_raiteliai --&gt;|servant_of| iron_saint
+  bebalsiai --&gt;|servant_of| white_silence
+  uzgesiles --&gt;|shard_of| gabija
+  skaiciuotojas --&gt;|servant_of| gold_glutton
+  zygimantas --&gt;|parent_of| mykolas
+  rogala --&gt;|holds| golden_chain
+  poland --&gt;|holds| golden_chain
+  pilkoji --&gt;|holds| silver_wolf
+  pilkoji --&gt;|holds| pebble
+  shadow_seller --&gt;|holds| lutsk_crown
+  saule --&gt;|spouse_of| menuo
+  menuo --&gt;|ally_of| ausrine
+  medeina -.-&gt;|patron_of| girinis
+  slogutis --&gt;|servant_of| velnias
+  classDef char fill:#f3efe6,stroke:#6b5b3e,color:#222
+  classDef force fill:#2d2a3e,stroke:#a08cff,color:#fff
+  classDef god fill:#1f3b4d,stroke:#7fc8f8,color:#fff
+  classDef art fill:#f9d77e,stroke:#a8741a,color:#222
+  classDef fac fill:#e2e8f0,stroke:#475569,color:#222
+  classDef pact fill:#7f1d1d,stroke:#fca5a5,color:#fff
+  classDef school fill:#14532d,stroke:#86efac,color:#fff
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="v-vilko-palikimas-14301450" class="level2">
+<h2 class="anchored" data-anchor-id="v-vilko-palikimas-14301450">V · Vilko Palikimas (1430–1450)</h2>
+<p>95 nodes · 100 relations</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+  aitvaras["Aitvaras (fire-tailed thief)"]
+  algirdaiciai["Algirdaičiai (Algirdas's line)"]:::fac
+  alkanosios_veles["Alkanosios vėlės (the hungry dead)"]
+  alseniskiai["Alšėniškiai (Holszański, princes of Halshany)"]
+  amber_queen["Gintaro Karalienė (Amber Queen)"]:::force
+  ausrine["Aušrinė (the morning star)"]:::god
+  bargain["Sandėris (bargain)"]:::school
+  barstukai["Barstukai (under-elder miners)"]
+  bebalsiai["Bebalsiai (the Voiceless)"]
+  claim["Žymė (claim)"]:::school
+  czartoriskiai["Čartoriskiai (Czartoryski)"]
+  el_stars["Žvaigždės (Stars)"]:::school
+  el_water["Vanduo (Water)"]:::school
+  ember["Paskutinė žarija (Šventaragis ember)"]:::art
+  flame_keeper["Žiežirba (the Flame-Keeper, Book V POV)"]:::char
+  flame_promise["The Last Flame promise"]:::pact
+  gabija["Gabija"]:::god
+  gdl["Grand Duchy of Lithuania"]:::fac
+  gediminaiciai["Gediminaičiai (House of Gediminas)"]
+  gelezinis_vilkas["Geležinis Vilkas (the Iron Wolf omen)"]
+  giltine["Giltinė"]:::god
+  gintaryste["Gintarystė (amber-craft)"]:::school
+  girinis["Girinis / miškinis (grove-keepers)"]
+  gold_glutton["Aukso Rijūnas (Mercator-Rex)"]:::force
+  golden_chain["Auksinė grandinė (the strangling chain)"]:::art
+  golden_horde["Golden Horde"]:::fac
+  hanse["Hanseatic merchants"]:::fac
+  iron_gift["Iron Saint's fearlessness"]:::school
+  iron_saint["Geležinis Šventasis (Ferrum Sanctum)"]:::force
+  iron_wolves["Vilkatai (Iron Wolves)"]:::fac
+  jogaila["Jogaila"]:::char
+  jogailaiciai["Jogailaičiai (Jagiellonians)"]
+  julijona["Julijona Alšėniškė"]:::char
+  jurate["Jūratė"]:::god
+  kalba["Senovės Kalba"]:::school
+  kaukas["Kaukas / barzdukai (field-luck)"]
+  kestutaiciai["Kęstutaičiai (Kęstutis's line)"]:::fac
+  kestutis_sword["Šerno kalavijas (Kęstutis's sword)"]:::art
+  laima["Laima"]:::god
+  laumes["Laumės (weavers by the water)"]
+  laumiukai["Laumiukai (changelings)"]
+  lutsk_crown["The Lutsk crown (turned to leaves)"]:::art
+  luxembourg["House of Luxembourg"]
+  masovian_piasts["Masovian Piasts"]
+  medeina["Medeina"]:::god
+  menuo["Mėnuo"]:::god
+  milzinai["Milžinai (giants)"]
+  moscow["Grand Principality of Moscow"]:::fac
+  mykolas["Mykolas Žygimantaitis"]:::char
+  nedegintieji["Nedegintieji (the Unburned)"]
+  olesnicki["Zbigniew Oleśnicki"]:::char
+  palanga_vaidilutes["Palanga amber-priestess line (Gintaro vaidilutės)"]
+  pebble["Motinos gintaras (Birutė's pebble)"]:::art
+  perkunas["Perkūnas"]:::god
+  perkuno_rustybe["Perkūno Rūstybė"]:::force
+  pilkoji["Pilkoji (the Grey One, Vilkų Motina)"]:::char
+  pincuikas["Pinčiukas (clerk of small bargains)"]
+  poland["Kingdom of Poland (Lesser Poland lords)"]:::fac
+  priesaika["Priesaika (oath-binding)"]:::school
+  ragana["Ragana (seer-witch)"]
+  reizos_raiteliai["Reizos raiteliai (Riders of the Reise)"]
+  rimgaile_palanga["Rimgailė (Palanga fisherwoman)"]:::char
+  rogala["Baltramiejus Rogala (Oleśnicki's envoy)"]:::char
+  root_mother["Šaknų Motina (Root-Mother)"]:::force
+  rurikids["Rurikids of Moscow"]
+  saule["Saulė"]:::god
+  shadow_seller["Šešėlių Pardavėjas / Henė"]:::force
+  sigismund["Sigismund of Luxembourg"]:::char
+  silver_wolf["Sidabrinis vilkas (Kęstutis's amulet)"]:::art
+  skaiciuotojas["Skaičiuotojas (the Counter)"]
+  slogutis["Slogutis (the presser)"]
+  smakas["Smakas (the dragon under the cathedral)"]
+  sofija["Sofija Vytautaitė"]:::char
+  steppe_hunger["Stepių Alkis (Erdene-Chuluu)"]:::force
+  sutartis_birute["Birutė's Senovės Sutartis over Vytautas"]:::pact
+  svitrigaila["Švitrigaila"]:::char
+  teutonic_order["Teutonic Order"]:::fac
+  three_stones["Henė's three black stones"]:::art
+  uzgesiles["Užgesėlės (the Quenched)"]
+  uzkalbejimai["Užkalbėjimai (charms)"]:::school
+  vandenis["Vandenis and undinės (lake-keepers)"]
+  vejopatis["Vėjopatis"]:::god
+  veles["Vėlės (the fed dead)"]
+  velnias["Velnias"]:::god
+  velnio_pavidalai["Velnias's small shapes (velniukai)"]
+  vilkatas["Vilkatas / vilkolakis (cursed werewolf)"]
+  vytautas["Vytautas"]:::char
+  white_silence["Baltoji Tyla (White Silence)"]:::force
+  white_touch["White Silence's frost-touch"]:::school
+  wolf_change["Vilkų krikštas (wolf-change)"]:::school
+  wolf_skull["Geležinio Vilko kaukolė"]:::art
+  zaltvyksles["Žaltvykslės (bog-lights, treasure-flames)"]
+  zaltys["Žaltys (household grass snake)"]
+  zemyna["Žemyna"]:::god
+  zygimantas["Žygimantas Kęstutaitis"]:::char
+  vytautas --&gt;|spouse_of| julijona
+  vytautas --&gt;|parent_of| sofija
+  vytautas --&gt;|rules| gdl
+  jogaila --&gt;|rules| poland
+  svitrigaila --&gt;|rules| gdl
+  zygimantas --&gt;|rules| gdl
+  vytautas --&gt;|ally_of| jogaila
+  vytautas --x|enemy_of| teutonic_order
+  vytautas --&gt;|ally_of| sigismund
+  vytautas --x|enemy_of| olesnicki
+  svitrigaila --x|enemy_of| zygimantas
+  root_mother --&gt;|face_of| zemyna
+  root_mother --&gt;|face_of| medeina
+  perkuno_rustybe --&gt;|face_of| perkunas
+  shadow_seller --&gt;|shard_of| velnias
+  amber_queen --&gt;|face_of| jurate
+  iron_saint -.-&gt;|egregore_fed_by| teutonic_order
+  white_silence -.-&gt;|egregore_fed_by| poland
+  white_silence -.-&gt;|egregore_fed_by| algirdaiciai
+  steppe_hunger -.-&gt;|egregore_fed_by| golden_horde
+  gold_glutton -.-&gt;|egregore_fed_by| hanse
+  gold_glutton -.-&gt;|egregore_fed_by| poland
+  jurate --&gt;|vessel_of| amber_queen
+  shadow_seller -.-&gt;|bargain_with| jogaila
+  shadow_seller --&gt;|servant_of| sigismund
+  shadow_seller -.-&gt;|bargain_with| zygimantas
+  perkuno_rustybe -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|claims| vytautas
+  root_mother -.-&gt;|patron_of| iron_wolves
+  amber_queen -.-&gt;|patron_of| kestutaiciai
+  gold_glutton -.-&gt;|patron_of| olesnicki
+  gintaryste --&gt;|binds| kalba
+  saule -.-&gt;|patron_of| gintaryste
+  perkunas -.-&gt;|patron_of| priesaika
+  zemyna -.-&gt;|patron_of| priesaika
+  laima -.-&gt;|patron_of| el_stars
+  root_mother -.-&gt;|patron_of| wolf_change
+  perkuno_rustybe -.-&gt;|patron_of| claim
+  iron_saint -.-&gt;|patron_of| iron_gift
+  white_silence -.-&gt;|patron_of| white_touch
+  shadow_seller -.-&gt;|patron_of| bargain
+  sutartis_birute --&gt;|binds| vytautas
+  flame_promise --&gt;|binds| vytautas
+  vytautas --&gt;|holds| pebble
+  flame_keeper --&gt;|holds| pebble
+  vytautas --&gt;|holds| kestutis_sword
+  vytautas --&gt;|holds| silver_wolf
+  flame_keeper --&gt;|holds| silver_wolf
+  vytautas --&gt;|holds| ember
+  shadow_seller --&gt;|holds| three_stones
+  iron_wolves --&gt;|holds| wolf_skull
+  giltine --&gt;|servant_of| laima
+  menuo -.-&gt;|patron_of| el_water
+  laima -.-&gt;|patron_of| uzkalbejimai
+  gediminaiciai --&gt;|rules| gdl
+  jogailaiciai --&gt;|rules| poland
+  czartoriskiai --x|enemy_of| kestutaiciai
+  kestutaiciai --&gt;|ally_of| masovian_piasts
+  luxembourg --&gt;|ally_of| kestutaiciai
+  rurikids --&gt;|rules| moscow
+  kestutaiciai --&gt;|ally_of| rurikids
+  alseniskiai --&gt;|ally_of| kestutaiciai
+  alseniskiai --&gt;|ally_of| jogailaiciai
+  amber_queen -.-&gt;|patron_of| palanga_vaidilutes
+  zaltys --&gt;|servant_of| root_mother
+  aitvaras --&gt;|servant_of| velnias
+  kaukas --&gt;|servant_of| zemyna
+  barstukai --&gt;|servant_of| root_mother
+  laumiukai --&gt;|servant_of| laumes
+  vandenis --&gt;|servant_of| jurate
+  zaltvyksles --&gt;|servant_of| velnias
+  girinis --&gt;|shard_of| root_mother
+  vilkatas --&gt;|servant_of| velnias
+  milzinai --&gt;|servant_of| zemyna
+  smakas --&gt;|shard_of| zaltys
+  veles --&gt;|servant_of| vejopatis
+  alkanosios_veles --&gt;|shard_of| veles
+  velnio_pavidalai --&gt;|shard_of| velnias
+  pincuikas --&gt;|servant_of| shadow_seller
+  ragana -.-&gt;|bargain_with| velnio_pavidalai
+  gelezinis_vilkas --&gt;|servant_of| gediminaiciai
+  nedegintieji --&gt;|shard_of| alkanosios_veles
+  nedegintieji --&gt;|servant_of| iron_saint
+  reizos_raiteliai --&gt;|servant_of| iron_saint
+  bebalsiai --&gt;|servant_of| white_silence
+  uzgesiles --&gt;|shard_of| gabija
+  skaiciuotojas --&gt;|servant_of| gold_glutton
+  zygimantas --&gt;|parent_of| mykolas
+  rogala --&gt;|holds| golden_chain
+  poland --&gt;|holds| golden_chain
+  shadow_seller --&gt;|holds| golden_chain
+  zygimantas --&gt;|holds| golden_chain
+  pilkoji --&gt;|holds| silver_wolf
+  rimgaile_palanga --&gt;|holds| silver_wolf
+  pilkoji --&gt;|holds| pebble
+  shadow_seller --&gt;|holds| lutsk_crown
+  saule --&gt;|spouse_of| menuo
+  menuo --&gt;|ally_of| ausrine
+  medeina -.-&gt;|patron_of| girinis
+  slogutis --&gt;|servant_of| velnias
+  classDef char fill:#f3efe6,stroke:#6b5b3e,color:#222
+  classDef force fill:#2d2a3e,stroke:#a08cff,color:#fff
+  classDef god fill:#1f3b4d,stroke:#7fc8f8,color:#fff
+  classDef art fill:#f9d77e,stroke:#a8741a,color:#222
+  classDef fac fill:#e2e8f0,stroke:#475569,color:#222
+  classDef pact fill:#7f1d1d,stroke:#fca5a5,color:#fff
+  classDef school fill:#14532d,stroke:#86efac,color:#fff
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="progressions" class="level2">
+<h2 class="anchored" data-anchor-id="progressions">Progressions</h2>
+<section id="silent_pact_state" class="level3">
+<h3 class="anchored" data-anchor-id="silent_pact_state">silent_pact_state</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>year</th>
+<th>state</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1345</td>
+<td>sworn</td>
+</tr>
+<tr class="even">
+<td>1377</td>
+<td>weakened</td>
+</tr>
+<tr class="odd">
+<td>1380</td>
+<td>cracked</td>
+</tr>
+<tr class="even">
+<td>1382</td>
+<td>protection_lapsed</td>
+</tr>
+<tr class="odd">
+<td>1384</td>
+<td>remnant_hidden_groves</td>
+</tr>
+<tr class="even">
+<td>1387</td>
+<td>ended</td>
+</tr>
+<tr class="odd">
+<td>1417</td>
+<td>groves_fallen</td>
+</tr>
+<tr class="even">
+<td>1430</td>
+<td>folklore</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="unbinding_level" class="level3">
+<h3 class="anchored" data-anchor-id="unbinding_level">unbinding_level</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>year</th>
+<th>level</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1345</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>1382</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>1387</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>1399</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td>1417</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>1430</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>1450</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="practitioners" class="level3">
+<h3 class="anchored" data-anchor-id="practitioners">practitioners</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>year</th>
+<th>tier4</th>
+<th>tier3</th>
+<th>tier2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1345</td>
+<td>6</td>
+<td>60</td>
+<td>600</td>
+</tr>
+<tr class="even">
+<td>1382</td>
+<td>4</td>
+<td>40</td>
+<td>400</td>
+</tr>
+<tr class="odd">
+<td>1387</td>
+<td>1</td>
+<td>25</td>
+<td>300</td>
+</tr>
+<tr class="even">
+<td>1399</td>
+<td>1</td>
+<td>18</td>
+<td>220</td>
+</tr>
+<tr class="odd">
+<td>1411</td>
+<td>0</td>
+<td>14</td>
+<td>160</td>
+</tr>
+<tr class="even">
+<td>1430</td>
+<td>0</td>
+<td>9</td>
+<td>90</td>
+</tr>
+<tr class="odd">
+<td>1450</td>
+<td>0</td>
+<td>5</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="hene_stones" class="level3">
+<h3 class="anchored" data-anchor-id="hene_stones">hene_stones</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>year</th>
+<th>stones</th>
+<th>for</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1380</td>
+<td>3</td>
+<td>[‘jogaila’, ‘skirgaila’, ‘vytautas’]</td>
+</tr>
+<tr class="even">
+<td>1397</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>1430</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1434</td>
+<td>0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="vytautas_forms" class="level3">
+<h3 class="anchored" data-anchor-id="vytautas_forms">vytautas_forms</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>form</th>
+<th>from</th>
+<th>to</th>
+<th>ends_with</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sūnus</td>
+<td>1350</td>
+<td>1382</td>
+<td>ev_kestutis_death</td>
+</tr>
+<tr class="even">
+<td>Išgyventojas</td>
+<td>1382</td>
+<td>1382</td>
+<td>ev_dykra_rescue</td>
+</tr>
+<tr class="odd">
+<td>Įrankis</td>
+<td>1383</td>
+<td>1384</td>
+<td>ev_burnings_1384</td>
+</tr>
+<tr class="even">
+<td>Išdavikų Išdavikas</td>
+<td>1384</td>
+<td>1392</td>
+<td>ev_sons_poisoned</td>
+</tr>
+<tr class="odd">
+<td>Didysis Kunigaikštis</td>
+<td>1392</td>
+<td>1399</td>
+<td>ev_vorskla</td>
+</tr>
+<tr class="even">
+<td>Geležinis Vilkas</td>
+<td>1399</td>
+<td>1411</td>
+<td>ev_grunwald</td>
+</tr>
+<tr class="odd">
+<td>Ugnies Sargas</td>
+<td>1411</td>
+<td>1430</td>
+<td>ev_vytautas_dies</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pebble_state" class="level3">
+<h3 class="anchored" data-anchor-id="pebble_state">pebble_state</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>year</th>
+<th>chapter</th>
+<th>state</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1382</td>
+<td>3</td>
+<td>warm</td>
+</tr>
+<tr class="even">
+<td>1382</td>
+<td>9</td>
+<td>faint_light</td>
+</tr>
+<tr class="odd">
+<td>1383</td>
+<td>19</td>
+<td>dead</td>
+</tr>
+<tr class="even">
+<td>1384</td>
+<td>20</td>
+<td>burning</td>
+</tr>
+<tr class="odd">
+<td>1384</td>
+<td>23</td>
+<td>hot</td>
+</tr>
+<tr class="even">
+<td>1387</td>
+<td>29</td>
+<td>glowing</td>
+</tr>
+<tr class="odd">
+<td>1399</td>
+<td></td>
+<td>cold</td>
+</tr>
+<tr class="even">
+<td>1410</td>
+<td></td>
+<td>warm</td>
+</tr>
+<tr class="odd">
+<td>1430</td>
+<td></td>
+<td>cracked</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../image-credits.html">
+<p>Image credits</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

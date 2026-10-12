@@ -9,7 +9,7 @@ book:
   subtitle: "I Knyga: Vilko Tremtis"
   author: "Algimantas Krasauskas"
   date: "12/30/2025"
-  cover-image: covers/out/book1/front_ebook_1600x2560.jpg
+  cover-image: cover.jpg
   navbar:
     right:
       - text: "I knyga"
@@ -92,7 +92,7 @@ format:
       \renewcommand{\chapterformat}{}
   epub:
     output-file: saga.epub
-    cover-image: covers/out/book1/front_ebook_1600x2560.jpg
+    cover-image: cover.jpg
     title: "Geležinio Vilko Saga I: Vilko Tremtis"
     author: "Algimantas Krasauskas"
     description: "Epinis tamsiosios fantastikos pasakojimas apie XIV amžiaus pabaigos Lietuvą."

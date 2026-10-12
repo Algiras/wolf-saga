@@ -2,69 +2,23 @@
 .quarto/
 _book/
 _freeze/
-_site/
+**/*.quarto_ipynb
 
-# LaTeX and PDF
+# LaTeX
 *.log
 *.aux
 *.out
 *.toc
-*.pdf
 *.fls
 *.fdb_latexmk
 *.synctex.gz
 
-# OS specific files
+# OS / editors
 .DS_Store
-.DS_Store?
 ._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# IDEs and Editors
 .vscode/
 .idea/
 *.swp
-*.swo
 *~
-
-# Python (in case we use scripts for generation/audio)
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-venv/
-ENV/
-.env
-
-# Project specific caches
-.cache/
-.agent/
-.gemini/
-
-# Wiki (generated)
-wiki/_site/
-wiki/_generated/
-wiki/codex/
-wiki/graph-explorer.html
-
-# Cover outputs (regenerate with scripts/make_covers.py); keep contact sheets and examples
-books/covers/out/**
-!books/covers/out/
-!books/covers/out/contact_sheet.png
-!books/covers/out/contact_sheet_wide.png
-!books/covers/out/examples/
-!books/covers/out/examples/**
-!books/covers/out/book*/
-!books/covers/out/book*/front_ebook_1600x2560.jpg
-!books/covers/out/book*/video_bg_1920x1080.jpg
-books/covers/art/candidates/
-
-# Local tool settings and run artifacts (never commit)
 .claude/
-scripts/editorial_changes_log.json
-audiobook/state/
-audiobook/tts_bench/samples/
-*.env
+.env

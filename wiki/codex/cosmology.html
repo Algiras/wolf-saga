@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cosmology – Geležinio Vilko Saga · Wiki</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-f8463e37fa3918fd74fa755198b02ef7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<!-- Cinzel (display), Crimson Pro (body), Alegreya Sans SC (labels): all three ship a latin-ext subset
+     (ą č ę ė į š ų ū ž); the css2 API serves it automatically via unicode-range. -->
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&amp;family=Cinzel:wght@500;600;700&amp;family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;display=swap" rel="stylesheet">
+<script>
+/* Cosmetic hooks for the sourcebook look (the page works without them):
+   1. mark the first prose paragraph of an entity page for the drop cap (skipping the generated sections);
+   2. relabel default callout titles: Note -> Lore, Tip -> Read-aloud. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    var GEN = /^(relations|timeline|relation-graph|forms-arc-stages|state-over-time)(-\d+)?$/;
+    var root = document.getElementById("quarto-document-content") || document.querySelector("main");
+    if (root && root.querySelector(".infobox")) {
+      var secs = root.querySelectorAll("section.level2");
+      for (var i = 0; i < secs.length; i++) {
+        if (GEN.test(secs[i].id)) continue;
+        var p = secs[i].querySelector(":scope > p");
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
+        break;
+      }
+    }
+    var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
+    Object.keys(map).forEach(function (cls) {
+      document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
+        if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Geležinio Vilko Saga · Wiki</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../timeline.html"> 
+<span class="menu-text">Timeline</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../graph-explorer.html"> 
+<span class="menu-text">Atlas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../diagrams.html"> 
+<span class="menu-text">Diagrams</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Encyclopedia</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-encyclopedia">    
+        <li>
+    <a class="dropdown-item" href="../characters/index.html">
+ <span class="dropdown-text">Characters</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../houses/index.html">
+ <span class="dropdown-text">Houses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../factions/index.html">
+ <span class="dropdown-text">Factions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../places/index.html">
+ <span class="dropdown-text">Places</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../events/index.html">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../gods/index.html">
+ <span class="dropdown-text">Gods</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../forces/index.html">
+ <span class="dropdown-text">Forces</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../magic/index.html">
+ <span class="dropdown-text">Magic &amp; Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../artifacts/index.html">
+ <span class="dropdown-text">Artifacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../creatures/index.html">
+ <span class="dropdown-text">Creatures</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../books/index.html">
+ <span class="dropdown-text">Books</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../codex/index.html"> 
+<span class="menu-text">Codex</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contributing.html"> 
+<span class="menu-text">How to add</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-books">    
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">I · Vilko Tremtis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../2/index.html">
+ <span class="dropdown-text">II · Auksinis Šešėlis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../3/index.html">
+ <span class="dropdown-text">III · Žaliasis Miškas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../4/index.html">
+ <span class="dropdown-text">IV · Nematoma Karūna</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../5/index.html">
+ <span class="dropdown-text">V · Vilko Palikimas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../6/index.html">
+ <span class="dropdown-text">VI · Šventasis Miškas (prequel)</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-world-tree-pasaulio-medis" id="toc-the-world-tree-pasaulio-medis" class="nav-link active" data-scroll-target="#the-world-tree-pasaulio-medis">1. The World Tree (Pasaulio Medis)</a></li>
+  <li><a href="#the-three-layers-of-power" id="toc-the-three-layers-of-power" class="nav-link" data-scroll-target="#the-three-layers-of-power">2. The Three Layers of Power</a>
+  <ul class="collapse">
+  <li><a href="#gods-are-indifferent-forces-are-partisan" id="toc-gods-are-indifferent-forces-are-partisan" class="nav-link" data-scroll-target="#gods-are-indifferent-forces-are-partisan">2.1 Gods are indifferent; Forces are partisan</a></li>
+  <li><a href="#the-vulture-gods-are-egregores" id="toc-the-vulture-gods-are-egregores" class="nav-link" data-scroll-target="#the-vulture-gods-are-egregores">2.2 The Vulture Gods are egregores</a></li>
+  <li><a href="#spirits-are-local" id="toc-spirits-are-local" class="nav-link" data-scroll-target="#spirits-are-local">2.3 Spirits are local</a></li>
+  </ul></li>
+  <li><a href="#pantheon-and-force-mapping" id="toc-pantheon-and-force-mapping" class="nav-link" data-scroll-target="#pantheon-and-force-mapping">3. Pantheon and Force mapping</a>
+  <ul class="collapse">
+  <li><a href="#the-gods" id="toc-the-gods" class="nav-link" data-scroll-target="#the-gods">3.1 The Gods</a></li>
+  <li><a href="#the-native-forces" id="toc-the-native-forces" class="nav-link" data-scroll-target="#the-native-forces">3.2 The native Forces</a></li>
+  <li><a href="#the-vulture-forces-egregores" id="toc-the-vulture-forces-egregores" class="nav-link" data-scroll-target="#the-vulture-forces-egregores">3.3 The Vulture Forces (egregores)</a></li>
+  <li><a href="#the-amber-queen-an-office-not-a-goddess" id="toc-the-amber-queen-an-office-not-a-goddess" class="nav-link" data-scroll-target="#the-amber-queen-an-office-not-a-goddess">3.4 The Amber Queen: an office, not a goddess</a></li>
+  </ul></li>
+  <li><a href="#the-silent-pact-and-its-unwinding" id="toc-the-silent-pact-and-its-unwinding" class="nav-link" data-scroll-target="#the-silent-pact-and-its-unwinding">4. The Silent Pact and its unwinding</a>
+  <ul class="collapse">
+  <li><a href="#the-pact-1345" id="toc-the-pact-1345" class="nav-link" data-scroll-target="#the-pact-1345">4.1 The Pact (1345)</a></li>
+  <li><a href="#the-breaking" id="toc-the-breaking" class="nav-link" data-scroll-target="#the-breaking">4.2 The breaking</a></li>
+  <li><a href="#the-unbinding-atsaistymas" id="toc-the-unbinding-atsaistymas" class="nav-link" data-scroll-target="#the-unbinding-atsaistymas">4.3 The Unbinding (Atsaistymas)</a></li>
+  </ul></li>
+  <li><a href="#signs-whispers-and-the-beggar" id="toc-signs-whispers-and-the-beggar" class="nav-link" data-scroll-target="#signs-whispers-and-the-beggar">5. Signs, Whispers, and the Beggar</a></li>
+  <li><a href="#what-the-gods-cannot-do" id="toc-what-the-gods-cannot-do" class="nav-link" data-scroll-target="#what-the-gods-cannot-do">6. What the gods cannot do</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cosmology</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>Source: <code>world_rules/cosmology.md</code></em></p>
+<p><em>Canonical. Reconciles the five-element <strong>Senovės Kalba</strong> (<code>books/1/senoves_kalba_magic_system.md</code>) with the <strong>Meddling Forces</strong> (<code>meddling_forces.md</code>) and <strong>Hidden Immortals</strong> (<code>hidden_immortals.md</code>). Mechanical rules for mortal magic are in <code>magic_rules.md</code>.</em></p>
+<blockquote class="blockquote">
+<p>In the saga’s world the folklore is <strong>literally true</strong>, but the folk are only ever half right about it. Peasants who leave milk for the žaltys are correct. Priests who say the žaltys is a demon are wrong, and so are the old women who say it is harmless. This is the governing tone: the Baltic myth taken at its word, then made grey.</p>
+</blockquote>
+<hr>
+<section id="the-world-tree-pasaulio-medis" class="level2">
+<h2 class="anchored" data-anchor-id="the-world-tree-pasaulio-medis">1. The World Tree (Pasaulio Medis)</h2>
+<p>The world is an oak (sometimes sung as a linden or a silver birch). Each layer is real and reachable, though rarely by the living.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Layer</th>
+<th>Name</th>
+<th>Who dwells there</th>
+<th>How mortals reach it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Crown</strong></td>
+<td><strong>Dangus</strong> (the Sky), the <strong>Stiklo Kalnas</strong> (Glass Mountain) at its summit</td>
+<td>Dievas, Saulė, Mėnuo, Aušrinė and the star-children; Perkūnas rides between</td>
+<td>Only the dead climb the Glass Mountain, and only those with long nails (hence the custom of burying nail-clippings and lynx or bear claws with the dead)</td>
+</tr>
+<tr class="even">
+<td><strong>Bridge</strong></td>
+<td><strong>Paukščių Takas</strong> (the Birds’ Way, the Milky Way)</td>
+<td>Souls (<em>vėlės</em>) migrating as birds; Vėjopatis’s winds</td>
+<td>Dying. Dreaming, rarely, for seers</td>
+</tr>
+<tr class="odd">
+<td><strong>Trunk</strong></td>
+<td><strong>Žemė</strong> (the Middle World)</td>
+<td>Mortals, beasts, the spirits of place (<em>dvasios</em>)</td>
+<td>Born here</td>
+</tr>
+<tr class="even">
+<td><strong>Roots</strong></td>
+<td><strong>Anapilis / Požemis</strong> (the Under-Castle), Velnias’s realm</td>
+<td>The dead who will not climb, wealth, bargains, the past</td>
+<td>Swamps, wells, river-bottoms, graves, crossroads at midnight, and <strong>under the mask of the Shadow-Seller</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>The waters around the tree</strong></td>
+<td><strong>Marios</strong> (the Baltic) and every lake, which are its eyes</td>
+<td>Bangpūtys; the drowned palace of Jūratė; the Amber Queen</td>
+<td>Drowning, which is not always death (see Birutė)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dausos</strong>, the afterlife meadow, lies past the Glass Mountain. Cremation is the correct funeral because <strong>fire is the fastest road up</strong>. A buried pagan climbs slowly or not at all and may linger as a <em>vėlė</em> that must be fed at <strong>Vėlinės</strong>. This is why Kęstutis’s honoured cremation matters (H4 in the review), and why the Order’s ban on burning the dead is, to pagans, an atrocity against the soul.</p>
+<hr>
+</section>
+<section id="the-three-layers-of-power" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-layers-of-power">2. The Three Layers of Power</h2>
+<p>This is the bridge between the two magic documents.</p>
+<pre><code>   LAYER I — THE GODS (Dievai)            source, ancient, mostly indifferent
+          │  when a god's attention is fed by human history, it hardens into…
+          ▼
+   LAYER II — THE FORCES (Galios)         hungry, partisan, meddling in events
+          │  both layers can be *asked* — politely, at a price — through…
+          ▼
+   LAYER III — THE CRAFT (Senovės Kalba)  mortal words, mortal blood, mortal cost</code></pre>
+<section id="gods-are-indifferent-forces-are-partisan" class="level3">
+<h3 class="anchored" data-anchor-id="gods-are-indifferent-forces-are-partisan">2.1 Gods are indifferent; Forces are partisan</h3>
+<p>A god is a fact of nature: Perkūnas <em>is</em> thunder and Žemyna <em>is</em> soil. Gods do not care who rules Vilnius. A <strong>Force</strong> forms when a god’s attention is fed long enough by human worship, war, grief or greed that it develops <strong>appetite and agenda</strong>. The Root-Mother is what Žemyna becomes after a century of watching the forests cut. Perkūno Rūstybė is Perkūnas after a thousand sworn oaths. The Shadow-Seller is a splinter of Velnias that learned to enjoy the trade.</p>
+<p>A god can be <em>petitioned</em>. A Force must be <em>bargained with</em>, and it remembers every bargain.</p>
+</section>
+<section id="the-vulture-gods-are-egregores" class="level3">
+<h3 class="anchored" data-anchor-id="the-vulture-gods-are-egregores">2.2 The Vulture Gods are egregores</h3>
+<p>The invading Forces (Iron Saint, White Silence, Steppe-Hunger, Gold-Glutton) are <strong>not</strong> the Christian God, Tengri or any real faith’s deity. <strong>The saga never passes judgement on the Christian God.</strong> These Forces are <strong>egregores</strong>: spirits <strong>fed by institutions</strong>, by crusade, purchased baptism, conquest and ledger. They grow wherever those appetites gather, including in Lithuanian hearts (Jogaila’s ambition feeds the Gold-Glutton as surely as any Hanseatic counting-house). Honest Christians in the saga (the Franciscan martyrs of Vilnius, Jadvyga at her best) are not their servants and are often their victims.</p>
+</section>
+<section id="spirits-are-local" class="level3">
+<h3 class="anchored" data-anchor-id="spirits-are-local">2.3 Spirits are local</h3>
+<p>Below both layers are the <strong>dvasios</strong>: laumės, kaukai, aitvarai, žalčiai, vėlės, the spirits of particular groves, wells and households. They are bound by <strong>custom</strong>, the reciprocal courtesy of offering and respect. See <code>bestiary.md</code>.</p>
+<hr>
+</section>
+</section>
+<section id="pantheon-and-force-mapping" class="level2">
+<h2 class="anchored" data-anchor-id="pantheon-and-force-mapping">3. Pantheon and Force mapping</h2>
+<section id="the-gods" class="level3">
+<h3 class="anchored" data-anchor-id="the-gods">3.1 The Gods</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>God</th>
+<th>Domain</th>
+<th>Element (<em>Kalba</em>)</th>
+<th>Force-face (when meddling)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Dievas</strong> (Dievas Senelis)</td>
+<td>Sky, order, the distant father</td>
+<td>none</td>
+<td>none; walks as the <strong>Beggar</strong></td>
+<td>Never bargains. Tests with requests (bread, coin, a story). Those who give are not saved, but <em>seen</em> (see §5).</td>
+</tr>
+<tr class="even">
+<td><strong>Perkūnas</strong></td>
+<td>Thunder, oaths, justice, war</td>
+<td>none (he cannot be <em>asked</em>)</td>
+<td><strong>Perkūno Rūstybė</strong></td>
+<td>Acts through <strong>claims</strong> (marks) and <strong>signs</strong> (lightning on oaks and banners). Punishes broken oaths and cowardice, including in his own.</td>
+</tr>
+<tr class="odd">
+<td><strong>Velnias</strong></td>
+<td>The dead, the underworld, wealth, cattle, bargains, cleverness</td>
+<td>none</td>
+<td><strong>Šešėlių Pardavėjas</strong> (a shard)</td>
+<td>Not evil. <em>Hungry and fair</em>: every deal is kept to the letter. Folk tales show him regularly cheated by clever peasants, which is the only defence.</td>
+</tr>
+<tr class="even">
+<td><strong>Laima</strong> (with <strong>Dalia</strong> and <strong>Giltinė</strong>)</td>
+<td>Fate, share, death</td>
+<td>none</td>
+<td>none</td>
+<td>Spins every fate at birth. Dalia allots fortune; <strong>Giltinė</strong>, her sister, cuts the thread (see bestiary). Laima’s spinning is why <strong>Praurimė’s</strong> sight shows <em>possibilities</em>, never certainties.</td>
+</tr>
+<tr class="odd">
+<td><strong>Žemyna</strong></td>
+<td>Earth, fertility, oaths sworn on soil</td>
+<td><strong>Earth</strong> (“Žemė tau laikys”)</td>
+<td><strong>Šaknų Motina</strong> (Root-Mother)</td>
+<td>Oaths sworn by kissing the earth are binding <em>physically</em>: the oath-breaker’s land rejects him.</td>
+</tr>
+<tr class="even">
+<td><strong>Saulė</strong></td>
+<td>The Sun, mother of life</td>
+<td>none directly</td>
+<td>none</td>
+<td>Her tears are <strong>amber</strong>. Every piece of amber is a drop of solar grief, which is why amber stores memory.</td>
+</tr>
+<tr class="odd">
+<td><strong>Mėnuo</strong></td>
+<td>The Moon, warrior, faithless husband (he left Saulė for Aušrinė and Perkūnas cut him in half, hence the phases)</td>
+<td>none</td>
+<td>none</td>
+<td>Governs tides and therefore <strong>Bangpūtys’s</strong> zenith.</td>
+</tr>
+<tr class="even">
+<td><strong>Gabija</strong></td>
+<td>The hearth, sacred fire</td>
+<td><strong>Fire</strong> (“Ugnis tau degs”)</td>
+<td>none; she does not hunger, she <em>guards</em></td>
+<td>Every household fire is a small shrine. Spitting into fire or stepping over it is sacrilege.</td>
+</tr>
+<tr class="odd">
+<td><strong>Bangpūtys</strong></td>
+<td>Sea, storms, waves</td>
+<td><strong>Water</strong> (“Vanduo tau teks”)</td>
+<td>none</td>
+<td>Bound in an old feud with Perkūnas over Jūratė (§3.4).</td>
+</tr>
+<tr class="even">
+<td><strong>Vėjopatis</strong></td>
+<td>The four winds, messenger between worlds</td>
+<td><strong>Wind</strong> (“Vėjas tau neš”)</td>
+<td>none</td>
+<td>Carries the <em>vėlės</em> along the Birds’ Way. Speech with the dead goes through him.</td>
+</tr>
+<tr class="odd">
+<td><strong>Praurimė</strong> <em>(doubtful: known mainly from 19th-century mythographers, Narbutt; authenticity disputed)</em></td>
+<td><strong>The fire of the stars</strong>, the sky-twin of the eternal flame</td>
+<td><strong>Stars</strong> (“Žvaigždės tau švytės”)</td>
+<td>none</td>
+<td>Folk memory remembers her as a goddess of sacred fire; the saga’s seers know her as the fire <em>above</em>, the stars read as fate-threads lit by Laima’s spinning. Both are true.</td>
+</tr>
+<tr class="even">
+<td><strong>Medeina</strong></td>
+<td>Forests, the hunt, wild beasts</td>
+<td>none</td>
+<td>merged into the <strong>Root-Mother</strong></td>
+<td>Medeina and Žemyna’s grief fused during the 13th-century crusades. The Root-Mother speaks with both voices.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-native-forces" class="level3">
+<h3 class="anchored" data-anchor-id="the-native-forces">3.2 The native Forces</h3>
+<ul>
+<li><strong>Šaknų Motina (Root-Mother):</strong> Žemyna and Medeina’s wild grief. <strong>Wants</strong> the forest kept and the iron and plough stopped. <strong>Takes</strong> the “Amber Debt”, royal blood for land lost (D7). <strong>Servants:</strong> Pelkių Eglė, the <em>vilkatai</em> (<code>iron_wolves.md</code>), Galminas.</li>
+<li><strong>Perkūno Rūstybė:</strong> justice without mercy. <strong>Wants</strong> oaths kept and cowards punished. <strong>Takes</strong> claims on warriors. Marked Vytautas in 1382 (ch.&nbsp;10).</li>
+<li><strong>Šešėlių Pardavėjas (Shadow-Seller):</strong> Velnias’s splinter. <strong>Wants</strong> deals, and through deals the dead (the past) to outweigh the living (the future). <strong>Takes</strong> “threads”, small obligations that compound. See D2.</li>
+<li><strong>Gintaro Karalienė (Amber Queen):</strong> see §3.4. <strong>Wants</strong> memory kept. <strong>Takes</strong> the vessel’s mortality.</li>
+</ul>
+</section>
+<section id="the-vulture-forces-egregores" class="level3">
+<h3 class="anchored" data-anchor-id="the-vulture-forces-egregores">3.3 The Vulture Forces (egregores)</h3>
+<ul>
+<li><strong>Geležinis Šventasis (Iron Saint, <em>Ferrum Sanctum</em>).</strong> Fed by: crusade, the Reise season, forced baptism. Signs: furnace heat in winter, the smell of quench-water, crosses that ring like anvils. Grants: tireless marching, absence of pity.</li>
+<li><strong>Baltoji Tyla (White Silence).</strong> Fed by: <strong>purchased</strong> purity, baptisms bought or sold for land and crowns. Signs: frost flowers on blades, sound dying, lilies on frozen fields. Grants: fearlessness, early winters (the “Crusader’s Winter”). <em>Note:</em> it gathers wherever a baptism is being <strong>bought</strong>, which is why it settles over Jogaila’s Vilnius in 1382 (he is already pricing a crown) and over Krėva (where the 1385 union will be signed). This resolves review item M6.</li>
+<li><strong>Stepių Alkis (Steppe-Hunger, <em>Erdene-Chuluu</em>).</strong> Fed by: conquest-without-end and the hubris of horizon-kings. Signs: dust devils, horse-hair in wells. Grants: the vision of an endless empire, which is its lure. Book II.</li>
+<li><strong>Aukso Rijūnas (Gold-Glutton, <em>Mercator-Rex</em>).</strong> Fed by: ledgers, tolls, land sold by the furlong. Signs: coins that are always warm, a counting voice in quiet rooms. Grants: prosperity that empties people out. Present from Book I (Hanseatic envoys, ch.&nbsp;28) and dominant in Book IV.</li>
+</ul>
+</section>
+<section id="the-amber-queen-an-office-not-a-goddess" class="level3">
+<h3 class="anchored" data-anchor-id="the-amber-queen-an-office-not-a-goddess">3.4 The Amber Queen: an office, not a goddess</h3>
+<ol type="1">
+<li><strong>Jūratė</strong>, a sea goddess, lived in an <strong>amber palace</strong> beneath the Baltic. She loved <strong>Kastytis</strong>, a mortal fisherman, against the law that gods may not love the dying.</li>
+<li><strong>Perkūnas</strong>, keeper of oaths, shattered the palace with lightning, killed Kastytis, and chained Jūratė to the ruins. The amber that washes up at Palanga after storms is <strong>her palace</strong>, and the sea’s moaning is her grief. (Folk legend; see <code>legends_and_songs.md</code>.)</li>
+<li>Her grief did not die. It became the <strong>Amber Queen</strong>: the sea’s memory of everything gods and men have destroyed. It needs a mortal <strong>vessel</strong> to act on land. Vessels are drawn from the <strong>Palanga amber-priestess line</strong>, and each vessel ends by giving her mortality back to the sea.</li>
+<li><strong>Birutė is the last vessel</strong> (D1). Her transformation in 1384 (ch.&nbsp;27) is the <strong>last</strong> time the Queen walks; after it, she can act only through amber already touched by Birutė (Vytautas’s pebble, the kneeling statue).</li>
+<li><strong>Why Perkūnas “punishes” Vytautas</strong> (<code>mystical_connections.md</code>): he is the Queen’s vessel’s son, and the feud with Jūratė is unfinished.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="the-silent-pact-and-its-unwinding" class="level2">
+<h2 class="anchored" data-anchor-id="the-silent-pact-and-its-unwinding">4. The Silent Pact and its unwinding</h2>
+<section id="the-pact-1345" class="level3">
+<h3 class="anchored" data-anchor-id="the-pact-1345">4.1 The Pact (1345)</h3>
+<p>When Algirdas and Kęstutis overthrew their brother Jaunutis and divided the realm (Algirdas east from Vilnius, Kęstutis west from Trakai), the <strong>Krivis</strong> of Šventaragis bound them to the gods in the <strong>Tylioji Sutartis</strong>:</p>
+<ul>
+<li><strong>The gods give:</strong> Lithuania will not be conquered. The Order may raid and burn but never hold the heartland.</li>
+<li><strong>The princes give:</strong> (1) the <strong>sacred flames</strong> (Šventaragis, Palanga, the Samogitian <em>alkai</em>) are never extinguished; (2) <strong>no Gediminid sheds Gediminid blood</strong>; (3) the <strong>Amber Debt</strong>: for every land lost to the plough-and-cross, royal blood is owed.</li>
+<li><strong>Witnesses:</strong> every spirit of place. The Pact is what keeps the <em>dvasios</em> courteous. It is a treaty between the land’s people and the land’s spirits.</li>
+</ul>
+<p><em>Historical anchor:</em> the GDL in fact remained the last unconquered pagan state in Europe through constant crusade (1283–1387). The Pact is the saga’s reason why.</p>
+</section>
+<section id="the-breaking" class="level3">
+<h3 class="anchored" data-anchor-id="the-breaking">4.2 The breaking</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Event</th>
+<th>Effect on the Pact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1377</td>
+<td>Algirdas dies; cremated with horses (historical)</td>
+<td>One oath-taker gone; the bond weakens to Kęstutis alone</td>
+</tr>
+<tr class="even">
+<td>1380</td>
+<td>Treaty of Dovydiškės (Jogaila secretly abandons Kęstutis to the Order)</td>
+<td><strong>First crack</strong>: a Gediminid plots against Gediminid blood</td>
+</tr>
+<tr class="odd">
+<td><strong>1382</strong></td>
+<td><strong>Kęstutis murdered at Krėva by his nephew’s men</strong></td>
+<td><strong>Clause 2 broken.</strong> The gods’ protection lapses. The Shadow-Seller, who brokered it, collects</td>
+</tr>
+<tr class="even">
+<td>1383–84</td>
+<td>The Order holds Samogitia by treaty (Königsberg 1384)</td>
+<td>Amber Debt comes due</td>
+</tr>
+<tr class="odd">
+<td><strong>1384</strong></td>
+<td><strong>Birutė’s sacrifice at Palanga</strong> (ch.&nbsp;27)</td>
+<td>Pays the debt <em>partially</em>: buys the <strong>Hidden Groves</strong>, a remnant protection over Samogitia and the deep Dykra</td>
+</tr>
+<tr class="even">
+<td>1385</td>
+<td>Krėva Union signed in the castle where Kęstutis died</td>
+<td>The White Silence settles over the realm</td>
+</tr>
+<tr class="odd">
+<td><strong>1387</strong></td>
+<td>Jogaila extinguishes the Šventaragis flame, fells the grove and has the sacred grass snakes killed (historical, per Długosz)</td>
+<td><strong>Clause 1 broken. The Pact formally ends.</strong></td>
+</tr>
+<tr class="even">
+<td>1413–17</td>
+<td>Samogitia baptised</td>
+<td>The Hidden Groves fall one by one (Books III–IV)</td>
+</tr>
+<tr class="odd">
+<td>1430</td>
+<td>Vytautas dies</td>
+<td>The last flame he secretly kept (see <code>magic_rules.md</code> §6) goes out (Book V, ch.&nbsp;1)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-unbinding-atsaistymas" class="level3">
+<h3 class="anchored" data-anchor-id="the-unbinding-atsaistymas">4.3 The Unbinding (Atsaistymas)</h3>
+<p><em>The saga’s equivalent of a world-changing cataclysm; it drives the later books’ monster-haunted, grey tone.</em></p>
+<p>The Pact made the spirits <strong>courteous</strong>. As it unwinds, they become <strong>unbound</strong>:</p>
+<ul>
+<li><strong>Before 1382:</strong> spirits follow custom. Feed the žaltys and it guards the house; honour the laumės and they weave for you. Folk rules work as advertised.</li>
+<li><strong>1382–1387 (Book I):</strong> the first unbound appear at the margins. Pelkių Eglė’s swamp <em>eats</em> Skirgaila’s trackers (ch.&nbsp;16); the forest is “silent” (ch.&nbsp;1, 20) because the spirits are listening for the Pact to break.</li>
+<li><strong>After 1387 (Books II–V):</strong> with no flames and no Krivis, spirits are no longer <em>owed</em> courtesy and no longer <em>give</em> it. Abandoned groves breed <strong>ravenous vėlės</strong> (the unburned dead of the crusades). Aitvarai turn from thieves to arsonists. Laumės who once swapped babies now drown them. <strong>Priests cannot see them</strong>, holy water is useless against things it does not believe in, and the peasantry turns, quietly, to whoever still knows the old ways: the last <em>žyniai</em>, the hedge-<em>raganos</em>, and the feared <strong>vilkatai</strong> (<code>iron_wolves.md</code>).</li>
+</ul>
+<p>This is the moral engine: the <strong>baptism saves Lithuania from the Order and damns it to its own unfed dead</strong>. Neither choice was clean.</p>
+<hr>
+</section>
+</section>
+<section id="signs-whispers-and-the-beggar" class="level2">
+<h2 class="anchored" data-anchor-id="signs-whispers-and-the-beggar">5. Signs, Whispers, and the Beggar</h2>
+<p><em>(Supersedes <code>mystical_mechanics.md</code>, which remains as a quick reference.)</em></p>
+<ul>
+<li><strong>Whispers</strong> reach mortals between waking and sleep. Velnias’s whisper sounds like <em>your own voice</em> (the Echo). The Root-Mother’s is leaves, the Wind-Talk. The Amber Queen’s is surf, and it comes <strong>only through amber</strong>.</li>
+<li><strong>Signs</strong> are a Force’s only <em>direct</em> action outside vessels: lightning (Perkūnas), sap turning red (Root-Mother, before a massacre), frost-shapes (White Silence), crows leading armies (Root-Mother or Perkūnas), coins turning to stone (Dievas: <em>what you pay for truth is worth nothing as money</em>).</li>
+<li><strong>The Beggar (Dievas Senelis)</strong> appears at turning points and asks a small thing. <strong>Rule:</strong> those who give are not rescued, they are <strong>seen</strong>: their path becomes <em>clear to them</em>, even if it leads to death. Kęstutis gave the coin (ch.&nbsp;4) and walked to Krėva <em>knowing</em>. Those who refuse are not punished; they are left blind to their own road. (Revises <code>hidden_immortals.md</code> §3.)</li>
+</ul>
+<hr>
+</section>
+<section id="what-the-gods-cannot-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-gods-cannot-do">6. What the gods cannot do</h2>
+<ul>
+<li><strong>Act directly</strong> in the Middle World except through vessels, claims, signs, answered <em>Kalba</em>, or spirits they command.</li>
+<li><strong>Undo a death.</strong> Even the Amber Queen only <em>keeps</em> the dead (in memory, in amber).</li>
+<li><strong>Break their own word.</strong> A god’s bargain is iron; this is what makes Velnias beatable by the clever.</li>
+<li><strong>Hold a baptised land by right.</strong> They hold it only by <strong>custom</strong>, people still leaving offerings. This is why the later books’ battleground is <em>habit</em>, not territory.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../image-credits.html">
+<p>Image credits</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

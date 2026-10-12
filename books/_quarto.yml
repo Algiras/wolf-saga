@@ -24,10 +24,13 @@ book:
         href: 5/
       - text: "VI knyga (priešistorė)"
         href: 6/
+      - text: "Skaitymo tvarka"
+        href: skaitymo_tvarka.html
       - text: "Wiki"
         href: wiki/
   chapters:
     - index.qmd
+    - skaitymo_tvarka.qmd
     - copyright.qmd
     - 1/prologue.qmd
     - 1/00_pradzia.qmd

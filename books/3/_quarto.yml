@@ -24,6 +24,8 @@ book:
         href: ../5/
       - text: "VI knyga (priešistorė)"
         href: ../6/
+      - text: "Skaitymo tvarka"
+        href: ../skaitymo_tvarka.html
       - text: "Wiki"
         href: ../wiki/
   chapters:
@@ -64,6 +66,7 @@ book:
         - 28_vytautas_ir_trakai.qmd
         - 29_saknu_motinos_padeka.qmd
         - 30_epilogas_rasalas.qmd
+    - istorine_pastaba.qmd
     - copyright.qmd
 
 format:

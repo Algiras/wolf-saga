@@ -24,6 +24,8 @@ book:
         href: index.html
       - text: "VI knyga (priešistorė)"
         href: ../6/
+      - text: "Skaitymo tvarka"
+        href: ../skaitymo_tvarka.html
       - text: "Wiki"
         href: ../wiki/
   chapters:
@@ -64,6 +66,7 @@ book:
         - 28_pilkoji_atsigula.qmd
         - 29_vardas_prie_ugnies.qmd
         - 30_epilogas.qmd
+    - istorine_pastaba.qmd
     - copyright.qmd
 format:
   html:

@@ -1,29 +1,43 @@
 # Geležinio Vilko Saga (The Iron Wolf Saga)
 
+> A six-book Lithuanian dark-fantasy saga set in Lithuania between 1341 and 1450. Historical fiction in which the old pagan gods, the Teutonic Order and a family's blood-feud shape the fate of Europe's last pagan realm. Author: Algimantas Krasauskas.
+
 ## Overview
-An epic dark fantasy narrative set in 14th-century Lithuania. A multi-book series exploring historical fiction through the lens of power, betrayal, and transformation during Lithuania's turbulent medieval period.
+The saga follows the Grand Duchy of Lithuania from the Silent Pact sworn by the brothers Algirdas and Kęstutis (1345) to the fading of the old gods a century later. Its central figure is Vytautas, the son of Kęstutis, who spends his life building a Christian empire while secretly keeping the old fire alive. Real events and people (Krėva, Ostrów, the Vorskla, Grunwald, Lutsk, Pabaiskas) are woven together with myth and invention.
 
-## Story Details
-- **Setting:** XIV century Lithuania during internal conflicts and the struggle against the Teutonic Order
-- **Protagonist:** Vytautas' transformation from outcast to political player
-- **Themes:** Redemption, political intrigue, historical fantasy, cultural identity
+## Setting and themes
+- **Setting:** Lithuania and its neighbours, 1341-1450: the wars with the Teutonic Order, the Union of Krėva, the baptism of Lithuania, the Battle of Grunwald and the death of Vytautas.
+- **Main characters:** Vytautas, Kęstutis, Birutė (the Amber Queen), Jogaila, Skirgaila.
+- **Themes:** the cost of power, betrayal and kin-murder, faith and the loss of the old gods, political intrigue, historical fantasy, cultural identity.
 
-## Available Formats
-- Online reading
-- PDF/EPUB downloads
-- Audiobook version available on YouTube
+## The books
+Each book is a separate online edition. Years are the span of each book's story.
+
+1. **I. Vilko Tremtis (The Wolf's Exile), 1377-1387.** Kęstutis is murdered at Krėva and Vytautas escapes, strikes a bargain with the Order and betrays everyone he can to survive. https://algiras.github.io/wolf-saga/
+2. **II. Auksinis Šešėlis (The Golden Shadow), 1387-1399.** Vytautas's second betrayal, the dream of an empire from the Baltic to the Black Sea, and the disaster at the Vorskla. https://algiras.github.io/wolf-saga/2/
+3. **III. Žaliasis Miškas (The Green Wood), 1399-1411.** Samogitian risings, a hard reconciliation with Jogaila, the Battle of Grunwald and the First Peace of Thorn. https://algiras.github.io/wolf-saga/3/
+4. **IV. Nematoma Karūna (The Invisible Crown), 1411-1430.** The baptism of Samogitia, an empire from sea to sea and the crown that never reaches Vytautas. https://algiras.github.io/wolf-saga/4/
+5. **V. Vilko Palikimas (The Wolf's Legacy), 1430-1450.** The Last Flame goes out, the heirs go to war and the last sworn wolf tries to relight it. https://algiras.github.io/wolf-saga/5/
+6. **VI. Šventasis Miškas (The Holy Forest), 1341-1377 (prequel).** Algirdas and Kęstutis swear the Silent Pact and Kęstutis pays its price for thirty years; it ends where Book I begins. https://algiras.github.io/wolf-saga/6/
+
+## Reading order
+- **Recommended (publication order):** I, II, III, IV, V, then VI as the prequel. The prequel reveals the secret of the Silent Pact, so read it after Book I or at the end.
+- **Chronological:** VI, I, II, III, IV, V.
+- Reading-order page (Lithuanian): https://algiras.github.io/wolf-saga/skaitymo_tvarka.html
+
+## Available formats
+- **Online reading:** https://algiras.github.io/wolf-saga/ (Book I) and /2/ to /6/ for the other books.
+- **PDF and EPUB:** the GitHub release "latest": https://github.com/Algiras/wolf-saga/releases/tag/latest
+- **Audiobook:** https://www.youtube.com/watch?v=7FTLqyPXSr0
+
+## Wiki
+A companion wiki (in English) with characters, places, factions, myth and chronology: https://algiras.github.io/wolf-saga/wiki/
 
 ## Language
-Lithuanian (Lietuvių)
-
-## Documentation
-https://algiras.github.io/wolf-saga/
+The books are written in Lithuanian (Lietuvių). The wiki is in English.
 
 ## Repository
 https://github.com/Algiras/wolf-saga
 
-## Audiobook
-https://www.youtube.com/watch?v=7FTLqyPXSr0
-
 ## License
-See repository for details
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), as stated in the book's copyright page. https://creativecommons.org/licenses/by-nc-sa/4.0/

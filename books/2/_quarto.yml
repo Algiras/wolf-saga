@@ -24,6 +24,8 @@ book:
         href: ../5/
       - text: "VI knyga (priešistorė)"
         href: ../6/
+      - text: "Skaitymo tvarka"
+        href: ../skaitymo_tvarka.html
       - text: "Wiki"
         href: ../wiki/
   chapters:
@@ -64,6 +66,7 @@ book:
         - 28_kijevo_ispirka.qmd
         - 29_pelenu_trakai.qmd
         - 30_epilogas_malborko_zemelapis.qmd
+    - istorine_pastaba.qmd
     - copyright.qmd
 
 format:

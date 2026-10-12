@@ -42,11 +42,18 @@ title: "Events"
 | [Union of Vilnius and Radom](ev_vilnius_radom.qmd) | event | 1401 |
 | [Battle of Grunwald / Žalgiris](ev_grunwald.qmd) | event | 1410-07-15 |
 | [Union of Horodło; Samogitian baptism begins](ev_horodlo.qmd) | event | 1413 |
-| [Ona dies](ev_ona_dies.qmd) | event | 1418 |
+| [Ona dies](ev_ona_dies.qmd) | event | 1418-07-31 |
 | [Congress of Lutsk: the crown offered](ev_lutsk.qmd) | event | 1429 |
-| [Crown intercepted; Vytautas refuses Henė](ev_crown_intercepted.qmd) | event | 1430 |
+| [Crown embassy blocked at the Polish border (Aug 1430); Vytautas refuses Henė](ev_crown_intercepted.qmd) | event | 1430 |
 | [Vytautas dies at Trakai; the Last Flame goes out](ev_vytautas_dies.qmd) | event | 1430-10-27 |
-| [Žygimantas's coup at Ašmena](ev_coup_1432.qmd) | event | 1432-09-01 |
+| [Polish lords seize Podolia after Vytautas's death](ev_podolia_seized.qmd) | event | 1430-11 |
+| [Treaty of Christmemel (Švitrigaila and the Order)](ev_christmemel.qmd) | event | 1431-06-19 |
+| [Truce of Czartorysk](ev_czartorysk_truce.qmd) | event | 1431-09-01 |
+| [Žygimantas's coup at Ašmena](ev_coup_1432.qmd) | event | 1432-08-31 |
+| [Grodno: Žygimantas sworn Grand Duke before Oleśnicki (Jogaila absent)](ev_grodno_1432.qmd) | event | 1432-10-15 |
+| [Battle of Ašmena: Žygimantas defeats Švitrigaila](ev_asmena_battle.qmd) | event | 1432-12-08 |
 | [Jogaila dies](ev_jogaila_dies.qmd) | event | 1434-06-01 |
 | [Battle of Pabaiskas](ev_pabaiskas.qmd) | event | 1435-09-01 |
+| [Peace of Brest (Brześć Kujawski): the Order drops Švitrigaila](ev_brest_peace.qmd) | event | 1435-12-31 |
 | [Žygimantas assassinated at Trakai](ev_zygimantas_killed.qmd) | event | 1440-03-20 |
+| [Casimir's privilege for Lithuania](ev_privilege_1447.qmd) | event | 1447-05-02 |

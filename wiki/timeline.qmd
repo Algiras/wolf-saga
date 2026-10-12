@@ -43,11 +43,18 @@ title: "Timeline"
 | 1401 | ✦ | [Union of Vilnius and Radom](events/ev_vilnius_radom.qmd) | III · Žaliasis Miškas |
 | 1410-07-15 | ✦ | [Battle of Grunwald / Žalgiris](events/ev_grunwald.qmd) | III · Žaliasis Miškas |
 | 1413 | ✦ | [Union of Horodło; Samogitian baptism begins](events/ev_horodlo.qmd) | IV · Nematoma Karūna |
-| 1418 | ✦ | [Ona dies](events/ev_ona_dies.qmd) | IV · Nematoma Karūna |
+| 1418-07-31 | ✦ | [Ona dies](events/ev_ona_dies.qmd) | IV · Nematoma Karūna |
 | 1429 | ✦ | [Congress of Lutsk: the crown offered](events/ev_lutsk.qmd) | IV · Nematoma Karūna |
-| 1430 | ✦ | [Crown intercepted; Vytautas refuses Henė](events/ev_crown_intercepted.qmd) | IV · Nematoma Karūna |
+| 1430 | ✦ | [Crown embassy blocked at the Polish border (Aug 1430); Vytautas refuses Henė](events/ev_crown_intercepted.qmd) | IV · Nematoma Karūna |
 | 1430-10-27 | ✦ | [Vytautas dies at Trakai; the Last Flame goes out](events/ev_vytautas_dies.qmd) | IV · Nematoma Karūna |
-| 1432-09-01 | ✦ | [Žygimantas's coup at Ašmena](events/ev_coup_1432.qmd) | V · Vilko Palikimas |
+| 1430-11 | ✦ | [Polish lords seize Podolia after Vytautas's death](events/ev_podolia_seized.qmd) | V · Vilko Palikimas |
+| 1431-06-19 | ✦ | [Treaty of Christmemel (Švitrigaila and the Order)](events/ev_christmemel.qmd) | V · Vilko Palikimas |
+| 1431-09-01 | ✦ | [Truce of Czartorysk](events/ev_czartorysk_truce.qmd) | V · Vilko Palikimas |
+| 1432-08-31 | ✦ | [Žygimantas's coup at Ašmena](events/ev_coup_1432.qmd) | V · Vilko Palikimas |
+| 1432-10-15 | ✦ | [Grodno: Žygimantas sworn Grand Duke before Oleśnicki (Jogaila absent)](events/ev_grodno_1432.qmd) | V · Vilko Palikimas |
+| 1432-12-08 | ✦ | [Battle of Ašmena: Žygimantas defeats Švitrigaila](events/ev_asmena_battle.qmd) | V · Vilko Palikimas |
 | 1434-06-01 | ✦ | [Jogaila dies](events/ev_jogaila_dies.qmd) | V · Vilko Palikimas |
 | 1435-09-01 | ✦ | [Battle of Pabaiskas](events/ev_pabaiskas.qmd) | V · Vilko Palikimas |
+| 1435-12-31 | ✦ | [Peace of Brest (Brześć Kujawski): the Order drops Švitrigaila](events/ev_brest_peace.qmd) | V · Vilko Palikimas |
 | 1440-03-20 | ✦ | [Žygimantas assassinated at Trakai](events/ev_zygimantas_killed.qmd) | V · Vilko Palikimas |
+| 1447-05-02 | ✦ | [Casimir's privilege for Lithuania](events/ev_privilege_1447.qmd) | V · Vilko Palikimas |

@@ -6,8 +6,13 @@ title: "Places"
 | Name | Type | Years |
 |---|---|---|
 | [Ašmena](ashmyany.qmd) | place |  |
+| [Brześć Kujawski](brzesc_kujawski.qmd) | place |  |
+| [Christmemel (Skirsnemunė)](christmemel.qmd) | place |  |
+| [Czartorysk (Volhynia)](czartorysk.qmd) | place |  |
 | [Dykra (swamp-forest wilderness)](dykra.qmd) | place |  |
+| [Grodno](grodno.qmd) | place |  |
 | [Jurbarkas (Georgenburg)](jurbarkas.qmd) | place |  |
+| [Kamianets (Podolia)](kamianets.qmd) | place |  |
 | [Kraków](krakow.qmd) | place |  |
 | [Krėva](kreva.qmd) | place |  |
 | [Kyiv](kyiv.qmd) | place |  |
@@ -16,6 +21,7 @@ title: "Places"
 | [Marienburg (Malbork)](marienburg.qmd) | place |  |
 | [Masovia (Płock / Warsaw)](masovia.qmd) | place |  |
 | [Naujapilis (Marienwerder)](marienwerder.qmd) | place |  |
+| [Noteć ford (Neumark / Greater Poland border)](notec_ford.qmd) | place |  |
 | [Ostrów](ostrow.qmd) | place |  |
 | [Pabaiskas](pabaiskas.qmd) | place |  |
 | [Palanga](palanga.qmd) | place |  |

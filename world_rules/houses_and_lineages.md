@@ -48,7 +48,7 @@ graph TD
   %% Algirdas, second marriage
   ULI["Uliana of Tver<br/>c.1325–1391 (verify)"]
   ALG -.-|"⚭ 1350"| ULI
-  ALG --> JOG["Jogaila / Władysław II<br/>c.1352–1434"]
+  ALG --> JOG["Jogaila / Władysław II<br/>c.1362–1434"]
   ALG --> SKI["Skirgaila / Kazimierz<br/>c.1354–1397"]
   ALG --> KAR["Kaributas / Dmitrijus<br/>d. after 1404"]
   ALG --> LEN["Lengvenis / Simonas<br/>c.1356–1431"]
@@ -133,7 +133,7 @@ graph TD
 
 | Name (pagan / baptismal) | Dates | Seat(s) | Fate |
 |---|---|---|---|
-| **Jogaila** / Jakov (Orthodox, possibly) / **Władysław** (Catholic, 1386) | c.1352–62 *(verify)* – 1 Jun 1434 | Vilnius, Krėva, Vitebsk; Kraków | Grand Duke 1377–81, 1382–92 (then overlord); **King of Poland 1386–1434**. Died at Gródek (Horodok) near Lviv. |
+| **Jogaila** / Jakov (Orthodox, possibly) / **Władysław** (Catholic, 1386) | c.1362 *(post-1990 consensus; older view c.1352)* – 1 Jun 1434 | Vilnius, Krėva, Vitebsk; Kraków | Grand Duke 1377–81, 1382–92 (then overlord); **King of Poland 1386–1434**. Died at Gródek (Horodok) near Lviv. |
 | **Skirgaila** / Ivan / **Kazimierz** (1386) | c.1354 – 11 Jan 1397 | **Trakai** (1382/84–92), Polotsk (1387), **Kyiv** (1395–97) | Jogaila's regent in Lithuania from 1387; lost to Vytautas at Ostrów 1392; died in Kyiv, poison rumoured (a monk named in the chronicle tradition *(verify)*). No known legitimate heirs. |
 | **Kaributas** / Dmitry | after 1350 – after 1404 | Novhorod-Siverskyi | Rebelled against Jogaila in 1382 (the campaign that took Kęstutis away from Vilnius) and against Vytautas in 1393. Father of **Žygimantas Kaributaitis** (c.1395–1435), Hussite claimant in Bohemia (1422–27), wounded and captured at **Pabaiskas**, died soon after *(verify)*. |
 | **Lengvenis** / Simon | c.1356 – 1431 *(verify)* | Mstsislaw; prince-for-hire of **Novgorod** | ⚭ **Maria, daughter of Dmitry Donskoy of Moscow** (1394 *(verify)*). The Algirdaičiai brother who married into Moscow after all. |
@@ -158,7 +158,7 @@ graph TD
 | **Butautas** / **Henrikas** (Heinrich) | d. 1380 | — | Plotted against his father in **1365**, fled to the Order and was baptised; died at the imperial court in Prague, 1380 *(verify)*. **The first Kęstutaitis traitor.** |
 | **Vytautas** / Wigand (1383) / **Aleksandras** (1386) | c.1350 – 27 Oct 1430 | Grodno, Brest, Podlasie (1384); **Trakai** (1392); **Vilnius** (as Grand Duke) | Grand Duke 1392–1430. Born, by tradition, at Senieji Trakai *(verify)*. Died at Trakai. |
 | **Tautvilas** / Konrad | d. 1390 | — | Killed at the **siege of Vilnius, 1390**, fighting on his brother's side with the Order *(verify)*. Same siege, same walls, same year as Karigaila on the other side. |
-| **Žygimantas** / Sigismund | c.1365 – 20 Mar 1440 | Starodub; Trakai | Hostage of the Order for long periods (c.1384–98 *(verify span)*); Grand Duke 1432–40; assassinated at Trakai on Palm Sunday 1440. Son **Mykolas Žygimantaitis** (d. 1452 in Moscow, reputedly poisoned *(verify)*). |
+| **Žygimantas** / Sigismund | c.1365 – 20 Mar 1440 | Starodub; Trakai | Hostage of the Order c.1389/90–1398 (given during Vytautas's second defection, freed after Salynas; VLE); Grand Duke 1432–40; assassinated at Trakai on Palm Sunday 1440. Son **Mykolas Žygimantaitis** (d. 1452 in Moscow, reputedly poisoned *(verify)*). |
 | **Danutė** (baptismal name Anna/Ona in some sources (verify); the saga uses only 'Danutė' to avoid confusion with Vytautas's wife) | c.1358 – 1448 *(verify)* | Warsaw, Czersk | ⚭ c.1373 **Janusz I of Masovia** *(verify date)*. Vytautas's refuge after Krėva (late 1382). |
 | **Rimgailė** / Elžbieta *(verify baptismal name)* | d. 1423 *(verify)* | Płock; Suceava | ⚭ 1392 **Henryk of Masovia** (bishop-elect of Płock, Jogaila's envoy at Ostrów), who died within a year; ⚭ c.1419 **Alexandru the Good of Moldavia** *(verify)*. |
 | **Miklausė** / Anna | — | — | Married a Masovian or Ruthenian prince *(verify; omit from prose until checked)*. |
@@ -169,7 +169,7 @@ graph TD
 - **Ona** (Anna). Married Vytautas c.1370 *(verify)*. Her parentage is **unknown**. One hypothesis makes her a princess of Smolensk, another a daughter of a Lithuanian boyar house *(verify; leave her origin a mystery in prose)*. **Died 1418** at Trakai. She organised the Krėva escape of autumn 1382, in which her maid (**Elena** *(verify name)*) stayed in Vytautas's bed and was executed. Hostage of the Order in 1383–84 and again around 1390 (`master_chronology.md`).
 - **Sofija** (1371 – 1453). Betrothed to **Vasily Dmitrievich** of Moscow. By tradition the match was made when Vasily escaped from the Horde in 1386–87 and passed through Lithuanian lands *(verify)*. Married **9 Jan 1391** *(verify day)*. Grand Princess of Moscow 1391–1425; **regent for her son Vasily II** from 1425 in the Muscovite civil war. Her children include **Vasily II the Blind** (1415–62), **Anna** (1393–1417), who married the Byzantine heir **John VIII Palaiologos** in 1411 and died of plague, and **Anastasija**, who married Olelka of Kyiv, so Vytautas's granddaughter married Algirdas's great-grandson *(verify)*.
 - **The sons.** Vytautas had sons who died young. The Lithuanian chronicle tradition holds that they were **poisoned while hostages of the Order** after one of his defections. `master_chronology.md` places it in **1392**. Sources differ on names (Jurgis and Ivan are sometimes given), number and year *(verify all; the saga follows the chronology: two sons, 1392)*.
-- **Second wife: Julijona Alšėniškė** (Uliana Olshanska), ⚭ 1418, daughter of Prince Ivan of Halshany (Alšėnai) *(verify)*. No children. **[Record], with genealogy to verify:** she was aunt of **Sophia of Halshany**, so Vytautas and Jogaila ended up married to an aunt and her niece.
+- **Second wife: Julijona Alšėniškė** (Uliana Olshanska), ⚭ 13 Nov 1418, daughter of Prince Ivan of Halshany (Alšėnai) *(verify)*. No children. **[Record], with genealogy to verify:** she was aunt of **Sophia of Halshany**, so Vytautas and Jogaila ended up married to an aunt and her niece.
 
 **Consequence [Record].** Vytautas died with **no male heir**. His blood survived only in **Moscow**: his grandson Vasily II. Vasily I's testament (1423) placed the boy under Vytautas's protection *(verify date)*. The Kęstutaičiai line that the Order tried to wipe out ends up on the Muscovite throne, which is the bitterest irony in the series.
 
@@ -306,10 +306,10 @@ Mottos are **[Saga invention]** unless stated. Heraldry follows the record where
 
 | Family | Founder(s) in our period | Polish arms after Horodło | Role and era |
 |---|---|---|---|
-| **Goštautai** (Gasztołd) | **Jonas Goštautas** (d. 1458) | **Abdank** *(verify)* | Rises under Vytautas. In the **1430s–40s** the leading voice of the Lithuanian council: often named among those behind the **1440 murder** of Žygimantas *(verify)*; leader of the council that **elected Casimir** Grand Duke in 1440. Voivode of Trakai, then of Vilnius *(verify offices and years)*. **Book V's kingmaker.** |
-| **Astikai** (Ościk) | **Kristinas Astikas** (fl. 1390s–1430s *(verify)*) | **Trąby** *(verify)* | Vytautas's companion. His son **Radvila Astikaitis** (d. 1477) founds the Radvilos. |
+| **Goštautai** (Gasztołd) | **Jonas Goštautas** (d. 1458) | **Abdank** *(verify)* | Rises under Vytautas. In the **1430s–40s** the leading voice of the Lithuanian council: his role in the **1440 murder** of Žygimantas is **uncertain** (VLE; the killers are recorded as the Czartoryski brothers, Švitrigaila's partisans); leader of the council that **elected Casimir** Grand Duke in 1440. Voivode of Trakai, then of Vilnius *(verify offices and years)*. **Book V's kingmaker.** |
+| **Astikai** (Ościk) | **Kristinas Astikas** (fl. 1390s–1430s; d. c.1442–44) | **Trąby** *(verify)* | Vytautas's companion. His son **Radvila Astikaitis** (d. 1477) founds the Radvilos. |
 | **Radvilos** (Radziwiłł) | **Radvila Astikaitis** | Trąby | **Only beginning in Book V.** The Radvilos are a late-15th-century power. In 1440–50 they are a young branch of the Astikai. Treat any "Radvila magnate" before 1450 as **anachronistic** (Book V outline ch. 17 should say "the Astikai and their sons"). |
-| **Kęsgailos** (Kieżgajło) | **Mykolas Kęsgaila** (d. 1450), son of Valimantas | **Zadora** *(verify)* | **Samogitian** magnates. **Elders (*seniūnai*) of Samogitia** in the 1410s–40s *(verify terms)*. The **Valimantaičiai** brothers, including **Rumbaudas Valimantaitis**, Vytautas's man in Samogitia c.1409–11 *(verify)*, are the bridge between Vilnius and the Samogitian assemblies. |
+| **Kęsgailos** (Kieżgajło) | **Mykolas Kęsgaila** (d. 1450), son of Valimantas | **Zadora** *(verify)* | **Samogitian** magnates. **Elders (*seniūnai*) of Samogitia** 1412–32, 1440–41 and 1443–50 (Švitrigaila's man: imprisoned by Žygimantas after 1432, restored in 1440). The **Valimantaičiai** brothers, including **Rumbaudas Valimantaitis**, Vytautas's man in Samogitia c.1409–11 *(verify)*, are the bridge between Vilnius and the Samogitian assemblies. |
 | **Manvydai** (Moniwid) | **Albertas (Vaitiekus) Manvydas**, first **voivode of Vilnius** (1413) *(verify)* | **Leliwa** *(verify)* | The first holders of the new Horodło offices. Unrelated to Prince Manvydas son of Gediminas (no evidence of descent *(verify)*). |
 | **Jaunius** | **Jaunius**, first **voivode of Trakai** (1413) *(verify)* | — | Vytautas's administrator. |
 | **Daugirdas** (Dowgird) | **Jonas Daugirdas**, voivode of Vilnius in the 1430s–40s *(verify)* | — | Council lord of the Žygimantas years. |

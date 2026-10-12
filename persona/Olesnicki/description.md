@@ -1,7 +1,7 @@
 # Zbigniew Oleśnicki (The Cardinal-King)
 
 **Title**: Royal secretary; Bishop of Kraków (1423–55); Cardinal (named 1439)
-**Era**: Book IV (mortal antagonist: the crown intercepted, 1430) and Book V
+**Era**: Book IV (mortal antagonist: the crown embassy blocked, 1430) and Book V
 **Archetype**: The Religious Oligarch / The Shadow Regent
 **Pronunciation**: ZBIG-niew o-leś-NIC-ki · /ˈzbʲiɡɲɛf ɔlɛɕˈɲit͡skʲi/ · English sound-alike "ZBEEG-nyef oh-lesh-NEETS-kee"
 **Power**: **Tier 0**. A statesman, not a sorcerer. The **Gold-Glutton** works through his ledgers and seals, and the golden chain from Krėva resurfaces on one of his envoys (`world_rules/power_systems.md` §5), but he serves neither knowingly.

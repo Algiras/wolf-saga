@@ -2,7 +2,7 @@
 
 **True Name**: Jogaila; baptised Władysław (Kraków, 15 Feb 1386)
 **Title**: Grand Duke of Lithuania (1377–81, 1382–92, then overlord); King of Poland (1386–1434)
-**Age**: Late 20s to about 30 in 1382 (born c. 1352–62; birth year uncertain)
+**Age**: About 20 in 1382 (born c. 1362, the prevailing post-1990 view; the older c. 1352 is a minority view)
 **Archetype**: The Politician / The Modernizer
 **Pronunciation**: jo-GAI-la · /joˈɡɐɪɫɐ/ · English sound-alike "yo-GUY-lah"
 **Power**: **Tier 0** (Paprastas). No gift. **Bought** power only: his 1382 bargain with the Shadow-Seller (the "easy way" of the trap; the price is that his line inherits the crown and loses the land). His ambition also feeds the Gold-Glutton and draws the White Silence (`world_rules/magic_rules.md` §8; `cosmology.md` §3.3).

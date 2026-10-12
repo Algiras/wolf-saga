@@ -48,7 +48,7 @@
 
 ## Deviations and flags
 - **Boys' timeline:** I have Vytautas bring them home from Marienburg c. autumn 1388 (Zöllner's "good will"), so in 1389–90 he leads them back as hostages (Book I ch. 28 had them left at Marienburg).
-- **Žygimantas:** shown as already six years in Order hands by Jan 1390 (houses doc: hostage from c. 1384); the outline says "since 1390". Part 2 ch. 19 should allow "hostage since 1384".
+- **Žygimantas:** handed over as a hostage at Lyck in Jan 1390, at 25 (record, VLE: c. 1389/90-1398, in the Order's hands from Vytautas's second defection until after Salynas). Historical-fact pass: ch. 6 no longer says he had already spent six years with the Order (now "two years in strange hands"); ch. 19 now says eight years.
 - **Eglė** appears in Vilnius (ch. 3) and at the Neman (ch. 9) as the Root-Mother's "gap filler" (persona), not only in the Dykra.
 - **Kalvis** guards the flame (per D11), not the ember-carrier.
 - The outline's ch. 3 friar is named; the ragana's Order-child price is stated, not enacted. Ch. 6 hostage list: Ona, the two boys, Žygimantas (Sofija is with Danutė in Masovia, not held).

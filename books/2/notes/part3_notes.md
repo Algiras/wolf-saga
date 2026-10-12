@@ -35,7 +35,7 @@ Decisions made when reading ch. 1-30 in order. Edits are minimal line adjustment
 
 - **Elena:** Onos tarnaitė (Book I ch. 12-13, 17) is now named in ch. 27 (the face-loss list: "Elena. Ona buvo liepusi prisiminti jos vardą") and ch. 29 (Vytautas's question to Ona). In ch. 27 the girl is remembered as saying "šaknys ją atsimins" (Book I ch. 13), not as silent.
 - **Sons:** ch. 4 now says Vytautas brought them home from Marienburg "kaip buvo pažadėjęs Vilniaus menėje" (Book I ch. 28 promise); ch. 5 ("Pažadėjai juos parsivesti. - Parsivedžiau") already carries the return. No change to the 1392 deaths at Balga.
-- **Žygimantas:** consistent without edits (b. c. 1365; 25 and six years a hostage in Jan 1390, ch. 6; about 33 and fourteen years at Salynas, ch. 19: hostage since 1384, not 1390 as the outline said).
+- **Žygimantas:** consistent without edits (b. c. 1365; 25 and newly handed over at Lyck in Jan 1390, ch. 6; about 33 and eight years a hostage at Salynas, ch. 19; corrected to the record in the historical-fact pass, previously six and fourteen years from a 1384 start).
 - **Flame:** ch. 11 now says the dry vault lies on the island's east side by the landing and that the south-corner foundations are left behind; ch. 18 ("rytinis sausas rūsys") and ch. 29 match.
 - **Pebble chain** checked end to end (warm 2, 5, 9 hot, 11, 13; dim at Lyck 6; neither at the Black Sea 17; cold from 20 through 22, 23, 27, 29). Ch. 20: "Septyniolika metų" since the gift (1382, Book I ch. 3), not sixteen. Ch. 29 colour "mažą, tamsų" (matches ch. 20 and Book I).
 - **Henė's stones:** three through ch. 15; two from ch. 16 (ch. 19, 20, 22, 25, 26 show two). No edit needed. The golden chain is only mentioned in ch. 16 (taken); it is not shown again.

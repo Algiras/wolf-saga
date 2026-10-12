@@ -41,6 +41,7 @@
 | 1361 | Kęstutis captured by the Order and imprisoned at Marienburg; **escapes** with the help of a servant (Alfas) *(verify)* | **The escape Vytautas will repeat.** Kęstutis tells him the story at Krėva (ch. 8) | Book VI; Book I ch. 8 |
 | Easter 1362 | **Kaunas castle** besieged and destroyed by the Order | — | Book VI |
 | 1362 | **Battle of Blue Waters**: Algirdas defeats the Tatars; Kyiv drawn into the GDL | The **Steppe-Hunger** notices Lithuania | Book VI |
+| c. 1362 | **Jogaila born**, son of Algirdas and Uliana of Tver *(post-1990 consensus, Tęgowski 1999; the older c. 1352 is a minority view; he is about 15 at his accession in 1377; Vytautas, b. c. 1350, is about twelve years older)* | — | Book VI (as a child at most); Book I (as a youth) |
 | 1368, 1370, 1372 | Algirdas's campaigns against **Moscow** | — | Book VI |
 | 17 Feb 1370 | **Battle of Rudau**: Algirdas and Kęstutis defeated by the Order | — | Book VI |
 | May 1377 | **Algirdas dies**; cremated with horses (traditional) | One oath-taker of the Pact gone | Book VI end |
@@ -85,7 +86,7 @@
 |---|---|---|---|
 | 1388–89 | Vytautas grants privileges to the **Jews** of Brest, Grodno, Trakai and Lutsk *(verify years)* | — | Minor |
 | **1389** | Vytautas's plot to seize Vilnius fails; he **flees to the Order again** | **Second defection.** Perkūnas's claim tightens | **Part 1** (missing from the current outline) |
-| 1390 | Treaty of **Lyck** (Ełk) *(verify)*: Vytautas allied with the Order; **Sofija** married to **Vasily I** of Moscow (1391) | Ona and the children held as **surety** again | Part 1 |
+| 1390 | Treaty of **Lyck** (Ełk) *(verify)*: Vytautas allied with the Order; **Sofija** married to **Vasily I** of Moscow (1391) | Ona and the children held as **surety** again; his brother **Žygimantas** also goes to the Order as a hostage (record, VLE: c. 1389/90–1398, freed after Salynas) | Part 1 |
 | **1390** | **Siege of Vilnius**: the Order and Vytautas burn the **Crooked Castle**; **Henry Bolingbroke** (future Henry IV of England) takes part; Skirgaila defends | The bombards and siege the current Book I wrongly uses | **Part 1 set piece** |
 | 1392 | Vytautas defects back to Jogaila; **his two sons, hostages of the Order, are poisoned** *(weak evidence: mainly Simon Grunau, a 16th-c. chronicler; some historians call it a rumour. D3 lets the saga adopt it, but the docs should say it is contested)* | **The worst price.** Ona's grief; the Iron Saint's revenge | **Part 1 climax** |
 | **4–5 Aug 1392** | **Agreement of Ostrów**: Vytautas becomes Grand Duke (as Jogaila's lieutenant) | Henė changes masters to Vytautas | Part 1 end |
@@ -114,23 +115,32 @@
 |---|---|---|---|
 | 1413 | **Union of Horodło**; Samogitian baptism begins | The Hidden Groves fall | Part 1 |
 | 1414–18 | **Council of Constance**: the Samogitian case | — | Part 1 |
-| 1418 | **Ona dies**; Vytautas marries **Julijona** of Alšėnai | The last person who knew him before Krėva | Part 1 |
+| 31 Jul 1418 | **Ona dies** at Trakai (buried in Vilnius cathedral) | The last person who knew him before Krėva | Part 1 |
+| 13 Nov 1418 | Vytautas marries **Julijona** of Alšėnai (a widow, Ona's niece; the Bishop of Włocławek officiates) | — | Part 1 |
 | 27 Sep 1422 | **Treaty of Melno**: a border that will last until 1918 | — | Part 2 |
 | 1429 | **Congress of Lutsk**: Sigismund offers Vytautas a crown | Henė's final bargain: the crown for the flame | Part 2 |
-| 1430 | **The crown is intercepted** by Polish lords | Henė turns it to leaves (mythic_gaps §4) | Part 3 |
+| Aug 1430 | **The crown embassy is blocked** by Polish border guards: Sigismund's couriers are robbed by Jan Czarnkowski's men on the Neumark / Greater Poland border and the embassy stalls at Frankfurt (Oder) (the crown itself was never seized; that is a later legend) | Henė turns the crown to leaves (mythic_gaps §4) | Part 3 |
 | **27 Oct 1430** | **Vytautas dies at Trakai** | **The last flame goes out** | **End** |
 
 ## Book V era: The Wolf's Legacy (1430–1450)
 
 | Date | Record | Hidden history | Book V |
 |---|---|---|---|
-| 1430 | **Švitrigaila** Grand Duke | — | Part 1 |
-| 1 Sep 1432 | **Žygimantas Kęstutaitis's coup** at Ašmena | Henė whispers | Part 1 |
+| Oct–Nov 1430 | **Švitrigaila** Grand Duke, elected by the Lithuanian lords after Vytautas's death; **Jogaila approves on 7 Nov 1430**, then withdraws under Polish pressure | — | Part 1 |
+| Nov 1430 | Polish lords **seize Podolia** (Kamianets refuses to surrender) | — | Part 1 |
+| 19 Jun 1431 | **Treaty of Christmemel**: Švitrigaila and the Teutonic and Livonian Orders (mutual aid, war only by joint consent) | — | Part 1 |
+| 1 Sep 1431 | **Truce of Czartorysk** after the Polish invasion of Volhynia | — | Part 1 |
+| 31 Aug 1432 | **Žygimantas Kęstutaitis's coup** at Ašmena (night of 31 Aug into 1 Sep); Švitrigaila flees to Polotsk | Henė whispers | Part 1 |
+| 15 Oct 1432 | **Grodno**: Oleśnicki receives Žygimantas's oath for the king and proclaims him Grand Duke for life (**Jogaila is absent**; his own act is issued at Lwów on 30 Oct 1432) | — | Part 1 |
+| 8 Dec 1432 | **Battle of Ašmena**: Žygimantas defeats Švitrigaila (one battle only) | — | Part 1 |
 | 1 Jun 1434 | **Jogaila dies** | — | Part 2 |
 | 1 Sep 1435 | **Battle of Pabaiskas (Wiłkomierz)** | The Unbinding at its height; the battlefield's unburned dead | Part 2 climax |
+| 31 Dec 1435 | **Peace of Brest** (Brześć Kujawski): the Order stops backing Švitrigaila | — | Part 2 |
 | 20 Mar 1440 | **Žygimantas assassinated** at Trakai | — | Part 3 |
-| 1440 | **Casimir Jagiellon** Grand Duke (aged 12) | — | Part 3 |
-| 1447 | Casimir becomes King of Poland too | The old world becomes "folklore" | Epilogue |
+| May 1440 | **Casimir Jagiellon** arrives in Vilnius as his brother's viceroy | — | Part 3 |
+| 29 Jun 1440 | Casimir proclaimed Grand Duke (aged 12) by the Lithuanian lords, against Polish wishes | — | Part 3 |
+| 2 May 1447 | **Casimir's privilege** for Lithuania issued in Vilnius (VLE: 5 May) | — | Part 3 |
+| 25 Jun 1447 | Casimir crowned King of Poland too, at Wawel | The old world becomes "folklore" | Epilogue |
 
 ---
 

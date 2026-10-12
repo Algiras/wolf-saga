@@ -1,0 +1,219 @@
+1
+00:00:00,600 --> 00:00:15,341
+Before we begin, a short guide to the names you will hear. The story is Lithuanian, and its names carry sounds English does not have. For each one, I will give you a simple way to say it, and then you will hear it spoken in Lithuanian.
+
+2
+00:00:16,141 --> 00:00:17,379
+First, the people.
+
+3
+00:00:18,179 --> 00:00:23,149
+Vytautas  ·  VEE-tow-tahs
+
+4
+00:00:23,599 --> 00:00:25,903
+Vytautas  (lietuviškai)
+
+5
+00:00:26,903 --> 00:00:30,530
+Kęstutis  ·  kess-TOO-tis
+
+6
+00:00:30,980 --> 00:00:33,308
+Kęstutis  (lietuviškai)
+
+7
+00:00:34,308 --> 00:00:37,807
+Birutė  ·  bih-ROO-tay
+
+8
+00:00:38,257 --> 00:00:40,537
+Birutė  (lietuviškai)
+
+9
+00:00:41,537 --> 00:00:43,585
+Ona  ·  oh-NAH
+
+10
+00:00:44,035 --> 00:00:46,171
+Ona  (lietuviškai)
+
+11
+00:00:47,171 --> 00:00:50,947
+Jogaila  ·  yo-GUY-lah
+
+12
+00:00:51,397 --> 00:00:53,629
+Jogaila  (lietuviškai)
+
+13
+00:00:54,629 --> 00:00:59,087
+Skirgaila  ·  skihr-GUY-lah
+
+14
+00:00:59,537 --> 00:01:01,817
+Skirgaila  (lietuviškai)
+
+15
+00:01:02,817 --> 00:01:06,721
+Algirdas  ·  ahl-GIHR-dahs
+
+16
+00:01:07,171 --> 00:01:09,355
+Algirdas  (lietuviškai)
+
+17
+00:01:10,355 --> 00:01:14,963
+Gediminas  ·  geh-DIH-mih-nahs
+
+18
+00:01:15,413 --> 00:01:17,645
+Gediminas  (lietuviškai)
+
+19
+00:01:18,645 --> 00:01:23,872
+Švitrigaila  ·  shvih-trih-GUY-lah
+
+20
+00:01:24,322 --> 00:01:26,794
+Švitrigaila  (lietuviškai)
+
+21
+00:01:27,794 --> 00:01:30,311
+Jadvyga  ·  yahd-VEE-gah
+
+22
+00:01:30,761 --> 00:01:33,041
+Jadvyga  (lietuviškai)
+
+23
+00:01:34,041 --> 00:01:39,460
+Eglė  ·  eg-LAY
+
+24
+00:01:39,910 --> 00:01:42,046
+Eglė  (lietuviškai)
+
+25
+00:01:43,046 --> 00:01:47,227
+Galminas  ·  GAHL-mih-nahs
+
+26
+00:01:47,677 --> 00:01:49,885
+Galminas  (lietuviškai)
+
+27
+00:01:50,885 --> 00:01:53,744
+Henė  ·  HEH-nay
+
+28
+00:01:54,194 --> 00:01:56,306
+Henė  (lietuviškai)
+
+29
+00:01:57,306 --> 00:02:00,271
+Žiežirba  ·  zhyeh-ZHEER-bah
+
+30
+00:02:00,721 --> 00:02:03,337
+Žiežirba  (lietuviškai)
+
+31
+00:02:04,337 --> 00:02:05,575
+Now, the places.
+
+32
+00:02:06,375 --> 00:02:08,273
+Vilnius  ·  VIL-nyoos
+
+33
+00:02:08,723 --> 00:02:11,051
+Vilnius  (lietuviškai)
+
+34
+00:02:12,051 --> 00:02:15,465
+Trakai  ·  trah-KYE
+
+35
+00:02:15,915 --> 00:02:18,027
+Trakai  (lietuviškai)
+
+36
+00:02:19,027 --> 00:02:21,224
+Krėva  ·  KRAY-vah
+
+37
+00:02:21,674 --> 00:02:23,714
+Krėva  (lietuviškai)
+
+38
+00:02:24,714 --> 00:02:27,701
+Palanga  ·  pah-lahn-GAH
+
+39
+00:02:28,151 --> 00:02:30,167
+Palanga  (lietuviškai)
+
+40
+00:02:31,167 --> 00:02:36,713
+Šventaragis  ·  shven-tah-RAH-gis
+
+41
+00:02:37,163 --> 00:02:39,635
+Šventaragis  (lietuviškai)
+
+42
+00:02:40,635 --> 00:02:44,326
+Žemaitija  ·  zheh-MYE-tih-yah
+
+43
+00:02:44,776 --> 00:02:47,152
+Žemaitija  (lietuviškai)
+
+44
+00:02:48,152 --> 00:02:51,608
+Žalgiris  ·  zhahl-GIH-ris
+
+45
+00:02:52,058 --> 00:02:54,242
+Žalgiris  (lietuviškai)
+
+46
+00:02:55,242 --> 00:02:57,013
+And a few words of the old world.
+
+47
+00:02:57,813 --> 00:02:59,946
+Perkūnas  ·  per-KOO-nahs
+
+48
+00:03:00,396 --> 00:03:02,628
+Perkūnas  (lietuviškai)
+
+49
+00:03:03,628 --> 00:03:05,484
+Žemyna  ·  zheh-MEE-nah
+
+50
+00:03:05,934 --> 00:03:08,310
+Žemyna  (lietuviškai)
+
+51
+00:03:09,310 --> 00:03:14,046
+Senovės Kalba  ·  seh-NOH-vays kahl-BAH
+
+52
+00:03:14,496 --> 00:03:17,160
+Senovės Kalba  (lietuviškai)
+
+53
+00:03:18,160 --> 00:03:22,171
+vilkatas  ·  vil-KAH-tahs
+
+54
+00:03:22,621 --> 00:03:24,853
+vilkatas  (lietuviškai)
+
+55
+00:03:25,853 --> 00:03:31,826
+That is all you need. Don't worry about getting them perfect. The story will carry you. Let us begin.

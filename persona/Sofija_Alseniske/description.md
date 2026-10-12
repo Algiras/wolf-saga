@@ -10,7 +10,7 @@
 **Not to be confused with**: **Sofija**, Vytautas's daughter (1371–1453), Grand Princess of Moscow, who has no folder yet. This folder is the Halshany queen.
 
 ## Appearance
-*   Youthful: she married Jogaila when he was in his 60s (his birth year is uncertain, c. 1352–62).
+*   Youthful: she married Jogaila in 1422, when he was about 60 (born c. 1362) and she about 17.
 *   Rus' features: high cheekbones and dark hair.
 *   Often seen at the king's side, whispering in his ear.
 

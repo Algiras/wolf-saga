@@ -7,7 +7,7 @@ Continuity edit of ch 1-30 read in order, against the Book IV hand-off and its "
 - **Oath years:** oath 1382 = 48 years in 1430; Last Flame lit 1387 = 43. Ch 1 (48) and ch 7 (43) already agree.
 - **Keeper's sworn years:** krikštas at Kūčios 1405 = 25 years in 1430 (ch 1, 2), 34 in 1439 (ch 20), 44 at death (ch 28, 29). The outline's "45" is not used.
 - **Wolf ledger:**
-  - Kūčios 1430 (ch 7): 14 wolves = Pilkoji + Žiežirba + 12 others in the circle; 15 bowls, the fifteenth for Vytautas. Same 14 in autumn 1433 (ch 11).
+  - Kūčios 1430 (ch 7): 14 wolves = Pilkoji + Žiežirba + 12 others in the circle; 15 bowls, the fifteenth for Vytautas. Same 14 in autumn 1432 (ch 11, re-dated by the fact-check: the Ašmena battle was 8 Dec 1432).
   - Pabaiskas, 1 Sep 1435 (ch 13): 12 others + Pilkoji + Žiežirba. The night takes four: Kirmėlė, Lazdynas, Alksnis, Ąžuolas, so "dvylika virto aštuoniais" (8 others).
   - Winter 1435-36 (ch 16) takes five: Šermukšnis, Šiurpas, Kadagys, Erškėtis, Griovys. Left after Jurginės 1436: Pilkoji, Uosis, Spyglys, Dobilas + the keeper = "keturi, su juo penki" (ch 16, 21, 22, 24 "tris likusius").
   - Dobilas dies between 1441 and 1446, undated (ch 28). Uosis dies winter 1448-49 (ch 28). Pilkoji dies 2 Nov 1449 (ch 28).
@@ -40,7 +40,7 @@ Continuity edit of ch 1-30 read in order, against the Book IV hand-off and its "
 - `29_vardas_prie_ugnies.qmd`: coda reconciled with the stone rule (second bead deaf, Moscow bead warm); two "pirmą kartą per daugelį metų" trimmed.
 - `30_epilogas.qmd`: expanded 1,497 -> 1,686 words by deepening existing scenes (the Kūčios errand with the bread crust, the stumps, the boy's sight of Vilkaitis, the mother at the threshold); no new plot.
 
-Checked and clean: every chapter has `# Title` and one italic dateline (ch 20 and 25 add italic frame paragraphs by design); no English, TODO or outline text; names agree with the lexicon (Olesnickis; Zbignevas is used only as the first name, as in Book IV ch 2); anchors match the outline's [Record] list; Jogaila's age never "about 68" (82 in 1434); Henė's bells wool-stuffed; the chain and stones as above.
+Checked and clean: every chapter has `# Title` and one italic dateline (ch 20 and 25 frame paragraphs are now plain first person, as in ch 1, 5, 10, 29; see book5_fact_check.md); no English, TODO or outline text; names agree with the lexicon (Olesnickis; Zbignevas is used only as the first name, as in Book IV ch 2); anchors match the outline's [Record] list; Jogaila's age: SUPERSEDED by the Book IV decision (b. c. 1362, about 68 in 1430, about 72 in 1434); Henė's bells wool-stuffed; the chain and stones as above.
 
 ## Unresolved items for the author
 
@@ -52,3 +52,8 @@ Checked and clean: every chapter has `# Title` and one italic dateline (ch 20 an
 6. **Pilkoji's wolf-skin "prieš keturiasdešimt penkerius metus" (ch 28)** and "sponsorius" are unverified against Book II/III.
 7. **Verify items still open from the chapter notes:** Jogaila at Grodno 15 Oct 1432 (ch 10); Ašmena geography; 1447 privilege date and clauses; Casimir's proclamation on 29 Jun 1440; Olaus Magnus's description ("ex-archbishop"); grandfather aged 94 in 1553 with 1466 at age seven.
 8. **Chapter length:** ch 12 (1,507) and ch 3 (1,511) are just above the 1,500 floor; ch 25 (1,590) and ch 26 (1,584) are the next shortest.
+
+
+## Superseded by the fact-check (2026-10-12)
+
+See `book5_fact_check.md`. Unresolved items 1, 4 and 7 above are closed there (Birutė frame is plain first person; Grodno without Jogaila; Ašmena battle 8 Dec 1432; grandfather 74 in 1553). Jogaila's age follows Book IV (c. 68 in 1430, c. 72 in 1434).

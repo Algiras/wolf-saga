@@ -14,4 +14,4 @@
 ## Later books (summary)
 *   **Book II**: second defection (1389–90), the siege of Vilnius (1390), the sons poisoned (1392), Ostrów (4–5 Aug 1392, Grand Duke; Trakai at last), the Vorskla (12 Aug 1399).
 *   **Book III**: reconciliation with Jogaila; Grunwald (15 Jul 1410).
-*   **Book IV**: Ona dies (1418); Lutsk (1429); the crown intercepted (1430); dies at Trakai, 27 Oct 1430.
+*   **Book IV**: Ona dies (31 Jul 1418); Vytautas marries Julijona (13 Nov 1418); Lutsk (1429); the crown embassy blocked at the Polish border (Aug 1430); dies at Trakai, 27 Oct 1430.

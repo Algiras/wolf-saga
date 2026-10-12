@@ -1,0 +1,22 @@
+---
+title: "Kamianets (Podolia)"
+id: kamianets
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/kamianets.md >}}
+
+## In the 1380s [Record]
+<!-- What actually stood here: castles, walls, people, who held it. -->
+
+## Sensory sketch
+<!-- Smell, sound, light, weather by season. -->
+
+## In the saga
+<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+## Getting there
+<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+## Scenes set here

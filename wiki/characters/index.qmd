@@ -17,9 +17,9 @@ title: "Characters"
 | [Hanulas (Riga merchant)](hanulas.qmd) | character | c. 1340–1382 |
 | [Jadvyga (Jadwiga)](jadvyga.qmd) | character | 1373–1399 |
 | [Janusz I of Masovia](janusz1.qmd) | character | c. 1346–1429 |
-| [Jogaila](jogaila.qmd) | character | c. 1352–1434 |
+| [Jogaila](jogaila.qmd) | character | c. 1362–1434 |
 | [Jonas (vilkų vyresnysis)](jonas.qmd) | character | c. 1330–1384 |
-| [Julijona Alšėniškė](julijona.qmd) | character | c. 1370–1448 |
+| [Julijona Alšėniškė](julijona.qmd) | character | c. ?–1448 |
 | [Kaributas](kaributas.qmd) | character | c. 1355–1404 |
 | [Konrad Zöllner von Rotenstein](zollner.qmd) | character | c. 1325–1390 |
 | [Krivis of Šventaragis](krivis.qmd) | character | c. 1310–1387 |

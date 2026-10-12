@@ -129,7 +129,7 @@ Short form for tools that take a one-line negative: `no text, no letters, no wat
 
 **Historical and canon cautions:**
 
-- The coronation never happened: the crowns sent in 1429-30 were intercepted by Polish lords led by Oleśnicki (historical record) and Vytautas died at Trakai on 27 Oct 1430. In the saga the crown 'never existed as gold; Henė turned it to leaves' (power_systems §5). Keep the crown clearly leaves-and-light, not a convincing gold crown.
+- The coronation never happened: the crown embassy of 1430 was blocked at the Polish border by Jan Czarnkowski's guards on Oleśnicki's side (historical record; the crown itself was never seized) and Vytautas died at Trakai on 27 Oct 1430. In the saga the crown 'never existed as gold; Henė turned it to leaves' (power_systems §5). Keep the crown clearly leaves-and-light, not a convincing gold crown.
 - The Island Castle was finished by c. 1409, so a Gothic brick vault there is period-correct for 1411-30. The Congress of Lutsk (1429) was held at the Lutsk castle on the Styr, not at Trakai; the cover is the Trakai vault by design.
 - Vytautas was about 80 in 1430 (born c. 1350). Depict age without caricature. No legible ledgers, seals or letters.
 

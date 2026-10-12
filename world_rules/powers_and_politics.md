@@ -121,7 +121,7 @@
 | I | A king who brings an army against the Order and a realm to the Crown: Krėva's ambiguous *applicare* (to "attach" Lithuania) *(verify the term and its readings)*. |
 | II | Lithuania governed for the Crown (Skirgaila, then Vytautas as lieutenant); **Red Ruthenia**; peace with the Order. Spytko II dies at the **Vorskla** with Vytautas. |
 | III | **Vilnius–Radom**: Lithuania reverts to the Crown; recover **Dobrzyń** (Raciąż) and then **Pomerelia** (war, 1409–11). |
-| IV | **Horodło** (union on Polish terms); privileges in return for Sophia's sons' succession; **no Lithuanian crown**. Oleśnicki intercepts it. |
+| IV | **Horodło** (union on Polish terms); privileges in return for Sophia's sons' succession; **no Lithuanian crown**. Oleśnicki's guards block the crown embassy at the border (Aug 1430). |
 | V | Podolia and Volhynia (from 1430); a Polish king in Lithuania (Władysław III's governor Casimir). The Lithuanians outmanoeuvre them in 1440. |
 
 - **Leverage:** the crown Jogaila wears; **election** of his heirs; papal law; Polish knights.
@@ -225,9 +225,9 @@
 | 1414–18 | **Council of Constance** | All | Samogitian case; Medininkai bishopric (1417) | Baptised | Groves fall one by one. |
 | **27 Sep 1422** | **Melno** | Poland, Lithuania; Order | **Samogitia permanently Lithuanian**; Klaipėda (Memel) to the Order; the border lasts until 1918 *(verify that the border held so long)* | **Lithuanian** | The land is won as the gods are lost. |
 | Jan 1429 | **Congress of Lutsk** | Sigismund, Jogaila, Vytautas and envoys | Sigismund offers a crown | — | Henė's last bargain: the crown for the flame. |
-| 1430 | The crown intercepted | Polish lords | Envoys stopped at the border *(verify details)* | — | The crown turned to leaves (mythic_gaps §4). |
-| **19 Jun 1431** | **Christmemel** | Švitrigaila; Order | Alliance against Poland *(verify)* | — | — |
-| **15 Oct 1432** | **Grodno** | Žygimantas Kęstutaitis; Jogaila | Žygimantas recognised as Grand Duke under Polish overlordship; reversion to the Crown *(verify terms)* | — | Vilnius–Radom, again. |
+| Aug 1430 | The crown embassy blocked | Polish border guards (Jan Czarnkowski) | Sigismund's couriers robbed on the Neumark border; the embassy stalls at Frankfurt (Oder); the crown itself never seized | — | The crown turned to leaves (mythic_gaps §4). |
+| **19 Jun 1431** | **Christmemel** | Švitrigaila; Teutonic Order (Rusdorf) and Livonian Order | Mutual aid if attacked; war only by joint consent; shared spoils *(en.wikipedia adds a cession of Palanga; VLE says the Melno borders stood, unconfirmed)* | — | — |
+| **15 Oct 1432** | **Grodno** | Žygimantas Kęstutaitis; Bishop Oleśnicki for Jogaila (Jogaila himself absent; his act issued at Lwów, 30 Oct 1432) | Žygimantas recognised as Grand Duke under Polish overlordship; reversion to the Crown *(verify terms)* | — | Vilnius–Radom, again. |
 | **1 Sep 1435** | **Pabaiskas (Wiłkomierz)** | Žygimantas, Poland; Švitrigaila, Livonian Order | Švitrigaila and the Livonians crushed; Kaributaitis captured | — | Kin-slaughter worse than the crusades. |
 | **31 Dec 1435** | **Peace of Brest (Brześć Kujawski)** | Poland, Lithuania; Order | The Order abandons Švitrigaila; Melno confirmed | — | The Order's last stand as a crusader. |
 | **29 Jun 1440** | Casimir elected | Lithuanian council | Casimir (aged 12) Grand Duke | — | "A child on the throne". |

@@ -7,6 +7,13 @@ categories: [artifact]
 
 {{< include ../_generated/silver_wolf.md >}}
 
+## Custody, 1345–1450
+
+![Artifact custody timeline](../images/diagrams/artifact-custody.svg){fig-alt="Swimlane timeline from 1345 to 1450 showing who held the silver wolf, the amber pebble, Kęstutis's sword, the golden chain and Henė's three stones. The silver wolf passes from Kęstutis to Vytautas, Pilkoji, the Flame-Keeper and Rimgailė."}
+
+*The silver wolf is the top lane. [Editable source](../diagrams/artifact-custody.excalidraw).*
+
+
 ## Description
 
 A silver wolf a hand long, with raised snout and a worn coat. Old pagan patterns run along its flank, and under the belly is a small second mark: a wolf's head without a collar (Book VI ch. 5). By Book V a tooth is broken and the silver is blackened in the hollows and bright only where skin touches it (V ch. 7).

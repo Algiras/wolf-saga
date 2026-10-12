@@ -7,6 +7,13 @@ categories: [force]
 
 {{< include ../_generated/root_mother.md >}}
 
+## Where she sits
+
+![The three layers of power](../images/diagrams/cosmology-layers.svg){fig-alt="Three layers of power: the gods, the forces (the Root-Mother among them, with the Amber Queen, the Shadow-Seller, Perkūno Rūstybė and the egregores), and the Kalba craft with its human schools. Offerings and asking flow up, answers and costs flow down. The Three Laws of Balance, Truth and Memory bind mortal craft."}
+
+*Gods harden into Forces; mortals can only ask or bargain. [Editable source](../diagrams/cosmology-layers.excalidraw).*
+
+
 ## Nature
 
 **Native** Force: the wild grief of [Žemyna](../gods/zemyna.qmd) and [Medeina](../gods/medeina.qmd), fused during the 13th-century crusades (cosmology §3.1; canon D8: she is *not* a synonym for Žemyna). She took shape when the Order emptied Sudovia (1277–83) and made the Dykra her body (Book VI ch. 9).

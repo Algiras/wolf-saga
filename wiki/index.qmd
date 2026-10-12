@@ -18,6 +18,12 @@ The encyclopedia of the **Iron Wolf Saga**: Lithuania, 1341–1450, where the fo
 <a class="cover-card" href="books/book6.html"><img src="images/book6.jpg" alt="Cover of Book VI: Šventasis Miškas" loading="lazy"><span class="cover-num">VI · Šventasis Miškas</span><span class="cover-years">1341–1377 · prequel</span></a>
 </div>
 
+## The series on one axis
+
+![Six books on one 1341–1450 timeline](images/diagrams/series-timeline.svg){fig-alt="The six books as spans on one axis from 1341 to 1450, with fourteen record events: the 1345 diarchy, Krėva 1382 and 1385, the 1387 baptism, Ostrów 1392, the Vorskla 1399, Grunwald 1410, Horodło 1413, Vytautas's death in 1430, Ašmena 1432, Pabaiskas 1435, the 1440 murder of Žygimantas and Casimir's 1447 privilege."}
+
+*More diagrams on [Maps & diagrams](diagrams.qmd). [Editable source](diagrams/series-timeline.excalidraw).*
+
 ## Explore the world
 
 - **[Timeline](timeline.qmd)**: every event, record (✦) and saga invention (◇)

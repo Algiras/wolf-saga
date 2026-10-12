@@ -7,6 +7,13 @@ categories: [magic]
 
 {{< include ../_generated/silent_pact.md >}}
 
+## The Pact at a glance
+
+![The Silent Pact: parties, clauses and the Unbinding](../images/diagrams/silent-pact.svg){fig-alt="Diagram of the Silent Pact of 1345: the gods, the two brothers, the land and the unasked people; three clauses (the flames, Gediminid blood, the Amber Debt) traced through Books VI and I to V as kept, broken or paid; and the stages of the Unbinding from 1345 to 1430."}
+
+*[Editable source](../diagrams/silent-pact.excalidraw).*
+
+
 ## Terms
 
 **[Saga invention]**, sworn on **Vėlinės night, 1345**, in the Šventaragis valley, when Algirdas and Kęstutis overthrew their brother Jaunutis and divided the realm (Book VI ch. 4, [the oath](../events/ev_pact_sworn.qmd)). **The gods give:** Lithuania will not be conquered; the Order may raid and burn but never hold the heartland. **The princes give:** (1) the **sacred flames** (Šventaragis, Palanga, the Samogitian *alkai*) are never extinguished; (2) **no Gediminid sheds Gediminid blood**; (3) the **Amber Debt**: royal blood for every land lost to plough and cross. *Historical anchor:* the Grand Duchy remained the last unconquered pagan state in Europe, under constant crusade, until 1387; the Pact is the saga's reason why.

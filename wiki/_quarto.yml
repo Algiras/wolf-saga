@@ -27,6 +27,8 @@ website:
         text: Timeline
       - href: graph-explorer.html
         text: Atlas
+      - href: diagrams.qmd
+        text: Diagrams
       - text: Encyclopedia
         menu:
           - characters/index.qmd

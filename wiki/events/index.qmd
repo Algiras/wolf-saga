@@ -46,7 +46,9 @@ title: "Events"
 | [Union of Vilnius and Radom](ev_vilnius_radom.qmd) | event | 1401 |
 | [Peace of Raciąż; Marquard insults Birutė](ev_raciaz_1404.qmd) | event | 1404-05-22 |
 | [Battle of Grunwald / Žalgiris](ev_grunwald.qmd) | event | 1410-07-15 |
+| [Pontoon bridge over the Vistula at Czerwińsk](ev_czerwinsk_bridge.qmd) | event | 1410-06-30 |
 | [Union of Horodło; Samogitian baptism begins](ev_horodlo.qmd) | event | 1413-10-02 |
+| [Samogitian bishopric founded at Medininkai](ev_medininkai_bishopric.qmd) | event | 1417-10-24 |
 | [Ona dies](ev_ona_dies.qmd) | event | 1418-07-31 |
 | [Congress of Lutsk: the crown offered](ev_lutsk.qmd) | event | 1429 |
 | [Crown embassy blocked at the Polish border (Aug 1430); Vytautas refuses Henė](ev_crown_intercepted.qmd) | event | 1430 |
@@ -58,6 +60,7 @@ title: "Events"
 | [Grodno: Žygimantas sworn Grand Duke before Oleśnicki (Jogaila absent)](ev_grodno_1432.qmd) | event | 1432-10-15 |
 | [Battle of Ašmena: Žygimantas defeats Švitrigaila](ev_asmena_battle.qmd) | event | 1432-12-08 |
 | [Jogaila dies at Gródek](ev_jogaila_dies.qmd) | event | 1434-06-01 |
+| [Jogaila catches his chill at Medyka (nightingales)](ev_medyka_chill.qmd) | event | 1434-04 |
 | [Battle of Pabaiskas](ev_pabaiskas.qmd) | event | 1435-09-01 |
 | [Peace of Brest (Brześć Kujawski): the Order drops Švitrigaila](ev_brest_peace.qmd) | event | 1435-12-31 |
 | [Goštautas gives the warm coin to a beggar](ev_gostautas_coin.qmd) | event | 1437 |

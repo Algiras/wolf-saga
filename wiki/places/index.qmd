@@ -9,6 +9,7 @@ title: "Places"
 | [Brześć Kujawski](brzesc_kujawski.qmd) | place |  |
 | [Christmemel (Skirsnemunė)](christmemel.qmd) | place |  |
 | [Czartorysk (Volhynia)](czartorysk.qmd) | place |  |
+| [Czerwińsk (monastery on the Vistula)](czerwinsk.qmd) | place |  |
 | [Dovydiškės (unidentified)](dovydiskes.qmd) | place |  |
 | [Dykra (swamp-forest wilderness)](dykra.qmd) | place |  |
 | [Grodno](grodno.qmd) | place |  |
@@ -27,12 +28,15 @@ title: "Places"
 | [Lyck (Ełk)](lyck.qmd) | place |  |
 | [Marienburg (Malbork)](marienburg.qmd) | place |  |
 | [Masovia (Płock / Warsaw)](masovia.qmd) | place |  |
+| [Medininkai (Varniai), Samogitia](medininkai.qmd) | place |  |
+| [Medyka (near Przemyśl, on the road to Gródek)](medyka.qmd) | place |  |
 | [Naujapilis (Marienwerder)](marienwerder.qmd) | place |  |
 | [Noteć ford (Neumark / Greater Poland border)](notec_ford.qmd) | place |  |
 | [Ostrów](ostrow.qmd) | place |  |
 | [Pabaiskas](pabaiskas.qmd) | place |  |
 | [Palanga](palanga.qmd) | place |  |
 | [Raciążek (Vistula island)](raciazek.qmd) | place |  |
+| [Ragnit (Ragainė)](ragnit.qmd) | place |  |
 | [Ritterswerder (Nemunas island near Lampėdžiai)](ritterswerder.qmd) | place |  |
 | [Road to Jogaila's camp (from Kęstutis's pine hill beyond the Trakai lake)](road_to_jogaila_camp.qmd) | place |  |
 | [Salynas (island in the Nemunas)](salynas.qmd) | place |  |

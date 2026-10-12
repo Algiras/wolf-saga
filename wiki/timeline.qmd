@@ -46,8 +46,10 @@ title: "Timeline"
 | 1399-08-12 | ✦ | [Battle of the Vorskla](events/ev_vorskla.qmd) | II · Auksinis Šešėlis |
 | 1401 | ✦ | [Union of Vilnius and Radom](events/ev_vilnius_radom.qmd) | III · Žaliasis Miškas |
 | 1404-05-22 | ✦ | [Peace of Raciąż; Marquard insults Birutė](events/ev_raciaz_1404.qmd) | III · Žaliasis Miškas |
+| 1410-06-30 | ✦ | [Pontoon bridge over the Vistula at Czerwińsk](events/ev_czerwinsk_bridge.qmd) | III · Žaliasis Miškas |
 | 1410-07-15 | ✦ | [Battle of Grunwald / Žalgiris](events/ev_grunwald.qmd) | III · Žaliasis Miškas |
 | 1413-10-02 | ✦ | [Union of Horodło; Samogitian baptism begins](events/ev_horodlo.qmd) | IV · Nematoma Karūna |
+| 1417-10-24 | ✦ | [Samogitian bishopric founded at Medininkai](events/ev_medininkai_bishopric.qmd) | IV · Nematoma Karūna |
 | 1418-07-31 | ✦ | [Ona dies](events/ev_ona_dies.qmd) | IV · Nematoma Karūna |
 | 1429 | ✦ | [Congress of Lutsk: the crown offered](events/ev_lutsk.qmd) | IV · Nematoma Karūna |
 | 1430 | ✦ | [Crown embassy blocked at the Polish border (Aug 1430); Vytautas refuses Henė](events/ev_crown_intercepted.qmd) | IV · Nematoma Karūna |
@@ -58,6 +60,7 @@ title: "Timeline"
 | 1432-08-31 | ✦ | [Žygimantas's coup at Ašmena](events/ev_coup_1432.qmd) | V · Vilko Palikimas |
 | 1432-10-15 | ✦ | [Grodno: Žygimantas sworn Grand Duke before Oleśnicki (Jogaila absent)](events/ev_grodno_1432.qmd) | V · Vilko Palikimas |
 | 1432-12-08 | ✦ | [Battle of Ašmena: Žygimantas defeats Švitrigaila](events/ev_asmena_battle.qmd) | V · Vilko Palikimas |
+| 1434-04 | ✦ | [Jogaila catches his chill at Medyka (nightingales)](events/ev_medyka_chill.qmd) | V · Vilko Palikimas |
 | 1434-06-01 | ✦ | [Jogaila dies at Gródek](events/ev_jogaila_dies.qmd) | V · Vilko Palikimas |
 | 1435-09-01 | ✦ | [Battle of Pabaiskas](events/ev_pabaiskas.qmd) | V · Vilko Palikimas |
 | 1435-12-31 | ✦ | [Peace of Brest (Brześć Kujawski): the Order drops Švitrigaila](events/ev_brest_peace.qmd) | V · Vilko Palikimas |

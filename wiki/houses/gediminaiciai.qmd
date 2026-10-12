@@ -7,6 +7,13 @@ categories: [house]
 
 {{< include ../_generated/gediminaiciai.md >}}
 
+## Family tree
+
+![Gediminid family tree](../images/diagrams/gediminid-tree.svg){fig-alt="Family tree of the House of Gediminas: Gediminas, his sons Jaunutis, Algirdas and Kęstutis, the sons of Algirdas and of Kęstutis, and Vytautas's daughter Sofija married to Vasily I of Moscow. The 1345 Silent Pact joins the two brothers; the 1382 killing of Kęstutis at Krėva breaks it."}
+
+*Record dates. The 1345 Pact and its 1382 breach are the saga's overlay. [Editable source](../diagrams/gediminid-tree.excalidraw).*
+
+
 ## House card
 
 | | |

@@ -8,6 +8,25 @@ categories: [magic]
 {{< include ../_generated/silent_pact.md >}}
 
 ## Terms
+
+**[Saga invention]**, sworn on **Vėlinės night, 1345**, in the Šventaragis valley, when Algirdas and Kęstutis overthrew their brother Jaunutis and divided the realm (Book VI ch. 4, [the oath](../events/ev_pact_sworn.qmd)). **The gods give:** Lithuania will not be conquered; the Order may raid and burn but never hold the heartland. **The princes give:** (1) the **sacred flames** (Šventaragis, Palanga, the Samogitian *alkai*) are never extinguished; (2) **no Gediminid sheds Gediminid blood**; (3) the **Amber Debt**: royal blood for every land lost to plough and cross. *Historical anchor:* the Grand Duchy remained the last unconquered pagan state in Europe, under constant crusade, until 1387; the Pact is the saga's reason why.
+
 ## Parties & witnesses
+
+**Binds:** [Algirdas](../characters/algirdas.qmd), [Kęstutis](../characters/kestutis.qmd), the [pagan clergy](../factions/pagan_clergy.qmd) and the Gediminid line. The **Krivis** is no envoy but a *witness*: "the gods will not bargain with you, and give nothing for free". Rite: iron laid on a stone; each prince whispers his secret name to the fire; blood on a Palanga amber bead ("the sea will witness"); each states what he gives. **Witnesses:** every spirit of place ([laumės](../creatures/laumes.qmd) stand surety), which is why the *dvasios* are courteous. Its quiet nature is the line "Niekas nėra klausiamas": no one asked the children.
+
 ## Breaches
+
+| Year | State | Why |
+|---|---|---|
+| 1377 | weakened | Algirdas dies |
+| 1380 | cracked | Dovydiškės: Jogaila plots against Kęstutis |
+| 1382 | protection lapsed | **Clause 2**: Kęstutis killed by kin at Krėva (15 Aug; [Book I ch. 9](../events/ev_kestutis_death.qmd)) |
+| 1384 | remnant | Birutė's sacrifice buys the Hidden Groves |
+| 1387 | **ended** | **Clause 1**: Jogaila puts out the Šventaragis flame (Długosz), fells the grove, kills the snakes ([the baptism](../events/ev_lithuania_baptism.qmd)) |
+| 1413–17 | groves fall | Samogitia baptised |
+| 1430 | folklore | the Last Flame goes out |
+
 ## Consequences
+
+The **Unbinding** (*Atsaistymas*): spirits that were owed courtesy are no longer owed or giving it. Samogitia's swamps eat trackers; groves breed ravenous *vėlės*; aitvarai turn arsonists; laumės who swapped babies now drown them. Priests cannot see them and holy water means nothing to them. The *baptism saves Lithuania from the Order and damns it to its own unfed dead*. Costs fall on the line: kin-blood for land lost.

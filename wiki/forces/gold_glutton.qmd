@@ -8,10 +8,29 @@ categories: [force]
 {{< include ../_generated/gold_glutton.md >}}
 
 ## Nature
-<!-- Native (face/shard of a god) or egregore (fed by an institution)? See cosmology.md §2. -->
+
+**Egregore** (cosmology §2.2): *Aukso Rijūnas*, Latin *Mercator-Rex*. It is fed by ledgers, tolls, land sold by the furlong, and counting-houses, including the Hanseatic ones and, from 1411, Poland. It grows wherever appetite gathers, including in Lithuanian hearts.
+
 ## Wants
+
+Profit: the landscape as a resource, men as ledger entries. It lends and asks for a pledge, usually a word not yet spoken.
+
 ## Takes (its price)
+
+A prosperity that "empties people out". It gives gold on pledge, and the pledge is the other side of the crown: "Vytautas's word, not yet spoken" (Book IV ch. 21). It drives the sale of Samogitia for silver and the theft of the crown.
+
 ## Signs & manifestations
+
+Coins that are always warm; a counting voice in quiet rooms: **the Counter** (*Skaičiuotojas*), soft and pleasant, counting geese, barrels, pearls, wheel-turns;. The warmest place in Olesnicki's chamber is not the stove but the coin he never touches (ch. 20). Each murder in Vilnius in 1382 goes "into the Gold-Glutton's chest" (Book I ch. 7).
+
 ## Vessels, servants, claims
+
+**Patron of** [Olesnicki](../characters/olesnicki.qmd) (from 1411), Skaičiuotojas as the voice. Fed by the [Hanse](../factions/hanse.qmd) and [Poland](../factions/poland.qmd); servant: the [Counter](../creatures/skaiciuotojas.qmd). Vytautas hears the voice for thirty years and learns to carry it "like a pebble in the boot" (Book IV ch. 16). A servant girl tells Goštautas that Aukso Rijūnas eats no bread but is calmer when fed (Book V ch. 17).
+
 ## Weaknesses
+
+It **can only count what exists**. At Lutsk the crown is turned to leaves and the Gold-Glutton writes a zero on his account (Book IV ch. 30). It cannot buy a word that has not been spoken, and Vytautas's refusal to let the Last Flame die is the one entry it cannot enter. Henė calls the Counter fond of showing numbers, never asking if you want to know (Book II ch. 13).
+
 ## Arc across the books
+
+**I:** present from the start, at the massacre and the merchants (ch. 7, 28). **II:** the Counter named (ch. 13). **IV:** dominant: Sigismund's debts (ch. 17), the crown with the borrowed third (ch. 21), "the last bargain" (ch. 22), the zero (ch. 30). **V:** the feast and the voice among the lords (ch. 17, 21).

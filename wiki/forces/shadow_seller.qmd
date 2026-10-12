@@ -8,10 +8,29 @@ categories: [force]
 {{< include ../_generated/shadow_seller.md >}}
 
 ## Nature
-<!-- Native (face/shard of a god) or egregore (fed by an institution)? See cosmology.md §2. -->
+
+**Native** Force: a splinter of [Velnias](../gods/velnias.qmd) that "learned to enjoy the trade" (cosmology §3.2; canon D2). He wears mortal masks: first **Hanulas**, the Riga-born Vilnius merchant who opened Vilnius to Jogaila in 1382, then **Henė** the jester (the English docs write "Henne"). He is the **only** being in the saga who can lie and make illusions; no mortal can (magic rules §1).
+
 ## Wants
+
+Deals, and through deals the dead (the past) to outweigh the living (the future). He serves the *deal*, never the man.
+
 ## Takes (its price)
+
+**Threads**: small obligations that compound. Every bargain is kept to the letter, is free at first, and is paid later with interest (magic rules §8). The price for Jogaila: his line inherits the crown and loses the land; for Skirgaila: to be used and discarded.
+
 ## Signs & manifestations
+
+A figure at the edge of the firelight; a voice like your own conscience (the Echo); sounds that die; warm coins; **three blackened stones** he juggles, one dropped for each bargain collected ([three stones](../artifacts/three_stones.qmd)). The Krėva silence is his **Breath of the Void** (Book I ch. 14). The void under his mask is "the hollow where the dead keep the past" (ch. 30).
+
 ## Vessels, servants, claims
+
+**Masks and masters:** [Hanulas](../characters/hanulas.qmd); [Jogaila](../characters/jogaila.qmd)'s court (1382), [Skirgaila](../characters/skirgaila.qmd) (1387–97), Vytautas's court (from 1392), [Sigismund](../characters/sigismund.qmd) (1429–30). **Bargains:** Jogaila, Skirgaila, Vytautas (the Vorskla vision), Žygimantas. Servants: [pinčiukas](../creatures/pincuikas.qmd), the [aitvaras](../creatures/aitvaras.qmd); objects: the [golden chain](../artifacts/golden_chain.qmd) and the [Lutsk crown](../artifacts/lutsk_crown.qmd).
+
 ## Weaknesses
+
+He is **beatable only by cleverness**, never strength or faith, like the folk peasant who plants turnips then rye. A Praurimė seer can see through his illusions, at the cost of blindness. He fears Perkūnas, and he can be refused: Vytautas's refusal at Lutsk is the point where the crown turns to leaves.
+
 ## Arc across the books
+
+**I:** Hanulas and the 1382 trap, the stones, the Breath at Krėva (ch. 5, 12, 14, 28, 30). **II:** Skirgaila (ch. 1, 10, 16). **III:** the offer of the cousins (ch. 8). **IV:** Sigismund's court, the crown, the last bargain refused (ch. 17, 21–22, 30). **V:** the chain to Žygimantas; the last unmasking (ch. 19, 24).

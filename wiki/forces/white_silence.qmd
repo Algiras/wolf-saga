@@ -8,10 +8,29 @@ categories: [force]
 {{< include ../_generated/white_silence.md >}}
 
 ## Nature
-<!-- Native (face/shard of a god) or egregore (fed by an institution)? See cosmology.md §2. -->
+
+**Egregore** (cosmology §3.3): *Baltoji Tyla*. It is fed by **purchased** purity: baptisms bought or sold for land and crowns. It gathers wherever a baptism is being bought, which is why it settles on Jogaila's Vilnius in 1382 (he is already pricing a crown) and on Krėva, where the 1385 union will be signed. Jadvyga at her best is its victim, not its servant.
+
 ## Wants
+
+The Order's absolute dominion; the world "bleached" of pagan colour. Quiet and stillness as a state of grace.
+
 ## Takes (its price)
+
+**Fearlessness**, holy calm, healing with frost, and the "Crusader's Winter" of early snows that starve defenders. The healer gives up warmth and sound dies around them ([the frost-touch](../magic/white_touch.qmd)).
+
 ## Signs & manifestations
+
+Frost flowers on blades and windows that grow slowly "like someone writing"; sound dying; lilies on frozen fields; breath white in summer. Krėva first (Book I ch. 14, November 1382), and then at the 1385 union, where frost ferns grow on the glass while the Latin is read and the quill makes no sound (ch. 28b). Frost around the shoes of a boyar family given vaidilutės in marriage (Book II ch. 3); on Jadvyga's hands and her child's lips (ch. 21); on Jogaila's brows when he kisses her hand.
+
 ## Vessels, servants, claims
+
+**Vessel:** [Jadvyga](../characters/jadvyga.qmd) (1386–99), a "saint" only because it uses her as a conduit; at her death, per the world bible (hidden_immortals §5), her body does not decay. **Fed by:** [Poland](../factions/poland.qmd) and the [Algirdaičiai](../factions/algirdaiciai.qmd) (from 1382). Servants: the [bebalsiai](../creatures/bebalsiai.qmd) ("the voiceless", hollowed by bought baptisms).
+
 ## Weaknesses
+
+It **smothers Wind** (no sound, no far-speech) and **freezes Water** workings. Warmth beats it: frost melts when a man weeps (Book IV ch. 14). A [žaltys](../creatures/zaltys.qmd) tells Jadvyga that "the Silence will freeze your heart while it saves your soul" (Book II ch. 21).
+
 ## Arc across the books
+
+**I:** Krėva (ch. 14), the 1385 union (ch. 28b). **II:** the church at Vilnius (ch. 3), Jadvyga's frost (ch. 21). **III:** Jogaila's frozen hand on the stone (ch. 3). **IV:** frost in Jogaila's rooms (ch. 19). **V:** after the Last Flame goes out, an unnamed cold fills Trakai (ch. 4). It is the last of the four to become pure institution.

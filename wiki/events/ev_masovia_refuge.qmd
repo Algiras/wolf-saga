@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_masovia_refuge.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+After the escape from Krėva (autumn 1382) [Vytautas](../characters/vytautas.qmd) sought help from his sister Danutė and her husband Janusz I of Warsaw, then from Siemowit IV of Masovia, and finally from the Teutonic Knights (Wikipedia, Lithuanian Civil War 1381–84). Louis of Hungary and Poland died in September 1382, leaving Poland without a king; on 31 October 1382 Jogaila agreed the Treaty of Dubysa with the Order (never ratified). Danutė died in 1424.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+Janusz receives him in Warsaw without ceremony: a small, moustached prince who has learned to survive between three stronger neighbours and does not hide that a fugitive is more worry than joy. Danutė comes down the stairs and embraces her brother three times. She has the maid's dress washed and mended because he will not let her throw it away. For some days she speaks slowly and loudly; on the third day he understands that the cost of the Five-Voice did not leave with the fog.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the escape from Krėva](ev_kreva_escape.qmd). The graph records no outgoing edge; the saga takes him on to the Order.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book I ch. 17 "Pasienis" (Vytautas; the four-week road through the Grodno forests and Biebrza marshes, then Warsaw; winter 1382–83).

@@ -8,7 +8,19 @@ categories: [god]
 {{< include ../_generated/vejopatis.md >}}
 
 ## Folk sources [Record]
+
+*Vėjopatis* ("lord of the wind", *vėjas* + *patis*, as in *Žemėpatis*) is the Lithuanian wind god. The only early witness is Matthäus Prätorius (1690s); he is not in the medieval chronicles. Later writers add that he is master of Dausos, the afterlife meadow, and that he blows wicked souls into oblivion; those details lack early sources, and Bangpūtys is sometimes made his father or double. The *-patis* form ("lord of...") recurs in Łasicki's *Zemopacios* and is a pattern some scholars suspect of being artificial. His role as carrier of souls along the Birds' Way is the saga's synthesis, not a recorded belief.
+
 ## In the saga
-<!-- Domain, element, Force-face (cosmology.md §3). -->
+
+**Domain:** the four winds, messenger between worlds. **Element:** [Wind](../magic/el_wind.qmd) ("Vėjas tau neš"), zenith Vėlinės and storms. **Force-face:** none. He carries the *vėlės* along the Birds' Way, and speech with the dead goes through him: a fed *vėlė* can be asked for help through him ([veles](../creatures/veles.qmd)).
+
+Book I ch. 3: Birutė's Sutartis promises that "the winds in Vėjopatis's lips will whisper betrayals" to Vytautas. Ch. 11: "Vėjopati, let the fog become his shield." Ch. 15: the Five-Voice cry in the swamp is answered, the fog thickens until he is unseen. Ch. 25: the fog is "visibly weaker", Birutė's last mortal strength. The Krėva fog (ch. 14) is real fog (Law of Truth), cast from Palanga through the amber anchor at his zenith, since the escape falls on Vėlinės. **Costs:** vertigo for a minor working, loss of voice (only whistling) for days for a major one, permanent with repeated use. **Limits:** doubled in caves or still air; the White Silence smothers Wind altogether.
+
 ## Offerings & taboos
+
+The *vėlės* are fed at Vėlinės (late October to 2 November in later folk custom): food left out overnight, the bathhouse heated, graves visited with fire, quiet kept in the house. A fed *vėlė* can be asked for help through him.
+
 ## Pronunciation
+
+**vay-YOH-pah-tis** (IPA [vʲeːˈjoːpɐtʲɪs]), stress *vė-JO-pa-tis* (verify).

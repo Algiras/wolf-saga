@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_lutsk.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+A gathering of princes at Lutsk castle from about 9 to 29 January 1429 (6 January in some accounts). [Jogaila](../characters/jogaila.qmd) arrived first with the Poles; Sigismund of Luxembourg arrived late, on 20 January, with Queen Barbara. Guests included Eric of Denmark, a papal legate (a Dominican), Byzantine envoys, Moscow (Vasily II, Metropolitan Photius), Tver, Ryazan, the Masovian princes, envoys of the Livonian and Prussian Orders, the Moldavian hospodar Alexander the Good and the men of Tatar khans; Oleśnicki, Jan of Tarnów and Wojciech Jastrzębiec were there on the Polish side. Švitrigaila is mentioned by no source. [Sigismund](../characters/sigismund.qmd) proposed a crown for [Vytautas](../characters/vytautas.qmd); Jogaila first agreed and then withdrew under pressure from his lords, with Oleśnicki, Oporowski and Tarnów-Szafraniec opposing. Sigismund wanted a Lithuanian kingdom to weaken the union. See Wikipedia, Congress of Lutsk; lt.wikipedia, Lucko suvažiavimas; Litwa za Witolda (1429).
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+[Henė](../characters/hanulas.qmd) has left Vytautas's court with two stones and the golden chain and appears at Sigismund's table, serving the deal, never the man. The gathering feeds the Gold-Glutton: feasts beyond counting that the Counter numbers, including the gems of a crown not yet made. In the offer Laima's old sentence comes true in Vytautas's ear: a crown will travel toward him all his life.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Leads to [the crown embassy being blocked](ev_crown_intercepted.qmd) in August 1430. The reversion clause of Vilnius and Radom is the fuse; the offered crown is the price the saga will make Vytautas refuse.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book IV ch. 17 "Juokdarys Keičia Šeimininką" (Henė, 1428), ch. 18 "Lucko Suvažiavimas" (Julijona; January 1429) and ch. 19 "Zigmanto Pasiūlymas" (Vytautas; January 1429, winter).

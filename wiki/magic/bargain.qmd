@@ -8,9 +8,29 @@ categories: [magic]
 {{< include ../_generated/bargain.md >}}
 
 ## What it is
+
+**Sandėris**: *bought* power. A deal worded precisely, with the [Shadow-Seller](../forces/shadow_seller.qmd) (a shard of [Velnias](../gods/velnias.qmd)) or a lesser spirit, binding the parties only by **the letter**, never by the Three Laws.
+
 ## Who can use it (path & tier)
+
+Anyone desperate (tier 0). Canon bargainers: [Jogaila](../characters/jogaila.qmd) (1380: the "easy way" of the trap), [Skirgaila](../characters/skirgaila.qmd) (Krėva), and later Vytautas (Book II's Vorskla vision; Book IV's crown). Either party may initiate; the human is rarely *informed*.
+
 ## How it works (medium, words, timing)
+
+Velnias never cheats; he *drafts*. The deal is **free at first**; the "thread" comes later, a small favour then a larger one. Signs of a bargain in progress: sounds die (the Breath of the Void), warm coins, a figure at the edge of the firelight, the three black stones.
+
 ## Costs
+
+**Paid later, with interest.** The price is "something worth more than you thought". For Jogaila: his line inherits the crown and loses the land. For Skirgaila: to be used and discarded. Deferred costs compound.
+
 ## Limits & counters
+
+Beatable only by **cleverness**, never strength or faith: the folk crop-division tale (ATU 1030) is the model, with the peasant planting turnips and rye. A Praurimė seer can see through the Shadow-Seller's illusions, at the cost of blindness. The Shadow-Seller alone can lie; mortals cannot.
+
 ## Folk basis [Record]
+
+**[Record].** There is no recorded "bargain" system. The folk base is tales of the **devil's contract**, the clever peasant who cheats Velnias (ATU 1030) and the aitvaras-keeper whose house burns if the spirit is not fed; the treasure that is Velnias's. The saga makes the folk figure literal.
+
 ## Notable practitioners
+
+Jogaila, Skirgaila (graph tier 0); Vytautas's Vorskla vision (1399); [Žygimantas](../characters/zygimantas.qmd) (Book V ch. 19). Henė admires the 1411 Toruń clause "for the lifetimes of king and prince" as a sentence the Devil himself could not draft more cleanly (Book III ch. 25). Book I ch. 19 is titled "Velnio Sandėris"; Book IV ch. 22 "Paskutinis Sandėris" ([Lutsk](../events/ev_lutsk.qmd)).

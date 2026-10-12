@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_dykra_rescue.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+Nothing in the record. After the escape from Krėva in autumn 1382, the sources place [Vytautas](../characters/vytautas.qmd) next at the court of his sister Danutė and her husband Janusz I of Masovia, then with the Teutonic Order. The route between Krėva and Masovia, through the Grodno forests and the Biebrza marshes, passed the empty belt that the Order called the Wildnis. Whether he travelled with a guide is unknown.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+The Dykra, the Root-Mother's own country since 1348, swallows Skirgaila's trackers. Vytautas's horse dies; he speaks the Five-Voice for "man" (the cost is shown: his hearing and sight dull); Eglė appears with her žaltys and leads him through. He mistakes her for an amber priestess ("Tu esi Gintaro Šventikė") and she corrects him: "Ne gintaro. Šaknų." (not amber, roots). In the swamp the Root-Mother's price is the offering: he lays a silver buckle and a scrap of silk on the stone. Eglė's own price, "never sell the forest", comes due at Salynas in 1398.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the escape from Krėva](ev_kreva_escape.qmd). It leads, in the graph, to [the baptism at Tapiau](ev_tapiau_baptism.qmd): the flight ends in the Order's service. The saga's route also passes [Masovia](ev_masovia_refuge.qmd), which the graph links only to the escape.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book I ch. 15 "Pabėgimas" and ch. 16 "Pelkės Vaikai" (Vytautas; late autumn 1382). Eglė's earlier life is the prologue (her last night as a mortal vaidilutė). The wiki places the event at the [Dykra](../places/dykra.qmd).

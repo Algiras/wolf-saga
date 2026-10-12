@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_asmena_battle.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+Fought on 8 December 1432 near Ašmena (Oshmiany), not in 1433 as an older outline had it (VLE; Wikipedia, Battle of Ashmyany). [Švitrigaila](../characters/svitrigaila.qmd) marched from Polotsk with Tatar help, took Minsk, Krėva and Ašmena, and was beaten by [Žygimantas Kęstutaitis](../characters/zygimantas.qmd). Długosz gives about 10,000 dead, a figure that should be treated with caution. This was one battle, not two: a "second battle in December 1433" in the outline does not exist.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+Pilkoji sees it from the roads. The Root-Mother courts Švitrigaila with a promise to restore the old realm; trees fall across roads and the wolves attack only riders carrying foreign seals. On 8 December the field is Žygimantas's, with about a thousand or two dead, some with Tatar colours, and the dead lie unburned: the first rehearsal of what the saga calls the Unbinding at its height at Pabaiskas. Pilkoji takes the keeper to the last žynys, Galminas's pupil, who still knows the Pact's words.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+The graph shows this as an effect of [Žygimantas's coup at Ašmena](ev_coup_1432.qmd) and records no outgoing edge: Švitrigaila falls back to Polotsk and the war drags on to [Pabaiskas](ev_pabaiskas.qmd) in 1435.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book V ch. 11 "Šaknų Motinos Sugrįžimas" (Pilkoji; autumn to winter 1432, the Dykra and the roads to Ašmena; the field scene falls on the eighth of December).

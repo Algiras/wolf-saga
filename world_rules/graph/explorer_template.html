@@ -157,7 +157,8 @@ const TYPES = [
   ["character", "People", "--fg", true], ["force", "Forces", "--blood", true], ["god", "Gods", "--iron", false],
   ["school", "Magic", "--moss", true], ["pact", "Pacts", "--moss", true], ["element", "Elements", "--moss", false],
   ["artifact", "Artifacts", "--amber", true], ["faction", "Factions", "--iron", true],
-  ["place", "Places", "--muted", false], ["event", "Events", "--amber", false]
+  ["place", "Places", "--muted", false], ["event", "Events", "--amber", false],
+  ["house", "Houses", "--fg", false], ["creature", "Creatures", "--blood", false]
 ];
 const on = Object.fromEntries(TYPES.map(t => [t[0], t[3]]));
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();

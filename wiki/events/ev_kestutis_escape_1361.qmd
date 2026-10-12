@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_kestutis_escape_1361.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+The captured prisoner who walked out of the Order's capital is one of the better-attested episodes of the century. [Kęstutis](../characters/kestutis.qmd) took Eckersberg and Johannisburg in March 1361 and was captured near Lake Ublik (Wobel); Darius Baronas dates the capture 21 March 1361. He was held at Marienburg, and escaped in November of that year (Baronas: around 11 or 17–18 November), with the help of his servant Alfas, breaking through a wall about three metres thick and leaving on horses dressed as Teutonic knights. The main source is Wigand of Marburg, whose chronicle survives only through a Latin translation and fragments; 19th-century editors noted a resemblance between the 1361 attack on Johannisburg and a 1366 attack on the same castle. Ransom negotiations twice failed. See Baronas, "Kęstučio pabėgimas iš Marienburgo" (Lietuvos istorijos studijos), and Wikipedia, Kęstutis.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+No magic. In the consecrated cellars [Birutė](../characters/birute.qmd)'s amber bead goes cold (Kalba cannot reach into a consecrated place) and the Order lets him keep it. The escape is wit and loyalty: Kęstutis moves the silver wolf into the lining of Alfas's smock; Kniprode offers freedom for baptism and Kęstutis, bound by his thunder-mark, cannot promise what he will not keep, so he says "bandysiu" (I will try); Hohenstein carries his meals; the young wolf Jonas, taken in the same column, kills a sergeant at the last gate and takes his Christian name. Alfas stays at the well and is hanged over the kitchen gate. It becomes the template for his son's escape in 1382.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+The graph attaches no outgoing 'causes' edge. The escape is the pattern [Vytautas](../characters/vytautas.qmd) repeats at [Krėva](ev_kreva_escape.qmd) twenty-one years later, and it is the debt behind Hohenstein's [warning in 1381](ev_coup_1381.qmd).
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book VI ch. 16 "Paimtas" (Kęstutis; the book dates the capture to August 1361, whereas Baronas gives 21 March; the escape on 1 November 1361 fits the record better), ch. 17 "Marienburgo Požemis" (Kniprode; September), ch. 18 "Alfo Raktas" (Jonas; the eve of Vėlinės, 1 November). Told again by Kęstutis to Vytautas in Book I ch. 8.

@@ -8,7 +8,19 @@ categories: [god]
 {{< include ../_generated/menuo.md >}}
 
 ## Folk sources [Record]
+
+*Mėnuo* is both "the Moon" and "month" (cognate with English *moon* and *month*). He is a *dievaitis*, a son of Dievas, in folk reckoning; the Baltic moon is male. The main source is a mythological *daina* ("Mėnuo Saulužę vedė / Pirmą pavasarėlį"), printed in Rhesa's collection (1825; verify) and variants: in the first spring the Moon married the Sun; he wandered off at night and fell in love with Aušrinė, the morning star; Perkūnas, enraged, cut the Moon in two with his sword. The waxing and waning are the wound. Other variants have the couple divorce, with their daughter Žemyna seen by sun by day and moon by night, or the Moon's face disfigured by Dievas or Saulė. No medieval source names him as an object of cult; his reconstructed role is folkloric. The myth is usually read as a law of marital and oath fidelity.
+
 ## In the saga
-<!-- Domain, element, Force-face (cosmology.md §3). -->
+
+**Domain:** the Moon, tides, the faithless husband. **Element:** none, but he is patron of [Water](../magic/el_water.qmd): the tides and the full moon fix [Bangpūtys](bangputys.qmd)'s zenith. **Force-face:** none. In the legend the Moon is the oath-breaker whom [Perkūnas](perkunas.qmd) cuts; the saga uses this as nursery-law for Perkūnas's claim and as the amber-priestesses' picture of Jogaila ("a Mėnuo"; the seducer Aušrinė goes unpunished). Amber washes ashore at the full moon: Saulė's tears returned monthly by her husband.
+
+The books never name him as a speaker. He is a calendar and a law: Book I ch. 27's Water working at the full moon is correctly timed, and the saga's reading (legends §7) makes Vytautas's false baptism (ch. 19) "Mėnuo's sin" against his oath. **Weakness:** none; he is the lesson, not the actor, and he heals monthly only to be cut again.
+
 ## Offerings & taboos
+
+No cult or offering is recorded, and the saga adds none. His only observances are the calendar ones: the full moon and spring ice-break as Water's zenith, and Perkūnas's law that the oath-breaker is cut.
+
 ## Pronunciation
+
+**MAY-nwoh** (IPA [ˈmʲeːnʊɔ]), stress *MĖ-nuo*. The variant *Mėnulis* is **may-NOO-lis**.

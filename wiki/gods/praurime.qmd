@@ -8,7 +8,19 @@ categories: [god]
 {{< include ../_generated/praurime.md >}}
 
 ## Folk sources [Record]
+
+*Praurimė* is said to be the goddess of the sacred fire, served by *vaidilutės*. **She is the most doubtful of the saga's gods.** The name is not in Łasicki, the Volhynian Chronicle, Prätorius or the early lists; the standard source is the 19th-century mythographer Teodor Narbutt (1835), whose reconstructions are often called inventions, and Vėlius and others discard many of his names. Stryjkowski (1582) does describe a perpetual fire in the Vilnius valley, and Dusburg a priest-kept fire at Romowe, but neither names Praurimė. Modern writers often equate Praurimė with Gabija and disagree about which the priestesses served. Her etymology is unknown. The saga's *vaidilutė* as a vestal of an eternal flame is also shaped by Romantic historiography, though sacred fires themselves are attested (Długosz).
+
 ## In the saga
-<!-- Domain, element, Force-face (cosmology.md §3). -->
+
+**Domain:** the fire of the stars, the sky-twin of the eternal flame. **Element:** [Stars](../magic/el_stars.qmd) ("Žvaigždės tau švytės"), zenith Kūčios (winter-solstice midnight). **Force-face:** none. Folk memory has her as a goddess of sacred fire, while the saga's seers know her as the fire *above*, the stars read as the threads [Laima](laima.qmd) spins. Both are true (cosmology §3.1).
+
+Book I ch. 3 is her textbook scene: Birutė opens a shutter at Dagotuvės, off her zenith, and sees a ship that "might not appear"; "Praurimė shows always a possibility, not a doom"; the cost is doubled, blindness of two or three days. Ch. 9: "the icy vault of Praurimė's night" as Kęstutis's torch fades. Ch. 15: the Five-Voice ends in "the cold brightness of Praurimė's eyes". Book V ch. 29 at Kūčios: "Praurimė shone highest, and the price was half. Half. Still everything." **Costs:** hours of blindness, or days of it, or a beloved face lost from memory. **Limits:** impossible under overcast and doubled in daylight.
+
 ## Offerings & taboos
+
+Kūčios is the seer's night: shadows on the wall, firelight in amber, the lots. A starry sky is the medium; no altar. Rule (Law of Truth): ask only for what you truly want, or you get nothing, or what you do want.
+
 ## Pronunciation
+
+**prow-RIH-may** (IPA [prɐʊˈrʲɪmʲeː]), stress *prau-RI-mė* (verify).

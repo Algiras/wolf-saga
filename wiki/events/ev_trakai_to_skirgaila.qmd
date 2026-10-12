@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_trakai_to_skirgaila.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+The record puts the grant of Trakai to Skirgaila earlier than the saga's partition. Wikipedia's Skirgaila article says he was Duke of Trakai from 1382 to 1392, receiving the duchy as a reward for helping imprison Kęstutis and Vytautas; the civil-war article says that in spring 1384 Jogaila offered Vytautas Volhynia with Lutsk, which Vytautas refused, demanding Trakai, and Jogaila promised Trakai once Skirgaila was settled in Polotsk. [Skirgaila](../characters/skirgaila.qmd) took Polotsk in 1387 and remained at Trakai as Jogaila's regent. After the reconciliation Vytautas received Grodno, Brest and Podlasie (verify). Under Ostrów in 1392 Trakai returned to Vytautas.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+Vytautas learns the division in Vilnius's rebuilt Lower Castle: Trakai goes to Skirgaila, he gets Grodno, Brest and Podlasie. He thinks one sentence he does not say: Skirgaila has my father's castle. The fisherman at the Naujapilis quay had told him nothing of Trakai, and now he knows why. The Vytis emblem is hung over the gate; Ona returns from hostage; Henė greets him coldly.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the truce in the ashes](ev_truce_ashes.qmd). It leads to [Vytautas's second flight to the Order](ev_second_defection.qmd) in 1389.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book I ch. 28 "Nauja Tvarka" (omniscient: Vytautas, Skirgaila, Ona; autumn 1384, Vilnius); the sword and Skirgaila in Trakai appear in ch. 30 and Book II ch. 1 "Skirgailos Trakai" (Skirgaila; spring 1387).

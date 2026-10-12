@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_truce_ashes.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+In spring 1384 Jogaila had offered Volhynia with Lutsk, which [Vytautas](../characters/vytautas.qmd) refused, demanding his Trakai patrimony; in July 1384 the two reconciled and Vytautas abandoned the Order, burning its castles (see [the burnings](ev_burnings_1384.qmd)). The terms: Grodno, Brest and Podlasie for Vytautas, Trakai for Skirgaila (verify). Marquard von Salzbach was captured. The meeting itself has no documented place or witnesses. Sources: Posilge, Wigand, the Lithuanian chronicles; Kiaupa and Ivinskis in modern writing.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+A secret parley in a roofless burnt church at the edge of the Šventaragis grove, with a red dot of fire in the valley below. Jogaila arrives with four guards, no banners or trumpets; Vytautas comes alone in the Order's battered armour with the cross torn off. Between them lies Kęstutis's blood. Jogaila says that the Order stood at Trakai: it was the cross or the fire. No forgiveness, only a truce of necessity. Henė knocks two stones together in the dark; Vytautas shows the silver wolf amulet and does not kill. It is the first time since Krėva they have looked each other in the eye.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the burnings of 1384](ev_burnings_1384.qmd). It leads to [Birutė's Amber Sacrifice](ev_birute_sacrifice.qmd) and to [the grant of Trakai to Skirgaila](ev_trakai_to_skirgaila.qmd).
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book I ch. 26 "Susitikimas Peleninėje" (Vytautas and Jogaila; a July night in 1384, Vilnius; the text keeps an older 'late summer 1383' cue).

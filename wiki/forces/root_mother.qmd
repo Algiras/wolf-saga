@@ -8,10 +8,29 @@ categories: [force]
 {{< include ../_generated/root_mother.md >}}
 
 ## Nature
-<!-- Native (face/shard of a god) or egregore (fed by an institution)? See cosmology.md §2. -->
+
+**Native** Force: the wild grief of [Žemyna](../gods/zemyna.qmd) and [Medeina](../gods/medeina.qmd), fused during the 13th-century crusades (cosmology §3.1; canon D8: she is *not* a synonym for Žemyna). She took shape when the Order emptied Sudovia (1277–83) and made the Dykra her body (Book VI ch. 9).
+
 ## Wants
+
+The forest kept; plough, axe and iron stopped. She hates the knights' iron and the cities' stone, and chooses not a prince but "what a prince can give her" (Book V ch. 11).
+
 ## Takes (its price)
+
+The **Amber Debt**: royal blood for land lost (canon D7). Her servants pay in parts: Eglė's price, "never sell the forest", falls due at Salynas (Book II ch. 19); wolves leave part of the soul in the bog (rite in [the Iron Wolves](../codex/the-iron-wolves.qmd) §4); Galminas's body. "Kas neiškils, tas liks": whoever does not rise from the mud stays (Book III ch. 9).
+
 ## Signs & manifestations
+
+Groans in the earth, roots shifting, sap turning red before a massacre, crows leading columns, a whisper that is leaves. She arrives from all sides at once, and the mouth fills with soil that smells of rain (Book III ch. 29).
+
 ## Vessels, servants, claims
+
+**Host:** [Galminas](../characters/galminas.qmd), the dead *žynys* she reanimated, who becomes a grove at Grunwald. **Servants:** [Eglė](../characters/egle.qmd) (Pelkių Eglė, taken in the prologue, Book I ch. 16), the Iron Wolves, the [žaltys](../creatures/zaltys.qmd), [barstukai](../creatures/barstukai.qmd), and devotees such as [Elena](../characters/elena.qmd), who carries her tow-knot sign (Book I ch. 12–13). **Claim:** [Vytautas](../characters/vytautas.qmd), contested with [Perkūnas](../gods/perkunas.qmd).
+
 ## Weaknesses
+
+She cannot follow onto the steppe: "no forest, no bog" at Vorskla (Book II ch. 23). Consecrated stone and the axe that comes with the priests defeat her; by 1411 she says she has nothing left to stop them (Book III ch. 29). She fades as groves are felled.
+
 ## Arc across the books
+
+**Book VI:** the Dykra is born (ch. 9). **I:** Elena, Eglė and the swamp (ch. 12–16). **II:** the debt of the forest at Salynas (ch. 19); absent on the steppe (ch. 23). **III:** Pilkoji, Galminas and Grunwald (ch. 7–29), her last great act. **IV:** she sleeps (ch. 6) and says farewell through Eglė (ch. 27). **V:** she returns and courts Švitrigaila (ch. 11), reclaims the abandoned groves (ch. 28).

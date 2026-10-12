@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_second_defection.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+In May 1389 at Lublin Jogaila mediated between Skirgaila and [Vytautas](../characters/vytautas.qmd); Vytautas signed a declaration of loyalty to Skirgaila, but his position as Duke of Lutsk was not formally recognised. In 1389 a plot to seize Vilnius castle using wagons was betrayed to Skirgaila by a German spy (Wikipedia, Lithuanian Civil War 1389–92, citing Urban and Ivinskis) and the conspirators were executed; Vytautas's allies Tautvilas and Ivan Olshanski lost their lands. Vytautas fled to the Teutonic Order and on 19 January 1390 signed the Treaty of Lyck (Ełk), reaffirming the 1384 Königsberg terms; the Order demanded hostages, including family members. His brother Žygimantas (Sigismund) was a hostage from about 1389/90 to 1398 (VLE).
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+The wedding wagons of the Book II ch. 5 plot (forty-two wagons, a real wedding, arms beneath the oat sacks) are the saga's elaboration of the supply-wagon plot. Pinčiukas sold the plan to Skirgaila for a miller's debt. Perkūnas's claim tightens: thunder without rain over the road. At Lyck the oaths are sworn on relics, and the Iron Saint keeps Christian oaths. Marquard von Salzbach insults Birutė at table, planting Grunwald.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [Trakai being granted to Skirgaila](ev_trakai_to_skirgaila.qmd). It leads to [the siege of Vilnius](ev_vilnius_siege_1390.qmd) in September 1390, where Vytautas stands with the Order against the city he saved in 1384.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book II ch. 5 "Vestuvių Vežimai" (Vytautas; autumn 1389, Vilnius, then the road to Prussia in winter) and ch. 6 "Įkaitų Pilis" (Ona; January to August 1390, Lyck and Rastenburg). The graph places the event at Königsberg.

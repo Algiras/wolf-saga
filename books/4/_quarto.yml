@@ -24,6 +24,8 @@ book:
         href: ../5/
       - text: "VI knyga (priešistorė)"
         href: ../6/
+      - text: "Skaitymo tvarka"
+        href: ../skaitymo_tvarka.html
       - text: "Wiki"
         href: ../wiki/
   chapters:
@@ -64,6 +66,7 @@ book:
         - 28_giltine_prie_lovos.qmd
         - 29_vilko_mirtis.qmd
         - 30_epilogas_nematoma_karuna.qmd
+    - istorine_pastaba.qmd
     - copyright.qmd
 format:
   html:

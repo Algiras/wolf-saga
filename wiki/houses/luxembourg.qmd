@@ -1,0 +1,27 @@
+---
+title: "House of Luxembourg"
+id: luxembourg
+type: house
+categories: [house]
+---
+
+{{< include ../_generated/luxembourg.md >}}
+
+## House card
+| | |
+|---|---|
+| **Seat** | **Buda** (Hungary), **Prague** (Bohemia) and the imperial court. [Record] |
+| **Arms / sigil** | The Luxembourg lion; Sigismund's arms combine Hungary, Bohemia and the imperial eagle. He founded the **Order of the Dragon** in 1408. [Record] |
+| **Words** | *Divide et arbitra.* "Divide, then arbitrate." [Saga invention] |
+| **Patron / burden** | The [Shadow-Seller](../forces/shadow_seller.qmd) serves him in 1429–30; the [Gold-Glutton](../forces/gold_glutton.qmd) flatters him. [Saga] |
+
+## Lineage
+[Sigismund](../characters/sigismund.qmd) (1368–1437), son of Emperor Charles IV: King of Hungary 1387, King of the Romans 1411, of Bohemia 1419/1436, Emperor 1433. Married Mary of Hungary (1385), then **Barbara of Celje** (1405/08), a cousin of Jogaila's second queen Anna of Celje (relationship to verify). [Record]
+
+## Feuds & alliances
+Arbiter between Poland and the Order (the Breslau award of 1420 went against Poland); host of the Council of Constance; ally of the Order in 1409–10; opponent of the Polish–Lithuanian union, which a Lithuanian crown could split.
+
+## Fate across the books
+- **III:** a reigning king of forty-one, not a "younger" figure, who takes the Order's money before Grunwald.
+- **IV:** at the [Congress of Lutsk](../events/ev_lutsk.qmd) (Jan 1429) he offers Vytautas a crown, then sends it by couriers who are [robbed on the Polish border](../events/ev_crown_intercepted.qmd) in August 1430. In the saga, Henė is his jester and the crown turns to leaves.
+- **V:** dead by 1437; his daughter's marriage to Albert II of Habsburg carries his claims to the Habsburgs. [Record]

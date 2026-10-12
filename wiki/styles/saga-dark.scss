@@ -1,0 +1,42 @@
+/*-- scss:defaults --*/
+// Dark iron + amber (default mode of the wiki)
+$body-bg: #14110d;
+$body-color: #e4d9c2;
+$link-color: #e0a458;
+$link-hover-color: #f4c27a;
+$border-color: #3a3226;
+$code-color: #e0a458;
+$code-bg: #1f1a13;
+$navbar-bg: #0c0a07;
+$navbar-fg: #d8cba9;
+$navbar-hl: #f0b866;
+$table-bg: transparent;
+$table-color: #e4d9c2;
+$font-family-sans-serif: "EB Garamond", Georgia, "Times New Roman", serif;
+$headings-font-family: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+$font-size-base: 1.12rem;
+$headings-color: #f0dfb8;
+$toc-color: #e0a458;
+$input-bg: #1f1a13;
+$dropdown-bg: #14110d;
+$dropdown-link-color: #e4d9c2;
+$dropdown-link-hover-bg: #2a2318;
+$dropdown-border-color: #3a3226;
+$card-bg: #1d1913;
+
+/*-- scss:rules --*/
+:root {
+  --saga-bg: #14110d;
+  --saga-surface: #1d1913;
+  --saga-panel: #221d15;
+  --saga-text: #e4d9c2;
+  --saga-muted: #a69b83;
+  --saga-accent: #d98e3a;
+  --saga-accent-soft: #b8772c;
+  --saga-border: #3a3226;
+  --saga-iron: #2b2d30;
+  --saga-iron-hi: #4a4d52;
+  --saga-title: #f0dfb8;
+  --saga-shadow: rgba(0, 0, 0, .55);
+}
+@import "saga-rules";

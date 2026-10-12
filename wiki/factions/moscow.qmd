@@ -8,9 +8,22 @@ categories: [faction]
 {{< include ../_generated/moscow.md >}}
 
 ## Overview
+[Record] Rurikid princes of Moscow, rising as the Horde's tribute-collectors. Dmitry Donskoy (1359-89) won Kulikovo (1380), but Tokhtamysh burned Moscow in Aug 1382. Vasily I (1389-1425) married [Sofija](../characters/sofija.qmd), Vytautas's daughter, in 1391; he stood off Vytautas on the Ugra in 1408 and made [Vytautas](../characters/vytautas.qmd) guardian of his son in his 1423 testament. Vasily II (1425-62) was blinded in the civil war of 1446 and restored.
+
 ## Wants (by book)
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
+| I | An Orthodox marriage draft with Jogaila (1384) | Dmitry's daughter | A Catholic Lithuania |
+| II | Smolensk and Novgorod; marriage to Sofija | Horde favour; the dowry (II ch. 8) | A Lithuanian metropolitan of Kyiv |
+| III | The Ugra border (1408) | Vasily I's army | Lithuanian control of Pskov or Novgorod |
+| IV | Hold the regency of Vasily II under Vytautas | Sofija; the bead (IV ch. 15) | Vytautas's crown, seen as a threat |
+| V | Survive the civil war | Sofija's bead warm in Moscow while the slab bead is deaf (V ch. 25, 29) | The blinding of Vasily II, 1446 |
+
 ## Patron Force
+None canonical. [Saga suggestion] The [Steppe-Hunger](../forces/steppe_hunger.qmd)'s shadow, since Moscow learned rule as the Horde's tributary.
+
 ## Internal tensions
+Dynastic rivalry between Vasily II and his uncle Yuri's sons; Metropolitan Photius against the Kyiv metropolitan Gregory Tsamblak; Novgorod and Pskov playing Moscow off against Vilnius. The Kęstutaičiai blood survives only here: Sofija's grandson, the blinded Vasily II (V ch. 29 coda).
+
 ## Notable members
+[Vasily I](../characters/vasily1.qmd), [Sofija](../characters/sofija.qmd).

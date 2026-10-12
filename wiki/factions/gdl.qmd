@@ -8,9 +8,23 @@ categories: [faction]
 {{< include ../_generated/gdl.md >}}
 
 ## Overview
+[Record] A pagan realm, the last in Europe, stretching from the Baltic coast to the Rus' lands. Mindaugas was crowned King in 1253; Gediminas (c. 1316-1341) made Vilnius its capital in 1323; Algirdas (east) and Kęstutis (west) ruled as a diarchy from 1345 to 1377. Grand Dukes in the saga's years: [Jogaila](../characters/jogaila.qmd) (1377-81; 1382-92), [Kęstutis](../characters/kestutis.qmd) (1381-82), [Vytautas](../characters/vytautas.qmd) (1392-1430, by the Ostrów agreement, 4-5 Aug 1392), [Švitrigaila](../characters/svitrigaila.qmd) (1430-32), [Žygimantas](../characters/zygimantas.qmd) (1432-40) and Casimir (elected 29 Jun 1440, aged 12). Baptism came with Jogaila in 1387 and Samogitia in 1413-17.
+
 ## Wants (by book)
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
+| VI | Survive the Order | The Pact; Kęstutis's wolves | Kin blood |
+| I | One lord in Vilnius | Algirdaičiai against Kęstutaičiai | A Pact-breaker on the throne |
+| II | An empire from the Baltic to the Black Sea | Vytautas's governors, Tatars and Karaims at Trakai | Vorskla, 1399 |
+| III | Samogitia back; the Order broken | Grunwald, 1410 | Reversion to the Crown (Vilnius-Radom, 1401) |
+| IV | A crown for Lithuania | Horodło and Lutsk | The crown turned to leaves |
+| V | Keep the realm from Poland | The council lords: Goštautas, Kęsgaila, Daugirdas | Incorporation as a province |
+
 ## Patron Force
+None as a state. Its two ruling lines have separate patrons, the [Shadow-Seller](../forces/shadow_seller.qmd) for the Algirdaičiai and the [Amber Queen](../forces/amber_queen.qmd) for the Kęstutaičiai (see [Algirdaičiai](algirdaiciai.qmd) and [Kęstutaičiai](kestutaiciai.qmd)). After 1430 the [Gold-Glutton](../forces/gold_glutton.qmd) speaks through its council's ledgers (Book V ch. 17).
+
 ## Internal tensions
+The realm is a family firm until 1392. The appanage princes then give way to governors. Boyars gain Polish arms at Horodło, but Orthodox princes are shut out of the top offices, which is the grievance behind Švitrigaila's army in 1432. Samogitia obeys no one it did not choose.
+
 ## Notable members
+[Algirdas](../characters/algirdas.qmd), [Jogaila](../characters/jogaila.qmd), [Kęstutis](../characters/kestutis.qmd), [Vytautas](../characters/vytautas.qmd), [Švitrigaila](../characters/svitrigaila.qmd), [Žygimantas](../characters/zygimantas.qmd).

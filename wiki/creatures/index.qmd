@@ -2,7 +2,32 @@
 title: "Creatures"
 ---
 
-*No entries yet. Add nodes of this type to `world_rules/graph/world_graph.json`.*
 
 | Name | Type | Years |
 |---|---|---|
+| [Aitvaras (fire-tailed thief)](aitvaras.qmd) | creature |  |
+| [Alkanosios vėlės (the hungry dead)](alkanosios_veles.qmd) | creature |  |
+| [Barstukai (under-elder miners)](barstukai.qmd) | creature |  |
+| [Baubas and maumas (told terrors)](baubas.qmd) | creature |  |
+| [Bebalsiai (the Voiceless)](bebalsiai.qmd) | creature |  |
+| [Geležinis Vilkas (the Iron Wolf omen)](gelezinis_vilkas.qmd) | creature |  |
+| [Girinis / miškinis (grove-keepers)](girinis.qmd) | creature |  |
+| [Kaukas / barzdukai (field-luck)](kaukas.qmd) | creature |  |
+| [Laumiukai (changelings)](laumiukai.qmd) | creature |  |
+| [Laumės (weavers by the water)](laumes.qmd) | creature |  |
+| [Milžinai (giants)](milzinai.qmd) | creature |  |
+| [Nedegintieji (the Unburned)](nedegintieji.qmd) | creature |  |
+| [Pinčiukas (clerk of small bargains)](pincuikas.qmd) | creature |  |
+| [Ragana (seer-witch)](ragana.qmd) | creature |  |
+| [Reizos raiteliai (Riders of the Reise)](reizos_raiteliai.qmd) | creature |  |
+| [Skaičiuotojas (the Counter)](skaiciuotojas.qmd) | creature |  |
+| [Slogutis (the presser)](slogutis.qmd) | creature |  |
+| [Smakas (the dragon under the cathedral)](smakas.qmd) | creature |  |
+| [Užgesėlės (the Quenched)](uzgesiles.qmd) | creature |  |
+| [Vaiduokliai (apparitions)](vaiduokliai.qmd) | creature |  |
+| [Vandenis and undinės (lake-keepers)](vandenis.qmd) | creature |  |
+| [Velnias's small shapes (velniukai)](velnio_pavidalai.qmd) | creature |  |
+| [Vilkatas / vilkolakis (cursed werewolf)](vilkatas.qmd) | creature |  |
+| [Vėlės (the fed dead)](veles.qmd) | creature |  |
+| [Žaltvykslės (bog-lights, treasure-flames)](zaltvyksles.qmd) | creature |  |
+| [Žaltys (household grass snake)](zaltys.qmd) | creature |  |

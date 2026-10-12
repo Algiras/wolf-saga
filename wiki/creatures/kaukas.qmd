@@ -1,0 +1,29 @@
+---
+title: "Kaukas / barzdukai (field-luck)"
+id: kaukas
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/kaukas.md >}}
+
+## Folk source [Record]
+Small (thumb- to knee-high), often bearded household and field spirits (the *barzdukai*, "little beards"). A kaukas brings grain and plenty, usually by multiplying what is already there rather than stealing, and must be fed. Giving it clothes makes it leave. Named with aitvarai in 16th-century church writings; in some regions kaukai are the souls of unbaptised infants. Folklorists draw the line this way: the aitvaras brings from elsewhere, the kaukas increases what is here. Regional variants differ widely.
+
+## In the saga (where the folk are half-wrong)
+The kaukai are the **unnamed dead**: infants who died before their mother spoke their secret name (see [magic rules](../codex/magic-rules.qmd) §6). With no name they cannot climb the Glass Mountain, so [Žemyna](../gods/zemyna.qmd) keeps them in the soil to tend the fields. "Unbaptised" is a distorted memory of "unnamed". A kaukas is a family's own dead child working the family's field; most families half know it and never say it. Folk often confuse them with the [barstukai](barstukai.qmd), which is useful in fiction.
+
+## Signs & habitat
+A grain-bin that stays fuller than it should; tiny footprints in flour; the threshing floor and granary corners.
+
+## Before / after the Unbinding
+Before: they tend and multiply, asking porridge and a place. After: with no courtesy owed, the unnamed dead turn hungry and eat the grain they once multiplied; granaries rot from the inside.
+
+## Banes, wards, bargains, and their cost
+Porridge on the threshing floor at harvest (minimal cost, which is why the bargain lasted). Giving clothes is, in the saga, a funeral: a clothed kaukas is released to climb, and the field's luck goes with it. A mother may speak a name over the threshing floor and burn a lock of her hair; the kaukas goes up to Dausos, and she loses the memory of that child's face (Law of Balance).
+
+## Danger level
+I nuisance → III dangerous.
+
+## Story hooks
+Books III–V: a Samogitian widow names her three kaukai one after another as the Hidden Groves fall, choosing her children's peace over her family's bread.

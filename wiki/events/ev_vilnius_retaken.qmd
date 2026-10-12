@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_vilnius_retaken.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+On 12 June 1382, while [Kęstutis](../characters/kestutis.qmd) was fighting Dymitr Korybut (Kaributas) in the south-east and [Vytautas](../characters/vytautas.qmd) was at Trakai, the Vilnius townspeople led by the merchant Hanul of Riga let in [Jogaila](../characters/jogaila.qmd)'s army (Wikipedia, Lithuanian Civil War 1381–84). Hanul (Hennecke, Hannike, Hanulas) was a German-origin merchant from Riga who had become a burgher of Vilnius; sources say he handed over the castle and city rather than opening a gate. He served as Jogaila's namiestnik (deputy) in Vilnius from 1382 to 1387, took part in diplomatic missions (including the delegation that preceded the Act of Krėva) and died in Kraków between 1417 and 1418. On 6 July Jogaila signed the two-month Truce of Bražuolė with the Order; on 20 July Trakai surrendered to the joint forces.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+Hanulas is [Henė](../characters/hanulas.qmd)'s first mask (canon D2): a Riga-born merchant of Vilnius whom the Shadow-Seller possessed for a time (Q12 suggests a real man, possessed 1380–82, who never remembers it). The price is a sack of Riga silver. The same crossed-key mark of Riga appears on the golden chain that later strangles Kęstutis.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [Kęstutis's coup](ev_coup_1381.qmd). It leads to [the arrest of Kęstutis and Vytautas](ev_arrest.qmd).
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book I ch. 1 "Senasis Šernas" (Kęstutis, Trakai; the spring betrayal recounted), ch. 2 (Vytautas's men saw Hanulas's wagons) and ch. 5 "Dvigubas Veidas" (Jogaila; the silver of Hanulas's promises in his pockets). The event itself is backstory: June 1382, summer.

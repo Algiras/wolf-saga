@@ -7,8 +7,30 @@ categories: [book]
 
 {{< include ../_generated/book5.md >}}
 
+**Read online:** [Book V](https://algiras.github.io/wolf-saga/5/) · **Span:** 1430–1450 · **Protagonist:** [the Flame-Keeper](../characters/flame_keeper.qmd) · Frame voice: [Birutė](../characters/birute.qmd)
+
+## Parts and chapters
+
+| Part | Chapters | Years | Core |
+|---|---|---|---|
+| **I · Tuštuma** (The Void) | [ch. 1–10](https://algiras.github.io/wolf-saga/5/) | 1430–1432 | The flame dies; Švitrigaila's rise; Christmemel; the 1345 flashback; the [coup at Ašmena](../events/ev_coup_1432.qmd); [Grodno 1432](../events/ev_grodno_1432.qmd). |
+| **II · Brolis prieš Brolį** (Brother Against Brother) | ch. 11–20 | 1432–1439 | Jogaila's death (1 Jun 1434); [Pabaiskas](../events/ev_pabaiskas.qmd) (1 Sep 1435); [Brest](../events/ev_brest_peace.qmd); the Winter of the Unburned; Žygimantas's paranoia; the failed relighting (1439). |
+| **III · Vaiduoklių Amžius** (The Age of Ghosts) | ch. 21–30 | 1440–1450 | [Žygimantas killed](../events/ev_zygimantas_killed.qmd) (20 Mar 1440); Casimir; Henė unmasked; the [1447 privilege](../events/ev_privilege_1447.qmd); Pilkoji lies down; the keeper's death; epilogue c. 1553. |
+
 ## Premise
+On the night Vytautas dies, the Last Flame goes out in the Trakai vault, and the young wolf who guarded it is left with cold ash, a cracked amber pebble and a silver wolf no one will honour. He wants to light it again. The heirs of the two cousins go to war, Žygimantas wants the keeper as a tyrant's hound, the Shadow-Seller has nothing left to sell, and a century of unfed dead rise at Pabaiskas.
+
 ## Protagonist arc (form at start → form at end)
+**Sargas be Ugnies** (Keeper without a Flame) → **Ieškotojas** (the Seeker) → **Žmogus** (a Man): his true name is spoken back to him by a living fire at Palanga in 1450, he ages his sworn years in one winter, dies and is burned. Want: relight the flame. Lie: "one faithful man can hold the gods to the land". Truth: the Pact was the people's, and its last keeping is memory.
+
 ## Antagonists & outcomes
+- **[Žygimantas Kęstutaitis](../characters/zygimantas.qmd)**: tyrant, with Henė whispering; murdered at Trakai on 20 Mar 1440.
+- **[Švitrigaila](../characters/svitrigaila.qmd)**: crushed at Pabaiskas; dies in Volhynia in 1452.
+- **The Unbinding** (the unfed dead): burned over a winter at the cost of the last wolves.
+- **[Henė](../forces/shadow_seller.qmd)**: unmasked with empty hands in ch. 24, refused.
+
 ## Threads advanced (see books/series_arc.md)
+All threads close. **A:** the Pact is folklore (ch. 27). **B:** the lightning-fire is not the Gediminid flame; the relighting fails because one man cannot re-swear a people's oath (ch. 20). **C:** the statue dims in 1445 and is taken by the sea in 1450. **D:** stones one, then none. **G:** the last wolf; **I:** Sofija's son rules Moscow; **J:** the four Forces become institutions.
+
 ## Hands on to the next book
+The series ends. For readers going on to [Book VI](book6.qmd), the last žynys has sung the Pact wrong and the keeper has seen the true oath in the pebble; the prequel shows the oath itself.

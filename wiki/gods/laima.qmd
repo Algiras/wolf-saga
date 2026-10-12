@@ -8,7 +8,21 @@ categories: [god]
 {{< include ../_generated/laima.md >}}
 
 ## Folk sources [Record]
+
+*Laima* decides each person's fate at birth (*Laima lėmė*, "Laima decreed"), and she appears in songs at births and weddings. The earliest written name is "Laimelea" in Wilhelm Martini's Latin preface to Daniel Klein's Lithuanian songs (1666); Prätorius and later 17th–18th-century writers follow. Latvian *Laima* has two sisters, Kārta and Dēkla. Nineteenth-century birth rites, performed by women in the bathhouse (*pirtis*), offered her a hen, linen or towels. The cuckoo is her bird in later folklore.
+
+**Contested:** Lithuanian *Laima* is sometimes one goddess and sometimes three, and she is often confused with *laimė* ("luck") and *laumė* ("fairy"). *Dalia* ("share") and *Giltinė* as Laima's sisters, and the seven spinning *deivės valdytojos* (Gimbutas's reconstruction), are largely folk or modern. Greimas argued that Laima knows fate rather than imposes it, against the old label of a "fatalistic" religion.
+
 ## In the saga
-<!-- Domain, element, Force-face (cosmology.md §3). -->
+
+**Domain:** fate, share, death. **Element:** none. **Force-face:** none. She spins every thread at birth; **Dalia** measures it and **[Giltinė](giltine.qmd)** cuts it (cosmology §3.1, [bestiary](../codex/bestiary.qmd)). Laima's spinning is why seers see possibilities, never certainties, and she is patron of [Užkalbėjimai](../magic/uzkalbejimai.qmd) and of [Stars](../magic/el_stars.qmd) (Praurimė reads her threads).
+
+Her scene is Book VI ch. 12 ("Laima prie Lopšio"): at Vytautas's birth (1350), three women come to Birutė's lamplit room, a spinner who says "we are not gods; we only read the thread", a merry younger sister, and a tall grey one with sheep-shears. They foretell three baptisms, a crown that will follow him all his life, and that he will outlive his heirs. Birutė stops the shears with the word "Dar ne" ("not yet"). Laima warns that "not yet" is paid for, and Birutė answers "I will pay": the first sign of her [surety](../magic/sutartis_birute.qmd). Book I ch. 3's vision, "a possibility, not a doom", is the same law. **Weakness:** she keeps her ledger to the letter, yet a thread can be asked to be re-tied, and every re-tying shortens another.
+
 ## Offerings & taboos
+
+Linen, a towel or a hen left for her in the bathhouse at a birth, women only. Fates spun without a gift are plainer after 1387, with fewer surprises.
+
 ## Pronunciation
+
+**LYE-mah** (IPA [ˈɫɐɪmɐ]). Sisters: **DAH-lyah** (Dalia), **gil-TIH-nay** (Giltinė).

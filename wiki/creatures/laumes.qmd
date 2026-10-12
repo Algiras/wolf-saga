@@ -1,0 +1,29 @@
+---
+title: "Laumės (weavers by the water)"
+id: laumes
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/laumes.md >}}
+
+## Folk source [Record]
+Supernatural women of meadows, rivers, lakes and swamps: beautiful, long-haired, betrayed by hen's or goat's feet. They spin, weave and wash linen at night, reward diligent and orphaned girls and punish the lazy. Women must not spin on Thursday evening, the laumės' time. A laumė's gift of linen never runs out unless the recipient measures it. They dance in moonlit meadows, marry mortal men (who lose them when a taboo is broken) and swap human babies for their own. The rainbow is *laumės juosta*, the laumė's sash.
+
+## In the saga (where the folk are half-wrong)
+The laumės are the **weavers of custom**. Every courtesy between the land's people and its spirits is a thread they spin, and the [Silent Pact](../magic/silent_pact.qmd) is their great tapestry; they are its most direct witnesses (the graph records them as surety for it). Neither kind nor cruel: they enforce a law of work and courtesy, which looks like kindness to the diligent and cruelty to the rest. The Thursday taboo is real: Thursday is Perkūnas's day, and a woman spinning then spins against the laumės' own wheel.
+
+## Signs & habitat
+Paddle-beats by the river at midnight; wet linen spread on meadows at dawn with no one about; hen-tracks in the dew; a rainbow ending at a lake.
+
+## Before / after the Unbinding
+Before: hard but fair. After: the tapestry tears. Laumės who once swapped babies now drown them, and their endless linen becomes shrouds.
+
+## Banes, wards, bargains, and their cost
+Spin diligently, never on Thursday evening, and leave a hank of flax by the water at Rasos (the labour is a poor girl's dowry). Never measure a laumė's gift, so you can never sell it. Never watch laumės bathe (the curious are blinded or drowned). Iron does little; courtesy is the only real ward.
+
+## Danger level
+II hazard → IV deadly.
+
+## Story hooks
+Book I: Birutė's women washing linen in the sea (ch. 11) echo them. Book II: a laumė-wife in a southern castle leaves when a Catholic priest blesses the bed. Book V: laumės' shrouds wrapping the unburned dead of Pabaiskas.

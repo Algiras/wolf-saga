@@ -8,10 +8,20 @@ categories: [artifact]
 {{< include ../_generated/golden_chain.md >}}
 
 ## Description
+A heavy chain of Riga gold, each link perfectly welded and colder than the last. At the clasp is a small mark: two crossed keys under a cross, the sign of Riga (Book I ch. 1). It is warm when someone wears it.
+
 ## Power
-<!-- What it does, in rules terms. -->
+It carries the Breath of the Void. It strangles its victim without a mark and afterwards lets its wearer hear the dead man's last breath. In Book V it lets Žygimantas hear Kęstutis breathe "and know that he is not alone" (V ch. 22). It also muffles sound around the wearer, which is Henė's signature (`power_systems.md` §5).
+
 ## Rule & cost
-<!-- What it demands; how it can fail. -->
+A Henė-bargain object, always kept to the letter. It does not "exhale" until it has been in the room where the dead man died (V ch. 19). Masses said over it wash the wearer, not the gold (IV ch. 20). The wearer slowly stops sleeping.
+
 ## Origin
+[Saga] Sent from Riga as Jogaila's "gift" with Hanulas's envoys, summer 1382 (Book I ch. 1); [Henė](../forces/shadow_seller.qmd) made it for the cousins' deal.
+
 ## Arc across the books
-<!-- Holder by holder; must match the 'holds' edges in world_graph.json. -->
+- **Jogaila's envoys, then the mercenaries, 1382.** Kęstutis weighs it and puts it back (I ch. 1). It is fitted round his neck in the Krėva cell on 15 Aug 1382 (I ch. 9). Graph: Jogaila 1382.
+- **Skirgaila, 1383-1397.** Graph holder; the books show Henė on the scene.
+- **Henė, Jan 1397.** He pockets it after Skirgaila dies at Kyiv (Book II ch. 16) and wears it openly in 1405 (III notes).
+- **Baltramiejus Rogala, Apr 1429-Aug 1430.** Given in a Buda corridor as a "gift, not a bribe" (IV ch. 20); worn silent at the Noteć ford (IV ch. 23). Graph: Oleśnicki 1429-1430. It stays with the bishop's people at Kraków (IV ch. 30) and is eight years in the cathedral treasury (V ch. 19).
+- **Žygimantas Kęstutaitis, 14-15 Aug 1438-20 Mar 1440.** Henė fetches it, stoneless, to the Krėva cell and Žygimantas puts it on (V ch. 19). It turns to dust at his murder at Trakai (V ch. 22). The graph has no holder edge for Henė 1428-1438 or Žygimantas.

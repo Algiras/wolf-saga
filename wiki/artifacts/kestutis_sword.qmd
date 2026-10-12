@@ -8,10 +8,21 @@ categories: [artifact]
 {{< include ../_generated/kestutis_sword.md >}}
 
 ## Description
+A broad sword with a boar's head on the pommel, the sword that hung over the Trakai hall stairs (Book III ch. 2). Beneath the grip is a *perkūnėlis*, a thunder-cross burned into the metal by Kęstutis himself.
+
 ## Power
-<!-- What it does, in rules terms. -->
+A warded oath-blade. While clean, the perkūnėlis keeps the bearer's word under Perkūnas's eye. In Book III it is the instrument of Vytautas's oath at Grunwald (III ch. 17). It "recognises" its bearer each morning (Skirgaila, Book II ch. 1, 11).
+
 ## Rule & cost
-<!-- What it demands; how it can fail. -->
+Rust spreads along the blade with every oath broken in the family: Dovydiškės, Skirgaila's safe-conduct, Vytautas's false baptism, the Order oath, Lyck, the Vorskla (III ch. 2). After Grunwald a thin bright silver line from guard to point survives (III notes, part 3).
+
 ## Origin
+Forged for [Kęstutis](../characters/kestutis.qmd) around 1330 (graph); in Book VI ch. 7 it is new and warm. Rust begins with the cracks of 1380.
+
 ## Arc across the books
-<!-- Holder by holder; must match the 'holds' edges in world_graph.json. -->
+- **Kęstutis, to 1382.** He cleans it nightly (Book I ch. 2). Skirgaila's men take it from him at the gate when he is disarmed (I ch. 6).
+- **Skirgaila, 1382-1397.** Hung in Kęstutis's Trakai hall (Book II ch. 1). Vytautas lets him keep it at the 1392 handover (II ch. 11). It goes into Skirgaila's inventory, one of twelve oak chests, at Kyiv, 11 Jan 1397 (II ch. 16).
+- **Vytautas, spring 1400-1430.** Found by the wolves in the third chest, black with rust, left unpolished: "Rūdys yra sąskaita" (III ch. 2). Blood-sworn at Grunwald on 14-15 Jul 1410 (III ch. 17); the rust stops spreading (III ch. 28). It stands by the door at his death (IV ch. 29).
+- **After 1430.** No fate is given (Book IV hand-off); Book V does not mention it. A gap.
+
+The graph shows no holder for 1397-1400.

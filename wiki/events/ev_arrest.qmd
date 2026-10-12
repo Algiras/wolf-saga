@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_arrest.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+Modern accounts (Wikipedia's civil-war article, citing Ivinskis, Urban, Kiaupa) put it on 3 August 1382. The armies of [Kęstutis](../characters/kestutis.qmd) and [Jogaila](../characters/jogaila.qmd) met near [Trakai](../places/trakai.qmd); no battle was fought; during the talks Kęstutis and [Vytautas](../characters/vytautas.qmd) were arrested and taken to [Krėva](../places/kreva.qmd). Some accounts place the arrest closer to 10 August (verify; the sources count five days from arrest to Kęstutis's death on 15 August). Trakai had surrendered to Jogaila and the Order on 20 July. The tradition that [Skirgaila](../characters/skirgaila.qmd) guaranteed a safe-conduct is plausible but I have not found it in a named chronicle (verify). Principal sources are the Order's chroniclers (Wigand of Marburg, Johann von Posilge) and the later Lithuanian chronicles.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+A treachery under sworn safety is the oath-break Perkūnas notes. Silenced by the Shadow-Seller's Breath of the Void, the Vilnius yard becomes a trap: the portcullis falls, sound dies in the courtyard, and [Henė](../characters/hanulas.qmd) turns one blackened stone. The same night Skirgaila slaughters Kęstutis's retinue in their sleep, and the Vilnius wolves, bound to Jogaila's flame, hold the doors (D10). The saga moves the trap into the Vilnius Lower Castle for staging, whereas the record puts it in Jogaila's camp near Trakai; the camp is the stronger setting and may replace it on revision.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+The arrest follows [Jogaila's retaking of Vilnius](ev_vilnius_retaken.qmd) and leads directly to [Kęstutis's death at Krėva](ev_kestutis_death.qmd). Vytautas, who escapes Krėva in the autumn, carries the story forward.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book I ch. 5 "Dvigubas Veidas" (Jogaila, same day, Vilnius Lower Castle), ch. 6 "Geležiniai Vartai" (Vytautas and Kęstutis, then Jogaila; late-summer afternoon), ch. 7 "Tylos Puota" (Jogaila and Skirgaila; the same night). The book still reads as autumn in places; canon sets the season at late July and August (continuity bible).

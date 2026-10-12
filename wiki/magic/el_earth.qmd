@@ -8,7 +8,21 @@ categories: [magic]
 {{< include ../_generated/el_earth.md >}}
 
 ## Deity & zenith
+
+**Deity:** [Žemyna](../gods/zemyna.qmd). **Incantation:** *Žemė tau laikys* ("Earth for you shall hold"), *man* for oneself. **Medium:** bare earth. **Zenith:** Dagotuvės, autumn-equinox dusk (~14–15 September): cost **halved**. **Off zenith:** the working is **impossible** at sea or in the air. Her price for desecration (Book I ch. 20) is a separate matter: an earth-debt, not a working.
+
 ## Boon
+
+**Unmovable Will**: stillness and endurance, a will that does not bend. Cast on another (*tau*) it holds him; cast on oneself (*man*) it "holds more firmly, but only me" (Book II ch. 19).
+
 ## Minor / major cost
+
+**Minor:** stiffness. **Major:** **petrification** for the length of the effect, and a permanent loss of grace. In Book II ch. 19 the last Samogitian *žynys* Kantaudas turns to river-stone from the hand upward, before the oak the axemen fell at Salynas: "let it take me; let them see what they are cutting". In ch. 27 Vytautas, fleeing after Vorskla, says *Žemė man laikys* and goes rooted and heavy; his horse freezes and a patrol's eyes slide off him.
+
 ## Limits
+
+Impossible at sea or in the air. The Iron Saint's knights are immune to Earth's terror. The earth also *remembers* the working as residue (Memory, magic §5.3).
+
 ## Uses in the books
+
+Book I ch. 3 (as one of the five lines); ch. 20 (Žemyna's price for a burned village is a red blister under the pouch, and the pebble goes cold); Book III ch. 8 (Henė: blood spilled "where a debt is owed" at Dagotuvės is heard); Book II ch. 19, 27 above.

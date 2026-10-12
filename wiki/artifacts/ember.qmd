@@ -8,10 +8,21 @@ categories: [artifact]
 {{< include ../_generated/ember.md >}}
 
 ## Description
+A palm-sized yellow flame that gives no smoke and does not bend in a draught (Book II notes, Part 2). It sits on a black ring of stone, fed in pinches with live ash from the first coal. Where it burns the wolves cannot sleep, because the brotherhood may not rest under a lit roof.
+
 ## Power
-<!-- What it does, in rules terms. -->
+The last of the Gediminid sacred flames. While it burns the Silent Pact's remnant and the vilkatai's oath have a living anchor. New wolves can be made only at a living flame (D10), so it also keeps the brotherhood alive. Pinches of its ash can serve as a weapon or a lamp.
+
 ## Rule & cost
-<!-- What it demands; how it can fail. -->
+It is held to Vytautas's promise "Kol aš gyvas, paskutinė ugnis neužges" (Book I ch. 3; `magic_rules.md` §6). If he lets it die while he lives, the Pact's penalties fall on him. Every pinch of ash taken is a risk to him (Book II ch. 14). Fire's cost doubles when it is worked in spring flood or an off-zenith crossing (II ch. 2, 11).
+
 ## Origin
+[Saga] Lit secretly on the night Jogaila's priests extinguished the Šventaragis fire, Feb-Mar 1387 (record: Długosz). Vytautas lights it from the ember he carried out of the valley, in Kęstutis's old hunting lodge beyond the Neris (Book I ch. 29; `canon_decisions.md` D11).
+
 ## Arc across the books
-<!-- Holder by holder; must match the 'holds' edges in world_graph.json. -->
+- **Vytautas, 1387-1430** (graph); in practice he is its bearer and others are its keepers.
+- **Lodge, then island foundations, 1387-1392.** Kalvis, whom Vytautas spared, guards the first hearth, then the half-flooded south corner of Trakai Island (Book II ch. 2).
+- **Island undercroft, from autumn 1392.** Moved by boat on the night the keys are handed over (II ch. 11). The boy Žiežirba (b. c. 1390) tends it from c. 1396. After Kalvis dies at the Vorskla, 1399 (II ch. 26), Spyglys and the boy keep it (II ch. 29).
+- **The lantern, 8 Jun 1410-spring 1411.** Žiežirba carries it in a horn lantern to Grunwald (III ch. 15, 17, 20). It returns "like a bird on a nest" (III ch. 28).
+- **Refused crown, 1429-1430.** Henė offers the crown for the flame; Vytautas refuses (IV ch. 22).
+- **27 Oct 1430.** It goes out at the moment of Vytautas's death (IV ch. 29); the vault replay is V ch. 1. The lightning-fire given at his funeral (V ch. 2, 7) cannot make wolves (V ch. 20).

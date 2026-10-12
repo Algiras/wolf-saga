@@ -1,0 +1,29 @@
+---
+title: "Velnias's small shapes (velniukai)"
+id: velnio_pavidalai
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/velnio_pavidalai.md >}}
+
+## Folk source [Record]
+Velnias is one of the most vivid figures of Lithuanian folk tales. He often appears as a gentleman, frequently a "little German" (*vokietukas*) in a green or black coat with a hat hiding his horns and a goose- or horse-foot he cannot hide. He also takes the shapes of black cats and black dogs, haunts swamps, stones and mills, makes bargains (signed in blood in Christian-era tales) and is regularly cheated by clever peasants. He fears Perkūnas, who hunts him with lightning; in storms people chased cats and dogs out of the house.
+
+## In the saga (where the folk are half-wrong)
+Not the [Shadow-Seller](../forces/shadow_seller.qmd) himself, but **small change** from the same purse: *velniukai*, minor shards of [Velnias](../gods/velnias.qmd) that do small deals in villages and serve as his eyes. The Shadow-Seller uses them as scouts; a black dog at the edge of the firelight is often how he learns what a prince will need. Velnias is hungry and fair: his small shapes keep every deal to the letter and lose to anyone cleverer.
+
+## Signs & habitat
+A black cat that arrives the day before a quarrel; a stranger in a too-fine green coat at a wedding who will not dance (he would show his foot); a dog that will not leave during a thunderstorm.
+
+## Before / after the Unbinding
+Before: country tricksters. After 1387 the green-coated gentlemen move to towns, where the Gold-Glutton's ledgers make better bargains than any peasant's harvest.
+
+## Banes, wards, bargains, and their cost
+Thunder-stones and, after 1387, the Candlemas thunder candle lit in storms (Perkūnas's attention comes with them). Never shake his hand or accept the first gift (rudeness to strangers is itself a sin against custom). Out-think him by drafting the deal yourself; if you are less clever than you think, the letter is your ruin.
+
+## Danger level
+II hazard → III dangerous.
+
+## Story hooks
+Book I: a black dog in the courtyard at Krėva the night of 15 August 1382 (ch. 8–9), watching the tower. Book VI: the black dog at the Pact fire (ch. 8, 27).

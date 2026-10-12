@@ -1,0 +1,26 @@
+# Skaitymo tvarka {.unnumbered}
+
+„Geležinio Vilko Saga“ susideda iš šešių knygų, kurių kiekviena yra atskiras Quarto projektas. Čia rasite jų sąrašą ir rekomenduojamą skaitymo tvarką.
+
+## Knygos
+
+1. **[I knyga: Vilko Tremtis](index.html)**, 1377–1387. Kęstučio mirtis Krėvoje, Vytauto pabėgimas ir pirmoji didžioji išdavystė.
+2. **[II knyga: Auksinis Šešėlis](2/index.html)**, 1387–1399. Antroji išdavystė, imperijos sapnas ir Vorsklos mūšis.
+3. **[III knyga: Žaliasis Miškas](3/index.html)**, 1399–1411. Žemaitijos sukilimai, Žalgirio mūšis ir Torunės taika.
+4. **[IV knyga: Nematoma Karūna](4/index.html)**, 1411–1430. Žemaitijos krikštas, imperija nuo jūros iki jūros ir sulaikyta karūna.
+5. **[V knyga: Vilko Palikimas](5/index.html)**, 1430–1450. Užgesusi liepsna, pilietinis karas ir paskutinis vilkas.
+6. **[VI knyga: Šventasis Miškas](6/index.html)**, 1341–1377. Priešistorė apie Algirdą, Kęstutį ir Tyliąją Sutartį.
+
+Kiekvienos knygos pradžioje rasite trumpą pratarmę, o [Wiki](wiki/) padeda susigaudyti veikėjuose, vietose ir įvykiuose.
+
+## Rekomenduojama tvarka: išleidimo seka
+
+**I → II → III → IV → V, o VI knyga skaitoma kaip priešistorė, kai baigiate arba po pirmosios knygos.**
+
+Taip saga išlaiko savo paslaptis. Šeštoji knyga atskleidžia Tylosios Sutarties sąlygas ir kainą, kurią už ją moka Kęstutis, todėl ji atima iš pirmųjų knygų dalį netikėtumo. Perskaitę ją po pirmosios knygos arba pačioje pabaigoje, pamatysite, kaip kiekvienas Sutarties sulaužymas skamba iš naujo.
+
+## Kita tvarka: chronologinė
+
+**VI → I → II → III → IV → V**
+
+Jei norite sekti įvykius metų eile, pradėkite nuo priešistorės. Ši tvarka tinka antrajam skaitymui: pirmą kartą Sutarties paslaptis yra geriau atrasti pačiam.

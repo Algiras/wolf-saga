@@ -8,7 +8,21 @@ categories: [god]
 {{< include ../_generated/saule.md >}}
 
 ## Folk sources [Record]
+
+*Saulė* (Latvian *Saule*) is the Sun, a goddess in Baltic myth. The record is thin and mostly folkloric. The Lithuanian insert in the Ruthenian Malalas (c. 1261) says the smith Teliavelis forged the Sun and threw it into the sky. Jerome of Prague, reported in later Humanist retellings, described Lithuanians worshipping the Sun and an iron hammer used to free it from a tower (the zodiac legend). The Battle of Saule (1236) bears her name, though its link to sun-cult is unproven. The bulk comes from *dainos* (folk songs, many Latvian), collected from the 17th–19th centuries: Saulė's golden clothes, her horses and boat; Mėnuo as her husband; Aušrinė and Vakarinė as daughters or servants; and a daughter Žemyna in some variants. Greimas and Beresnevičius give the framework.
+
+**Amber and tears:** the saga says amber is Saulė's tears. That is an overlay. The folk record ties amber to Jūratė's shattered palace, and the Greek parallel is the Heliades' tears (Ovid), not a Baltic source.
+
 ## In the saga
-<!-- Domain, element, Force-face (cosmology.md §3). -->
+
+**Domain:** the Sun, mother of life. **Element:** none directly. **Force-face:** none. She is patron of [Gintarystė](../magic/gintaryste.qmd): every piece of amber is a drop of solar grief, which is why amber stores memory (cosmology §3.1; magic rules §5.3). Her husband [Mėnuo](menuo.qmd) left her for Aušrinė, and her tears gathered in the sea became [Jūratė's palace](jurate.qmd).
+
+She never acts, speaks or appears as a character. Her presence is the amber: Book I's prologue is titled "Gintaro Ašaros" ("Amber Tears"); Birutė's pebble and the kneeling statue carry it; and in Book VI ch. 29 Birutė throws a piece of Palanga amber into the fire at Algirdas's death and the smell of "the warmth of the sun" fills the hill, "Saulės ašaros". **Weakness:** none; she is indifferent, and the grief she left outlives her notice.
+
 ## Offerings & taboos
+
+Amber taken from the shore after a storm without an offering goes cold for its whole life (Palanga's law, [power systems](../codex/power-systems.qmd)). Sun-wheels (*saulutės*) carved on lintels and vault keys are her sign: Book II ch. 11, Book V ch. 20. Fed with milk at dawn.
+
 ## Pronunciation
+
+**SOW-lay** (IPA [ˈsɐʊlʲeː]), stress *SAU-lė*.

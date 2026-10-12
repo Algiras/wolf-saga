@@ -8,9 +8,29 @@ categories: [magic]
 {{< include ../_generated/uzkalbejimai.md >}}
 
 ## What it is
+
+Spoken charms: **Kalba's humble cousin**, folk word-magic that needs no gift, only the exact words learned from a living teacher and a medium (water, bread, salt, linen thread, a knife).
+
 ## Who can use it (path & tier)
+
+Tier 1: the **žiniuonis** or herb-woman, the midwife, the village healer. Thousands in 1382. Patron: [Laima](../gods/laima.qmd). Learned only from a living teacher.
+
 ## How it works (medium, words, timing)
+
+Whispered three or nine times, often over water, bread or salt. It works on **one person and one ailment or danger at a time**: stopping bleeding, drawing snake venom, calming a horse, taking away fright, warding a house from fire for a night.
+
 ## Costs
+
+Small but personal: the charmer takes a **trace** of what they remove (a headache, a cold hand, a nightmare); healers who charm too much grow strange. A charm said for money works at half strength, since payment is already "giving back".
+
 ## Limits & counters
+
+A charm told to the wrong person dies for the teller; charms fail against someone who does not believe they are being helped (Law of Truth). After the Unbinding they are the peasantry's chief defence against unbound spirits, condemned by the priests, quietly used by village ones. They cannot work a mortal wound alone; a bleeding-charm plus a Rasos-herb poultice saves wounds that Water cannot.
+
 ## Folk basis [Record]
+
+**[Record].** Lithuanian *užkalbėtojai* and *žiniuonys* kept a large oral tradition of charms against snakebite, bleeding, fright (*išgąstis*), toothache, fire and the evil eye, whispered three or nine times over water, bread or salt, and traditionally passed to a younger person of the opposite sex, or lost. The texts survive from folklore archives of the 19th–20th centuries, often Christianised.
+
 ## Notable practitioners
+
+[Village healers](../factions/village_healers.qmd) generally; [Elena](../characters/elena.qmd), the Root-Mother's devotee who carries her tow-knot sign (Book I ch. 12–13). **Thin on the page:** no scene performs a charm by name, so the school survives as background and as Ona's and Eglė's herb-craft ([Žolės](zoles.qmd)).

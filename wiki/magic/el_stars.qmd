@@ -8,7 +8,21 @@ categories: [magic]
 {{< include ../_generated/el_stars.md >}}
 
 ## Deity & zenith
+
+**Deity:** [Praurimė](../gods/praurime.qmd), with [Laima](../gods/laima.qmd), whose spinning the seer reads. **Incantation:** *Žvaigždės tau švytės* ("Stars for you shall shine"). **Medium:** a starlit sky. **Zenith:** Kūčios, winter-solstice midnight (~13 December in 1382, not the Christian 24th): cost **halved**; **doubled** in daylight; **impossible** under overcast.
+
 ## Boon
+
+**Clear Sight**: seeing at distance, through time (as possibility, never certainty) and into the truth. Every Praurimė vision shows the seer something about herself (Law of Truth).
+
 ## Minor / major cost
+
+**Minor:** hours of blindness. **Major:** blind for days, **or** the permanent loss of one beloved face from memory. At the wrong hour the price doubles: Birutė's ch. 3 vision at Dagotuvės costs "two days, maybe three" of blindness (Book I). At the right hour: Book V ch. 29, "Praurimė shone highest, and the price was half. Half. Still everything."
+
 ## Limits
+
+It shows branches, never a fixed trunk: prophecy is not fate. Overcast sky makes it impossible. A Praurimė seer can see through the Shadow-Seller's illusions at the cost of blindness, the only such counter besides wit. Consecrated stone doubles the cost.
+
 ## Uses in the books
+
+Book I ch. 3 (the Ship of swords and the first Sutartis); ch. 9 (the vault of Praurimė's night as Kęstutis's torch fades); ch. 15 (the Five-Voice ends in "the cold brightness of Praurimė's eyes", and he faints); ch. 27 (Birutė sees the small flame in the stone vault). Book V ch. 29 (the Queen's last working, for the dying Flame-Keeper, at the Kūčios zenith: afterwards she can no longer speak through the amber).

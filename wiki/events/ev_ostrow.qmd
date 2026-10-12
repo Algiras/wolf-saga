@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_ostrow.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+The Ostrów Agreement, 4 August 1392. The place is uncertain (Ostrów Lubelski, or a manor near Lida); talks had begun at Ritterswerder near Kaunas. Henry of Masovia, bishop-elect of Płock, was [Jogaila](../characters/jogaila.qmd)'s secret envoy; to avoid the Order's suspicion he married Vytautas's sister Rymgajla. Jogaila handed the government of Lithuania to [Vytautas](../characters/vytautas.qmd) as regent, Grand Duke in all but name under Jogaila as supreme duke. In the summer Vytautas had invited the Knights to a feast at Ritterswerder, taken most of the guests prisoner and destroyed Ritterswerder, Metenburg and Neugarten. Skirgaila was moved from Trakai to Kyiv (1395). (Wikipedia, Ostrów Agreement; Koncius, Ivinskis, Urban.)
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+Jogaila's hands shake as they always do when he has to sign. Henė changes masters in front of everyone and bows to Vytautas, Skirgaila's stone still in his hand. Ona will not look at her husband after the boys. Trakai is Vytautas's again, and the flame moves from the flooded foundations to the dry vault. A new phase of his arc begins (Form 5 in the arc notes).
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the siege of Vilnius](ev_vilnius_siege_1390.qmd). In the graph it also 'causes' [the poisoning of the hostage sons](ev_sons_poisoned.qmd), though in the book the boys die first, as the price of the turn that made Ostrów possible.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book II ch. 10 "Astravo Sutartis" (Jogaila; 4–5 August 1392, summer), ch. 9 "Kraujo Puta" (the spring and summer lead-up) and ch. 11 "Trakų Raktai" (Vytautas, autumn 1392).

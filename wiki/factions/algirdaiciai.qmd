@@ -8,9 +8,22 @@ categories: [faction]
 {{< include ../_generated/algirdaiciai.md >}}
 
 ## Overview
+[Record] The sons of Algirdas (d. May 1377) and Uliana of Tver: [Jogaila](../characters/jogaila.qmd), [Skirgaila](../characters/skirgaila.qmd), Kaributas, Lengvenis, Karigaila, Vygantas and [Švitrigaila](../characters/svitrigaila.qmd). They hold Vilnius and the eastern appanages. Jogaila signed Dovydiškės (31 May 1380), retook Vilnius on 12 Jun 1382 and was baptised at Kraków in 1386 as King of Poland. Skirgaila governed Lithuania for him (1387-92) and died at Kyiv on 11 Jan 1397. Švitrigaila ruled 1430-32 and died in 1452. Jogaila's Jagiellonian sons, Władysław III and Casimir, carry the line into the next century.
+
 ## Wants (by book)
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
+| I | Remove Kęstutis; trade baptism for a crown | Hanulas, the Order's alliance | Kęstutis alive at Krėva |
+| II | Hold Lithuania through Skirgaila; keep Vytautas small | Trakai; Henė's bargains | Vytautas on the throne |
+| III | Vilnius-Radom | Jogaila's Polish crown | A Kęstutaitis kingdom |
+| IV | Heirs, and no Lithuanian crown | Sophia's sons (b. 1424, 1427) | Vytautas's crown |
+| V | Švitrigaila claims Lithuania alone; Casimir recovers it | The Orthodox princes; the council in 1440 | Lithuania as a separate kingdom |
+
 ## Patron Force
+[Saga] The [Shadow-Seller](../forces/shadow_seller.qmd): Jogaila's 1382 bargain gives his line the crown and loses the land, and the three stones tie the cousins to it ([Henė's stones](../artifacts/three_stones.qmd)). The [White Silence](../forces/white_silence.qmd) feeds on them from 1382 (graph).
+
 ## Internal tensions
+Uliana's sons against Maria's elder sons (the Orthodox Andrius and Dmitrijus, who die with Vytautas at the Vorskla). Skirgaila against Vytautas over Trakai. Švitrigaila against Jogaila, imprisoned at Kremenets 1409-18. Feud with the [Kęstutaičiai](kestutaiciai.qmd) runs from Krėva (15 Aug 1382) to the murder of Žygimantas (20 Mar 1440).
+
 ## Notable members
+[Algirdas](../characters/algirdas.qmd), [Jogaila](../characters/jogaila.qmd), [Skirgaila](../characters/skirgaila.qmd), [Švitrigaila](../characters/svitrigaila.qmd).

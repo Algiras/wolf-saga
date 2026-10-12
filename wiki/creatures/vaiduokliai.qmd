@@ -1,0 +1,29 @@
+---
+title: "Vaiduokliai (apparitions)"
+id: vaiduokliai
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/vaiduokliai.md >}}
+
+## Folk source [Record]
+Ghosts and apparitions: the visible return of the dead, especially those who died violently or left something undone, haunting a place or a person.
+
+## In the saga (where the folk are half-wrong)
+A vaiduoklis is **not a soul**. It is the land's memory replaying (the Law of Memory, [magic rules](../codex/magic-rules.qmd) §5.3): a residue of something so strongly felt that the place keeps showing it. The folk confuse vaiduokliai with vėlės, which is half right: a vėlė can use a vaiduoklis as a mask, but most apparitions have no one inside, which is why most ghosts cannot be fed or bargained with. **Amber** shows them most clearly, because amber stores memory.
+
+## Signs & habitat
+The same figure at the same hour; places of great working or great grief (the Krėva cell, the Palanga stone).
+
+## Before / after the Unbinding
+Unchanged in nature, but more of them: the Unbinding is a century of grief, and grief leaves pictures.
+
+## Banes, wards, bargains, and their cost
+None needed; most do no harm (mistaking one for a vėlė wastes offerings and raises false hope). To lay one, change the place (burn the room, fell the tree) and the memory goes with it.
+
+## Danger level
+I nuisance, before and after.
+
+## Story hooks
+Book I ch. 23: Kęstutis after an honoured cremation is not his vėlė but a vaiduoklis carried by Birutė's amber, which is why the scene smells of sea salt. Book IV: Vytautas, near death, sees his younger self in the Trakai halls.

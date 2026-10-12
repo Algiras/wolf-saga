@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_algirdas_dies.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+Algirdas died in late May 1377 (the exact day and place are not secure; Maišiagala is suggested). Lithuanian tradition has him cremated on a pyre with his best horses, traditionally eighteen, and this is the usual reading of the pagan rite; the horse count and the site are traditional, not documented. Ruthenian sources, followed by later Orthodox writers (Kojałowicz, Macarius, Antonovych), say he took monastic vows a few days before his death and was buried in Vilnius under the name Alexius. The two accounts contradict each other and the sources do not decide between them. Shortly before his death he named Jogaila, his son by Uliana of Tver, as heir over the sons of his first wife, having earlier favoured Fiodor. Jogaila became Grand Duke in 1377 and [Kęstutis](../characters/kestutis.qmd) stayed on as co-ruler. See the [Wikipedia article on Algirdas](https://en.wikipedia.org/wiki/Algirdas).
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+The saga keeps both versions, and says so: both are true. [Algirdas](../characters/algirdas.qmd) takes the black Orthodox cowl the night before, speechless, with a lifted hand, and is burned on a hill above the Neris with the pagan rite beside a Ruthenian monk reading prayers. "Ugnis neklausia, ko prašei" (the fire does not ask what you asked), he had said. The first log is laid by Jogaila, the youngest son leading the father, following the Sovijus rule of the old legend. Eglė, seventeen, carries the [Šventaragis](../places/sventaragis.qmd) flame in a clay pot, and the fire hesitates three breaths before it catches. [Birutė](../characters/birute.qmd) feels one thread of the [Silent Pact](../magic/silent_pact.qmd) slip and another tremble. Earlier, at the deathbed, Algirdas makes Kęstutis swear to protect Jogaila, and Kęstutis, who cannot give a promise he will not keep, swears only that no hair will fall by his own hand or order. That narrow oath is the gap through which [Skirgaila](../characters/skirgaila.qmd) later walks.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+The graph records no outgoing 'causes' edge for this event. In canon it is the first loss among the oath-takers of 1345: the Pact weakens until Kęstutis alone holds it. Jogaila's accession (1377) leads directly to the secret treaty of [Dovydiškės](ev_dovydiskes.qmd) in 1380, the breach that becomes the civil war and [Krėva](ev_kestutis_death.qmd). The 1345 oath itself is [here](ev_pact_sworn.qmd).
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book VI ch. 28 "Algirdo Valia" (Kęstutis, spring 1377, first thunder), ch. 29 "Algirdo Laužas" (Birutė, May 1377, the hill above the Neris), ch. 30 "Epilogas: Senasis Šernas" (Kęstutis, autumn 1377, Trakai). It ends Book VI and hands over to Book I ch. 1.

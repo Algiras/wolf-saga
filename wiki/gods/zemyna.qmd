@@ -8,7 +8,21 @@ categories: [god]
 {{< include ../_generated/zemyna.md >}}
 
 ## Folk sources [Record]
+
+*Žemyna* ("earth", from *žemė*) is the Baltic earth goddess. The first written naming is Jan Łasicki's *De diis Samagitarum* (c. 1582, printed 1615; "Zemina"), followed by Daukša, Daniel Klein (1666) and Matthäus Prätorius (1690s). Prätorius describes the household rite of *žemyneliauti*: beer poured on the ground, a cock or hen cooked and eaten, the remains offered to the goddess. Other recorded practices: bread of the last harvest buried before sowing, a black piglet sacrificed, and kissing the earth in prayer. She is the **wife of Perkūnas** in later folklore (hence no ploughing before the first thunder), though the pairing is a reconstruction.
+
+Earth-oaths (kissing or eating soil) come from later ethnography; medieval treaties name gods, not the earth. *Dagotuvės* as an equinox feast is a modern Romuva reconstruction.
+
 ## In the saga
-<!-- Domain, element, Force-face (cosmology.md §3). -->
+
+**Domain:** earth, fertility, oaths sworn on soil. **Element:** [Earth](../magic/el_earth.qmd) ("Žemė tau laikys"), zenith Dagotuvės (autumn-equinox dusk). **Force-face:** with Medeina's grief she hardened into the [Root-Mother](../forces/root_mother.qmd) (canon D8: not a synonym). She patronises [Priesaika](../magic/priesaika.qmd): an earth-oath is binding physically, and the oath-breaker's land rejects him.
+
+Book I: the Pebble's first working is "the old power of Gabija and Žemyna, passed through a mother's hands" (ch. 3); Kęstutis says "Žemyna still holds us" (ch. 4) and, dying, calls his nephews the greatest cowards "this Žemyna ever carried" (ch. 9). After Vytautas's army burns a village, Žemyna "took the first part of the debt" (ch. 20): a red blister under the pouch and a cold pebble. Henė notes that Žemyna has her hour at Dagotuvės and that blood spilled on owed ground is heard then (Book III ch. 8). Samogitian baptism puts one God above "Perkūnas and Žemyna" (Book IV ch. 3). **Weakness:** she turns away from the one who burns the land, and she cannot work at sea or in the air.
+
 ## Offerings & taboos
+
+Bread and beer given to the ground; the kissed soil of oaths. Taboos: ploughing or sowing before the first thunder (later folk rule), and breaking an earth-oath, for the land will refuse the breaker.
+
 ## Pronunciation
+
+**zheh-MEE-nah** (IPA [ʒʲɛˈmʲiːnɐ]), stress *že-MY-na*.

@@ -8,9 +8,29 @@ categories: [magic]
 {{< include ../_generated/priesaika.md >}}
 
 ## What it is
+
+Oath-binding: an oath sworn with the **right form** is literally binding. It is the old law of the land turned into magic: the oath-breaker pays, physically.
+
 ## Who can use it (path & tier)
+
+Anyone who swears with the right form. The **Krivis** (tier 4) and tier 3 priests *conduct* oaths. Patrons: [Perkūnas](../gods/perkunas.qmd) and [Žemyna](../gods/zemyna.qmd).
+
 ## How it works (medium, words, timing)
+
+**Earth oath** (kissing or eating soil): the oath-breaker's own land rejects him; crops fail, horses throw him, the forest loses him. **Thunder oath** (on an axe, or by an oak struck by lightning): Perkūnas enforces it. **Blood-brotherhood** (*susibroliavimas*): shared fate; one feels the other's death. **Safe-conduct oaths** count. **Christian oaths on relics** are enforced by the Iron Saint among the Order's men, so the Order distrusts converts who swore on pagan forms first. An oath sworn on a *claimed* person's name binds the Force too.
+
 ## Costs
+
+The breaker's: lightning, a rejecting land, the loss of the god's favour. The keeper's: Kęstutis pays for every word he has sworn since the ox oath (Book VI ch. 28). A precise oath pleases Perkūnas, who reads the words and finds them exact, not because he forgives but because exactness pleases him (Book VI ch. 13).
+
 ## Limits & counters
+
+Oaths are kept to the **letter** by gods: Perkūnas and Gabija are exact, and what is deceived by the letter is still taken by the spirit (Book VI ch. 11). An oath cannot be sworn by one who does not mean it, or it rings false (the pebble dies at the false baptism, Book I ch. 19).
+
 ## Folk basis [Record]
+
+**[Record].** Pagan Lithuanians swore on the gods or the earth, with animal sacrifice; treaties were sworn in pagan form. In **1351** Kęstutis swore a pagan oath to Louis of Hungary with an ox, promised baptism, and left without keeping it (Polish chroniclers; verify Jan of Czarnków). Earth-oaths and thunder-oaths are later folklore and reconstruction. The Rus' swore by Perun in the 10th century.
+
 ## Notable practitioners
+
+The [Krivis](../characters/krivis.qmd); [Kęstutis](../characters/kestutis.qmd) (the ox oath, Book VI ch. 13, 17; Rudau, ch. 24); [Skirgaila](../characters/skirgaila.qmd) (the broken safe-conduct, Book I ch. 1, 2, 8); [Vytautas](../characters/vytautas.qmd) (Ostrów, Book II ch. 11; the renewal, Book III ch. 17).

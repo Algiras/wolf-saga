@@ -27,6 +27,8 @@ ROOT = Path(__file__).resolve().parent.parent
 GRAPH = ROOT / "world_rules" / "graph" / "world_graph.json"
 WIKI = ROOT / "wiki"
 TEMPLATES = WIKI / "_templates"
+IMAGES = WIKI / "images"
+IMAGE_EXTS = (".jpg", ".jpeg", ".webp", ".png")
 GEN = WIKI / "_generated"
 CODEX = WIKI / "codex"
 
@@ -115,6 +117,26 @@ def edge_years(e):
     return f" ({a or '…'}–{b or '…'})"
 
 
+def entity_image(n):
+    """Return the site-relative path of wiki/images/<id>.(jpg|webp|png) if one exists, else None."""
+    for ext in IMAGE_EXTS:
+        if (IMAGES / f"{n['id']}{ext}").is_file():
+            return f"images/{n['id']}{ext}"
+    return None
+
+
+def book_banner(n):
+    """Full-width banner above a book page's infobox (wiki/images/banners/<id>.jpg)."""
+    for ext in IMAGE_EXTS:
+        if (IMAGES / "banners" / f"{n['id']}{ext}").is_file():
+            cap = f"{n['name']}<small>{years(n)}</small>" if years(n) else n["name"]
+            alt = n["name"].replace('"', "'")
+            return ["::: {.book-banner}",
+                    f'<img src="../images/banners/{n["id"]}{ext}" alt="{alt}" loading="lazy">',
+                    f'<div class="book-banner-cap">{cap}</div>', ":::", ""]
+    return []
+
+
 def infobox(n, nodes, out_e, in_e, events_of, prog):
     rows = [("Type", n["type"])]
     if years(n):
@@ -132,10 +154,15 @@ def infobox(n, nodes, out_e, in_e, events_of, prog):
         rows.append(("Chapters", ", ".join(str(c) for c in n["chapters"])))
     if n.get("note"):
         rows.append(("Note", n["note"]))
-    out = ["::: {.callout-note appearance=\"simple\" icon=false}", f"### {n['name']}", "",
-           "| | |", "|---|---|"]
-    out += [f"| **{k}** | {v} |" for k, v in rows]
-    out += [":::", ""]
+    out = book_banner(n) if n["type"] == "book" else []
+    out += ["::: {.infobox}", "", "::: {.infobox-title}", n["name"], ":::", ""]
+    img = entity_image(n)
+    if img:
+        alt = n["name"].replace('"', "'")
+        out += [f"![{n['name']} · {n['type']}](../{img}){{.infobox-img fig-alt=\"{alt}\"}}", ""]
+    out += ["| | |", "|---|---|"]
+    out += [f"| **{k}** | {v.replace('|', '/')} |" for k, v in rows]
+    out += ["", ":::", ""]
 
     groups = defaultdict(list)
     for e in out_e.get(n["id"], []):

@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_marriage.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+Tradition dates the marriage of [Kęstutis](../characters/kestutis.qmd) and [Birutė](../characters/birute.qmd) to about 1350 (the English Wikipedia says c. 1344; the saga picks 1349) and the birth of Vytautas to about 1350 (a minority puts it at 1354–55). The story that she was a Palanga vaidilutė, a priestess of the sacred fire, whom Kęstutis carried off, rests on the 16th-century chronicle tradition (Bychowiec chronicle; Stryjkowski; verify) and is open to question. His elder sons Vaidotas and Butautas belonged to an earlier marriage. Kęstutis's later oath to Louis of Hungary (1351) and the 1361 capture are separate events. See Wikipedia, Birutė.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+Birutė, sworn at thirteen to the shore-fire, will not give herself to any man. The old priestess, the Amber Queen's vessel, tells her: "Then don't give. Be taken." A vow not to give herself is not broken if she is carried off. Birutė struggles loudly where the fishermen can see, so that the chroniclers have their abduction and the gods their letter kept. Palanga's flame, the second flame of the Pact, needs a husband for its last keeper. The old woman dies on the shore in the autumn. At Senieji Trakai the spinners of Laima sit on the sill when Vytautas is born in 1350: a crown will travel toward him all his life; he will be baptised three times; he will outlive every heir. Birutė says "Dar ne", and Laima: for "not yet" you pay.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+The graph attaches no outgoing 'causes' edge. The marriage brings the amber-priestess line into the Gediminids and gives Vytautas the pebble; it also seeds the 1365 treason of Butautas.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book VI ch. 10 "Palangos Ugnis" (Birutė; April 1349), ch. 11 "Būk Paimta" (the old priestess and Birutė; spring and summer 1349), ch. 12 "Laima prie Lopšio" (Birutė; spring 1349 to February 1350; the birth in Senieji Trakai).

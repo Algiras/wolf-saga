@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_konigsberg.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+Signed at Königsberg on 30 January 1384: [Vytautas](../characters/vytautas.qmd) promised to become the Order's vassal and ceded Samogitia up to the Nevėžis, including Kaunas (Wikipedia, Treaty of Königsberg). The Dubysa line was a different promise, Jogaila's of 31 October 1382 at Dubysa, which was never ratified. In February 1384 several Samogitian districts acknowledged Vytautas and the Knights; the Order began New Marienwerder near Kaunas in May and Vytautas renewed the treaty there in the summer (14 June or 16 July, sources differ). Vytautas was baptised at Tapiau as Wigand on 21 October 1383.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+The Amber Debt comes due. Samogitia, the land of the Hidden Groves, goes to the Iron Saint's servants on a piece of parchment. The Order gives its new vassal a Neman castle that he does not hold except on paper: the keys are carried by the Order's vaitas. Ona and the children are lodged at Königsberg as honoured guests.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the Tapiau baptism](ev_tapiau_baptism.qmd); it leads to [the burnings of 1384](ev_burnings_1384.qmd) when he turns the Order's own fortress against it.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Not dramatised. Book I ch. 19 "Velnio Sandėris" (Vytautas, autumn 1383; Ona and children at Königsberg) leads up to it; ch. 22 "Naujapilis" opens by recalling it ("sausio šaltyje", the January frost) and moves on to the construction of Naujapilis. Winter.

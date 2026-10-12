@@ -1,0 +1,29 @@
+---
+title: "Alkanosios vėlės (the hungry dead)"
+id: alkanosios_veles
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/alkanosios_veles.md >}}
+
+## Folk source [Record]
+Folk tradition across the region knows dead who return because they were not properly mourned, buried or fed: suicides, the murdered, the drowned, those buried without rites. They wander, harm livestock and trouble the living until set right. Scattering seed (poppy and others) to keep the dead busy counting is reported across the Slavic and Baltic region.
+
+## In the saga (where the folk are half-wrong)
+A vėlė no longer fed does not fade: it **starves**, and starving makes it a predator. It eats warmth first (cold houses), then memory (the living forget the dead person's face), then life (the old and sick die in its presence). The worst are the unburned, the buried who cannot climb at all (see [Nedegintieji](nedegintieji.qmd)).
+
+## Signs & habitat
+Houses that will not stay warm; a family that cannot remember a grandmother's name; cattle dead in the stall without a mark; graves in unconsecrated ground near abandoned groves.
+
+## Before / after the Unbinding
+Before: rare (bad deaths only). After: **legion**; abandoned groves breed them. This is the saga's central later-book threat.
+
+## Banes, wards, bargains, and their cost
+Feed them late: bread, kisielius, beer on the grave and the name spoken (the priest asks why you feast on a grave). Poppy seed scattered on the path from the grave buys a night, not a cure. A ring of ash around the house, renewed nightly (live ash from a sacred flame is priceless after 1387). **Burning the body** is the only true cure, and after 1387 opening a grave and burning a corpse is a crime and a heresy.
+
+## Danger level
+III dangerous → IV deadly.
+
+## Story hooks
+Books II onward: the core of the wolves' later trade. Book I: Kęstutis's enemies leaving him unburned would have made him one, another reason the honoured cremation matters.

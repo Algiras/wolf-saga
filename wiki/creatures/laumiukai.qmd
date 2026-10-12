@@ -1,0 +1,29 @@
+---
+title: "Laumiukai (changelings)"
+id: laumiukai
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/laumiukai.md >}}
+
+## Folk source [Record]
+In Lithuanian tradition laumės (and other water-beings) steal unattended infants and leave their own: an ugly, big-headed, ever-hungry, never-growing child. Remedies resemble those across Europe: mistreating the changeling so the laumė returns the stolen child, or provoking it to reveal its great age. Infants were protected by never being left alone and by iron, a knife or a broom near the cradle.
+
+## In the saga (where the folk are half-wrong)
+The swap is real, and it is a **bargain enforced without consent**. Laumės take children whose mothers broke courtesy, or who were born on a laumės' night, to raise as weavers. What they leave is sometimes their own sickly child, but often a dying human child from another house that the laumė is trying to save. The cruel folk remedies work because they offend custom so badly that the laumė returns the child, which means torturing a child who might be someone else's.
+
+## Signs & habitat
+A baby who changes overnight: eyes too old, appetite too great, never crying at the right times; wet hen-tracks by the cradle.
+
+## Before / after the Unbinding
+Before: swaps happen, and the child is often returned at seven, trained and strange. After: laumės leave nothing; the cradle is empty or holds a linen-wrapped log.
+
+## Banes, wards, bargains, and their cost
+Never leave an unnamed infant alone; a knife or broom under the cradle (a mother cannot work the fields). Carve *Laimos medis* on the cradle and feed it a thread of the mother's hair. Whisper the child's secret name into its ear at birth (the elements, and anyone who overhears, now know it). The cruel remedy: you may be beating somebody else's baby.
+
+## Danger level
+II hazard → IV deadly.
+
+## Story hooks
+Books II–III: a grown changeling who weaves for Vytautas's court and sees threads no one else can. Book V: an Orthodox priest in Švitrigaila's lands baptising a changeling, the beginning of a horror.

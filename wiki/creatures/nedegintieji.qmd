@@ -1,0 +1,29 @@
+---
+title: "Nedegintieji (the Unburned)"
+id: nedegintieji
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/nedegintieji.md >}}
+
+## Folk source [Record]
+[Saga invention.] No folk source; it builds on the Baltic belief in dead who return because they were not properly buried and on the crusade-era practice of burying the slain in pits. See [Alkanosios vėlės](alkanosios_veles.qmd) for the folk basis.
+
+## In the saga (where the folk are half-wrong)
+The **crusade dead**: Lithuanians killed in Order raids and buried in pits rather than burned, and the Order's own dead buried in pagan ground far from any church. With no fire to lift them, no kin to feed them, and a century of crusade fervour soaked into them, they rise in abandoned groves after 1387: hungry vėlės crossed with the [Iron Saint](../forces/iron_saint.qmd)'s appetite, so they march as well as hunger. Cold, silent, they walk in the formation they died in, pagan and Christian side by side, and take warmth hearth by hearth rather than eat.
+
+## Signs & habitat
+Mass graves near old Reise routes; groves left untended; lines of frost-prints in a summer field; fires that will not catch after they pass.
+
+## Before / after the Unbinding
+Before 1387 none (the Pact kept them in the ground). After: the commonest serious threat of Books II–V, at its height after Pabaiskas (1435) when the field holds thousands.
+
+## Banes, wards, bargains, and their cost
+Fire: only cremation stops one for good (heresy, and a pit takes cartloads of wood and a day nobody can hide). Live ash in a ring holds them off (after 1430 there is no more live ash). Feed and name them, if anyone remembers the names.
+
+## Danger level
+IV deadly (after 1387).
+
+## Story hooks
+Book II: the first rising in a felled Šventaragis-side grove. Book V: Pabaiskas and the last hunt of the vilkatai.

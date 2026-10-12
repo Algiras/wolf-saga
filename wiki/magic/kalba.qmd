@@ -8,9 +8,29 @@ categories: [magic]
 {{< include ../_generated/kalba.md >}}
 
 ## What it is
+
+The Ancient Tongue: **asked** power, the mortal craft of petitioning the gods (and, riskier, the Forces) through five elements. It is the rarest and strongest school, and the only one that reaches across distance (through amber). Bound by the **Three Laws**: Balance, Truth, Memory. Full rules: [Magic rules](../codex/magic-rules.qmd).
+
 ## Who can use it (path & tier)
+
+Three paths: **born** (*prigimtis*, usually down the maternal line, as the Palanga priestesses), **noticed** (*pažymėtas*, after a great deed) or **bound** (*surištas*, into another's [Sutartis](sutartis_birute.qmd): Vytautas's path). Tier 3 (žynys, vaidilutė) casts one or two elements; tier 4 (Krivis, amber priestess) all five; Vytautas is "bound tier 2". The baptised can use it.
+
 ## How it works (medium, words, timing)
+
+A line of Old Lithuanian naming an **element**, a **recipient** and a **verb of giving** (*Ugnis tau degs*). *Tau* is cast on another, *man* on oneself, at lighter cost. It needs a sacred medium, the words aloud (a whisper will do; the Order gags captured *žyniai*) and true intent. Each element's zenith halves the cost; off it, the cost doubles.
+
 ## Costs
+
+Every working shows its bill ([elements](el_fire.qmd)). The **Five-Voice** (*Penkių Balsų Šauksmas*) calls a little of every boon and costs a little of every price, permanently: dimmer sight and hearing, frayed memory (Book I ch. 15). A **surety** pays part of another's prices (Birutė, until ch. 27).
+
 ## Limits & counters
+
+No illusions, no raising the dead, no creating love, no changing the past, no winning wars; at most a castle for a night. Consecrated stone doubles the cost; the Iron Saint's knights are fearless; the White Silence smothers Wind; [the Order's sword](../artifacts/order_sword.qmd) dampens it. It fails against one who knows their true name better than you do.
+
 ## Folk basis [Record]
+
+A **saga system** (Book I ch. 31, appendix) built on real folk practice (charms, oaths, sacred fires, herbs, amber), with god-names from Baltic sources of uneven reliability: Praurimė, Bangpūtys and Vėjopatis are late or doubtful. No Baltic source describes a five-element craft.
+
 ## Notable practitioners
+
+[Birutė](../characters/birute.qmd) (tier 4: the Praurimė vision, ch. 3; the Krėva fog, ch. 14; the sacrifice, ch. 27), the [Krivis](../characters/krivis.qmd) (4), [Eglė](../characters/egle.qmd) (3), [Vytautas](../characters/vytautas.qmd) (the Five-Voice, ch. 15; Book II ch. 2, 11, 27).

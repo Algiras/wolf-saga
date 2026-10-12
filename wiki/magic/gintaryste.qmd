@@ -8,9 +8,29 @@ categories: [magic]
 {{< include ../_generated/gintaryste.md >}}
 
 ## What it is
+
+Amber-craft: **Saulė's grief** as the universal medium. Amber stores memory and carries workings, and it is the only medium that all five elements accept ([Kalba](kalba.qmd)).
+
 ## Who can use it (path & tier)
+
+Tier 4 amber priestesses (the Palanga line, [Birutė](../characters/birute.qmd)) work it fully; any bearer, even ungifted, can *release* charged amber with the right word (tier 0). Patron: [Saulė](../gods/saule.qmd).
+
 ## How it works (medium, words, timing)
+
+**Raw** amber carries any working. **Charged** amber holds a working breathed into it, released later by the bearer. **Anchored** amber carries the caster's blood and links caster and bearer **across any distance**, only one anchor per caster at a time (a second breaks the first). **Memory** amber takes a last memory from one who dies holding it, and may show it to a seer. Amber answers to the **truth of the bearer**: the [pebble](../artifacts/pebble.qmd) is warm when freely given (Book I ch. 3), cold at the false baptism (ch. 19), burning at Žemyna's price (ch. 20), hot at an honest choice (ch. 23), glowing at the baptism honest about its dishonesty (ch. 29).
+
 ## Costs
+
+The anchoring caster pays for every working done through the anchor; when Birutė cast from Palanga she paid in her voice and sight (Book I ch. 14–25). Amber **taken from the shore after a storm without an offering goes cold** for its life.
+
 ## Limits & counters
+
+One anchor at a time. Consecrated stone chills it: the pebble dies in the Order's fortress (Book I ch. 19) and cannot be used while Vytautas carries the Order's sword. The Order's *Bernsteinmeister* burn charged amber. It does not flatter its bearer (Book III ch. 21, 25).
+
 ## Folk basis [Record]
+
+**[Record].** Baltic amber has been traded since antiquity (Tacitus, *Germania* 45, has the Aestii gathering it), and amber was a grave good. The **Teutonic Order controlled the Prussian amber trade** and punished private gathering harshly. That amber remembers, or that it is Saulė's tears, is saga overlay; the folk record ties amber to Jūratė's shattered palace.
+
 ## Notable practitioners
+
+Birutė and the Palanga priestesses; [Vytautas](../characters/vytautas.qmd) (the pebble: Book I ch. 3–29; it cracks at his death, Book IV ch. 29); the kneeling statue ([kneeling woman](../artifacts/kneeling_woman.qmd)); the Flame-Keeper (Book V ch. 29, the last speaking through amber).

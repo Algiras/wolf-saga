@@ -1,8 +1,24 @@
 ---
 title: "Geležinio Vilko Saga · Wiki"
+subtitle: "The Iron Wolf Saga: a dark-fantasy world bible, Lithuania 1341–1450"
+title-block-banner: images/banners/book1.jpg
+title-block-banner-color: "#f4e6c3"
 ---
 
-The encyclopedia of the **Iron Wolf Saga**: Lithuania, 1345–1450, where the folklore is literally true and the folk are only ever half right.
+The encyclopedia of the **Iron Wolf Saga**: Lithuania, 1341–1450, where the folklore is literally true and the folk are only ever half right.
+
+## The six books
+
+<div class="cover-gallery">
+<a class="cover-card" href="books/book1.html"><img src="images/book1.jpg" alt="Cover of Book I: Vilko Tremtis" loading="lazy"><span class="cover-num">I · Vilko Tremtis</span><span class="cover-years">1377–1387</span></a>
+<a class="cover-card" href="books/book2.html"><img src="images/book2.jpg" alt="Cover of Book II: Auksinis Šešėlis" loading="lazy"><span class="cover-num">II · Auksinis Šešėlis</span><span class="cover-years">1387–1399</span></a>
+<a class="cover-card" href="books/book3.html"><img src="images/book3.jpg" alt="Cover of Book III: Žaliasis Miškas" loading="lazy"><span class="cover-num">III · Žaliasis Miškas</span><span class="cover-years">1399–1411</span></a>
+<a class="cover-card" href="books/book4.html"><img src="images/book4.jpg" alt="Cover of Book IV: Nematoma Karūna" loading="lazy"><span class="cover-num">IV · Nematoma Karūna</span><span class="cover-years">1411–1430</span></a>
+<a class="cover-card" href="books/book5.html"><img src="images/book5.jpg" alt="Cover of Book V: Vilko Palikimas" loading="lazy"><span class="cover-num">V · Vilko Palikimas</span><span class="cover-years">1430–1450</span></a>
+<a class="cover-card" href="books/book6.html"><img src="images/book6.jpg" alt="Cover of Book VI: Šventasis Miškas" loading="lazy"><span class="cover-num">VI · Šventasis Miškas</span><span class="cover-years">1341–1377 · prequel</span></a>
+</div>
+
+## Explore the world
 
 - **[Timeline](timeline.qmd)**: every event, record (✦) and saga invention (◇)
 - **[Characters](characters/index.qmd)** · **[Houses](houses/index.qmd)** · **[Factions](factions/index.qmd)** · **[Places](places/index.qmd)**

@@ -1,0 +1,29 @@
+---
+title: "Geležinis Vilkas (the Iron Wolf omen)"
+id: gelezinis_vilkas
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/gelezinis_vilkas.md >}}
+
+## Folk source [Record]
+In the legend recorded in the 16th-century Lithuanian chronicles, Grand Duke **Gediminas**, after hunting near the Šventaragis valley, slept on a hill and dreamt of an iron wolf howling with the voice of a hundred wolves. The pagan priest **Lizdeika** interpreted it: Gediminas should build a castle and city there, whose fame would carry like that howl. Thus Vilnius was founded.
+
+## In the saga (where the folk are half-wrong)
+Not a creature that can be met, fought or fed: an **omen-entity**, the bound spirit of the [Gediminaičiai](../houses/gediminaiciai.qmd) themselves. In the Krivis's version of the legend it is iron because it is collared, and its hundred voices are the house's own sons and grandsons tearing at one another. It howls at the turning points of Gediminid fate: a Gediminid betrayed, kneeling at a foreign altar, or dead. The thousands of wolves that answer it (Book I ch. 9) are the dead sworn vilkatai, laid in bogs and never burned. The brotherhood keeps the one physical relic of the dream, [the wolf's skull](../artifacts/wolf_skull.qmd), on which every initiate swears.
+
+## Signs & habitat
+Thousands of wolves howling at once in the deep forest; a wolf of grey iron glimpsed in mist on an island or hill; frost on iron in summer.
+
+## Before / after the Unbinding
+Before: it howled once in Gediminas's dream and seldom since. After 1382 it howls often: at the prologue's prophecy, at Kęstutis's death (ch. 9) and on through the series. When the last flame dies in 1430 it is seen dissolving into mist on Trakai island (Book V ch. 1), and its last howl rises from the Trakai lake in 1440 (Book V ch. 22).
+
+## Banes, wards, bargains, and their cost
+None. Those who hear it learn their master's fate, not their own; the cost is knowing.
+
+## Danger level
+Omen (not rated).
+
+## Story hooks
+Book I: the prologue; ch. 9; ch. 25's rumour (the folk attach the omen to Vytautas, which is half right). Book V: the epilogue's grandfather, *"Kai miškai buvo žali, jis buvo."*

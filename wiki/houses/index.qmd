@@ -2,7 +2,16 @@
 title: "Houses"
 ---
 
-*No entries yet. Add nodes of this type to `world_rules/graph/world_graph.json`.*
 
 | Name | Type | Years |
 |---|---|---|
+| [Alšėniškiai (Holszański, princes of Halshany)](alseniskiai.qmd) | house |  |
+| [Gediminaičiai (House of Gediminas)](gediminaiciai.qmd) | house |  |
+| [Goštautai (Gasztołd)](gostautai.qmd) | house |  |
+| [House of Luxembourg](luxembourg.qmd) | house |  |
+| [Jogailaičiai (Jagiellonians)](jogailaiciai.qmd) | house |  |
+| [Kęsgailos (Kieżgajło)](kesgailos.qmd) | house |  |
+| [Masovian Piasts](masovian_piasts.qmd) | house |  |
+| [Palanga amber-priestess line (Gintaro vaidilutės)](palanga_vaidilutes.qmd) | house |  |
+| [Rurikids of Moscow](rurikids.qmd) | house |  |
+| [Čartoriskiai (Czartoryski)](czartoriskiai.qmd) | house |  |

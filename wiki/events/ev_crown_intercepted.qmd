@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_crown_intercepted.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+The crown was never intercepted. Sigismund of Luxembourg sent two couriers ahead of the embassy, the jurist Baptista Cigala and Sigismund Roth. They were robbed and beaten before 19 August 1430 on the Neumark and Greater Poland border by royal guards under Jan Czarnkowski, who took letters, horses and valuables worth about a thousand ducats. The main embassy (Archbishop Günther of Magdeburg, Dukes Přemek of Opava and Ludwig of Brzeg-Liegnitz, Hungarian and Bohemian lords) waited at Frankfurt an der Oder and turned back; the crowns, made by Nuremberg goldsmiths, were with it. Jogaila read the captured letters and ordered every road watched. The Komtur of Schlochau wrote on 19 August that the crown had not been taken because the couriers did not have it. The coronation had been planned for 15 August, then 8 September, then 29 September, in Vilnius. Vytautas's letter of 13 October makes it clear he wanted the crown only with Polish consent. Zbigniew Oleśnicki was the leading opponent but was not at the Łęczyca council of August 1430 (Szybkowski 2010; Bar 2017).
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+On the Assumption, 15 August 1430, [Henė](../characters/hanulas.qmd) comes down into the vault at Trakai and offers the last deal: the crown will arrive if the flame is allowed to die. [Vytautas](../characters/vytautas.qmd) refuses. Pilkoji waits at the door with feast-day iron, deciding whether to break the second rule of the Pack. Late in August Pilkoji's wolves, sent to bring the crown through, find the Polish border guards cursing over a gold-painted trunk at the Noteć ford: inside, to the rim, dry leaves. A jester sits on the verge watching. The crown that was never meant for the mortal world has turned to leaves (mythic_gaps §4).
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the Congress of Lutsk](ev_lutsk.qmd), where the crown was offered. It turns the crown to leaves ([the Lutsk crown](../artifacts/lutsk_crown.qmd)). The graph names Zbigniew Oleśnicki as participant. The failure frames Vytautas's last weeks and his [death](ev_vytautas_dies.qmd).
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book IV ch. 21 "Karūnos Kelionė" (Henė, 15 August 1430), ch. 22 "Paskutinis Sandėris" (Vytautas, the same day, the Trakai vault), ch. 23 "Lapai Pakelėje" (Pilkoji, late August, the Noteć ford). Seasonal tag: Žolinė, high summer.

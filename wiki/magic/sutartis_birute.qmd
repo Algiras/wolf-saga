@@ -8,6 +8,17 @@ categories: [magic]
 {{< include ../_generated/sutartis_birute.md >}}
 
 ## Terms
+
+**[Saga invention]**, made in **Book I ch. 3** (1382): the *Senovės Sutartis* by which [Birutė](../characters/birute.qmd) binds her son [Vytautas](../characters/vytautas.qmd). Four requirements, all on the page: **amber** charged by the binder (the pebble); the binder's **blood** on it (a crescent vaidilutė knife across her left palm); the bound one's **true name** (*slaptas vardas*), a name he has never heard, spoken by her; and an **unbreakable promise** both ways. Hers: *"Jo skola — mano skola"* ("his debt is my debt"). His: *"Kol aš gyvas, paskutinė ugnis neužges."* ([the flame promise](flame_promise.qmd)).
+
 ## Parties & witnesses
+
+**Binder and surety:** Birutė, who stands *laidas* for the bound. **Bound:** Vytautas ("surištas", the third path to Kalba). **Witness:** the elements, and the Amber Queen, to whose request Birutė answers "if someone must pay, let it be me, not him." She comes to it half-blind from the Praurimė vision at Dagotuvės. The pebble (*Motinos gintaras*) is the token; see [the event](../events/ev_sutartis.qmd).
+
 ## Breaches
+
+Penalties are unchanged from the old doc: loss of gift, curse of the elements, memory loss, madness, death in the extreme. A cost can be deferred, not refused, and deferred costs compound. Failure of the *promise*: letting the flame die while he lives.
+
 ## Consequences
+
+**Surety.** Part of every price Vytautas incurs is **paid by Birutė** wherever she is: his costs look light in Book I while her voice and sight fail (the Krėva fog, ch. 14, 25). In ch. 27 (1384) she pays the **whole** remaining debt at once at Palanga ([the sacrifice](../events/ev_birute_sacrifice.qmd)), and from Book II **there is no surety**: at the foundations of the island castle "the spring damp doubled it, and Birutė was not beside him" (Book II ch. 2); Vorskla has no mother's fog, only shame. The pebble stays the bond's token and barometer.

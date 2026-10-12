@@ -1,0 +1,26 @@
+---
+title: "Alšėniškiai (Holszański, princes of Halshany)"
+id: alseniskiai
+type: house
+categories: [house]
+---
+
+{{< include ../_generated/alseniskiai.md >}}
+
+## House card
+| | |
+|---|---|
+| **Seat** | **Halshany** (Alšėnai) in the Lithuanian–Ruthenian lands. [Record] |
+| **Arms / sigil** | Princely arms; no securely dated early blazon in the world bible (verify before use). |
+| **Words** | None. |
+| **Patron / burden** | None canonical. |
+
+## Lineage
+Princes of Halshany: **Ivan Olshansky** (Jonas Alšėniškis), one of Vytautas's chief captains and (to verify) governor of Kyiv after Skirgaila, and his son Andrei. **Julijona Alšėniškė** married Vytautas on 13 Nov 1418; **Sophia (Sonka) of Halshany** (c. 1405–1461) married Jogaila on 7 Feb 1422 and bore Władysław III and Casimir IV. The record has Julijona as Sophia's aunt (genealogy to verify). Characters: [Julijona](../characters/julijona.qmd). [Record]
+
+## Feuds & alliances
+Allies of [Vytautas](../characters/vytautas.qmd) and then of the [Jogailaičiai](jogailaiciai.qmd) through two marriages; servants of the Grand Duchy ([GDL](../factions/gdl.qmd)). Orthodox-born lords who still hold princely rank. The house that married both cousins.
+
+## Fate across the books
+- **IV:** Julijona enters in ch. 10 (1418), clever enough to see Vytautas listening to something under the floor; Vytautas picks Sophia for Jogaila (ch. 13, Melno year) and her sons become the heirs (ch. 14).
+- **V:** Casimir, Sophia's son, is raised Grand Duke by the council in 1440, and the family's blood sits on two thrones.

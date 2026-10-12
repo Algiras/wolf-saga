@@ -8,10 +8,20 @@ categories: [artifact]
 {{< include ../_generated/lutsk_crown.md >}}
 
 ## Description
+Never a real crown. For the Saga it is a gold crown in a gold-painted oak chest, carried north from Buda in summer 1430. When the chest is opened at the Noteć ford it holds dry leaves. The goldsmith's apprentice Pál (19) swears he held real gold (Book IV ch. 21, 23).
+
 ## Power
-<!-- What it does, in rules terms. -->
+None, except as a lure. It is the instrument of Henė's last bargain at Vytautas's vault: the crown for the flame (Book IV ch. 22). Vytautas refuses and the gold turns to leaves, as Henė puts it: "my most honest bargain, and I lost it" (IV ch. 23).
+
 ## Rule & cost
-<!-- What it demands; how it can fail. -->
+Henė never lies; the word "no" simply turns the gold to leaves (IV ch. 30: "žodis atsakė ne ir auksas virto lapais"). The price of the refusal is the crown itself.
+
 ## Origin
+[Record] The crown plan comes from the Congress of Lutsk, Jan 1429, where Sigismund of Luxembourg offered Vytautas a royal crown. A coronation was set for 15 Aug 1430, then 8 Sep, then moved by Vytautas to 29 Sep. Sigismund's courtiers Baptista Cigala and Sigismund Roth were robbed on the Neumark or Greater Poland border by Jan Czarnkowski's guards before 19 Aug 1430, and the crown embassy waited at Frankfurt (Oder) and turned back. The crown was never seized: "crown seized" is a later legend (Book IV hand-off, fact-check item 14).
+
 ## Arc across the books
-<!-- Holder by holder; must match the 'holds' edges in world_graph.json. -->
+- **15 Aug 1430.** On the road in the chest (Book IV ch. 21); Henė makes his offer in the vault the same night (ch. 22).
+- **Late Aug 1430.** The chest is opened at the Noteć ford before Czarnkowski and Oleśnicki's envoy Baltramiejus Rogala (ch. 23).
+- **Oct 1430.** Vytautas postpones the coronation, falls on the Trakai road and dies uncrowned (ch. 24-29).
+- **1 Nov 1430.** An old woman tells it as a tale: he died with a crown, "only an invisible one" (ch. 30).
+Graph: no holder edge.

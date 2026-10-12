@@ -7,8 +7,36 @@ categories: [book]
 
 {{< include ../_generated/book1.md >}}
 
+**Read online:** [Book I](https://algiras.github.io/wolf-saga/) · **Span:** 1377–1387 (the action runs from August 1382 to early 1387) · **Protagonist:** [Vytautas](../characters/vytautas.qmd) · Frame voice: [Birutė](../characters/birute.qmd) (*Pradžia*)
+
+## Parts and chapters
+
+| Part | Chapters | Years | Core |
+|---|---|---|---|
+| Prologue *Gintaro Ašaros* and *Pradžia* | — | 1382 | [Eglė](../characters/egle.qmd) at the Šventaragis flame; Birutė's frame voice. |
+| **I · Nuosmukis** (The Decline) | [ch. 1–10](https://algiras.github.io/wolf-saga/) | Aug 1382 | The trap, the arrest, [Kęstutis's death at Krėva](../events/ev_kestutis_death.qmd) (15 Aug 1382). |
+| **II · Pabėgimas** (The Escape) | ch. 11–19 | late 1382 – Oct 1383 | The [escape from Krėva](../events/ev_kreva_escape.qmd), the Dykra, the border, the Order, the baptism at Tapiau ([21 Oct 1383](../events/ev_tapiau_baptism.qmd)). |
+| **III · Karas ir Tvarka** (War and Order) | ch. 20–30 (with 28b) | 1383 – 1387 | The Order's war, the burnings of 1384, [Birutė's sacrifice](../events/ev_birute_sacrifice.qmd), the [Union of Krėva](../events/ev_kreva_union.qmd) (14 Aug 1385), the [baptism of 1387](../events/ev_lithuania_baptism.qmd). |
+| Appendices | ch. 31–32 | — | The *Senovės Kalba* magic primer; editorial notes. |
+
 ## Premise
+The last pagan realm in Europe is held by a [Silent Pact](../magic/silent_pact.qmd) its rulers have half forgotten. [Jogaila](../characters/jogaila.qmd), bought by the [Shadow-Seller](../forces/shadow_seller.qmd), and his brother [Skirgaila](../characters/skirgaila.qmd) seize their uncle [Kęstutis](../characters/kestutis.qmd) and strangle him in the dungeon of Krėva. A Gediminid has shed Gediminid blood, and the Pact's second clause breaks. His son has one chance to live.
+
 ## Protagonist arc (form at start → form at end)
+Vytautas starts as **Sūnus** (the Son), believing "honour and blood will keep us safe". He passes through the **Survivor** (shaved, in a maid's dress, silent; ch. 10–17) and the **Tool** (the Order's sword and white cloak; ch. 18–22) and ends as the **Traitor of Traitors**, who burns his allies' castles in July 1384 and lights the secret flame on the night of the 1387 baptism. The lie he adopts is "only cunning survives". The truth he glimpses is that even the Wolf needs a pack. He pays in honour, his father, his gods (a false baptism that kills the amber), his mother's surety and Trakai itself.
+
 ## Antagonists & outcomes
+- **Skirgaila (the hands) with Jogaila (the will)**: mortal. Partial victory for Vytautas, then a deal; Skirgaila keeps Trakai, so the villain wins the land and lights the fuse of Book II.
+- **[Šešėlių Pardavėjas](../forces/shadow_seller.qmd) (Henė)**: mythic. Goes from [Hanulas](../characters/hanulas.qmd) to Jogaila's jester to Skirgaila's stone; ends the book juggling three black stones.
+- **[Zöllner](../characters/zollner.qmd) and the Teutonic Order** (behind them the [Iron Saint](../forces/iron_saint.qmd)): secondary. Defeated by betrayal in July 1384. [Hohenstein](../characters/hohenstein.qmd) is the honest enemy.
+
 ## Threads advanced (see books/series_arc.md)
+- **A, Pact:** clause 2 broken (Krėva); formally ended when the Šventaragis flame is put out (Feb–Mar 1387).
+- **B, Last Flame:** the Sutartis and [flame promise](../magic/flame_promise.qmd) (ch. 3); the flame lit in secret at the end of ch. 29.
+- **C, Amber Queen:** Birutė becomes the Queen (1384); the kneeling amber statue.
+- **D, Shadow-Seller:** three stones; **E:** Perkūnas's claim on Vytautas (ch. 10); **F:** Eglė's price (ch. 16).
+- **G, Iron Wolves:** massacred at Vilnius (ch. 7), re-formed under Jonas (ch. 25).
+- **H, blood-debt:** Krėva and the truce in the ashes; **I:** Ona held by the Order (1383–84); **J:** the Iron Saint and the White Silence (Krėva Union).
+
 ## Hands on to the next book
+A twice-baptised Vytautas (Wigand 1383, Aleksandras 1386) with Grodno and no father's land, no surety, and a flame he cannot let die; a land whose spirits begin to go feral. Skirgaila rules Trakai as Jogaila's regent; Book II opens on him there in spring 1387.

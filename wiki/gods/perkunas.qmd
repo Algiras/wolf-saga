@@ -8,7 +8,21 @@ categories: [god]
 {{< include ../_generated/perkunas.md >}}
 
 ## Folk sources [Record]
+
+Perkūnas (Latvian *Pērkons*, Old Prussian *Perkūns*) is the best-attested Baltic god; his name is also the word for "thunder". The earliest datable mention is the Lithuanian insert (usually dated c. 1261) in the Ruthenian Malalas chronicle, glossing *Perkun* as "thunder". The Volhynian Chronicle's list of Mindaugas's gods (1252) does not, as usually read, name him. Later witnesses: Mažvydas (1547), Jan Łasicki's *De diis Samagitarum* (c. 1582, printed 1615), Stryjkowski (1582) and Prätorius (1690s).
+
+Treat as **later or reconstructed**: the oak and thunderstone axes, the chase of Velnias through trees, the cleaving of Mėnuo (songs in Rhesa's *Dainos*, 1825) and the shattering of Jūratė's palace (Jucevičius, 1842). His role as oath-keeper rests on comparison with Slavic Perun, by whom the Rus' swore in 944 and 971, and on Gimbutas, Greimas and Vėlius; medieval Lithuanian treaties do not name him.
+
 ## In the saga
-<!-- Domain, element, Force-face (cosmology.md §3). -->
+
+**Domain:** thunder, oaths, justice, war. **Element:** none; he cannot be asked. **Force-face:** [Perkūno Rūstybė](../forces/perkuno_rustybe.qmd). He acts only through [claims](../magic/claim.qmd) and signs, patronises [Priesaika](../magic/priesaika.qmd), and feuds with [Bangpūtys](bangputys.qmd) and [Jūratė](jurate.qmd).
+
+Skirgaila swears the safe-conduct "by Perkūnas" and breaks it (Book I ch. 1, 2, 8). The god marks Vytautas at Krėva (ch. 10, [the mark](../events/ev_perkunas_mark.qmd)) and warns him through the cracked window of the false baptism (ch. 19). He audits Vytautas's oaths at Vorskla (Book II ch. 26), accepts the renewed oath over the [rusted sword](../artifacts/kestutis_sword.qmd) (Book III ch. 17), is silent in Book IV and thunders at the funeral (Book V ch. 2). In Book VI Kęstutis swears to him over an ox (ch. 13). **Weakness:** he punishes his own as readily as others, so those he claims can only keep faith.
+
 ## Offerings & taboos
+
+Oak groves and lightning-struck trees; the stone axe treated as a thunderbolt (Book VI ch. 1); an ox or goat for oaths, as in Kęstutis's historical 1351 oath to Louis of Hungary. Thursday as "Perkūno diena" is later folk reckoning (Book III ch. 26 leaves him bread). Folk taboos: shelter under no tree in a storm, put black cats out, and shut doors so Velnias cannot hide.
+
 ## Pronunciation
+
+**per-KOO-nahs** (IPA [pʲɛrˈkuːnɐs]), stress *per-KŪ-nas*; never "PER-koo-nas". Force-face: **per-KOO-noh roos-TEE-bay**.

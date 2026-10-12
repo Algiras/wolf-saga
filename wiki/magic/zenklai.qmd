@@ -8,9 +8,29 @@ categories: [magic]
 {{< include ../_generated/zenklai.md >}}
 
 ## What it is
+
+Carved signs: **stored intention**, the way to enchant objects. A sign is carved, burned, woven or embroidered, then **fed**: blood for a strong sign, milk for a gentle one, ash for a binding one.
+
 ## Who can use it (path & tier)
+
+Tier 0 can use a fed sign; tier 2 (the **burtininkas** or sign-carver) makes warded objects; a bound object (signs plus Kalba plus blood) becomes an artifact. The Trakai smith, Kęstutis and the Flame-Keeper (from 1410) all carve.
+
 ## How it works (medium, words, timing)
+
+Common signs: the **saulutė** (sun-wheel; repels night spirits; milk at dawn); **perkūnėlis** (thunder-cross; wards lightning, breaks curses on a threshold, marks an oath; blood once); **žalčiukas** (zigzag; house-luck, warns of poison; milk weekly); **Laimos medis** (eases childbirth); **žvaigždutė** (helps sight-workings); **žirgeliai** (roof-horses turn aside unbound spirits); **mėnulio pjautuvas** (hides things by distraction, not illusion; ash).
+
 ## Costs
+
+The feed (blood, milk, ash). A sign **fades** if not fed; a broken sign **reverses** for a night; Kęstutis's sword rusts as the sign under its grip fails when the Pact cracks (Book I ch. 2, [the sword](../artifacts/kestutis_sword.qmd)).
+
 ## Limits & counters
+
+Signs on iron are twice as strong but anger the laumės. A sign carved by a baptised hand works only if the carver **means** it (Law of Truth). Inside consecrated stone it works at half strength if meant: masons' *saulutės* in Gothic vaults are the last ward on Vilnius (Book II ch. 11; Book V ch. 20, eight on the cathedral crypt's vault keys).
+
 ## Folk basis [Record]
+
+**[Record].** Baltic folk ornament carries sun-wheels, the *perkūnėlis* ("Perkūno cross"), grass-snake zigzags, Laima's tree and the *Austras* tree, carved on lintels, spindles, cradles, beehives, belts and the horse-head gables (*žirgeliai*) of roof-ridges. The identifications with gods and the idea of "feeding" a sign are later reconstruction.
+
 ## Notable practitioners
+
+Kęstutis burns a perkūnėlis under his sword's grip; the Trakai smith fits one on every sword and "feeds it once with the prince's blood" (Book VI ch. 1, 4, 16, 30). Vytautas feeds it with his own palm blood before the oath (Book III ch. 17). Elena's tow-knot (Book I ch. 12) and Galminas's warding face-marks (Book III ch. 1) are the Root-Mother's signs.

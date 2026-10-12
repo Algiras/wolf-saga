@@ -8,6 +8,17 @@ categories: [magic]
 {{< include ../_generated/flame_promise.md >}}
 
 ## Terms
+
+**[Saga invention]**: Vytautas's half of the Sutartis in Book I ch. 3, *"Kol aš gyvas, paskutinė ugnis neužges"* ("while I live, the last fire will not go out"). After Jogaila puts out the Šventaragis flame in 1387, Vytautas **secretly keeps one sacred flame burning**: lit in Kęstutis's old lodge beyond the Neris (Book I ch. 29, [lit](../events/ev_flame_lit.qmd)), carried to the half-flooded foundations of the Trakai island castle (Book II ch. 2), and from 1392 in the island castle's deepest vault.
+
 ## Parties & witnesses
+
+**Binds:** [Vytautas](../characters/vytautas.qmd), who made the promise in return for Birutė's surety. **Witness:** the flame itself, and a keeper: the Karaim guard Elijah, who "guarded nothing" for eleven months (Book III ch. 28), and later the Flame-Keeper Žiežirba, who carries the vault ash (Book IV ch. 3). The flame is also Gabija's ([Gabija](../gods/gabija.qmd)).
+
 ## Breaches
+
+If the flame goes out **while he lives**, the Pact's penalties fall (madness, then death). The Book IV **temptation**: Henė offers him the crown in exchange for letting it die; at Lutsk the offer comes with a pledge, his word not yet spoken (Book IV ch. 21–22). He refuses, and the crown, which "never existed as gold", turns to leaves ([Lutsk](../events/ev_lutsk.qmd); [the crown](../artifacts/lutsk_crown.qmd)).
+
 ## Consequences
+
+**Vytautas dies uncrowned** on 27 October 1430. At that instant the flame "went quiet, as a pot taken from the stove goes quiet", after forty-three years (Book IV ch. 29, [his death](../events/ev_vytautas_dies.qmd)). Book V ch. 1 replays the night from the vault, and a cold fills Trakai (Book V ch. 4). The Iron Wolves can make no new wolves, so the brotherhood dies out; the pebble cracks; the gods become folklore.

@@ -8,9 +8,22 @@ categories: [faction]
 {{< include ../_generated/poland.md >}}
 
 ## Overview
+[Record] After Louis I of Hungary and Poland died on 10 Sep 1382, the Lesser Poland lords crowned his daughter [Jadwiga](../characters/jadvyga.qmd) King (16 Oct 1384) and chose [Jogaila](../characters/jogaila.qmd) as her husband at Krėva (14 Aug 1385). Jogaila was baptised Władysław at Kraków on 15 Feb 1386, married Jadwiga on 18 Feb and was crowned on 4 Mar. Jadwiga died on 17 Jul 1399; Jogaila reigned until 1 Jun 1434. Milestones: Vilnius-Radom (1401), Grunwald (15 Jul 1410), Horodło (2 Oct 1413), the crown affair (1429-30), the Jedlnia privilege (4 Mar 1430), Władysław III at Varna (10 Nov 1444), Casimir crowned 25 Jun 1447.
+
 ## Wants (by book)
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
+| I | A king with an army against the Order | The crown; Jadwiga | No Lithuanian kingdom |
+| II | Lithuania governed for the Crown; Red Ruthenia | Skirgaila, then Vytautas as lieutenant | Separate Lithuanian title |
+| III | Vilnius-Radom reversion; Dobrzyń, then Pomerelia | Polish knights at Grunwald | Losing the union |
+| IV | Horodło on Polish terms; no Lithuanian crown | [Oleśnicki](../characters/olesnicki.qmd)'s guards on the Noteć ford (Aug 1430); Sophia's sons | Vytautas crowned |
+| V | Podolia, Volhynia; a Polish viceroy in Lithuania | The Podolia grab (Nov 1430); Grodno 1432 | Losing Lithuania to Casimir's council in 1440 |
+
 ## Patron Force
+[Saga] The [Gold-Glutton](../forces/gold_glutton.qmd) from 1411, and the [White Silence](../forces/white_silence.qmd), fed by baptisms bought for crowns. Jogaila's baptism settles it over Krėva and Vilnius (Book I ch. 28b, 29).
+
 ## Internal tensions
+Two camps: the Lesser Poland lords (Spytko of Melsztyn, Jan of Tarnów, Oleśnicki) against a Hussite-leaning party (Spytko III of Melsztyn, killed at Grotniki 1439). The lords repeatedly overrule Jogaila: they block the crown (IV ch. 19, 23) and withdraw approval of Švitrigaila (7 Nov 1430).
+
 ## Notable members
+[Jogaila](../characters/jogaila.qmd), [Jadvyga](../characters/jadvyga.qmd), [Oleśnicki](../characters/olesnicki.qmd).

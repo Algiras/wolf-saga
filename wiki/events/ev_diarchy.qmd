@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_diarchy.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+In 1345 [Algirdas](../characters/algirdas.qmd) and [Kęstutis](../characters/kestutis.qmd) removed their brother Jaunutis. Kęstutis, from Trakai, took Vilnius unexpectedly and called Algirdas, who took the Duchy of Vilnius and the Grand Duke's title; the sources give the year but not the day. The brothers offered Jaunutis the Duchy of Zasłaŭje, which he refused; he was imprisoned at Vilnius, escaped and fled to Simeon of Moscow, where he was baptised Orthodox as Ioann, and was later reconciled and held Zasłaŭje; he last appears in 1366. The Bychowiec chronicle records that his mother Jaunė supported him. Algirdas ruled east from Vilnius, Kęstutis west from Trakai and Samogitia; the Order's chroniclers treat Kęstutis as a ruler in his own right. A planned Order reise of 1345 may have prompted the move. Sources: Šapoka (1989), Kiaupa et al. (2000); [Wikipedia, Jaunutis](https://en.wikipedia.org/wiki/Jaunutis).
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+Kęstutis takes the city by night on All Souls' Eve 1345, and the wolves at the doors of the Vilnius hall let him pass ("Ugnis nepasakė"). Jaunutis leaves east unharmed by the Smolensk road, and Kęstutis promises him that no Gediminid will shed his blood: the seed of clause 2 of the Pact. Algirdas rides in from Vitebsk at dawn and the brothers divide the realm. The wooden Crooked Castle on Bald Hill, taken without a blow, is left with thirty of Kęstutis's men and forgotten.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Leads to [the Silent Pact](ev_pact_sworn.qmd), sworn the following night. The diarchy is the political frame of Book VI and of everything the sons will break.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book VI ch. 2 "Jaunučio Kėdė" (Kęstutis; 1342–44), ch. 3 "Vilniaus Užėmimas" (Kęstutis; the eve of Vėlinės, 1345, Vilnius; autumn).

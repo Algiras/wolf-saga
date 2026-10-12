@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_vilnius_siege_1390.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+The Order and [Vytautas](../characters/vytautas.qmd) besieged Vilnius from 11 September to 7 October 1390 (a Vilnius University historian dates the arrival to the end of August). The attackers destroyed the wooden Crooked Castle on the Bald Hill (never rebuilt) and burned the outer city but failed to take it; supply shortages and expiring mercenary contracts forced them to withdraw. Karigaila, Jogaila's brother, who defended the Crooked Castle, died on 16 September: Jogaila charged that he was captured and beheaded by the Knights, the Order said he was killed in the fighting. Tautvilas Kęstutaitis, a son of Kęstutis and so Vytautas's brother (verify), also died. Skirgaila defended the city. Henry Bolingbroke, Earl of Derby, the future Henry IV of England, took part with 70 or 80 household knights according to Wikipedia, 300 men with many archers according to Posilge. Grand Master Zöllner had died in August during the siege of Georgenburg. See Wikipedia, Siege of Vilnius (1390), and Gagua's study of the Order and the Vytautas–Skirgaila war.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+A Gediminid kills a Gediminid: Karigaila dies defending, Tautvilas dies attacking. No god intervenes and no one is punished: the Pact that forbade it died three years earlier. Vytautas besieges the city he saved in 1384 and has to live with it. Bolingbroke, twenty-three, is happier each morning at the siege than he ever was in England and cannot decide whether that is sin.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the second defection](ev_second_defection.qmd). It leads to [the Agreement of Ostrów](ev_ostrow.qmd) in 1392, when Jogaila sought a compromise.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book II ch. 7 "Kreivoji Pilis" (Henry Bolingbroke; late August to September 1390, Vilnius, Bald Hill). The Order's guest as narrator, in the first non-Lithuanian POV.

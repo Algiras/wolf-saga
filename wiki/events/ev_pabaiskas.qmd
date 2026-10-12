@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_pabaiskas.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+Fought on 1 September 1435 near Pabaiskas, about nine kilometres south of Ukmergė, on the Šventoji (hence also the Battle of Šventoji or Wiłkomierz). Lithuanians under Mykolas Žygimantaitis, with about 4,000 Poles under Jakub Kobylański, defeated [Švitrigaila](../characters/svitrigaila.qmd)'s host and the Livonian Order. The Livonian Master Franke Kerskorff was killed with his marshal and several komturs; Žygimantas Kaributaitis was wounded, captured and died days later; Švitrigaila fled to Polotsk with about thirty riders (Wikipedia, Battle of Wiłkomierz). The graph lists [Žygimantas Kęstutaitis](../characters/zygimantas.qmd) as a participant, but it was his son who led the army.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+Kin-slaughter worse than the crusades, which leaves thousands of unburned dead on the field. The Riders of the Reise ride their last raid and break at the unfrozen river they cannot cross: the Iron Saint is silenced in the North. At the Vėlinės the living cannot feed so many; Pilkoji's dozen burn the dead all winter with the keeper's lightning-fire and most of the wolves die doing it. The Root-Mother's shadow lies over the field.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the coup at Ašmena](ev_coup_1432.qmd). It leads to [the Peace of Brest](ev_brest_peace.qmd), at which the Order abandons Švitrigaila.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book V ch. 13 "Pabaisko Laukas" (Žiežirba), ch. 14 "Mirštantis Ordinas" (a Livonian Order brother; both 1 September 1435, late summer) and ch. 16 "Nedegintųjų Žiema" (Pilkoji; Vėlinės 1435 to spring 1436).

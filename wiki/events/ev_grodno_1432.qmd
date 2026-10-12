@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_grodno_1432.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+A Polish delegation under Bishop Zbigniew Oleśnicki received [Žygimantas Kęstutaitis](../characters/zygimantas.qmd)'s oath at Grodno on 15 October 1432 (VLE; the English Wikipedia gives an act of 25 October) and proclaimed him Grand Duke for life. [Jogaila](../characters/jogaila.qmd) was not there: he issued his own act at Lwów on 30 October 1432 and confirmed Grodno on 3 January 1433. Terms: the Union of Vilnius and Radom of 1401 was confirmed; Jogaila's supremacy was recognised; after Žygimantas's death Lithuania was to return to Jogaila and his heirs; Trakai was to go to Mykolas; Podolia was ceded to Poland; most of Volhynia was left to Lithuania until Žygimantas's death; no crown for Žygimantas. See [Oleśnicki](../characters/olesnicki.qmd) and Wikipedia, Union of Grodno (1432).
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+On the empty oak throne lie the king's seal and a folded parchment. A shaking line in a different hand under the king's letter reads "Tu turi tėvo akis", followed by the first two letters of a word struck out: *Kr*, for Krėva. Žygimantas swears kneeling, with the sense of something invisible sitting on the cushions and watching. Henė stands among the Lithuanian lords with one stone in his fingers, looking at the empty throne like a buyer whose seller has not come. That night the new Grand Duke asks the keeper again to relight the flame, and the keeper says no.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the coup at Ašmena](ev_coup_1432.qmd); it leaves no outgoing graph edge. Its succession clause is the knot that civil war and the Vilnius council later cut.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book V ch. 10 "Gardino Sutartis" (Birutė, the Amber Queen, narrating through the pebble; 15 October 1432, autumn, Grodno castle).

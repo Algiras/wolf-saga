@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_kreva_escape.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+[Vytautas](../characters/vytautas.qmd) escaped from Krėva in the autumn of 1382 with the help of his wife [Ona](../characters/ona.qmd). The accounts disagree on how. In the Lithuanian chronicles she brings two maids and persuades one to exchange clothes with Vytautas; Wigand of Marburg has him wearing Ona's own clothes; other versions have him lowered in a wicker basket from a window. Ona's role never varies. The fate of the maid, and of Ona, is unclear; Ona probably stayed in Krėva. Vytautas fled to Masovia, to his sister Danutė and her husband Janusz I of Warsaw (the English Wikipedia adds Siemowit IV), and finally to the Teutonic Knights.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+On the eve of Vėlinės, with the Wind at its zenith, [Birutė](../characters/birute.qmd) in Palanga raises a real sea-fog over the Krėva yard, through the amber pebble she anchored with her blood. The Law of Truth forbids illusion, so no one is deceived: they simply cannot see. The fog costs her voice. The maid is called Elena in the saga; she takes his bed and stays, and is executed. Ona plays the broken widow, smuggling in the dress and a draught, and when a drunk guard stops Vytautas in the yard the fog does the rest.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the death of Kęstutis](ev_kestutis_death.qmd). It leads to [the rescue through the Dykra](ev_dykra_rescue.qmd) and [the refuge in Masovia](ev_masovia_refuge.qmd).
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book I ch. 12 "Gedulo Skraistė" (Ona, Krėva), ch. 13 "Keitimas" (Vytautas; the dress and the haircut), ch. 14 "Šešėlis Naktyje" (Vytautas; the fog), autumn 1382. The text places ch. 12 on the day of the death, the record some weeks later.

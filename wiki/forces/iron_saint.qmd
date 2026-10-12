@@ -8,10 +8,29 @@ categories: [force]
 {{< include ../_generated/iron_saint.md >}}
 
 ## Nature
-<!-- Native (face/shard of a god) or egregore (fed by an institution)? See cosmology.md §2. -->
+
+**Egregore** (cosmology §2.2): *Geležinis Šventasis*, Latin *Ferrum Sanctum*. It is fed by the **Reise** season, crusade, indulgence and forced baptism, and by thousands of prayers in the Marienburg church of the Virgin (Book I ch. 18). It is **not the Christian God**, which the saga never judges. It is institutional appetite wearing faith's clothes.
+
 ## Wants
+
+Total homogeneity: the wild and pagan as a sickness to be purged, the world made orderly and silent.
+
 ## Takes (its price)
+
+It grants **fearlessness**, tireless marching and absence of pity (the [Iron Saint's gift](../magic/iron_gift.qmd)): knights with faces "of people who feel nothing" (Book VI ch. 7). The price is pity, and such knights cannot weep.
+
 ## Signs & manifestations
+
+Furnace heat in winter; the smell of quench-water; crosses that ring like anvils; ice melting on shields; snow turning black and round where steel steps (Book VI ch. 24). "The breath of the Iron Saint" along the Prussian border: metal, peat smoke, forests that stand silent as dead (Book I ch. 17). Marienburg's cellars stay warm for a hundred years (Book III ch. 11, 22).
+
 ## Vessels, servants, claims
+
+**Patron of** the Order's leaders: [Zöllner](../characters/zollner.qmd) (1382–90) and [Jungingen](../characters/jungingen.qmd) (1407–10). Servants: the [Reise riders](../creatures/reizos_raiteliai.qmd) and the [Nedegintieji](../creatures/nedegintieji.qmd). Its oaths on relics bind the Order's men.
+
 ## Weaknesses
+
+Earth's Unmovable Will and Fire's terror find no grip on its knights, but consecrated stone is its home ground, and Kalba costs double there. It is **broken at Grunwald**, when the white-cloaked knights lay down their swords and weep (Book III ch. 20, "Geležies Mirtis"), and "all that was warm in him went out with his god" (Book V ch. 14).
+
 ## Arc across the books
+
+**VI:** first met at Strėva (1348, ch. 7) and Rudau (1370, ch. 24), where Kęstutis recognises its signs. **I:** Marienburg and Zöllner (ch. 17–18, 20). **III:** the warm cellars (ch. 11), the siege (ch. 22), its death at Grunwald (ch. 20). **V:** silenced in the North, among the dying Order (ch. 14).

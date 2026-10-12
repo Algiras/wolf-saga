@@ -1,0 +1,26 @@
+---
+title: "Čartoriskiai (Czartoryski)"
+id: czartoriskiai
+type: house
+categories: [house]
+---
+
+{{< include ../_generated/czartoriskiai.md >}}
+
+## House card
+| | |
+|---|---|
+| **Seat** | **Chartoryisk** (Czartorysk) in Volhynia ([place](../places/czartorysk.qmd)). [Record] |
+| **Arms / sigil** | The Vytis in later Czartoryski arms (to verify for the 15th century). |
+| **Words** | None; the Algirdaičiai motto of the elder line, *Pirmasis kraujas neužmiršta* ("First blood does not forget"), is a saga invention. [Saga invention] |
+| **Patron / burden** | None canonical. |
+
+## Lineage
+Usually treated as descended from **Konstantinas**, a son of Algirdas by his first wife Maria of Vitebsk, though some genealogists make him a son of Karijotas (verify parentage). The princes of the Orthodox, Ruthenian elder line, passed over in 1377. [Record]
+
+## Feuds & alliances
+Partisans of [Švitrigaila](../characters/svitrigaila.qmd) in the 1430s; the [Czartorysk truce](../events/ev_czartorysk_truce.qmd) of 1 Sep 1431 followed the Polish invasion of Volhynia. Enemies of the Kęstutaičiai, in line with the graph's edge for 1440.
+
+## Fate across the books
+- **V:** the Czartoryski brothers, with council lords behind them, murder [Žygimantas](../characters/zygimantas.qmd) at Trakai on Palm Sunday, 20 Mar 1440 (chs. 21–22). The first Kęstutaitis to rule was murdered by Uliana's sons; the last is murdered by Maria's grandsons. [Record for the killers (VLE), saga for the framing]
+- The Iron Wolf's last howl rises from the lake as the pack of the dead mourns the prince they were first sworn to.

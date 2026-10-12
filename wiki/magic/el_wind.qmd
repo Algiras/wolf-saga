@@ -8,7 +8,21 @@ categories: [magic]
 {{< include ../_generated/el_wind.md >}}
 
 ## Deity & zenith
+
+**Deity:** [Vėjopatis](../gods/vejopatis.qmd). **Incantation:** *Vėjas tau neš* ("Wind for you shall carry"), *man* for oneself. **Medium:** open air with wind. **Zenith:** storms and Vėlinės (late October–2 November, when the *vėlės* travel): cost **halved**; **doubled** in caves and still air.
+
 ## Boon
+
+**Shadow Speed** and far-speech: fog, swiftness and carried words. The fog is **real fog**, never an illusion (Law of Truth). It carries speech to the dead through the god and a message across distance, with an amber anchor making distance free.
+
 ## Minor / major cost
+
+**Minor:** vertigo. **Major:** **loss of voice**: only whistling, for days, and permanently with repeated use. In Book VI ch. 16 the cost is small but present: Birutė, casting for Kęstutis before his 1361 capture, leans on the table "as if the ground had become far". Birutė's voice fails after the Krėva fog (Book I ch. 14–25), and the vessel's declining body is the bill. The Five-Voice cost, a little of every price at once, is cumulative (magic rules §4.2).
+
 ## Limits
+
+The White Silence smothers Wind (no sound, no far-speech). It cannot be cast in a cave or still air without doubling. A wind-cast "man" in Book II ch. 27 helps Vytautas move unseen after a defeat. Without the surety the cost is paid in full.
+
 ## Uses in the books
+
+Book I ch. 11: Birutė at the sea: "Vėjas tau neš... Vėjopati, let the fog be his shield." Ch. 14: the Krėva fog, white, thick, real. Ch. 15: the Five-Voice in the swamp. Ch. 25: a thinner fog, her last mortal strength. Book II ch. 27: Vytautas, after Vorskla (*Vėjas man neš*). Book VI ch. 16: far-listening for Kęstutis (*Vėjas tau neš*: "I will hear").

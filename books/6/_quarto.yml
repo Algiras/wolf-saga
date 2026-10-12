@@ -24,6 +24,8 @@ book:
         href: ../5/
       - text: "VI knyga (priešistorė)"
         href: index.html
+      - text: "Skaitymo tvarka"
+        href: ../skaitymo_tvarka.html
       - text: "Wiki"
         href: ../wiki/
   chapters:
@@ -64,6 +66,7 @@ book:
         - 28_algirdo_valia.qmd
         - 29_algirdo_lauzas.qmd
         - 30_epilogas_senasis_sernas.qmd
+    - istorine_pastaba.qmd
     - copyright.qmd
 
 format:

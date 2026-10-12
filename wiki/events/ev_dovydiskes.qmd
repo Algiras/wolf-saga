@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_dovydiskes.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+A secret treaty of 31 May 1380 between [Jogaila](../characters/jogaila.qmd) and Grand Master [Winrich von Kniprode](../characters/kniprode.qmd), directed against [Kęstutis](../characters/kestutis.qmd). The clauses are convoluted: the two sides promised not to attack each other, and Jogaila promised not to help Kęstutis or his children against the Order; helping in a way that avoided suspicion would not breach the treaty. Its purpose was Teutonic neutrality in Jogaila's struggle with his rivals. The Order covered the signing with a five-day hunt. The place name appears only in Wigand of Marburg and in German texts, and the village is not securely identified (Wikipedia; VLE, Dovydiškių sutartis). In 1381 the Order told Kęstutis of the treaty; the English Wikipedia names Kuno von Liebenstein as the informant, the saga's canon names Günther von Hohenstein. Vytautas, asked for advice, said no such treaty existed.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+It is the first crack in the [Silent Pact](../magic/silent_pact.qmd): a Gediminid plotting against Gediminid blood. [Henė](../characters/hanulas.qmd) takes his first thread of Jogaila here. The saga leaves the place in the border wilderness, which the record's silence permits; the graph points to the [Dykra](../places/dykra.qmd).
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Leads to [Kęstutis's seizure of Vilnius](ev_coup_1381.qmd) in autumn 1381 and so, through the retaking of Vilnius and the arrest, to the death at Krėva. Jogaila's accession is [Algirdas's death](ev_algirdas_dies.qmd) three years earlier.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Not dramatised. Book I ch. 1 "Senasis Šernas" (Kęstutis, Trakai, late summer 1382) and ch. 2 "Vilko Perspėjimas" (Vytautas, the same evening, arguing with his father and showing the Dovydiškės parchment, "1380-ieji") carry the backstory. It is mentioned again in ch. 4 and 8.

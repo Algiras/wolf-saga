@@ -8,10 +8,18 @@ categories: [artifact]
 {{< include ../_generated/pebble.md >}}
 
 ## Description
+A pea-sized lump of cloudy, honey-coloured amber from the Palanga shore, worn smooth by decades of carrying. In Book V it has a hairline crack through the middle, "visible only from one angle" (V ch. 7). It hangs on a leather thong against the chest.
+
 ## Power
-<!-- What it does, in rules terms. -->
+An anchor between the bearer and [Birutė](../characters/birute.qmd) (graph: anchors her 1382-1384). Held to the ear it carries the sea and, for those she chooses, her voice (Book III ch. 14, Book V ch. 29). It lets an ungifted bearer use the Five-Voice (`power_systems.md` §4) and acts as the reader's moral barometer: warm when he tells the truth, cold when he lies to himself or the oath is false. Amber from her shore also remembers what it witnessed (V seam pass, rule 2).
+
 ## Rule & cost
-<!-- What it demands; how it can fail. -->
+It answers to truth, not belief (`magic_rules.md` §5.4). Consecrated stone deafens it, so costs double near Order castles and cathedrals (Book I ch. 19; Book V ch. 20). The bond needs amber, the binder's blood, the bound person's true name and a promise exchanged both ways (Book I ch. 3).
+
 ## Origin
+Given by Birutė to Vytautas in Trakai with her blood on it, his true name spoken once and the pledge "Jo skola, mano skola" (Book I ch. 3, 1382).
+
 ## Arc across the books
-<!-- Holder by holder; must match the 'holds' edges in world_graph.json. -->
+- **Vytautas, 1382-1430.** Warm (I ch. 3), a faint light in the Krėva cell (I ch. 8), dead after the false baptism at Tepliava, 21 Oct 1383 (I ch. 19), hot at the Marienwerder burning (I ch. 23-24), glowing in 1387 (I ch. 29). Neither warm nor cold at the Black Sea (II ch. 17), cold after the Vorskla, 1399 (II ch. 20), a single tremor in 1405 (III ch. 8), warm at the Grunwald oath (III ch. 17), burning at the lightning (III ch. 20). It cracks "like thin ice" at his death, 27 Oct 1430 (IV ch. 29).
+- **Pilkoji, 27 Oct-24 Dec 1430.** She takes it from his chest, as he wished (IV ch. 28).
+- **The Flame-Keeper (Žiežirba), Kūčios 1430-1450.** Handed over cold and cracked (V ch. 7). He first looks through the crack at Rasos, June 1432 (V ch. 9). It stays dead on the flame in the crypt (V ch. 20). Birutė's voice through it ends at his name (V ch. 29). It burns with him at Palanga, March 1450.

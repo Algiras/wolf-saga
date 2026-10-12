@@ -8,9 +8,29 @@ categories: [magic]
 {{< include ../_generated/zoles.md >}}
 
 ## What it is
+
+Herb-lore: brews, smokes and poisons. It is **power anyone can carry**, with no gift and no Law of Balance (the graph marks it `laws: false`), which is exactly why it is the most dangerous. It is mundane chemistry in a mythic world.
+
 ## Who can use it (path & tier)
+
+Tier 1: the **žolininkė**, the herb-woman, the midwife; also anyone who can gather and measure: [Ona](../characters/ona.qmd), the Lagoon witch, the Order's poisoners. [Eglė](../characters/egle.qmd) practises it at tier 3.
+
 ## How it works (medium, words, timing)
+
+Herbs gathered at **Rasos** (Midsummer) before dawn, in silence, are double potency and keep a year. Effects: sleep, truth-loosening, fever-breaking, wound-cleaning, and the **seer's smoke** (henbane and amber dust) that lets a Kalba seer see further.
+
 ## Costs
+
+There is **no magical cost**: the price is the moral one. The seer's smoke costs a terrible headache. A poison needs no sorcery at all (Book II ch. 16: "no spell, no god, no pact; only henbane seeds and root, a human hand's work").
+
 ## Limits & counters
+
+It is mundane, so it can be undone by mundane means: knowledge, a physician, an antidote. In the saga's moral design it is where the worst crimes are done, because the horror is how little magic the world needs. A charm plus a Rasos-herb poultice heals what Water cannot.
+
 ## Folk basis [Record]
+
+**[Record].** Lithuanian folk medicine was rich in wormwood (*kietis*), St John's wort (*jonažolė*), sweet flag (*ajeras*), mugwort, linden, chamomile, valerian, henbane (*drignė*) and poppy; herbs gathered on Joninės night were held strongest, and the Assumption (*Žolinė*, 15 August) is the herb-blessing feast.
+
 ## Notable practitioners
+
+Ona's sleeping draught for the guards at Krėva (Book I ch. 12); Ona's herb list "kietis, chamomile, jonažolė, and drignė, keep that one apart" (Book II ch. 4, 6); the slow poison in the hostage sons' food, drignė, kietis and sugar (Book II ch. 9); Skirgaila's death in 1397 (ch. 16). The historical poisoning of 1392 rests on weak evidence (Simon Grunau), as canon Q11 notes.

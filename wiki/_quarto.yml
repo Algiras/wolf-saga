@@ -41,14 +41,28 @@ website:
       - href: contributing.qmd
         text: How to add
     right:
-      - href: ../index.html
-        text: Read the book
+      - text: Books
+        menu:
+          - href: ../index.html
+            text: "I · Vilko Tremtis"
+          - href: ../2/index.html
+            text: "II · Auksinis Šešėlis"
+          - href: ../3/index.html
+            text: "III · Žaliasis Miškas"
+          - href: ../4/index.html
+            text: "IV · Nematoma Karūna"
+          - href: ../5/index.html
+            text: "V · Vilko Palikimas"
+          - href: ../6/index.html
+            text: "VI · Šventasis Miškas (prequel)"
 
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      dark: styles/saga-dark.scss
+      light: styles/saga-light.scss
+    include-in-header: styles/head.html
+    lightbox: true
     toc: true
     mermaid:
       theme: neutral

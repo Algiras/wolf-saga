@@ -10,4 +10,4 @@ title: "Books"
 | [III · Žaliasis Miškas](book3.qmd) | book | 1399–1411 |
 | [IV · Nematoma Karūna](book4.qmd) | book | 1411–1430 |
 | [V · Vilko Palikimas](book5.qmd) | book | 1430–1450 |
-| [VI · Šventasis Miškas (prequel)](book6.qmd) | book | 1345–1377 |
+| [VI · Šventasis Miškas (prequel)](book6.qmd) | book | 1341–1377 |

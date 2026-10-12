@@ -1,0 +1,26 @@
+---
+title: "Goštautai (Gasztołd)"
+id: gostautai
+type: house
+categories: [house]
+---
+
+{{< include ../_generated/gostautai.md >}}
+
+## House card
+| | |
+|---|---|
+| **Seat** | Offices at **Vilnius** and **Trakai**; a boyar family, not a ducal one. [Record] |
+| **Arms / sigil** | After Horodło (1413), Catholic boyar families took Polish arms: Goštautai are given as **Abdank** (to verify). Before 1413, boyars used house-marks. [Record] |
+| **Words** | None. |
+| **Patron / burden** | None canonical. In Book V the Counter whispers under the floor of every council hall. [Saga] |
+
+## Lineage
+**Jonas Goštautas** (Gasztołd, d. 1458) rises under [Vytautas](../characters/vytautas.qmd) and in the 1430s–40s becomes the leading voice of the Lithuanian council, voivode of Trakai and then of Vilnius (offices to verify). Do not call the Radvilos magnates before about 1450; the Goštautai are the power of the 1430s.
+
+## Feuds & alliances
+The council lords (Goštautai, Astikai, Kęsgailos, Daugirdas) make and unmake grand dukes. They tolerated [Žygimantas](../characters/zygimantas.qmd) until his purges. Goštautas's own part in the 1440 murder is uncertain: the killers are recorded as the Czartoryski brothers, Švitrigaila's partisans (VLE). He led the council that elected Casimir in June 1440.
+
+## Fate across the books
+- **V:** Jonas Goštautas is POV in ch. 17, *Aukso Rijūno Puota* (1436–37), as the lords grow fat on grants; in ch. 23 he raises the twelve-year-old Casimir against Kraków's wishes. The family is the book's kingmaker. [Record, with the saga's dramatisation]
+- Earlier books only mention the family's rise in Vytautas's service.

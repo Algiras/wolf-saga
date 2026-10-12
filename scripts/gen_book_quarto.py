@@ -17,7 +17,8 @@ BOOKS = {
 }
 ROMAN = {1: "I", 2: "II", 3: "III", 4: "IV", 5: "V"}
 NAV = [("I knyga", "../"), ("II knyga", "../2/"), ("III knyga", "../3/"), ("IV knyga", "../4/"),
-       ("V knyga", "../5/"), ("VI knyga (priešistorė)", "../6/"), ("Wiki", "../wiki/")]
+       ("V knyga", "../5/"), ("VI knyga (priešistorė)", "../6/"),
+       ("Skaitymo tvarka", "../skaitymo_tvarka.html"), ("Wiki", "../wiki/")]
 
 FORMAT = """format:
   html:
@@ -60,6 +61,8 @@ def build(n):
     for i, part in enumerate(cfg["parts"]):
         out += [f'    - part: "{part}"', "      chapters:"]
         out += [f"        - {c}" for c in chapters if i * 10 < int(c[:2]) <= (i + 1) * 10]
+    if (d / "istorine_pastaba.qmd").exists():
+        out.append("    - istorine_pastaba.qmd")
     out += ["    - copyright.qmd", ""]
     title = cfg["sub"].split(": ", 1)[1]
     (d / "_quarto.yml").write_text("\n".join(out) + FORMAT.format(roman=ROMAN[n], title=title, desc=cfg["desc"]),

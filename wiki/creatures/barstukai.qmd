@@ -1,0 +1,29 @@
+---
+title: "Barstukai (under-elder miners)"
+id: barstukai
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/barstukai.md >}}
+
+## Folk source [Record]
+Small underground beings attested in 16th-century accounts of Prussian and Samogitian belief. In the Prussian material they serve an earth-god, **Puškaitis**, who lives beneath the elder bush (*šeivamedis*), and people left bread and beer under the elder for them. Whether they are the same beings as kaukai or barzdukai, or whether the words are even related, is debated; regional variants differ.
+
+## In the saga (where the folk are half-wrong)
+Not house-spirits at all: the [Root-Mother](../forces/root_mother.qmd)'s **diggers**, miners of bog-ore and buried amber in the roots of elder thickets and under hill-forts. They hate smelted iron and the plough, but they trade: bog-iron for bread, amber for beer, a safe path for a promise. Every old-school smith had a barstukas bargain, and the vilkatai's bog-iron comes from them. A kaukas is your dead; a barstukas is nobody's.
+
+## Signs & habitat
+Elder thickets on old hill-forts and by bogs; lumps of bog-iron left on a stump; hammering underground at night.
+
+## Before / after the Unbinding
+Before: honest traders. After 1387 the Order and then Polish and Lithuanian lords drain and mine the land by the furlong, and the barstukai stop trading and begin to collapse wells and mine-shafts.
+
+## Banes, wards, bargains, and their cost
+Bread and beer under the elder at dusk, never watched (watching ends the bargain for the whole family). Never cut an elder without asking three times (the ground under your house goes hollow). Smith's iron drives them down; feast-day iron kills them, and with it your bog-iron.
+
+## Danger level
+I nuisance → III dangerous.
+
+## Story hooks
+Book III: barstukai helping Samogitians tunnel under an Order stockade. Book IV: a Kraków mining venture in Podlasie collapses and the survivors swear the earth spoke.

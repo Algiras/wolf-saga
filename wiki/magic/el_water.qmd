@@ -8,7 +8,21 @@ categories: [magic]
 {{< include ../_generated/el_water.md >}}
 
 ## Deity & zenith
+
+**Deity:** [Bangpūtys](../gods/bangputys.qmd), with [Mėnuo](../gods/menuo.qmd) setting his tides. **Incantation:** *Vanduo tau teks* ("Water for you shall flow"), *man* for oneself. **Medium:** running or sea water. **Zenith:** full moon or high tide, strongest at the spring ice-break: cost **halved**; **doubled** away from living water.
+
 ## Boon
+
+**Life Spring**: healing, and the pull of a soul back from the gate. It can carry a thirst away or draw poison out through hair and blood across distance. It is also the sea-craft of the amber priestesses, scrying in a bowl of water with amber.
+
 ## Minor / major cost
+
+**Minor:** raging thirst. **Major:** the caster **takes the patient's wound** in part. Book II ch. 27: after Vorskla Vytautas casts *Vanduo man teks* on a wounded Ruthenian boyar; the thirst vanishes, and "a side that was not his" passes into him, and though he pushes it away, part of the pain stays. Book II ch. 9: a Lagoon witch will draw the poison from the poisoned hostage boys "over any distance", but her old body cannot carry it, so the poison must go into a younger body: an Order child's. "Blood for poison; I only say what it costs."
+
 ## Limits
+
+It cannot heal a mortal wound (the village woman's charm and herb poultice can). The White Silence freezes Water workings. Doubled in caves and at distance from living water. At the sea, a Palanga priestess's wedding ring is refused thrice by the waves (Book I ch. 11).
+
 ## Uses in the books
+
+Birutė's ring thrown into the Baltic (Book I ch. 11); her full-moon sacrifice (ch. 27, the whole surety paid); the amber bowl at the ice-break "when the cost is lower" (Book VI ch. 10–11). The poisoned boys and the witch (Book II ch. 9); Vytautas's own working (ch. 27). See [the poisoning](../events/ev_sons_poisoned.qmd).

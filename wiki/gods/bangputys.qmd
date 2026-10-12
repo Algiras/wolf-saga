@@ -8,7 +8,19 @@ categories: [god]
 {{< include ../_generated/bangputys.md >}}
 
 ## Folk sources [Record]
+
+*Bangpūtys* is the Lithuanian god of waves, sea and storms. The name is read as *banga* ("wave") plus *pūsti* ("to blow"). He is **late and thinly attested**: the early lists give him only through Matthäus Prätorius (1690s), who reports a single rite; he is absent from the medieval chronicles. Later authors made him the father of the four winds (Rytys, Pietys, Šiaurys, Vakaris) and sometimes link him to Vėjopatis.
+
 ## In the saga
-<!-- Domain, element, Force-face (cosmology.md §3). -->
+
+**Domain:** the sea, storms, waves. **Element:** [Water](../magic/el_water.qmd) ("Vanduo tau teks"), zenith at full moon, high tide and the spring ice-break. **Force-face:** none. He is in an old feud with [Perkūnas](perkunas.qmd) over [Jūratė](jurate.qmd), and [Mėnuo](menuo.qmd) sets his tides.
+
+Book I ch. 11: Birutė throws her wedding ring into the waves, "Gabija's fire in this metal went out, giving way to Bangpūtys's depth"; the sea returns it three times (the ring-thrice motif, canon D3). Ch. 27 (1384): her full-moon working pays Vytautas's surety in full. Book VI ch. 10: before the ice-break, the old priestess says "tonight Bangpūtys is strongest, the ice just broke; the cost is lower". Costs per the magic rules: a minor Water working brings raging thirst; a major one makes the caster take part of the patient's wound. **Limits:** it can pull a soul back from the gate but cannot heal a mortal wound, it is doubled away from living water, and the White Silence freezes it.
+
 ## Offerings & taboos
+
+Prätorius reports a single sea-rite, and its details are not reliable. In the saga the offering is amber, or a ring given to the water (Birutė's, Book I ch. 11); the sea may refuse it.
+
 ## Pronunciation
+
+**bahng-POO-tees** (IPA [bɐŋkˈpuːtʲiːs]), stress *bang-PŪ-tys*. The *g* devoices before *p*.

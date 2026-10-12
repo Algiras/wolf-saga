@@ -8,13 +8,13 @@ categories: [event]
 {{< include ../_generated/ev_pact_sworn.md >}}
 
 ## What the chronicles say [Record]
-<!-- Sources and disagreements. Mark (verify) where unsure. -->
+Not in the record, which gives only the 1345 co-rule of [Algirdas](../characters/algirdas.qmd) and [Kęstutis](../characters/kestutis.qmd) ([the diarchy](ev_diarchy.qmd)). A sacred fire in the Šventaragis valley at Vilnius is known from Długosz's report of its extinguishing in 1387, and the founding legend of Šventaragis, Lizdeika and the Iron Wolf's dream survives in the later Lithuanian chronicles (Bychowiec chronicle). The historical anchor is that the Grand Duchy remained pagan, and unconquered, through a century of crusade until 1387. The saga builds its engine on that fact.
 
 ## What really happened [Saga]
-<!-- The mythic gap-filling. Must not contradict the record. -->
+Sworn on All Souls' Night 1345 in the [Šventaragis valley](../places/sventaragis.qmd) by Kęstutis, Algirdas and the [Krivis](../characters/krivis.qmd) alone. The fire stands taller than men and the spirits of place gather. Each brother whispers his true name into it. The Krivis cuts his palm and casts a Palanga amber bead into the flame; it hangs blue and never falls. Algirdas gives the flames: Vilnius, Palanga and the Samogitian groves, "kol vienas mano kraujo vaikščios šia žeme". Kęstutis gives the blood: no Gediminid shall shed a Gediminid's blood. The fire adds a third clause by pressure: royal blood for every furrow the cross ploughs, the Amber Debt. Kęstutis says it aloud while Algirdas's raised hand hangs; Algirdas never forgives him. Algirdas demands silence, and the Krivis: "Tai ir bus tylioji sutartis." The gods promise that the heartland will not be conquered as long as the word is kept. Wolf-Father Kuolas gives Kęstutis the silver wolf in December.
 
 ## Consequences
-<!-- Mirror the 'causes' edges. -->
+Caused by [the diarchy](ev_diarchy.qmd). The graph shows it creating [the Silent Pact](../magic/silent_pact.qmd). Clause 2 is broken by [the murder of Kęstutis](ev_kestutis_death.qmd) in 1382 and clause 1 by [the baptism of Lithuania](ev_lithuania_baptism.qmd) in 1387.
 
 ## Dramatisation
-<!-- Book · chapter · POV · season. -->
+Book VI ch. 4 "Tylioji Sutartis" (Kęstutis; the night of Vėlinės 1345, autumn) and ch. 5 "Sidabrinis Vilkas" (Šešiapirštis; December 1345). Book V ch. 5 "Senieji Balsai" replays it as a flashback, seen by Žiežirba in the cracked pebble, with the corrections the song gets wrong.

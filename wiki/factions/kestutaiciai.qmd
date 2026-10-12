@@ -8,9 +8,23 @@ categories: [faction]
 {{< include ../_generated/kestutaiciai.md >}}
 
 ## Overview
+[Record] [Kęstutis](../characters/kestutis.qmd) held the western half of the realm from Trakai (1345-82); he was captured and escaped from Marienburg in 1361, and died at Krėva on 15 Aug 1382 (strangled, per most accounts). His sons: [Vytautas](../characters/vytautas.qmd) (c. 1350-27 Oct 1430), Tautvilas (killed Sep 1390 at the Crooked Castle, per Wigand of Marburg) and [Žygimantas](../characters/zygimantas.qmd) (hostage c. 1389/90-1398; Grand Duke 1432-20 Mar 1440, murdered at Trakai). Their allies: Samogitia and the Masovian husbands of their sister Danutė. The line ends with Žygimantas's son Mykolas, exiled and dead in 1452.
+
 ## Wants (by book)
 | Book | Goal | Leverage | Red line |
 |---|---|---|---|
+| VI | Hold the border; keep the Pact | The hidden nine; Birutė | Gediminid blood |
+| I | Avenge Kęstutis; recover Trakai and Samogitia | Vytautas's use of the Order, 1383-84 | No more imprisonment by his cousins |
+| II | The throne (Ostrów, 1392); an empire | Defection; the marriage web (Sofija, Moscow) | The sons' lives |
+| III | Break the Order; Samogitia | Grunwald; the Samogitian loyalty | The reversion clause |
+| IV | A crown and an heir | Sigismund's offer, 1429-30 | The flame |
+| V | Žygimantas holds what Švitrigaila would take | The coup at Ašmena (31 Aug 1432) | Mykolas dispossessed |
+
 ## Patron Force
+[Saga] The [Amber Queen](../forces/amber_queen.qmd) through [Birutė](../characters/birute.qmd) (D1); Perkūnas's claim on Vytautas, contested by the [Root-Mother](../forces/root_mother.qmd). Its relics are the [silver wolf](../artifacts/silver_wolf.qmd), the [pebble](../artifacts/pebble.qmd) and Kęstutis's sword.
+
 ## Internal tensions
+Vytautas has no son, and his younger brother Žygimantas is a hostage in Prussia for eight years and then a shadow at his court. Žygimantas, whom Vytautas called quiet, becomes a tyrant who counts doors and executes men on planted letters (Book V ch. 18-19, 22). Feud with the [Algirdaičiai](algirdaiciai.qmd) runs from Krėva to Trakai in 1440.
+
 ## Notable members
+[Kęstutis](../characters/kestutis.qmd), [Vytautas](../characters/vytautas.qmd), [Žygimantas Kęstutaitis](../characters/zygimantas.qmd).

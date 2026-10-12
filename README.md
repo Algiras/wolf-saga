@@ -52,7 +52,7 @@ Tylioji Sutartis mirusi, o Vytautas, laikydamas slaptą liepsną Trakų pamatuos
 
 Po Vorsklos pelenų: Žemaitijos sukilimai, Galmino giria, Žalgirio mūšis ir Torunės taika, grąžinanti Žemaitiją tik dviem gyvenimams.
 
-📖 **[Skaityti internete](https://Algiras.github.io/wolf-saga/3/)**
+📖 **[Skaityti internete](https://Algiras.github.io/wolf-saga/3/)** · [Anonsas](books/3_teaser.md)
 
 ---
 
@@ -62,7 +62,7 @@ Po Vorsklos pelenų: Žemaitijos sukilimai, Galmino giria, Žalgirio mūšis ir 
 
 Žalgiris laimėjo karą, bet pralaimėjo dievus: Žemaitijos krikštas, Onos mirtis, imperija nuo jūros iki jūros, Lucko suvažiavimas ir karūna, sulaikyta pakeliui. Vytautas miršta Trakuose 1430 m. spalio 27-ąją, ir kartu užgęsta Paskutinė Liepsna. Trys dalys: *Krikštas be Ugnies*, *Nuo Jūros iki Jūros*, *Nematoma Karūna*.
 
-📖 **[Skaityti internete](https://Algiras.github.io/wolf-saga/4/)**
+📖 **[Skaityti internete](https://Algiras.github.io/wolf-saga/4/)** · [Anonsas](books/4_teaser.md)
 
 ---
 
@@ -72,7 +72,7 @@ Po Vorsklos pelenų: Žemaitijos sukilimai, Galmino giria, Žalgirio mūšis ir 
 
 Liepsna užgesusi, o paskutinis prisiekęs vilkas nori ją vėl uždegti. Švitrigaila prieš Žygimantą, Pabaisko laukas, Žygimanto nužudymas Trakuose, Kazimieras soste ir raštas vietoj burtų. Gintaro Karalienė užbaigia savo pasakojimą. Trys dalys: *Tuštuma*, *Brolis prieš Brolį*, *Vaiduoklių Amžius*.
 
-📖 **[Skaityti internete](https://Algiras.github.io/wolf-saga/5/)**
+📖 **[Skaityti internete](https://Algiras.github.io/wolf-saga/5/)** · [Anonsas](books/5_teaser.md)
 
 ---
 
@@ -82,7 +82,7 @@ Liepsna užgesusi, o paskutinis prisiekęs vilkas nori ją vėl uždegti. Švitr
 
 Saga prieš sagą: Algirdas ir Kęstutis Šventaragio slėnyje prisiekia Tyliąją Sutartį, Kęstutis veda gintaro žynę Birutę ir trisdešimt metų moka Sutarties kainą. Knyga baigiasi ten, kur prasideda pirmoji. Trys dalys: *Tylioji Sutartis*, *Jūra ir Ugnis*, *Senasis Šernas*.
 
-📖 **[Skaitykite VI knygą internete](https://Algiras.github.io/wolf-saga/6/)**
+📖 **[Skaitykite VI knygą internete](https://Algiras.github.io/wolf-saga/6/)** · [Anonsas](books/6_teaser.md)
 
 ---
 

@@ -8,9 +8,29 @@ categories: [magic]
 {{< include ../_generated/wolf_change.md >}}
 
 ## What it is
+
+**Vilkų krikštas**, the Wolves' Baptism: *granted* power from the [Root-Mother](../forces/root_mother.qmd) through the Dykra. It makes a man a *vilkatas*: night-sight, scent, sight of the dvasios, the Root-Mother's healing and the berserk "iron hour". It is not shape-change.
+
 ## Who can use it (path & tier)
+
+Unmarried men of 16 to 25, sponsored by a sworn wolf (his *vilktėvis*). Only wolves sworn **twenty years or more** (the *Seniai*) can put on the wolf; the folk belief that all vilkatai shape-shift is half wrong. Examples: Jonas (tier 3) and the Flame-Keeper **Žiežirba** (Book III ch. 9).
+
 ## How it works (medium, words, timing)
+
+Held in the twelve nights after Kūčios at a sacred flame: a wake as if he had died, his true name whispered to the fire, a throat-cut rubbed with live ash, nine nights without fire, then **pressed under the mud** of the oldest bog until the Root-Mother decides ("Kas neiškils, tas liks", Book III ch. 9), and an oath on the Iron Wolf's skull. Full rite: [the Iron Wolves](../codex/the-iron-wolves.qmd).
+
 ## Costs
+
+Taken: his **true name**, **the road up** (laid in the bog, never burned, never climbs to Dausos), his **hearth**, part of his **soul**, a little **memory** each iron hour, and his **tears**. Given: the pack, the sight, the iron hour. He can leave **once**, if someone who knew his true name speaks it at a living flame and offers bread on a knife-point (Book V ch. 29).
+
 ## Limits & counters
+
+No hearth under a roof; feast-day iron burns them; consecrated stone sickens them; the unfed dead hunt them. New wolves can be made only at a living flame, so the brotherhood ends when the last flame goes out in 1430 (canon D10). Bound by the Root-Mother's nature, not the Three Laws.
+
 ## Folk basis [Record]
+
+**[Record].** The wolf-warrior band is an Indo-European pattern (*Männerbund*, Old Norse *úlfheðnar*). Herodotus (4.105) has the Neuri becoming wolves for days each year; Olaus Magnus (1555) has werewolves gathering at Christmas in Prussia, Livonia and Lithuania. The Iron Wolf dream is a 16th-century chronicle legend.
+
 ## Notable practitioners
+
+Jonas; the Flame-Keeper; **Šešiapirštis**, wolf-father (Book II ch. 9); **Pilkoji**, taken "against all custom" after her village's dead rise (Book III ch. 7, 9); Kęstutis's silver wolf (Book VI ch. 5).

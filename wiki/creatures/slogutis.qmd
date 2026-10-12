@@ -1,0 +1,29 @@
+---
+title: "Slogutis (the presser)"
+id: slogutis
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/slogutis.md >}}
+
+## Folk source [Record]
+The nightmare spirit (from *slėgti*, "to press") that sits on sleepers' chests so they cannot breathe or move, and rides horses at night, leaving manes tangled into braids. In some regions it is the wandering soul of a living person, often a witch. Defences across the region: stop keyholes, keep a blade by the bed, or invite the presser to come for something in the morning, so that whoever arrives to borrow it is unmasked.
+
+## In the saga (where the folk are half-wrong)
+A shard of a **living person's grudge**. Anyone who falls asleep in envy or hatred may send one without knowing. The folk are right that it is a living soul and wrong that only witches send it: the jealous sister-in-law, the cheated neighbour and the bitter old soldier all do, and wake tired. In a court full of resentment (Jogaila's Vilnius, 1382) the sloguciai are thick as moths.
+
+## Signs & habitat
+A heavy weight on the chest at the edge of sleep; braided horse-manes; a neighbour who looks bruised and exhausted next day.
+
+## Before / after the Unbinding
+Before: frightening but rarely fatal. After: sloguciai kill, pressing infants and the old to death, and hatred concentrated in towns and camps produces ones that can be seen.
+
+## Banes, wards, bargains, and their cost
+A knife or sickle at the bedside, blade up (children roll onto it). Stop every hole (in winter a sealed smoky hut is its own danger). Say in the dark *"Ateik rytoj druskos"*, "Come tomorrow for salt": whoever comes to borrow salt is the sender, and now you have a feud and must give the salt.
+
+## Danger level
+II hazard → IV deadly.
+
+## Story hooks
+Book I: [Jogaila](../characters/jogaila.qmd) pressed nightly after ch. 7, his own guilt or Ona's grief sending it. Book IV: Vytautas, old and full of grudges, realises he has been the sender in his own court.

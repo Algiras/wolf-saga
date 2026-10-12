@@ -8,7 +8,21 @@ categories: [god]
 {{< include ../_generated/dievas.md >}}
 
 ## Folk sources [Record]
+
+*Dievas* (Latvian *Dievs*) is the common Baltic name of the sky god, from Proto-Indo-European *\*deiwos*, "the shining one"; in Lithuanian it is also the ordinary word for God. Almost everything written about him comes from Christian-era texts (Mažvydas, 1547, already uses it for the Christian God), so the pre-Christian figure is hard to isolate. Beresnevičius called him a *deus otiosus*, a remote god whose cult is doubtful, while others (Gimbutas) stress the sky-father of folklore. His name was often avoided in favour of epithets (*Aukščiausiasis*, *Visagalis*, *Praamžius*; Łasicki's *Auxtheias Vissagistis*).
+
+**Dievas Senelis** ("Old Man God") is folk-tale material, recorded in the 19th and 20th centuries: God walks the earth as an old man or beggar, tests households' hospitality and teaches chores. Folk tellers already blend him with the Christian God.
+
 ## In the saga
-<!-- Domain, element, Force-face (cosmology.md §3). -->
+
+**Domain:** sky, order, the distant father. **Element:** none. **Force-face:** none. He never bargains and cannot be asked (cosmology §3.1). Instead he walks as the **Beggar** (§5) and tests with small requests. Those who give are not rescued but *seen*: their road becomes clear to them, even if it leads to death. Those who refuse are not punished, only left blind to their own road.
+
+In Book I ch. 4 an old beggar in grey rags sits at the roadside in a whirl of wind that stirs no other leaf. Kęstutis throws him a silver coin, and the beggar opens his palm on a grey pebble ([the coin](../events/ev_beggar_coin.qmd)): what is paid for truth is worth nothing as money. Kęstutis then walks to Krėva knowing. The beggar calls Vytautas "Vyti" (canon Q7: a god may use the intimate name). A beggar at Goštautas's door in Book V ch. 17 may be the same figure. **Weakness:** none that matters; he does not act. He only sees.
+
 ## Offerings & taboos
+
+No cult is recorded or invented. The only observance is custom: give bread, coin or a story to the stranger at the door, since in the tales the beggar may be God.
+
 ## Pronunciation
+
+**DYEH-vahs** (IPA [ˈdʲiɛvɐs]). The *ie* is one gliding vowel, never two syllables. **DYEH-vahs seh-NEH-lis** for Dievas Senelis.

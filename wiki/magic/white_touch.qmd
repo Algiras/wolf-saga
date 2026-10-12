@@ -8,9 +8,29 @@ categories: [magic]
 {{< include ../_generated/white_touch.md >}}
 
 ## What it is
+
+The White Silence's **frost-touch**: *granted* power from the [White Silence](../forces/white_silence.qmd). A healer's touch that heals by frost: holy calm, closed wounds, the ending of fever. It is also a cold that spreads.
+
 ## Who can use it (path & tier)
+
+A **vessel** only (tier 5): [Jadvyga](../characters/jadvyga.qmd) from 1386, whom the Force uses as a conduit. She is "a saint" by acclaim, not decree.
+
 ## How it works (medium, words, timing)
+
+She lays on a hand: her touch closes a leper's sore overnight (Book II ch. 21). Frost fern-patterns grow where her hands lie, and on a baby's lips. Warmth leaves the healer; sound dies around her.
+
 ## Costs
+
+**Warmth** leaves the healer: a week of being unable to get warm, two days of an aura of cold around her (Book II ch. 21, as she tells her confessor). The child's lips go white. Frost passes into those who kiss her hand (Jogaila). Sound dies: at the 1385 union the quill makes no noise (Book I ch. 28b).
+
 ## Limits & counters
+
+It is not hers to command; it is a Force's will wearing her hands. A žaltys warns her that "the Silence will freeze your heart while it saves your soul" (Book II ch. 21). **Counters:** warmth, such as tears (Book IV ch. 14), and a living flame; its own touch smothers Wind and freezes Water.
+
 ## Folk basis [Record]
+
+**[Record].** Jadwiga of Poland (c. 1373–17 July 1399) was crowned king (*rex*) in 1384, married Jogaila in 1386 after being betrothed to Wilhelm of Habsburg, and died days after her infant daughter Elizabeth Bonifacia. She was canonised in 1997. The frost-touch is saga overlay; her reputation for charity and piety is historical.
+
 ## Notable practitioners
+
+Jadvyga (Book II ch. 21, the night her child is ill, July 1399). In the world bible her body "does not decay but turns to salt and silver" (hidden_immortals §5), an anchor for the Force in the Polish heartland. Jogaila carries its frost afterwards (Book III ch. 3; Book IV ch. 19).

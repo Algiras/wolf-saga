@@ -1,0 +1,29 @@
+---
+title: "Baubas and maumas (told terrors)"
+id: baubas
+type: creature
+categories: [creature]
+---
+
+{{< include ../_generated/baubas.md >}}
+
+## Folk source [Record]
+Vague bogeys used to frighten children into obedience (*"Baubas ateis!"*); the **maumas** is a bogey of wells and water. The great bittern's booming call over reed-beds is *didysis baublys*, and the swamp-booming may lie behind some of the lore. They have no fixed shape.
+
+## In the saga (where the folk are half-wrong)
+The baubas is **made of telling**. Under the Pact told fears stayed stories. After the Unbinding, each time a mother says "the baubas will come", a little fear settles in the dark corner of the house, and a family that threatens its children nightly feeds a real thing that eventually comes. The folk are right that it exists and wrong that they are only pretending.
+
+## Signs & habitat
+A dark corner that children will not look at; a well that booms at night; a shape that matches whatever the household fears most.
+
+## Before / after the Unbinding
+Before: harmless. After: real in proportion to how often it is invoked, and worst in households that have lost their other spirits.
+
+## Banes, wards, bargains, and their cost
+Laughter, light, and a small pet-name (*baubiukas*) cost nothing, which is why grown-ups forget. Stop using it as a threat; then you need another way to keep children from the well.
+
+## Danger level
+I nuisance → II hazard.
+
+## Story hooks
+Books III–V: a camp of conscripts whose dread of the knights grows a baubas the night before battle.

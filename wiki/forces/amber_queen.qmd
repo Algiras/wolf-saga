@@ -8,10 +8,29 @@ categories: [force]
 {{< include ../_generated/amber_queen.md >}}
 
 ## Nature
-<!-- Native (face/shard of a god) or egregore (fed by an institution)? See cosmology.md §2. -->
+
+**Native** Force, and an **office, not a goddess** (canon D1; cosmology §3.4). It is the sea's memory of everything gods and men have destroyed, born of [Jūratė](../gods/jurate.qmd)'s grief when [Perkūnas](../gods/perkunas.qmd) shattered her amber palace. It needs a mortal vessel to act on land. The vessels come from the Palanga amber-priestess line and each ends by giving her mortality back to the sea.
+
 ## Wants
+
+Memory kept. She preserves the stories of those the other gods forgot, and the sea tells her priestess one thing for forty years: "the Queen lacks land" (Book VI ch. 11).
+
 ## Takes (its price)
+
+The vessel's mortality. [Birutė](../characters/birute.qmd), the last vessel, "gave everything" so that Vytautas's sword should never be powerless (Book I prologue, ch. 27). The Queen never raises the dead; she *keeps* them, in memory and in amber.
+
 ## Signs & manifestations
+
+Surf-whisper that comes **only through amber** (Book I ch. 3); foam on the waves; amber appearing in the hands of the lost; eyes gone sea-dark (ch. 11); the sea refusing to drown her and returning her ring three times (ch. 11; canon D3). After ch. 27 she acts only through amber Birutė touched.
+
 ## Vessels, servants, claims
+
+**Vessels:** Jūratė (mythic first holder), Birutė (1382–84). **Anchors:** the [kneeling woman](../artifacts/kneeling_woman.qmd) at Palanga (whoever moves her dies at sea) and Vytautas's [pebble](../artifacts/pebble.qmd). **Patron of** the [Kęstutaičiai](../factions/kestutaiciai.qmd) and the Palanga vaidilutės. Place: [Palanga](../places/palanga.qmd).
+
 ## Weaknesses
+
+Once Birutė is spent she cannot walk again, and her reach is only through touched amber. Consecrated stone dampens amber workings; Church men want the statue gone ("remove the idol they call Jūratė", Book IV ch. 8). A vessel is mortal and her price is final.
+
 ## Arc across the books
+
+**VI:** Birutė chosen at Palanga (ch. 10–11). **I:** frame narration (prologue), the Queen heard through amber (ch. 3), the widow's eyes (ch. 11), the amber kneeling woman (ch. 27). **II:** only the pebble remains. **III:** her voice at sea before Grunwald (ch. 14). **IV:** Polish clergy come for the statue (ch. 8). **V:** her silence (ch. 25); her last working, spent on the dying Flame-Keeper (ch. 29); she narrates (ch. 1), and the sea takes the statue.

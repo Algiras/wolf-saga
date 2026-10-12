@@ -47,6 +47,15 @@ python3 scripts/make_covers.py chapters --book 1     # one per books/1/NN_*.qmd,
 
 Output: `out/book1/thumbs/ch03_gintaro_sapnas.png` (1280 x 720, big numeral + "SKYRIUS" + title). From Python: `make_covers.render_part_thumb(ctx, book_number, number, title)`.
 
+## 4. KDP paperback wrap cover
+
+```bash
+python3 scripts/make_covers.py print 4 --pages 260 --paper cream   # or: print all  (page counts read from the print PDFs)
+```
+
+Output: `out/bookN/print_cover_kdp.pdf` (back | spine | front, 0.125 in bleed, 300 dpi), plus `_preview.jpg` and `_guides.jpg`.
+The back-cover blurb comes from `books/book_meta.yml`. Details, spine formula and KDP settings: `docs/PRINTING.md`.
+
 ## Changing things
 
 - Author and titles are config values (`series.author`, `title_lt`, `title_en`). Book II's title is an open author decision ("Auksinis Šešėlis" vs "Vytis ir Šešėlis"): edit `title_lt` in `covers.yml` and re-run.

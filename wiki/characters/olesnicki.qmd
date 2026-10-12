@@ -8,33 +8,46 @@ categories: [character]
 {{< include ../_generated/olesnicki.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Zbigniew Oleśnicki (5 Dec 1389 - 1 Apr 1455), royal secretary, Bishop of Kraków (1423) and cardinal, is the mortal antagonist of Book IV: brilliant, devout and utterly sure that Lithuania must not become a kingdom. He is a statesman, not a cartoon: he fears two crowns, the Order, the Hussites and the Turks, and he is not wrong to stop Vytautas's coronation, by his lights. He wins: the crown embassy is blocked at the border in August 1430 (the record), and Vytautas dies uncrowned. In Book V he is the shadow regent of Poland who swears Žygimantas in for the king at Grodno and keeps the young Jagiellonians in line.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Usually in clerical robes but carrying himself like a general, with a sharp, clean-shaven face and deep-set, intelligent eyes: "the cross in his hand and the sword in his heart". At twenty-two in the royal chancery (Book III ch. 30) he sits with his back to the wall so that he can see the door, a habit from his student years that became something else on 15 July 1410, and he brews the chancery's ink himself (oak galls, iron sulphate, Arabic gum, "a little too much wine"). On his desk lies a coin that is always warm; it grows hotter when he is most certain, and he picked it up fourteen years earlier from the purse of a cut-open knight and long ago stopped trying to explain it. He is inflexible: once he has set a course, gold and threats do not move him.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | Polish supremacy in the union: to keep Lithuania and Ruthenia under the Polish crown and block any independent Lithuanian kingdom. |
+| **Need** (internal) | To fear less: to see that stopping a crown can be the same fear that the Order and the Hussites exploit. |
+| **Lie** they believe | Lithuania must not be a kingdom: 'I need him not to have time.' |
+| **Truth** they learn (or refuse) | Left to the reader: he wins every move (1430, 1432, 1440), and the saga lets him be right on his own terms. |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book III (1409-1411).** A twenty-year-old royal secretary at the Brest council (Dec 1409, ch. 13); at Grunwald he saves Jogaila from a German knight's charge with a broken spear (ch. 20, after Długosz); in the epilogue "Ink" (ch. 30, 1411) he sits at the chancery, a warm coin on his desk, and says to himself, "The sword did its work. Now the ink must do ours."
+- **Book IV (1413-1430).** At Horodło in 1413 (ch. 2); Bishop of Kraków in 1423 as the king's sons are born and the lords sell their succession for privileges, he is "devout and right on his own terms", the coin warmest on his desk (ch. 14). At Lutsk he opposes the crown (ch. 18-19). In 1429-30 he writes, pays and argues to stop the coronation; his envoy [Baltramiejus Rogala](rogala.qmd) wears Henė's golden chain and is sent to stop the crown at the Noteć ford (ch. 20, 23); he arrives in Lithuania with Jogaila in October 1430 (ch. 24). The "Gold-Glutton" works through his seals and ledgers, though he serves it unknowingly.
+- **Book V (1430-1447).** He is the king's voice, the only one whose words reach the deaf Jogaila "whole, without holes": beside him through Jadwiga's death in 1431 (ch. 6) and the last illness of 1434 (ch. 12). At Grodno in 1432 he reads the king's act in Latin and receives Žygimantas's oath for life (ch. 10); his letters to Žygimantas are the politest ones, and the Grodno rope ends in Kraków (ch. 18). His black-wax seal ("so the council decided") runs the childhood of Casimir (ch. 23), and at Casimir's coronation feast in 1447 he raises a cup "like a man who has lost a game and is preparing for the next" (ch. 26).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+**Tier 0**; a statesman, not a sorcerer. The **Gold-Glutton** (Aukso Rijūnas) prospers around his ledgers, seals and the warm coin on his desk, and the golden chain from Krėva resurfaces on one of his envoys (`world_rules/power_systems.md` §5), but he serves neither knowingly. He believes superstition is an error, not a sin: told that the chain may be cursed, he orders it worn until September and then given to the cathedral with a Mass "for the one who wore it" (Book IV ch. 20). The cost of his skill falls on others: Vytautas's last years, Rogala's silent inhale, and the Lithuanian line he out-waits.
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** Born 5 Dec 1389 at Sienno; royal secretary to Jogaila; fought at Grunwald (15 Jul 1410), where Długosz makes him the rescuer of Jogaila with a broken spear; Bishop of Kraków from 9 Jul 1423 (consecrated 19 Dec 1423), appointed cardinal on 18 Dec 1439 by Eugene IV (the antipope Felix V also named him in 1440); died 1 Apr 1455 at Sandomierz. Leading opponent of Vytautas's coronation, present at Lutsk (Jan 1429), sent with Mikołaj Białucha to Vytautas at Grodno in the autumn of 1429, and came to Lithuania with Jogaila in October 1430; Szybkowski places him elsewhere at the Łęczyca council in August 1430. He opposed the Hussites and invited Capistrano to Kraków; in the 1430s he fought Spytko III of Melsztyn (d. 4 May 1439 at Grotniki); effective regent for Władysław III, whom he backed in taking the Hungarian crown and the crusade that ended at Varna (10 Nov 1444); then managed Poland while Casimir IV was in Lithuania. At Grodno (15 Oct 1432) he received Žygimantas Kęstutaitis's oath in the king's name. Sources: Catholic-Hierarchy; en.wikipedia (cardinal); VLE; Długosz; Szybkowski 2010, Bar 2017.
+- **[Saga invention]:** The warm coin, the "Polish fear" speech ("I need him not to have time"), the golden chain that reaches him through Rogala, the ink-brewing and door-watching tells, and his private conversation with Vytautas at Lutsk in which he says he prays for the duke's long life because he fears what follows him. The record does not say who intercepted the crown or how: the saga's chest of dry leaves and Rogala are invention.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**ZBIG-nyef o-lesh-NEETS-kee** · IPA /ˈzbʲiɡɲɛf ɔlɛɕˈɲit͡skʲi/ · English sound-alike "ZBEEG-nyef oh-lesh-NEETS-kee". Polish. In Lithuanian text Zbignevas Olesnickis (the standard form, VLE).
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+- **Book III:** ch. 13 (Brest), 20 (Grunwald), 24 and 30 (his chapter, "Ink") and the afterword.
+- **Book IV:** ch. 2, 14 (his chapter), 18-20, 22, 24 and the afterword.
+- **Book V:** ch. 6, 10, 12, 18, 23, 26 and the afterword.
+
+Continuity: Book III ch. 30 (1411) shows him with a bishop's ring, although he became bishop only in 1423; Book IV uses "Olesnickis" for the surname and "Zbignevas iš Olesnicos" only in ch. 2.
+

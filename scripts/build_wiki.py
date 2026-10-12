@@ -12,14 +12,20 @@ What it does:
     timeline, and a 1-hop relation graph. Pages pull it in with {{< include >}}.
   * Regenerates section indexes, the timeline page, and copies the world-bible
     docs into wiki/codex/ (generated, git-ignored).
+  * If world_rules/graph/statblocks.json exists, renders a D&D-style stat block (creature / god /
+    force), spell card or magic-item card into each node's generated include, right after the
+    infobox. Missing or partial data is fine: nodes without an entry simply get no block.
 Stdlib only.
 """
 from __future__ import annotations
 
 import argparse
+import html
 import json
+import os
 import re
 import shutil
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -30,6 +36,8 @@ TEMPLATES = WIKI / "_templates"
 IMAGES = WIKI / "images"
 IMAGE_EXTS = (".jpg", ".jpeg", ".webp", ".png")
 CREDITS = IMAGES / "credits.json"     # written by scripts/fetch_wiki_images.py; AI images have no entry
+# Stat-block data (owned by the data agent / canon docs). Optional; STATBLOCKS=<path> overrides it for tests.
+STATBLOCKS = Path(os.environ.get("STATBLOCKS") or ROOT / "world_rules" / "graph" / "statblocks.json")
 GEN = WIKI / "_generated"
 CODEX = WIKI / "codex"
 
@@ -156,7 +164,133 @@ def book_banner(n):
     return []
 
 
-def infobox(n, nodes, out_e, in_e, events_of, prog):
+# ---------------------------------------------------------------------------------------------
+# Stat blocks (world_rules/graph/statblocks.json -> raw HTML in wiki/_generated/<id>.md)
+# ---------------------------------------------------------------------------------------------
+KIND_BY_TYPE = {"creature": "creature", "god": "god", "force": "force", "school": "spell",
+                "element": "spell", "pact": "spell", "artifact": "item"}
+KIND_LABEL = {"creature": "Creature", "god": "God", "force": "Force", "spell": "Spell", "item": "Item"}
+_LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
+_STRONG = re.compile(r"\*\*(?=\S)(.+?)(?<=\S)\*\*")
+_EM = re.compile(r"(?<![\w*])\*(?=[^\s*])(.+?)(?<=[^\s*])\*(?![\w*])|(?<![\w])_(?=[^\s_])(.+?)(?<=[^\s_])_(?![\w])")
+
+
+def inline_md(text) -> str:
+    """Tiny inline-Markdown subset -> HTML: [text](url), **strong**, *em* / _em_. Everything else is escaped."""
+    text = re.sub(r"\s+", " ", str(text)).strip()
+    parts = []
+
+    def stash(m):                       # links first, so '*' / '_' inside URLs are never touched
+        url = m.group(2)
+        url = re.sub(r"\.qmd(?=$|#)", ".html", url)
+        parts.append(f'<a href="{html.escape(url, quote=True)}">{inline_md(m.group(1))}</a>')
+        return f"\x00{len(parts) - 1}\x00"
+
+    out = html.escape(_LINK.sub(stash, text), quote=False)
+    out = _STRONG.sub(r"<strong>\1</strong>", out)
+    out = _EM.sub(lambda m: f"<em>{m.group(1) or m.group(2)}</em>", out)
+    return re.sub(r"\x00(\d+)\x00", lambda m: parts[int(m.group(1))], out)
+
+
+def load_statblocks() -> dict:
+    """Return {node_id: entry}; {} when the file is missing, empty or unreadable (never fails the build)."""
+    if not STATBLOCKS.is_file():
+        return {}
+    try:
+        data = json.loads(STATBLOCKS.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        print(f"warning: cannot read {STATBLOCKS.name}: {exc}; building without stat blocks", file=sys.stderr)
+        return {}
+    if not isinstance(data, dict):
+        print(f"warning: {STATBLOCKS.name} must be a JSON object keyed by node id; ignoring it", file=sys.stderr)
+        return {}
+    return {k: v for k, v in data.items() if not k.startswith("_") and isinstance(v, dict)}
+
+
+def _pairs(items, what, nid):
+    """Yield (label, text) pairs from a list of [label, text] items, skipping malformed ones."""
+    for it in items or []:
+        if isinstance(it, (list, tuple)) and len(it) >= 2 and it[0] is not None:
+            yield str(it[0]), "" if it[1] is None else str(it[1])
+        else:
+            print(f"warning: statblocks[{nid}].{what}: skipped malformed item {it!r}", file=sys.stderr)
+
+
+def statblock_html(n, sb) -> str:
+    """Raw-HTML block (pandoc ```{=html} fence) for one node's stat block, or '' if there is nothing to show."""
+    nid = n["id"]
+    kind = sb.get("kind") or KIND_BY_TYPE.get(n["type"], "creature")
+    if kind not in KIND_LABEL:
+        print(f"warning: statblocks[{nid}]: unknown kind {kind!r}, using creature", file=sys.stderr)
+        kind = "creature"
+    fields = list(_pairs(sb.get("fields"), "fields", nid))
+    sections = []
+    for sec in sb.get("sections") or []:
+        if isinstance(sec, dict) and sec.get("title"):
+            sections.append((str(sec["title"]), list(_pairs(sec.get("entries"), f"sections[{sec['title']}]", nid))))
+        else:
+            print(f"warning: statblocks[{nid}].sections: skipped malformed section {sec!r}", file=sys.stderr)
+    if not fields and not sections:
+        return ""
+    subtitle = str(sb.get("subtitle") or "").strip()
+    source = str(sb.get("source") or "").strip()
+    size = len(subtitle) + sum(len(a) + len(b) for a, b in fields) + sum(len(a) + len(b) for _, es in sections for a, b in es)
+    out = []
+    add = out.append
+    rule = '<div class="sb-rule"></div>'
+
+    def entry(name, text):
+        return f'<p class="sb-entry"><strong><em>{inline_md(name).rstrip(".")}.</em></strong> {inline_md(text)}</p>'
+
+    def sections_html():
+        return [f'<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">{inline_md(t)}</div>'
+                + "".join(entry(a, b) for a, b in es) + "</div>" for t, es in sections]
+
+    src = f'<div class="sb-source"><span>Source:</span> {inline_md(source)}</div>' if source else ""
+    label = html.escape(f"{n['name']} ({KIND_LABEL[kind].lower()})", quote=True)
+    if kind in ("creature", "god", "force"):
+        size_cls = "sb-wide" if size > 1300 else "sb-compact"
+        add(f'<div class="statblock sb-{kind} {size_cls}" role="group" aria-label="{label}">')
+        add('<div class="sb-bar"></div><div class="sb-body">')
+        add(f'<div class="sb-name">{inline_md(n["name"])}</div>')
+        if subtitle:
+            add(f'<div class="sb-sub">{inline_md(subtitle)}</div>')
+        add(rule)
+        for k, v in fields:
+            add(f'<p class="sb-prop"><strong>{inline_md(k)}</strong> {inline_md(v)}</p>')
+        for i, block in enumerate(sections_html()):
+            if i == 0 and fields:
+                add(rule)
+            add(block)
+        add("</div>" + src + '<div class="sb-bar"></div></div>')
+    elif kind == "spell":
+        add(f'<div class="statblock sb-card sb-spell" role="group" aria-label="{label}">')
+        add(f'<div class="sb-name">{inline_md(n["name"])}</div>')
+        if subtitle:
+            add(f'<div class="sb-sub">{inline_md(subtitle)}</div>')
+        add(rule)
+        if fields:
+            add('<dl class="sb-grid">' + "".join(
+                f'<div class="sb-cell"><dt>{inline_md(k)}</dt><dd>{inline_md(v)}</dd></div>' for k, v in fields) + "</dl>")
+        add("".join(sections_html()) + src + "</div>")
+    else:  # item
+        rarity = next((v for k, v in fields if k.strip().lower() == "rarity"), "")
+        rest = [(k, v) for k, v in fields if k.strip().lower() != "rarity"]
+        line = ", ".join(x for x in (subtitle, rarity.lower() if rarity else "") if x)
+        add(f'<div class="statblock sb-card sb-item" role="group" aria-label="{label}">')
+        add(f'<div class="sb-name">{inline_md(n["name"])}</div>')
+        if line:
+            add(f'<div class="sb-rarity"><em>{inline_md(line)}</em></div>')
+        add(rule)
+        for k, v in rest:
+            add(f'<p class="sb-prop"><strong>{inline_md(k)}</strong> {inline_md(v)}</p>')
+        if sections and rest:
+            add(rule)
+        add("".join(sections_html()) + src + "</div>")
+    return "```{=html}\n" + "\n".join(out) + "\n```\n"
+
+
+def infobox(n, nodes, out_e, in_e, events_of, prog, statblocks=None):
     rows = [("Type", n["type"])]
     if years(n):
         rows.append(("Years", years(n)))
@@ -186,6 +320,8 @@ def infobox(n, nodes, out_e, in_e, events_of, prog):
     out += ["| | |", "|---|---|"]
     out += [f"| **{k}** | {v.replace('|', '/')} |" for k, v in rows]
     out += ["", ":::", ""]
+    sb = (statblocks or {}).get(n["id"])
+    block = statblock_html(n, sb) if sb else ""
 
     groups = defaultdict(list)
     for e in out_e.get(n["id"], []):
@@ -204,6 +340,9 @@ def infobox(n, nodes, out_e, in_e, events_of, prog):
         for lab in sorted(groups):
             out.append(f"**{lab}:** " + " · ".join(sorted(set(groups[lab]))))
             out.append("")
+    # stat block after the relations, so relations flow beside the floated infobox
+    if block:
+        out += [block]
 
     evs = sorted(events_of.get(n["id"], []), key=lambda ev: (ev["year"], ev.get("date", "")))
     if evs and n["type"] != "event":
@@ -374,10 +513,14 @@ def main():
         if e["type"] == "occurs_at" and s["type"] == "event":
             events_of[t["id"]].append(s)
 
+    statblocks = load_statblocks()
+    for sid in statblocks:
+        if sid not in nodes:
+            print(f"warning: statblocks.json has an entry for unknown node id {sid!r}; ignored", file=sys.stderr)
     created = 0
     for n in nodes.values():
         created += ensure_page(n)
-        (GEN / f"{n['id']}.md").write_text(infobox(n, nodes, out_e, in_e, events_of, prog), encoding="utf-8")
+        (GEN / f"{n['id']}.md").write_text(infobox(n, nodes, out_e, in_e, events_of, prog, statblocks), encoding="utf-8")
     write_indexes(nodes)
     write_timeline(nodes)
     write_image_credits(nodes)
@@ -385,7 +528,8 @@ def main():
     write_explorer(data, WIKI / "graph-explorer.html", standalone=True)
     if args.explorer_out:
         write_explorer(data, Path(args.explorer_out), standalone=False)
-    print(f"wiki: {len(nodes)} entities ({created} new pages from templates), {len(listed)} codex docs")
+    n_sb = sum(1 for i in statblocks if i in nodes)
+    print(f"wiki: {len(nodes)} entities ({created} new pages from templates), {len(listed)} codex docs, {n_sb} stat blocks")
 
 
 if __name__ == "__main__":

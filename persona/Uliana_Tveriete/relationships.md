@@ -1,4 +1,4 @@
-# Julijona of Tver: Relationships
+# Uliana of Tver: Relationships
 
 ## Kin
 *   **Jogaila**: Her favourite and greatest success. She guided his early reign.

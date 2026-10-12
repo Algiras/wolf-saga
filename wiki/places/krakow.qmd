@@ -8,15 +8,21 @@ categories: [place]
 {{< include ../_generated/krakow.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+Kraków (Lith. *Krokuva*) was the royal seat of Poland, with the royal castle and Gothic cathedral on the Wawel hill above the Vistula. Jadwiga was crowned *rex* of Poland there on 16 October 1384. **Jogaila was baptised as Władysław on 15 February 1386, married Jadwiga on 18 February and was crowned on 4 March**; VLE says Vytautas was baptised again (as Aleksandras) here in the same year. Jadwiga gave birth to a daughter, Elżbieta Bonifacja, on 22 June 1399 and died on 17 July (the child died on 13 July and was buried in her arms); her will bequeathed jewels to refound the Kraków University, which reopened in 1400. After Grunwald Jogaila returned in triumph in autumn 1410. His second wife Sophia of Halshany bore Władysław (31 Oct 1424) and Casimir (late November 1427); Jadwiga Jagiellonka died in Kraków on 8 December 1431. Jogaila died at Gródek on 1 June 1434 and was buried on Wawel on 18 June; his youngest son Casimir was crowned here on 25 June 1447 by Archbishop Wincenty Kot. Sources: VLE; en.wikipedia (Jogaila, Jadwiga, Sophia of Halshany, Casimir IV).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A Gothic city of brick and limestone rising above a wide river: the Wawel's towers, a market square with stalls and the Cloth Hall, a cathedral with golden Gothic vaults, and a royal court of Polish nobles in colourful dress. Bells of dozens of churches, Latin chant, the clatter of carts on cobbles and wood-block lanes, the smell of coal smoke, tallow, fur and spiced wine, and the Vistula's barges. Autumn and spring mean mud and fog off the river; the cold of winter in the castle is only softened by tiled stoves.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+**The White Silence's cathedral.** The crown that Jogaila takes is the instrument of the Shadow-Seller's long bargain: Jadwiga is the Silence's "vessel", a mortal queen whose crowning and death mark the first and last beats of its reign. In Book II Jadwiga's death scene is also the saga's farewell to the old century; in Book V Jogaila's burial and Casimir's coronation turn the page. The Polish court is where Oleśnicki's scheming lives; the cathedral's golden chain (Book IV) comes to rest here.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+From Vilnius 750-850 km, three to four weeks on horse, six on foot; embassies and the king's winter journey of 1387 took that long. From Lutsk about 390 km straight (c. 480 km by road, two weeks). From Lublin about 230 km straight; from Horodło on the Bug 340 km (ten to twelve days). From Warsaw about 250 km. From Buda about 290 km straight (c. 400 km by road, ten to twelve days). From Gródek near Lviv 330 km (ten days with a litter; Jogaila's body took ten days, 1-11 June 1434).
 
 ## Scenes set here
+
+Book I ch. 29 (offstage: the baptisms of 1386 recalled); Book II ch. 21 *Krokuva, Vavelio pilis* (Jadwiga's death, 22 Jun-17 Jul 1399); Book III ch. 3 (after Radom), ch. 24, ch. 27 *Jogailos sielvartas*, ch. 30 (the royal chancery); Book IV ch. 14 (1424-27), ch. 20 *Lenkų baimė* (1429-30); Book V ch. 6 (December 1431), ch. 12 (the old king's death, recalled), ch. 26 (the 1447 coronation).

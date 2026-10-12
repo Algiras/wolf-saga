@@ -8,15 +8,23 @@ categories: [place]
 {{< include ../_generated/vilnius.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+Vilnius, the Grand Duchy's capital since at least 1323 (Gediminas's letters), sits where the Vilnia meets the Neris. In the 1380s it has three castles: the brick **Upper Castle** on Gediminas hill; the walled **Lower Castle** on the flat below, with the ducal residence and the site of the later cathedral; and the wooden **Crooked Castle** on the Bald Hill across the Vilnia. The town is mostly timber and mixed: Lithuanian pagans, an Orthodox Ruthenian quarter, a German-Catholic merchant colony with Franciscans. The Order attacked it in 1365, 1375, 1377, 1383, 1390, 1392, 1394 and 1402.
+
+Key dates: Kęstutis took the city in autumn 1381; Hanulas and the townsfolk handed it to Jogaila on 12 June 1382; the baptism of Lithuania came in early 1387, with the Vilnius bishopric (charter 17 Feb) and Magdeburg rights (22 Mar); the siege of 11 Sep to 7 Oct 1390 destroyed the Crooked Castle (fell 16 Sep; it was never rebuilt) and killed Jogaila's brother Karigaila; Union of Vilnius and Radom, 18 Jan 1401; a fire in 1419 burned the cathedral and castle, and Vytautas rebuilt the Upper Castle (finished 1422). Vytautas was buried in the cathedral beside Ona (St Michael's altar). Casimir was proclaimed Grand Duke here on 29 June 1440 and issued his privilege on 2 May 1447 (VLE: 5 May). Sources: VLE, en.wikipedia (Vilnius Castle Complex, Siege of Vilnius).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+Hills above rivers: mist in the Vilnia valley, the Neris running broad and brown below the Upper Castle, the smell of wood smoke, flax-retting, tanneries on the stream, tallow and beeswax. A city of timber with brick only in the castles; before 1387 pagan groves stand inside it, and the sound is the Orthodox bells of the Ruthenian quarter, a Franciscan bell, and a crowd speaking three tongues. In winter the Neris freezes and sledges cross it; autumn brings rain and mud, and in spring the thaw. After 1387 comes the ring of masons, lime and scaffolding at the new cathedral. After the siege of 1390 the Crooked Castle's hill is charred.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+The city of the **Šventaragis flame** until 1387, then the city of the White Silence. In Book I the Crooked Castle is only "the third castle," old and wooden, so that in Book II it can burn: Vytautas's own fire against his own city. The Iron Wolf of the founding legend howls on Gediminas hill. After the baptism the Silence lies over court and cathedral, and under the cathedral the old grove's ashes and, in Book V, the crypt where Vytautas lies. Hanulas, who opens the city to Jogaila in 1382, is the Shadow-Seller's first mask. The record's "seven hills" Rome echo is avoided: the saga names Gediminas hill, the Bald Hill and Table Hill.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Trakai is 25 km west (28-32 km by road, half a day on horse); Kernavė about 35 km north-west on the Neris. Vilnius to Krėva is about 77 km straight, 90-105 km by road via Medininkai (30 km) and Ašmena: two days by horse, or one long day at best; a prisoner convoy takes two to three. To Kaunas, 95 km (100 km by road, two and a half days; by the Neris, 180-200 km of river, four to five days downstream). To Marienburg, 550-650 km via Kaunas, Insterburg, Königsberg and Elbing: 13-16 days. To Kraków 750-850 km (three to four weeks); to Kyiv 750-800 km (three to four weeks); to Palanga 350-400 km (eight to ten days, four with relays).
 
 ## Scenes set here
+
+Prologue (the grove at Šventaragis valley); Book I ch. 26 *Susitikimas peleninėje* (July 1384), ch. 28 (the Lower Castle that autumn), ch. 29 *Krikštas* (the Neris, February 1387); Book II ch. 3 (winter 1387-88), ch. 5 (autumn 1389), ch. 7 *Kreivoji pilis* (1390 siege), ch. 20 (winter 1398-99); Book III ch. 3 (Vilnius and Radom, 1401), ch. 24; Book IV ch. 1, 10, 12, 24 (the coronation that does not happen); Book V ch. 2 (Vytautas's funeral), ch. 3, 17, 20 *Katedros kripta* (1439), 21, 23 (Casimir, 29 June 1440), 26 (the 1447 privilege); Book VI ch. 1-4, 6-8, 15, 23, 26.

@@ -12,14 +12,16 @@ categories: [place]
 On 20 July 1382 Trakai fell to Jogaila and the Order; the armies then stood facing each other near the town for two weeks. On 3 August Kęstutis and Vytautas were persuaded by Skirgaila to come to talks at Jogaila's camp, where both were arrested (VLE, Skirgaila; en.wikipedia).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A summer camp in a lake and pine country: sandy ground under pine, birch and aspen, long evenings off the water, the smell of tar, horse dung, cook-smoke and resin, and in the night a faint damp from the lakes. In early August the days are hot and the nights cool; mosquitoes and midges near the reeds. The sound of an army camp is large (smiths, farriers, drilling, dogs), which is why the saga's camp is eerie: the loudest noises have been taken out and the field feels padded, as if the camp itself is listening. The palisade is raw yellow timber still oozing sap, the gate fresh-sawn oak with iron straps, the manor a low timber house with a shingle roof and a barn behind it.
 
 ## In the saga
 
 Book I's camp: a palisaded field between the lakes and the pines, a requisitioned Trakai manor as the negotiating hall, tents beyond the manor fence, an iron-bound gate made by the Order's carpenters in a few days (the "Iron Gates"). Sound dies inside it.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+The camp stood outside Trakai, on the Vilnius side, a short ride from the lake town. Trakai to Vilnius is about 25 km straight (28-32 km by road), half a day on horseback; the camp is then within a morning's ride of Jogaila's capital and of the Order's marching route down the Neris. From Kęstutis's pine hill beyond the lake it was an afternoon's ride. After the arrest the prisoners were taken to Krėva: Trakai to Krėva is about 90 km (110-125 km by route), about two and a half days on horseback with a guard, three with a captive convoy through Vilnius, Medininkai and Ašmena. Kęstutis was found dead there on 15 August, twelve days after the arrest.
 
 ## Scenes set here
 

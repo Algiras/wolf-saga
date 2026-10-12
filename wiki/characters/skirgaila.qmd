@@ -12,22 +12,31 @@ categories: [character]
 Skirgaila (c. 1354-11 Jan 1397), Duke of Trakai from 1382 (until 1392), Jogaila's governor (regent) of Lithuania from 13 Mar 1386, took Polotsk in April 1387, held Kyiv from 1395; died in Kyiv, circumstances unclear.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+A strong, martial man who is seen in armour even off the field, with a cold, calculating face, "the look of a man who knows where the bodies are buried, because he put them there", and a prominent scar across his knuckles. At five he is a small, thin, dark-haired boy staring distrustfully at Vytautas and talking about armour (Book VI ch. 26); at twenty-eight he is the family's "iron hand", loyal, brutal and never thanked. In Book II he is red-faced and wet with drink, hands that do not know where to put themselves, drunk on Trakai and on being the regent; he feasts in Kęstutis's hall with Kęstutis's rusting sword on the wall (Book II ch. 1).
+
+His tells are the oath and the cup: the safe-conduct he swears on Perkūnas in Book I and breaks, and the alternating bouts of drinking, explosive violence and deep depression. Once Henė holds his stone he juggles it, or is juggled, in dreams (Book III ch. 27).
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | Security and recognition: to make Jogaila's throne absolute and be seen as more than 'the hands'; Trakai is the prize he finally gets. |
+| **Need** (internal) | To be valued without having to earn it with another man's crimes, and to act for himself rather than as someone's instrument. |
+| **Lie** they believe | The survival of the dynasty justifies any crime, and a loyal servant will be rewarded for it. |
+| **Truth** they learn (or refuse) | He is a tool the Shadow-Seller will use and discard: the price of his bargain is to be used up, and Henė collects it in Kyiv in January 1397. |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book VI (prequel).** A five-year-old at Kęstutis's fire in 1359, boasting about armour (ch. 26); Algirdas's son and Jogaila's elder brother, brought up in the Orthodox, Ruthenian court of Uliana of Tver.
+- **Book I (1382-1387), the hands.** He gives the safe-conduct oath on Perkūnas under which [Kęstutis](kestutis.qmd) and [Vytautas](vytautas.qmd) ride to Jogaila's camp near Trakai (ch. 5-6) and breaks it by seizing them on 3 Aug 1382; his men massacre the loyal guard in the tents (ch. 7) and he is believed to have ordered the strangling (ch. 8-9). He releases Ona to track Vytautas, hunts him through the Dykra (ch. 12-15), and at the 1384 settlement keeps Trakai (ch. 28-28b), "the villain wins the land". In the Krėva cell in 1387 he meets Henė with three stones, one wobbling (ch. 30).
+- **Book II (1387-1397), Henė's puppet.** Regent and Duke of Trakai, drunk and jealous in Kęstutis's hall (ch. 1); he holds Vilnius against Vytautas and the Order in 1390 (ch. 7), loses Trakai and the regency at Ostrów in August 1392 (ch. 10), is compensated with Kyiv (ch. 13) and dies there on 11 Jan 1397 (ch. 16). Henė drops the first stone (three become two).
+- **Book III-IV (afterlife).** His Kyiv court hides Kęstutis's sword among twelve identical chests (Book III ch. 2); his shade stands in Jogaila's guilty dream and speaks with Henė's voice (Book III ch. 27); the Krėva secret is finally said aloud in Henė's voice through "Skirgaila's mouth" in Book IV ch. 26.
+- **Book V:** a memory in the Krėva guilt (ch. 12, 15, 19).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+**Tier 0**; his power is **bought**. At Krėva in 1387 he bargains with the Shadow-Seller, and the price is "to be used and discarded"; one of Henė's three blackened stones is his (`world_rules/power_systems.md` §5). The cost shows in his drinking and his moods, and when the bargain is collected in Kyiv (11 Jan 1397) Henė's hand count falls from three stones to two. His broken **safe-conduct oath** (sworn on Perkūnas, August 1382) draws the god's enmity to his line (`power_systems.md` §2.6). The poisoning rumour around his death is mundane herb-lore if true (§2.4); the saga never says who did it.
 
 ## Record vs saga
 
@@ -35,7 +44,17 @@ Skirgaila (c. 1354-11 Jan 1397), Duke of Trakai from 1382 (until 1392), Jogaila'
 - **[Saga invention]:** The safe-conduct oath on Perkūnas, the book of names, Henė's stone, the monk Pachomijus (Book II).
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**skir-GAI-la** · IPA /skʲɪrˈɡɐɪɫɐ/ · English sound-alike "skihr-GUY-lah". Stress on the second syllable (the diphthong *ai* as in "guy"). Orthodox name Ivan; baptised Catholic Kazimierz in 1386.
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+- **Book I:** ch. 1-10, 12, 13, 15-19, 21, 28, 28b, 30.
+- **Book II:** ch. 1, 5-7, 9-13, 15-17, 20, 29 and the afterword.
+- **Book III:** ch. 2, 5, 8, 24, 27.
+- **Book IV:** ch. 21, 24, 26, 29.
+- **Book V:** ch. 6, 12, 15, 19, 24 (memory and Henė's reckoning).
+- **Book VI:** ch. 15, 26, 29.
+
+Continuity: in Book I he holds Trakai from 1382 (the record), not from the 1384 settlement; the 1387 date for "regent" in Book II follows VLE, while the 13 Mar 1386 date (Frost 2015) is in the fact-check notes (`books/2/notes/fact_check.md`).
+

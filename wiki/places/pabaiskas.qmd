@@ -8,15 +8,21 @@ categories: [place]
 {{< include ../_generated/pabaiskas.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+Pabaiskas lies near the Šventoji river about 9 km south of Ukmergė (Vilkmergė, Pol. *Wiłkomierz*). The **battle of 1 September 1435** (also the Battle of Wiłkomierz or of the Šventoji) was fought here between Švitrigaila's army (about 11,000, including the Livonian knights, at least 500 Tatars, and some Teutonic Knights) and the forces of Žygimantas Kęstutaitis under his son **Mykolas Žygimantaitis** with about 4,000 Poles under Jakub Kobylański. Lake Žirnajai and a marshy creek (Žirnaja or Vintara) first separated the armies; two days later, when Švitrigaila and the Livonian master Franke Kerskorff moved toward Ukmergė, Žygimantas's side attacked while a rivulet had split the enemy host, which broke in panic; many drowned in the Šventoji. Kerskorff, his marshal and several komturs were killed; Žygimantas Kaributaitis was wounded, captured and died days later; Švitrigaila fled to Polotsk with about 30 followers; the winners hunted survivors for 15 days. It was the last big battle of the Lithuanian crusade and broke the Livonian Order. Sources: en.wikipedia (Battle of Wiłkomierz); VLE.
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A river valley of lakes, reed-fringed creeks and rye stubble on the first day of September: damp mist at dawn burning off to heat, the dull sound of bridle chains, drums and horn, the smell of river mud, wet wool and rotting reeds. After the rout the Šventoji is full of drowned horses and men; the dead are not buried for days, and crows, ravens and wolves arrive in the same hour.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+**Kin-slaughter, worse than the crusades.** The unburned dead and the Unbinding at its height. In Book V ch. 13 Pilkoji and twelve wolves watch from the pines; the rule that a wolf does not shed Gediminid blood keeps them out of a battle between two Gediminid hosts. Afterwards (ch. 16) she burns the dead on the slope, hundreds of pyres, and a Polish captain asks who allowed her to burn Christians. The Livonian knights' defeat ends the Order's long century of war on Lithuania.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Ukmergė is 9 km north. Vilnius is about 75 km south-east (95 km by road, two to three days). Kernavė about 40 km, Kaunas about 70 km. Polotsk, where Švitrigaila fled, lies some 250 km north-east (six or seven days with a few followers). Riga is about 200 km north.
 
 ## Scenes set here
+
+Book V ch. 13 *Pabaisko laukas* (the field, 1 Sep 1435), ch. 14 *Mirštantis ordinas* (the ford of the Šventoji), ch. 16 *Nedegintųjų žiema* (Pabaiskas and Ukmergė, autumn 1435-spring 1436).

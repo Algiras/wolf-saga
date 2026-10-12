@@ -1,0 +1,24 @@
+---
+title: "Pontoon bridge over the Vistula at Czerwińsk"
+id: ev_czerwinsk_bridge
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_czerwinsk_bridge.md >}}
+
+## What the chronicles say [Record]
+
+The allied army crossed the Vistula at [Czerwińsk](../places/czerwinsk.qmd) on a pontoon bridge prepared near Kozienice in winter and spring 1410 (the timber from the Radom Forest, master Jarosław of Kozienice), floated downstream about 29 June and assembled in roughly half a day on 30 June. The king and most of the Lesser Poland troops crossed that day, the Lithuanians arrived the same day; the crossing lasted until 2 July (a Polish source says 3 July). The exact spot above the monastery is uncertain (en.wikipedia, Czerwińsk Floating Bridge).
+
+## What really happened [Saga]
+
+The saga watches it through [Žiežirba](../characters/flame_keeper.qmd): the wolves lie in the alders on the north bank and smell the dust and the thousands of men crossing from the south (Book III ch. 15). The wolves' presence is invention.
+
+## Consequences
+
+Leads to [Grunwald](ev_grunwald.qmd) (15 July 1410).
+
+## Dramatisation
+
+Book III ch. 15 *Tiltas per Vyslą* (Žiežirba; 30 June to 2 July 1410).

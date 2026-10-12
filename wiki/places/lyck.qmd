@@ -12,14 +12,16 @@ categories: [place]
 Lyck (Ełk), where the treaty of 19 Jan 1390 was signed ([event](../events/ev_lyck_1390.qmd)).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+In January 1390 the place is a wooden fortress on a narrow neck of land between two lakes, with plank ramparts and palisades heavy with rime, ice thick on both waters, and the smoke from the timber hall hanging flat in frozen air. A winter castle smells of tallow, wet felt and smoked fish; the lakes boom at night as the ice contracts. The silence of the Masurian lake country in deep winter makes small sounds carry: a latch, a horse blowing, the creak of the sentry's boots on the walkway. The Order's brick castle is documented only from 1398, so in the winter of 1390 there is no stone to speak of; the consecrated relic the chaplain holds is the one hard, cold thing in the place.
 
 ## In the saga
 
 A consecrated stone dims the pebble.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Lyck (Ełk) lies in Sudovia, on the Order's side of the old Wildnis, a little over 100 km from Grodno (straight line) and about 190 km from Trakai (route 250-280 km, seven to eight days by horse, much of it through the border forest). To Königsberg it is about 160 km straight (5-6 days), to Marienburg 220 km (280-320 km by route, seven or eight days), and to Rastenburg (Kętrzyn) about 80 km. Vytautas's winter ride from Grodno across the frozen marsh belt would take four days; a sledge on lake ice could do it faster. Treaties were signed here because it lay inside Order territory yet close enough to Lithuania that Vytautas could come and go without announcing himself.
 
 ## Scenes set here
 

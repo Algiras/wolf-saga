@@ -1,0 +1,20 @@
+---
+title: "Dargis (Palanga fisherman)"
+id: dargis
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/dargis.md >}}
+
+## Summary
+
+Dargis is the fisherman husband of [Rimgailė](rimgaile_palanga.qmd). When the keeper collapses on the sand by the burning kneeling statue in December 1449, Rimgailė calls and Dargis comes running bare-headed, staring at the fire and at the stranger; by the end of a month he is lifting the sick man from the bench by the hand.
+
+## Record vs saga
+
+- **[Saga invention]:** Dargis and his household are invented; Palanga's fishing families are the setting, not a record.
+
+## Appearances
+
+**Book V:** ch. 25 (a Dargis already named among the Palanga fishers), ch. 29.

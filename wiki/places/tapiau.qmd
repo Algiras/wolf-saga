@@ -8,15 +8,21 @@ categories: [place]
 {{< include ../_generated/tapiau.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+Tapiau (Lith. *Tepliava*; Rus. *Gvardeysk*) is an Order castle about 38 km east of Königsberg on the Pregel, where the Deime branches north to the Curonian Lagoon. The Order built a wooden fort here between 1283 and 1290 to guard Sambia; a stone castle replaced it in 1351. **Vytautas was baptised here as "Wigand" on 21 October 1383** (VLE and lt/en Wikipedia; the pl Wikipedia gives 12 October and names the godfather as Wigand von Beldersheim, komtur of Ragnit; one en.wikipedia entry says 1385). His brother Tautvilas was baptised Kondrat the same day. The act is the first of several pledges to the Order: the vassalage treaty is the later Königsberg treaty of 30 January 1384. Sources: VLE (Vytautas), en.wikipedia (Gvardeysk, Tapiau Castle).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A river-junction castle on a green floodplain, boats at the quay, swans in the reeds, a chapel with high narrow windows. In late October the light is white and cold, the leaves falling, the smell of wet stone, tallow and Latin incense. Inside the chapel the sounds are the creak of the font cover, the priest's voice speaking a name the baptised does not understand, and water that is deeply cold. Outside: gulls, boats, bells, a long wind from the lagoon.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+**The lying baptism.** Vytautas takes the Order's name and the amber in his pouch dies at once (magic §5.4), "like a smothered bird"; the saga uses the junction as an image of water that runs two ways. The chapter makes the oath an alliance oath and the title vassal come later. The silence of the amber is recalled again at Krėva (1385) and in Book II.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Tapiau lies 38 km east of Königsberg: a day's ride, or one day downstream by boat. It is about 70 km from Ragnit and about 40 km from the lagoon. By water from Kaunas, via the Nemunas, the lagoon and the Deime, it is on the route of 300-320 km (six to nine days downstream), which is how Vytautas arrives in the saga: by boat from the Nemunas. From Marienburg about 190 km, six or seven days.
 
 ## Scenes set here
+
+Book I ch. 19 *Velnio sandėris* (21 Oct 1383, the chapel), ch. 20 *Svetimi dievai* (the aftermath); recalled in ch. 28b and 29, Book II ch. 20, Book III ch. 2 and ch. 28.

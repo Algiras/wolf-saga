@@ -1,0 +1,20 @@
+---
+title: "Gedvilė (Rimgailė's granddaughter)"
+id: gedvile
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/gedvile.md >}}
+
+## Summary
+
+Gedvilė is [Rimgailė](rimgaile_palanga.qmd)'s granddaughter: eight years old in 1450, long-legged, with a scarred knee from climbing on boats. She keeps sweeping the stone where the kneeling woman stood. In the 1553 epilogue she is the mother of the narrator's grandfather (born about 1459), so the line that keeps the silver wolf and the Kūčios litany runs through her.
+
+## Record vs saga
+
+- **[Saga invention]:** All of it.
+
+## Appearances
+
+**Book V:** ch. 29, 30.

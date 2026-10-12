@@ -1,0 +1,20 @@
+---
+title: "Ragnit (Ragainė)"
+id: ragnit
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/ragnit.md >}}
+
+## In the 1380s-1400s [Record]
+
+An Order castle on the Nemunas, about 60 km below Jurbarkas ([Jurbarkas](jurbarkas.qmd)) and about 70 km from [Tapiau](tapiau.qmd). Its komtur in 1390 was [Marquard von Salzbach](../characters/marquard.qmd); he brought the Order's knights to Vytautas by the Salynas treaty and fought at the Vorskla in 1399.
+
+## In the saga
+
+Book I ch. 19 has Vytautas baptised with the komtur of Ragnit, Wigand von Baldersheim, as godfather (the record gives the baptism at Tapiau in 1383; see [Tapiau](tapiau.qmd)). Book II ch. 22 and the afterword name Marquard as the komtur who marched the Order's column.
+
+## Scenes set here
+
+Book I ch. 19; Book II ch. 22, 30 (a name on the Marienburg map). Rastenburg (Book II ch. 8; Book III ch. 11; Book V ch. 19) and Insterburg (Book III ch. 11) are named in passing and have no pages.

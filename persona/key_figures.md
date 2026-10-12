@@ -58,9 +58,9 @@
 | `Jogaila/` | Jogaila | I–V |
 | `Skirgaila/` | Skirgaila | I–II |
 | `Svitrigaila/` | Švitrigaila | II, V |
-| `Julijona_Tveriete/` | Julijona of Tver (Uliana), Algirdas's widow | VI, I–II |
+| `Uliana_Tveriete/` | Uliana of Tver (Lith. Julijona Tverietė), Algirdas's widow | VI, I–II |
 | `Jadvyga/` | Jadvyga (Jadwiga) of Anjou | I (mention), II |
-| `Sofija_Alseniske/` | Sofija Alšėniškė (Sophia of Halshany), Jogaila's fourth wife | IV–V |
+| `Sofija_Alseniske/` | Sofija Alšėniškė (Sophia of Halshany, "Sonka"), Jogaila's fourth wife; not Vytautas's daughter Sofija Vytautaitė | IV–V |
 | `Egle/` | Eglė | I–IV |
 | `Galminas/` | Galminas | I–III |
 | `Hene/`, `Hanulas/` | the Shadow-Seller and his first mask | I–V |

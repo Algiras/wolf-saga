@@ -1,0 +1,40 @@
+title: Saga print interior
+author: Algimantas Krasauskas
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    pdf:
+      # Amazon KDP paperback interior, 6 x 9 in trim, black and white, no bleed.
+      documentclass: scrbook
+      classoption:
+        - twoside=true
+        - open=right
+        - cleardoublepage=empty
+        - numbers=noendperiod
+        - parskip=false
+      fontsize: 11pt
+      geometry:
+        - paperwidth=6in
+        - paperheight=9in
+        - inner=0.75in
+        - outer=0.6in
+        - top=0.7in
+        - bottom=0.8in
+        - headheight=12pt
+        - headsep=0.2in
+        - footskip=0.4in
+      pdf-engine: lualatex
+      indent: true
+      linestretch: 1.15
+      number-sections: false
+      toc: true
+      toc-depth: 1
+      colorlinks: false
+      template-partials:
+        - before-body.tex
+        - after-body.tex
+      include-in-header:
+        - saga-print.tex
+      filters:
+        - saga-print.lua

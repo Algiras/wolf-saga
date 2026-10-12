@@ -298,7 +298,7 @@ Hence the **two Reise seasons** of the Order [Record]: the **winter Reise** (rou
 
 **33. Masovia: Czersk and Warsaw** (Pol. *Czersk, Warszawa*)
 
-- **[Record]** **Janusz I** rules from **Czersk** and the growing town of **Warsaw**, with Danutė as his wife. Vytautas went to them first after escaping (chronology; sources say he sought Danutė and Janusz's help and **received none**, then turned to the Order (verify detail)).
+- **[Record]** **Janusz I** rules from **Czersk** (his capital until 1406, when he moved it to the growing town of **Warsaw**: en.wikipedia Janusz I the Old), with Danutė as his wife. Vytautas went to them first after escaping (chronology; sources say he sought Danutė and Janusz's help and **received none**, then turned to the Order (verify detail)).
 - **In the saga:** **Danutė's hall**: the first warm room after Krėva, and the first refusal. A sister who weeps and a brother-in-law who calculates. Masovia borders the Order directly, so the **ch. 17 "border post" can be the Masovian–Prussian border** (Soldau/Działdowo or Neidenburg sector), with the Order's stone behind it.
 
 **34. Kraków** (Lith. *Krokuva*)

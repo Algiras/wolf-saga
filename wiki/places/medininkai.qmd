@@ -1,0 +1,20 @@
+---
+title: "Medininkai (Varniai), Samogitia"
+id: medininkai
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/medininkai.md >}}
+
+## In the 1410s [Record]
+
+A castle and village in Samogitia. After the Samogitian baptism of 1413-17 the Council of Constance directed the founding of a Samogitian diocese; it was established on 24 October 1417 with its seat at Medininkai, the first bishop being Matthias of Trakai (Motiejus Trakiškis); the seat moved to Varniai in 1470 (en.wikipedia, Samogitian Diocese). The Order raided the area in July 1402.
+
+## In the saga
+
+The oldest grove at Medininkai is cut down for the new church while Eglė's snake, almost white, lies on a root; the bell rings over the stumps (Book IV ch. 7, *Medininkų vyskupija*). See [the bishopric](../events/ev_medininkai_bishopric.qmd).
+
+## Scenes set here
+
+Book IV ch. 7.

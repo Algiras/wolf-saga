@@ -12,14 +12,16 @@ categories: [place]
 Not in the record.
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A low, windowless log hut in deep pine, on sand, across the Neris and away from every track. The inside smells of mould and old horn: antlers hang on the wall, and in the middle there is a stone hearth pit that has been cold for years. In the Lithuanian forest, February and March mean snow crust, leaden light, and the creak of pines in cold wind; there are black grouse in the dark, and the only other sounds are wolves, far off, and the small crack of birch bark taking fire. For a first flame it is almost unbearably quiet, which is the point.
 
 ## In the saga
 
 Saga place (D11): Kęstutis's old hunting lodge across the Neris in the pines, a windowless hut known to none of Jogaila's men. Vytautas lights the Last Flame there on the night of the 1387 baptism ([the flame](../events/ev_flame_lit.qmd)); Kalvis guards it. It is moved to the flooded foundations of the Trakai island castle in Book II.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+The saga does not fix a distance, only that the lodge lies beyond the Neris, in pinewoods deep enough that no one of Jogaila's household knows it. Vilnius sits at the confluence of the Neris and the Vilnia, so any ride across the river from the baptism site goes out of the city's built-up bank within an hour. Planning figure: roughly half a day by horse from the Šventaragis valley, a morning on foot in snow (Foot: 25-30 km per day; halve it in deep snow). From Trakai the lodge is around 30 km, about half a day on horse (the Trakai-Vilnius figure of 28-32 km). It was a hunting seat of Kęstutis, so it lies within a day of both of his capitals. Moving the flame from here to the island castle vault in Book II is about a day's work.
 
 ## Scenes set here
 

@@ -13,5 +13,5 @@
 *   **The Grand Master**: The eternal enemy. Kęstutis has fought the Order for fifty years (and escaped Marienburg in 1361).
 
 ## Friends across the line
-*   **Günther von Hohenstein**, commander of Osterode, who warned him of the Dovydiškės treaty in 1381.
+*   **Kuno von Liebenstein**, komtur of Osterode, who warned him of the Dovydiškės treaty in 1381 (Ivinskis via en.wikipedia). The saga's Günther von Hohenstein is an invented young brother of the Order (Book VI), not the informant.
 *   **Jonas and the hidden nine**: his Iron Wolf guard, "the men who don't drink Jogaila's mead".

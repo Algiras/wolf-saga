@@ -8,33 +8,47 @@ categories: [character]
 {{< include ../_generated/kniprode.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Winrich von Kniprode (c. 1310 - 24 Jun 1382), Grand Master of the Teutonic Order from 1351 until his death, the longest-serving of all Masters and the architect of the Order's golden age. In the saga he is Book VI's mortal antagonist: a sincere, patient chess-player who studies [Kęstutis](kestutis.qmd) like a problem, wins at Kaunas (1362) and Rudau (1370), and is a worthy enemy rather than a monster. He dies on 24 Jun 1382, six weeks before Kęstutis is murdered at Krėva, so he never meets Vytautas; his successor [Zöllner](zollner.qmd) receives the fugitive instead.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+A grand master in the plain white mantle of the Order who carries his own chessboard across the Marienburg courtyard rather than let a servant jolt the pieces, "as one carries a child or a testament" (Book VI ch. 17). The game on it stands as it stood three nights earlier: a white queen on the left, black knights by the lake, six white-cloaked men on the shore and a single black king. He has read reports about Kęstutis for ten years and is surprised to find only an old man, broad, tired, scarred, with a short grey beard. His tells are courtesy and patience: he leaves a prisoner a small amber bead because "amber is a Prussian coin, not an idol", lets the Lithuanian servant Alf speak Samogitian to the prisoner, and answers Kęstutis's thanks for the chessboard with a calm nod. He knows he will one day lie in the chapel beside the former masters, behind the wall of the cell, and has never decided whether the thought comforts him.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | The Order's golden age: the Reise turned into Christendom's tournament, Samogitia and Lithuania subdued or baptised, the Order secure. |
+| **Need** (internal) | To see that the 'problem' he is solving is a man, and that some opponents cannot be moved by a better position. |
+| **Lie** they believe | A patient player wins every contest in the end: Kęstutis can be broken, bargained with or baptised. |
+| **Truth** they learn (or refuse) | Kęstutis 'never takes back a move': he will not swear what he does not mean, so Kniprode's best offer is refused, and even victory at Rudau leaves the war as it was. |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book VI (1352-1370).** Takes over after Grand Master Dusemer; studies Kęstutis across the border and makes the Reise a tournament of English and French guests (ch. 14, POV chapter); receives Kęstutis, taken by chance in March 1361, offers him freedom for baptism and gets a refusal in the Marienburg cellars (ch. 17, POV); loses him to Alf's escape on 11 Nov (ch. 18); takes Kaunas on Easter 1362 after a five-week siege (ch. 19); at Rudau, 17 Feb 1370, he raises a hand "like a chess player whose opponent has made an unexpected, interesting move" (ch. 24).
+- **Book I (1382).** Dead already: "the old Master Winrich von Kniprode died in the summer", and the chapter elects Zöllner in his place (ch. 18).
+- **Books II-III.** Remembered as the standard against which the Order measures itself: Konrad von Jungingen speaks of the lands Kniprode "could only dream of" (Book II ch. 30), and the Marienburg Samogitian oak beam is "from Kniprode's time" (Book III ch. 11).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+**Tier 0**, no gift and no bargain. He commands the Order, whose consecrated halls and sword make *Kalba* fail: Birutė's amber goes cold in the Marienburg cellars where he holds Kęstutis (Book VI ch. 17). The mythic antagonist of Book VI, the **Geležinis Šventasis** (Iron Saint), gathers around the Order's prayers, but Kniprode is not its creature; his honesty is why he is the saga's best portrait of a sincere enemy. He pays no magical price.
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** Born c. 1310 at Kniprath (now Monheim am Rhein); Grand Commander before 1351; commanded with Marshal Siegfried von Dahnenfeld at Strėva (2 Feb 1348, VLE); elected Grand Master in 1351 (some sources 1352) and held the office for 31 years, the longest on record. Held Kęstutis, captured at Lake Ublik in March 1361, at Marienburg for about half a year until the escape of 11 Nov 1361; the Order under him besieged and took Kaunas (13 Mar - 17 Apr 1362); the Order won at Rudau on 17 Feb 1370 (Marshal Henning Schindekop died of his wounds), a victory credited by the Order to the Virgin Mary. He enlarged Marienburg and founded the Augustinian convent at Heiligenbeil. Died 24 Jun 1382 and was buried in the chapel of St Anne at Marienburg (en.wikipedia; VLE). Succeeded by Konrad Zöllner von Rotenstein (5 Oct 1382).
+- **[Saga invention]:** The chessboard and the cell talks with Kęstutis; the amber bead left to the prisoner; the invented young Order brother Günther von Hohenstein at his side (Book VI); his raised hand at Rudau. The English and French guests and the "Table of Honour" of the 1350s are left as flavour (not verified for the period). The record says nothing of any personal encounter between Kniprode and Kęstutis beyond the capture and escape.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**VIN-rikh fon KNEE-proh-deh** · IPA /ˈvɪnʁɪç fɔn ˈkniːpʁoːdə/ · English sound-alike "VIN-rikh fon KNEE-proh-deh". German; stress on the first syllable of each name. The Lithuanian text writes Winrichas fon Kniprodė.
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+- **Book I:** ch. 18 (his death mentioned).
+- **Book II:** ch. 30 (a mention).
+- **Book III:** ch. 11 (a mention).
+- **Book VI:** ch. 14 (his chapter), 17 (his chapter), 19, 22 (a mention), 24 (Rudau) and the afterword.
+
+Continuity: dead on 24 Jun 1382, before Kęstutis's murder (the old master chronology had the Grand Master alive in Book I, corrected).
+

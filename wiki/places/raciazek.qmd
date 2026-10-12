@@ -12,14 +12,16 @@ categories: [place]
 Raciążek on an island of the Vistula at the confluence with the Drwęca, where the Peace of Raciąż was made on 22-23 May 1404 ([event](../events/ev_raciaz_1404.qmd)).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A small riverside stronghold and a Vistula island in late May: reed beds, braided channels, heavy water carrying spring flood, lush meadow, willows in leaf, and the first heat. The stage is a tented camp, Masovian guards, Polish envoys, Order retainers, dogs and horses, so the smell is tar, wet canvas, horse dung and river. The Vistula is wide here and runs quietly with a brown, silty smell, and you can hear the sandbars. In the saga's chapter the peace is also a feast in a pavilion with the Order's wine, and the only sound that matters is a toast.
 
 ## In the saga
 
 The evening feast where Marquard insults Birutė.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Raciążek lies on the lower Vistula upstream of Toruń (Thorn), about 130 km from Marienburg in a straight line. River travel is the realistic way: downstream from Raciążek to Marienburg is about 2-3 days by boat at 40-60 km per day; upstream, ten to twenty km a day. The Masovian town of Płock is some 120 km upstream by water. By land, Toruń is a day's ride. From Vilnius the distance is about 500 km (650 km by road, two and a half weeks by horse; envoys carrying documents would take a little over two weeks, as for Vilnius-Marienburg). From Kraków it is about 330 km (ten days). Plenipotentiaries from three courts could assemble here by water without crossing hostile territory.
 
 ## Scenes set here
 

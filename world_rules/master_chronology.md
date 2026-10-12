@@ -123,7 +123,7 @@
 | 2 Oct 1413 | **Union of Horodło** (on the Bug; 47 Lithuanian nobles adopted by Polish families); Samogitian baptism begins (Nov 1413, near the Dubysa) | The Hidden Groves fall | Part 1 |
 | 1414–18 | **Council of Constance**: the Samogitian delegation arrives 28 Nov 1415, is received 13 Dec 1415; the *Proposicio Samaytarum* is read in Feb 1416; the Samogitian diocese (seat Medininkai) is founded **24 Oct 1417** | — | Part 1 |
 | 31 Jul 1418 | **Ona dies** at Trakai (buried in Vilnius cathedral) | The last person who knew him before Krėva | Part 1 |
-| 13 Nov 1418 | Vytautas marries **Julijona** of Alšėnai (a widow, Ona's niece; the Bishop of Włocławek officiates) | — | Part 1 |
+| 13 Nov 1418 | Vytautas marries **Julijona** of Alšėnai at **Grodno** (a widow, Ona's niece; the Bishop of Włocławek officiates). The date is en.wikipedia's; VLE says only "before Christmas 1418" and names Grodno | — | Part 1 |
 | 27 Sep 1422 | **Treaty of Melno**: a border that will last until 1918 | — | Part 2 |
 | 1429 | **Congress of Lutsk**: Sigismund offers Vytautas a crown | Henė's final bargain: the crown for the flame | Part 2 |
 | Aug 1430 | **The crown embassy is blocked** by Polish border guards: Sigismund's couriers are robbed by Jan Czarnkowski's men on the Neumark / Greater Poland border and the embassy stalls at Frankfurt (Oder) (the crown itself was never seized; that is a later legend) | Henė turns the crown to leaves (mythic_gaps §4) | Part 3 |

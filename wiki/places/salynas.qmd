@@ -12,14 +12,16 @@ categories: [place]
 An islet of the Nemunas, probably between Kulautuva and the mouth of the Nevėžis; the treaty was signed here on 12 Oct 1398 ([event](../events/ev_salynas.qmd)).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A long, low island in the Nemunas, pine and oak on sand, a meadow in the middle, willows and reeds on the shoreline. In mid-October the weather is cold and wet; the river runs high and brown from autumn rain, the leaves of the oaks are rusted, and mists lie on the water in the morning. The saga's feast hall is a huge open-sided timber pavilion on posts, white cloths on three long tables, a black-cross banner and a red rider banner snapping in the wind, the smell of roasted meat, wet wool, pine smoke and river. The island is neutral ground because it belongs to nobody; boats, not horses, are the sound of arrival.
 
 ## In the saga
 
 Eglė's price comes due here: "never sell the forest".
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+The islet lay on the middle Nemunas, probably between Kulautuva and the mouth of the Nevėžis, a short way downstream of Kaunas (about 15-25 km). From Kaunas it is half a day by boat downriver (40-60 km per day), or a day's ride along the bank. From Vilnius it is about 120 km, three days on horse, or four to five on the Neris and Nemunas. From Ragnit, the Order's launch point for the middle Nemunas, upstream is some 130 km and takes several days of towing (upstream rates are 10-20 km per day). From Marienburg, Konrad von Jungingen's party would have ridden to Königsberg and then taken the river route, about two weeks. As in other treaty sites on this river, both sides could arrive by water without stepping on the other's bank.
 
 ## Scenes set here
 

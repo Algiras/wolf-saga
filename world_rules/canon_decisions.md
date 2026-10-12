@@ -129,3 +129,4 @@ The five-element *Senovės Kalba* and the Meddling Forces are **one system** see
 - **Krėva escape date:** the eve of Vėlinės (late Oct/early Nov 1382): Wind's zenith halves the fog's cost.
 - **Ona** was released by Skirgaila (to track Vytautas), fled via Brest to Masovia, and became the Order's surety at Königsberg (1383–84); released by exchange in 1384; the sons stay at Marienburg.
 - **The Flame-Keeper's** working skin-name is **Žiežirba**.
+- **Ages of the two fosterlings (settled by the books):** **Pilkoji** is born c. 1365 (38 in 1404, 84 in 1449; this answers Q13). **Žiežirba** is born c. Oct 1390 – Mar 1391 (5 in winter 1395–96, 14 and nearly 15 at Kūčios 1405). He is sworn at that Kūčios, below the usual age of 16 (`iron_wolves.md` §4): the single exception to the rule, because he already lives at the flame. He tends the vault flame as a boy from 1399.

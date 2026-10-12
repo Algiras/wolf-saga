@@ -1,0 +1,20 @@
+---
+title: "Czerwińsk (monastery on the Vistula)"
+id: czerwinsk
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/czerwinsk.md >}}
+
+## In 1410 [Record]
+
+A Masovian monastery town on the Vistula. The allied army of Jogaila and Vytautas crossed the river here on a pontoon bridge prefabricated near Kozienice in winter and spring 1410, floated down and assembled in about half a day on 30 June; the crossing ran from 30 June to 2 or 3 July (en.wikipedia, Czerwińsk Floating Bridge). The exact spot above the monastery is uncertain. [Janusz I](../characters/janusz1.qmd) of Masovia fought at Grunwald with his Masovians.
+
+## In the saga
+
+The saga's Lithuanian spelling is *Červinskas*. The Brest council of December 1409 (Book III ch. 13) names the crossing place; the crossing itself is ch. 15, *Tiltas per Vyslą*, told from the wolves' bank.
+
+## Scenes set here
+
+Book III ch. 15; see [the bridge](../events/ev_czerwinsk_bridge.qmd).

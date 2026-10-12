@@ -8,33 +8,42 @@ categories: [character]
 {{< include ../_generated/galminas.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Galminas is the saga's Samogitian *žynys*, "the last of the old priests", Elder of Samogitia and Lord of the Forest, who watches the false baptism of 1387 from a snowy hill under dark pines (Book I ch. 29). He is already dead and reanimated: the [Root-Mother](../forces/root_mother.qmd) grew roots through his ribcage in place of a heart after an Iron Knight's spear pierced it in his youth, and she acts through him. He leads the Samogitian uprisings of Book III, transforms at Grunwald into a wood-skinned beast, and becomes a grove (Book III ch. 19, 23).
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Gnarled and weathered like the trees of his home, in leather and bone armour for mobility in the swamp; his face tattooed with old Baltic signs of protection. When he speaks, the wind in the trees provides a bass harmony. Sap, not blood, runs in him: in winter 1399-1400 he "does not eat and bleeds sap" (Book III ch. 1). Set on fire by pitch in the siege of Kaunas, he does not burn but smoulders like peat and keeps fighting. In battle rage he takes on the attributes of a bear or wolf (*vilkatas*, Wolf-shift) through spirits of the wood.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | The survival of the Way: to protect the sacred groves from the knights' axes and to keep Samogitia free of both the Order and Vilnius. |
+| **Need** (internal) | To let the forest take its harvest and to hand his knowledge on, since he cannot hold the groves for ever. |
+| **Lie** they believe | That a wolf can be washed: 'you can baptise a man, but the truth remains in his blood', and that an old war can still be won. |
+| **Truth** they learn (or refuse) | He becomes the grove where he falls (Book III ch. 23); his pupil, the last žynys, dies singing the Pact song with its details wrong (Book V ch. 27). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book I (1387):** watches the baptism from the hill as Vytautas lights the secret flame elsewhere (ch. 29).
+- **Book II:** listens from the far bank at Salynas (ch. 19), and in the Samogitian grove at the epilogue as Ulrich von Jungingen says "Next time we finish them" (ch. 30).
+- **Book III (1399-1410):** POV of ch. 1 (Frozen Buds), 4 (the First Rising, where the žyniai burn a captured knight on his horse and he lets them); leads the second rising in 1409 (ch. 12), guides the army through the borderlands, fights at Grunwald (ch. 17, 19) and becomes a grove (ch. 23, 26).
+- **Book V:** the last žynys of the Pact, "Galminas's pupil", still knows the words (ch. 11, 27).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Tier 5, **vessel (host) of the Root-Mother** (canon: [power systems](../codex/power-systems.qmd) §4). Before his death he was a tier-3 žynys; the Root-Mother reanimated him and acts in full through him. Powers: the Iron-Sense (the spirits whisper the ringing of iron long before Teutonic scouts arrive); the Shifting Swamp (the ground softens beneath the Iron Knights' chargers at his silent command); the Beast-shift. He is a tool of [Perkūnas](../forces/perkuno_rustybe.qmd) as well, and the Root-Mother's gifts fade far from forest. Cost: he is dead and made of wood, and the transformation at Grunwald (ch. 19) spends him; the Root-Mother's last great act is the grove (ch. 23).
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** Not a historical person as drawn. The name *Galminas* does appear in en.wikipedia's article on the Samogitian uprisings among five deputies (Rumbaudas Valimantaitis, Galminas, Getautas, Klausigaila, Vasibutas) whom Vytautas sent to lead the rebels in 1409; VLE (vle.lt, *Galminas*) identifies him as Jurgis Galminas, a nobleman who helped organise the 1409 rising, joined a Samogitian delegation to the Council of Constance in 1415, and was Samogitian elder from late 1432 to late 1434 (succeeding Stanislovas Kęsgaila). The saga's Galminas, who dies as a grove in 1410, is a different, invented figure sharing the name (the Book III afterword says so). The uprisings are historical: the first began on 13 March 1401, the second on 26 May 1409 (en.wikipedia). The Samogitians' groves and their last pagan priests survive in the record only as tradition; Samogitia was baptised in 1413-17.
+- **[Saga invention]:** All the rest: the reanimation, the root-heart, the shapeshift, the transformation and the grove at Grunwald, the Pact-song pupil. The graph lists him as a Saga invention; the wiki infobox's dates (c. 1340-1410) are the saga's. The only 1410 anchor is the Grunwald field, where the afterword says the regrowth over the graves is invention.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**GAL-mi-nas** (/ˈɡaːlʲmʲɪnɐs/), English respelling *GAHL-mih-nahs*; stress on the first syllable. [world_rules/pronunciation_lexicon.json]
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book I:** ch. 29 (Krikštas). **Book II:** ch. 19 (Salyno Puota), 30 (epilogue). **Book III:** ch. 1 (POV), 4 (POV), 12, 16, 17, 19, 23, 26 and the afterword. **Book V:** ch. 11 (as the teacher of the beekeeper-žynys). Continuity: persona places the fire-and-no-burn scene at the siege of Kaunas; Book III keeps the 1410 transformation.

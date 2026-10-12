@@ -1,0 +1,21 @@
+---
+title: "Konrad von Jungingen (Grand Master 1393-1407)"
+id: konrad_jungingen
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/konrad_jungingen.md >}}
+
+## Summary
+
+Konrad von Jungingen (c. 1355 - 30 Mar 1407) was Grand Master of the Teutonic Order from 30 November 1393, the elder brother of [Ulrich von Jungingen](jungingen.qmd) who succeeded him. In the 1390s he backed Vytautas on one occasion and Skirgaila on another, always to weaken the union of Poland and Lithuania (en.wikipedia, Konrad von Jungingen).
+
+## Record vs saga
+
+- **[Record]:** Elected 30 Nov 1393, died at Marienburg 30 Mar 1407 after a long illness. His predecessor in the saga's years is [Konrad Zöllner von Rotenstein](zollner.qmd) (to 1390); Konrad von Wallenrode ruled between them (1391-93).
+- **[Saga invention]:** The dry, quiet manner and the Book II scenes: the Salynas feast (ch. 19, 1398) and the epilogue at the Marienburg map, where he and his brother weigh the sacred groves of Samogitia.
+
+## Appearances
+
+**Book II:** ch. 19 (*Salyno puota*), ch. 30 (*Epilogas: Malborko žemėlapis*).

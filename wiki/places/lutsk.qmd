@@ -8,15 +8,21 @@ categories: [place]
 {{< include ../_generated/lutsk.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+Lutsk (Lith. *Luckas*, Pol. *Łuck*) is the capital of Volhynia, on the Styr, with a stone castle on an island of the river. Liubartas (Lubart), Gediminas's son and last ruler of united Galicia-Volhynia, held it; after he lost Vladimir in 1366 he made it his capital, and its masonry was built mostly in the second half of the 14th century (second building period ending with his death, c. 1383-85). It had an Upper Castle and a Lower or "Okolnyi" castle. Vytautas held it from c. 1387-88 (verify). In March 1418 Švitrigaila was freed from Kremenets and took Lutsk. **The Congress of Lutsk met in January 1429**, from about 9 to 29 January (accounts differ; some say 6 Jan and 13 weeks); Jogaila arrived first with the Poles and Sigismund came late (20 Jan) with Queen Barbara; guests included Eric of Denmark, a papal legate, Byzantine envoys, Moscow, Tver, Ryazan, Masovian princes, the Livonian and Prussian Orders and the Moldavian hospodar; Švitrigaila is mentioned by no source, and Oleśnicki led the Polish opposition to a crown. In 1431 the Poles besieged the castle (assault repulsed 13 Aug). The Czartoryski brothers restored Lutsk to Švitrigaila after the murder of Žygimantas in 1440; he died there on 10 Feb 1452. Sources: VLE; en.wikipedia (Congress of Lutsk, Lutsk); lt.wikipedia.
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A stone castle with a dam on the Styr: a drawbridge, tall entry tower, two baileys, and a town crowded to bursting in the winter of 1429, with kings' retinues in tents and cellars. January mud and ice, horses steaming in lanes, trumpets, bells, torches. Smells: wet wool, roasted venison, wax, ink, stable dung, spiced wine. Inside the great hall, a roar of languages, Latin, Polish, German, Ruthenian, Greek, and Tatar.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+**Henė's crown bargain**: the Shadow-Seller offers a crown for the flame at Lutsk. Book IV ch. 18-19: Sigismund's offer is made, Jogaila and Vytautas bargain, and the Poles' fear grows. Švitrigaila is absent at Lutsk in Book IV (the record is silent) while Book V ch. 15 puts him there, which is pure invention. In Book V the castle is where Goštautas defends the walls and where the war of 1431 is fought.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Lutsk is about 440 km south of Vilnius in a straight line (c. 550 km by road, two weeks on horse); about 380 km from Kyiv (two to three weeks), about 390 km from Kraków (c. 480 km by road), 100 km from Horodło on the Bug, and 190 km from Brest. Czartorysk is some 60 km north. A sledge on the frozen Styr could do 40-60 km a day.
 
 ## Scenes set here
+
+Book II ch. 15 *Benamis chanas* (Kyiv and Lutsk, 1395-96); Book IV ch. 18 *Lucko suvažiavimas* and ch. 19 *Zigmanto pasiūlymas* (January 1429); Book V ch. 3 (the Volhynian war of 1431), ch. 15 (Polotsk and Lutsk, 1435-37), ch. 18 (1438).

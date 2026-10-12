@@ -12,22 +12,28 @@ categories: [character]
 Spyglys, young ash-bearer, tends the Trakai vault flame after Kalvis; his hands shake and he stays behind when the lantern leaves on 8 Jun 1410. He finds Kęstutis's sword by scent (Book III ch. 2). Dead by Vėlinės 1449.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+A young ash-bearer (*pelenininkas*): lean, with slow eyes, who carries a clay pot with a lid pressed to his chest and touches the lid every evening with his palm, as if testing whether it is still warm. In 1387 he is a boy-faced helper rowing with Kalvis to the island foundations at Trakai; by September 1399 his face, which four years earlier was still childlike, "looks too old for his years" (Book II ch. 29); by 1410 his hands tremble as the hands of one who has carried a fire-pot too many years, so badly that he cannot lift them (Book III ch. 15). At the 1415 gathering he is still "young and lean, with slow eyes" (Book IV ch. 6). He bites his lip when the older wolves will not move (Book II ch. 11), says little, and sits beside others in silence: when the new boy learns that his mother set the last plate before him, Spyglys, his *vilktėvis* (wolf-father) in 1430, can only rest a hand on his shoulder (Book V ch. 7).
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | To keep the Trakai vault flame alive and carry its ash safely wherever the Duke needs it. |
+| **Need** (internal) | To be told why his hands shake, and to be allowed to put the pot down. |
+| **Lie** they believe | A flame can be tended without cost if the bearer is careful and obedient. |
+| **Truth** they learn (or refuse) | Every pinch of ash taken from the Flame is a risk to its keeper; the cost falls on the carrier, and he carries it silently until the bog takes him. |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book II (1387-1399).** The ash-bearer at the night rowing to the half-flooded foundations of the island castle (ch. 11): "She is going out", he says when the ember dwindles, and he holds the open ash-trough as Vytautas kneels to feed it at the Trakai vault; one of the five wolves who kneel at the first lighting. In the wolf hunt (ch. 14) he carries the ash pot four nights from Trakai, lightening it with every hearth lit, and helps burn the Unburned dead. In September 1399 he tells Vytautas that the flame, after days of trembling, "simply stopped trembling" (ch. 29).
+- **Book III (1400-1410).** Carries Vytautas's plain black armour from Trakai to Kyiv, finds Kęstutis's sword by scent among twelve identical chests (ch. 2) and tells Vytautas, as he counts its rust-stains of broken oaths, "it is sick"; tells the boy Žiežirba how the wolf-rite goes and stands at his baptism in 1405 (ch. 9); his hands tremble so that he cannot lift them (ch. 15); he stays behind when the lantern leaves on 8 Jun 1410.
+- **Book IV (1415-1417).** One of three who lie down in the bog with Pilkoji so that the dead's names can be said (ch. 6).
+- **Book V (1430-1449).** Alive in the dozen of Kūčios 1430 (ch. 7), 1432 (ch. 9) and 1435, one of four still living in 1436 (ch. 16); dead by 1449 and buried in the oldest bog, named by Pilkoji at the middle stone (ch. 28).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+A **vilkatas** of the Iron Wolves, sworn through the bog baptism; his office is the *pelenininkas*, the ash-bearer who carries ash from the Last Flame (ash is taken only a pinch at a time, "for a ring") to relight hearths and for the Duke's workings. Every pinch taken from the flame is a risk to its keeper (`world_rules/iron_wolves.md`); his cost is the shaking of his hands. He can take wolf shape only if sworn twenty years (canon D10). The cost of holding a fire falls on a man who never asked for it.
 
 ## Record vs saga
 
@@ -35,7 +41,15 @@ Spyglys, young ash-bearer, tends the Trakai vault flame after Kalvis; his hands 
 - **[Saga invention]:** All of him.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**SPYG-lys** · IPA /ˈspʲiːɡlʲiːs/ · English sound-alike "SPEEG-lees". Not in the pronunciation lexicon; derived from its conventions. *Spyglys* is "a pine needle". The same word in the dative is the form "Spygliui".
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+- **Book II:** ch. 11, 14, 29.
+- **Book III:** ch. 2, 9, 15.
+- **Book IV:** ch. 6.
+- **Book V:** ch. 1 (as a voice in the smoke), 2, 7, 9, 13, 16, 28-30 (named in the dead list).
+
+Continuity: his death is undated (between 1441 and 1449); the Kūčios litany (ch. 29, 30) lists him after Kirmėlė.
+

@@ -63,8 +63,8 @@ website:
 format:
   html:
     theme:
-      dark: styles/saga-dark.scss
       light: styles/saga-light.scss
+      dark: styles/saga-dark.scss
     include-in-header: styles/head.html
     lightbox: true
     toc: true

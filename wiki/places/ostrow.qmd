@@ -8,15 +8,21 @@ categories: [place]
 {{< include ../_generated/ostrow.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+The **Agreement of Ostrów** was signed on 4 August 1392 between Jogaila and Vytautas, ending the Lithuanian civil war of 1389-92. Vytautas became Jogaila's regent (viceroy for life, a Grand Duke in all but name) and Trakai was restored to him; Skirgaila received compensation (Kyiv, in 1395). Henry of Masovia, bishop-elect of Płock, had been Jogaila's secret envoy; Vytautas's wife Anna and Jogaila's wife Jadwiga ratified it in separate letters. **The site is unknown.** The most likely place is Ostrów Lubelski near the Polish-Lithuanian border; the alternative is the Ostrovo manor near Lida in modern Belarus, possibly near the Dzitva river east of Yantsavichy. The saga uses the Lida manor. Sources: en.wikipedia (Ostrów Agreement); VLE (Vytautas, Skirgaila).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A wooden manor on a river island: two timber towers, a long hall smelling of smoked beams, tallow and wet dogs, a bridge to the mainland, hay in the yard. Early August: storks on the roofs, harvest heat, midges at dusk, the tiny sounds of cups on a table when no one wants to speak first. The treaty is plain on the page: "Vytautas shall rule Lithuania as Jogaila's lieutenant, for life", and the silence afterwards is long.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+Henė changes masters: after Ostrów the Shadow-Seller serves Vytautas instead of Skirgaila. The manor is a plain place for a very large peace; the saga treats it as an unmagical room. After Ostrów the Last Flame can be moved into the finished vault at Trakai.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+If Ostrovo near Lida is meant: Lida is about 90 km south of Vilnius (c. 110 km by road, two to three days on horse), 90 km from Trakai, about 100 km from Grodno, and 100 km south-west of Krėva. From Warsaw about 340 km. If Ostrów Lubelski: about 380 km from Trakai and a few days from Lublin. The saga makes the manor reachable by both courts in about a week.
 
 ## Scenes set here
+
+Book II ch. 10 *Astravo sutartis* (4-5 Aug 1392), with Henry of Masovia mediating, and ch. 11 *Trakų raktai* (autumn 1392, the consequence); recalled in Book IV ch. 17, ch. 21.

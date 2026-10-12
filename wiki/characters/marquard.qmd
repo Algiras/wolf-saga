@@ -12,22 +12,26 @@ categories: [character]
 Marquard von Salzbach, komtur of Ragnit and later of Brandenburg, is Vytautas's captive of July 1384, his adviser in 1389 and then his enemy: he signs the [Treaty of Lyck](../events/ev_lyck_1390.qmd) (1390), helps negotiate [Salynas](../events/ev_salynas.qmd) (1398), fights at the [Vorskla](../events/ev_vorskla.qmd) (1399), insults Birutė after the [Peace of Raciąż](../events/ev_raciaz_1404.qmd) (**1404**, not 1390) and is beheaded by Vytautas after Grunwald for refusing to apologise.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+A komtur with a wind-burned face and a voice that begins to sing as soon as he has drunk his third horn. He speaks Lithuanian better than any other Order brother, a fluency earned when Vytautas held him prisoner and fed him as a guest, and he uses it as a weapon: at Lyck he raises his cup in Lithuanian, "to my old host", before the hostages; at Raciąż he again speaks in Lithuanian "so that all who ought to understand will understand". He wears armour "like a skin" (Book III ch. 21), is broad-shouldered, and always smiles at what he takes for a toast. His honesty is his tell: at the stump on the evening after Grunwald he neither dodges Vytautas's eyes nor begs for mercy.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | To serve the Order and be proved right about Vytautas, the betrayer; to keep the Order's hold on Samogitia. |
+| **Need** (internal) | To account for his old friendship with the man he now humiliates: he is the saga's picture of a friend turned into an enemy by the Order's cause. |
+| **Lie** they believe | Vytautas is a traitor who will never be loyal, so insulting him costs nothing. |
+| **Truth** they learn (or refuse) | Refused: at the stump he answers Vytautas's question with a flat 'I remember' and 'That it's a pity', and pays the price without complaint. |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book II (1390-1399).** At the Lyck feast in January 1390, as komtur of Ragnit and the old friend of his former captor, he toasts "my old host" and says he is paying back a debt: Vytautas's wife, children and brother "will eat at my table and sleep under the Order's keys". Vytautas answers quietly in Lithuanian, "I will remember that" (ch. 6). In July 1399 he brings the Order's knights to the Vorskla under the Salynas treaty, "some say one and a half thousand horse" (ch. 22), and fights openly at the eastern wagons, where the chronicler later counts nine Order dead and names Marquard among the rescued (ch. 26).
+- **Book III (1404-1410).** At the Raciąż feast he raises a cup to "the witch" who could not be swallowed by the sea, Birutė; Vytautas answers "Aš tai prisiminsiu" for the second time (ch. 6). In spring 1410, at Palanga, the Amber Queen names him through the pebble: "Marquard raised a cup for me at Raciążek" (ch. 14). After the battle, on the night of 15-16 July 1410, Vytautas has him and Heinrich Schaumburg beheaded at a stump for the insult he refuses to apologise for (ch. 21).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+**Tier 0.** No gift. His fluency in Lithuanian is the only "power" he uses, to wound; the Amber Queen's response is not his to feel. His beheading at Grunwald is the Queen's son answering the insult on the field of the Iron Saint (Book III ch. 21).
 
 ## Record vs saga
 
@@ -35,7 +39,13 @@ Marquard von Salzbach, komtur of Ragnit and later of Brandenburg, is Vytautas's 
 - **[Saga invention]:** His velvet threat to the hostages at Lyck ("grąžinu skolą"; Book II ch. 6) and Vytautas's "Aš tai prisiminsiu"; the toast to "the witch" Birutė at the Order's feast after Raciąż (Book III ch. 6).
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**MAR-kvart fon ZALTS-bakh** · IPA /ˈmaʁkvaʁt fɔn ˈzaltsbax/ · English sound-alike "MAR-kvart fon ZAHLTS-bahkh". German; the Lithuanian text writes Markvardas fon Zalcbachas. Not in the pronunciation lexicon; derived from its conventions for German names.
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+- **Book II:** ch. 6 (Lyck), 22 (the Order's contingent), 26 (the Vorskla) and the afterword.
+- **Book III:** ch. 6 (Raciąż), 14 (the Amber Queen names him), 21 (the beheading) and the afterword.
+
+Continuity: the insult to Birutė is dated 1404 (Raciąż), not 1390; at Lyck (1390) he issues only a velvet threat to the hostages. At the Vorskla the Order fights openly under him (Posilge: nine dead).
+

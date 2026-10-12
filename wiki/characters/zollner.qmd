@@ -8,33 +8,44 @@ categories: [character]
 {{< include ../_generated/zollner.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Konrad Zöllner von Rotenstein (c. 1325 - 20 Aug 1390), 23rd Grand Master of the Teutonic Order from 5 Oct 1382, is Vytautas's host and the secondary mortal antagonist of Book I: a devout, patient chess-player who believes honestly in the fugitive's conversion, which makes Vytautas's lie at the baptismal font cost something. He receives Vytautas in Prussia in late 1382, baptises him "Wigand" at Tapiau (21 Oct 1383), binds him as a vassal at Königsberg (30 Jan 1384), and is betrayed when Vytautas burns Marienwerder and Georgenburg in July 1384. He dies weeks before the siege of Vilnius in the autumn of 1390.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Old but with clear, dangerous eyes "like a freshly forged knife", tall, spare and bent, with a close-cut grey beard in the Order's fashion and a plain white brother-knight's mantle worn thin. He wears a rosary of consecrated amber beads (confiscated amber) and always keeps a chessboard set up in his chamber. His study is stark and exact: perfectly drawn maps, thick parchment books and a huge oak crucifix. His voice is calm and as dry as old parchment; his smile is the satisfaction of a chess-player seeing an opponent step onto a prepared square (Book I ch. 18). He looks at Vytautas "not as a tragic man or even a duke in need, but as a chess problem to be solved with the least loss to the Order". He is not cruel by nature, which is why he is more dangerous: he sincerely believes his mission is to civilise a "wild pagan land", even if that means destroying it. A sincere opponent, never a cartoon.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | The baptism of the last pagans and Samogitia joined to the Order's lands between Prussia and Livonia, and a useful, baptised Vytautas as his vassal. |
+| **Need** (internal) | To see Vytautas as a man and not a piece, and to accept that a baptised Lithuania would leave the Order without a reason to exist. |
+| **Lie** they believe | A conversion that is demanded in the right place and form is real; a man who kneels has changed. |
+| **Truth** they learn (or refuse) | Vytautas's July 1384 burnings show he never did: Zöllner's one moment of rage, and a price on Vytautas's head. |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book I (1382-1384).** Elected after Kniprode's death and meets Vytautas in the dim, exact study at Marienburg (ch. 18): his four conditions are baptism "where and when we choose", Samogitia to the Order, vassalage and the surrender of Vytautas's wife and children as "guests" (hostages). Vytautas answers "I agree, Master". He waits through a year for the right moment, baptises Vytautas as Wigand in October 1383 and hands him a heavy German sword (ch. 19). After Vytautas burns the Order's forts in July 1384, the Order seeks him "as the Grand Master's personal enemy" and Zöllner posts a reward for his head (ch. 25).
+- **Book II (1388-1390).** Brings the household home "to show good will" (ch. 4); receives Vytautas a second time in 1389-90 and takes the family as hostages at Lyck (ch. 6); dies four weeks before the Vilnius siege, "an old, devout man who liked chess", the Order's brothers lowering their heads and the English guests kneeling with them (ch. 7).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+**Tier 0.** His chamber is full of consecrated stone and the Order's sword, which damp *Kalba*: the amber pebble that warmed in the Dykra goes silent in his office (Book I ch. 18). The **Iron Saint** (Geležinis Šventasis) gathers around the Order's prayers and watches the negotiation "with a quiet, steel satisfaction", but Zöllner is not its creature: he can still pity, which makes him dangerous to lie to. He pays no magical price.
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** Born c. 1325 (uncertain), probably at Birkenfeld in Franconia; elected Grand Master on 5 Oct 1382, succeeding Kniprode (d. 24 Jun 1382); died 20 Aug 1390 at Christburg (en.wikipedia; the Civil War 1389-92 article instead places his death at the Jurbarkas siege, so sources disagree) and was buried at Marienburg. His reign saw the Order's treaty with Jogaila at Dubysa (31 Oct 1382; baptism within four years, Samogitia to the Dubysa; never ratified), the war with Jogaila in 1383, Vytautas's baptism as Wigand at Tapiau (21 Oct 1383), the Treaty of Königsberg (30 Jan 1384), and the Treaty of Lyck (19 Jan 1390), signed for the Order by Marquard von Salzbach, Arnold von Bürglen and Thomas Survila. He died weeks before the siege of Vilnius (11 Sep - 7 Oct 1390), which was run by the Order's marshal and Grand Commander during the vacancy; Konrad von Wallenrode was elected in 1391.
+- **[Saga invention]:** The chessboard, the amber rosary, the four-condition scene and the personal reward on Vytautas's head after July 1384; his sincere belief in Vytautas's conversion and his single moment of rage. No source describes his character or says anything about his sincerity.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**KON-rad TSÖL-ner fon RO-ten-shtine** · IPA /ˈkɔnʁaːt ˈtsœlnɐ fɔn ˈʁoːtn̩ʃtaɪn/ · English sound-alike "KON-raht TSURL-ner fon ROH-ten-shtine". German; the *ö* as in "fur" with rounded lips. The Lithuanian text writes Konradas Zöllneris fon Rotenšteinas.
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+- **Book I:** ch. 18 (the negotiation), 19 (the baptism and the sword), 20, 25 (the reward).
+- **Book II:** ch. 4, 7 (his death reported).
+
+Continuity: the Lyck treaty of 19 Jan 1390 was signed by his plenipotentiaries; he was dead before the autumn 1390 siege; do not confuse him with Konrad von Wallenrode (1391-93) or Konrad von Jungingen (1393-1407).
+

@@ -1,0 +1,20 @@
+---
+title: "Pušis (old Kęstutis wolf)"
+id: pusis
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/pusis.md >}}
+
+## Summary
+
+Pušis ("Pine") is a grey old wolf with a split nose who served [Kęstutis](kestutis.qmd). At the exposure of Kirmėlė in the Trakai vault he is the one who says the Word: leave him to the bog, alive. In 1399 he leads the wolves who will not cross the Dnieper into the steppe; he does not follow [Kalvis](kalvis.qmd) to the Vorskla. He stands in the Kūčios line when the wolves name [Žiežirba](flame_keeper.qmd) in 1405.
+
+## Record vs saga
+
+- **[Saga invention]:** All of it; the Iron Wolves are ours (D10).
+
+## Appearances
+
+**Book II:** ch. 11, 29. **Book III:** ch. 9.

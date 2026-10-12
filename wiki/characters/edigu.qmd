@@ -8,33 +8,41 @@ categories: [character]
 {{< include ../_generated/edigu.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Edigu (Idegey, Lithuanian Edigėjus; c. 1352 - 1419), a Manghit emir and *beglerbeg* of the Golden Horde, is the Antagonist of Book II and the only mortal enemy who beats [Vytautas](vytautas.qmd) outright. He is the Horde's cold genius and kingmaker, ruling through khans, whom he uses as puppets, from 1396 to about 1411. His want is to keep any western power, Lithuania or Moscow, off the steppe and to hunt down [Tokhtamysh](tokhtamysh.qmd) and his line. At the Vorskla (12 Aug 1399) he wins the battle that ends Vytautas's dream of an eastern empire, and then rides on to ransom Kyiv.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Compact and powerful, a man who lives on a horse; sharp, hawk-like features and a thin moustache; minimal armour of hardened leather and iron rings, built for speed. Book II ch. 24 is told from his point of view: at the river parley he sees "a man drunk on a horizon", and is not himself drunk. Tells: patience, the habit of using the khan's voice for his own demands, and a flat, unhurried manner while negotiating the terms of three days' truce that he has no intention of keeping.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | Steppe mastery: to keep Lithuania and Moscow out of the Horde's lands, to hunt Tokhtamysh, and to rule through any khan he chooses. |
+| **Need** (internal) | To admit what he serves: whether he knows he feeds the Steppe-Hunger is left open by the canon. |
+| **Lie** they believe | That cold calculation is immune to the Hunger that eats other men's hubris. |
+| **Truth** they learn (or refuse) | The Force feeds through his victory regardless: at the Vorskla the Steppe-Hunger takes its harvest of princes (Book II ch. 26). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book II (1399):** a distant force in ch. 15 and 22; POV of ch. 24 (*Edigu*): the river parley on the Vorskla, where he turns Vytautas's demand that the khan call him father round and answers it with the same demand; wins the battle on 12 Aug (ch. 26) with the feigned retreat and reserves from behind; rides on to Kyiv and to Lutsk (ch. 28).
+- **Book III (1408):** his raid round Moscow in December 1408 shadows Vytautas's Ugra negotiations (ch. 10); his name returns as the creditor paid with icon-covers stripped from Kyiv's Pechersk (ch. 2, 25) and as the Vorskla's feigned-retreat trick that Vytautas cannot be sure he is not seeing again at Grunwald (ch. 19).
+- **Book IV (c. 1419):** killed in the steppe wars; the Black Sea forts hold what Vytautas gained (ch. 11).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Tier 0: no craft. His patron is the [Steppe-Hunger](../forces/steppe_hunger.qmd) (*Erdene-Chuluu*), which feeds on the hubris of horizon-kings; it feeds through his victory at the Vorskla. The canon fixes only that the Force feeds there; whether Edigu serves it knowingly is an open author's choice. He has the [Golden Horde](../factions/golden_horde.qmd) as his instrument ("the power behind the khans", 1396-1411).
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** Born c. 1352 (a Manghit mirza), killed in 1419 or 1420, most likely by a son of Tokhtamysh (en.wikipedia). The effective ruler of the Golden Horde under Temür Qutlugh from 1396 and the power behind the khans until about 1411; legendary ancestor of the Nogai Horde. With Temür Qutlugh he defeated Vytautas, Tokhtamysh and the Ruthenian-Polish coalition at the Vorskla River on 12 Aug 1399 (en.wikipedia body says 5 Aug); about 20 princes, among them Andrius of Polotsk, Dmitrijus of Bryansk and Spytko II of Melsztyn, were killed (VLE says 12). The river meeting, in which Edigu demanded the obedience owed to an elder, is the Rus'/Polish tradition. He burned the suburbs of Moscow in December 1408 and ransomed Kyiv in 1399. See [Wikipedia](https://en.wikipedia.org/wiki/Edigu).
+- **[Saga invention]:** His point-of-view chapter and tactics scene (Book II ch. 24; the tactics are saga, the Vorskla's shape is not); the Steppe-Hunger's patronage; the final exchange on the river is attested in outline only.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+Not in the JSON lexicon; the [pronunciation guide](../codex/pronunciation-guide.qmd) gives the Lithuanian form **Edigėjus** (e-di-GĖ-jus, /ɛdʲɪˈɡʲeːjʊs/), English respelling *eh-dih-GAY-yoos* (stress to be verified); the Tatar *Idegäy* is closer to *ee-deh-GAY*. The saga's "Edigu" is the English-scholarly spelling.
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book II:** ch. 15, 22, 24 (POV), 25, 26, 28 and the afterword. **Book III:** ch. 2, 10, 19, 25. **Book IV:** ch. 11 (the Black Sea forts; his death noted).

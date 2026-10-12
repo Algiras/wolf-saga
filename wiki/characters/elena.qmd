@@ -8,33 +8,41 @@ categories: [character]
 {{< include ../_generated/elena.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Elena is the young maid of Ona's household at Krėva who stays behind: a secret follower of the [Root-Mother](../forces/root_mother.qmd) who lies in Vytautas's bed in his old furs, face to the wall, while he walks out in her dress (Book I ch. 13). The saga names her and gives her an end; the record does neither. She is the Quiet Sacrifice of the book, and the price Vytautas learns to carry: Ona tells him her name and orders him to remember it.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Young ("*jauna tarnaitė*", ch. 13). At Kęstutis's funeral she walks among the mourners looking only at the ground, with a dried flax knot, the Root-Mother's sign, in her sleeve (ch. 12). In the bed she does not move; when Vytautas looks back her eyes hold neither fear nor pity, "only a calm offering". Her last words are "Go, prince; the roots remember me".
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | To make the escape work, so that the sacrifice is the seed of a free Lithuania. |
+| **Need** (internal) | To be remembered. |
+| **Lie** they believe | That a death for the roots is a seed. |
+| **Truth** they learn (or refuse) | What she gets: Ona orders Vytautas to remember her name; he does, at the end of a list of the dead he carries (Book II ch. 27). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book I (autumn 1382):** among the mourners at Kęstutis's pyre (ch. 12); the swap on the eve of Vėlinės (ch. 13); hanged on the gate the next morning on Skirgaila's order, as Ona tells Vytautas in Masovia (ch. 17).
+- **Book II:** the last name on Vytautas's list of the remembered dead (ch. 27); after the Vorskla Vytautas asks Ona what Elena's eyes were like, and gets no answer (ch. 29).
+- **Book IV (1418):** dying Ona confesses that she has sent silver to Elena's mother every year, through a man at Ašmena (ch. 9).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Tier 0, with a gesture of faith: a follower of the Root-Mother ("Šaknų Motinos pasekėja", ch. 13) who has no craft. The wiki graph records a tier-1 *užkalbėjimai* (charm) in the sign she carries: the dried flax knot. Her willingness is the working.
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** The oldest Lithuanian annals say that Ona persuaded one of her maids to change clothes with Vytautas; the maid stayed in the castle and he walked out (Lithuanian Chronicle). Wigand says he put on Ona's own clothes; other accounts have him lowered from a window in a basket. The maid's **name** ("Elena" or "Alena") and her **execution** are a nineteenth-century addition (Narbutt) and not in the primary record.
+- **[Saga invention]:** The name Elena, her faith in the Root-Mother, her hanging on the gate and Ona's yearly silver to her mother (Book IV ch. 9) are saga invention. The persona file and some codex pages once called them historical; the fact-check (Book I item 8) corrected that.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**e-le-NA** (/ɛlʲɛˈnɐ/), English respelling *eh-leh-NAH*; stress on the last syllable. [world_rules/pronunciation_lexicon.json]
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book I:** ch. 12, 13 (the swap), 17. **Book II:** ch. 27, 29. **Book IV:** ch. 9 (Ona's Death).

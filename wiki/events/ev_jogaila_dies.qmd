@@ -9,7 +9,7 @@ categories: [event]
 
 ## What the chronicles say [Record]
 
-Jogaila died on 1 June 1434 at Gródek near Lviv, in the forty-eighth year of his reign. According to Długosz he caught a cold in a late-April frost at Medyka, listening to nightingales at night, was ill for weeks and was taken to Gródek; the day before he died he summoned loyal knights and entrusted his sons to them. Queen Sophia was in Kraków; Oleśnicki and the chancellor, bound for Basel, turned back at Poznań. The body reached Kraków on 11 June and the funeral was at Wawel on 18 June (historia.org.pl, 11 October 2024). His birth year is c. 1362 on current scholarship (Tęgowski 1999), so about 72; an older view gives c. 1352 (verify). The graph now places the death at [Gródek](../places/grodek.qmd); the body was taken to Kraków.
+Jogaila died on 1 June 1434 at Gródek near Lviv, in the forty-eighth year of his reign. According to Długosz he caught a cold in a late-April frost at [Medyka](../places/medyka.qmd) ([the chill](ev_medyka_chill.qmd)), listening to nightingales at night, was ill for weeks and was taken to Gródek; the day before he died he summoned loyal knights and entrusted his sons to them. Queen Sophia was in Kraków; Oleśnicki and the chancellor, bound for Basel, turned back at Poznań. The body reached Kraków on 11 June and the funeral was at Wawel on 18 June (historia.org.pl, 11 October 2024). His birth year is c. 1362 on current scholarship (Tęgowski 1999), so about 72; an older view gives c. 1352 (verify). The graph now places the death at [Gródek](../places/grodek.qmd); the body was taken to Kraków.
 
 ## What really happened [Saga]
 

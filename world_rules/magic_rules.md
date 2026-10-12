@@ -74,7 +74,7 @@ Every working names an **element**, a **recipient** and a **verb of giving**, in
 |---|---|---|
 | **Stars** (Clear Sight) | Hours of blindness | Blind for days, **or** the permanent loss of one beloved face from memory |
 | **Fire** (Soul Armour, strength) | Exhaustion | **Soul-chill**: empathy gone for days; the caster can kill without feeling |
-| **Water** (Life Spring, healing) | Raging thirst | The caster **takes the patient's wound** in part. *Moving the cost into another body (a second person, a child) is a **forbidden, costly working**: "the debt finds its owner." Book II ch. 9 shows it (the Lagoon witch shifts the poison into another child) and the price returns to her.* |
+| **Water** (Life Spring, healing) | Raging thirst | The caster **takes the patient's wound** in part. *Moving the cost into another body (a second person, a child) is a **forbidden, costly working**: "the debt finds its owner." Book II ch. 9 only *offers* it: the Lagoon witch names the road (a small body to take the poison in her place) and Vytautas answers "Ne"; the boys die. The rule is stated there, never exercised.* |
 | **Earth** (Unmovable Will) | Stiffness | **Petrification** for the length of the effect; permanent loss of grace |
 | **Wind** (Shadow Speed, far-speech) | Vertigo | **Loss of voice**: only whistling, for days, and permanently with repeated use |
 

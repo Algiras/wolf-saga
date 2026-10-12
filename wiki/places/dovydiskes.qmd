@@ -12,14 +12,16 @@ categories: [place]
 The place of the secret treaty of 31 May 1380. The name appears only in Wigand of Marburg and German texts; the village is not securely identified.
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+Because no map shows it twice in the same place, the saga's Dovydiškės has to be built from what the treaty itself needed: a manor or hunting camp deep in the pine and bog border country, far from any road a Lithuanian official would use. The Order covered the meeting with a five-day hunt, so the air is horn calls, wet hounds, smoke from roasting game, and the smell of horse sweat and spruce resin. Late May in this country means cold nights and pale, long evenings, birdsong at three in the morning, mosquitoes by the water, and mud on the tracks from the spring thaw. Inside the hall, the sound is quills and low German, and then the long silence after the seals are pressed.
 
 ## In the saga
 
 The saga leaves it in the border wilderness.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+The site is unknown, so every figure is a planning number. Theories place it somewhere between Kaunas and Insterburg, which puts it on the Order's side of the Dykra or at its edge; another identifies it with a village called Šiaudiniškė. From Vilnius, Jogaila's party reaches Kaunas in about 2.5 days on horseback (c. 100 km), and a further few days across the border belt would bring them to a hunting lodge in the Order's march. From Marienburg, Grand Master Kniprode's delegates would ride roughly two weeks (Vilnius to Marienburg is 13-16 days by envoy). The hunt was a perfect screen: a company of mounted men, hounds and servants travelling openly in the forest raised no questions. Kęstutis's scouts could not reach it quickly. In the saga it is, deliberately, a place you can be told about but cannot find again.
 
 ## Scenes set here
 

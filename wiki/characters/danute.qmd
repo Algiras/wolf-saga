@@ -8,33 +8,41 @@ categories: [character]
 {{< include ../_generated/danute.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Danutė (baptised Anna, c. 1358 - 1448) is the daughter of [Kęstutis](kestutis.qmd) and sister of [Vytautas](vytautas.qmd), wife since c. 1373 of [Janusz I of Masovia](janusz1.qmd). She is the Safe Harbour of Book I: the one Kęstutaitis who married into Christendom early and lived quietly. When Vytautas, shaved, starving and still wearing a maid's dress, reaches Warsaw in late 1382, she takes him in without a word of mockery and sends him on to Prussia with Janusz's guides.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Book I ch. 17 shows her only in action: she comes down the stairs and embraces her brother three times until he stops shaking, has the maid's dress washed and mended because he will not let it be thrown away, and for several days speaks to him slowly and loudly. Only on the third day does he understand why: the cost of the Five Voices had not left him with the fog. Book VI ch. 16 gives a glimpse of her as a three-year-old clinging to her mother's skirt in the spring of 1361. Her visible sign in the saga's world is a candle lit in church and a splinter lit at home.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | To keep her brother alive and her husband's small duchy safe among three larger neighbours. |
+| **Need** (internal) | To be allowed one honest conversation with her blood without it being used. |
+| **Lie** they believe | That she can serve both altars without choosing. |
+| **Truth** they learn (or refuse) | That a house in Christendom is also a hiding place (Book I ch. 17). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book VI (1361):** a child in her mother's arms at the Kęstutis-Birutė household (ch. 16).
+- **Book I (late 1382):** shelters Vytautas in Warsaw, tells nothing, and sends him to Prussia (ch. 17).
+- **Books II-IV:** a background ally in Masovia, whose family links the three cousins' houses: her sister-in-law Aleksandra Algirdaitė marries Siemowit IV in 1387.
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Tier 0 as written. Open question: the amber gift runs down the maternal line, and as Birutė's daughter she could carry a latent gift that never woke or that the Church in Warsaw taught her to fear. The saga does not resolve it; she is shown as a woman whose faith is a candle in church and a splinter at home.
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** Danutė (baptised Anna; the saga keeps only "Danutė" to avoid confusion with Vytautas's wife Ona/Anna), born c. 1358, married c. 1373 Janusz I of Masovia (Warsaw, Czersk) and died in 1448 (dates approximate; see [VLE](https://www.vle.lt/straipsnis/danute/)). Her godfather was the Order komtur Kuno von Liebenstein, who in August 1381 warned Kęstutis of the Treaty of Dovydiškės (en.wikipedia, after Ivinskis 1978). After his escape from Krėva in autumn 1382 Vytautas went to Janusz and Danutė in Masovia before turning to the Order (Wigand; en.wikipedia).
+- **[Saga invention]:** The three embraces, the mended dress, the slow loud speech, the guides to Prussia (Book I ch. 17), and the splinter lit at home. The record says only that he stayed with Janusz; the saga adds her sympathy and her sharp ear for the hidden cost.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**da-NU-tė** (/dɐˈnʊtʲeː/), English respelling *dah-NOO-tay*; stress on the second syllable. [world_rules/pronunciation_lexicon.json]
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book I:** ch. 17 (Pasienis / The Borderland). **Book VI:** ch. 16 (as a three-year-old). She is mentioned in Book II's Lyck hostage lists as Rimgailė's sister. Continuity: Book I ch. 17 sets the visit before Louis of Hungary's death (10 Sep 1382) is known, i.e. autumn 1382.

@@ -19,7 +19,13 @@ Usage (from the repository root):
     python3 scripts/make_covers.py chapters --book 1    # a thumbnail per chapter file (H1 titles)
     python3 scripts/make_covers.py contact              # rebuild the contact sheets only
     python3 scripts/make_covers.py check-fonts          # Lithuanian glyph-coverage check only
-Add --lang en for the English-title variants.
+    python3 scripts/make_covers.py print 4 --pages 260 --paper cream   # KDP 6x9 paperback wrap cover
+    python3 scripts/make_covers.py print all            # all six, page counts read from the print PDFs
+Add --lang en for the English-title variants (also for `print`: English title, blurb_en).
+
+`print` writes books/covers/out/bookN/print_cover_kdp.pdf (+ _preview.jpg and a _guides.jpg showing trim,
+spine, safe zone) at 300 dpi: 0.125 in bleed, back cover | spine | front, spine = pages x 0.0025 in (cream)
+or 0.002252 in (white). The blurb comes from books/book_meta.yml. See docs/PRINTING.md.
 
 Art lookup order for each format (see books/covers/README.md):
     video/thumbnail:  art_wide_file  ->  crop of art_file  ->  interim_art  ->  placeholder
@@ -47,6 +53,7 @@ LITHUANIAN_REQUIRED = "ĄČĘĖĮŠŲŪŽąčęėįšųūž"
 
 SIZES = {
     "ebook": (1600, 2560),
+    "print_front": (1800, 2700),   # 6 x 9 in trim at 300 dpi (front panel of the KDP wrap cover)
     "square": (3000, 3000),
     "video": (1920, 1080),
     "thumb": (1280, 720),
@@ -81,6 +88,9 @@ class Fonts:
             "secondary": rpath(fc["secondary"]),
             "secondary_light": rpath(fc.get("secondary_light", fc["secondary"])),
         }
+        for role in ("body", "body_italic"):   # optional: running text on the print wrap cover
+            if fc.get(role):
+                self.paths[role] = rpath(fc[role])
         self.weight = fc.get("display_weight", 700)
         self._cmaps: dict[Path, set[int]] = {}
         self.check_coverage()
@@ -480,7 +490,7 @@ def render_front(ctx: Ctx, b: dict, kind: str) -> tuple[Image.Image, ArtSource]:
     gradient_plate(img, plate, "bottom", 0.50, 0.90, 0.0, 0.90)
 
     mx = W * 0.09
-    if kind == "ebook":
+    if kind in ("ebook", "print_front"):
         top_m, bot_m = H * 0.058, H * 0.06
         sn_max, num_sz = H * 0.060, H * 0.021
         stack, t_cap, t_w = True, H * 0.105, W * 0.82
@@ -740,6 +750,284 @@ def contact_sheets(ctx: Ctx):
     print(f"contact sheets: {od / ('contact_sheet' + suffix + '.png')}, {od / ('contact_sheet_wide' + suffix + '.png')}")
 
 
+# --------------------------------------------------------------------------- KDP print wrap cover
+
+DPI = 300
+TRIM_W_IN, TRIM_H_IN, BLEED_IN = 6.0, 9.0, 0.125
+SPINE_IN_PER_PAGE = {"cream": 0.0025, "white": 0.002252}    # KDP: black & white interior
+SPINE_TEXT_MIN_PAGES = 100
+SPINE_CLEAR_IN = 0.0625          # clearance each side of the spine text
+SAFE_IN = 0.25                   # nothing but the background within 0.25 in of the trim edge
+BARCODE_IN = (2.0, 1.2)          # white barcode box, bottom right of the back cover
+BARCODE_MARGIN_IN = 0.25
+
+
+def px(inches: float) -> int:
+    return int(round(inches * DPI))
+
+
+def pdf_pages(path: Path) -> int:
+    """Page count of a PDF: PyMuPDF if present, else pdfinfo, else a /Type /Page count."""
+    try:
+        import fitz  # PyMuPDF
+        with fitz.open(str(path)) as doc:
+            return doc.page_count
+    except ImportError:
+        pass
+    import shutil
+    import subprocess
+    if shutil.which("pdfinfo"):
+        out = subprocess.run(["pdfinfo", str(path)], capture_output=True, text=True, check=True).stdout
+        m = re.search(r"^Pages:\s+(\d+)", out, re.M)
+        if m:
+            return int(m.group(1))
+    return len(re.findall(rb"/Type\s*/Page[^s]", path.read_bytes()))
+
+
+def print_pdf_path(n: int) -> Path:
+    """Where `quarto render --profile print` leaves the interior PDF (book 1 renders into books/_book)."""
+    d = REPO / "books" / ("" if n == 1 else str(n)) / "_book"
+    return d / f"saga-{n}-print.pdf"
+
+
+def spine_inches(pages: int, paper: str) -> float:
+    return pages * SPINE_IN_PER_PAGE[paper]
+
+
+def wrap_text(f: Fonts, role: str, size: int, text: str, max_w: float) -> list[str]:
+    lines, cur = [], ""
+    for w in text.split():
+        trial = (cur + " " + w).strip()
+        if measure(f, role, size, trial) <= max_w or not cur:
+            cur = trial
+        else:
+            lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def mirror_bleed(trim: Image.Image, left: int, top: int, right: int, bottom: int) -> Image.Image:
+    """Grow a trim-size panel by mirroring its own edges into the bleed (art and plates stay continuous)."""
+    W, H = trim.size
+    out = Image.new("RGB", (W + left + right, H + top + bottom))
+    out.paste(trim, (left, top))
+    if left:
+        out.paste(trim.crop((0, 0, left, H)).transpose(Image.FLIP_LEFT_RIGHT), (0, top))
+    if right:
+        out.paste(trim.crop((W - right, 0, W, H)).transpose(Image.FLIP_LEFT_RIGHT), (left + W, top))
+    if top:
+        out.paste(out.crop((0, top, out.width, 2 * top)).transpose(Image.FLIP_TOP_BOTTOM), (0, 0))
+    if bottom:
+        out.paste(out.crop((0, top + H - bottom, out.width, top + H)).transpose(Image.FLIP_TOP_BOTTOM), (0, top + H))
+    return out
+
+
+def blurb_for(ctx: Ctx, b: dict) -> str:
+    meta_path = REPO / "books" / "book_meta.yml"
+    meta = yaml.safe_load(meta_path.read_text(encoding="utf-8"))
+    entry = next(x for x in meta["books"] if x["number"] == b["number"])
+    key = f"blurb_{ctx.lang}"
+    if not entry.get(key):
+        sys.exit(f"{meta_path}: book {b['number']} has no {key}")
+    return " ".join(entry[key].split())
+
+
+class SafeZone:
+    """Collects the extents of everything typeset and fails if any lies inside the 0.25 in safe margin."""
+
+    def __init__(self, w, h):
+        self.box = (px(SAFE_IN), px(SAFE_IN), w - px(SAFE_IN), h - px(SAFE_IN))
+        self.items = []
+
+    def add(self, label, x0, y0, x1, y1):
+        bx0, by0, bx1, by1 = self.box
+        if x0 < bx0 or y0 < by0 or x1 > bx1 or y1 > by1:
+            sys.exit(f"SAFE ZONE VIOLATION: {label} spans x {x0:.0f}-{x1:.0f}, y {y0:.0f}-{y1:.0f}; "
+                     f"must stay inside x {bx0}-{bx1}, y {by0}-{by1} (0.25 in from the trim)")
+        self.items.append(label)
+
+
+def render_back_panel(ctx: Ctx, b: dict) -> Image.Image:
+    """Back cover at trim size (1800 x 2700): blurred, darkened cover art, series line, blurb, author,
+    and a clear white barcode box at the bottom right."""
+    W, H = SIZES["print_front"]
+    f = ctx.fonts
+    c0, c1, c2, plate = palette(b)
+    tc = ctx.title_color
+    img, _src = base_canvas(ctx, b, "print_front", (W, H))
+    img = img.filter(ImageFilter.GaussianBlur(26))
+    img = Image.blend(img, Image.new("RGB", (W, H), plate), 0.74)
+    gradient_plate(img, plate, "top", 0.0, 0.30, 0.45, 0.0)
+    gradient_plate(img, plate, "bottom", 0.62, 1.0, 0.0, 0.55)
+    zone = SafeZone(W, H)
+
+    # series line + ornament
+    sl = ctx.series_line(b)
+    sl_sz = int(H * 0.0185)
+    sl_base = int(H * 0.105)
+    sw = paint_text(img, f, W / 2, sl_base, sl, "secondary", sl_sz, c2, align="c", tracking=0.30, shadow=0.8)
+    zone.add("series line", W / 2 - sw / 2, sl_base - sl_sz, W / 2 + sw / 2, sl_base + sl_sz * 0.3)
+    rule_y = sl_base - sl_sz * 0.33
+    for sgn in (-1, 1):
+        flank(img, W / 2 + sgn * (sw / 2 + sl_sz * 0.9), sgn, W * 0.10, rule_y, c2, H * 0.0007, sl_sz * 0.18)
+
+    # book title (small, display face) above the blurb
+    t = ctx.title(b)
+    t_size = min(fit_size(f, "display", t, W * 0.70, int(H * 0.058)), int(H * 0.058))
+    t_base = int(H * 0.205)
+    tw = paint_text(img, f, W / 2, t_base, t, "display", t_size, tc, align="c", stroke=max(1, int(t_size * 0.012)),
+                    gradient_to=lerp_c(tc, c2, 0.28), shadow=0.85)
+    zone.add("title", W / 2 - tw / 2, t_base - t_size, W / 2 + tw / 2, t_base + t_size * 0.3)
+
+    # blurb: largest size that fits between the title and the author line
+    box_x = px(0.62)
+    box_w = W - 2 * box_x
+    top_y = t_base + int(H * 0.06)
+    bar_w, bar_h = px(BARCODE_IN[0]), px(BARCODE_IN[1])
+    bar_x1, bar_y1 = W - px(BARCODE_MARGIN_IN), H - px(BARCODE_MARGIN_IN)
+    bar_x0, bar_y0 = bar_x1 - bar_w, bar_y1 - bar_h
+    author_base = bar_y0 - px(0.42)
+    bottom_y = author_base - px(0.55)
+    text = blurb_for(ctx, b)
+    for size in range(58, 30, -2):
+        lines = wrap_text(f, "body", size, text, box_w)
+        lh = int(size * 1.36)
+        if top_y + len(lines) * lh <= bottom_y:
+            break
+    else:
+        sys.exit(f"book {b['number']}: the blurb does not fit on the back cover even at 31 px")
+    block_h = len(lines) * lh
+    y = top_y + int((bottom_y - top_y - block_h) * 0.35) + size   # centred in the free band, a little high
+    for line in lines:
+        w = paint_text(img, f, W / 2, y, line, "body", size, tc, align="c", shadow=0.9)
+        zone.add("blurb line", W / 2 - w / 2, y - size, W / 2 + w / 2, y + size * 0.3)
+        y += lh
+
+    # author
+    au_sz = int(H * 0.0255)
+    aw = paint_text(img, f, W / 2, author_base, b["author"], "secondary", au_sz, tc, align="c", tracking=0.16, shadow=0.85)
+    zone.add("author", W / 2 - aw / 2, author_base - au_sz, W / 2 + aw / 2, author_base + au_sz * 0.3)
+
+    # barcode box (KDP prints the barcode here when it assigns or prints an ISBN; keep it clear)
+    ImageDraw.Draw(img).rectangle([bar_x0, bar_y0, bar_x1, bar_y1], fill=(255, 255, 255))
+    zone.add("barcode box", bar_x0, bar_y0, bar_x1, bar_y1)
+    return img
+
+
+def render_spine(ctx: Ctx, b: dict, spine_px: int, height_px: int, with_text: bool) -> Image.Image:
+    """Spine panel. Text reads top to bottom (rotated 90 degrees clockwise), centred on the spine width."""
+    f = ctx.fonts
+    c0, c1, c2, plate = palette(b)
+    tc = ctx.title_color
+    sp = Image.new("RGB", (spine_px, height_px), plate)
+    if not with_text:
+        return sp
+    clear = px(SPINE_CLEAR_IN)
+    inner_w = spine_px - 2 * clear                  # the text must fit inside this band
+    L = height_px - 2 * px(BLEED_IN) - 2 * px(0.5)   # 0.5 in kept clear at head and tail
+    strip = Image.new("RGB", (L, inner_w), plate)
+    # three pieces along the length: series (+numeral), title, author
+    sn_sz = max(10, int(inner_w * 0.40))
+    ti_sz = max(10, int(inner_w * 0.72))
+    au_sz = max(10, int(inner_w * 0.34))
+    mid = inner_w * 0.5
+    pieces = [
+        ("series", ctx.series_name, "display", sn_sz, tc),
+        ("title", ctx.title(b), "display", ti_sz, tc),
+        ("author", b["author"].upper(), "secondary", au_sz, c2),
+    ]
+    widths = [measure(f, r, sz, t, 0.16 if r == "secondary" else 0.0) for _, t, r, sz, _ in pieces]
+    gap = px(0.35)
+    total = sum(widths) + 2 * gap
+    while total > L and ti_sz > 12:     # shrink uniformly if a long title does not fit
+        k = 0.95
+        sn_sz, ti_sz, au_sz = int(sn_sz * k), int(ti_sz * k), int(au_sz * k)
+        pieces = [(a, t, r, int(sz * k), col) for a, t, r, sz, col in pieces]
+        widths = [measure(f, r, sz, t, 0.16 if r == "secondary" else 0.0) for _, t, r, sz, _ in pieces]
+        total = sum(widths) + 2 * gap
+    x = (L - total) / 2
+    for (name, text, role, size, col), w in zip(pieces, widths):
+        base = mid + size * (0.28 if role == "display" else 0.30)
+        paint_text(strip, f, x, base, text, role, size, col, align="l",
+                   tracking=0.16 if role == "secondary" else 0.0, shadow=0.0)
+        x += w + gap
+    strip = strip.rotate(-90, expand=True)          # clockwise: reads top to bottom
+    sp.paste(strip, (clear, px(BLEED_IN) + px(0.5)))
+    return sp
+
+
+def save_cover_pdf(img: Image.Image, path: Path, width_in: float, height_in: float) -> None:
+    """One-page PDF whose page box is exactly width_in x height_in (72 pt per inch). PyMuPDF places the
+    image on an exact page; without it, Pillow writes the page size from the pixel size and a dpi."""
+    try:
+        import fitz
+    except ImportError:
+        img.save(path, "PDF", resolution=img.width / width_in)
+        return
+    import io
+    buf = io.BytesIO()
+    img.save(buf, "JPEG", quality=95, subsampling=0, optimize=True, dpi=(DPI, DPI))
+    doc = fitz.open()
+    page = doc.new_page(width=width_in * 72, height=height_in * 72)
+    page.insert_image(page.rect, stream=buf.getvalue())
+    doc.set_metadata({"title": "KDP wrap cover", "creator": "scripts/make_covers.py"})
+    doc.save(str(path), deflate=True)
+    doc.close()
+
+
+def build_print_cover(ctx: Ctx, n: int, pages: int, paper: str, guides: bool = True) -> Path:
+    b = ctx.book(n)
+    spine_in = spine_inches(pages, paper)
+    bleed = px(BLEED_IN)
+    back_w = front_w = px(BLEED_IN + TRIM_W_IN)
+    spine_w = px(spine_in)
+    W = back_w + spine_w + front_w
+    H = px(TRIM_H_IN + 2 * BLEED_IN)
+    total_in = 2 * (BLEED_IN + TRIM_W_IN) + spine_in
+
+    front_trim, src = render_front(ctx, b, "print_front")
+    back_trim = render_back_panel(ctx, b)
+    front = mirror_bleed(front_trim, 0, bleed, bleed, bleed)     # bleed top, bottom and the outer edge
+    back = mirror_bleed(back_trim, bleed, bleed, 0, bleed)       # bleed top, bottom and the outer edge
+    with_text = pages >= SPINE_TEXT_MIN_PAGES
+    spine = render_spine(ctx, b, spine_w, H, with_text)
+
+    cover = Image.new("RGB", (W, H))
+    cover.paste(back, (0, 0))
+    cover.paste(spine, (back_w, 0))
+    cover.paste(front, (back_w + spine_w, 0))
+
+    od = ctx.out_dir(b)
+    pdf = od / "print_cover_kdp.pdf"
+    save_cover_pdf(cover, pdf, total_in, TRIM_H_IN + 2 * BLEED_IN)
+    prev = cover.copy()
+    prev.thumbnail((1800, 1800))
+    prev.save(od / "print_cover_kdp_preview.jpg", quality=88, optimize=True)
+    if guides:
+        g = cover.copy()
+        d = ImageDraw.Draw(g)
+        lw = 3
+        def vline(x, col): d.line([(x, 0), (x, H)], fill=col, width=lw)
+        def hline(y, col): d.line([(0, y), (W, y)], fill=col, width=lw)
+        for x in (bleed, back_w, back_w + spine_w, W - bleed):       # trim / spine folds
+            vline(x, (255, 40, 40))
+        for y in (bleed, H - bleed):
+            hline(y, (255, 40, 40))
+        for x in (bleed + px(SAFE_IN), back_w - px(0.0) - px(SAFE_IN), back_w + spine_w + px(SAFE_IN), W - bleed - px(SAFE_IN)):
+            vline(x, (40, 220, 90))
+        for y in (bleed + px(SAFE_IN), H - bleed - px(SAFE_IN)):
+            hline(y, (40, 220, 90))
+        g.thumbnail((1800, 1800))
+        g.save(od / "print_cover_kdp_guides.jpg", quality=85, optimize=True)
+    print(f"book {n}: {pages} pages ({paper}) -> spine {spine_in:.4f} in ({spine_w} px), full cover "
+          f"{total_in:.4f} x {TRIM_H_IN + 2 * BLEED_IN:.3f} in = {W} x {H} px @ {DPI} dpi, "
+          f"spine text {'yes' if with_text else 'no (< %d pages)' % SPINE_TEXT_MIN_PAGES}; art: {src.label}\n"
+          f"        {pdf}")
+    return pdf
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--lang", choices=["lt", "en"], default="lt", help="title language (default lt)")
@@ -756,6 +1044,13 @@ def main(argv=None):
     p.add_argument("--book", type=int, required=True)
     sub.add_parser("contact", help="rebuild contact sheets from existing output")
     sub.add_parser("check-fonts", help="Lithuanian glyph-coverage check only")
+    p = sub.add_parser("print", help="KDP paperback wrap cover (6 x 9 in trim) for one book or 'all'")
+    p.add_argument("number", help="book number 1-6, or 'all'")
+    p.add_argument("--pages", type=int, help="interior page count (default: read it from the print PDF)")
+    p.add_argument("--paper", choices=sorted(SPINE_IN_PER_PAGE), default="cream",
+                   help="paper colour; sets the spine factor (cream 0.0025 in/page, white 0.002252)")
+    p.add_argument("--pdf", type=Path, help="interior PDF to read the page count from")
+    p.add_argument("--no-guides", action="store_true", help="skip the *_guides.jpg overlay")
     args = ap.parse_args(argv)
 
     cfg = load_config()
@@ -776,6 +1071,20 @@ def main(argv=None):
             print(render_part_thumb(ctx, args.book, label, title))
     elif args.cmd == "contact":
         contact_sheets(ctx)
+    elif args.cmd == "print":
+        nums = [b["number"] for b in cfg["books"]] if args.number == "all" else [int(args.number)]
+        if args.pages and len(nums) > 1:
+            sys.exit("--pages applies to a single book; use --pdf or the default for 'all'")
+        for n in nums:
+            pages = args.pages
+            if not pages:
+                pdf = args.pdf if (args.pdf and len(nums) == 1) else print_pdf_path(n)
+                if not pdf.exists():
+                    sys.exit(f"no page count for book {n}: {pdf} not found (render the print PDF or pass --pages)")
+                pages = pdf_pages(pdf)
+                if pages % 2:
+                    pages += 1   # KDP pads an odd page count with a blank page
+            build_print_cover(ctx, n, pages, args.paper, guides=not args.no_guides)
 
 
 if __name__ == "__main__":

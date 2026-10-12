@@ -9,7 +9,7 @@ categories: [event]
 
 ## What the chronicles say [Record]
 
-Immediately after Vytautas's death (October–November 1430) Polish lords seized Podolia; Kamianets refused to hand it over (lt.wikipedia, Švitrigaila; zamki.name). [Švitrigaila](../characters/svitrigaila.qmd) had been raised Grand Duke unilaterally by the Lithuanian lords against the Horodło clauses; [Jogaila](../characters/jogaila.qmd), who was in Vilnius for the funeral, announced his approval on 7 November 1430 and then withdrew under pressure from the Polish lords. Jogaila lodged in Vilnius castle as a virtual hostage until just before Christmas.
+Immediately after Vytautas's death (October–November 1430) Polish lords seized Podolia, Kamianets castle among the places taken (Polish sources: the Podolian lords took it, by one account in agreement with the starosta); the truce required Kamianets, Smotrych and Červonogrod to be returned to Lithuania, and the Poles did not return them (lt.wikipedia, Švitrigaila). Podolian forces retook Kamianets only in 1433 (en.wikipedia, Battle of Murafa). [Švitrigaila](../characters/svitrigaila.qmd) had been raised Grand Duke unilaterally by the Lithuanian lords against the Horodło clauses; [Jogaila](../characters/jogaila.qmd), who was in Vilnius for the funeral, announced his approval on 7 November 1430 and then withdrew under pressure from the Polish lords. Jogaila lodged in Vilnius castle as a virtual hostage until just before Christmas.
 
 ## What really happened [Saga]
 

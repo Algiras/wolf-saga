@@ -13,6 +13,9 @@ series:
     display_weight: 700
     secondary: books/covers/fonts/CormorantSC-SemiBold.ttf  # series line, years, author
     secondary_light: books/covers/fonts/CormorantSC-Medium.ttf
+    # running text (back-cover blurb of the print wrap cover); the same OFL EB Garamond as the print interior
+    body: books/_extensions/saga-print/fonts/EBGaramond-Regular.otf
+    body_italic: books/_extensions/saga-print/fonts/EBGaramond-Italic.otf
   title_color: "#EFE6D2"   # bone; identical on all six books (the series system). The per-book accent is colors[2].
 
 books:
@@ -328,7 +331,7 @@ books:
     numeral: "VI"
     title_lt: "Šventasis Miškas"
     title_en: "The Holy Forest"
-    years: "1345–1377"
+    years: "1341–1377"
     author: *author
     series_line: "GELEŽINIO VILKO SAGA · VI KNYGA"
     series_line_en: "THE IRON WOLF SAGA · BOOK VI"

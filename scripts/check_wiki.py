@@ -58,6 +58,7 @@ def check_source(p: Path):
 
     # balance checks on prose (ignore code fences and comments)
     prose = re.sub(r"```.*?```", "", body, flags=re.S)
+    prose = re.sub(r"`[^`\n]+`", "", prose)  # inline code is literal, not Markdown
     if prose.count("<!--") != prose.count("-->"):
         errors.append(f"{where}: unclosed HTML comment")
     prose = re.sub(r"<!--.*?-->", "", prose, flags=re.S)

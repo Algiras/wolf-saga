@@ -12,22 +12,28 @@ categories: [character]
 Vytautas's two hostage sons, Jurgis and Ivanas, are a **contested tradition**: the saga adopts it, but they are not in the record.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Two boys at the Grodno court in 1388-89, brought home from Marienburg half a year earlier: **Jurgis**, eleven, serious and upright, eats as the Order's brothers taught and makes the sign of the cross from left to right as in Marienburg; **Ivanas**, nine, who sits on one of his own boots humming a wordless German song (Book II ch. 4). Their mother tells them in the evenings about their grandmother, "not a witch, but a woman who could talk to water"; Ivanas asks whether the water answered, Jurgis says nothing and looks at the window (ch. 6). They are not on the Order's written hostage list ("the household's escort, nobody writes those down").
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | Two children's wishes: to be at home, to be at their parents' table, and not to be watched by the Order's brother Dietrich. |
+| **Need** (internal) | To be known as something other than a pledge. |
+| **Lie** they believe | Vytautas will come for them in time; he always does. |
+| **Truth** they learn (or refuse) | He does not come in time: the poison reaches them first, and Eglė reads it off the Neman foam ('milk foam if alive, blood foam if dead'). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book II ch. 4 (1388-89).** At the Grodno court; Vytautas has brought them from Marienburg half a year earlier, as promised. Their names are the tradition's (Grunau's "Iwan and Georg").
+- **ch. 5-6 (1389-90).** Hostages again with Ona; Brother Dietrich eavesdrops on their evening stories.
+- **ch. 9-10 (1392).** After Vytautas's break with the Order the cook vanishes and the boys sicken at Balga; the wolf-father Šešiapirštis goes into Prussia, takes their hair to a coastal ragana who offers a price (the child of the Order, "blood for poison"), and Vytautas will not pay it. Eglė reads the boys' deaths in the foam of the Neman. Ona looks at her husband "as if she were seeing him for the first time" and then looks away, the first time she does.
+- **Afterwards.** Vytautas remembers them at Grunwald, "not on guard, not lying with fever, but children one evening by Trakai Lake" (Book III ch. 20), and Ona mourns them to the end (Book IV ch. 9).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+**Tier 0.** Their deaths are herb-lore (poison), not sorcery, as the saga insists: "men need no magic for the worst things" (`power_systems.md` §2.4). The poison in the saga is *drignė*, *kietis* and German sugar, slow, stolen from the Balga kitchen. The offered cure is the one forbidden way of the water-craft: someone has to take the poison into themselves, and the ragana's own old body cannot carry two children's worth; the other price, a child of the Order, Vytautas refuses. Their deaths end his Form 4 (the Traitor of Traitors) and cost him Ona's regard.
 
 ## Record vs saga
 
@@ -35,7 +41,14 @@ Vytautas's two hostage sons, Jurgis and Ivanas, are a **contested tradition**: t
 - **[Saga invention]:** The boys' temperaments, Šešiapirštis's errand, the ragana's offer (Book II ch. 6-10). They are not on the Order's written hostage list in the book ("the household's escort").
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**JUR-gis** and **i-VA-nas** · IPA /ˈjʊrɡʲɪs/ and /ɪˈvɐnɐs/ · English sound-alikes "YUR-gis" and "ih-VAH-nahs". Not in the pronunciation lexicon; derived from its conventions. The tradition's forms are Jurgis (Georg) and Ivanas (Iwan).
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+- **Book II:** ch. 4 (Jurgis eleven, Ivanas nine), 5, 6, 9 (the poisoning and the foam), 10 and the afterword ("Vytauto sūnūs").
+- **Book III:** ch. 20 (Vytautas's memory at Grunwald).
+- **Book IV:** ch. 9 (Ona's death).
+
+Continuity: not on the Order's hostage list in the book; Sofija is the only child in the record; "Jurgis and Jonas" on the real 1390-92 hostage list were Alšėniškis and Narimantaitis kinsmen who came home alive.
+

@@ -1,0 +1,20 @@
+---
+title: "Samuelis (Elijas's elder son)"
+id: samuelis
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/samuelis.md >}}
+
+## Summary
+
+Samuelis is the elder son of [Elijas](elijas.qmd), the Karaim captain of the Trakai guards, and the older, wiser brother of [Zacharijas](zacharijas.qmd). He leads the family's prayers and answers his brother's complaint about the dying hearths with a question: where did your father sit?
+
+## Record vs saga
+
+- **[Saga invention]:** All of it. The Karaims at Trakai are historical; this family is not.
+
+## Appearances
+
+**Book V:** ch. 4 (*Užgesusios Krosnys*).

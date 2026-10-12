@@ -48,3 +48,12 @@ The wiki is generated from **one source of truth**, `world_rules/graph/world_gra
 Entries show `wiki/images/<id>.jpg` at the top of their infobox. Until AI art exists, freely licensed Wikimedia stand-ins are fetched with
 `python3 scripts/fetch_wiki_images.py` (mapping: `scripts/wiki_image_map.json`; options `--ids`, `--dry-run`, `--force`).
 AI-generated images are never overwritten. Every Wikimedia image is credited in its caption and on the [Image credits](image-credits.qmd) page.
+
+## Stat blocks
+
+Stat blocks are data, not prose. Edit `world_rules/graph/statblocks.json`, keyed by node id: `kind`, `subtitle`, `fields` as `[label, value]` pairs, `sections` of `{title, entries}` with entries as `[name, text]`, and `source`. `python3 scripts/build_wiki.py` renders each entry into that page's generated include, right after the infobox.
+
+- Values may use `*em*`, `**strong**` and `[text](url)`.
+- `kind` picks the look: `creature`, `god` and `force` render as a Monster Manual block, `spell` as a spell card and `item` as a magic-item card.
+- Fields are saga-native: tier, cost, banes, holders. There are no dice or numbers.
+- Entries with no data are skipped.

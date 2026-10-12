@@ -12,22 +12,25 @@ categories: [character]
 Karigaila, Jogaila's brother (not Kaributas), defends the Crooked Castle in 1390 and dies in its fall.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+The saga gives him no portrait. He enters Book II ch. 7 as a name on the Crooked Castle's walls and leaves it as a head on a pole. His tell, such as it is, is his role: Jogaila's brother, left to defend the city while Jogaila is in Poland, a Catholic-baptised Gediminid fighting alongside Order-sworn Lithuanian cousins (Kazimierz, in baptism).
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | To hold the Crooked Castle until Jogaila's relief arrives from Kraków. |
+| **Need** (internal) | To see that the city is worth more than the walls. |
+| **Lie** they believe | That a brother's order is enough to hold a breach. |
+| **Truth** they learn (or refuse) | That in a civil war the walls fall on whoever stands under the arch (Book II ch. 7). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book II (1390):** defends the Crooked Castle at Vilnius against Vytautas, the Order and the English guests; killed on 16 September when the arch falls (ch. 7), and his head is carried round on a pole. His death is reported in Sofija's letters (ch. 8).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Tier 0. No gift or bargain; the saga uses him as a human cost of the second civil war between the Algirdaičiai and Vytautas's party, fought at the Crooked Castle with the Order's help, on the same walls where Tautvilas dies on the other side.
 
 ## Record vs saga
 
@@ -35,7 +38,9 @@ Karigaila, Jogaila's brother (not Kaributas), defends the Crooked Castle in 1390
 - **[Saga invention]:** In Book II ch. 7 he dies when the arch falls and his head is carried on a pole afterwards.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**ka-ri-GAI-la** (/kɐrʲɪˈɡɐɪɫɐ/), English respelling *kah-rih-GUY-lah*; stress on the third syllable. [world_rules/pronunciation_lexicon.json]
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book II:** ch. 7 (Kreivoji Pilis, the siege of Vilnius and his death), ch. 8 (Sofijos Kraitis, in a letter) and the afterword. He does not appear elsewhere. Continuity note: never confuse him with Kaributas.

@@ -8,15 +8,21 @@ categories: [place]
 {{< include ../_generated/kamianets.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+Kamianets (Pol. *Kamieniec*, today Kamianets-Podilskyi) sits on a peninsula wound by the Smotrych river, with a castle traditionally dated to the second half of the 14th century on a site occupied since the 12th-13th. The Koriatovych (Karijotaičiai) brothers, sons of Gediminas's son Karijotas, held Podolia as Lithuanian vassals; a document of 1374 by Yuriy Koriatovych promises Magdeburg rights to the town. Fyodor Koriatovych was expelled in 1393, after which Lithuanian and Polish governors held Podolia in turn; Spytek of Melsztyn, a Polish magnate, modernised the castle c. 1400, adding ten towers. From the mid-14th to mid-15th century it lay on the Polish-Lithuanian frontier with the steppe. After Vytautas's death (27 Oct 1430) the Polish lords seized Podolia in the next weeks; Kamianets, according to the lt.wikipedia account the Book V fact-check used, refused to surrender. Poland organised the Podolian Voivodeship in 1434 with Kamianets as its seat. Sources: en.wikipedia (Kamianets-Podilskyi Castle); VLE; lt.wikipedia (Švitrigaila).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A fortress on a rock island in a canyon: limestone cliffs, a green river far below the walls, a single bridge to the mainland. Stone castle, thick walls, new towers around the courtyard; Armenian, Ruthenian, Polish and Wallachian traders in the town. Autumn mist in the canyon, steppe wind overhead, cold stone in November, the smell of horses and tanneries. The frontier is audible as a hush of watchers on the walls.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+Podolia is Vytautas's southern shield; its loss within weeks of his death is the first sign that the empire will not outlive him. Book V ch. 3 has an envoy ride twelve days through the first frost to tell Švitrigaila that the Polish lords "took Kamianets", which matches the record: Polish and Podolian lords took the castle in Oct-Nov 1430 and the Poles then declined to return it to Lithuania as the truce required. No mythic overlay of its own.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Kamianets is some 670 km south of Vilnius in a straight line (850-900 km by road, about four weeks on horse). The saga's messengers from Podolia took twelve days to reach Švitrigaila in the late-autumn frost. From Lutsk about 250 km; from Lviv about 225 km; from Kraków about 500 km. The Dniester lies 30 km south-west; the steppe edge lies a few days' ride east.
 
 ## Scenes set here
+
+Book V ch. 3 *Švitrigailos pakilimas* (the Podolian envoys arrive late November 1430), ch. 6 *Paskutinis akmuo* (the Polish lords speak of Podolia, December 1431).

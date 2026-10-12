@@ -1,0 +1,55 @@
+$-- Front matter of the print interior: half-title, title page, copyright verso.
+$-- The table of contents follows from the main template.
+\frontmatter
+\newcommand{\sagabooktitle}{$saga-booktitle$}
+\pagestyle{empty}
+\thispagestyle{empty}
+
+% half-title (recto)
+\null\vspace{0.3\textheight}
+\begin{center}
+{\normalfont\fontsize{26}{30}\selectfont $saga-booktitle$\par}
+\end{center}
+\cleardoublepage
+
+% title page (recto)
+\thispagestyle{empty}
+\null\vspace{0.1\textheight}
+\begin{center}
+{\normalfont\large\textls[180]{\textsc{$title$}}\par}
+\vspace{1.4\baselineskip}
+\sagaornament
+\vspace{3\baselineskip}
+{\normalfont\large\textls[120]{\textsc{$saga-booknum$}}\par}
+\vspace{1.2\baselineskip}
+{\normalfont\fontsize{34}{38}\selectfont $saga-booktitle$\par}
+\vspace{3\baselineskip}
+\sagaornament
+\vfill
+{\normalfont\Large\textls[100]{\textsc{$for(authors)$$it.name.literal$$sep$, $endfor$}}\par}
+\vspace{0.12\textheight}
+\end{center}
+\clearpage
+
+% copyright (verso)
+\thispagestyle{empty}
+$if(saga-copyright)$
+\begingroup
+\small\raggedright
+\setlength{\parindent}{0pt}\setlength{\parskip}{0.5\baselineskip}
+\null\vfill
+$saga-copyright$
+$if(isbn)$
+\par\noindent ISBN $isbn$
+$endif$
+\endgroup
+$endif$
+\cleardoublepage
+\pagestyle{scrheadings}
+
+% The template switches matter itself; the filter places \mainmatter and \backmatter
+% where the story starts and ends.
+\let\sagamainmatter\mainmatter
+\let\sagabackmatter\backmatter
+\let\mainmatter\relax
+\let\backmatter\relax

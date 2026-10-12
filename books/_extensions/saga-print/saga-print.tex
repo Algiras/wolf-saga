@@ -1,0 +1,68 @@
+% Saga print interior (KDP 6x9): preamble. Loaded through include-in-header.
+\makeatletter
+
+% --- body face: EB Garamond (SIL OFL), bundled so local and CI builds are identical --------
+\setmainfont{EBGaramond}[Path=_extensions/saga-print/fonts/, Extension=.otf,
+  UprightFont=*-Regular, ItalicFont=*-Italic, BoldFont=*-Bold, BoldItalicFont=*-BoldItalic,
+  Ligatures=TeX]
+
+% --- paragraphs, widows and orphans -----------------------------------------
+\setlength{\parindent}{1.25em}
+\setlength{\parskip}{0pt}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\brokenpenalty=5000
+
+% --- ornaments ----------------------------------------------------------------
+\newcommand{\sagaornament}{{\centering\normalfont\textasteriskcentered\hspace{0.9em}\textasteriskcentered\hspace{0.9em}\textasteriskcentered\par}}
+% scene break: ornament, then an unindented paragraph
+\newcommand{\sagabreak}{\par\vspace{0.7\baselineskip}\noindent{\centering\normalfont\textasteriskcentered\hspace{0.9em}\textasteriskcentered\hspace{0.9em}\textasteriskcentered\par}\vspace{0.7\baselineskip}\@afterindentfalse\@afterheading}
+% place/date line under a chapter title
+\newcommand{\sagadateline}[1]{\par{\centering\normalfont\itshape\small #1\par}\vspace{1.2\baselineskip}\@afterindentfalse\@afterheading}
+
+% --- headings -----------------------------------------------------------------
+\setkomafont{disposition}{\normalfont}
+\setkomafont{chapter}{\normalfont\fontsize{27}{31}\selectfont}
+\setkomafont{part}{\normalfont\fontsize{30}{34}\selectfont}
+\setkomafont{section}{\normalfont\Large\itshape}
+\setkomafont{subsection}{\normalfont\large\scshape}
+\setkomafont{subsubsection}{\normalfont\itshape}
+\renewcommand*{\raggedchapter}{\centering}
+\renewcommand*{\raggedpart}{\centering}
+\renewcommand*{\raggedsection}{\raggedright}
+\renewcommand*{\chapterformat}{}
+\renewcommand*{\partformat}{}
+% sunk start: the title begins about one third of the way down the page
+\renewcommand*{\chapterheadstartvskip}{\vspace*{0.28\textheight}}
+\renewcommand*{\chapterheadendvskip}{\par\vspace{0.9\baselineskip}\sagaornament\vspace{2.2\baselineskip}}
+\renewcommand*{\partheadstartvskip}{\null\vfill}
+\renewcommand*{\partheadendvskip}{\par\vspace{1.2\baselineskip}\sagaornament\vfill\null}
+\renewcommand*{\partpagestyle}{empty}
+\RedeclareSectionCommand[beforeskip=1.6\baselineskip,afterskip=0.7\baselineskip]{section}
+\RedeclareSectionCommand[beforeskip=1.3\baselineskip,afterskip=0.5\baselineskip]{subsection}
+
+% --- table of contents ------------------------------------------------------------
+\KOMAoptions{toc=chapterentrywithdots}
+\setkomafont{partentry}{\normalfont\small\scshape}
+\setkomafont{chapterentry}{\normalfont\small}
+\DeclareTOCStyleEntry[beforeskip=0.1em plus 0.5pt]{tocline}{chapter}
+\DeclareTOCStyleEntry[beforeskip=0.9em plus 1pt]{tocline}{part}
+
+% --- running heads: book title (verso), chapter title (recto), folios outside --------
+\usepackage[headsepline=false,footsepline=false,plainheadsepline=false]{scrlayer-scrpage}
+\clearpairofpagestyles
+\automark[chapter]{chapter}
+\setkomafont{pageheadfoot}{\normalfont\small}
+\setkomafont{pagenumber}{\normalfont\small}
+\lehead[]{\pagemark\hspace{1.2em}\textsc{\sagabooktitle}}
+\rohead[]{\textsc{\headmark}\hspace{1.2em}\pagemark}
+\cfoot[\pagemark]{}
+\pagestyle{scrheadings}
+\renewcommand*{\chapterpagestyle}{plain}
+
+% --- links: never coloured in print; URLs in the text face ----------------------------
+\AtBeginDocument{\urlstyle{same}}
+
+\makeatother

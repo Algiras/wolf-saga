@@ -1,0 +1,24 @@
+---
+title: "Samogitian bishopric founded at Medininkai"
+id: ev_medininkai_bishopric
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_medininkai_bishopric.md >}}
+
+## What the chronicles say [Record]
+
+Established on the Council of Constance's directions on 24 October 1417, seat [Medininkai](../places/medininkai.qmd) (Varniai from 1470); first bishop Matthias of Trakai (Motiejus Trakiškis, 1417-22), later bishop of Vilnius (en.wikipedia, Samogitian Diocese). It finishes the Samogitian baptism begun after [Horodło](ev_horodlo.qmd).
+
+## What really happened [Saga]
+
+The saga makes it the end of the Hidden Groves, the gods' last foothold bought by Birutė's sacrifice (D7): the bell over the stumps, Eglė's snake gone white, the Root-Mother put to sleep (Book IV ch. 7, ch. 27).
+
+## Consequences
+
+The mirror of [Horodło](ev_horodlo.qmd): the baptism begun in 1413 is completed.
+
+## Dramatisation
+
+Book IV ch. 7 *Medininkų vyskupija* (autumn 1417; Medininkai, Samogitia).

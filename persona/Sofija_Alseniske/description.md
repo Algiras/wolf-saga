@@ -5,6 +5,7 @@
 **Era**: Book IV (*Nematoma Karūna*, The Invisible Crown) and Book V (*Vilko Palikimas*, The Wolf's Legacy)
 **Age**: About 17 at marriage (born c. 1405); dies 21 Sep 1461
 **Archetype**: The Silent Survivor / The Mother of Kings
+**Not to be confused with**: **Sofija Vytautaitė** (b. 1371, Vytautas's daughter, wife of Vasily I of Moscow), the only recorded child of Vytautas. This folder is Sonka, Jogaila's fourth wife.
 **Pronunciation**: SO-fi-ja · /ˈsɔfʲɪjɐ/ · English sound-alike "SOH-fih-yah"
 **Power**: **Tier 0**. No gift. In the saga's reading she is the letter of Jogaila's 1382 bargain coming due: *his line inherits the crown and loses the land* (`world_rules/houses_and_lineages.md` §1.6).
 **Not to be confused with**: **Sofija**, Vytautas's daughter (1371–1453), Grand Princess of Moscow, who has no folder yet. This folder is the Halshany queen.

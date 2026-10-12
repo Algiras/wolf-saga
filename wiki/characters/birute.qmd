@@ -12,22 +12,29 @@ categories: [character]
 Birutė of Palanga, Kęstutis's wife by tradition (c. 1350), mother of Vytautas; in the saga the Amber Queen's last vessel (D1).
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+In youth she is hauntingly beautiful, with long white-blonde hair; at 27, in 1361, it is still "pale as milk" (Book VI ch. 16). In maturity she has what the persona file calls a terrible grace. Her tells follow her stages: before 1382 the shore-fire woman who smells of salt and smoke; after the widowing of August 1382 her eyes go sea-dark; after the Krėva fog (autumn 1382) her voice fails, and later costs dim her sight. From 1384 she is a statue, the amber [kneeling woman](../artifacts/kneeling_woman.qmd) on the Palanga shore, and a voice in surf that reaches the world only through amber she once touched. She calls her son "Vyti".
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | To keep the Palanga flame and the letter of her vow, then to see her son live to inherit his father's strength without his father's fate. |
+| **Need** (internal) | To let the debt of her surety fall due, all at once, rather than be paid in pieces by someone else. |
+| **Lie** they believe | That the letter of a vow can protect its spirit: she let herself be 'taken' so that she never gave herself (Book VI ch. 11). |
+| **Truth** they learn (or refuse) | The spirit of the vow was written down and does come due. She pays his whole remaining surety in July 1384 and becomes the last vessel of the [Amber Queen](../forces/amber_queen.qmd) (Book I ch. 27). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book VI (c. 1350-1377):** the Palanga *vaidilutė* refuses Kęstutis, is "taken" in a staged abduction (ch. 10, 11); bears Vytautas and holds the shears at bay with "not yet" (ch. 12); gives Kęstutis an amber bead for the Marienburg cell, where it goes cold (ch. 16, 17); presides at the Pact's first payments and watches Algirdas's pyre (ch. 23, 29 POV).
+- **Book I (1382-84):** binds Vytautas in the Sutartis and stands surety for him (ch. 3); is widowed, thrown into the Bug and refused by the sea thrice (ch. 11); covers his Krėva escape with fog at the cost of her voice (ch. 14, via the pebble); walks into the water at Palanga and leaves the statue (ch. 27). The frame narration of `00_pradzia` is her post-1384 voice.
+- **Books II-III:** felt only through the pebble: it warms in Vytautas's palm and cools when he breaks an oath (Book II ch. 2; Book III ch. 25).
+- **Book IV:** the statue is the last pagan object on the Samogitian coast; a priest asks to remove it and the fishwives refuse (ch. 8); Sofija wears her amber bead in Moscow (ch. 15).
+- **Book V:** the frame narrator; names the keeper at the driftwood fire and sinks with the statue (ch. 1, 5, 10, 20, 29).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Tier 4 *Gintaro šventikė* (all five elements, [Senovės Kalba](../magic/kalba.qmd), [Gintarystė](../magic/gintaryste.qmd)), born to the gift down the Palanga maternal line. Canon D1 makes her a **vessel** of the Amber Queen: she hears the Queen (ch. 3), is changed by widowhood (ch. 11, the eyes go sea-dark) and is fully transformed at Palanga (ch. 27). Her signature workings are the [Sutartis](../magic/sutartis_birute.qmd) over Vytautas and the [pebble](../artifacts/pebble.qmd), a bead of her blood-anchored amber through which she acts at a distance. She pays part of every price he pays: the fog costs her voice, later costs take her sight, and in 1384 she settles the whole surety at once. After 1384 she can act only through amber she has touched, which is why moving the statue kills at sea.
 
 ## Record vs saga
 
@@ -35,7 +42,9 @@ Birutė of Palanga, Kęstutis's wife by tradition (c. 1350), mother of Vytautas;
 - **[Saga invention]:** The drowning attempt at Brest in the Bug, which she survives, then Palanga; her mortal end in July 1384 (Book I ch. 27) and her life as the Amber Queen; Marquard's insult to her after Raciąż (1404).
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**bi-RU-tė** (/bʲɪˈrʊtʲeː/), English respelling *bih-ROO-tay*; stress on the second syllable. The instrumental *Birutè* is end-stressed (to be verified); elsewhere the stress stays on *-RU-*. *Birutės kalnas* (Birutė's Hill at Palanga): bi-RU-tės KAL-nas, *bih-ROO-tays KAHL-nahs*. [world_rules/pronunciation_lexicon.json]
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book VI:** ch. 10 (POV), 11, 12 (POV), 13, 16, 21, 23, 28, 29 (POV), 30. **Book I:** ch. 3 (the Sutartis), 8, 9, 11 (widowed, drowning at Brest), 14 (the fog), 18, 20, 24, 25, 27 (the Amber Sacrifice), 31, 32 and the frame piece `00_pradzia`. **Book II:** ch. 1, 2, 4, 6, 8. **Book III:** ch. 10, 14, 20, 21, 25. **Book IV:** ch. 5, 8 (the statue), 15, 27. **Book V:** frame narrator throughout (ch. 1, 5, 10, 20, 29). Continuity: her mortal end is July 1384 (Book I ch. 27), but the record has no date, which is why the afterwords call it invention; the Book IV ch. 5 complaint cites Wigand's Brest drowning to the council at Constance.

@@ -8,33 +8,46 @@ categories: [character]
 {{< include ../_generated/tokhtamysh.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Tokhtamysh (Toktamyšas; c. 1342 - late 1406), the deposed khan of the Golden Horde who came to Vytautas as a fugitive in 1395-96 and lost with him on the Vorskla (12 Aug 1399). Once the master of the steppe who burned Moscow in 1382, he arrives in Book II with three hundred of his three thousand men and a golden seal on a silver chain, the only piece of his realm that Timur did not take. He is "Vytautas in 1382": a deposed prince with a borrowed future, and the vehicle through which the Steppe-Hunger offers Vytautas a throne beyond the Black Sea.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Dressed in tattered but fine silk and a silver-plated headdress, with his beard in the Mongol fashion: a man who was immensely powerful and now looks hunted, the eyes of someone who has lost an empire. Under his fur coat, on a silver chain, hangs a golden seal carved with the tamga he has carried since youth, the Golden Horde khan's mark; it presses on his chest at every step and is the one thing in the world that still calls him khan (Book II ch. 15). He does not look back, because those who look back see only what they have lost. He is arrogant even in exile and treats Vytautas as an equal or a subordinate, which causes friction. On the Vorskla he rides past on a fine white horse, his face "bare as a skull", with knowledge in it, not fear; as he passes he glances at Vytautas once and seems to say something, an apology or a name (ch. 26).
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | The Golden Horde throne at Sarai and vengeance on Timur and the turncoat Edigu. |
+| **Need** (internal) | To stop treating other men's armies and other men's lands as his own, and to accept that the realm is gone. |
+| **Lie** they believe | A khan can buy back an empire by promising what he no longer owns: tribute and the Rus' lands in exchange for an army. |
+| **Truth** they learn (or refuse) | Refused: he flees first on the Vorskla and dies in the Siberian forests, hunted by Edigu's agents in 1406. |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book II (1395-1399).** Arrives in Kyiv and Lutsk after Timur burns Sarai, twelve days of smoke behind him, offering more Rus' lands for an army (ch. 15; 10,000 horse and six bombards are the saga's figures). In Vytautas's vision of a throne on the steppe he kneels with the golden seal and offers it, and Vytautas tastes horsehair in his mouth (ch. 20). He joins the muster of 1399 (ch. 22-25) and flees first at the Vorskla (ch. 26); Vytautas thinks "I was just like that, on another river, with another name." Kyiv's ransom and the Tatar raid follow (ch. 28).
+- **Book III (1410).** His son Jalal ad-Din, a smiling young rider on a black horse with a gold band on his helmet, stands at Grunwald with the Tatars (ch. 18).
+- **Book IV (1419).** Rumours of his killer: the shepherd says it was Tokhtamysh's son (ch. 11, Edigu's death).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+**Tier 0.** No gift. In the saga he is the Steppe-Hunger's lure made flesh: through him Vytautas is offered an empire to the Black Sea and beyond, and the dust-devil that stands up on the horizon when he rides (a column "that moves on its own") is the Hunger noticing him (`world_rules/cosmology.md`, *Stepių Alkis*, Erdene-Chuluu). He bears no cost in the books; the cost is paid by those who follow him.
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** Born c. 1342 in the White Horde; Khan of the White Horde 1378-80 and of the Golden Horde 1380-95. He defeated Mamai on the Kalka in 1381 and took and burned Moscow in August 1382 (besieged from 23 Aug). Timur routed him at Kondurcha (18 Jun 1391) and on the Terek (15-16 Apr 1395), sacking Sarai; Tokhtamysh fled north and by 1396-98 had come through Kyiv to Vytautas, who settled him near Vilnius and Trakai (terms: help for more Rus' lands, lt.wikipedia). On 12 Aug 1399 he and Vytautas lost to Temür Qutlugh and Edigu on the Vorskla; he fled east to Sibir. He was killed in late 1406 near Tyumen, with darts and spears, after Edigu spread a false rumour of his own death; sources name Shadi Beg, Edigu, or Edigu's son Nūr ad-Dīn. His son Jalal ad-Din (1380-1412) fought with Vytautas (the Lithuanian tradition has him at Grunwald) and was khan 1411-12.
+- **[Saga invention]:** The golden seal on the silver chain, his Vorskla flight and glance at Vytautas, his chapter's dust-devil, the saga's 10,000 horse and six bombards. The "Steppe-Hunger" is invention throughout.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**tok-ta-MY-shas** · IPA /toktɐˈmʲiːʃɐs/ · English sound-alike "tok-tah-MEE-shahs". Lithuanian spelling Toktamyšas (stress on the third syllable); English Tokhtamysh, Tatar Toqtamış.
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+- **Book II:** ch. 15 (his chapter), 17, 20 (the vision), 22-26 (the Vorskla), 28 and the afterword.
+- **Book III:** ch. 18 (his son Jalal ad-Din).
+- **Book IV:** ch. 11 (rumours of his killer).
+
+Continuity: the Black Sea shore and the Don march are late tradition; the record has the Dnieper campaign of 1397 and the fortress of St John (March 1398).
+

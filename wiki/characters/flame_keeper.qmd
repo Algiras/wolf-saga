@@ -12,22 +12,28 @@ categories: [character]
 **Žiežirba**, the Flame-Keeper (Book V's point-of-view character, b. c. 1390), raised in the Trakai vault as the flame's guard. After the flame goes out in 1430 he wanders with the silver wolf and the cracked pebble; on 12 Dec 1449, the longest night by the drifted calendar, he reaches Palanga and is named at a driftwood fire; he dies in early March 1450 and is cremated on the beach (Book V ch. 29).
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Lean and pale from years underground, with smoke-darkened hands and a throat-mark from the wolf-christening (*krikštas*); he carries the ash-pot, the wolves' most important office after 1387. After 27 Oct 1430 he is a "keeper without a flame": the throat-scar, the empty pot, cold skin, and nights in byres (Book V). He wears the silver wolf and carries Birutė's cracked pebble. His tells follow the quarrel between flame and name: the vault's cold keeps him from sleeping on the bench Vytautas built; the lightning-fire from Perkūnas's storm burns, but "keeps no names" (ch. 2). In his last winter, at Palanga, he ages his forty-five sworn years in a single season, weeps for the first time and dies.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | To relight the Last Flame after Vytautas's death, and so to keep the Pact's wolves alive. |
+| **Need** (internal) | To let the gods become stories: to stop trying to hold up something a people never knew it had sworn. |
+| **Lie** they believe | That the flame can be relit if one man is faithful enough; that the Pact belongs to its keepers. |
+| **Truth** they learn (or refuse) | The Pact cannot be re-sworn by one man, and the people were never asked (Book V ch. 5, 20); the land remembers, and the sea remembers a name the dead flame let go (ch. 29). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book II (1390s):** a five-year-old pulled from a cold house in an Unbinding hunt at Šermukšniai (ch. 14, winter 1395-96) and taken to the Trakai vault.
+- **Book III (1405-1411):** sworn at fifteen in the twelve nights after Kūčios, 1405-06, whispering his true name into the secret flame and taking his skin-name Žiežirba ("Spark") on the Iron Wolf's skull (ch. 9); carries the flame out of the vault in a horn lantern across the Vistula bridge and to Grunwald (ch. 15, 20, 21); feeds it again at the vault on his return (ch. 28).
+- **Book IV (1430):** the vault's keeper to the end; Vytautas spends his bought week on him, arranging that the pebble and silver wolf go to him through Pilkoji (ch. 28, 29).
+- **Book V (1430-1450):** POV. He sees the flame die as Vytautas dies (ch. 1); carries away Perkūnas's lightning-fire (ch. 2); learns that the Pact had three parties (ch. 5); takes the silver wolf and pebble from Pilkoji (ch. 7); refuses to light the flame for Žygimantas (ch. 8-10, 18-19), tries to relight the Pact in the cathedral crypt and nothing answers (ch. 20), refuses Henė's last deal (ch. 24), watches the last žynys die (ch. 27) and Pilkoji lie down in the bog (ch. 28), and is named at Palanga by the Amber Queen through the pebble (ch. 29, 12 Dec 1449). He dies in early March 1450 and is cremated on the beach.
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Granted, not born: the **Wolf-Change** (*Vilkų krikštas*, graph tier 3; [wolf-change](../magic/wolf_change.qmd)) from the Root-Mother via the Dykra, sworn in December 1405, and **Ženklai** (signs, tier 2; [zenklai](../magic/zenklai.qmd)). He sits outside the tier ladder: wolves are not casters. Artifacts: [Kęstutis's silver wolf](../artifacts/silver_wolf.qmd) and [Birutė's pebble](../artifacts/pebble.qmd), both from [Pilkoji](pilkoji.qmd) at Kūčios 1430, and the [Šventaragis ember](../artifacts/ember.qmd), whose ash he feeds from [Kalvis](kalvis.qmd)'s remains. A wolf sworn twenty years or more may take wolf shape; after the flame goes out new wolves cannot be made. The cost is that he is the last sworn wolf, a name without a flame.
 
 ## Record vs saga
 
@@ -35,7 +41,9 @@ categories: [character]
 - **[Saga invention]:** All of him. Dates: arrival at Palanga 12 Dec 1449; death early March 1450 (graph: [named](../events/ev_ziezirba_named.qmd), [dies](../events/ev_keeper_dies.qmd)).
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+Not in the JSON lexicon (the working skin-name is canon D11). Derived from the Lithuanian *žiežirba* ("spark"): **ŽIE-žir-ba** (/ˈʒʲiɛʒʲɪrbɐ/), English sound-alike *ZHYEH-zhir-bah*; stress on the first syllable (to be verified). Skin-name = *kailio vardas*.
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book II:** ch. 14 (Vilkų Medžioklė), 29 and the afterword. **Book III:** ch. 2, 9 (the Wolves' Baptism, POV), 15 (the Bridge over the Vistula, POV), 17, 20, 21, 28. **Book IV:** ch. 1, 3, 16, 17, 22, 25, 27, 28, 29. **Book V:** the point-of-view character: ch. 1, 2, 4, 7, 8, 9, 10, 11, 13, 16, 18-22, 24, 27-29 (the others are told by Birutė, Pilkoji, Žygimantas, Casimir). Continuity: born c. 1390 (Book III fact-check: "b. c. 1391; 14 at Kūčios 1405"); Pilkoji must be born c. 1365 to foster him (canon Q13).

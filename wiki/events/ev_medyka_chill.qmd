@@ -1,0 +1,24 @@
+---
+title: "Jogaila catches his chill at Medyka"
+id: ev_medyka_chill
+type: event
+categories: [event]
+---
+
+{{< include ../_generated/ev_medyka_chill.md >}}
+
+## What the chronicles say [Record]
+
+Długosz's story: in late April 1434 Jogaila, riding to Gródek near Lviv, stood at night in the forest at [Medyka](../places/medyka.qmd) to hear the nightingales, took a cold in the frost, and weeks later died ([the death](ev_jogaila_dies.qmd)). The nightingale detail is a chronicler's anecdote; the chill is the stated cause.
+
+## What really happened [Saga]
+
+The saga keeps the nightingales and gives the king his silence: he stands in two cloaks at the forest edge while his chamberlains cough around him (Book V ch. 12). The last confession that follows is invention.
+
+## Consequences
+
+Leads to [Jogaila's death at Gródek](ev_jogaila_dies.qmd) on 1 June 1434.
+
+## Dramatisation
+
+Book V ch. 12 *Lakštingala* (Jogaila; late April 1434; Medyka).

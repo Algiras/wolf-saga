@@ -1,0 +1,107 @@
+/* Saga store e-book. Reflowable: no fixed font sizes, no colours, so every reader keeps its
+   own font, size, margins and theme. Only proportions (em, %) are set here. */
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -epub-hyphens: auto;
+  widows: 2;
+  orphans: 2;
+}
+
+/* body text: first-line indent, no gap between paragraphs */
+p {
+  margin: 0;
+  padding: 0;
+  text-indent: 1.3em;
+  text-align: left;
+}
+
+/* no indent right after a heading, a place/date line, a scene break or an abstract block */
+h1 + p, h2 + p, h3 + p, h4 + p,
+.dateline + p, .scenebreak + p, hr + p, blockquote + p, ul + p, ol + p {
+  text-indent: 0;
+}
+
+/* chapter and part titles */
+h1, h2 {
+  font-weight: normal;
+  text-align: center;
+  text-indent: 0;
+  line-height: 1.2;
+  hyphens: manual;
+  -webkit-hyphens: manual;
+  -epub-hyphens: manual;
+  page-break-before: always;
+  page-break-after: avoid;
+  break-before: page;
+  break-after: avoid;
+}
+h1 { font-size: 1.7em; margin: 3em 0 1.2em 0; }
+h2 { font-size: 1.5em; margin: 3em 0 1.2em 0; }
+h1.part { font-size: 2em; margin: 30% 0 1em 0; }
+h3, h4 {
+  font-weight: normal;
+  font-style: italic;
+  text-align: left;
+  margin: 1.6em 0 0.6em 0;
+  page-break-after: avoid;
+}
+h3 { font-size: 1.15em; }
+h4 { font-size: 1em; }
+
+/* place and date under a chapter title */
+.dateline p {
+  text-align: center;
+  text-indent: 0;
+  font-style: italic;
+  margin: 0 0 1.6em 0;
+}
+
+/* scene break, centred */
+.scenebreak {
+  margin: 1.2em 0;
+  page-break-inside: avoid;
+}
+.scenebreak p {
+  text-align: center;
+  text-indent: 0;
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid;
+  margin: 1.5em 25%;
+  height: 0;
+}
+
+/* title page */
+.titlepage { text-align: center; }
+.titlepage h1.title { font-size: 2em; margin: 25% 0 0.3em 0; page-break-before: auto; break-before: auto; }
+.titlepage .subtitle { text-indent: 0; text-align: center; font-size: 1.3em; margin: 0 0 3em 0; }
+.titlepage .author { text-indent: 0; text-align: center; font-size: 1.1em; margin: 3em 0 0 0; }
+.titlepage .date { display: none; }
+
+/* copyright page */
+.copyright-page, .copyright-page ~ p, .copyright-page + p { text-indent: 0; }
+section.copyright-page p, section.copyright-page li { text-indent: 0; margin: 0.5em 0; }
+section.copyright-page { font-size: 0.9em; }
+section.copyright-page h1 { font-size: 1.2em; margin: 1em 0; }
+
+/* contents page */
+.toc-list ul { list-style: none; margin: 0; padding: 0; }
+.toc-list ul ul { margin: 0.2em 0 0.8em 1.4em; }
+.toc-list li { margin: 0.35em 0; text-indent: 0; }
+.toc-list p { text-indent: 0; margin: 0; }
+
+ul, ol { margin: 0.8em 0; padding-left: 1.4em; }
+li { margin: 0.2em 0; }
+li p { text-indent: 0; }
+blockquote { margin: 1em 1.5em; }
+blockquote p { text-indent: 0; }
+img { max-width: 100%; }
+a { text-decoration: none; color: inherit; }

@@ -1,109 +1,176 @@
-// Shared rules for both themes. Colours come from the --saga-* custom properties.
+// Shared rules for both themes (D&D sourcebook look: Player's Handbook page, Monster Manual stat blocks).
+// Colours come from the --saga-* / --sb-* custom properties defined in saga-light.scss and saga-dark.scss.
+// Fonts (head.html): Cinzel (display, lowercase renders as small caps), Crimson Pro (body), Alegreya Sans SC (labels).
 
-body { background: var(--saga-bg); font-feature-settings: "liga", "kern", "onum"; }
-h1, h2, h3, h4, h5, .title, .navbar-brand, .sidebar-title {
-  font-family: "Cormorant Garamond", "EB Garamond", Georgia, serif;
-  font-weight: 700;
-  letter-spacing: .01em;
+$display: "Cinzel", "Crimson Pro", Georgia, serif;
+$body: "Crimson Pro", "EB Garamond", Georgia, serif;
+$label: "Alegreya Sans SC", "Crimson Pro", sans-serif;
+
+// ---- Page: parchment with a paper grain made from gradients only ----
+html { overflow-x: hidden; }
+body {
+  background-color: var(--saga-bg);
+  background-image:
+    radial-gradient(ellipse 70% 45% at 15% 0%, var(--saga-tex-hi), transparent 70%),
+    radial-gradient(ellipse 60% 50% at 95% 100%, var(--saga-tex-lo), transparent 70%),
+    radial-gradient(circle at 30% 60%, var(--saga-tex-lo) 0, transparent 38%),
+    repeating-linear-gradient(0deg, var(--saga-tex-fibre) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, var(--saga-tex-fibre) 0 1px, transparent 1px 5px);
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat, repeat;
+  background-attachment: fixed, fixed, fixed, scroll, scroll;
+  font-feature-settings: "liga", "kern", "onum";
+  font-variant-numeric: oldstyle-nums;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
 }
-h1.title { font-size: 2.6rem; color: var(--saga-title); }
+main, .content { min-width: 0; }
+p, li, td, th, dd { line-height: 1.5; }
+p { margin-bottom: .8rem; }
+a { color: var(--saga-link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+::selection { background: var(--saga-accent-soft); color: #1b1008; }
+hr { border-color: var(--saga-accent-soft); opacity: .7; }
+img, svg, video { max-width: 100%; }
+
+// ---- Headings ----
+h1, h2, h3, h4, h5, .title, .navbar-brand, .sidebar-title { font-family: $display; font-weight: 700; color: var(--saga-title); }
+h1.title {
+  font-size: 2.3rem; letter-spacing: .03em; line-height: 1.15; margin-bottom: .8rem;
+  font-variant: small-caps; text-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+}
 h2 {
-  font-size: 1.8rem; margin-top: 2rem; color: var(--saga-title);
-  border-bottom: 1px solid var(--saga-border); padding-bottom: .2rem;
-  position: relative;
+  font-size: 1.65rem; letter-spacing: .03em; line-height: 1.2; margin-top: 2.2rem; margin-bottom: .9rem;
+  border-bottom: 0; padding-bottom: .15rem; position: relative;
+  font-variant: small-caps;
 }
-h2::after {                       // small amber rivet on the rule
-  content: ""; position: absolute; left: 0; bottom: -2px; width: 3.2rem; height: 3px;
-  background: var(--saga-accent);
+h2::after {                       // PHB-style rule: thick red-gold at the left, tapering to nothing
+  content: ""; display: block; height: 5px; margin-top: .3rem;
+  background: linear-gradient(90deg, var(--saga-accent) 0%, var(--saga-accent-soft) 70%, transparent 100%);
+  clip-path: polygon(0 0, 100% 45%, 100% 55%, 0 100%);
 }
-h3 { font-size: 1.35rem; color: var(--saga-title); }
-p, li, td, th { line-height: 1.55; }
-a { text-decoration-thickness: 1px; text-underline-offset: 2px; }
-::selection { background: var(--saga-accent); color: #14110d; }
-blockquote { border-left: 3px solid var(--saga-accent); color: var(--saga-muted); font-style: italic; }
-hr { border-color: var(--saga-border); opacity: 1; }
+h3 { font-size: 1.25rem; letter-spacing: .03em; margin-top: 1.6rem; font-variant: small-caps; }
+h4, h5 { font-size: 1.05rem; letter-spacing: .04em; font-variant: small-caps; }
+.quarto-title-meta, .quarto-title-meta-heading, .quarto-title .subtitle { font-family: $label; letter-spacing: .04em; }
+.subtitle { font-style: italic; color: var(--saga-muted); }
 
-// Navbar: iron bar with an amber under-rule
+// Drop cap (class added by the script in head.html to the first prose paragraph of an entity page)
+p.dropcap::first-letter {
+  font-family: $display; font-weight: 700; color: var(--saga-accent);
+  float: left; font-size: 3.7em; line-height: .78; padding: .06em .1em 0 0; margin-top: .02em;
+}
+
+blockquote { border-left: 3px solid var(--saga-accent-soft); color: var(--saga-muted); font-style: italic; padding-left: 1rem; }
+.figure-caption, figcaption { font-family: $label; letter-spacing: .02em; color: var(--saga-muted); }
+
+// ---- Navbar: oxblood bar with a gold under-rule ----
 .navbar {
-  background: linear-gradient(#17140f, #0c0a07) !important;
-  border-bottom: 2px solid var(--saga-accent-soft);
+  background: linear-gradient(var(--saga-nav), color-mix(in srgb, var(--saga-nav) 80%, #000)) !important;
+  border-bottom: 3px double var(--saga-nav-hi);
   box-shadow: 0 2px 10px var(--saga-shadow);
 }
-.navbar .navbar-brand, .navbar .navbar-title { color: #f0dfb8 !important; font-size: 1.35rem; }
-.navbar .nav-link, .navbar .dropdown-toggle { font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 1.1rem; letter-spacing: .03em; }
-.navbar .nav-link:hover, .navbar .nav-link.active, .navbar .show > .nav-link { color: #f6c777 !important; }
-.dropdown-menu { border: 1px solid var(--saga-border); box-shadow: 0 8px 24px var(--saga-shadow); }
-.dropdown-item { font-family: "EB Garamond", serif; font-size: 1.02rem; }
-
-// Tables
-table { border-color: var(--saga-border); }
-.table > :not(caption) > * > * { border-bottom-color: var(--saga-border); background: transparent; }
-thead th {
-  font-family: "Cormorant Garamond", serif; font-size: 1.05rem; letter-spacing: .04em;
-  color: var(--saga-title); border-bottom: 2px solid var(--saga-accent-soft) !important;
+.navbar .navbar-brand, .navbar .navbar-title { color: var(--saga-nav-text) !important; font-size: 1.1rem; letter-spacing: .04em; }
+.navbar .nav-link, .navbar .dropdown-toggle {
+  font-family: $label; font-weight: 500; font-size: 1.05rem; letter-spacing: .05em; color: var(--saga-nav-text) !important;
 }
-tbody tr:hover > * { background: color-mix(in srgb, var(--saga-accent) 9%, transparent); }
+.navbar .nav-link:hover, .navbar .nav-link.active, .navbar .show > .nav-link { color: var(--saga-nav-hi) !important; }
+.navbar-toggler-icon { filter: invert(1) sepia(.4); }
+.dropdown-menu { border: 1px solid var(--saga-border); box-shadow: 0 8px 24px var(--saga-shadow); }
+.dropdown-item { font-family: $body; font-size: 1.05rem; }
 
-// Callouts
-.callout { border-radius: 2px; border-color: var(--saga-border); background: var(--saga-surface); }
+// ---- Tables: PHB style (no outer border, bold header row, alternating tan rows) ----
+table, .table { border: 0 !important; width: 100%; }
+.table > :not(caption) > * > * { border-width: 0; background-color: transparent; box-shadow: none; padding: .35rem .6rem; }
+thead th, .table > thead > tr > th {
+  font-family: $label; font-weight: 700; font-size: 1.05rem; letter-spacing: .05em; color: var(--saga-title);
+  border-bottom: 2px solid var(--saga-accent) !important; background: transparent;
+}
+tbody tr:nth-of-type(odd) > *, .table > tbody > tr:nth-of-type(odd) > * { background-color: var(--saga-row) !important; }
+tbody tr:nth-of-type(even) > * { background-color: transparent !important; }
+tbody tr:hover > * { filter: brightness(.97); }
+td, th { border-color: transparent; }
+caption { color: var(--saga-muted); font-style: italic; }
 
-// Sidebar TOC
-#TOC, .sidebar nav[role=doc-toc] { font-size: .95rem; }
+// ---- Callouts: D&D sidebars. note = tan "Lore" box; tip = green "Read-aloud" box ----
+.callout {
+  border-radius: 0; border-width: 0 !important; margin: 1.4rem 0;
+  box-shadow: 0 2px 8px var(--saga-shadow);
+}
+.callout.callout-style-default, .callout.callout-style-simple {
+  border-top: 3px solid var(--saga-lore-line) !important; border-bottom: 3px solid var(--saga-lore-line) !important;
+  border-left: 0 !important; border-right: 0 !important;
+  background: var(--saga-lore) !important;
+}
+.callout.callout-style-default .callout-header, .callout.callout-style-simple .callout-header { background: transparent !important; }
+.callout-icon-container, .callout .callout-icon { display: none !important; }
+.callout .callout-title-container {
+  font-family: $label; font-weight: 700; font-size: 1.2rem; letter-spacing: .06em; font-variant: small-caps;
+  color: var(--saga-title); padding-left: .25rem;
+}
+.callout .callout-body-container { padding: .2rem 1.1rem .8rem; color: var(--saga-text); font-size: 1.04rem; }
+.callout.callout-style-default .callout-body, .callout.callout-style-default .callout-body p { font-size: 1.04rem; }
+.callout .callout-body-container > :last-child { margin-bottom: 0; }
+.callout.callout-note.callout-style-default { background: var(--saga-lore) !important; }
+.callout.callout-tip.callout-style-default, .callout.callout-tip.callout-style-simple {
+  background: var(--saga-read) !important;
+  border-top: 1px solid var(--saga-read-line) !important; border-bottom: 1px solid var(--saga-read-line) !important;
+  border-left: 5px solid var(--saga-read-line) !important;
+}
+.callout.callout-tip .callout-body-container { font-style: italic; }
+.callout.callout-tip .callout-title-container { color: var(--saga-read-line); font-style: normal; }
+.callout.callout-warning, .callout.callout-important, .callout.callout-caution {
+  background: var(--saga-lore) !important; border-top-color: var(--saga-accent) !important; border-bottom-color: var(--saga-accent) !important;
+}
+
+// ---- Sidebar TOC ----
+#TOC, .sidebar nav[role=doc-toc] { font-size: .98rem; font-family: $body; }
 #TOC .nav-link.active, .sidebar nav[role=doc-toc] ul > li > a.active { color: var(--saga-accent); border-left-color: var(--saga-accent); }
+nav[role=doc-toc] h2, #toc-title { font-family: $label; font-variant: normal; letter-spacing: .06em; font-size: 1.05rem; }
+nav[role=doc-toc] h2::after, #toc-title::after { display: none; }
 
-// ---- Infobox: right-floated card (Fandom / MediaWiki style) ----
+// ---- Infobox: right-floated sidebar card ----
 .infobox {
   float: right; clear: right; width: 310px; max-width: 100%;
   margin: .25rem 0 1.25rem 1.75rem;
   background: var(--saga-panel);
   border: 1px solid var(--saga-border);
-  border-top: 3px solid var(--saga-accent);
+  border-top: 4px solid var(--sb-bar-a); border-bottom: 4px solid var(--sb-bar-a);
   box-shadow: 0 4px 14px var(--saga-shadow);
-  font-size: .95rem; line-height: 1.35;
+  font-size: .98rem; line-height: 1.3;
 }
 .infobox .infobox-title {
-  margin: 0; padding: .55rem .8rem; text-align: center;
-  font-family: "Cormorant Garamond", Georgia, serif; font-weight: 700; font-size: 1.45rem; line-height: 1.15;
-  color: #f4e6c3; background: linear-gradient(#34363a, #1f2124);
-  border-bottom: 1px solid var(--saga-accent-soft); letter-spacing: .02em;
+  margin: 0; padding: .5rem .8rem; text-align: center;
+  font-family: $display; font-weight: 700; font-size: 1.25rem; line-height: 1.2; font-variant: small-caps;
+  color: #f7e9c8; background: #58180d; letter-spacing: .04em;
+  border-bottom: 2px solid var(--saga-accent-soft);
 }
 .infobox figure, .infobox .quarto-figure { margin: 0; padding: 0; }
-.infobox img, .infobox .infobox-img {
-  display: block; width: 100%; height: auto; margin: 0; border-bottom: 1px solid var(--saga-border);
-}
+.infobox img, .infobox .infobox-img { display: block; width: 100%; height: auto; margin: 0; border-bottom: 1px solid var(--saga-border); }
 .infobox figcaption, .infobox .figure-caption {
-  margin: 0; padding: .3rem .6rem; text-align: center; font-style: italic; font-size: .82rem;
-  color: var(--saga-muted); background: color-mix(in srgb, var(--saga-iron) 12%, transparent);
+  margin: 0; padding: .3rem .6rem; text-align: center; font-style: italic; font-size: .85rem;
+  color: var(--saga-muted); background: color-mix(in srgb, var(--saga-accent-soft) 14%, transparent);
   border-bottom: 1px solid var(--saga-border);
 }
-.infobox table { width: 100%; margin: 0; border: 0; font-size: .92rem; }
+.infobox table { width: 100%; margin: 0; border: 0; font-size: .98rem; }
 .infobox thead { display: none; }                 // generated tables have an empty header row
-.infobox table td { padding: .32rem .7rem; vertical-align: top; border: 0; border-top: 1px solid var(--saga-border); background: transparent !important; }
+.infobox table td { padding: .3rem .7rem; vertical-align: top; border: 0; border-top: 1px solid var(--saga-border); background: transparent !important; }
 .infobox table tr:first-child td { border-top: 0; }
 .infobox table td:first-child {
-  width: 34%; color: var(--saga-accent); font-family: "Cormorant Garamond", serif; font-size: 1rem;
-  text-transform: uppercase; letter-spacing: .05em; white-space: nowrap;
+  width: 34%; color: var(--saga-accent); font-family: $label; font-size: 1.02rem;
+  letter-spacing: .05em; white-space: nowrap;
 }
 .infobox table td:first-child strong { font-weight: 700; }
-.infobox table tbody tr:hover > * { background: transparent !important; }
+.infobox table tbody tr:hover > * { filter: none; }
 .infobox p { margin: 0; }
 .infobox .table { margin-bottom: 0; }
-
-@media (max-width: 991.98px) { .infobox { width: 270px; } }
-@media (max-width: 767.98px) {                       // phones: stack above the text
-  .infobox { float: none; width: 100%; margin: 0 0 1.25rem 0; }
-  .infobox img, .infobox .infobox-img { max-height: 70vh; object-fit: cover; object-position: top center; }
-}
 
 // ---- Book banner (generated at top of wiki/books/bookN pages) ----
 .book-banner { margin: 0 0 1.25rem; position: relative; border: 1px solid var(--saga-border); box-shadow: 0 4px 16px var(--saga-shadow); overflow: hidden; }
 .book-banner img { display: block; width: 100%; height: auto; max-height: 340px; object-fit: cover; object-position: 50% 35%; }
 .book-banner .book-banner-cap {
   position: absolute; left: 0; right: 0; bottom: 0; padding: 1.8rem 1rem .6rem;
-  background: linear-gradient(transparent, rgba(8, 6, 3, .88));
-  font-family: "Cormorant Garamond", serif; font-weight: 700; font-size: 1.35rem; color: #f4e6c3; letter-spacing: .03em;
+  background: linear-gradient(transparent, rgba(30, 8, 4, .9));
+  font-family: $display; font-weight: 700; font-size: 1.3rem; color: #f7e9c8; letter-spacing: .04em; font-variant: small-caps;
 }
-.book-banner .book-banner-cap small { font-family: "EB Garamond", serif; font-weight: 400; font-size: .9rem; color: #d8c9a3; margin-left: .6rem; }
+.book-banner .book-banner-cap small { font-family: $body; font-weight: 400; font-size: 1rem; color: #e3d3ac; margin-left: .6rem; font-variant: normal; }
 
 // ---- Cover gallery (home page) ----
 .cover-gallery { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1rem; margin: 1.25rem 0 2rem; }
@@ -113,16 +180,107 @@ tbody tr:hover > * { background: color-mix(in srgb, var(--saga-accent) 9%, trans
   border: 1px solid var(--saga-border); box-shadow: 0 6px 16px var(--saga-shadow);
 }
 .cover-card:hover { transform: translateY(-4px); }
-.cover-card:hover img { box-shadow: 0 10px 26px var(--saga-shadow), 0 0 0 2px var(--saga-accent); }
-.cover-card .cover-num { display: block; margin-top: .5rem; font-family: "Cormorant Garamond", serif; font-weight: 700; font-size: 1.05rem; color: var(--saga-title); line-height: 1.2; }
-.cover-card .cover-years { display: block; font-size: .85rem; color: var(--saga-muted); }
+.cover-card:hover img { box-shadow: 0 10px 26px var(--saga-shadow), 0 0 0 2px var(--saga-accent-soft); }
+.cover-card .cover-num { display: block; margin-top: .5rem; font-family: $display; font-weight: 700; font-size: .85rem; letter-spacing: .02em; color: var(--saga-title); line-height: 1.25; }
+.cover-card .cover-years { display: block; font-family: $label; font-size: .9rem; color: var(--saga-muted); }
+.cover-gallery > p { display: contents; margin: 0; }   // pandoc wraps inline links in a <p>
 @media (max-width: 991.98px) { .cover-gallery { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 575.98px) { .cover-gallery { grid-template-columns: repeat(2, 1fr); gap: .75rem; } }
 
 // Title banner on the home page
 .quarto-title-banner { background-size: cover !important; background-position: center 35% !important; }
-.quarto-title-banner .quarto-title h1.title { color: #f4e6c3; text-shadow: 0 2px 12px rgba(0,0,0,.8); }
+.quarto-title-banner .quarto-title h1.title { color: #f7e9c8; text-shadow: 0 2px 12px rgba(0, 0, 0, .8); }
 
-.page-footer { border-top: 1px solid var(--saga-border); color: var(--saga-muted); }
+.page-footer { border-top: 3px double var(--saga-accent-soft); color: var(--saga-muted); font-family: $label; }
 
-.cover-gallery > p { display: contents; margin: 0; }   // pandoc wraps inline links in a <p>
+// =============================================================================================
+// Stat blocks (rendered by scripts/build_wiki.py from world_rules/graph/statblocks.json)
+// =============================================================================================
+.statblock {
+  clear: both; position: relative; margin: 1.4rem 0 1.8rem; color: var(--sb-text);
+  font-family: $body; font-size: 1.02rem; line-height: 1.4; max-width: 100%;
+  box-shadow: 0 3px 12px var(--saga-shadow);
+}
+.statblock p { margin: 0; line-height: 1.38; }
+.statblock strong { font-weight: 700; }
+.statblock .sb-rule {                                   // tapered red divider
+  height: 4px; margin: .35rem 0; background: var(--sb-line);
+  clip-path: polygon(0 0, 100% 50%, 0 100%); break-after: avoid;
+}
+.statblock .sb-name {
+  font-family: $display; font-weight: 700; font-size: 1.55rem; line-height: 1.15; letter-spacing: .03em;
+  color: var(--sb-red); font-variant: small-caps;
+}
+.statblock .sb-sub { font-style: italic; margin-bottom: .1rem; }
+.statblock .sb-prop { margin: .12rem 0; }
+.statblock .sb-prop strong { color: var(--sb-red); }
+.statblock .sb-title {
+  font-family: $display; font-weight: 600; font-size: 1.2rem; font-variant: small-caps; letter-spacing: .04em;
+  color: var(--sb-red); border-bottom: 1px solid var(--sb-red); margin: .8rem 0 .4rem; padding-bottom: .05rem;
+}
+.statblock .sb-entry { margin: .4rem 0; }
+.statblock .sb-entry strong em { font-style: italic; font-weight: 700; }
+.statblock .sb-source {
+  font-family: $label; font-size: .9rem; letter-spacing: .03em; color: var(--saga-muted); opacity: .95;
+  padding: .45rem .9rem .55rem; border-top: 1px dotted var(--sb-card-line);
+}
+.statblock .sb-source span { font-weight: 700; }
+.statblock a { color: var(--sb-red); }
+
+// Monster Manual block: cream page, orange-red bars at top and bottom
+.statblock.sb-creature, .statblock.sb-god, .statblock.sb-force {
+  background: var(--sb-bg); border: 1px solid var(--sb-card-line);
+}
+.statblock .sb-bar { height: 7px; background: linear-gradient(90deg, var(--sb-bar-a), var(--sb-bar-b) 50%, var(--sb-bar-a)); }
+.statblock .sb-body { padding: .7rem 1rem .6rem; }
+.statblock.sb-compact { max-width: 34rem; }
+@media (min-width: 992px) {
+  .statblock.sb-wide .sb-body { column-count: 2; column-gap: 1.8rem; column-rule: 1px solid color-mix(in srgb, var(--sb-card-line) 55%, transparent); }
+  .statblock.sb-wide .sb-section { break-inside: avoid-column; }
+  .statblock.sb-wide .sb-title { break-after: avoid; }
+  .statblock.sb-wide .sb-entry { break-inside: avoid; }
+}
+
+// Spell card and magic-item card: parchment cards with a double border
+.statblock.sb-card {
+  padding: .9rem 1.1rem .2rem; max-width: 40rem; background: var(--sb-card-bg);
+  border: 3px double var(--sb-card-line); outline: 1px solid var(--sb-card-line); outline-offset: 3px;
+  margin-left: 4px; margin-right: 4px; max-width: calc(40rem - 8px);
+}
+.statblock.sb-card .sb-source { margin: .6rem -1.1rem 0; }
+.statblock.sb-card .sb-name { text-align: center; font-size: 1.45rem; }
+.statblock.sb-card .sb-sub, .statblock.sb-card .sb-rarity { text-align: center; }
+.statblock .sb-rarity { font-style: italic; text-align: center; }
+.statblock .sb-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: .1rem 1.2rem; margin: .5rem 0 .2rem; padding: 0;
+}
+.statblock .sb-cell { margin: 0; padding: .3rem 0; border-bottom: 1px solid color-mix(in srgb, var(--sb-card-line) 60%, transparent); }
+.statblock .sb-cell dt { font-family: $label; font-weight: 700; font-size: .95rem; letter-spacing: .06em; color: var(--sb-red); }
+.statblock .sb-cell dd { margin: 0; }
+.statblock.sb-item { background: var(--sb-tan); }
+.statblock.sb-item .sb-name { color: var(--sb-red); }
+
+// Stat blocks follow the Relations list (which flows beside the infobox), so they take the
+// full width below the infobox: no float, no section rules running through them
+.statblock { clear: both; float: none; width: 100%; }
+
+@media (max-width: 767.98px) {
+  .statblock .sb-grid { grid-template-columns: 1fr; }
+  .statblock.sb-card, .statblock.sb-compact { max-width: calc(100% - 8px); }
+  .statblock.sb-compact { max-width: 100%; }
+}
+
+// ---- Tablets / phones ----
+@media (max-width: 991.98px) { .infobox { width: 270px; } }
+@media (max-width: 767.98px) {                       // phones: stack above the text, no horizontal scroll
+  body { font-size: 1.1rem; }
+  h1.title { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+  .infobox { float: none; width: 100%; margin: 0 0 1.25rem 0; }
+  .infobox img, .infobox .infobox-img { max-height: 70vh; object-fit: cover; object-position: top center; }
+  .infobox table td:first-child { white-space: normal; }
+  main table:not(.infobox table), #quarto-document-content table:not(.infobox table) { display: block; max-width: 100%; overflow-x: auto; }
+  pre, .sourceCode { max-width: 100%; overflow-x: auto; }
+  .mermaid, .mermaid svg { max-width: 100%; height: auto; }
+  p.dropcap::first-letter { font-size: 3.2em; }
+}

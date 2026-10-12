@@ -8,33 +8,43 @@ categories: [character]
 {{< include ../_generated/egle.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Eglė, the last *vaidilutė* of the eternal flame in the Šventaragis valley, spends her last night as a mortal priestess in the prologue. After a captain of Jogaila's insults her she leaves Vilnius on foot and, days later, walks into the Dykra and is taken by the [Root-Mother](../forces/root_mother.qmd), becoming Pelkių Eglė, "Eglė of the Swamps": the swamp's voice, the keeper of the bridge between humans and the old gods. She appears at turning points as a girl with moss-tangled hair and a yellow-cheeked *žaltys* (grass-snake) round her neck, and she fades as the groves fall.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+A girl with dark, moss-tangled hair, green eyes and a gold- or yellow-cheeked žaltys coiled around her neck (Book I ch. 16; Book II ch. 3, 19). The snake is the last of the Šventaragis line; when it dies in Book IV ch. 7, Eglė can no longer hold a shape by day. In Book III she is "fainter than she was" (ch. 16, 23), standing in Galminas's new grove and unable to hold her form long; her last appearance is Book IV ch. 27, where the forest presses to the lake and she sees Vytautas's past go by in the halls.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | To keep the bridge between the people and the gods open, and to save the sacred snake, flame and groves from the axe. |
+| **Need** (internal) | To let the gods become stories instead of keeping them as an army. |
+| **Lie** they believe | That the Root-Mother's gifts can hold a forest against axes for ever. |
+| **Truth** they learn (or refuse) | The Green Wood is dying; her price, 'never sell the forest', falls due at Salynas (Book II ch. 19), and she fades with the groves (Book IV ch. 7, 27). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Prologue / Book I:** the prophecy night, her last as a mortal (prologue); she is Birutė tells Vytautas to seek her at the Šventaragis flame if he is ever lost among roots and moss (ch. 3); meets Vytautas in the Dykra during his escape (ch. 16), where he misnames her "Gintaro Šventikė" and her silence corrects him: "Ne gintaro. Šaknų."; takes his buckle on the offering stone and refuses the silver wolf; the ashes of ch. 23.
+- **Book II:** watches the bishop's men hunt the last sacred snake (ch. 3); reads the blood-foam on the Neman for Vytautas's hostage sons (ch. 9); appears to the Samogitian elder Gedgaudas at Salynas to say that the buckle was a pledge: her price comes due (ch. 19). The Book II outline also lists a last word from her in ch. 22; the text of ch. 22 does not mention her.
+- **Book III:** she and the žalčiai guide the scouts through "impassable" woods before Grunwald (ch. 16), stands in Galminas's grove (ch. 23) and receives the Root-Mother's thanks (ch. 29).
+- **Book IV:** the Medininkai bishopric falls on the last great grove, and the snake dies (ch. 7); a faint Eglė shows Pilkoji's pack the bog road home (ch. 16); her last appearance on Trakai island (ch. 27).
+- **Books V-VI:** a memory at the frame of Book V (ch. 1, 29); in Book VI (ch. 26) a girl vaidilutė called Eglė keeps the Šventaragis flame when Vytautas and the boy Jogaila feed it.
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Tier 3 before the prologue (*vaidilutė*, born to Fire; practises [Senovės Kalba](../magic/kalba.qmd) and [herb-lore](../magic/zoles.qmd)). After she walks into the Dykra she is **taken**: power granted by the Root-Mother, outside the tier ladder, the swamp speaking through her. She is **not** an amber priestess (canon D5). Costs: her mortal shape, then her daytime shape, and the price of the Dykra rescue, "never sell the forest". She appears to Jadvyga in a dream to warn her of the [White Silence](../forces/white_silence.qmd).
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** There is no historical Eglė. The name comes from the Lithuanian folk tale *Eglė žalčių karalienė* (Eglė, Queen of the Grass-snakes), in which a woman marries the snake-king Žilvinas and, after her brothers kill him, turns herself and her children into trees; *eglė* is the spruce. The Šventaragis valley was the traditional site of the sacred flame at Vilnius. The sacred fire of Vilnius is attested only by later chronicle tradition.
+- **[Saga invention]:** All of her as a character: the last Šventaragis vaidilutė, her insult by Jogaila's captain, the Dykra walk (the graph event [Eglė leads Vytautas through the Dykra](../events/ev_dykra_rescue.qmd)), the Root-Mother's taking, the snake, her price and her fading. The two Eglės of earlier drafts are one woman (D5).
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**eg-LĖ** (/ɛɡˈlʲeː/), English respelling *eg-LAY*; stress on the second syllable. Paradigm 4: accusative *Ẽglę*, dative *Ẽglei*, vocative *Ẽgle* stress the first syllable; the other forms stress the ending. *Pelkių Eglė*: PEL-kių eg-LĖ, *PEL-kyoo eg-LAY*. [world_rules/pronunciation_lexicon.json]
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Prologue** (the prophecy night). **Book I:** ch. 3, 16 (the Dykra rescue), 17, 23 (the ashes), 31, 32. **Book II:** ch. 3, 9 (Blood-Foam), 19 (Salynas) and the afterword. **Book III:** ch. 16 (Forest Whispers), 23 (Galminas's Grove), 29 (the Root-Mother's Thanks). **Book IV:** ch. 6, 7, 16, 27 (her last appearance) and the afterword. **Book V:** ch. 1, 29 and the afterword. **Book VI:** ch. 26, 29.

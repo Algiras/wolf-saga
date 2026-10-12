@@ -12,14 +12,16 @@ categories: [place]
 Not a named road in the sources: the way from the pine hill where Kęstutis's army stood to Jogaila's camp by Trakai.
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A forest track through sandy pine ground between the lakes, in the heat of an August afternoon: resin, dry needles, warm sand and horse sweat, a dull buzzing of flies. The pace is slow, with a ducal retinue strung out in single file where the trees close in. Birds go silent; the camp ahead is audible only as a wall of nothing. Ruts are baked hard, with a thin dust that sticks to sweat. A roadside beggar under the pines is the only person in the landscape who is not part of the procession.
 
 ## In the saga
 
 The Beggar meets the retinue at the roadside in the afternoon of 3 August 1382 ([the coin](../events/ev_beggar_coin.qmd)).
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+A ride of a few hours, an afternoon at most: from the pine hill beyond the lake (where Kęstutis stood after Trakai fell on 20 July) round the lakes to the camp near Trakai. If the hill was a few kilometres from the camp, the party covered it at the walking pace of a ceremonial retinue, perhaps 4-5 km an hour. Trakai-Vilnius is only 28-32 km by road (half a day), so the party was close to the capital throughout. The forest track is unnamed in every source: the route is the saga's.
 
 ## Scenes set here
 

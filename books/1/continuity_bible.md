@@ -292,7 +292,7 @@
 | **Kniprode** (Grand Master) | **18**, **19**, 25 (named), 17:37 ("didįjį magistrą") | "Winrichą von Kniprodę" (18:5); "Magistras Kniprode"; "Winrichas"; "Didysis Magistras Kniprode" (19:21); "Winricho von Kniprodes" (25:3) | Dead since 24 Jun 1382 (H1). Replace with **Konrad Zöllner von Rotenstein** everywhere. "labai senas" (18:7): Zöllner was in his fifties to sixties *(verify)*, so use "senas". |
 | **Bishop** | **19** | "Vyskupas" (19:7), "dvasininkas" (19:15) | Unnamed. If moved to Tapiau (H6), he would be the bishop of Sambia *(verify)*. |
 | **Order Marshal** | **20**; "Ordino maršalas" for Vytautas (19:27) | "Ordino maršalas" (20:13) | C7/H5. Historical holder in 1383: **Kuno von Hattenstein** *(verify)*. |
-| **Komtur** | **21** | "Ordino komtūras" (21:7) | Unnamed. Optional irony: **Günther von Hohenstein** of Osterode, who warned Kęstutis in 1381 (chronology). |
+| **Komtur** | **21** | "Ordino komtūras" (21:7) | Unnamed. Optional irony: **Kuno von Liebenstein** of Osterode, who warned Kęstutis in 1381 (chronology). |
 | **Engineer** | **22**; quoted 23:25 | "vyriausiasis vokiečių inžinierius" (22:9, 22:19) | Misquoted in 23:25 (N27). |
 | **Algirdas** (shade) | 8:5 | "Algirdą, stebintį jį iš akmeninio kampo" | Consistent (D9: "broliai" ✓). |
 

@@ -1,0 +1,21 @@
+---
+title: "Zacharijas (Elijas's younger son)"
+id: zacharijas
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/zacharijas.md >}}
+
+## Summary
+
+Zacharijas is the younger son of [Elijas](elijas.qmd), the Karaim captain of the Trakai guards. After the Last Flame goes out in 1430 he is the guard who notices the hearth in the guard-house die, and he keeps his father's old brass lantern alight day and night, as a soldier holds a bridge. His wife is Sara; his elder brother is [Samuelis](samuelis.qmd).
+
+## Record vs saga
+
+- **[Record]:** The Karaims at Trakai were settled by Vytautas (tradition: 1397 or about 1400, from Crimea).
+- **[Saga invention]:** Zacharijas himself, his wife, and the guard-house cold.
+
+## Appearances
+
+**Book V:** ch. 4 (*Užgesusios Krosnys*). His father holds the vault door in Book II ch. 18, 29; the "younger son" holds it in 1430 (Book IV ch. 25-30).

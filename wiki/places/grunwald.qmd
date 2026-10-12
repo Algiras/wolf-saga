@@ -8,15 +8,21 @@ categories: [place]
 {{< include ../_generated/grunwald.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+The battlefield of 15 July 1410 lies between the villages of Grunwald, Stębark (Tannenberg) and Łodwigowo (Ludwigsdorf) in the Osterode district of the Order's Prussia, about 95 km south-east of Marienburg. The allied army of Poland and Lithuania crossed the Vistula on a pontoon bridge above Czerwińsk on 30 June, reached the Order's land, burned Gilgenburg on 11 July, and met the Order's army under Ulrich von Jungingen after a stormy night. Two heralds brought two swords before noon; Jogaila delayed for two Masses; the Lithuanian light cavalry attacked the Order's left and withdrew (feigned or real: historians disagree), while Polish banners held. Jungingen was killed with his leading commanders, and Vytautas had Marquard von Salzbach and Heinrich Schaumburg beheaded. The allies besieged Marienburg from 26 July to 19 September. **The Lithuanian name "Žalgiris"** (*žalia giria*, green forest) is a 19th-century coinage, from the 1880s-90s; 15th-century sources say Grunwald, Tannenberg or the Ruthenian Griunvaldas. Sources: en.wikipedia (Battle of Grunwald); VLE; a Vilnius University article on the name.
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+Open, gently rolling farmland between three villages, with scattered woods, lakes, rye in the fields and a heavy July heat after the previous night's storm. Before the clash there is the noise of two armies waiting: banners, trumpets, Latin hymns, horses stamping, the knights' *Christ ist erstanden* and the Polish *Bogurodzica*. Afterwards the dominant smells are trampled grain, blood, horse sweat and burnt powder; flies come with the sun. The ground is dry and dust-choked, the stubble flattened for a mile.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+Book III's climax, **the one day the Root-Mother's forest and the Iron Saint's open ground meet on equal terms**. The Order's cannon, the Lithuanians' feigned retreat, the Law of Cost: Galminas becomes a grove here, and the "last žynys" tier-4 dies at Grunwald. The Iron Saint screams when the Grand Master falls. The name is handled with care: characters say Griunvaldas (ch. 24), but the chapter datelines of ch. 20, 21 and 23 still read "Žalgirio laukas", the narrator's modern name, which a strict reading of the record would not use in 1410.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Marienburg is about 95 km north-west (110 km by road, three days on horse, four to five on foot); this is the road the allies took after the battle (arriving 26 July). Czerwińsk (the bridge) is about 120 km straight to the south (150 km by the allies' route, 30 June to 11 July with rest days). Osterode lies about 25 km to the north-east; Gilgenburg a day's march. From Vilnius the distance is about 360 km straight; from Kraków about 380 km.
 
 ## Scenes set here
+
+Book III ch. 15 *Tiltas per Vyslą* (Czerwińsk, 30 Jun-2 Jul), ch. 16 *Miško šnabždesiai* (border forests), ch. 17 *Žibintas* (the night camp by burned Gilgenburg), ch. 18 *Du kalavijai* (the field between Grunwald, Stębark and Łodwigowo), ch. 19 (Tannenberg field), ch. 20 *Geležies mirtis*, ch. 21 *Kruvini laužai*, ch. 23 *Galmino giraitė* (autumn, the field), ch. 25; later recalled in Book IV (ch. 1, 4, 9, 26, 29) and Book V ch. 11, ch. 25.

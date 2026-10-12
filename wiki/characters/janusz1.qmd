@@ -8,33 +8,40 @@ categories: [character]
 {{< include ../_generated/janusz1.md >}}
 
 ## Summary
-<!-- One paragraph: who they are when the reader meets them, and what they want. -->
+
+Janusz I of Masovia (c. 1346 - 1429), Duke of Warsaw and Czersk, is Vytautas's brother-in-law through [Danutė](danute.qmd). In the saga he is the small, moustached, proud neighbour who gives Vytautas refuge in Czersk castle in late 1382, and is open about it: the arrival causes him more worry than joy. He is the neutral ground of the story, a Piast squeezed between the Order, Poland and Lithuania.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Book I ch. 17: a small, moustached man, "too proud", who has learned to survive among three stronger neighbours. He receives Vytautas in the Warsaw castle without ceremony and speaks practically: "Rest; in the meantime we will see what the world does." His tell is caution; the Masovian house words, *Między dwoma ogniami* (between two fires), are the saga's invention for the Piasts.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | Keep Masovia out of the cousins' wars and on good terms with every side. |
+| **Need** (internal) | To be a prince who is more than a buffer. |
+| **Lie** they believe | That a small duchy is safest when it is helpful to everyone. |
+| **Truth** they learn (or refuse) | That sheltering a wolf costs less than refusing him (Book I ch. 17). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book I (late 1382):** receives Vytautas in Czersk castle (his capital until 1406), gives him a few weeks' rest and guides to Prussia (ch. 17).
+- **Later books:** an offstage ally and kinsman; his brother Siemowit IV marries Aleksandra Algirdaitė (1387), so the two Gediminid lines are in-laws in Masovia.
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Tier 0. A mundane prince with no gift and no bargain.
 
 ## Record vs saga
 
-- **[Record]:** <!-- what history says (dates, deeds) -->
-- **[Saga invention]:** <!-- what we add; must not contradict the record (D3) -->
+- **[Record]:** Janusz I the Elder (born c. 1346, died December 1429), Duke of Warsaw and Czersk, a Piast and from 1405 a vassal of the Polish crown. He married Danutė (Anna) of Lithuania c. 1373. Masovian troops under Janusz and his brother Siemowit IV fought on the Polish-Lithuanian side at Grunwald (1410). After Krėva, Vytautas went to Janusz's court before going to the Order (Wigand; en.wikipedia). See [Wikipedia](https://en.wikipedia.org/wiki/Janusz_I_of_Warsaw).
+- **[Saga invention]:** His wary welcome and exact phrasing in Book I ch. 17. The record gives only the fact of the refuge.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**JA-nusz** (/ˈjanuʂ/), English respelling *YAH-noosh*. Lithuanian: Janušas Mazovietis. [world_rules/pronunciation_lexicon.json]
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book I:** ch. 17 only. Mentioned in Book II (hostage and marriage networks) and in the Book III Brest council context. Masovia as a place: see [Masovia](../places/masovia.qmd).

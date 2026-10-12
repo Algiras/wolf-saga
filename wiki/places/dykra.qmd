@@ -8,15 +8,21 @@ categories: [place]
 {{< include ../_generated/dykra.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+The **Wildnis** (German *Wiltnis*; Lithuanian historiography: *dykra*) was a deliberately depopulated border belt between Prussia and Livonia and settled Lithuania, formed after the conquest of Prussia (1283) and Sudovia (1277-83) and a century of raiding. It lay south of the Nemunas over old Sudovia-Yotvingia, up to c. 150 km deep; along the west and north of Samogitia, c. 60 km; and in patches on the Livonian border. Some old population survived there and some trails were known: the Order recorded them in about 100 route reports, the *Wegeberichte*, compiled between 1384 and 1402 from the accounts of Lithuanian and Prussian guides, listing fords, night camps and villages. For 1341-1450 it is the real war-zone: raids of both sides, winter and summer *Reisen*, and refugees like Vytautas (1382) crossed it. The Treaty of Melno (1422) at last fixed the frontier. Sources: VLE (Dykra), Wegeberichte editions.
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+Alder carr and peat, black water, sphagnum moss with cranberries, birch stands drowned at the roots, pine on sand islands. Cranes in spring, bitterns in the reeds, the howl of wolves. Midges and horseflies in summer, dense mist in autumn, a smell of rot and iron-rich water. Winter freezes the bog and makes a hard road; thaw drowns it. Few people, no bells: just stray hunters, beekeepers with tree-hives, and the faint smoke of a hidden hamlet. The ground quakes underfoot where it looks solid.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+The saga's Dykra is **larger than the historical Wildnis**: the western Dykra is the real border belt; the eastern Dykra is the swamp-forests of the upper Nemunas, the Naliboki and the Biebrza marshes, the territory "between Krėva and the Neman". It is **the Root-Mother's own country**, the map of what the crusade cost, and it grows as the books go on. It is the one country the Pact still fully protects after 1384. Pelkių Eglė speaks for it. **It never lies about where you end, only about how long it takes**: paths shorten for those she favours and lengthen without end for those she does not. It is also the hiding place of the surviving wolves.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+The Dykra begins within a day's ride of Krėva: 30-60 km to the Naliboki edge, half a day to a day on horse, one to two days on foot (a starving fugitive in bog does 10-15 km a day). From Krėva to the Prussian border is 330-400 km (eight to ten days, four to five with remounts); the direct road is watched, which is why Vytautas went in. The Order's raiders cross it from Insterburg and Lyck; a winter *Reise* on ice makes 40-60 km a day. Across Sudovia from Kaunas to Königsberg it is some 250 km overland.
 
 ## Scenes set here
+
+Book I ch. 15 *Pabėgimas*, ch. 16 *Pelkės vaikai* (Eglė's bog), ch. 17 (the Gardinas forests and the Biebrza marsh), ch. 23; Book II ch. 14 *Vilkų medžioklė* (the Dykra's edge, winter 1395-96); Book III ch. 7 *Pilkoji* and ch. 9 (1404-06), ch. 29 (Rasos night 1411); Book IV ch. 6; Book V ch. 7 (Christmas Eve 1430), ch. 11, ch. 28 (the oldest bog, 1449); Book VI ch. 5 (an island in the swamp, 1345), ch. 9 *Dykros gimimas* (Sūduva, 1348).

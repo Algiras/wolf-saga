@@ -452,7 +452,7 @@ The folk are half right: the bread-on-a-knife cure works on the cursed, because 
 
 *Pronunciation: GIL-ti-neh.*
 
-**Folk source [Record].** The goddess or personification of death, often named as **Laima's sister**. Later tradition pictures her as a tall, thin woman in white, sometimes with a scythe (**in the books she is "tall and grey, with shears", never named**), sometimes with a long poisonous tongue. Tales of the "Godfather Death" type are well known in Lithuania: Giltinė's godson becomes a famous doctor because he can see where she stands (at the head, the patient dies; at the feet, the patient lives) and cheats her by turning the bed around, until she takes him instead. Other tales have clever people trap or delay her for a time.
+**Folk source [Record].** The goddess or personification of death, often named as **Laima's sister**. Later tradition pictures her as a tall, thin woman in white, sometimes with a scythe (**in Book I she is "tall and grey, with shears", unnamed; from Book IV she is named: ch. 28 is titled *Giltinė prie Lovos* and ch. 29 has her at his head**), sometimes with a long poisonous tongue. Tales of the "Godfather Death" type are well known in Lithuania: Giltinė's godson becomes a famous doctor because he can see where she stands (at the head, the patient dies; at the feet, the patient lives) and cheats her by turning the bed around, until she takes him instead. Other tales have clever people trap or delay her for a time.
 
 **In the saga.** Giltinė cuts the thread that Laima spins (`cosmology.md` §3.1). She is the one being in this book **unaffected by the Unbinding**, because death owes no courtesy and was never bound by the Pact. She cannot be bribed and does not bargain. She **can** be tricked once, as in the tales, but the trick is noted and the debt is collected at the worst possible moment.
 
@@ -465,7 +465,7 @@ The folk are half right: the bread-on-a-knife cure works on the cursed, because 
 - There are none. Turning the bed (as in the tale) works once per lineage. *Cost:* she returns when the trickster's family is at its height.
 - Water-working (Bangpūtys) can pull a soul back from the gate but cannot heal a mortal wound (`magic_rules.md`). *Cost:* the healer takes part of the wound.
 
-**Story hooks.** Book I: Giltinė is glimpsed at Krėva on 15 August 1382 (ch. 9), unnamed, tall and grey with shears, standing at the cell door, not entering, because the killing is Velnias's work and she is only there to cut. Book IV: Vytautas sees her at the foot of his bed in 1430 and turns it, buying perhaps a week.
+**Story hooks.** Book I: Giltinė is glimpsed at Krėva on 15 August 1382 (ch. 9, shown on the page), unnamed, tall and grey with shears, standing at the cell door, not entering, because the killing is Velnias's work and she is only there to cut. Book IV: ch. 28 (*Giltinė prie Lovos*, named): Vytautas sees her at the foot of his bed in 1430 and turns it, buying perhaps a week; ch. 29: she comes to his head.
 
 ---
 

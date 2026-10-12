@@ -1,3 +1,31 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap&subset=latin-ext" rel="stylesheet">
+<!-- Cinzel (display), Crimson Pro (body), Alegreya Sans SC (labels): all three ship a latin-ext subset
+     (ą č ę ė į š ų ū ž); the css2 API serves it automatically via unicode-range. -->
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Cinzel:wght@500;600;700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<script>
+/* Cosmetic hooks for the sourcebook look (the page works without them):
+   1. mark the first prose paragraph of an entity page for the drop cap (skipping the generated sections);
+   2. relabel default callout titles: Note -> Lore, Tip -> Read-aloud. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    var GEN = /^(relations|timeline|relation-graph|forms-arc-stages|state-over-time)(-\d+)?$/;
+    var root = document.getElementById("quarto-document-content") || document.querySelector("main");
+    if (root && root.querySelector(".infobox")) {
+      var secs = root.querySelectorAll("section.level2");
+      for (var i = 0; i < secs.length; i++) {
+        if (GEN.test(secs[i].id)) continue;
+        var p = secs[i].querySelector(":scope > p");
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
+        break;
+      }
+    }
+    var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
+    Object.keys(map).forEach(function (cls) {
+      document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
+        if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+</script>

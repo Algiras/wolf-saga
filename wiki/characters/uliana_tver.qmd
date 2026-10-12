@@ -1,0 +1,25 @@
+---
+title: "Uliana of Tver (Julijona Tverietė)"
+id: uliana_tver
+type: character
+categories: [character]
+---
+
+{{< include ../_generated/uliana_tver.md >}}
+
+## Summary
+
+Uliana of Tver (Lith. *Julijona Tverietė*, c. 1325 - 17 Mar 1391) is Algirdas's second wife, Orthodox, and the mother of [Jogaila](jogaila.qmd), [Skirgaila](skirgaila.qmd), [Švitrigaila](svitrigaila.qmd) and [Kaributas](kaributas.qmd). She is the dynast of the Algirdaičiai who sees to it that her sons, not Maria of Vitebsk's, inherit in 1377. In Book VI she is called Uliana and learns to count horses in her first winter at Vilnius.
+
+## Record vs saga
+
+- **[Record]:** Daughter of Alexander of Tver, married to Algirdas in 1349, died on 17 March 1391 aged about 65; Jan Tęgowski gives her eight sons and seven daughters, the birth order disputed. Sources conflict on whether she took the veil, at the Holy Spirit monastery in Vitebsk or at the Kyiv Pechersk Lavra (en.wikipedia, Uliana of Tver). Algirdas's 1377 will favoured her sons.
+- **[Saga invention]:** Her private conversations and the persona's Moscow marriage-brokering in 1384 (the offer itself is attested; the bride's name is not secure).
+
+## Not to be confused with
+
+[Julijona Alšėniškė](julijona.qmd), Vytautas's second wife (married 1418), a different woman. The persona folder was renamed `Uliana_Tveriete` for that reason.
+
+## Appearances
+
+**Book VI:** ch. 15, 20, 25, 27, 28, 29 (as Uliana). She is mentioned, not shown, in Books I-II.

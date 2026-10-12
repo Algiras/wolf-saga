@@ -8,15 +8,21 @@ categories: [place]
 {{< include ../_generated/kreva.md >}}
 
 ## In the 1380s [Record]
-<!-- What actually stood here: castles, walls, people, who held it. -->
+
+Krėva (Pol. *Krewo*; Bel. *Kreva*) lies about 75-80 km east-south-east of Vilnius, now in Belarus. It was Algirdas's patrimony and then Jogaila's. It is a stone-and-brick enclosure castle of irregular plan on low, marshy ground, with a big corner tower and a smaller tower, among the oldest masonry castles in the Grand Duchy; scholars date it to the first half of the 14th century under Gediminas, others to Algirdas's time. After the arrest on 3 August 1382 Jogaila held Kęstutis and Vytautas here. Kęstutis was found dead on 15 August (the Assumption). Most sources, including VLE, say he was strangled; Jogaila's official version was that he hanged himself, which few believed. Vytautas was held until autumn 1382, when he escaped in a woman's clothes (the maid's name is not recorded). The Union of Krėva was signed here on 14 August 1385. The castle was sacked by Crimean Tatars in the early 16th century and ruined in the First World War; Poland conserved the remains in 1929. Sources: VLE (Kęstutis, Krėva), en.wikipedia.
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A castle that hides rather than protects: thick walls of big fieldstone and brick, small windows, and below them cells that never dry. The air is damp stone, old straw, tallow and the sweat of long confinement; in August, hot masonry, harvest dust and horse sweat (rye harvest). Low ground between streams gives mist at dawn and mosquitoes by dusk, and frost arrives early. Sound is thin: footfalls on stone stairs, keys, and the distance from one wall to the next. In the saga the silence here is not an absence but a weight.
 
 ## In the saga
-<!-- Mythic overlay: which Force or spirit claims it, residue of past workings (Law of Memory). -->
+
+**The wound in the map.** Kęstutis's death is Henė's **Breath of the Void**, a silence that took the sound out of the castle; the **White Silence** first touches Krėva as frost in November 1382 and settles over it at the 1385 union. The cell holds a *residue* (magic rules): seers feel it for a century, and Žygimantas feels it in Book V. The silver wolf passes from Kęstutis to Vytautas through the Krėva stones (Book I ch. 8). Perkūnas marks Vytautas here. The Union of 1385 is staged in the room above the death cell. Krėva sits on the edge of the eastern Dykra: the first forest Vytautas reaches after the escape.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+From Vilnius, 90-105 km by road via Medininkai and Ašmena: two days on horse, or a long day at best; a prisoner convoy takes two to three days. From Trakai 110-125 km, two and a half days. The Dykra (Naliboki edge) begins 30-60 km south, half a day to a day by horse. To Palanga is 470-520 km (10-13 days; five to six with relays), which is the key news route. To the Prussian border 330-400 km (eight to ten days); to Masovia (Czersk) 480-520 km, ten to twelve days.
 
 ## Scenes set here
+
+Book I ch. 8 *Krėvos požemiai*, ch. 9 *Paskutinė giesmė*, ch. 10 *Šaltas rytas* (the Assumption morning), ch. 12-14 (the weeks of mourning, the exchange, the night escape), ch. 28b *Krėvos sutartis* (14 Aug 1385), ch. 30 (epilogue); Book II ch. 10 (recalled); Book IV ch. 26, 29 (recalled); Book V ch. 6, ch. 19 *Išdavystės aidas* (14 Aug 1438, Žygimantas at Krėva).

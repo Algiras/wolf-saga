@@ -1,0 +1,145 @@
+# Store and cover metadata for the six books: one source of truth.
+# Read by scripts/gen_book_quarto.py (writes books/*/_quarto-store.yml, the e-book metadata)
+# and scripts/make_covers.py (back-cover blurb). Titles, years and series lines live in
+# books/covers/covers.yml; this file adds what the stores want.
+#
+# uuid: the stable dc:identifier of each EPUB (urn:uuid:...). Generated once; never change it
+#       after a book is published, or the stores treat the file as a different book.
+# isbn_ebook / isbn_print: leave empty until an ISBN is issued (do not invent one). Once set,
+#       `python3 scripts/gen_book_quarto.py` writes it into the EPUB metadata and the print
+#       copyright page.
+# blurb_lt / blurb_en: the back-cover and store description (plain text, one paragraph).
+#       Book 1 is condensed from README.md; books 3-6 from books/N_teaser.md; book 2 from
+#       its Pratarme (books/2_teaser.md still carries the old "Vytis ir Sesielis" title and plot).
+
+series:
+  name: "Geležinio Vilko Saga"
+  name_en: "The Iron Wolf Saga"
+  author: "Algimantas Krasauskas"
+  publisher: "Algimantas Krasauskas"
+  rights: "© 2025–2026 Algimantas Krasauskas. CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)"
+  subjects_lt: ["Fantastika", "Istorinė fantastika", "Tamsioji fantastika", "Lietuvos istorija"]
+  subjects_en: ["Fantasy", "Historical fantasy", "Dark fantasy", "Lithuanian history"]
+
+books:
+  - number: 1
+    uuid: "e058f845-8cb1-4e44-8d6f-11869c9c3768"
+    isbn_ebook: ""
+    isbn_print: ""
+    keywords_en: ["dark fantasy", "historical fantasy", "medieval Lithuania", "Vytautas the Great", "Teutonic Order", "pagan Baltic mythology", "epic fantasy series"]
+    keywords_lt: ["tamsioji fantastika", "istorinė fantastika", "Vytautas Didysis", "Lietuvos istorija", "Kęstutis", "Krėvos pilis", "epinė fantastika"]
+    blurb_lt: >-
+      Po klastingos Kęstučio mirties Krėvos požemiuose Vytautas lieka vienas prieš savo mirtinus
+      pusbrolius. XIV amžiaus pabaigos Lietuvoje broliai kovoja dėl sosto, senieji dievai dar nenutilo,
+      o iš vakarų slenka plieninė Ordino tvarka. Kad atgautų tėvų žemę, jam teks tapti tuo, ko labiausiai
+      bijojo: negailestingu vilku. Pabėgimas persirengus moterimi, sandėris su Marienburgo magistru,
+      svetimos ugnies atvedimas į gimtąją žemę ir Vilniaus apgultis: kerštas tampa vieninteliu degalu
+      gyventi. „Vilko Tremtis“ yra pirmoji epinės tamsiosios fantastikos sagos knyga apie nuosmukį,
+      išdavystę ir transformaciją (1377–1387).
+    blurb_en: >-
+      After the treacherous death of Kęstutis in the dungeons of Kreva, Vytautas stands alone against
+      his deadly cousins. In late fourteenth-century Lithuania, brothers fight for the throne, the old
+      gods have not yet fallen silent, and the steel order of the Teutonic Knights presses in from the
+      west. To win back his father's land he must become the thing he fears most: a merciless wolf. A
+      flight in a woman's clothes, a bargain with the Grand Master at Marienburg, a foreign fire carried
+      into his own country and the siege of Vilnius: vengeance becomes the only fuel to live on. The
+      Wolf's Exile opens an epic dark-fantasy saga of decline, betrayal and transformation (1377–1387).
+  - number: 2
+    uuid: "4f380ceb-61be-4a01-a469-1f64f30f48d4"
+    isbn_ebook: ""
+    isbn_print: ""
+    keywords_en: ["dark fantasy", "historical fantasy", "medieval Lithuania", "Battle of the Vorskla", "Vytautas the Great", "Golden Horde steppe", "epic fantasy series"]
+    keywords_lt: ["tamsioji fantastika", "istorinė fantastika", "Vorsklos mūšis", "Vytautas Didysis", "Lietuvos istorija", "Aukso Orda", "epinė fantastika"]
+    blurb_lt: >-
+      Tylioji Sutartis mirusi, šventoji ugnis Vilniuje užgesinta, o Vytautas gyvena su viena paslaptimi:
+      maža liepsna, kurią slapčia saugo nebaigtos tėvo pilies pamatuose. Šį kartą jį varo ne kerštas, o
+      ambicija. Ji antrą kartą nuveda jį pas Ordiną ir į trečią išdavystę, o Astravo susitarimas padaro
+      jį Didžiuoju kunigaikščiu ir pažadina imperijos sapną nuo Baltijos iki Juodosios jūros. Už kiekvieną
+      žingsnį kažkas sumoka. 1399 metų rugpjūčio 12-ąją, ties Vorskla, stepė suėda jo kariuomenę. Tai
+      knyga, kurioje herojus pralaimi, ir būtent todėl ji parašyta: auksas meta ilgą šešėlį, o šešėlis
+      anksčiau ar vėliau pradeda eiti pirmas.
+    blurb_en: >-
+      The Silent Pact is dead, the holy fire in Vilnius is put out, and Vytautas lives with one secret:
+      a small flame he guards in the foundations of his father's unfinished island castle. This time he
+      is driven not by revenge but by ambition. It leads him to the Order a second time and into a third
+      betrayal, and the Astrava agreement makes him Grand Duke and wakes a dream of empire from the
+      Baltic to the Black Sea. For every step, someone pays. On 12 August 1399, on the river Vorskla,
+      the steppe devours his army. This is a book in which the hero loses, and that is exactly why it was
+      written: gold casts a long shadow, and sooner or later the shadow walks ahead.
+  - number: 3
+    uuid: "5939e729-e557-4c02-af7c-5a5d53d1af8e"
+    isbn_ebook: ""
+    isbn_print: ""
+    keywords_en: ["dark fantasy", "historical fantasy", "Battle of Grunwald", "Samogitia", "medieval Lithuania", "Vytautas the Great", "epic fantasy series"]
+    keywords_lt: ["tamsioji fantastika", "istorinė fantastika", "Žalgirio mūšis", "Žemaitija", "Lietuvos istorija", "Vytautas Didysis", "epinė fantastika"]
+    blurb_lt: >-
+      Po Vorsklos Vytautui nebeliko nieko, tik miškas. Žemaitija, parduota visų sutarčių, kyla vėl ir
+      vėl, o Ordinas ruošia paskutinį didįjį kryžiaus žygį. Kad jį sustabdytų, Vytautas turės susitaikyti
+      su pusbroliu, kurio vyrai pasmaugė jo tėvą. Pasitelkęs senųjų dievų likučius, jis žengia link
+      lauko, kuriame vienas amžius turės užleisti vietą kitam: 1410 metų liepos 15-oji, Žalgiris. Bet ar
+      pergalė ką nors pakeis tiems, kurie miške laukia?
+    blurb_en: >-
+      After the Vorskla, nothing was left to Vytautas but the forest. Samogitia, sold by every treaty,
+      rises again and again, and the Order prepares its last great crusade. To stop it, Vytautas must
+      make peace with the cousin whose men strangled his father. Calling on what remains of the old
+      gods, he walks toward the field where one age must make way for another: 15 July 1410, Grunwald.
+      But will victory change anything for those who wait in the forest?
+  - number: 4
+    uuid: "61e869e6-5986-40b9-8e62-20265e558088"
+    isbn_ebook: ""
+    isbn_print: ""
+    keywords_en: ["dark fantasy", "historical fantasy", "medieval Lithuania", "Christianization of Samogitia", "Council of Constance", "Vytautas the Great", "epic fantasy series"]
+    keywords_lt: ["tamsioji fantastika", "istorinė fantastika", "Žemaitijos krikštas", "Konstanco susirinkimas", "Lucko suvažiavimas", "Vytauto karūna", "epinė fantastika"]
+    blurb_lt: >-
+      Žalgiris laimėjo karą, bet ne dievus. Žemaitijos giraitės krikštijamos, vienas po kito užgęsta šventi
+      aukurai, o Vytautas dieną kartoja tikėjimo išpažinimą, naktį saugo paslaptį, kurios neturėtų žinoti
+      niekas. Jo valdos driekiasi nuo jūros iki jūros, ir trūksta tik vieno: karūnos. Bet už karūną kas
+      nors visada paprašys kainos, o Šešėlių Pardavėjas niekada nepamiršta savo sąskaitų. Istorija žino
+      pabaigą: karūna sulaikyta pakeliui, senasis kunigaikštis miršta Trakuose 1430 metų spalio 27-ąją.
+      Ši knyga klausia, kas tą naktį užgeso kartu su juo.
+    blurb_en: >-
+      Grunwald won the war, but not the gods. The groves of Samogitia are baptised, one holy altar after
+      another goes dark, and by day Vytautas recites the Creed while by night he guards a secret no one
+      should know. His lands stretch from sea to sea, and only one thing is missing: a crown. But someone
+      always asks a price for a crown, and the Seller of Shadows never forgets his accounts. History knows
+      the ending: the crown is held back on the road, and the old duke dies at Trakai on 27 October 1430.
+      This book asks what went out that night together with him.
+  - number: 5
+    uuid: "ac2b421e-63c8-45d8-909f-ad5fe55c4cfa"
+    isbn_ebook: ""
+    isbn_print: ""
+    keywords_en: ["dark fantasy", "historical fantasy", "medieval Lithuania", "Lithuanian civil war", "Švitrigaila", "Grand Duchy of Lithuania", "epic fantasy series"]
+    keywords_lt: ["tamsioji fantastika", "istorinė fantastika", "Švitrigaila", "Žygimantas Kęstutaitis", "Pabaisko mūšis", "Lietuvos istorija", "epinė fantastika"]
+    blurb_lt: >-
+      Didysis kunigaikštis mirė, o kartu su juo nutilo kažkas senesnio už Lietuvą. Rūsyje užgęsta Paskutinė
+      Liepsna, jo įpėdiniai kariauja dėl sosto, o jaunas vilkas, kurio užduotis buvo ją saugoti, lieka su
+      šaltais pelenais rankose ir vienu troškimu: viską atkurti. Bet ugnį gali uždegti bet kas, o kai
+      kurių sutarčių vienas žmogus iš naujo prisiekti negali. Brolis kovoja prieš brolį iki Pabaisko
+      lauko, vietoj priesaikų ir ženklų ateina antspaudai ir raštai. Pasakoja ta, kuri viską mena nuo pat
+      pradžios.
+    blurb_en: >-
+      The Grand Duke is dead, and with him something older than Lithuania has fallen silent. In the
+      cellar the Last Flame goes out; his heirs wage war for the throne, and the young wolf who was
+      sworn to guard it is left with cold ashes in his hands and one desire: to restore it all. But
+      anyone can light a fire, and some pacts one man cannot swear again. Brother fights brother to the
+      field of Pabaiskas, and seals and charters replace oaths and signs. The tale is told by the one who
+      remembers everything from the very beginning.
+  - number: 6
+    uuid: "a038c1bc-a3c1-4213-b1ec-e1a94388d2e9"
+    isbn_ebook: ""
+    isbn_print: ""
+    keywords_en: ["dark fantasy", "historical fantasy", "prequel", "Kęstutis and Birutė", "medieval Lithuania", "Teutonic Order", "epic fantasy series"]
+    keywords_lt: ["tamsioji fantastika", "istorinė fantastika", "priešistorė", "Kęstutis ir Birutė", "Lietuvos istorija", "Algirdas", "epinė fantastika"]
+    blurb_lt: >-
+      Lietuva turėjo žlugti per Ordino šimtmečio kryžiaus žygį, bet nežlugo. Priežastis slypi vienoje
+      nakties priesaikoje Šventaragio slėnyje, kur du broliai davė žodį senesniems už juos. Kęstutis,
+      jaunesnysis, ištarė paskutinį sakinį garsiai, ir visą likusį gyvenimą moka už jį kainą. Gintaro
+      žynė iš Palangos, Marienburgo požemiai ir brolis, kuris niekada neatleido. Tai priešistorė, kuri
+      baigiasi ten, kur prasideda pirmoji saga, ir istorija, nuo kurios prasideda viskas.
+    blurb_en: >-
+      Lithuania should have fallen in the Order's century-long crusade, but it did not. The reason lies
+      in one night's oath in the Valley of Šventaragis, where two brothers gave their word to powers
+      older than themselves. Kęstutis, the younger, spoke the last sentence aloud, and has paid for it
+      all his life. An amber priestess from Palanga, the dungeons of Marienburg and a brother who never
+      forgave. This prequel ends where the first book of the saga begins: the story from which
+      everything starts.

@@ -12,22 +12,28 @@ categories: [character]
 Hanulas, a Riga merchant of Vilnius, led the townspeople who took the castle for Jogaila on 12 Jun 1382 and became first elder of Vilnius (1382-87); in the saga he is [Henė](../forces/shadow_seller.qmd)'s first mask.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+A prosperous burgher in good German furs, ink-stained fingers and a merchant's ring; a pleasant, forgettable face. People remember the voice, which sounds like their own. In Book I ch. 5 Jogaila carries silver that is "Hanulas's promises, smelling of Western power and the new gods" and never once sees the Riga merchant and the jester Henė in one room. In Book VI ch. 27 the Shadow-Seller's ledger lists him as a Riga silver-trader, "owing a little; still free".
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | The Shadow-Seller's mask: to open the gate for Jogaila and to place Riga and Order silver where it will do most harm. |
+| **Need** (internal) | For the real man (Hanul): to be a respected burgher; for the mask: to find a customer. |
+| **Lie** they believe | That a merchant can trade without being owned. |
+| **Truth** they learn (or refuse) | That every coin he gives is warm and every gift carries a thread (the golden chain, Book I ch. 9). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book VI (c. 1375):** a name in the Shadow-Seller's ledger as a Riga silver-trader still free (ch. 27).
+- **Book I (1382):** takes the Vilnius castle with the townspeople and hands castle and city to Jogaila on 12 June while Kęstutis is away (ch. 1, 2); his Riga-made golden chain is the "gift" that kills Kęstutis ("Hanulas said it was worthy of your honour", ch. 9); his silver reaches Jogaila (ch. 5).
+- **Book II (1387):** Hanulo "wagon-man" is whispered to be the jester Henė's origin (ch. 1).
+- **Book V:** the chain-line is repeated in Žygimantas's Krėva night, again on the lips of the hired killers (ch. 19).
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Not a mortal practitioner: he is a **mask of a Force**, a shard of Velnias, outside the tier ladder ([Shadow-Seller](../forces/shadow_seller.qmd) / Henė; canon D2). As Hanulas he never casts; he trades. Every coin he hands over is warm. He carries the [golden chain](../artifacts/golden_chain.qmd), Riga-made, which holds the Breath of the Void. Canon Q12: a real man, possessed 1380-82, who never remembers it, because the historical Hanul keeps acting after 1382.
 
 ## Record vs saga
 
@@ -35,7 +41,9 @@ Hanulas, a Riga merchant of Vilnius, led the townspeople who took the castle for
 - **[Saga invention]:** Henė's possession of him 1380-82; the sack of Riga silver is only a rumour in Book I.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**HA-nu-las** (/ˈɣaːnʊɫɐs/), English respelling *HAH-noo-lahs*; stress on the first syllable. Also written Hannike, Hennecke or Hanco in the German sources. [world_rules/pronunciation_lexicon.json]
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book I:** ch. 1, 2, 5, 9. **Book II:** ch. 1. **Book V:** ch. 19. **Book VI:** ch. 27. The jester Henė is his second coat from Book I ch. 5 onward; the merchant is not shown again.

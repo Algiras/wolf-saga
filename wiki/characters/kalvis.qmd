@@ -12,22 +12,28 @@ categories: [character]
 Kalvis (the Smith), leader of the Vilnius packs; holds to rule 9 in 1382, is judged and spared by Vytautas, guards the flame from 1387 and dies at the Vorskla (1399) when the wolves who crossed the Dnieper crumble to ash.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+A large man of about fifty, forearms covered with old burn scars like bits of slag; the right side of his beard will not grow, because the skin there burned (Book II ch. 2). He is called only "Kalvis" ("Smith"): the law of the pack no longer allows him another name. He rows like a man used to hard work, steadily and without sparing his hands (ch. 11). Among the young wolves he is a "father", a title he does not know whether to take as respect or fear (ch. 14). At the Vorskla his hands are held out palms up and the skin trembles.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | To keep the flame that is the wolves' name, and to keep his pack within the law (rule 9) when it costs him. |
+| **Need** (internal) | To be judged and forgiven for the door he held in 1382. |
+| **Lie** they believe | That the letter of the Pack's Word is enough: rule 9 owed the flame's keeper, so he stood aside while Skirgaila's killers did their work. |
+| **Truth** they learn (or refuse) | That the Word has a spirit: Vytautas spares him, the old Kęstutis wolves never forgive either of them, and Kalvis dies for the man (Book II ch. 2, 26). |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book I (1382):** leader of the Vilnius packs; holds the doors by rule 9 while Jogaila's camp near Trakai is stained, and stands aside. (The slaughter is off page; see canon D10.)
+- **Book II:** carries the ember through the water to the Trakai foundations, kneels for judgement in front of the half-flooded island castle and is spared (ch. 2, spring 1387); rows Vytautas out in the night boat to take the keys of Trakai (ch. 11); POV of ch. 14 (*Vilkų Medžioklė*, winter 1395-96), a hunt of the Unburned in the Dykra's edge; goes south to the steppe against his own law and dies at the Vorskla when the wolf-change stops halfway, "with no forest to remember him" (ch. 22, 23, 26).
+- **Book III:** his ashes feed the lantern that goes to Grunwald (ch. 15); a memory in ch. 19, 28.
+- **Book V:** remembered as the first keeper of the ember, whose ash fed the flame.
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+Granted, the **Wolf-Change**, outside the tier ladder; a sworn wolf of many years who could take wolf shape under canon D10 (only wolves sworn twenty years or more can). He is the first keeper of the [Šventaragis ember](../artifacts/ember.qmd): the graph has him guard the lodge flame (1387-1399), his ash feeding it afterwards. His fatal limit is the Root-Mother's own: her gifts fade far from forest, and at the Vorskla the transformation fails half-way. He and eleven wolves crumble to ash.
 
 ## Record vs saga
 
@@ -35,7 +41,9 @@ Kalvis (the Smith), leader of the Vilnius packs; holds to rule 9 in 1382, is jud
 - **[Saga invention]:** The ember's first keeper; his ash feeds the flame afterwards.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**KAL-vis** (/ˈkaːɫvʲɪs/), English respelling *KAHL-vis*; "the Smith". [world_rules/pronunciation_lexicon.json]
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+**Book II:** ch. 2 (Salos Pamatai), 11 (Trakų Raktai), 14 (Vilkų Medžioklė, POV), 17, 22, 23, 26 (his death), 27, 28, 29 and the afterword. **Book III:** ch. 15, 19, 28. **Book IV:** ch. 27. **Book V:** mentions in ch. 1, 13, 14, 22, 29. He is not named in Book I; his 1382 role (rule 9) comes from the iron-wolves canon and Book II ch. 2.

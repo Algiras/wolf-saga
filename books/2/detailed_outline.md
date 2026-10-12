@@ -111,7 +111,7 @@ A humbled Vytautas, Form 5 broken, who has seen what empire-hunger costs; **Samo
 - [ ] Henė's stones: **3** → **2** at ch. 16 (Skirgaila). Henė changes masters at ch. 10 (D2: Vytautas's court from 1392).
 - [ ] Unbinding 2 → 3; tiers 1/25/300 → 1/18/220. Show at least one tier-3 death or desertion.
 - [ ] The poisonings (the sons, Skirgaila) are **mundane herb-lore**, never sorcery (`power_systems.md` §2.4).
-- [ ] The Last Flame: flooded island foundations (1387–92) → the new island vault (from ch. 11). Kalvis carried the ember.
+- [ ] The Last Flame: flooded island foundations (1387–92) → the new island vault (from ch. 11). Vytautas carried the ember out of the valley (Book I ch. 29); Kalvis carries the pot from the lodge to the island and guards the flame.
 
 **Objects**
 

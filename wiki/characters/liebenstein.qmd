@@ -12,22 +12,26 @@ categories: [character]
 Kuno von Liebenstein, komtur of Osterode and godfather of Danutė, is the Order's informant who warned [Kęstutis](kestutis.qmd) of the secret treaty of [Dovydiškės](../events/ev_dovydiskes.qmd) in August 1381. He is named in Book I ch. 1.
 
 ## Appearance & tells
-<!-- Body, dress, voice, habits. The visible signs of their current form/arc stage. -->
+
+Not described: the books give him one sentence and no face. Book I ch. 1 names him as the komtur of Osterode who warned Kęstutis "in whispers" of the Dovydiškės treaty, and the saga leaves him there, an Order officer with a conscience whose entire role is a whisper in August 1381. His only "tell" is that he acts as a friend across the lines: as godfather to Kęstutis's daughter Danutė (the record) he owes the family a loyalty that the Order's rule does not recognise.
 
 ## Want · Need · Lie · Truth
 
 | | |
 |---|---|
-| **Want** (external) | |
-| **Need** (internal) | |
-| **Lie** they believe | |
-| **Truth** they learn (or refuse) | |
+| **Want** (external) | (The books give no stated aims.) To protect his goddaughter's family from a treachery he knew of, and to keep Kęstutis alive as a counterweight to Jogaila. |
+| **Need** (internal) | To act on the Order's word of honour or his godparent's obligation: to decide where his loyalty lies. |
+| **Lie** they believe | The Order's secret deals are not his to reveal. |
+| **Truth** they learn (or refuse) | He reveals one: Kęstutis learns the treaty of Dovydiškės and seizes Vilnius in autumn 1381. |
 
 ## Arc by book
-<!-- One line per book they appear in: where they start, the turn, where they end. See books/character_arcs.md -->
+
+- **Book I (Aug 1381, ch. 1).** Warns Kęstutis in a whisper of the secret treaty of Dovydiškės between Jogaila and the Order; on that warning Kęstutis takes Vilnius with three days' ride, reads the treaty, and releases Jogaila, the mercy that kills him in 1382.
+- **Book VI.** Not on page: the afterword explains that the 1381 warning belongs to the historical Liebenstein, while the invented young brother Günther von Hohenstein, who admires Kęstutis in Book VI, is not the informant.
 
 ## Power & magic
-<!-- Path (born / noticed / bound), school(s), tier, costs paid so far. See world_rules/power_systems.md -->
+
+**Tier 0**; no powers and no role in the magic. Only a name and a warning.
 
 ## Record vs saga
 
@@ -35,7 +39,13 @@ Kuno von Liebenstein, komtur of Osterode and godfather of Danutė, is the Order'
 - **[Saga invention]:** Nothing beyond the warning; the saga keeps the historical informant and does not turn him into a character of the Book VI cast.
 
 ## Pronunciation
-<!-- From world_rules/pronunciation_guide.md: STRESS · IPA · English sound-alike -->
+
+**LEE-ben-shtine** · IPA /ˈliːbn̩ʃtaɪn/ · English sound-alike "LEE-ben-shtine". German; the Lithuanian text writes Kuno fon Liebensteinas (KOO-no fon LEE-ben-shtine-ahs). Not in the pronunciation lexicon; derived from its conventions for German names (compare Rotenstein).
 
 ## Appearances
-<!-- Book · chapter list; continuity notes -->
+
+- **Book I:** ch. 1.
+- **Book VI:** the afterword (`istorine_pastaba.qmd`).
+
+Continuity: earlier drafts and some canon documents name Günther von Hohenstein (the real Osterode komtur, d. 1380) as the informant; the fact-check pass replaced him with Liebenstein in Book I ch. 1.
+

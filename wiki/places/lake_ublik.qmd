@@ -12,14 +12,16 @@ categories: [place]
 Lake Ublik (Wobel) in Masuria near Johannisburg, where in March 1361 a small band of knights surprised Kęstutis's camp ([capture](../events/ev_kestutis_captured_1361.qmd)).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A lake in the Masurian lake country, in the border forest of southern Prussia: pine, spruce and birch round a long, narrow water, reedy margins and cold black bog. In March the ice is grey and rotting at the edges, with open leads; the air smells of wet earth, snow-melt and resin; the forest drips. Sound is the problem: nothing carries, the ice groans at night, and the camp fires are small. A raiding camp pitched here would hear nothing until the horsemen were on it. The saga's chapter makes that absence the warning.
 
 ## In the saga
 
 Frost and thaw; the hidden nine arrive too late.
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Ublik (Wobel) lies near Johannisburg (Pisz) in the Order's border country, about 230 km in a straight line from Trakai, in the southern reaches of the Wildnis. By road from Trakai it is some 300-330 km (8-10 days on horse; the Order's Wegeberichte routes counted it as a long Reise). It is about 190 km straight to Marienburg, or 230-250 km by road (six to seven days for a mounted escort; the prisoner was held there for about half a year). The raid of 1361 had taken Kęstutis and Algirdas to Eckersberg and Johannisburg, so the camp was a few days' march inside the Order's frontier. The Masovian border is only about 60-80 km south.
 
 ## Scenes set here
 

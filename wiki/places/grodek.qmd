@@ -12,14 +12,16 @@ categories: [place]
 Gródek (Horodok) near Lviv, where Jogaila died on 1 Jun 1434, after catching a cold at Medyka in a late-April frost ([event](../events/ev_jogaila_dies.qmd)).
 
 ## Sensory sketch
-<!-- Smell, sound, light, weather by season. -->
+
+A small Ruthenian-Polish market town on low ground west of Lviv, with a wooden parish church of Jogaila's own foundation (1372), a ducal-royal manor, and a ring of earth ramparts left from the Galician-Volhynian fortress. The soundscape of the last days of May 1434 is the nightingale at night (the saga's "first sound without holes"), church bells and psalms, the hush of servants carrying water, the rattle of litters on the road. The air smells of damp meadow, new rye, wax, and the herbs strewn on the floor of the sickroom. Late spring there is green and cool, with frost still possible at night in late April, which is how the cold that killed the old king began.
 
 ## In the saga
 
 The nightingale that is "the first sound without holes".
 
 ## Getting there
-<!-- Distances and travel times to key places (see world_rules/geography_gazetteer.md). -->
+
+Gródek lies about 30 km west of Lviv (Lwów), on the road toward Przemyśl; Medyka, where Jogaila caught his chill, is near Przemyśl, a further ~80 km west. From Vilnius it is about 550 km in a straight line and 700 km by road, roughly three weeks for a normal mounted party (Vilnius to Kyiv, 750-800 km by route, is three to four weeks). From Kraków the road is some 330 km, about ten days with a sick man in a litter, which fits the record: the body left Gródek and reached Kraków on 11 June, and the Wawel funeral was held on 18 June. A courier with remounts (80-100 km per day) can carry the news from Gródek to Kraków in four days and to Vilnius in under a week.
 
 ## Scenes set here
 

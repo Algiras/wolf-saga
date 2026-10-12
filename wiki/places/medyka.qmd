@@ -1,0 +1,20 @@
+---
+title: "Medyka (near Przemyśl)"
+id: medyka
+type: place
+categories: [place]
+---
+
+{{< include ../_generated/medyka.md >}}
+
+## In the 1430s [Record]
+
+A village near Przemyśl on the road to Gródek. According to Długosz, in late April 1434 Jogaila stood in the forest at night listening to the nightingales, caught a chill, and was carried to [Gródek](grodek.qmd), where he died on 1 June ([the death](../events/ev_jogaila_dies.qmd)).
+
+## In the saga
+
+The forest edge where an old king stands wrapped in two cloaks while two chamberlains cough into their fists and dare not ask him to turn back (Book V ch. 12, *Lakštingala*). See [the chill at Medyka](../events/ev_medyka_chill.qmd).
+
+## Scenes set here
+
+Book V ch. 12.

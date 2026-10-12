@@ -14,6 +14,10 @@ website:
   title: "Geležinio Vilko Saga · Wiki"
   description: "World bible and encyclopedia for the Iron Wolf Saga."
   search: true
+  page-footer:
+    center:
+      - text: "Image credits"
+        href: image-credits.qmd
   page-navigation: true
   navbar:
     left:

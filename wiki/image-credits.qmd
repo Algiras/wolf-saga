@@ -1,0 +1,124 @@
+---
+title: "Image credits"
+---
+
+Until the saga has its own AI-generated art, many entries use **freely licensed images from Wikipedia and Wikimedia Commons** as stand-ins: period seals, manuscript miniatures, historical paintings, heraldry and photographs of the real places. Each credit below links to the Commons file page, which carries the full author and licence details. Entries without a credit here (e.g. Vytautas, Jogaila, Birutė, Perkūnas, Trakai, the Pebble, the book covers) use the saga's own AI-generated art.
+
+Fetched with `scripts/fetch_wiki_images.py` (mapping in `scripts/wiki_image_map.json`); only Public domain, CC0, CC BY and CC BY-SA files are accepted. Pictures are downscaled copies.
+
+**74 credited images.**
+
+## Characters
+
+| Entry | Image | Author | Licence |
+|---|---|---|---|
+| [Algirdas](characters/algirdas.qmd) | [Algirdas kunigaikštis](https://commons.wikimedia.org/wiki/File:Algirdas_kunigaik%C5%A1tis.jpg) | Alexander Guagnini | Public domain |
+| [Edigu](characters/edigu.qmd) | [Facial Chronicle - b.12, p.177 - Edigu's invasion](https://commons.wikimedia.org/wiki/File:Facial_Chronicle_-_b.12,_p.177_-_Edigu%27s_invasion.jpg) | Anonymous Russian illuminators (Facial Chronicle) | Public domain |
+| [Gediminas](characters/gediminas.qmd) | [Giedzimin. Гедзімін (A. Guagnini, 1578)](https://commons.wikimedia.org/wiki/File:Giedzimin._%D0%93%D0%B5%D0%B4%D0%B7%D1%96%D0%BC%D1%96%D0%BD_%28A._Guagnini,_1578%29.jpg) | Alessandro Guagnini | Public domain |
+| [Jadvyga (Jadwiga)](characters/jadvyga.qmd) | [Jadwiga by Bacciarelli](https://commons.wikimedia.org/wiki/File:Jadwiga_by_Bacciarelli.jpg) | Marcello Bacciarelli | Public domain |
+| [Janusz I of Masovia](characters/janusz1.qmd) | [Janusz I Starszy seal 1376](https://commons.wikimedia.org/wiki/File:Janusz_I_Starszy_seal_1376.PNG) | Unknown author | Public domain |
+| [Kaributas](characters/kaributas.qmd) | [Seal of Kaributas with Lithuanian Vytis (Waykimas), 1386](https://commons.wikimedia.org/wiki/File:Seal_of_Kaributas_with_Lithuanian_Vytis_%28Waykimas%29,_1386.jpg) | Kaributas | Public domain |
+| [Konrad Zöllner von Rotenstein](characters/zollner.qmd) | [KonradZöllnervonRotenstein](https://commons.wikimedia.org/wiki/File:KonradZ%C3%B6llnervonRotenstein.jpg) | Unknown author | Public domain |
+| [Kęstutis](characters/kestutis.qmd) | [Seal of Kęstutis, 1379](https://commons.wikimedia.org/wiki/File:Seal_of_K%C4%99stutis,_1379.jpg) | Unknown author | Public domain |
+| [Sigismund of Luxembourg](characters/sigismund.qmd) | [Pisanello 024](https://commons.wikimedia.org/wiki/File:Pisanello_024.jpg) | Pisanello (attributed) | Public domain |
+| [Skirgaila](characters/skirgaila.qmd) | [Skirgajła. Скіргайла (A. Guagnini, 1578)](https://commons.wikimedia.org/wiki/File:Skirgaj%C5%82a._%D0%A1%D0%BA%D1%96%D1%80%D0%B3%D0%B0%D0%B9%D0%BB%D0%B0_%28A._Guagnini,_1578%29.jpg) | Alessandro Guagnini | Public domain |
+| [Sofija Vytautaitė](characters/sofija.qmd) | [Vasily I and Sofia Vitovtovna - sakkos of Metropolitan Photius](https://commons.wikimedia.org/wiki/File:Vasily_I_and_Sofia_Vitovtovna_-_sakkos_of_Metropolitan_Photius.jpg) | Unknown author | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| [Tokhtamysh](characters/tokhtamysh.qmd) | [Battle between Timur and Toqtamish Khan in 1391. Zafarnama of 1436 (Toqtamish detail)](https://commons.wikimedia.org/wiki/File:Battle_between_Timur_and_Toqtamish_Khan_in_1391._Zafarnama_of_1436_%28Toqtamish_detail%29.jpg) | Unknown Timurid painter (1436) | Public domain |
+| [Ulrich von Jungingen](characters/jungingen.qmd) | [Ulrich von Jungingen1](https://commons.wikimedia.org/wiki/File:Ulrich_von_Jungingen1.PNG) | Christoph Hartknoch | Public domain |
+| [Vasily I of Moscow](characters/vasily1.qmd) | [Facial Chronicle - b.12, p.038 - Lazar the Serb showing Vasily I the clock](https://commons.wikimedia.org/wiki/File:Facial_Chronicle_-_b.12,_p.038_-_Lazar_the_Serb_showing_Vasily_I_the_clock.jpg) | Anonymous Russian illuminators (Facial Chronicle) | Public domain |
+| [Winrich von Kniprode](characters/kniprode.qmd) | [Malbork - Winrich von Kniprode](https://commons.wikimedia.org/wiki/File:Malbork_-_Winrich_von_Kniprode.JPG) | Lestat | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) |
+| [Zbigniew Oleśnicki](characters/olesnicki.qmd) | [Olesnicki Zbigniew](https://commons.wikimedia.org/wiki/File:Olesnicki_Zbigniew.jpg) | Jan Bąkowski | Public domain |
+| [Švitrigaila](characters/svitrigaila.qmd) | [Svitrigaila (118503655)](https://commons.wikimedia.org/wiki/File:Svitrigaila_%28118503655%29.jpg) | Alessandro Guagnini | Public domain |
+| [Žygimantas Kęstutaitis](characters/zygimantas.qmd) | [Žygimont Kiejstutavič. Жыгімонт Кейстутавіч (XIX)](https://commons.wikimedia.org/wiki/File:%C5%BDygimont_Kiejstutavi%C4%8D._%D0%96%D1%8B%D0%B3%D1%96%D0%BC%D0%BE%D0%BD%D1%82_%D0%9A%D0%B5%D0%B9%D1%81%D1%82%D1%83%D1%82%D0%B0%D0%B2%D1%96%D1%87_%28XIX%29.jpg) | Unknown author | Public domain |
+
+## Gods
+
+| Entry | Image | Author | Licence |
+|---|---|---|---|
+| [Saulė](gods/saule.qmd) | [Amber disk, Neolithic period, 3096-2885 BC, Lithuania](https://commons.wikimedia.org/wiki/File:Amber_disk,_Neolithic_period,_3096-2885_BC,_Lithuania.jpg) | Ke an | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| [Velnias](gods/velnias.qmd) | [Codex Gigas fol 290r Devil](https://commons.wikimedia.org/wiki/File:Codex_Gigas_fol_290r_Devil.jpg) | Herman the Recluse | Public domain |
+
+## Magic & Pacts
+
+| Entry | Image | Author | Licence |
+|---|---|---|---|
+| [Gintarystė (amber-craft)](magic/gintaryste.qmd) | [Colours of Baltic Amber](https://commons.wikimedia.org/wiki/File:Colours_of_Baltic_Amber.jpg) | Homik8 Michal Kosior | Public domain |
+
+## Factions
+
+| Entry | Image | Author | Licence |
+|---|---|---|---|
+| [Golden Horde](factions/golden_horde.qmd) | [Batu Khan on the Throne by Rashid al-Din](https://commons.wikimedia.org/wiki/File:Batu_Khan_on_the_Throne_by_Rashid_al-Din.jpg) | Rashid al-Din Hamadani | Public domain |
+| [Grand Duchy of Lithuania](factions/gdl.qmd) | [Pahonia. Пагоня (1440)](https://commons.wikimedia.org/wiki/File:Pahonia._%D0%9F%D0%B0%D0%B3%D0%BE%D0%BD%D1%8F_%281440%29.jpg) | Unknown author | Public domain |
+| [Grand Principality of Moscow](factions/moscow.qmd) | [Dmitry Donskoy in the Battle of Kulikovo](https://commons.wikimedia.org/wiki/File:Dmitry_Donskoy_in_the_Battle_of_Kulikovo.jpg) | Adolphe Yvon | Public domain |
+| [Hanseatic merchants](factions/hanse.qmd) | [Hans Holbein der Jüngere - Der Kaufmann Georg Gisze - Google Art Project](https://commons.wikimedia.org/wiki/File:Hans_Holbein_der_J%C3%BCngere_-_Der_Kaufmann_Georg_Gisze_-_Google_Art_Project.jpg) | Hans Holbein the Younger | Public domain |
+| [Kingdom of Poland (Lesser Poland lords)](factions/poland.qmd) | [Koronacja na króla Pontyfikał Erazma Ciołka](https://commons.wikimedia.org/wiki/File:Koronacja_na_kr%C3%B3la_Pontyfika%C5%82_Erazma_Cio%C5%82ka.jpg) | Master of the Bright Mountain Missal | Public domain |
+| [Pagan clergy (Krivis, žyniai, vaidilutės)](factions/pagan_clergy.qmd) | [Kriwe by Matthäus Prätorius](https://commons.wikimedia.org/wiki/File:Kriwe_by_Matth%C3%A4us_Pr%C3%A4torius.JPG) | Matthäus Prätorius | Public domain |
+| [Teutonic Order](factions/teutonic_order.qmd) | [Insignia Germany Order Teutonic](https://commons.wikimedia.org/wiki/File:Insignia_Germany_Order_Teutonic.svg) | Unknown author | Public domain |
+| [Žemaičiai (Samogitians)](factions/samogitians.qmd) | [Paysans des environs de Samogitie et des Gitans (1ère partie du XIXème siècle)](https://commons.wikimedia.org/wiki/File:Paysans_des_environs_de_Samogitie_et_des_Gitans_%281%C3%A8re_partie_du_XIX%C3%A8me_si%C3%A8cle%29.jpg) | Jan Lewicki | Public domain |
+
+## Places
+
+| Entry | Image | Author | Licence |
+|---|---|---|---|
+| [Brześć Kujawski](places/brzesc_kujawski.qmd) | [POL Dahlbergh Brzesc Kujawski](https://commons.wikimedia.org/wiki/File:POL_Dahlbergh_Brzesc_Kujawski.jpg) | After Erik Dahlbergh | Public domain |
+| [Czartorysk (Volhynia)](places/czartorysk.qmd) | [Руїни замку Чорторийських. Чорторийськ. Rujiny zamku Čortoryjśkyx. Čortoryjśk](https://commons.wikimedia.org/wiki/File:%D0%A0%D1%83%D1%97%D0%BD%D0%B8_%D0%B7%D0%B0%D0%BC%D0%BA%D1%83_%D0%A7%D0%BE%D1%80%D1%82%D0%BE%D1%80%D0%B8%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D1%85._%D0%A7%D0%BE%D1%80%D1%82%D0%BE%D1%80%D0%B8%D0%B9%D1%81%D1%8C%D0%BA._Rujiny_zamku_%C4%8Cortoryj%C5%9Bkyx._%C4%8Cortoryj%C5%9Bk.png) | Unknown author | Public domain |
+| [Grodno](places/grodno.qmd) | [Horadnia. Горадня (1567)](https://commons.wikimedia.org/wiki/File:Horadnia._%D0%93%D0%BE%D1%80%D0%B0%D0%B4%D0%BD%D1%8F_%281567%29.jpg) | M. Zündt | Public domain |
+| [Jurbarkas (Georgenburg)](places/jurbarkas.qmd) | [Memel.Jurbarkas](https://commons.wikimedia.org/wiki/File:Memel.Jurbarkas.jpg) | Greifen | Public domain |
+| [Kamianets (Podolia)](places/kamianets.qmd) | [Kamianets-Podilskyi-Castle-2007](https://commons.wikimedia.org/wiki/File:Kamianets-Podilskyi-Castle-2007.jpg) | Håkan Henriksson | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) |
+| [Kraków](places/krakow.qmd) | [Nuremberg chronicles - CRACOVIA](https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_-_CRACOVIA.png) | Michel Wolgemut, Wilhelm Pleydenwurff | Public domain |
+| [Krėva](places/kreva.qmd) | [Kreva Castle 2020](https://commons.wikimedia.org/wiki/File:Kreva_Castle_2020.jpg) | Viktar Palstsiuk | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| [Kyiv](places/kyiv.qmd) | [Golden Gate Kiev 2018 G1](https://commons.wikimedia.org/wiki/File:Golden_Gate_Kiev_2018_G1.jpg) | George Chernilevsky | Public domain |
+| [Königsberg (Karaliaučius)](places/konigsberg.qmd) | [Königsberg Castle](https://commons.wikimedia.org/wiki/File:K%C3%B6nigsberg_Castle.jpg) | Unknown author | Public domain |
+| [Lutsk](places/lutsk.qmd) | [Lutsk castle tower](https://commons.wikimedia.org/wiki/File:Lutsk_castle_tower.jpg) | Unknown author | [CC BY 2.5](https://creativecommons.org/licenses/by/2.5) |
+| [Marienburg (Malbork)](places/marienburg.qmd) | [Marienburg (Merian)](https://commons.wikimedia.org/wiki/File:Marienburg_%28Merian%29.jpg) | Matthäus Merian | Public domain |
+| [Masovia (Płock / Warsaw)](places/masovia.qmd) | [Gerson View of Płock](https://commons.wikimedia.org/wiki/File:Gerson_View_of_P%C5%82ock.jpg) | Wojciech Gerson | Public domain |
+| [Naujapilis (Marienwerder)](places/marienwerder.qmd) | [Zamek w Kwidzynie, P Wojtyczka](https://commons.wikimedia.org/wiki/File:Zamek_w_Kwidzynie,_P_Wojtyczka.jpg) | Pawel Wojtyczka | [CC BY-SA 3.0 pl](https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) |
+| [Palanga](places/palanga.qmd) | [Birutes Hill.Palanga](https://commons.wikimedia.org/wiki/File:Birutes_Hill.Palanga.jpg) | Napoleon Orda | Public domain |
+| [Tapiau (Tepliava)](places/tapiau.qmd) | [Tapiau print](https://commons.wikimedia.org/wiki/File:Tapiau_print.jpg) | Christoph Hartknoch | Public domain |
+| [Vilnius](places/vilnius.qmd) | [Vilnius 1576](https://commons.wikimedia.org/wiki/File:Vilnius_1576.jpg) | Georg Braun and Frans Hogenberg | Public domain |
+| [Vorskla river](places/vorskla.qmd) | [Vorskla Poltava](https://commons.wikimedia.org/wiki/File:Vorskla_Poltava.JPG) | Paffka | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| [Šventaragis valley](places/sventaragis.qmd) | [Album Wilenskie. 1845-1875 (5552457) (cropped)](https://commons.wikimedia.org/wiki/File:Album_Wilenskie._1845-1875_%285552457%29_%28cropped%29.jpg) | Unknown author | Public domain |
+| [Žalgiris (Grunwald)](places/grunwald.qmd) | [Grunwald village-overview](https://commons.wikimedia.org/wiki/File:Grunwald_village-overview.jpg) | Joost van Os | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+
+## Events
+
+| Entry | Image | Author | Licence |
+|---|---|---|---|
+| [Algirdas & Kęstutis depose Jaunutis](events/ev_diarchy.qmd) | [Jaŭnut. Яўнут (A. Tarasievič, 1675)](https://commons.wikimedia.org/wiki/File:Ja%C5%ADnut._%D0%AF%D1%9E%D0%BD%D1%83%D1%82_%28A._Tarasievi%C4%8D,_1675%29.jpg) | Alaksandar Tarasievič | Public domain |
+| [Baptism of Lithuania; Šventaragis flame put out](events/ev_lithuania_baptism.qmd) | [Chrzest Litwy 1387 Matejko](https://commons.wikimedia.org/wiki/File:Chrzest_Litwy_1387_Matejko.JPG) | Jan Matejko | Public domain |
+| [Battle of Grunwald / Žalgiris](events/ev_grunwald.qmd) | [Jan Matejko, Bitwa pod Grunwaldem](https://commons.wikimedia.org/wiki/File:Jan_Matejko,_Bitwa_pod_Grunwaldem.jpg) | Jan Matejko | Public domain |
+| [Battle of the Vorskla](events/ev_vorskla.qmd) | [Facial Chronicle - b.11, p.421 - Battle at Vorskla](https://commons.wikimedia.org/wiki/File:Facial_Chronicle_-_b.11,_p.421_-_Battle_at_Vorskla.jpg) | Anonymous Russian illuminators (Facial Chronicle) | Public domain |
+| [Casimir's privilege for Lithuania](events/ev_privilege_1447.qmd) | [Kazimier Jagajłavič. Казімер Ягайлавіч (1645)](https://commons.wikimedia.org/wiki/File:Kazimier_Jagaj%C5%82avi%C4%8D._%D0%9A%D0%B0%D0%B7%D1%96%D0%BC%D0%B5%D1%80_%D0%AF%D0%B3%D0%B0%D0%B9%D0%BB%D0%B0%D0%B2%D1%96%D1%87_%281645%29.jpg) | Unknown author | Public domain |
+| [Congress of Lutsk: the crown offered](events/ev_lutsk.qmd) | [MakevichusVytautLutsk](https://commons.wikimedia.org/wiki/File:MakevichusVytautLutsk.jpg) | Jonas Mackevičius | Public domain |
+| [Jadvyga dies](events/ev_jadvyga_dies.qmd) | [Nagrobek Jadwigi Andegaweńskiej](https://commons.wikimedia.org/wiki/File:Nagrobek_Jadwigi_Andegawe%C5%84skiej.jpg) | Poznaniak | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) |
+| [Jogaila baptised, married, crowned in Kraków](events/ev_krakow_1386.qmd) | [Jadwiga Andegaweńska seal 1386](https://commons.wikimedia.org/wiki/File:Jadwiga_Andegawe%C5%84ska_seal_1386.PNG) | Unknown author | Public domain |
+| [Kęstutis & Vytautas seized under safe-conduct](events/ev_arrest.qmd) | [Wojciech-Gerson-Kiejstut i Witold](https://commons.wikimedia.org/wiki/File:Wojciech-Gerson-Kiejstut_i_Witold.jpg) | Wojciech Gerson | Public domain |
+| [Kęstutis strangled at Krėva](events/ev_kestutis_death.qmd) | [Kreva Castle Tower](https://commons.wikimedia.org/wiki/File:Kreva_Castle_Tower.jpg) | Viktar Palstsiuk | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| [Peace of Brest (Brześć Kujawski): the Order drops Švitrigaila](events/ev_brest_peace.qmd) | [AGAD Traktat pokojowy polsko krzyzacki 1435 5](https://commons.wikimedia.org/wiki/File:AGAD_Traktat_pokojowy_polsko_krzyzacki_1435_5.png) | Paul von Rusdorf (Teutonic Order) | Public domain |
+| [Treaty of Dovydiškės](events/ev_dovydiskes.qmd) | [Treaty of Dovydiškės between Jogaila and Order](https://commons.wikimedia.org/wiki/File:Treaty_of_Dovydi%C5%A1k%C4%97s_between_Jogaila_and_Order.png) | Jogaila and the Teutonic Order (document) | Public domain |
+| [Union of Horodło; Samogitian baptism begins](events/ev_horodlo.qmd) | [Act of the Union of Horodło (I)](https://commons.wikimedia.org/wiki/File:Act_of_the_Union_of_Horod%C5%82o_%28I%29.jpg) | Unknown author (1413 document) | Public domain |
+| [Union of Krėva](events/ev_kreva_union.qmd) | [Union of Krewo](https://commons.wikimedia.org/wiki/File:Union_of_Krewo.jpg) | Jogaila (document) | Public domain |
+
+## Creatures
+
+| Entry | Image | Author | Licence |
+|---|---|---|---|
+| [Ragana (seer-witch)](creatures/ragana.qmd) | [Baldung Hexen 1508 kol](https://commons.wikimedia.org/wiki/File:Baldung_Hexen_1508_kol.JPG) | Hans Baldung Grien | Public domain |
+| [Vilkatas / vilkolakis (cursed werewolf)](creatures/vilkatas.qmd) | [Werwolf](https://commons.wikimedia.org/wiki/File:Werwolf.png) | Lucas Cranach the Elder | Public domain |
+| [Žaltys (household grass snake)](creatures/zaltys.qmd) | [Natrix natrix](https://commons.wikimedia.org/wiki/File:Natrix_natrix.jpg) | Dixi | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) |
+
+## Houses
+
+| Entry | Image | Author | Licence |
+|---|---|---|---|
+| [Alšėniškiai (Holszański, princes of Halshany)](houses/alseniskiai.qmd) | [POL COA Hippocentaurus](https://commons.wikimedia.org/wiki/File:POL_COA_Hippocentaurus.svg) | Bastianowa | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| [Gediminaičiai (House of Gediminas)](houses/gediminaiciai.qmd) | [Recueil d'armoiries polonaises - Columns of Gediminas](https://commons.wikimedia.org/wiki/File:Recueil_d%27armoiries_polonaises_-_Columns_of_Gediminas.svg) | Vladimir Lobachev | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| [Goštautai (Gasztołd)](houses/gostautai.qmd) | [POL COA Abdank](https://commons.wikimedia.org/wiki/File:POL_COA_Abdank.svg) | Bastianowa, after Tadeusz Gajl | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) |
+| [House of Luxembourg](houses/luxembourg.qmd) | [COA Luxembourg with crest](https://commons.wikimedia.org/wiki/File:COA_Luxembourg_with_crest.svg) | Wereszczyński | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| [Jogailaičiai (Jagiellonians)](houses/jogailaiciai.qmd) | [COA Jagiellon](https://commons.wikimedia.org/wiki/File:COA_Jagiellon.svg) | Wereszczyński | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| [Kęsgailos (Kieżgajło)](houses/kesgailos.qmd) | [Herb Zadora](https://commons.wikimedia.org/wiki/File:Herb_Zadora.PNG) | Tadeusz Gajl | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| [Masovian Piasts](houses/masovian_piasts.qmd) | [Chorągiew księcia mazowieckiego Siemowita](https://commons.wikimedia.org/wiki/File:Chor%C4%85giew_ksi%C4%99cia_mazowieckiego_Siemowita.svg) | Poznaniak | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) |
+| [Rurikids of Moscow](houses/rurikids.qmd) | [Dmitri Donskoy](https://commons.wikimedia.org/wiki/File:Dmitri_Donskoy.jpg) | Unknown author (17th century) | Public domain |
+| [Čartoriskiai (Czartoryski)](houses/czartoriskiai.qmd) | [POL COA Czartoryski](https://commons.wikimedia.org/wiki/File:POL_COA_Czartoryski.svg) | Bastianowa | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) |
+

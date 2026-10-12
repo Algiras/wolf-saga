@@ -1,0 +1,277 @@
+{
+  "_comment": "entity id -> Wikipedia article (lead image) and/or explicit Commons file. Run scripts/fetch_wiki_images.py. Only historical/real-world entities (and folklore with a clearly matching period image) are listed.",
+  "gediminas": {
+    "wiki": "en:Gediminas",
+    "file": "File:Giedzimin. Гедзімін (A. Guagnini, 1578).jpg"
+  },
+  "algirdas": {
+    "wiki": "en:Algirdas"
+  },
+  "kestutis": {
+    "wiki": "en:Kęstutis"
+  },
+  "skirgaila": {
+    "wiki": "en:Skirgaila",
+    "file": "File:Skirgajła. Скіргайла (A. Guagnini, 1578).jpg"
+  },
+  "svitrigaila": {
+    "wiki": "en:Švitrigaila"
+  },
+  "kaributas": {
+    "wiki": "en:Kaributas"
+  },
+  "zygimantas": {
+    "wiki": "en:Sigismund Kęstutaitis",
+    "file": "File:Žygimont Kiejstutavič. Жыгімонт Кейстутавіч (XIX).jpg"
+  },
+  "janusz1": {
+    "wiki": "en:Janusz I of Warsaw"
+  },
+  "sofija": {
+    "wiki": "en:Sophia of Lithuania",
+    "artist": "Unknown author"
+  },
+  "jadvyga": {
+    "wiki": "en:Jadwiga of Poland",
+    "file": "File:Jadwiga by Bacciarelli.jpg"
+  },
+  "kniprode": {
+    "wiki": "en:Winrich von Kniprode"
+  },
+  "zollner": {
+    "wiki": "en:Konrad Zöllner von Rotenstein"
+  },
+  "jungingen": {
+    "wiki": "en:Ulrich von Jungingen",
+    "file": "File:Ulrich von Jungingen1.PNG"
+  },
+  "tokhtamysh": {
+    "wiki": "en:Tokhtamysh",
+    "artist": "Unknown Timurid painter (1436)"
+  },
+  "edigu": {
+    "wiki": "en:Edigu",
+    "artist": "Anonymous Russian illuminators (Facial Chronicle)"
+  },
+  "sigismund": {
+    "wiki": "en:Sigismund, Holy Roman Emperor",
+    "artist": "Pisanello (attributed)"
+  },
+  "olesnicki": {
+    "wiki": "en:Zbigniew Oleśnicki (cardinal)"
+  },
+  "vasily1": {
+    "wiki": "en:Vasily I of Moscow",
+    "file": "File:Facial Chronicle - b.12, p.038 - Lazar the Serb showing Vasily I the clock.jpg",
+    "artist": "Anonymous Russian illuminators (Facial Chronicle)"
+  },
+  "gediminaiciai": {
+    "wiki": "en:Gediminids",
+    "artist": "Vladimir Lobachev"
+  },
+  "jogailaiciai": {
+    "wiki": "en:Jagiellonian dynasty"
+  },
+  "masovian_piasts": {
+    "wiki": "en:Duchy of Masovia"
+  },
+  "luxembourg": {
+    "wiki": "en:House of Luxembourg"
+  },
+  "rurikids": {
+    "wiki": "en:Dmitry Donskoy",
+    "artist": "Unknown author (17th century)"
+  },
+  "alseniskiai": {
+    "wiki": "pl:Holszańscy",
+    "artist": "Bastianowa"
+  },
+  "gostautai": {
+    "wiki": "pl:Gasztołdowie",
+    "artist": "Bastianowa, after Tadeusz Gajl"
+  },
+  "kesgailos": {
+    "wiki": "lt:Kęsgailos"
+  },
+  "czartoriskiai": {
+    "wiki": "en:House of Czartoryski",
+    "artist": "Bastianowa"
+  },
+  "gdl": {
+    "wiki": "en:Grand Duchy of Lithuania",
+    "file": "File:Pahonia. Пагоня (1440).jpg",
+    "artist": "Unknown author"
+  },
+  "teutonic_order": {
+    "wiki": "en:Teutonic Order"
+  },
+  "poland": {
+    "wiki": "en:Crown of the Kingdom of Poland",
+    "file": "File:Koronacja na króla Pontyfikał Erazma Ciołka.jpg"
+  },
+  "golden_horde": {
+    "wiki": "en:Golden Horde",
+    "file": "File:Batu Khan on the Throne by Rashid al-Din.jpg"
+  },
+  "moscow": {
+    "wiki": "en:Grand Principality of Moscow",
+    "file": "File:Dmitry Donskoy in the Battle of Kulikovo.jpg"
+  },
+  "hanse": {
+    "wiki": "en:Hanseatic League",
+    "file": "File:Hans Holbein der Jüngere - Der Kaufmann Georg Gisze - Google Art Project.jpg"
+  },
+  "pagan_clergy": {
+    "wiki": "en:Kriwe",
+    "file": "File:Kriwe by Matthäus Prätorius.JPG"
+  },
+  "samogitians": {
+    "wiki": "en:Samogitians"
+  },
+  "vilnius": {
+    "wiki": "en:Vilnius",
+    "file": "File:Vilnius 1576.jpg",
+    "artist": "Georg Braun and Frans Hogenberg"
+  },
+  "sventaragis": {
+    "wiki": "en:Vilnius Cathedral",
+    "file": "File:Album Wilenskie. 1845-1875 (5552457) (cropped).jpg"
+  },
+  "kreva": {
+    "wiki": "en:Kreva Castle"
+  },
+  "palanga": {
+    "wiki": "en:Palanga",
+    "file": "File:Birutes Hill.Palanga.jpg"
+  },
+  "masovia": {
+    "wiki": "en:Płock",
+    "file": "File:Gerson View of Płock.jpg"
+  },
+  "marienburg": {
+    "wiki": "en:Malbork Castle",
+    "file": "File:Marienburg (Merian).jpg"
+  },
+  "tapiau": {
+    "wiki": "en:Gvardeysk",
+    "file": "File:Tapiau print.jpg"
+  },
+  "konigsberg": {
+    "wiki": "en:Königsberg Castle"
+  },
+  "jurbarkas": {
+    "wiki": "en:Jurbarkas",
+    "file": "File:Memel.Jurbarkas.jpg"
+  },
+  "marienwerder": {
+    "wiki": "en:Kwidzyn",
+    "file": "File:Zamek w Kwidzynie, P Wojtyczka.jpg"
+  },
+  "krakow": {
+    "wiki": "en:Kraków",
+    "file": "File:Nuremberg chronicles - CRACOVIA.png"
+  },
+  "kyiv": {
+    "wiki": "en:Kyiv",
+    "file": "File:Golden Gate Kiev 2018 G1.jpg"
+  },
+  "vorskla": {
+    "wiki": "en:Vorskla"
+  },
+  "grunwald": {
+    "wiki": "en:Grunwald, Warmian-Masurian Voivodeship"
+  },
+  "lutsk": {
+    "wiki": "en:Lutsk Castle"
+  },
+  "kamianets": {
+    "wiki": "en:Kamianets-Podilskyi Castle",
+    "file": "File:Kamianets-Podilskyi-Castle-2007.jpg"
+  },
+  "grodno": {
+    "wiki": "en:Grodno",
+    "file": "File:Horadnia. Горадня (1567).jpg"
+  },
+  "brzesc_kujawski": {
+    "wiki": "en:Brześć Kujawski",
+    "file": "File:POL Dahlbergh Brzesc Kujawski.jpg"
+  },
+  "czartorysk": {
+    "wiki": "en:House of Czartoryski",
+    "file": "File:Руїни замку Чорторийських. Чорторийськ. Rujiny zamku Čortoryjśkyx. Čortoryjśk.png"
+  },
+  "velnias": {
+    "wiki": "lt:Velnias",
+    "artist": "Herman the Recluse"
+  },
+  "saule": {
+    "wiki": "lt:Saulė (mitologija)"
+  },
+  "gintaryste": {
+    "wiki": "en:Baltic amber",
+    "file": "File:Colours of Baltic Amber.jpg"
+  },
+  "vilkatas": {
+    "wiki": "lt:Vilkolakis"
+  },
+  "ragana": {
+    "wiki": "lt:Ragana"
+  },
+  "zaltys": {
+    "wiki": "lt:Žaltys",
+    "artist": "Dixi"
+  },
+  "ev_grunwald": {
+    "wiki": "en:Battle of Grunwald"
+  },
+  "ev_kreva_union": {
+    "wiki": "en:Union of Krewo",
+    "artist": "Jogaila (document)"
+  },
+  "ev_krakow_1386": {
+    "wiki": "en:Jadwiga of Poland",
+    "file": "File:Jadwiga Andegaweńska seal 1386.PNG"
+  },
+  "ev_lithuania_baptism": {
+    "wiki": "en:Christianization of Lithuania",
+    "file": "File:Chrzest Litwy 1387 Matejko.JPG"
+  },
+  "ev_vorskla": {
+    "wiki": "en:Battle of the Vorskla River",
+    "artist": "Anonymous Russian illuminators (Facial Chronicle)"
+  },
+  "ev_horodlo": {
+    "wiki": "en:Union of Horodło",
+    "file": "File:Act of the Union of Horodło (I).jpg",
+    "artist": "Unknown author (1413 document)"
+  },
+  "ev_dovydiskes": {
+    "wiki": "en:Treaty of Dovydiškės",
+    "artist": "Jogaila and the Teutonic Order (document)"
+  },
+  "ev_brest_peace": {
+    "wiki": "en:Peace of Brześć Kujawski",
+    "artist": "Paul von Rusdorf (Teutonic Order)"
+  },
+  "ev_privilege_1447": {
+    "wiki": "en:Casimir IV Jagiellon"
+  },
+  "ev_diarchy": {
+    "wiki": "en:Jaunutis"
+  },
+  "ev_arrest": {
+    "wiki": "en:Kęstutis",
+    "file": "File:Wojciech-Gerson-Kiejstut i Witold.jpg"
+  },
+  "ev_kestutis_death": {
+    "wiki": "en:Kreva Castle",
+    "file": "File:Kreva Castle Tower.jpg"
+  },
+  "ev_jadvyga_dies": {
+    "wiki": "en:Jadwiga of Poland",
+    "file": "File:Nagrobek Jadwigi Andegaweńskiej.jpg"
+  },
+  "ev_lutsk": {
+    "wiki": "en:Congress of Lutsk"
+  }
+}

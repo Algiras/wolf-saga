@@ -29,6 +29,7 @@ WIKI = ROOT / "wiki"
 TEMPLATES = WIKI / "_templates"
 IMAGES = WIKI / "images"
 IMAGE_EXTS = (".jpg", ".jpeg", ".webp", ".png")
+CREDITS = IMAGES / "credits.json"     # written by scripts/fetch_wiki_images.py; AI images have no entry
 GEN = WIKI / "_generated"
 CODEX = WIKI / "codex"
 
@@ -125,6 +126,24 @@ def entity_image(n):
     return None
 
 
+def image_credits():
+    try:
+        return json.loads(CREDITS.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
+def md_url(u):
+    return u.replace("(", "%28").replace(")", "%29").replace(" ", "%20")
+
+
+def credit_line(c):
+    """Markdown 'Image: artist, licence via Wikimedia Commons', linked to the Commons file page."""
+    artist = re.sub(r"([\[\]])", r"\\\1", c.get("artist") or "Unknown author")
+    lic = c.get("license", "")
+    return f"Image: [{artist}, {lic}]({md_url(c['page'])}) via Wikimedia Commons"
+
+
 def book_banner(n):
     """Full-width banner above a book page's infobox (wiki/images/banners/<id>.jpg)."""
     for ext in IMAGE_EXTS:
@@ -159,7 +178,11 @@ def infobox(n, nodes, out_e, in_e, events_of, prog):
     img = entity_image(n)
     if img:
         alt = n["name"].replace('"', "'")
-        out += [f"![{n['name']} · {n['type']}](../{img}){{.infobox-img fig-alt=\"{alt}\"}}", ""]
+        cap = f"{n['name']} · {n['type']}"
+        cred = image_credits().get(n["id"])
+        if cred:                                    # Wikimedia stand-in: CC BY / BY-SA require attribution
+            cap += f" — {credit_line(cred)}"
+        out += [f"![{cap}](../{img}){{.infobox-img fig-alt=\"{alt}\"}}", ""]
     out += ["| | |", "|---|---|"]
     out += [f"| **{k}** | {v.replace('|', '/')} |" for k, v in rows]
     out += ["", ":::", ""]
@@ -260,6 +283,39 @@ def write_timeline(nodes):
     (WIKI / "timeline.qmd").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def write_image_credits(nodes):
+    """wiki/image-credits.qmd: every Wikimedia-sourced image with author, licence and file page."""
+    credits = image_credits()
+    lines = ["---", 'title: "Image credits"', "---", "",
+             "Until the saga has its own AI-generated art, many entries use **freely licensed images from "
+             "Wikipedia and Wikimedia Commons** as stand-ins: period seals, manuscript miniatures, historical "
+             "paintings, heraldry and photographs of the real places. Each credit below links to the Commons "
+             "file page, which carries the full author and licence details. Entries without a credit here "
+             "(e.g. Vytautas, Jogaila, Birutė, Perkūnas, Trakai, the Pebble, the book covers) use the saga's own "
+             "AI-generated art.", "",
+             "Fetched with `scripts/fetch_wiki_images.py` (mapping in `scripts/wiki_image_map.json`); only Public domain, "
+             "CC0, CC BY and CC BY-SA files are accepted. Pictures are downscaled copies.", ""]
+    by_sec = defaultdict(list)
+    for i, c in credits.items():
+        if i in nodes:
+            by_sec[SECTION[nodes[i]["type"]]].append((nodes[i], c))
+    n_total = sum(len(v) for v in by_sec.values())
+    lines += [f"**{n_total} credited images.**", ""]
+    for sec in SECTION_TITLE:
+        rows = sorted(by_sec.get(sec, []), key=lambda x: x[0]["name"])
+        if not rows:
+            continue
+        lines += [f"## {SECTION_TITLE[sec]}", "", "| Entry | Image | Author | Licence |", "|---|---|---|---|"]
+        for n, c in rows:
+            artist = (c.get("artist") or "Unknown author").replace("|", "/")
+            lic = c.get("license", "")
+            lic = f"[{lic}]({c['license_url']})" if c.get("license_url") else lic
+            title = c["title"].replace("|", "/").replace("[", "(").replace("]", ")")
+            lines.append(f"| [{n['name']}]({sec}/{n['id']}.qmd) | [{title}]({md_url(c['page'])}) | {artist} | {lic} |")
+        lines.append("")
+    (WIKI / "image-credits.qmd").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def write_codex():
     if CODEX.exists():
         shutil.rmtree(CODEX)
@@ -324,6 +380,7 @@ def main():
         (GEN / f"{n['id']}.md").write_text(infobox(n, nodes, out_e, in_e, events_of, prog), encoding="utf-8")
     write_indexes(nodes)
     write_timeline(nodes)
+    write_image_credits(nodes)
     listed = write_codex()
     write_explorer(data, WIKI / "graph-explorer.html", standalone=True)
     if args.explorer_out:

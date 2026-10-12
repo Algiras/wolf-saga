@@ -35,3 +35,8 @@ The wiki is generated from **one source of truth**, `world_rules/graph/world_gra
 - [Canon decisions](codex/canon-decisions.qmd)
 - [Magic rules](codex/magic-rules.qmd) and [Power systems](codex/power-systems.qmd): every working shows its cost
 - [Master chronology](codex/master-chronology.qmd): the record is fixed; myth fills the gaps
+
+## Images
+Entries show `wiki/images/<id>.jpg` at the top of their infobox. Until AI art exists, freely licensed Wikimedia stand-ins are fetched with
+`python3 scripts/fetch_wiki_images.py` (mapping: `scripts/wiki_image_map.json`; options `--ids`, `--dry-run`, `--force`).
+AI-generated images are never overwritten. Every Wikimedia image is credited in its caption and on the [Image credits](image-credits.qmd) page.

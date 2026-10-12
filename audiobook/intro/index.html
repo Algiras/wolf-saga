@@ -1,0 +1,5 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pronunciation intro</title>
+<style>body{font:16px/1.5 system-ui;max-width:760px;margin:2rem auto;padding:0 16px;background:#141815;color:#e4e7df}audio{width:100%}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #2f3731;padding:6px 8px;text-align:left}th{color:#9aa39b;font-weight:500}.v{color:#e5a443}</style></head>
+<body><h1>English pronunciation introduction</h1><audio controls src="en_pronunciation_intro.wav"></audio>
+<table id="t"><tr><th>Name</th><th>Say it</th><th>Stress</th><th>Who / what</th></tr></table>
+<script>fetch('cards.json').then(r=>r.json()).then(cs=>{const t=document.getElementById('t');for(const c of cs){const r=t.insertRow();r.innerHTML=`<td><b>${c.name}</b></td><td>${c.respelling}</td><td>${c.stress}${c.verify?' <span class=v>⚠ verify</span>':''}</td><td>${c.gloss}</td>`}})</script></body></html>

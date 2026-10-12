@@ -1,0 +1,88 @@
+project:
+  type: book
+
+lang: lt
+
+book:
+  title: "Geležinio Vilko Saga"
+  subtitle: "IV Knyga: Nematoma Karūna"
+  author: "Algimantas Krasauskas"
+  output-file: saga-4
+  date: "10/12/2026"
+  cover-image: cover.jpg
+  navbar:
+    right:
+      - text: "I knyga"
+        href: ../
+      - text: "II knyga"
+        href: ../2/
+      - text: "III knyga"
+        href: ../3/
+      - text: "IV knyga"
+        href: index.html
+      - text: "V knyga"
+        href: ../5/
+      - text: "VI knyga (priešistorė)"
+        href: ../6/
+      - text: "Wiki"
+        href: ../wiki/
+  chapters:
+    - index.qmd
+    - part: "Krikštas be Ugnies"
+      chapters:
+        - 01_pokario_tyla.qmd
+        - 02_horodles_herbai.qmd
+        - 03_zemaiciu_krikstas.qmd
+        - 04_konstanco_susirinkimas.qmd
+        - 05_zemaiciu_skundas.qmd
+        - 06_krikstyti_vilkai.qmd
+        - 07_medininku_vyskupija.qmd
+        - 08_klupancioji.qmd
+        - 09_onos_mirtis.qmd
+        - 10_julijona.qmd
+    - part: "Nuo Jūros iki Jūros"
+      chapters:
+        - 11_juodosios_juros_pilys.qmd
+        - 12_husitu_karuna.qmd
+        - 13_melno_riba.qmd
+        - 14_sonkos_sunus.qmd
+        - 15_vaikaitis_maskvoje.qmd
+        - 16_opocka_ir_porchovas.qmd
+        - 17_juokdarys_keicia_seimininka.qmd
+        - 18_lucko_suvaziavimas.qmd
+        - 19_zigmanto_pasiulymas.qmd
+        - 20_lenku_baime.qmd
+    - part: "Nematoma Karūna"
+      chapters:
+        - 21_karunos_kelione.qmd
+        - 22_paskutinis_sandelis.qmd
+        - 23_lapai_pakeleje.qmd
+        - 24_vilniaus_laukimas.qmd
+        - 25_kritimas.qmd
+        - 26_paskutinis_susitikimas.qmd
+        - 27_saknu_motinos_atsisveikinimas.qmd
+        - 28_giltine_prie_lovos.qmd
+        - 29_vilko_mirtis.qmd
+        - 30_epilogas_nematoma_karuna.qmd
+    - copyright.qmd
+format:
+  html:
+    theme:
+      - cosmo
+  pdf:
+    documentclass: scrreprt
+    number-sections: false
+    sec-num-depth: 0
+    toc: true
+    pdf-engine: lualatex
+    mainfont: "DejaVu Serif"
+    monofont: "DejaVu Sans Mono"
+    header-includes: |
+      \usepackage{fontspec}
+      \renewcommand{\partformat}{}
+      \renewcommand{\chapterformat}{}
+  epub:
+    cover-image: cover.jpg
+    title: "Geležinio Vilko Saga IV: Nematoma Karūna"
+    author: "Algimantas Krasauskas"
+    description: "Epinis tamsiosios fantastikos pasakojimas apie Žemaitijos krikštą, Vytauto imperiją ir sulaikytą karūną (1411–1430)."

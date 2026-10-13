@@ -25,10 +25,9 @@ Pilnas licencijos tekstas: <https://creativecommons.org/licenses/by-nc-sa/4.0/le
 
 ---
 
-**Viršelio dizainas ir iliustracijos:** Algimantas Krasauskas (su AI pagalba).  
+**Viršelio dizainas ir iliustracijos:** Algimantas Krasauskas.\
 **Leidimo vieta:** Vilnius, Lietuva.  
 **Data:** 2025 m. gruodis.  
-**Versija:** 1.1.0-beta
 
 ---
 

@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark-f8463e37fa3918fd74fa755198b02ef7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -459,6 +462,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="infobox-title">
 <p>Ona</p>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/ona.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Ona · character"><img src="../images/ona.jpg" class="infobox-img img-fluid figure-img" alt="Ona"></a></p>
+<figcaption>Ona · character</figcaption>
+</figure>
+</div>
 <table class="caption-top table">
 <tbody>
 <tr class="odd">
@@ -480,6 +489,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Hostage of:</strong> <a href="../factions/teutonic_order.html">Teutonic Order</a> (1383–1384) · <a href="../factions/teutonic_order.html">Teutonic Order</a> (1390–1392) — <em>Released by the Order in May 1392 to spread pro-Lithuanian rumours.</em></p>
 <p><strong>Practises:</strong> <a href="../magic/zoles.html">Žolės (herb-lore)</a> — tier 1</p>
+<p><strong>Served by:</strong> <a href="../characters/elena.html">Elena (Ona’s maid)</a> (1380–1382) — <em>Ona’s faithful maid who trades clothes with Vytautas at Krėva in autumn 1382.</em></p>
 <p><strong>Spouse:</strong> <a href="../characters/vytautas.html">Vytautas</a> (1370–1418)</p>
 <p><strong>Took part in:</strong> <a href="../events/ev_ona_dies.html">Ona dies</a> · <a href="../events/ev_lyck_1390.html">Treaty of Lyck; hostages demanded</a> — <em>Hostage.</em> · <a href="../events/ev_kreva_escape.html">Vytautas escapes Krėva in the maid’s clothes</a></p>
 </section>
@@ -520,6 +530,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">graph LR
+  elena["Elena (Ona's maid)"]
   ev_kreva_escape["Vytautas escapes Krėva in the maid's clothes"]
   ev_lyck_1390["Treaty of Lyck; hostages demanded"]
   ev_ona_dies["Ona dies"]
@@ -534,6 +545,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ona --&gt;|participant| ev_lyck_1390
   ona --&gt;|hostage_of| teutonic_order
   vytautas --&gt;|spouse_of| ona
+  elena --&gt;|serves| ona
   style ona stroke-width:3px
 </pre>
 </div>
@@ -1051,6 +1063,38 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

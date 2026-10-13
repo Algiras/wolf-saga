@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark-f8463e37fa3918fd74fa755198b02ef7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -459,6 +462,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="infobox-title">
 <p>Žiežirba (the Flame-Keeper, Book V POV)</p>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/flame_keeper.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Žiežirba (the Flame-Keeper, Book V POV) · character"><img src="../images/flame_keeper.jpg" class="infobox-img img-fluid figure-img" alt="Žiežirba (the Flame-Keeper, Book V POV)"></a></p>
+<figcaption>Žiežirba (the Flame-Keeper, Book V POV) · character</figcaption>
+</figure>
+</div>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -486,6 +495,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <section id="relations" class="level2">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
+<p><strong>Ally:</strong> <a href="../characters/kirmele.html">Kirmėlė / Worm (the Old Tracker)</a> (1395–1435) — <em>Rescues Spark as a child in winter 1395-96 and watches over his upbringing.</em></p>
 <p><strong>Holds:</strong> <a href="../artifacts/pebble.html">Motinos gintaras (Birutė’s pebble)</a> (1431–1450) — <em>From Pilkoji, Kūčios 1430; cracked.</em> · <a href="../artifacts/silver_wolf.html">Sidabrinis vilkas (Kęstutis’s amulet)</a> (1431–1450) — <em>From Pilkoji at Kūčios (24 Dec) 1430, i.e.&nbsp;the winter of 1430-31.</em></p>
 <p><strong>Keeps:</strong> <a href="../artifacts/ember.html">Paskutinė žarija (Šventaragis ember)</a> (1399–1430) — <em>A boy tending the vault flame from 1399 (Book II ch.&nbsp;29); sworn wolf from Kūčios 1405. Feeds the flame from Kalvis’s ash; carries the lantern in 1410.</em> · <a href="../magic/flame_promise.html">The Last Flame promise</a> (1410–1430) — <em>Keeper and witness of the flame’s going out.</em></p>
 <p><strong>Member of:</strong> <a href="../factions/iron_wolves.html">Vilkatai (Iron Wolves)</a> (1405–…)</p>
@@ -538,6 +548,7 @@ document.addEventListener("DOMContentLoaded", function () {
   flame_keeper["Žiežirba (the Flame-Keeper, Book V POV)"]
   flame_promise["The Last Flame promise"]
   iron_wolves["Vilkatai (Iron Wolves)"]
+  kirmele["Kirmėlė / Worm (the Old Tracker)"]
   pebble["Motinos gintaras (Birutė's pebble)"]
   silver_wolf["Sidabrinis vilkas (Kęstutis's amulet)"]
   wolf_change["Vilkų krikštas (wolf-change)"]
@@ -553,6 +564,7 @@ document.addEventListener("DOMContentLoaded", function () {
   flame_keeper --&gt;|keeper_of| flame_promise
   flame_keeper --&gt;|participant| ev_ziezirba_named
   flame_keeper --&gt;|participant| ev_keeper_dies
+  kirmele --&gt;|ally_of| flame_keeper
   style flame_keeper stroke-width:3px
 </pre>
 </div>
@@ -1061,6 +1073,38 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark-f8463e37fa3918fd74fa755198b02ef7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/bootstrap/bootstrap-6613f2874d493a7d41d7581c640e1dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -455,6 +458,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="infobox-title">
 <p>Vilkatai (Iron Wolves)</p>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/iron_wolves.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Vilkatai (Iron Wolves) · faction"><img src="../images/iron_wolves.jpg" class="infobox-img img-fluid figure-img" alt="Vilkatai (Iron Wolves)"></a></p>
+<figcaption>Vilkatai (Iron Wolves) · faction</figcaption>
+</figure>
+</div>
 <table class="caption-top table">
 <tbody>
 <tr class="odd">
@@ -472,7 +481,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Created:</strong> <a href="../artifacts/silver_wolf.html">Sidabrinis vilkas (Kęstutis’s amulet)</a> — <em>Carved with the Iron Wolves’ sign; given to Kęstutis 1345.</em></p>
 <p><strong>Holds:</strong> <a href="../artifacts/wolf_skull.html">Geležinio Vilko kaukolė</a> (1323–1450) · <a href="../artifacts/kestutis_sword.html">Šerno kalavijas (Kęstutis’s sword)</a> (1397–1400) — <em>Skirgaila’s Kyiv chests pass to the wolves; recovered by Vytautas in spring 1400.</em></p>
-<p><strong>Members:</strong> <a href="../characters/jonas.html">Jonas (vilkų vyresnysis)</a> · <a href="../characters/kalvis.html">Kalvis (the Smith)</a> · <a href="../characters/pilkoji.html">Pilkoji (the Grey One, Vilkų Motina)</a> · <a href="../characters/pusis.html">Pušis (old Kęstutis wolf)</a> · <a href="../characters/spyglys.html">Spyglys (young ash-bearer)</a> · <a href="../characters/flame_keeper.html">Žiežirba (the Flame-Keeper, Book V POV)</a> (1405–…)</p>
+<p><strong>Members:</strong> <a href="../characters/jonas.html">Jonas (vilkų vyresnysis)</a> · <a href="../characters/kalvis.html">Kalvis (the Smith)</a> · <a href="../characters/kirmele.html">Kirmėlė / Worm (the Old Tracker)</a> · <a href="../characters/pilkoji.html">Pilkoji (the Grey One, Vilkų Motina)</a> · <a href="../characters/pusis.html">Pušis (old Kęstutis wolf)</a> · <a href="../characters/spyglys.html">Spyglys (young ash-bearer)</a> · <a href="../characters/uosis.html">Uosis / Ash (elder wolf)</a> · <a href="../characters/flame_keeper.html">Žiežirba (the Flame-Keeper, Book V POV)</a> (1405–…)</p>
 <p><strong>Patrons:</strong> <a href="../forces/root_mother.html">Šaknų Motina (Root-Mother)</a></p>
 </section>
 <section id="relation-graph" class="level2">
@@ -488,11 +497,13 @@ document.addEventListener("DOMContentLoaded", function () {
   jonas["Jonas (vilkų vyresnysis)"]
   kalvis["Kalvis (the Smith)"]
   kestutis_sword["Šerno kalavijas (Kęstutis's sword)"]
+  kirmele["Kirmėlė / Worm (the Old Tracker)"]
   pilkoji["Pilkoji (the Grey One, Vilkų Motina)"]
   pusis["Pušis (old Kęstutis wolf)"]
   root_mother["Šaknų Motina (Root-Mother)"]
   silver_wolf["Sidabrinis vilkas (Kęstutis's amulet)"]
   spyglys["Spyglys (young ash-bearer)"]
+  uosis["Uosis / Ash (elder wolf)"]
   wolf_skull["Geležinio Vilko kaukolė"]
   iron_wolves --&gt;|holds| wolf_skull
   iron_wolves --&gt;|holds| kestutis_sword
@@ -504,6 +515,8 @@ document.addEventListener("DOMContentLoaded", function () {
   kalvis --&gt;|member_of| iron_wolves
   spyglys --&gt;|member_of| iron_wolves
   pusis --&gt;|member_of| iron_wolves
+  kirmele --&gt;|member_of| iron_wolves
+  uosis --&gt;|member_of| iron_wolves
   style iron_wolves stroke-width:3px
 </pre>
 </div>
@@ -1022,6 +1035,38 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

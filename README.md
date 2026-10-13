@@ -17,15 +17,6 @@
 
 At the end of each book a historical note (*Istorinė pastaba*) sets out what is historical fact and what is the saga's invention.
 
-## Building it yourself
-
-Each book is its own [Quarto](https://quarto.org) project:
-
-```bash
-cd books && quarto render --to all      # Book I  -> books/_book
-cd books/2 && quarto render --to all    # Books II-VI -> books/N/_book
-```
-
 ## Licence
 
 **Algimantas Krasauskas**, © 2025–2026. The books are published under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.lt) (CC BY-NC-SA 4.0) licence. You may share and adapt them non-commercially, with attribution, under the same licence.

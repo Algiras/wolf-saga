@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -305,6 +307,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link active" href="./diagrams.html" aria-current="page"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="./lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -415,6 +468,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#the-silent-pact" id="toc-the-silent-pact" class="nav-link" data-scroll-target="#the-silent-pact">The Silent Pact</a></li>
   <li><a href="#artifact-custody" id="toc-artifact-custody" class="nav-link" data-scroll-target="#artifact-custody">Artifact custody</a></li>
   <li><a href="#the-series-on-one-axis" id="toc-the-series-on-one-axis" class="nav-link" data-scroll-target="#the-series-on-one-axis">The series on one axis</a></li>
+  <li><a href="#the-craft-at-a-glance" id="toc-the-craft-at-a-glance" class="nav-link" data-scroll-target="#the-craft-at-a-glance">The craft at a glance</a></li>
   </ul>
 </nav>
     </div>
@@ -441,7 +495,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p>Hand-drawn diagrams of the saga’s structure. Each one has an editable <a href="https://excalidraw.com">Excalidraw</a> source file: open it there, or drop it onto the canvas, to change it.</p>
+<p>Diagrams of the saga’s structure. Each one has an editable <a href="https://excalidraw.com">Excalidraw</a> source file: open it there, or drop it onto the canvas, to change it.</p>
 <section id="the-three-layers-of-power" class="level2">
 <h2 class="anchored" data-anchor-id="the-three-layers-of-power">The three layers of power</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -491,6 +545,16 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <p>The six books laid over the record: Book VI first, then I to V, with the events that carry the story. See the full <a href="./timeline.html">Timeline</a>. <em><a href="diagrams/series-timeline.excalidraw">Editable source</a>.</em></p>
+</section>
+<section id="the-craft-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="the-craft-at-a-glance">The craft at a glance</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/diagrams/magic-system-overview.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="The craft at a glance"><img src="images/diagrams/magic-system-overview.svg" class="img-fluid figure-img" alt="Overview of the saga's magic: three layers (gods, forces, craft), six schools, five elements with their zeniths, and the cost flow from asking to unpaid debts."></a></p>
+<figcaption>The craft at a glance</figcaption>
+</figure>
+</div>
+<p>The three layers, the six schools of asked power, the five elements and the flow of costs on one page. See <a href="./lore/index.html">Lore of the Craft</a>. <em><a href="diagrams/magic-system-overview.excalidraw">Editable source</a>.</em></p>
 
 
 </section>

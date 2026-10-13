@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Caused by:</strong> <a href="../events/ev_sutartis.html">Birutė binds Vytautas (Sutartis, surety, flame promise)</a></p>
 <p><strong>Ended by:</strong> <a href="../events/ev_vytautas_dies.html">Vytautas dies at Trakai; the Last Flame goes out</a></p>
 <p><strong>Kept by:</strong> <a href="../characters/elijas.html">Elijas, son of Mošė (Karaim guard captain)</a> (1398–1411) — <em>Karaim captain at the vault door.</em> · <a href="../characters/flame_keeper.html">Žiežirba (the Flame-Keeper, Book V POV)</a> (1410–1430) — <em>Keeper and witness of the flame’s going out.</em></p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="The Last Flame promise (spell)">
+<div class="sb-name">The Last Flame promise</div>
+<div class="sb-sub">Kol aš gyvas, paskutinė ugnis neužges · the Last Flame promise</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Pact · Vytautas's half of the Sutartis. Saga invention</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Bound tier 2 · Vytautas. Keepers: Kalvis, Spyglys, the Flame-Keeper Žiežirba; Elijas guards the vault door</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Spoken in <a href="../books/book1.html">Book I ch. 3</a> (1382); kept from 1387 by tending a secret flame</dd></div><div class="sb-cell"><dt>Components</dt><dd>A sacred flame: lit in Kęstutis's old lodge beyond the Neris, moved to the Trakai island foundations, and from 1392 in the vault. Live ash fed in pinches</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Every pinch of ash taken is a risk to Vytautas. Fire workings at the flame cost double in damp or flood</dd></div><div class="sb-cell"><dt>Duration</dt><dd>1387 until 27 October 1430: forty-three years</dd></div><div class="sb-cell"><dt>Limits</dt><dd>One man cannot re-swear a Pact. The flame goes out only when he dies or lets it</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Henė's offer: the crown for the flame (<a href="../books/book4.html">Book IV ch. 21</a>-22)</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Keeps an anchor alive.</em></strong> While it burns, the Pact's remnant and the vilkatai's oath have a living anchor. New wolves can be made only at a living flame.</p><p class="sb-entry"><strong><em>Live ash.</em></strong> The only ward that holds the unburned dead and calms the Quenched.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The crown refused.</em></strong> At Lutsk the offer comes with a pledge, his word not yet spoken. He refuses, and the crown, which never existed as gold, turns to leaves. He dies uncrowned.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>If it goes out while he lives.</em></strong> The Pact's penalties fall: madness, then death.</p><p class="sb-entry"><strong><em>His death.</em></strong> It goes out at the moment he dies, 27 Oct 1430, as a pot taken from the stove goes quiet (<a href="../books/book4.html">Book IV ch. 29</a>). The brotherhood can make no more wolves, and the pebble cracks.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §6</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D10, D11 · <a href="../codex/the-iron-wolves.html">iron_wolves.md §11</a> · <a href="../books/book1.html">Book I ch. 3</a>, 29 · <a href="../books/book2.html">Book II ch. 2</a> · <a href="../books/book4.html">Book IV ch. 21</a>-22, 29 · wiki/magic/flame_promise</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -467,6 +526,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -476,16 +539,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Years</strong></td>
 <td>1382–1430</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>‘Kol aš gyvas, paskutinė ugnis neužges’: Vytautas’s secret vow to guard the flame.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="The Last Flame promise (spell)">
-<div class="sb-name">The Last Flame promise</div>
-<div class="sb-sub">Kol aš gyvas, paskutinė ugnis neužges · the Last Flame promise</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Pact · Vytautas's half of the Sutartis. Saga invention</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Bound tier 2 · Vytautas. Keepers: Kalvis, Spyglys, the Flame-Keeper Žiežirba; Elijas guards the vault door</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Spoken in <a href="../books/book1.html">Book I ch. 3</a> (1382); kept from 1387 by tending a secret flame</dd></div><div class="sb-cell"><dt>Components</dt><dd>A sacred flame: lit in Kęstutis's old lodge beyond the Neris, moved to the Trakai island foundations, and from 1392 in the vault. Live ash fed in pinches</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Every pinch of ash taken is a risk to Vytautas. Fire workings at the flame cost double in damp or flood</dd></div><div class="sb-cell"><dt>Duration</dt><dd>1387 until 27 October 1430: forty-three years</dd></div><div class="sb-cell"><dt>Limits</dt><dd>One man cannot re-swear a Pact. The flame goes out only when he dies or lets it</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Henė's offer: the crown for the flame (<a href="../books/book4.html">Book IV ch. 21</a>-22)</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Keeps an anchor alive.</em></strong> While it burns, the Pact's remnant and the vilkatai's oath have a living anchor. New wolves can be made only at a living flame.</p><p class="sb-entry"><strong><em>Live ash.</em></strong> The only ward that holds the unburned dead and calms the Quenched.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The crown refused.</em></strong> At Lutsk the offer comes with a pledge, his word not yet spoken. He refuses, and the crown, which never existed as gold, turns to leaves. He dies uncrowned.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>If it goes out while he lives.</em></strong> The Pact's penalties fall: madness, then death.</p><p class="sb-entry"><strong><em>His death.</em></strong> It goes out at the moment he dies, 27 Oct 1430, as a pot taken from the stove goes quiet (<a href="../books/book4.html">Book IV ch. 29</a>). The brotherhood can make no more wolves, and the pebble cracks.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §6</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D10, D11 · <a href="../codex/the-iron-wolves.html">iron_wolves.md §11</a> · <a href="../books/book1.html">Book I ch. 3</a>, 29 · <a href="../books/book2.html">Book II ch. 2</a> · <a href="../books/book4.html">Book IV ch. 21</a>-22, 29 · wiki/magic/flame_promise</div></div>
 <section id="terms" class="level2">
 <h2 class="anchored" data-anchor-id="terms">Terms</h2>
 <p><strong>[Saga invention]</strong>: Vytautas’s half of the Sutartis in <a href="../books/book1.html">Book I ch.&nbsp;3</a>, <em>“Kol aš gyvas, paskutinė ugnis neužges”</em> (“while I live, the last fire will not go out”). After Jogaila puts out the Šventaragis flame in 1387, Vytautas <strong>secretly keeps one sacred flame burning</strong>: lit in Kęstutis’s old lodge beyond the Neris (<a href="../books/book1.html">Book I ch.&nbsp;29</a>, <a href="../events/ev_flame_lit.html">lit</a>), carried to the half-flooded foundations of the Trakai island castle (<a href="../books/book2.html">Book II ch.&nbsp;2</a>), and from 1392 in the island castle’s deepest vault.</p>

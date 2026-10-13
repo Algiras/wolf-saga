@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -454,6 +507,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Deity:</strong> <a href="../gods/gabija.html">Gabija</a></p>
 <p><strong>Used by:</strong> <a href="../magic/kalba.html">Senovės Kalba</a></p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Ugnis (Fire) (spell)">
+<div class="sb-name">Ugnis (Fire)</div>
+<div class="sb-sub">Ugnis tau degs · Soul Armour, the Fire working</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>Element</dt><dd>Fire · deity Gabija, the hearth and sacred fire. Zenith Rasos, summer-solstice noon</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 (minor, one element) or 3 and up; the craft of the vaidilutės who tend the sacred flames</dd></div><div class="sb-cell"><dt>Casting</dt><dd><em>Ugnis tau degs</em> aloud. <em>Man</em> for oneself</dd></div><div class="sb-cell"><dt>Components</dt><dd>Living fire; true intent</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Minor: exhaustion. Major: soul-chill, empathy gone for days; the caster can kill without feeling</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length to a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Doubled in rain or floods; consecrated stone doubles it. A sacred flame cannot guard itself</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Rain and flood; consecrated stone; the Iron Saint's knights, who are immune to Fire's terror</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Soul Armour.</em></strong> Warming, kindling, bracing the spirit against the dark half of the year. At its simplest it keeps a dying flame alive.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Soul-chill.</em></strong> The chill climbs from the fingers: legs, elbows, shoulders, and a gap where something was (<a href="../books/book2.html">Book II ch. 2</a>, 11; <a href="../books/book4.html">Book IV ch. 3</a>).</p><p class="sb-entry"><strong><em>Damp.</em></strong> In the half-flooded island foundations the spring damp doubles the cost, and Birutė is no longer there to share it (<a href="../books/book2.html">Book II ch. 2</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Desecration.</em></strong> Spitting into the fire or stepping over it is sacrilege.</p><p class="sb-entry"><strong><em>Killed flames.</em></strong> Their sparks become užgesėlės.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../codex/bestiary.html">bestiary.md §27</a> · <a href="../books/book2.html">Book II ch. 2</a>, 11 · <a href="../books/book4.html">Book IV ch. 3</a> · wiki/magic/el_fire</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -466,6 +525,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -479,16 +542,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Zenith</strong></td>
 <td>Rasos</td>
 </tr>
+<tr class="even">
+<td><strong>Note</strong></td>
+<td>Ugnis (Fire): the element of soul armour, purification, light, and warmth.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Ugnis (Fire) (spell)">
-<div class="sb-name">Ugnis (Fire)</div>
-<div class="sb-sub">Ugnis tau degs · Soul Armour, the Fire working</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>Element</dt><dd>Fire · deity Gabija, the hearth and sacred fire. Zenith Rasos, summer-solstice noon</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 (minor, one element) or 3 and up; the craft of the vaidilutės who tend the sacred flames</dd></div><div class="sb-cell"><dt>Casting</dt><dd><em>Ugnis tau degs</em> aloud. <em>Man</em> for oneself</dd></div><div class="sb-cell"><dt>Components</dt><dd>Living fire; true intent</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Minor: exhaustion. Major: soul-chill, empathy gone for days; the caster can kill without feeling</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length to a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Doubled in rain or floods; consecrated stone doubles it. A sacred flame cannot guard itself</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Rain and flood; consecrated stone; the Iron Saint's knights, who are immune to Fire's terror</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Soul Armour.</em></strong> Warming, kindling, bracing the spirit against the dark half of the year. At its simplest it keeps a dying flame alive.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Soul-chill.</em></strong> The chill climbs from the fingers: legs, elbows, shoulders, and a gap where something was (<a href="../books/book2.html">Book II ch. 2</a>, 11; <a href="../books/book4.html">Book IV ch. 3</a>).</p><p class="sb-entry"><strong><em>Damp.</em></strong> In the half-flooded island foundations the spring damp doubles the cost, and Birutė is no longer there to share it (<a href="../books/book2.html">Book II ch. 2</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Desecration.</em></strong> Spitting into the fire or stepping over it is sacrilege.</p><p class="sb-entry"><strong><em>Killed flames.</em></strong> Their sparks become užgesėlės.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../codex/bestiary.html">bestiary.md §27</a> · <a href="../books/book2.html">Book II ch. 2</a>, 11 · <a href="../books/book4.html">Book IV ch. 3</a> · wiki/magic/el_fire</div></div>
 <section id="deity-zenith" class="level2">
 <h2 class="anchored" data-anchor-id="deity-zenith">Deity &amp; zenith</h2>
 <p><strong>Deity:</strong> <a href="../gods/gabija.html">Gabija</a>, the hearth and sacred fire. <strong>Incantation:</strong> <em>Ugnis tau degs</em> (“Fire for you shall burn”), <em>man</em> for oneself. <strong>Medium:</strong> living fire. <strong>Zenith:</strong> Rasos, summer-solstice noon (~13–14 June in 1382), when the cost is <strong>halved</strong> and Gabija’s fire is deadly to unholy things; <strong>doubled</strong> in rain or floods.</p>

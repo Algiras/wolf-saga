@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Servant of:</strong> <a href="../forces/root_mother.html">Šaknų Motina (Root-Mother)</a> — <em>Her diggers of bog-ore and amber.</em></p>
+<div class="statblock sb-creature sb-compact" role="group" aria-label="Barstukai (under-elder miners) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Barstukai (under-elder miners)</div>
+<div class="sb-sub">Under-elder miners · Prussian and Samogitian folk belief, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] small under-elder beings of Puškaitis, attested in 16th-century Prussian and Samogitian accounts; link to kaukai debated · [Saga] the Root-Mother's diggers</p>
+<p class="sb-prop"><strong>Tier</strong> Dvasia · the Root-Mother's servants</p>
+<p class="sb-prop"><strong>Danger</strong> I nuisance → III dangerous after 1387</p>
+<p class="sb-prop"><strong>Habitat</strong> Elder thickets on old hill-forts and by bogs; the dark under hill-forts</p>
+<p class="sb-prop"><strong>Wants</strong> Bread and beer under the elder at dusk, never watched</p>
+<p class="sb-prop"><strong>Takes</strong> Wells and mine-shafts, after 1387, from lords who drain and mine the land</p>
+<p class="sb-prop"><strong>Signs</strong> Lumps of bog-iron left on a stump; hammering underground at night</p>
+<p class="sb-prop"><strong>Banes</strong> Smith's iron drives them down; feast-day iron kills them</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk mix them up with kaukai, which is half right: both are small and live in earth. But a kaukas is your dead, and a barstukas is nobody's.</p><p class="sb-entry"><strong><em>Traders.</em></strong> Bog-iron for bread, amber for beer, a safe path for a promise. The vilkatai's bog-iron comes from them.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Dig.</em></strong> Mine bog-ore and buried amber in the roots of elder thickets.</p><p class="sb-entry"><strong><em>Collapse (after 1387).</em></strong> Stop trading and bring down wells and shafts under drainers and miners.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Watching.</em></strong> Watching the offering ends the bargain for the whole family.</p><p class="sb-entry"><strong><em>Cutting an elder.</em></strong> Ask three times, or the ground under your house goes hollow.</p><p class="sb-entry"><strong><em>Iron.</em></strong> Smith's iron sends them down, and your bog-iron with them.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §4</a>, preface (three irons) · <a href="../codex/the-iron-wolves.html">iron_wolves.md §8.1</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -484,24 +555,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-compact" role="group" aria-label="Barstukai (under-elder miners) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Barstukai (under-elder miners)</div>
-<div class="sb-sub">Under-elder miners · Prussian and Samogitian folk belief, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] small under-elder beings of Puškaitis, attested in 16th-century Prussian and Samogitian accounts; link to kaukai debated · [Saga] the Root-Mother's diggers</p>
-<p class="sb-prop"><strong>Tier</strong> Dvasia · the Root-Mother's servants</p>
-<p class="sb-prop"><strong>Danger</strong> I nuisance → III dangerous after 1387</p>
-<p class="sb-prop"><strong>Habitat</strong> Elder thickets on old hill-forts and by bogs; the dark under hill-forts</p>
-<p class="sb-prop"><strong>Wants</strong> Bread and beer under the elder at dusk, never watched</p>
-<p class="sb-prop"><strong>Takes</strong> Wells and mine-shafts, after 1387, from lords who drain and mine the land</p>
-<p class="sb-prop"><strong>Signs</strong> Lumps of bog-iron left on a stump; hammering underground at night</p>
-<p class="sb-prop"><strong>Banes</strong> Smith's iron drives them down; feast-day iron kills them</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk mix them up with kaukai, which is half right: both are small and live in earth. But a kaukas is your dead, and a barstukas is nobody's.</p><p class="sb-entry"><strong><em>Traders.</em></strong> Bog-iron for bread, amber for beer, a safe path for a promise. The vilkatai's bog-iron comes from them.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Dig.</em></strong> Mine bog-ore and buried amber in the roots of elder thickets.</p><p class="sb-entry"><strong><em>Collapse (after 1387).</em></strong> Stop trading and bring down wells and shafts under drainers and miners.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Watching.</em></strong> Watching the offering ends the bargain for the whole family.</p><p class="sb-entry"><strong><em>Cutting an elder.</em></strong> Ask three times, or the ground under your house goes hollow.</p><p class="sb-entry"><strong><em>Iron.</em></strong> Smith's iron sends them down, and your bog-iron with them.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §4</a>, preface (three irons) · <a href="../codex/the-iron-wolves.html">iron_wolves.md §8.1</a></div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>Small underground beings attested in 16th-century accounts of Prussian and Samogitian belief. In the Prussian material they serve an earth-god, <strong>Puškaitis</strong>, who lives beneath the elder bush (<em>šeivamedis</em>), and people left bread and beer under the elder for them. Whether they are the same beings as kaukai or barzdukai, or whether the words are even related, is debated; regional variants differ.</p>

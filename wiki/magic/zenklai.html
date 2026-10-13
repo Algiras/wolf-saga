@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Practitioners:</strong> <a href="../characters/flame_keeper.html">Žiežirba (the Flame-Keeper, Book V POV)</a> (1410–…) — tier 2</p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Ženklai (signs) (spell)">
+<div class="sb-name">Ženklai (signs)</div>
+<div class="sb-sub">Ženklai · carved signs, stored intention</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power · the way to enchant objects</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 0 can use a fed sign; tier 2 (burtininkas, sign-carver) makes warded objects</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Carve, burn, weave or embroider the sign, then feed it</dd></div><div class="sb-cell"><dt>Components</dt><dd>The sign, and a feed: blood for a strong sign, milk for a gentle one, ash for a binding one</dd></div><div class="sb-cell"><dt>Cost</dt><dd>The feed. A sign fades if not fed</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A charm-object (one sign) fades in a season. A warded object (several signs, fed by an owner) lasts a lifetime</dd></div><div class="sb-cell"><dt>Limits</dt><dd>A sign carved by a baptised hand works only if the carver means it. On iron it is twice as strong but angers the laumės</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Neglect (it fades); consecrated stone (half strength, if meant); a broken sign reverses for a night</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Signs of house and oath.</em></strong> Saulutė repels night spirits (milk at dawn). Perkūnėlis wards lightning and marks an oath (blood, once). Žalčiukas warns of poison (milk weekly). Laimos medis eases childbirth.</p><p class="sb-entry"><strong><em>Signs of sight and hiding.</em></strong> Žvaigždutė helps sight-workings. Žirgeliai turn aside unbound spirits. Mėnulio pjautuvas hides by distraction, not illusion (ash).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The bound object.</em></strong> Signs plus a Kalba working plus blood make an artifact. Kęstutis's sword carries a perkūnėlis under its grip.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>A broken sign.</em></strong> Reverses for a night.</p><p class="sb-entry"><strong><em>Failing signs.</em></strong> The rust on Kęstutis's sword is the sign failing because the Pact is cracking.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.3</a>, §5 · <a href="../books/book1.html">Book I ch. 2</a> · <a href="../books/book6.html">Book VI ch. 1</a>, 4 · wiki/magic/zenklai</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -467,6 +526,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -476,16 +539,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Family</strong></td>
 <td>asked</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Ženklai: sacred carved glyphs, wards, and symbols imbued with persistent intent.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Ženklai (signs) (spell)">
-<div class="sb-name">Ženklai (signs)</div>
-<div class="sb-sub">Ženklai · carved signs, stored intention</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power · the way to enchant objects</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 0 can use a fed sign; tier 2 (burtininkas, sign-carver) makes warded objects</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Carve, burn, weave or embroider the sign, then feed it</dd></div><div class="sb-cell"><dt>Components</dt><dd>The sign, and a feed: blood for a strong sign, milk for a gentle one, ash for a binding one</dd></div><div class="sb-cell"><dt>Cost</dt><dd>The feed. A sign fades if not fed</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A charm-object (one sign) fades in a season. A warded object (several signs, fed by an owner) lasts a lifetime</dd></div><div class="sb-cell"><dt>Limits</dt><dd>A sign carved by a baptised hand works only if the carver means it. On iron it is twice as strong but angers the laumės</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Neglect (it fades); consecrated stone (half strength, if meant); a broken sign reverses for a night</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Signs of house and oath.</em></strong> Saulutė repels night spirits (milk at dawn). Perkūnėlis wards lightning and marks an oath (blood, once). Žalčiukas warns of poison (milk weekly). Laimos medis eases childbirth.</p><p class="sb-entry"><strong><em>Signs of sight and hiding.</em></strong> Žvaigždutė helps sight-workings. Žirgeliai turn aside unbound spirits. Mėnulio pjautuvas hides by distraction, not illusion (ash).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The bound object.</em></strong> Signs plus a Kalba working plus blood make an artifact. Kęstutis's sword carries a perkūnėlis under its grip.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>A broken sign.</em></strong> Reverses for a night.</p><p class="sb-entry"><strong><em>Failing signs.</em></strong> The rust on Kęstutis's sword is the sign failing because the Pact is cracking.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.3</a>, §5 · <a href="../books/book1.html">Book I ch. 2</a> · <a href="../books/book6.html">Book VI ch. 1</a>, 4 · wiki/magic/zenklai</div></div>
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Carved signs: <strong>stored intention</strong>, the way to enchant objects. A sign is carved, burned, woven or embroidered, then <strong>fed</strong>: blood for a strong sign, milk for a gentle one, ash for a binding one.</p>

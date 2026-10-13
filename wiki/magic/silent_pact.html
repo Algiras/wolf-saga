@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -458,6 +511,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Caused by:</strong> <a href="../events/ev_pact_sworn.html">Silent Pact sworn</a></p>
 <p><strong>Ended by:</strong> <a href="../events/ev_lithuania_baptism.html">Baptism of Lithuania; Šventaragis flame put out</a> — <em>Clause 1: flames extinguished.</em></p>
 <p><strong>Surety:</strong> <a href="../creatures/laumes.html">Laumės (weavers by the water)</a> — <em>The Pact’s direct witnesses.</em></p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Tylioji Sutartis (Silent Pact) (spell)">
+<div class="sb-name">Tylioji Sutartis (Silent Pact)</div>
+<div class="sb-sub">Tylioji Sutartis · the Silent Pact of 1345, the series engine</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Pact between two princes, the gods and the spirits of place. Saga invention (canon D7)</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Binds Algirdas, Kęstutis and the Gediminid line. The Krivis (tier 4) is witness, not envoy</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Sworn on Vėlinės night 1345 in the Šventaragis valley: iron laid on a stone, each prince whispers his secret name to the fire, blood on a Palanga amber bead, each states what he gives</dd></div><div class="sb-cell"><dt>Components</dt><dd>A sacred flame, the Krivis, amber, blood, the princes' true names. Witnesses: every spirit of place, laumės as surety</dd></div><div class="sb-cell"><dt>Cost</dt><dd>The Amber Debt: royal blood for every land lost to the plough and cross. No one asked the children</dd></div><div class="sb-cell"><dt>Duration</dt><dd>1345 to 1387 formally; a remnant (the Hidden Groves) to 1417; folklore from 1430</dd></div><div class="sb-cell"><dt>Limits</dt><dd>A treaty between the land's people and the land's spirits, not a god's grace. The gods hold a baptised land only by custom</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Kin-slaying; extinguishing the flames; baptism</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>The gods give.</em></strong> Lithuania will not be conquered. The Order may raid and burn but never hold the heartland.</p><p class="sb-entry"><strong><em>The princes give.</em></strong> The sacred flames are never extinguished; no Gediminid sheds Gediminid blood; the Amber Debt.</p><p class="sb-entry"><strong><em>The spirits.</em></strong> The Pact keeps the dvasios courteous.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Birutė's sacrifice.</em></strong> At Palanga in 1384 she pays the debt partially and buys the Hidden Groves, a remnant protection over Samogitia and the deep Dykra.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Clause 2, 1382.</em></strong> Kęstutis is murdered by kin at Krėva: the gods' protection lapses.</p><p class="sb-entry"><strong><em>Clause 1, 1387.</em></strong> Jogaila puts out the Šventaragis flame, fells the grove and has the sacred snakes killed. The Pact formally ends, and the Unbinding begins.</p><p class="sb-entry"><strong><em>The tail.</em></strong> Samogitia is baptised 1413-17 and the groves fall. Vytautas dies in 1430 and the last flame goes out.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/canon-decisions.html">canon_decisions.md</a> D7 · <a href="../codex/cosmology.html">cosmology.md §4</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §6</a> · <a href="../books/book6.html">Book VI ch. 4</a> · wiki/magic/silent_pact</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -470,6 +529,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -479,16 +542,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Years</strong></td>
 <td>1345–1387</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Tylioji Sutartis: the pact of 1345 between Gediminid brothers and the sacred fire; series engine.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Tylioji Sutartis (Silent Pact) (spell)">
-<div class="sb-name">Tylioji Sutartis (Silent Pact)</div>
-<div class="sb-sub">Tylioji Sutartis · the Silent Pact of 1345, the series engine</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Pact between two princes, the gods and the spirits of place. Saga invention (canon D7)</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Binds Algirdas, Kęstutis and the Gediminid line. The Krivis (tier 4) is witness, not envoy</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Sworn on Vėlinės night 1345 in the Šventaragis valley: iron laid on a stone, each prince whispers his secret name to the fire, blood on a Palanga amber bead, each states what he gives</dd></div><div class="sb-cell"><dt>Components</dt><dd>A sacred flame, the Krivis, amber, blood, the princes' true names. Witnesses: every spirit of place, laumės as surety</dd></div><div class="sb-cell"><dt>Cost</dt><dd>The Amber Debt: royal blood for every land lost to the plough and cross. No one asked the children</dd></div><div class="sb-cell"><dt>Duration</dt><dd>1345 to 1387 formally; a remnant (the Hidden Groves) to 1417; folklore from 1430</dd></div><div class="sb-cell"><dt>Limits</dt><dd>A treaty between the land's people and the land's spirits, not a god's grace. The gods hold a baptised land only by custom</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Kin-slaying; extinguishing the flames; baptism</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>The gods give.</em></strong> Lithuania will not be conquered. The Order may raid and burn but never hold the heartland.</p><p class="sb-entry"><strong><em>The princes give.</em></strong> The sacred flames are never extinguished; no Gediminid sheds Gediminid blood; the Amber Debt.</p><p class="sb-entry"><strong><em>The spirits.</em></strong> The Pact keeps the dvasios courteous.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Birutė's sacrifice.</em></strong> At Palanga in 1384 she pays the debt partially and buys the Hidden Groves, a remnant protection over Samogitia and the deep Dykra.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Clause 2, 1382.</em></strong> Kęstutis is murdered by kin at Krėva: the gods' protection lapses.</p><p class="sb-entry"><strong><em>Clause 1, 1387.</em></strong> Jogaila puts out the Šventaragis flame, fells the grove and has the sacred snakes killed. The Pact formally ends, and the Unbinding begins.</p><p class="sb-entry"><strong><em>The tail.</em></strong> Samogitia is baptised 1413-17 and the groves fall. Vytautas dies in 1430 and the last flame goes out.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/canon-decisions.html">canon_decisions.md</a> D7 · <a href="../codex/cosmology.html">cosmology.md §4</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §6</a> · <a href="../books/book6.html">Book VI ch. 4</a> · wiki/magic/silent_pact</div></div>
 <section id="the-pact-at-a-glance" class="level2">
 <h2 class="anchored" data-anchor-id="the-pact-at-a-glance">The Pact at a glance</h2>
 <div class="quarto-figure quarto-figure-center">

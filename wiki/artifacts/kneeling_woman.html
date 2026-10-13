@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,16 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Caused by:</strong> <a href="../events/ev_birute_sacrifice.html">Birutė’s Amber Sacrifice</a></p>
 <p><strong>Created by:</strong> <a href="../characters/birute.html">Birutė</a></p>
 <p><strong>Ended by:</strong> <a href="../events/ev_keeper_dies.html">Žiežirba dies; cremated on the beach</a> — <em>The sea takes the statue.</em></p>
+<div class="statblock sb-card sb-item" role="group" aria-label="Klūpančioji (amber statue, Palanga) (item)">
+<div class="sb-name">Klūpančioji (amber statue, Palanga)</div>
+<div class="sb-rarity"><em>Klūpančioji · the amber kneeling woman of Palanga, singular</em></div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Bearing</strong> Cannot be borne. Whoever moves her dies at sea</p>
+<p class="sb-prop"><strong>Holders</strong> None. She is held by no one: she kneels at the tide line at Palanga from 1384. She anchors the Amber Queen 1384 to 1450</p>
+<p class="sb-prop"><strong>Power</strong> The Amber Queen's last anchor on land. She calms storms along that shore. Warm to the touch, light as a sleeping child; her glow tracks how well she is remembered</p>
+<p class="sb-prop"><strong>Rule &amp; cost</strong> Whoever moves her dies at sea. Gifts of bread or fish are left for her whenever amber is taken from the shore. She dims as people forget her story</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A human-sized kneeling woman of honey-coloured amber with insects and grains of sand suspended inside. Head bowed, hands clasped, face like candle wax. Fishermen tie ribbons to her neck.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Left where Birutė vanished into the sea at Palanga on the night of the Amber Sacrifice, 1384, the payment of the Amber Debt that bought the Hidden Groves.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>The mover dies.</em></strong> In October 1417 the priest Andžej Radzimski takes six men to remove her. Hammers fail, the boat sinks calmly, and she is back at dawn with six crosses in her hands (<a href="../books/book4.html">Book IV ch. 8</a>).</p><p class="sb-entry"><strong><em>Forgetting.</em></strong> In 1445-46 the village forgets, and she goes grey.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Glowing again.</em></strong> March 1450: she glows the evening the Flame-Keeper tells his stories and is the pyre's site.</p><p class="sb-entry"><strong><em>The sea.</em></strong> The sea takes the statue (<a href="../books/book5.html">Book V ch. 29</a>). By 1553 she is memory and tale.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D1 · world_graph.json (anchors amber_queen 1384-1450; ev_keeper_dies) · <a href="../books/book1.html">Book I ch. 27</a> · <a href="../books/book3.html">Book III ch. 14</a> · <a href="../books/book4.html">Book IV ch. 8</a> · <a href="../books/book5.html">Book V ch. 25</a>, 29 · wiki/artifacts/kneeling_woman</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -468,6 +531,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -477,20 +544,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Years</strong></td>
 <td>made 1384</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>The amber kneeling woman of Palanga; sacred anchor of the Amber Queen at the shore.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-item" role="group" aria-label="Klūpančioji (amber statue, Palanga) (item)">
-<div class="sb-name">Klūpančioji (amber statue, Palanga)</div>
-<div class="sb-rarity"><em>Klūpančioji · the amber kneeling woman of Palanga, singular</em></div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Bearing</strong> Cannot be borne. Whoever moves her dies at sea</p>
-<p class="sb-prop"><strong>Holders</strong> None. She is held by no one: she kneels at the tide line at Palanga from 1384. She anchors the Amber Queen 1384 to 1450</p>
-<p class="sb-prop"><strong>Power</strong> The Amber Queen's last anchor on land. She calms storms along that shore. Warm to the touch, light as a sleeping child; her glow tracks how well she is remembered</p>
-<p class="sb-prop"><strong>Rule &amp; cost</strong> Whoever moves her dies at sea. Gifts of bread or fish are left for her whenever amber is taken from the shore. She dims as people forget her story</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A human-sized kneeling woman of honey-coloured amber with insects and grains of sand suspended inside. Head bowed, hands clasped, face like candle wax. Fishermen tie ribbons to her neck.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Left where Birutė vanished into the sea at Palanga on the night of the Amber Sacrifice, 1384, the payment of the Amber Debt that bought the Hidden Groves.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>The mover dies.</em></strong> In October 1417 the priest Andžej Radzimski takes six men to remove her. Hammers fail, the boat sinks calmly, and she is back at dawn with six crosses in her hands (<a href="../books/book4.html">Book IV ch. 8</a>).</p><p class="sb-entry"><strong><em>Forgetting.</em></strong> In 1445-46 the village forgets, and she goes grey.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Glowing again.</em></strong> March 1450: she glows the evening the Flame-Keeper tells his stories and is the pyre's site.</p><p class="sb-entry"><strong><em>The sea.</em></strong> The sea takes the statue (<a href="../books/book5.html">Book V ch. 29</a>). By 1553 she is memory and tale.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D1 · world_graph.json (anchors amber_queen 1384-1450; ev_keeper_dies) · <a href="../books/book1.html">Book I ch. 27</a> · <a href="../books/book3.html">Book III ch. 14</a> · <a href="../books/book4.html">Book IV ch. 8</a> · <a href="../books/book5.html">Book V ch. 25</a>, 29 · wiki/artifacts/kneeling_woman</div></div>
 <section id="description" class="level2">
 <h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>A human-sized kneeling woman of honey-coloured amber, with small insects and grains of sand suspended inside. She kneels at the tide line facing the sea. Her head is bowed and her hands are clasped (<a href="../books/book1.html">Book I ch.&nbsp;27</a>; the books now agree on this pose). Her face is “like candle wax”. Fishermen tie ribbons to her neck.</p>

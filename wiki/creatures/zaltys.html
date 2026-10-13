@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Servant of:</strong> <a href="../forces/root_mother.html">Šaknų Motina (Root-Mother)</a> — <em>Her ear inside the house.</em></p>
 <p><strong>Shards:</strong> <a href="../creatures/smakas.html">Smakas (the dragon under the cathedral)</a> — <em>A žaltys that grew wrong, bred from the snake-blood spilled in 1387.</em></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Žaltys (household grass snake) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Žaltys (household grass snake)</div>
+<div class="sb-sub">Household guardian · Baltic folk belief, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] household grass snake, fed with milk (Jerome of Prague via Piccolomini; Długosz, 1387) · [Saga] the children of Žilvinas's spilled blood</p>
+<p class="sb-prop"><strong>Tier</strong> Dvasia · the Root-Mother's ear inside the house</p>
+<p class="sb-prop"><strong>Danger</strong> I nuisance before 1387 → III dangerous after</p>
+<p class="sb-prop"><strong>Habitat</strong> Under the threshold, warm straw by the oven, the cowshed</p>
+<p class="sb-prop"><strong>Wants</strong> Milk in a clay bowl at the threshold, daily; to be left alive</p>
+<p class="sb-prop"><strong>Takes</strong> Milk (even the baby's, in a hungry spring); in return it tells the forest everything it hears</p>
+<p class="sb-prop"><strong>Signs</strong> A healthy one is seen often and fearlessly. A žaltys that hides is a warning. After 1387: snakes crossing a road in a long line, all toward the forest</p>
+<p class="sb-prop"><strong>Banes</strong> None that kill it. Juniper smoke and feast-day iron drive it off, and the luck goes with it</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk are right that killing it kills the luck. They are wrong that it is harmless: it cannot hurt anyone directly, but it can withdraw, and a house it leaves goes sick, barren and quarrelsome within a year. The priest who calls it a demon is wrong too.</p><p class="sb-entry"><strong><em>Žilvinas's blood.</em></strong> When Eglė's brothers cut Žilvinas down, his blood went into the ground and the grass snakes of the land were born from it. The living owe them. Eglė's own žaltys is the eldest.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Withdrawal.</em></strong> Takes the house's luck with it when it goes.</p><p class="sb-entry"><strong><em>Unbound (after 1387).</em></strong> Once the sacred snakes of Šventaragis are slaughtered, many leave houses in a body. Those that stay drink cows dry at night and coil in cradles beside nursing mothers.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The tax.</em></strong> Feeding it is not charity. In a hungry spring the žaltys's milk is the baby's milk.</p><p class="sb-entry"><strong><em>Moving it.</em></strong> Carry it to the forest edge in clean linen with a crust of bread and ask it aloud. It may refuse.</p><p class="sb-entry"><strong><em>The snake-king's crown.</em></strong> Wealth for life, and every žaltys in the parish hunts the thief's kin.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §1</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §2</a>, §12.3 · <a href="../codex/cosmology.html">cosmology.md §4.3</a> · <a href="../books/book1.html">Book I ch. 15</a>-16, 23, 29</div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -485,24 +556,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Žaltys (household grass snake) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Žaltys (household grass snake)</div>
-<div class="sb-sub">Household guardian · Baltic folk belief, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] household grass snake, fed with milk (Jerome of Prague via Piccolomini; Długosz, 1387) · [Saga] the children of Žilvinas's spilled blood</p>
-<p class="sb-prop"><strong>Tier</strong> Dvasia · the Root-Mother's ear inside the house</p>
-<p class="sb-prop"><strong>Danger</strong> I nuisance before 1387 → III dangerous after</p>
-<p class="sb-prop"><strong>Habitat</strong> Under the threshold, warm straw by the oven, the cowshed</p>
-<p class="sb-prop"><strong>Wants</strong> Milk in a clay bowl at the threshold, daily; to be left alive</p>
-<p class="sb-prop"><strong>Takes</strong> Milk (even the baby's, in a hungry spring); in return it tells the forest everything it hears</p>
-<p class="sb-prop"><strong>Signs</strong> A healthy one is seen often and fearlessly. A žaltys that hides is a warning. After 1387: snakes crossing a road in a long line, all toward the forest</p>
-<p class="sb-prop"><strong>Banes</strong> None that kill it. Juniper smoke and feast-day iron drive it off, and the luck goes with it</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk are right that killing it kills the luck. They are wrong that it is harmless: it cannot hurt anyone directly, but it can withdraw, and a house it leaves goes sick, barren and quarrelsome within a year. The priest who calls it a demon is wrong too.</p><p class="sb-entry"><strong><em>Žilvinas's blood.</em></strong> When Eglė's brothers cut Žilvinas down, his blood went into the ground and the grass snakes of the land were born from it. The living owe them. Eglė's own žaltys is the eldest.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Withdrawal.</em></strong> Takes the house's luck with it when it goes.</p><p class="sb-entry"><strong><em>Unbound (after 1387).</em></strong> Once the sacred snakes of Šventaragis are slaughtered, many leave houses in a body. Those that stay drink cows dry at night and coil in cradles beside nursing mothers.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The tax.</em></strong> Feeding it is not charity. In a hungry spring the žaltys's milk is the baby's milk.</p><p class="sb-entry"><strong><em>Moving it.</em></strong> Carry it to the forest edge in clean linen with a crust of bread and ask it aloud. It may refuse.</p><p class="sb-entry"><strong><em>The snake-king's crown.</em></strong> Wealth for life, and every žaltys in the parish hunts the thief's kin.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §1</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §2</a>, §12.3 · <a href="../codex/cosmology.html">cosmology.md §4.3</a> · <a href="../books/book1.html">Book I ch. 15</a>-16, 23, 29</div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>The grass snake (<em>Natrix natrix</em>), marked by yellow patches behind the head, was kept and fed in Lithuanian homes for health, fertility and luck; killing one brought misfortune. Late-medieval visitors report snake veneration (the account of Jerome of Prague’s mission, retold by Aeneas Silvius Piccolomini), and Długosz records sacred snakes being killed at the 1387 baptism. The tale <em>Eglė žalčių karalienė</em> is the great žaltys story; folk tales also know a crowned snake-king.</p>

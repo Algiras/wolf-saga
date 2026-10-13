@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Servant of:</strong> <a href="../creatures/laumes.html">Laumės (weavers by the water)</a></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Laumiukai (changelings) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Laumiukai (changelings)</div>
+<div class="sb-sub">Changelings · Baltic folk belief, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] children left in the cradle by laumės: big-headed, ever-hungry, never growing · [Saga] a bargain enforced without consent</p>
+<p class="sb-prop"><strong>Tier</strong> Dvasia · the laumės' servants</p>
+<p class="sb-prop"><strong>Danger</strong> II hazard → IV deadly</p>
+<p class="sb-prop"><strong>Habitat</strong> The cradles of unnamed infants</p>
+<p class="sb-prop"><strong>Wants</strong> Children whose mothers broke courtesy, or who were born on a laumės' night, to raise as weavers</p>
+<p class="sb-prop"><strong>Takes</strong> The infant. After 1387 nothing is left: an empty cradle, or a linen-wrapped log</p>
+<p class="sb-prop"><strong>Signs</strong> A baby who changes overnight: eyes too old, appetite too great, never crying at the right times; wet hen-tracks by the cradle</p>
+<p class="sb-prop"><strong>Banes</strong> A knife or broom under the cradle; Laimos medis fed with the mother's hair; the secret name whispered at birth</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The swap is real. What the laumė leaves is sometimes her own sickly child, but often a dying human child from another house that she is trying to save. The cruel folk remedies work because they offend custom so badly that she returns the stolen child, which means torturing a child who may be someone else's.</p><p class="sb-entry"><strong><em>Before 1387.</em></strong> The child is often returned at seven, trained and strange.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>The swap.</em></strong> Takes the infant, leaves its own in the cradle.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Never leaving the infant alone.</em></strong> A mother who cannot leave the cradle cannot work the fields.</p><p class="sb-entry"><strong><em>Laimos medis.</em></strong> Carved on the cradle and fed with a thread of the mother's hair. It fades if unfed, and a tired mother forgets.</p><p class="sb-entry"><strong><em>The secret name.</em></strong> A named child is far harder to take, but the name is now known to the elements and to anyone who overhears.</p><p class="sb-entry"><strong><em>The cruel remedy.</em></strong> You may be beating somebody else's baby.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §7</a> · <a href="../codex/power-systems.html">power_systems.md §2.3</a> · <a href="../codex/magic-rules.html">magic_rules.md §6</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -484,24 +555,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Laumiukai (changelings) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Laumiukai (changelings)</div>
-<div class="sb-sub">Changelings · Baltic folk belief, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] children left in the cradle by laumės: big-headed, ever-hungry, never growing · [Saga] a bargain enforced without consent</p>
-<p class="sb-prop"><strong>Tier</strong> Dvasia · the laumės' servants</p>
-<p class="sb-prop"><strong>Danger</strong> II hazard → IV deadly</p>
-<p class="sb-prop"><strong>Habitat</strong> The cradles of unnamed infants</p>
-<p class="sb-prop"><strong>Wants</strong> Children whose mothers broke courtesy, or who were born on a laumės' night, to raise as weavers</p>
-<p class="sb-prop"><strong>Takes</strong> The infant. After 1387 nothing is left: an empty cradle, or a linen-wrapped log</p>
-<p class="sb-prop"><strong>Signs</strong> A baby who changes overnight: eyes too old, appetite too great, never crying at the right times; wet hen-tracks by the cradle</p>
-<p class="sb-prop"><strong>Banes</strong> A knife or broom under the cradle; Laimos medis fed with the mother's hair; the secret name whispered at birth</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The swap is real. What the laumė leaves is sometimes her own sickly child, but often a dying human child from another house that she is trying to save. The cruel folk remedies work because they offend custom so badly that she returns the stolen child, which means torturing a child who may be someone else's.</p><p class="sb-entry"><strong><em>Before 1387.</em></strong> The child is often returned at seven, trained and strange.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>The swap.</em></strong> Takes the infant, leaves its own in the cradle.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Never leaving the infant alone.</em></strong> A mother who cannot leave the cradle cannot work the fields.</p><p class="sb-entry"><strong><em>Laimos medis.</em></strong> Carved on the cradle and fed with a thread of the mother's hair. It fades if unfed, and a tired mother forgets.</p><p class="sb-entry"><strong><em>The secret name.</em></strong> A named child is far harder to take, but the name is now known to the elements and to anyone who overhears.</p><p class="sb-entry"><strong><em>The cruel remedy.</em></strong> You may be beating somebody else's baby.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §7</a> · <a href="../codex/power-systems.html">power_systems.md §2.3</a> · <a href="../codex/magic-rules.html">magic_rules.md §6</a></div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>In Lithuanian tradition laumės (and other water-beings) steal unattended infants and leave their own: an ugly, big-headed, ever-hungry, never-growing child. Remedies resemble those across Europe: mistreating the changeling so the laumė returns the stolen child, or provoking it to reveal its great age. Infants were protected by never being left alone and by iron, a knife or a broom near the cradle.</p>

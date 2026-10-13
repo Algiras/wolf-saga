@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Servant of:</strong> <a href="../forces/shadow_seller.html">Šešėlių Pardavėjas / Henė</a> — <em>The Shadow-Seller’s clerk.</em></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Pinčiukas (clerk of small bargains) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Pinčiukas (clerk of small bargains)</div>
+<div class="sb-sub">Clerk of small bargains · literary devil, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] a minor devil best known from Boruta's <em>Baltaragio malūnas</em> (1945); folk currency of the name uncertain · [Saga] the Shadow-Seller's clerk</p>
+<p class="sb-prop"><strong>Tier</strong> Dvasia · a named velniukas, Henė's go-between</p>
+<p class="sb-prop"><strong>Danger</strong> II hazard → III dangerous</p>
+<p class="sb-prop"><strong>Habitat</strong> Mills and millponds</p>
+<p class="sb-prop"><strong>Wants</strong> Small bargains with millers, sextons and serving-maids; to keep the threads that bind them</p>
+<p class="sb-prop"><strong>Takes</strong> Small obligations (threads) from the small. A miller's debt; a hidden guard's sleeping-place (Kirmėlė, 1382)</p>
+<p class="sb-prop"><strong>Signs</strong> A dapper little man who knows everyone's debts; a stammering, polite voice behind a door; a ledger</p>
+<p class="sb-prop"><strong>Banes</strong> Make him write the bargain down and read it back aloud</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> No old belief to correct: the folk name is thinly attested. In the saga he is fussy, polite and fond of mills. He is the reason Henė always knows who in a castle can be bought.</p><p class="sb-entry"><strong><em>Promoted.</em></strong> Before 1387 one clerk among many. After it, the Unbinding is a boom time for small bargains.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Keeping the threads.</em></strong> He makes the small deals while Henė makes the great ones with princes.</p><p class="sb-entry"><strong><em>Known deals.</em></strong> Kirmėlė sold Kęstutis's hidden guard through him in 1382 to save his village, and the village burned anyway. In <a href="../books/book2.html">Book II ch. 5</a> he sold Skirgaila the plot of 1389 for a miller's debt.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The reading-back.</em></strong> He cannot resist reading aloud, but you must be able to spot the trick when he does.</p><p class="sb-entry"><strong><em>No 'later'.</em></strong> Never let him name the price later. He will refuse the bargain, and you will not get what you came for.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §21</a> · <a href="../codex/the-iron-wolves.html">iron_wolves.md §13</a> (Kirmėlė) · world_graph.json (pincuikas servant_of shadow_seller) · <a href="../books/book2.html">Book II ch. 5</a> · <a href="../books/book6.html">Book VI ch. 27</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -484,24 +555,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Pinčiukas (clerk of small bargains) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Pinčiukas (clerk of small bargains)</div>
-<div class="sb-sub">Clerk of small bargains · literary devil, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] a minor devil best known from Boruta's <em>Baltaragio malūnas</em> (1945); folk currency of the name uncertain · [Saga] the Shadow-Seller's clerk</p>
-<p class="sb-prop"><strong>Tier</strong> Dvasia · a named velniukas, Henė's go-between</p>
-<p class="sb-prop"><strong>Danger</strong> II hazard → III dangerous</p>
-<p class="sb-prop"><strong>Habitat</strong> Mills and millponds</p>
-<p class="sb-prop"><strong>Wants</strong> Small bargains with millers, sextons and serving-maids; to keep the threads that bind them</p>
-<p class="sb-prop"><strong>Takes</strong> Small obligations (threads) from the small. A miller's debt; a hidden guard's sleeping-place (Kirmėlė, 1382)</p>
-<p class="sb-prop"><strong>Signs</strong> A dapper little man who knows everyone's debts; a stammering, polite voice behind a door; a ledger</p>
-<p class="sb-prop"><strong>Banes</strong> Make him write the bargain down and read it back aloud</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> No old belief to correct: the folk name is thinly attested. In the saga he is fussy, polite and fond of mills. He is the reason Henė always knows who in a castle can be bought.</p><p class="sb-entry"><strong><em>Promoted.</em></strong> Before 1387 one clerk among many. After it, the Unbinding is a boom time for small bargains.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Keeping the threads.</em></strong> He makes the small deals while Henė makes the great ones with princes.</p><p class="sb-entry"><strong><em>Known deals.</em></strong> Kirmėlė sold Kęstutis's hidden guard through him in 1382 to save his village, and the village burned anyway. In <a href="../books/book2.html">Book II ch. 5</a> he sold Skirgaila the plot of 1389 for a miller's debt.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The reading-back.</em></strong> He cannot resist reading aloud, but you must be able to spot the trick when he does.</p><p class="sb-entry"><strong><em>No 'later'.</em></strong> Never let him name the price later. He will refuse the bargain, and you will not get what you came for.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §21</a> · <a href="../codex/the-iron-wolves.html">iron_wolves.md §13</a> (Kirmėlė) · world_graph.json (pincuikas servant_of shadow_seller) · <a href="../books/book2.html">Book II ch. 5</a> · <a href="../books/book6.html">Book VI ch. 27</a></div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>A folk name for a minor devil, best known in literature from Kazys Boruta’s novel <em>Baltaragio malūnas</em> (1945), where Pinčiukas is the devil who bargains with the miller. Boruta drew on oral tradition, but how widespread the name was in folk use is uncertain.</p>

@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -452,6 +505,23 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Element:</strong> <a href="../magic/el_stars.html">Žvaigždės (Stars)</a></p>
+<div class="statblock sb-god sb-compact" role="group" aria-label="Praurimė (god)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Praurimė</div>
+<div class="sb-sub">Fire of the stars · attested late / doubtful: known mainly from Narbutt (1835); authenticity disputed</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Domain</strong> The fire of the stars; the sky-twin of the eternal flame</p>
+<p class="sb-prop"><strong>Layer</strong> God (Layer I) · the saga's seers know her as the fire above, the stars read as Laima's lit threads</p>
+<p class="sb-prop"><strong>Element</strong> Stars, <em>Žvaigždės tau švytės</em> · zenith Kūčios, winter-solstice midnight</p>
+<p class="sb-prop"><strong>Force-face</strong> None</p>
+<p class="sb-prop"><strong>Offerings</strong> None. A starry sky is the medium; no altar. Kūčios is the seer's night: shadows on the wall, firelight in amber, the lots</p>
+<p class="sb-prop"><strong>Taboos</strong> Asking for what you do not truly want (Law of Truth): you get nothing, or what you do want</p>
+<p class="sb-prop"><strong>Signs</strong> The cold brightness of her eyes at the end of a Five-Voice; a vision that shows a possibility, not a doom</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Answers</div><p class="sb-entry"><strong><em>Clear Sight.</em></strong> Seeing at distance, through time as possibility and never certainty, and into the truth. Every vision shows the seer something about herself.</p><p class="sb-entry"><strong><em>Against illusion.</em></strong> A Praurimė seer can see through the Shadow-Seller's illusions.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Refuses</div><p class="sb-entry"><strong><em>Overcast.</em></strong> Impossible under cloud, and doubled in daylight.</p><p class="sb-entry"><strong><em>A fixed trunk.</em></strong> Prophecy shows branches, not fate.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Blindness.</em></strong> Hours for a minor working, days for a major one, or the permanent loss of one beloved face from memory.</p><p class="sb-entry"><strong><em>Off zenith.</em></strong> Doubled. Birutė's vision at Dagotuvės cost two or three days (<a href="../books/book1.html">Book I ch. 3</a>). At Kūčios, half (<a href="../books/book5.html">Book V ch. 29</a>).</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../books/book1.html">Book I ch. 3</a>, 9, 15 · <a href="../books/book5.html">Book V ch. 29</a> · wiki/gods/praurime</div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -481,23 +551,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-god sb-compact" role="group" aria-label="Praurimė (god)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Praurimė</div>
-<div class="sb-sub">Fire of the stars · attested late / doubtful: known mainly from Narbutt (1835); authenticity disputed</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Domain</strong> The fire of the stars; the sky-twin of the eternal flame</p>
-<p class="sb-prop"><strong>Layer</strong> God (Layer I) · the saga's seers know her as the fire above, the stars read as Laima's lit threads</p>
-<p class="sb-prop"><strong>Element</strong> Stars, <em>Žvaigždės tau švytės</em> · zenith Kūčios, winter-solstice midnight</p>
-<p class="sb-prop"><strong>Force-face</strong> None</p>
-<p class="sb-prop"><strong>Offerings</strong> None. A starry sky is the medium; no altar. Kūčios is the seer's night: shadows on the wall, firelight in amber, the lots</p>
-<p class="sb-prop"><strong>Taboos</strong> Asking for what you do not truly want (Law of Truth): you get nothing, or what you do want</p>
-<p class="sb-prop"><strong>Signs</strong> The cold brightness of her eyes at the end of a Five-Voice; a vision that shows a possibility, not a doom</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Answers</div><p class="sb-entry"><strong><em>Clear Sight.</em></strong> Seeing at distance, through time as possibility and never certainty, and into the truth. Every vision shows the seer something about herself.</p><p class="sb-entry"><strong><em>Against illusion.</em></strong> A Praurimė seer can see through the Shadow-Seller's illusions.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Refuses</div><p class="sb-entry"><strong><em>Overcast.</em></strong> Impossible under cloud, and doubled in daylight.</p><p class="sb-entry"><strong><em>A fixed trunk.</em></strong> Prophecy shows branches, not fate.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Blindness.</em></strong> Hours for a minor working, days for a major one, or the permanent loss of one beloved face from memory.</p><p class="sb-entry"><strong><em>Off zenith.</em></strong> Doubled. Birutė's vision at Dagotuvės cost two or three days (<a href="../books/book1.html">Book I ch. 3</a>). At Kūčios, half (<a href="../books/book5.html">Book V ch. 29</a>).</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../books/book1.html">Book I ch. 3</a>, 9, 15 · <a href="../books/book5.html">Book V ch. 29</a> · wiki/gods/praurime</div><div class="sb-bar"></div></div>
 <section id="folk-sources-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-sources-record">Folk sources [Record]</h2>
 <p><em>Praurimė</em> is said to be the goddess of the sacred fire, served by <em>vaidilutės</em>. <strong>She is the most doubtful of the saga’s gods.</strong> The name is not in Łasicki, the Volhynian Chronicle, Prätorius or the early lists; the standard source is the 19th-century mythographer Teodor Narbutt (1835), whose reconstructions are often called inventions, and Vėlius and others discard many of his names. Stryjkowski (1582) does describe a perpetual fire in the Vilnius valley, and Dusburg a priest-kept fire at Romowe, but neither names Praurimė. Modern writers often equate Praurimė with Gabija and disagree about which the priestesses served. Her etymology is unknown. The saga’s <em>vaidilutė</em> as a vestal of an eternal flame is also shaped by Romantic historiography, though sacred fires themselves are attested (Długosz).</p>

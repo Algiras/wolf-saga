@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Patrons:</strong> <a href="../forces/root_mother.html">Šaknų Motina (Root-Mother)</a></p>
 <p><strong>Practitioners:</strong> <a href="../characters/jonas.html">Jonas (vilkų vyresnysis)</a> — tier 3 · <a href="../characters/flame_keeper.html">Žiežirba (the Flame-Keeper, Book V POV)</a> (1405–…) — tier 3</p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Vilkų krikštas (wolf-change) (spell)">
+<div class="sb-name">Vilkų krikštas (wolf-change)</div>
+<div class="sb-sub">Vilkų krikštas · the Wolves' Baptism, granted by the Root-Mother</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Granted power, bound by the Root-Mother's nature, not the Three Laws</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Outside the practitioner tiers (the graph rates Jonas and the Flame-Keeper tier 3). Only the Seniai, twenty years sworn, can put on the wolf</dd></div><div class="sb-cell"><dt>Casting</dt><dd>The rite, held in the twelve nights after Kūčios: a wake as if he had died, his name whispered to the fire, a throat-mark rubbed with live ash, nine nights without fire, the drowning in the bog, the oath on the skull</dd></div><div class="sb-cell"><dt>Components</dt><dd>A sworn sponsor (the vilktėvis), a sacred flame, bog-iron belt and knife, the oldest bog, the Iron Wolf's skull. Unmarried men of 16 to 25</dd></div><div class="sb-cell"><dt>Cost</dt><dd>His true name, the road up (laid in the bog, never burned), his hearth, part of his soul, a little memory each iron hour, his tears</dd></div><div class="sb-cell"><dt>Duration</dt><dd>For life. New wolves can be made only at a living flame, so the brotherhood ends when the last flame goes out in 1430</dd></div><div class="sb-cell"><dt>Limits</dt><dd>No sleep under a lit roof; the iron hour (a battle-frenzy of about an hour) takes a memory each time; the Root-Mother's healing fails on feast-day iron</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Feast-day iron; consecrated stone; the hungry dead, who are drawn to a wolf like moths to a lantern</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>The gifts.</em></strong> The sight of the dvasios, night-sight and scent, the Root-Mother's healing, cold and wet as nothing, pack-sense, the iron hour. It is not shape-change.</p><p class="sb-entry"><strong><em>Half-wrong folk belief.</em></strong> Peasants think all vilkatai become wolves. Only the Seniai can put on the wolf.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Putting on the wolf.</em></strong> Real flesh, granted by the Root-Mother. Each time they come back less. The last time, they do not come back, and run into the Dykra on four feet.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Gediminid blood.</em></strong> Rule 2 of the Pack's Word: breaking it gives the wolf to the Root-Mother at once. He goes into the bog alive.</p><p class="sb-entry"><strong><em>Lying on the skull.</em></strong> Every wolf in the Dykra hears it.</p><p class="sb-entry"><strong><em>Leaving.</em></strong> Once, if someone who knew his true name speaks it at a living flame and offers bread on a knife-point. He loses every gift and ages the years in one winter.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/the-iron-wolves.html">iron_wolves.md §4</a>-7 · <a href="../codex/power-systems.html">power_systems.md §3</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D10 · <a href="../books/book3.html">Book III ch. 7</a>, 9 · <a href="../books/book5.html">Book V ch. 29</a> · wiki/magic/wolf_change</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -468,6 +527,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -477,16 +540,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Family</strong></td>
 <td>granted</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Vilkų krikštas: the shapeshifter’s rite granted by the Root-Mother.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Vilkų krikštas (wolf-change) (spell)">
-<div class="sb-name">Vilkų krikštas (wolf-change)</div>
-<div class="sb-sub">Vilkų krikštas · the Wolves' Baptism, granted by the Root-Mother</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Granted power, bound by the Root-Mother's nature, not the Three Laws</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Outside the practitioner tiers (the graph rates Jonas and the Flame-Keeper tier 3). Only the Seniai, twenty years sworn, can put on the wolf</dd></div><div class="sb-cell"><dt>Casting</dt><dd>The rite, held in the twelve nights after Kūčios: a wake as if he had died, his name whispered to the fire, a throat-mark rubbed with live ash, nine nights without fire, the drowning in the bog, the oath on the skull</dd></div><div class="sb-cell"><dt>Components</dt><dd>A sworn sponsor (the vilktėvis), a sacred flame, bog-iron belt and knife, the oldest bog, the Iron Wolf's skull. Unmarried men of 16 to 25</dd></div><div class="sb-cell"><dt>Cost</dt><dd>His true name, the road up (laid in the bog, never burned), his hearth, part of his soul, a little memory each iron hour, his tears</dd></div><div class="sb-cell"><dt>Duration</dt><dd>For life. New wolves can be made only at a living flame, so the brotherhood ends when the last flame goes out in 1430</dd></div><div class="sb-cell"><dt>Limits</dt><dd>No sleep under a lit roof; the iron hour (a battle-frenzy of about an hour) takes a memory each time; the Root-Mother's healing fails on feast-day iron</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Feast-day iron; consecrated stone; the hungry dead, who are drawn to a wolf like moths to a lantern</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>The gifts.</em></strong> The sight of the dvasios, night-sight and scent, the Root-Mother's healing, cold and wet as nothing, pack-sense, the iron hour. It is not shape-change.</p><p class="sb-entry"><strong><em>Half-wrong folk belief.</em></strong> Peasants think all vilkatai become wolves. Only the Seniai can put on the wolf.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Putting on the wolf.</em></strong> Real flesh, granted by the Root-Mother. Each time they come back less. The last time, they do not come back, and run into the Dykra on four feet.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Gediminid blood.</em></strong> Rule 2 of the Pack's Word: breaking it gives the wolf to the Root-Mother at once. He goes into the bog alive.</p><p class="sb-entry"><strong><em>Lying on the skull.</em></strong> Every wolf in the Dykra hears it.</p><p class="sb-entry"><strong><em>Leaving.</em></strong> Once, if someone who knew his true name speaks it at a living flame and offers bread on a knife-point. He loses every gift and ages the years in one winter.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/the-iron-wolves.html">iron_wolves.md §4</a>-7 · <a href="../codex/power-systems.html">power_systems.md §3</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D10 · <a href="../books/book3.html">Book III ch. 7</a>, 9 · <a href="../books/book5.html">Book V ch. 29</a> · wiki/magic/wolf_change</div></div>
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p><strong>Vilkų krikštas</strong>, the Wolves’ Baptism: <em>granted</em> power from the <a href="../forces/root_mother.html">Root-Mother</a> through the Dykra. It makes a man a <em>vilkatas</em>: night-sight, scent, sight of the dvasios, the Root-Mother’s healing and the berserk “iron hour”. It is not shape-change.</p>

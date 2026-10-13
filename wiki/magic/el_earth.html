@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Countered by:</strong> <a href="../magic/iron_gift.html">Iron Saint’s fearlessness</a></p>
 <p><strong>Deity:</strong> <a href="../gods/zemyna.html">Žemyna</a></p>
 <p><strong>Used by:</strong> <a href="../magic/kalba.html">Senovės Kalba</a></p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Žemė (Earth) (spell)">
+<div class="sb-name">Žemė (Earth)</div>
+<div class="sb-sub">Žemė tau laikys · Unmovable Will, the Earth working</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>Element</dt><dd>Earth · deity Žemyna. Zenith Dagotuvės, autumn-equinox dusk (about 14-15 September)</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 (minor, one element) or 3 and up; the last Samogitian žynys Kantaudas cast it at Salynas (<a href="../books/book2.html">Book II ch. 19</a>)</dd></div><div class="sb-cell"><dt>Casting</dt><dd><em>Žemė tau laikys</em> aloud. <em>Man</em> for oneself holds more firmly, but only me</dd></div><div class="sb-cell"><dt>Components</dt><dd>Bare earth; true intent</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Minor: stiffness. Major: petrification for the length of the effect, and a permanent loss of grace</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length to a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Impossible at sea or in the air. The earth remembers the working as residue</dd></div><div class="sb-cell"><dt>Counters</dt><dd>The Iron Saint's knights are immune to Earth's terror; consecrated stone doubles the cost; the sea and the air</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Unmovable Will.</em></strong> Stillness and endurance, a will that does not bend. Cast on another it holds him.</p><p class="sb-entry"><strong><em>Vorskla.</em></strong> Vytautas, fleeing, says <em>Žemė man laikys</em>: he goes rooted and heavy, his horse freezes and a patrol's eyes slide off him (<a href="../books/book2.html">Book II ch. 27</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Petrification.</em></strong> Kantaudas turns to river-stone from the hand upward before the oak the axemen fell at Salynas: let it take me, let them see what they are cutting (<a href="../books/book2.html">Book II ch. 19</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>An earth-debt.</em></strong> Žemyna's price for desecration is separate from any working. After a village burns, a red blister and a cold pebble (<a href="../books/book1.html">Book I ch. 20</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../books/book1.html">Book I ch. 3</a>, 20 · <a href="../books/book2.html">Book II ch. 19</a>, 27 · wiki/magic/el_earth</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -467,6 +526,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -480,16 +543,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Zenith</strong></td>
 <td>Dagotuvės</td>
 </tr>
+<tr class="even">
+<td><strong>Note</strong></td>
+<td>Žemė (Earth): the element of unmovable will, enduring bone, and physical foundation.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Žemė (Earth) (spell)">
-<div class="sb-name">Žemė (Earth)</div>
-<div class="sb-sub">Žemė tau laikys · Unmovable Will, the Earth working</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>Element</dt><dd>Earth · deity Žemyna. Zenith Dagotuvės, autumn-equinox dusk (about 14-15 September)</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 (minor, one element) or 3 and up; the last Samogitian žynys Kantaudas cast it at Salynas (<a href="../books/book2.html">Book II ch. 19</a>)</dd></div><div class="sb-cell"><dt>Casting</dt><dd><em>Žemė tau laikys</em> aloud. <em>Man</em> for oneself holds more firmly, but only me</dd></div><div class="sb-cell"><dt>Components</dt><dd>Bare earth; true intent</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Minor: stiffness. Major: petrification for the length of the effect, and a permanent loss of grace</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length to a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Impossible at sea or in the air. The earth remembers the working as residue</dd></div><div class="sb-cell"><dt>Counters</dt><dd>The Iron Saint's knights are immune to Earth's terror; consecrated stone doubles the cost; the sea and the air</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Unmovable Will.</em></strong> Stillness and endurance, a will that does not bend. Cast on another it holds him.</p><p class="sb-entry"><strong><em>Vorskla.</em></strong> Vytautas, fleeing, says <em>Žemė man laikys</em>: he goes rooted and heavy, his horse freezes and a patrol's eyes slide off him (<a href="../books/book2.html">Book II ch. 27</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Petrification.</em></strong> Kantaudas turns to river-stone from the hand upward before the oak the axemen fell at Salynas: let it take me, let them see what they are cutting (<a href="../books/book2.html">Book II ch. 19</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>An earth-debt.</em></strong> Žemyna's price for desecration is separate from any working. After a village burns, a red blister and a cold pebble (<a href="../books/book1.html">Book I ch. 20</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../books/book1.html">Book I ch. 3</a>, 20 · <a href="../books/book2.html">Book II ch. 19</a>, 27 · wiki/magic/el_earth</div></div>
 <section id="deity-zenith" class="level2">
 <h2 class="anchored" data-anchor-id="deity-zenith">Deity &amp; zenith</h2>
 <p><strong>Deity:</strong> <a href="../gods/zemyna.html">Žemyna</a>. <strong>Incantation:</strong> <em>Žemė tau laikys</em> (“Earth for you shall hold”), <em>man</em> for oneself. <strong>Medium:</strong> bare earth. <strong>Zenith:</strong> Dagotuvės, autumn-equinox dusk (~14–15 September): cost <strong>halved</strong>. <strong>Off zenith:</strong> the working is <strong>impossible</strong> at sea or in the air. Her price for desecration (<a href="../books/book1.html">Book I ch.&nbsp;20</a>) is a separate matter: an earth-debt, not a working.</p>

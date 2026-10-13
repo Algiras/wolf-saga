@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Anchored by:</strong> <a href="../artifacts/pebble.html">Motinos gintaras (Birutė’s pebble)</a> (1382–1384) — <em>Kęstutis’s apparition at the pyre is carried by Birutė’s amber.</em></p>
+<div class="statblock sb-creature sb-compact" role="group" aria-label="Vaiduokliai (apparitions) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Vaiduokliai (apparitions)</div>
+<div class="sb-sub">Apparitions · Baltic folk belief, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] ghosts, the visible return of the dead · [Saga] the land's memory replaying</p>
+<p class="sb-prop"><strong>Tier</strong> Residue · the Law of Memory, not a spirit</p>
+<p class="sb-prop"><strong>Danger</strong> I nuisance, before and after</p>
+<p class="sb-prop"><strong>Habitat</strong> Places of great working or great grief: the Krėva cell, the Palanga stone</p>
+<p class="sb-prop"><strong>Wants</strong> Nothing. Most have no one inside</p>
+<p class="sb-prop"><strong>Takes</strong> Nothing, beyond wasted offerings from those who mistake one for a vėlė</p>
+<p class="sb-prop"><strong>Signs</strong> The same figure at the same hour. Amber shows them most clearly, because amber stores memory</p>
+<p class="sb-prop"><strong>Banes</strong> None needed. To lay one, change the place</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk confuse them with vėlės. A vėlė can use one as a mask, but most apparitions are pictures with no one inside, so most ghosts cannot be fed or bargained with.</p><p class="sb-entry"><strong><em>More after 1387.</em></strong> Unchanged in nature, but the Unbinding is a century of grief, and grief leaves pictures.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Replaying.</em></strong> Shows the same strong feeling, at the same place and hour.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Laying one.</em></strong> Burn the room or fell the tree. The memory goes with it.</p><p class="sb-entry"><strong><em>Mistaking one for a vėlė.</em></strong> Wasted offerings, and false hope.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §17</a> · <a href="../codex/magic-rules.html">magic_rules.md §5.3</a> · world_graph.json (pebble anchors vaiduokliai) · <a href="../books/book1.html">Book I ch. 23</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -484,24 +555,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-compact" role="group" aria-label="Vaiduokliai (apparitions) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Vaiduokliai (apparitions)</div>
-<div class="sb-sub">Apparitions · Baltic folk belief, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] ghosts, the visible return of the dead · [Saga] the land's memory replaying</p>
-<p class="sb-prop"><strong>Tier</strong> Residue · the Law of Memory, not a spirit</p>
-<p class="sb-prop"><strong>Danger</strong> I nuisance, before and after</p>
-<p class="sb-prop"><strong>Habitat</strong> Places of great working or great grief: the Krėva cell, the Palanga stone</p>
-<p class="sb-prop"><strong>Wants</strong> Nothing. Most have no one inside</p>
-<p class="sb-prop"><strong>Takes</strong> Nothing, beyond wasted offerings from those who mistake one for a vėlė</p>
-<p class="sb-prop"><strong>Signs</strong> The same figure at the same hour. Amber shows them most clearly, because amber stores memory</p>
-<p class="sb-prop"><strong>Banes</strong> None needed. To lay one, change the place</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk confuse them with vėlės. A vėlė can use one as a mask, but most apparitions are pictures with no one inside, so most ghosts cannot be fed or bargained with.</p><p class="sb-entry"><strong><em>More after 1387.</em></strong> Unchanged in nature, but the Unbinding is a century of grief, and grief leaves pictures.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Replaying.</em></strong> Shows the same strong feeling, at the same place and hour.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Laying one.</em></strong> Burn the room or fell the tree. The memory goes with it.</p><p class="sb-entry"><strong><em>Mistaking one for a vėlė.</em></strong> Wasted offerings, and false hope.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §17</a> · <a href="../codex/magic-rules.html">magic_rules.md §5.3</a> · world_graph.json (pebble anchors vaiduokliai) · <a href="../books/book1.html">Book I ch. 23</a></div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>Ghosts and apparitions: the visible return of the dead, especially those who died violently or left something undone, haunting a place or a person.</p>

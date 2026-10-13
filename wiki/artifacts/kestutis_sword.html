@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -454,6 +507,16 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Created by:</strong> <a href="../characters/kestutis.html">Kęstutis</a> — <em>Forged for him; perkūnėlis ward under the grip.</em></p>
 <p><strong>Held by:</strong> <a href="../characters/kestutis.html">Kęstutis</a> (…–1382) · <a href="../characters/skirgaila.html">Skirgaila</a> (1382–1397) — <em>Taken 1382; kept in his Kyiv chests.</em> · <a href="../factions/iron_wolves.html">Vilkatai (Iron Wolves)</a> (1397–1400) — <em>Skirgaila’s Kyiv chests pass to the wolves; recovered by Vytautas in spring 1400.</em> · <a href="../characters/vytautas.html">Vytautas</a> (1400–1430) — <em>After 1430 whereabouts unknown.</em></p>
+<div class="statblock sb-card sb-item" role="group" aria-label="Šerno kalavijas (Kęstutis's sword) (item)">
+<div class="sb-name">Šerno kalavijas (Kęstutis's sword)</div>
+<div class="sb-rarity"><em>Šerno kalavijas · Kęstutis's boar-pommel sword, singular</em></div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Bearing</strong> A warded oath-blade. It keeps its bearer's word under Perkūnas's eye while the perkūnėlis is clean, and recognises its bearer each morning</p>
+<p class="sb-prop"><strong>Holders</strong> Kęstutis (forged c. 1330) to 15 Aug 1382 → Skirgaila 1382 to 11 Jan 1397 → the Iron Wolves 1397 to spring 1400 → Vytautas spring 1400 to 27 Oct 1430 → unknown after 1430</p>
+<p class="sb-prop"><strong>Power</strong> A warded oath-blade: the instrument of Vytautas's blood-oath at Grunwald (14-15 Jul 1410)</p>
+<p class="sb-prop"><strong>Rule &amp; cost</strong> Rust spreads along the blade with every oath broken in the family. After Grunwald a thin bright silver line from guard to point survives</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A broad sword with a boar's head on the pommel, a perkūnėlis (thunder-cross) burned into the metal beneath the grip by Kęstutis himself. It hung over the Trakai hall stairs.</p><p class="sb-entry"><strong><em>Rust.</em></strong> Rust begins with the cracks of 1380 and the Pact failing. Counted breaches: Dovydiškės, Skirgaila's safe-conduct, Vytautas's false baptism, the Order oath, Lyck, the Vorskla.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>A family's oaths.</em></strong> The rust is the family's broken oaths written on the blade. Vytautas leaves it unpolished: Rūdys yra sąskaita, rust is the account (<a href="../books/book3.html">Book III ch. 2</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Handed down by theft.</em></strong> Skirgaila's men take it at the gate when Kęstutis is disarmed. It goes into one of twelve oak chests at Kyiv, 11 Jan 1397, and passes to the wolves; Vytautas has it from spring 1400.</p><p class="sb-entry"><strong><em>Sworn.</em></strong> The rust stops spreading after the Grunwald oath. It stands by the door at his death. After 1430 no fate is given.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · world_graph.json (holds) · <a href="../books/book1.html">Book I ch. 2</a>, 6 · <a href="../books/book2.html">Book II ch. 1</a>, 11, 16 · <a href="../books/book3.html">Book III ch. 2</a>, 17, 28 · <a href="../books/book4.html">Book IV ch. 29</a> · wiki/artifacts/kestutis_sword</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -466,6 +529,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -475,20 +542,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Years</strong></td>
 <td>made 1330</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Šerno kalavijas: Kęstutis’s boar-pommel broadsword forged with a perkūnėlis ward.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-item" role="group" aria-label="Šerno kalavijas (Kęstutis's sword) (item)">
-<div class="sb-name">Šerno kalavijas (Kęstutis's sword)</div>
-<div class="sb-rarity"><em>Šerno kalavijas · Kęstutis's boar-pommel sword, singular</em></div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Bearing</strong> A warded oath-blade. It keeps its bearer's word under Perkūnas's eye while the perkūnėlis is clean, and recognises its bearer each morning</p>
-<p class="sb-prop"><strong>Holders</strong> Kęstutis (forged c. 1330) to 15 Aug 1382 → Skirgaila 1382 to 11 Jan 1397 → the Iron Wolves 1397 to spring 1400 → Vytautas spring 1400 to 27 Oct 1430 → unknown after 1430</p>
-<p class="sb-prop"><strong>Power</strong> A warded oath-blade: the instrument of Vytautas's blood-oath at Grunwald (14-15 Jul 1410)</p>
-<p class="sb-prop"><strong>Rule &amp; cost</strong> Rust spreads along the blade with every oath broken in the family. After Grunwald a thin bright silver line from guard to point survives</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A broad sword with a boar's head on the pommel, a perkūnėlis (thunder-cross) burned into the metal beneath the grip by Kęstutis himself. It hung over the Trakai hall stairs.</p><p class="sb-entry"><strong><em>Rust.</em></strong> Rust begins with the cracks of 1380 and the Pact failing. Counted breaches: Dovydiškės, Skirgaila's safe-conduct, Vytautas's false baptism, the Order oath, Lyck, the Vorskla.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>A family's oaths.</em></strong> The rust is the family's broken oaths written on the blade. Vytautas leaves it unpolished: Rūdys yra sąskaita, rust is the account (<a href="../books/book3.html">Book III ch. 2</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Handed down by theft.</em></strong> Skirgaila's men take it at the gate when Kęstutis is disarmed. It goes into one of twelve oak chests at Kyiv, 11 Jan 1397, and passes to the wolves; Vytautas has it from spring 1400.</p><p class="sb-entry"><strong><em>Sworn.</em></strong> The rust stops spreading after the Grunwald oath. It stands by the door at his death. After 1430 no fate is given.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · world_graph.json (holds) · <a href="../books/book1.html">Book I ch. 2</a>, 6 · <a href="../books/book2.html">Book II ch. 1</a>, 11, 16 · <a href="../books/book3.html">Book III ch. 2</a>, 17, 28 · <a href="../books/book4.html">Book IV ch. 29</a> · wiki/artifacts/kestutis_sword</div></div>
 <section id="description" class="level2">
 <h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>A broad sword with a boar’s head on the pommel, the sword that hung over the Trakai hall stairs (<a href="../books/book3.html">Book III ch.&nbsp;2</a>). Beneath the grip is a <em>perkūnėlis</em>, a thunder-cross burned into the metal by Kęstutis himself.</p>

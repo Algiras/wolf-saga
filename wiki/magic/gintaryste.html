@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -457,6 +510,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Binds:</strong> <a href="../magic/kalba.html">Senovės Kalba</a> — <em>Amber is the universal medium for Kalba.</em></p>
 <p><strong>Patrons:</strong> <a href="../gods/saule.html">Saulė</a> — <em>Amber = Saulė’s tears.</em></p>
 <p><strong>Practitioners:</strong> <a href="../characters/birute.html">Birutė</a> (…–1384) — tier 4 · <a href="../characters/vytautas.html">Vytautas</a> (1382–…) — tier 1 — <em>Only through Birutė’s pebble; he is no amber-craftsman.</em></p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Gintarystė (amber-craft) (spell)">
+<div class="sb-name">Gintarystė (amber-craft)</div>
+<div class="sb-sub">Gintarystė · amber-craft, the universal medium</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power · Saulė's grief as the medium all five elements accept</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 4 works it fully (the Palanga line, Birutė). Any bearer can release charged amber with the right word (tier 0)</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Breathe a working into amber. Anchoring adds the caster's blood</dd></div><div class="sb-cell"><dt>Components</dt><dd>Amber from the shore, taken with an offering; the caster's blood for an anchor; a word to release</dd></div><div class="sb-cell"><dt>Cost</dt><dd>The anchoring caster pays for every working done through the anchor: Birutė paid in voice and sight from Palanga. Amber taken after a storm without an offering goes cold for its whole life</dd></div><div class="sb-cell"><dt>Duration</dt><dd>Charged amber holds until released. An anchor holds until a second one breaks it</dd></div><div class="sb-cell"><dt>Limits</dt><dd>One anchor per caster at a time. Amber answers to the bearer's truth, not belief</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Consecrated stone chills it; the Order's Bernsteinmeister burn charged amber in consecrated furnaces; the Order's sword</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Four forms.</em></strong> Raw amber carries any working. Charged amber is released later by the bearer. Anchored amber links caster and bearer across any distance. Memory amber takes a last memory from one who dies holding it.</p><p class="sb-entry"><strong><em>The barometer.</em></strong> The pebble: warm when freely given, a faint light in the dark, dead at the false baptism, burning at Žemyna's price, hot at an honest choice, glowing at a baptism honest about its dishonesty.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Distance.</em></strong> With an anchor distance is free, so Birutė reached Krėva from Palanga. Her bill was her voice and sight.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>A second anchor.</em></strong> Breaks the first.</p><p class="sb-entry"><strong><em>The unoffered.</em></strong> Shore-amber taken without an offering stays cold for life. Hanseatic merchants carry boxes of dead amber and never know.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.5</a> · <a href="../codex/magic-rules.html">magic_rules.md §3.4</a>, §5.3-5.4 · <a href="../books/book1.html">Book I ch. 3</a>, 14-25, 19, 20, 23, 29 · wiki/magic/gintaryste</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -469,6 +528,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -478,16 +541,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Family</strong></td>
 <td>asked</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Gintarystė: amber-craft, resonance, and memory transmission through fossil resin.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Gintarystė (amber-craft) (spell)">
-<div class="sb-name">Gintarystė (amber-craft)</div>
-<div class="sb-sub">Gintarystė · amber-craft, the universal medium</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power · Saulė's grief as the medium all five elements accept</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 4 works it fully (the Palanga line, Birutė). Any bearer can release charged amber with the right word (tier 0)</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Breathe a working into amber. Anchoring adds the caster's blood</dd></div><div class="sb-cell"><dt>Components</dt><dd>Amber from the shore, taken with an offering; the caster's blood for an anchor; a word to release</dd></div><div class="sb-cell"><dt>Cost</dt><dd>The anchoring caster pays for every working done through the anchor: Birutė paid in voice and sight from Palanga. Amber taken after a storm without an offering goes cold for its whole life</dd></div><div class="sb-cell"><dt>Duration</dt><dd>Charged amber holds until released. An anchor holds until a second one breaks it</dd></div><div class="sb-cell"><dt>Limits</dt><dd>One anchor per caster at a time. Amber answers to the bearer's truth, not belief</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Consecrated stone chills it; the Order's Bernsteinmeister burn charged amber in consecrated furnaces; the Order's sword</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Four forms.</em></strong> Raw amber carries any working. Charged amber is released later by the bearer. Anchored amber links caster and bearer across any distance. Memory amber takes a last memory from one who dies holding it.</p><p class="sb-entry"><strong><em>The barometer.</em></strong> The pebble: warm when freely given, a faint light in the dark, dead at the false baptism, burning at Žemyna's price, hot at an honest choice, glowing at a baptism honest about its dishonesty.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Distance.</em></strong> With an anchor distance is free, so Birutė reached Krėva from Palanga. Her bill was her voice and sight.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>A second anchor.</em></strong> Breaks the first.</p><p class="sb-entry"><strong><em>The unoffered.</em></strong> Shore-amber taken without an offering stays cold for life. Hanseatic merchants carry boxes of dead amber and never know.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.5</a> · <a href="../codex/magic-rules.html">magic_rules.md §3.4</a>, §5.3-5.4 · <a href="../books/book1.html">Book I ch. 3</a>, 14-25, 19, 20, 23, 29 · wiki/magic/gintaryste</div></div>
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Amber-craft: <strong>Saulė’s grief</strong> as the universal medium. Amber stores memory and carries workings, and it is the only medium that all five elements accept (<a href="../magic/kalba.html">Kalba</a>).</p>

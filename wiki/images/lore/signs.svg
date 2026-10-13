@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 760" role="img" aria-labelledby="t d">
+  <title id="t">Chart of twelve carved signs (ženklai)</title>
+  <desc id="d">Twelve simple glyphs drawn as strokes: sun-wheel, thunder-cross, grass-snake zigzag, Laima's tree, star, roof-horses, moon-hook, wolf-sign, tow-knot, warding face-marks, Austras tree and birch-bark notches.</desc>
+  <rect width="880" height="760" fill="#f3e6c4"/>
+  <rect x="12" y="12" width="856" height="736" fill="none" stroke="#58180D" stroke-width="3"/>
+  <rect x="20" y="20" width="840" height="720" fill="none" stroke="#58180D" stroke-width="1"/>
+  <text x="440" y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#58180D" font-weight="bold">Ženklai: the carved signs</text>
+  <line x1="260" y1="76" x2="620" y2="76" stroke="#58180D" stroke-width="1.5"/>
+  <g fill="none" stroke="#58180D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- cell centres: x 130,350,570,790 ; y 190,400,610 -->
+    <!-- 1 Saulute: sun wheel -->
+    <g transform="translate(130,190)">
+      <circle r="22"/><circle r="40"/>
+      <path d="M0-40V-62M0 40V62M-40 0H-62M40 0H62M-28-28L-44-44M28-28L44-44M-28 28L-44 44M28 28L44 44"/>
+    </g>
+    <!-- 2 Perkunelis: thunder cross -->
+    <g transform="translate(350,190)">
+      <path d="M0-60V60M-60 0H60"/>
+      <path d="M-14-60H14M-14 60H14M-60-14V14M60-14V14"/>
+      <path d="M-18-18L-6-6M18-18L6-6M-18 18L-6 6M18 18L6 6" stroke-width="3"/>
+    </g>
+    <!-- 3 Zalciukas: zigzag -->
+    <g transform="translate(570,190)">
+      <path d="M-66 20L-44-20L-22 20L0-20L22 20L44-20L66 20"/>
+      <path d="M-66 44L-44 4L-22 44L0 4L22 44L44 4L66 44" stroke-width="3"/>
+    </g>
+    <!-- 4 Laimos medis -->
+    <g transform="translate(790,190)">
+      <path d="M0 62V-62"/>
+      <path d="M0-30L-34-6M0-30L34-6M0 0L-44 28M0 0L44 28M0 30L-30 52M0 30L30 52"/>
+      <circle cy="-66" r="5" fill="#58180D"/>
+    </g>
+    <!-- 5 Zvaigzdute: eight-point star -->
+    <g transform="translate(130,400)">
+      <path d="M0-62V62M-62 0H62M-44-44L44 44M-44 44L44-44"/>
+      <circle r="9"/>
+    </g>
+    <!-- 6 Zirgeliai: roof ridge with horse heads -->
+    <g transform="translate(350,400)">
+      <path d="M-62 40L0-22L62 40"/>
+      <path d="M-62 40L-76 14L-56 8M62 40L76 14L56 8"/>
+      <path d="M-22 40V62H22V40" stroke-width="3"/>
+      <path d="M-76 14L-70 2M76 14L70 2" stroke-width="3"/>
+    </g>
+    <!-- 7 Menulio pjautuvas -->
+    <g transform="translate(570,400)">
+      <path d="M26-56A58 58 0 1 0 26 56A44 44 0 1 1 26-56Z"/>
+    </g>
+    <!-- 8 Vilko zenklas -->
+    <g transform="translate(790,400)">
+      <circle r="58" stroke-width="3"/>
+      <path d="M-26-40L-8 38M2-44L8 44M30-40L22 38"/>
+    </g>
+    <!-- 9 Pakulu mazgas -->
+    <g transform="translate(130,610)">
+      <path d="M-24-4C-60-40-60 40-24 4C-4-16 4 16 24-4C60-40 60 40 24 4C4-16-4 16-24-4Z" transform="scale(1.1)"/>
+      <path d="M-14 22L-26 58M14 22L26 58" stroke-width="4"/>
+    </g>
+    <!-- 10 Face marks -->
+    <g transform="translate(350,610)">
+      <ellipse rx="40" ry="56" stroke-width="3"/>
+      <path d="M-26-24L-8-24M8-24L26-24M-26 0L-8 0M8 0L26 0M-26 24L-8 24M8 24L26 24"/>
+      <path d="M0-40V-34M0 34V40" stroke-width="4"/>
+    </g>
+    <!-- 11 Austras -->
+    <g transform="translate(570,610)">
+      <path d="M0 62V-40"/>
+      <path d="M0 40L-30 14M0 40L30 14M0 14L-26-10M0 14L26-10M0-10L-18-30M0-10L18-30"/>
+      <circle cy="-52" r="12"/>
+    </g>
+    <!-- 12 Birch-bark notches -->
+    <g transform="translate(790,610)">
+      <path d="M-40-60V60M0-60V60M40-60V60" stroke-width="3"/>
+      <path d="M-40-30H-14M0 0H26M40 30H14M-40 40H-22M0-36H14"/>
+    </g>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#58180D" text-anchor="middle">
+    <g font-size="18" font-weight="bold">
+      <text x="130" y="288">1 Saulutė</text><text x="350" y="288">2 Perkūnėlis</text><text x="570" y="288">3 Žalčiukas</text><text x="790" y="288">4 Laimos medis</text>
+      <text x="130" y="498">5 Žvaigždutė</text><text x="350" y="498">6 Žirgeliai</text><text x="570" y="498">7 Mėnulio pjautuvas</text><text x="790" y="498">8 Vilko ženklas</text>
+      <text x="130" y="708">9 Pakulų mazgas</text><text x="350" y="708">10 Apsaugos ženklai</text><text x="570" y="708">11 Austras</text><text x="790" y="708">12 Tošies įpjovos</text>
+    </g>
+    <g font-size="15" font-style="italic">
+      <text x="130" y="308">sun-wheel</text><text x="350" y="308">thunder-cross</text><text x="570" y="308">grass-snake zigzag</text><text x="790" y="308">Laima's tree</text>
+      <text x="130" y="518">star</text><text x="350" y="518">roof-horses</text><text x="570" y="518">moon-hook</text><text x="790" y="518">wolf-sign</text>
+      <text x="130" y="728">tow-knot</text><text x="350" y="728">warding face-marks</text><text x="570" y="728">Austras tree</text><text x="790" y="728">birch-bark notches</text>
+    </g>
+  </g>
+</svg>

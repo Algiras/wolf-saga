@@ -30,6 +30,7 @@ book:
         href: ../wiki/
   chapters:
     - index.qmd
+    - map.qmd
     - part: "Sušalę Pumpurai"
       chapters:
         - 01_susale_pumpurai.qmd

@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,22 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Feud with:</strong> <a href="../gods/perkunas.html">Perkūnas</a> — <em>Folk: Perkūnas cuts the Moon each month.</em></p>
 <p><strong>Patron of:</strong> <a href="../magic/el_water.html">Vanduo (Water)</a> — <em>Tides set Bangpūtys’s zenith.</em></p>
 <p><strong>Spouse:</strong> <a href="../gods/saule.html">Saulė</a> — <em>Folk (daina): the first spring.</em></p>
+<div class="statblock sb-god sb-compact" role="group" aria-label="Mėnuo (god)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Mėnuo</div>
+<div class="sb-sub">The Moon · folk daina (Rhesa, 1825); no medieval cult recorded</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Domain</strong> The Moon, tides, the faithless husband</p>
+<p class="sb-prop"><strong>Layer</strong> God (Layer I) · patron of Water, not its source</p>
+<p class="sb-prop"><strong>Force-face</strong> None</p>
+<p class="sb-prop"><strong>Offerings</strong> None recorded, and the saga adds none</p>
+<p class="sb-prop"><strong>Taboos</strong> Breaking a sworn oath (people swear by the Moon when afraid of breaking it)</p>
+<p class="sb-prop"><strong>Signs</strong> The full moon; the phases as his wound; amber ashore at the full moon, Saulė's tears returned</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Answers</div><p class="sb-entry"><strong><em>The tides.</em></strong> His phases fix Bangpūtys's zenith: full moon, high tide, the spring ice-break.</p><p class="sb-entry"><strong><em>A law.</em></strong> He is not an actor but a calendar and a lesson: the oath-breaker is cut and the seducer goes free.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Refuses</div><p class="sb-entry"><strong><em>Forgiveness.</em></strong> He heals each month, goes back to Aušrinė, and Perkūnas cuts him again.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The cut.</em></strong> The Moon healed, and was cut again. A comfort after punishment, and a threat.</p><p class="sb-entry"><strong><em>Mėnuo's sin.</em></strong> The saga reads Vytautas's false baptism of 1383 as his sin.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §7</a> · <a href="../codex/magic-rules.html">magic_rules.md §3.3</a> · wiki/gods/menuo</div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -472,26 +541,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Type</strong></td>
 <td>god</td>
 </tr>
+<tr class="even">
+<td><strong>Note</strong></td>
+<td>The Moon god; night warrior, celestial husband of Saulė.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-god sb-compact" role="group" aria-label="Mėnuo (god)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Mėnuo</div>
-<div class="sb-sub">The Moon · folk daina (Rhesa, 1825); no medieval cult recorded</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Domain</strong> The Moon, tides, the faithless husband</p>
-<p class="sb-prop"><strong>Layer</strong> God (Layer I) · patron of Water, not its source</p>
-<p class="sb-prop"><strong>Force-face</strong> None</p>
-<p class="sb-prop"><strong>Offerings</strong> None recorded, and the saga adds none</p>
-<p class="sb-prop"><strong>Taboos</strong> Breaking a sworn oath (people swear by the Moon when afraid of breaking it)</p>
-<p class="sb-prop"><strong>Signs</strong> The full moon; the phases as his wound; amber ashore at the full moon, Saulė's tears returned</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Answers</div><p class="sb-entry"><strong><em>The tides.</em></strong> His phases fix Bangpūtys's zenith: full moon, high tide, the spring ice-break.</p><p class="sb-entry"><strong><em>A law.</em></strong> He is not an actor but a calendar and a lesson: the oath-breaker is cut and the seducer goes free.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Refuses</div><p class="sb-entry"><strong><em>Forgiveness.</em></strong> He heals each month, goes back to Aušrinė, and Perkūnas cuts him again.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The cut.</em></strong> The Moon healed, and was cut again. A comfort after punishment, and a threat.</p><p class="sb-entry"><strong><em>Mėnuo's sin.</em></strong> The saga reads Vytautas's false baptism of 1383 as his sin.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §7</a> · <a href="../codex/magic-rules.html">magic_rules.md §3.3</a> · wiki/gods/menuo</div><div class="sb-bar"></div></div>
 <section id="folk-sources-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-sources-record">Folk sources [Record]</h2>
 <p><em>Mėnuo</em> is both “the Moon” and “month” (cognate with English <em>moon</em> and <em>month</em>). He is a <em>dievaitis</em>, a son of Dievas, in folk reckoning; the Baltic moon is male. The main source is a mythological <em>daina</em> (“Mėnuo Saulužę vedė / Pirmą pavasarėlį”), printed in Rhesa’s collection (1825; verify) and variants: in the first spring the Moon married the Sun; he wandered off at night and fell in love with Aušrinė, the morning star; Perkūnas, enraged, cut the Moon in two with his sword. The waxing and waning are the wound. Other variants have the couple divorce, with their daughter Žemyna seen by sun by day and moon by night, or the Moon’s face disfigured by Dievas or Saulė. No medieval source names him as an object of cult; his reconstructed role is folkloric. The myth is usually read as a law of marital and oath fidelity.</p>

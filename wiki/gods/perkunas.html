@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -454,27 +507,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Feud with:</strong> <a href="../gods/bangputys.html">Bangpūtys</a> · <a href="../gods/jurate.html">Jūratė</a> · <a href="../gods/menuo.html">Mėnuo</a> — <em>Folk: Perkūnas cuts the Moon each month.</em></p>
 <p><strong>Force-faces:</strong> <a href="../forces/perkuno_rustybe.html">Perkūno Rūstybė</a></p>
 <p><strong>Patron of:</strong> <a href="../magic/priesaika.html">Priesaika (oath-binding)</a></p>
-</section>
-<div class="infobox">
-<div class="infobox-title">
-<p>Perkūnas</p>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../images/perkunas.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Perkūnas · god"><img src="../images/perkunas.jpg" class="infobox-img img-fluid figure-img" alt="Perkūnas"></a></p>
-<figcaption>Perkūnas · god</figcaption>
-</figure>
-</div>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>god</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
 <div class="statblock sb-god sb-wide" role="group" aria-label="Perkūnas (god)">
 <div class="sb-bar"></div><div class="sb-body">
 <div class="sb-name">Perkūnas</div>
@@ -491,6 +523,35 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Refuses</div><p class="sb-entry"><strong><em>Mercy.</em></strong> He strikes his own as readily as others. A claimed man can only keep faith.</p><p class="sb-entry"><strong><em>Velnias.</em></strong> Gives him no shelter. Perkūnas does not stop for whoever stands in front of the guilty.</p><p class="sb-entry"><strong><em>Bargains.</em></strong> He keeps oaths. That is all he is.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The oath-keeper pays too.</em></strong> Kęstutis pays for every word since the ox oath (<a href="../books/book6.html">Book VI ch. 28</a>).</p><p class="sb-entry"><strong><em>Collateral.</em></strong> When Perkūnas hunts, the village burns (legends §8).</p><p class="sb-entry"><strong><em>Feuds.</em></strong> With Jūratė and Bangpūtys. The old judgment on Jūratė is unfinished, which is why he presses Birutė's son.</p></div>
 </div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §2.1</a>, §3.1 · <a href="../codex/magic-rules.html">magic_rules.md §7</a> · <a href="../codex/power-systems.html">power_systems.md §2.6</a>, §7 · <a href="../codex/legends-songs.html">legends_and_songs.md §1</a>, §7, §8 · <a href="../books/book1.html">Book I ch. 1</a>, 8, 10, 19 · wiki/gods/perkunas</div><div class="sb-bar"></div></div>
+</section>
+<div class="infobox">
+<div class="infobox-title">
+<p>Perkūnas</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/perkunas.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Perkūnas · god"><img src="../images/perkunas.jpg" class="infobox-img img-fluid figure-img" alt="Perkūnas"></a></p>
+<figcaption>Perkūnas · god</figcaption>
+</figure>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>god</td>
+</tr>
+<tr class="even">
+<td><strong>Note</strong></td>
+<td>God of thunder, lightning, oak groves, justice, weapons, and warrior oaths.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <section id="folk-sources-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-sources-record">Folk sources [Record]</h2>
 <p>Perkūnas (Latvian <em>Pērkons</em>, Old Prussian <em>Perkūns</em>) is the best-attested Baltic god; his name is also the word for “thunder”. The earliest datable mention is the Lithuanian insert (usually dated c.&nbsp;1261) in the Ruthenian Malalas chronicle, glossing <em>Perkun</em> as “thunder”. The Volhynian Chronicle’s list of Mindaugas’s gods (1252) does not, as usually read, name him. Later witnesses: Mažvydas (1547), Jan Łasicki’s <em>De diis Samagitarum</em> (c.&nbsp;1582, printed 1615), Stryjkowski (1582) and Prätorius (1690s).</p>

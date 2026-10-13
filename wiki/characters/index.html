@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,8 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -302,6 +304,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -433,7 +486,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <tr class="header">
 <th></th>
 <th>Name</th>
-<th>Type</th>
+<th>Description</th>
 <th>Years</th>
 </tr>
 </thead>
@@ -441,331 +494,331 @@ document.addEventListener("DOMContentLoaded", function () {
 <tr class="odd">
 <td><a href="../characters/algirdas.html"><img src="../images/algirdas.jpg" alt="Algirdas" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/algirdas.html">Algirdas</a></td>
-<td>character</td>
+<td>Grand Duke of Lithuania (1345–1377), co-ruler with Kęstutis who expanded the realm deep into Rus’.</td>
 <td>c.&nbsp;1296–1377</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/rogala.html"><img src="../images/rogala.jpg" alt="Baltramiejus Rogala (Oleśnicki's envoy)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/rogala.html">Baltramiejus Rogala (Oleśnicki’s envoy)</a></td>
-<td>character</td>
+<td>The envoy who meets the crown embassy at the Noteć ford in Book IV (Aug 1430); wears Henė’s golden chain.</td>
 <td>?–?</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/birute.html"><img src="../images/birute.jpg" alt="Birutė" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/birute.html">Birutė</a></td>
-<td>character</td>
+<td>Record: death year unknown (Wigand: drowned at Brest on Jogaila’s orders, 1382 or later; at Constance 1416 she was said to have died naturally in old age). Saga: mortal life ends 1384 (ch.&nbsp;27); continues as the Amber Queen.</td>
 <td>c.&nbsp;1330–1384</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/danila.html"><img src="../images/danila.jpg" alt="Danila (Vytautas's scribe)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/danila.html">Danila (Vytautas’s scribe)</a></td>
-<td>character</td>
+<td>Scribe and personal servant to Vytautas in Vilnius and Trakai (<a href="../books/book4.html">Book IV ch.&nbsp;1</a>, 16, 24).</td>
 <td>c.&nbsp;1385–1435</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/danute.html"><img src="../images/danute.jpg" alt="Danutė" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/danute.html">Danutė</a></td>
-<td>character</td>
+<td>Died 1424.</td>
 <td>c.&nbsp;1358–1424</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/dargis.html"><img src="../images/dargis.jpg" alt="Dargis (Palanga fisherman)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/dargis.html">Dargis (Palanga fisherman)</a></td>
-<td>character</td>
+<td>Rimgailė’s husband; runs to the beach when the keeper collapses by the burning statue and carries him in (<a href="../books/book5.html">Book V ch.&nbsp;29</a>).</td>
 <td>?–?</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/edigu.html"><img src="../images/edigu.jpg" alt="Edigu" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/edigu.html">Edigu</a></td>
-<td>character</td>
+<td>Emir of the Nogai Horde and military leader of the Golden Horde; victor over Vytautas at the Vorskla (1399).</td>
 <td>c.&nbsp;1352–1419</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/egle.html"><img src="../images/egle.jpg" alt="Eglė (vaidilutė → Pelkių Eglė)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/egle.html">Eglė (vaidilutė → Pelkių Eglė)</a></td>
-<td>character</td>
+<td>Vaidilutė at Šventaragis grove who witnesses the putting out of the sacred flame in 1387; becomes Pelkių Eglė.</td>
 <td>c.&nbsp;1355–1420</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/elena.html"><img src="../images/elena.jpg" alt="Elena (Ona's maid)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/elena.html">Elena (Ona’s maid)</a></td>
-<td>character</td>
+<td>Stays in Vytautas’s cell; executed. SAGA INVENTION for the name, faith and fate: the Lithuanian Chronicle has Ona persuade a maid to change clothes with Vytautas (Wigand: Ona’s own clothes), but the maid’s name and execution are a 19th-century addition (Narbutt; Book I fact-check item 8).</td>
 <td>c.&nbsp;1360–1382</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/elijas.html"><img src="../images/elijas.jpg" alt="Elijas, son of Mošė (Karaim guard captain)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/elijas.html">Elijas, son of Mošė (Karaim guard captain)</a></td>
-<td>character</td>
+<td>Karaim captain of the Trakai guards; stands at the vault door. His younger son holds the door in 1430.</td>
 <td>?–?</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/galminas.html"><img src="../images/galminas.jpg" alt="Galminas" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/galminas.html">Galminas</a></td>
-<td>character</td>
+<td>Died before 1382 in a raid; reanimated by the Root-Mother. ‘died’ = becomes a grove at Grunwald. SAGA INVENTION (record:false): shares his name only with the historical Jurgis Galminas, Vytautas’s deputy in the 1409 rising, at Constance 1415, Samogitian elder 1432-34 (VLE; en.wikipedia Samogitian uprisings); the Book III afterword says so.</td>
 <td>c.&nbsp;1340–1410</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/gediminas.html"><img src="../images/gediminas.jpg" alt="Gediminas" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/gediminas.html">Gediminas</a></td>
-<td>character</td>
+<td>Grand Duke of Lithuania (1316–1341), founder of the Gediminid dynasty and builder of Vilnius; swore the Silent Pact.</td>
 <td>c.&nbsp;1275–1341</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/gedvile.html"><img src="../images/gedvile.jpg" alt="Gedvilė (Rimgailė's granddaughter)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/gedvile.html">Gedvilė (Rimgailė’s granddaughter)</a></td>
-<td>character</td>
+<td>Eight in 1450, long-legged, scarred knee from climbing on boats; keeps sweeping the stone; mother of the old man (b. c.&nbsp;1459) of the 1553 epilogue (<a href="../books/book5.html">Book V ch.&nbsp;29</a>-30).</td>
 <td>c.&nbsp;1442–?</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/hohenstein.html"><img src="../images/hohenstein.jpg" alt="Günther von Hohenstein (invented Order brother)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/hohenstein.html">Günther von Hohenstein (invented Order brother)</a></td>
-<td>character</td>
+<td>SAGA INVENTION. A young brother of the Order (22 in 1353) who shares a name with a real, older Osterode komtur (c.&nbsp;1310-1380); the third knight at Lake Ublik, translator and meal-bearer at Marienburg 1361, at Kaunas 1362 (Book VI). NOT the 1381 informant: that was Kuno von Liebenstein.</td>
 <td>c.&nbsp;1331–?</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/hanulas.html"><img src="../images/hanulas.jpg" alt="Hanulas (Riga merchant)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/hanulas.html">Hanulas (Riga merchant)</a></td>
-<td>character</td>
+<td>Riga merchant who led the townspeople in taking Vilnius castle for Jogaila on 12 Jun 1382; Jogaila’s deputy (first elder) in Vilnius 1382-87; died in Kraków c.&nbsp;1417-18 (en.wikipedia, VLE). Saga: Henė’s first mask (1380-82).</td>
 <td>c.&nbsp;1340–1418</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/jadvyga.html"><img src="../images/jadvyga.jpg" alt="Jadvyga (Jadwiga)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/jadvyga.html">Jadvyga (Jadwiga)</a></td>
-<td>character</td>
+<td>Queen of Poland (1384–1399); married Jogaila in 1386, uniting Poland and Lithuania; venerated as a saint.</td>
 <td>1373–1399</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/janusz1.html"><img src="../images/janusz1.jpg" alt="Janusz I of Masovia" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/janusz1.html">Janusz I of Masovia</a></td>
-<td>character</td>
+<td>Duke of Warsaw and Czersk; husband of Danutė Kęstutaitė and loyal brother-in-law to Vytautas.</td>
 <td>c.&nbsp;1346–1429</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/jogaila.html"><img src="../images/jogaila.jpg" alt="Jogaila" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/jogaila.html">Jogaila</a></td>
-<td>character</td>
+<td>Grand Duke of Lithuania (1377–1434) and King of Poland (Władysław II Jagiełło from 1386); architect of the Kreva Union.</td>
 <td>c.&nbsp;1362–1434</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/jonas.html"><img src="../images/jonas.jpg" alt="Jonas (vilkų vyresnysis)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/jonas.html">Jonas (vilkų vyresnysis)</a></td>
-<td>character</td>
+<td>Elder of the Iron Wolves who re-assembles the pack after the 1382 purge at Trakai.</td>
 <td>c.&nbsp;1330–1384</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/gostautas.html"><img src="../images/gostautas.jpg" alt="Jonas Goštautas" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/gostautas.html">Jonas Goštautas</a></td>
-<td>character</td>
+<td>Voivode of Trakai, then Vilnius voivode and chancellor; conspirator of the 1432 coup; coordinated the election of Casimir (1440). VLE calls his part in the 1440 murder uncertain.</td>
 <td>?–1458</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/julijona.html"><img src="../images/julijona.jpg" alt="Julijona Alšėniškė" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/julijona.html">Julijona Alšėniškė</a></td>
-<td>character</td>
+<td>Grand Duchess of Lithuania; Vytautas’s second wife (from 1418), daughter of Ivan Olshanski.</td>
 <td>c.&nbsp;?–1448</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/kalvis.html"><img src="../images/kalvis.jpg" alt="Kalvis (the Smith)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/kalvis.html">Kalvis (the Smith)</a></td>
-<td>character</td>
+<td>Leader of the Vilnius packs; guards the 1387 flame; dies at the Vorskla (1399). His ash feeds the flame afterwards.</td>
 <td>c.&nbsp;?–1399</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/kaributas.html"><img src="../images/kaributas.jpg" alt="Kaributas" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/kaributas.html">Kaributas</a></td>
-<td>character</td>
+<td>Duke of Novgorod-Seversky, son of Algirdas; brother to Jogaila and Skirgaila.</td>
 <td>c.&nbsp;1355–1404</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/karigaila.html"><img src="../images/karigaila.jpg" alt="Karigaila (Jogaila's brother)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/karigaila.html">Karigaila (Jogaila’s brother)</a></td>
-<td>character</td>
+<td>Died when the Crooked Castle fell, 16 Sep 1390; his head was carried on a stake round the Lower Castle. Not Kaributas (Dmitry Korybut).</td>
 <td>?–1390</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/kirmele.html"><img src="../images/kirmele.jpg" alt="Kirmėlė / Worm (the Old Tracker)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/kirmele.html">Kirmėlė / Worm (the Old Tracker)</a></td>
-<td>character</td>
+<td>Elder wolf of the Iron Wolves; carried five-year-old Spark from the burning village of Šermukšniai in winter 1395-96 (<a href="../books/book2.html">Book II ch.&nbsp;14</a>); dies at Pabaiskas in 1435, whispering his carried names to Pilkoji (<a href="../books/book5.html">Book V ch.&nbsp;13</a>).</td>
 <td>c.&nbsp;1360–1435</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/zollner.html"><img src="../images/zollner.jpg" alt="Konrad Zöllner von Rotenstein" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/zollner.html">Konrad Zöllner von Rotenstein</a></td>
-<td>character</td>
+<td>Grand Master of the Teutonic Order (1382–1390); oversaw the aftermath of Dovydiškės and the Krėva crisis.</td>
 <td>c.&nbsp;1325–1390</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/konrad_jungingen.html"><img src="../images/konrad_jungingen.jpg" alt="Konrad von Jungingen (Grand Master 1393-1407)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/konrad_jungingen.html">Konrad von Jungingen (Grand Master 1393-1407)</a></td>
-<td>character</td>
+<td>Grand Master 30 Nov 1393 - 30 Mar 1407; elder brother of Ulrich (the saga’s Book II epilogue shows the two at the Marienburg map after Salynas).</td>
 <td>c.&nbsp;1355–1407</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/krivis.html"><img src="../images/krivis.jpg" alt="Krivis of Šventaragis" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/krivis.html">Krivis of Šventaragis</a></td>
-<td>character</td>
+<td>Chief pagan priest of Lithuania at the sacred grove of Šventaragis; keeper of the eternal flame.</td>
 <td>c.&nbsp;1310–1387</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/liebenstein.html"><img src="../images/liebenstein.jpg" alt="Kuno von Liebenstein" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/liebenstein.html">Kuno von Liebenstein</a></td>
-<td>character</td>
+<td>Komtur of Osterode, godfather of Danutė; the Order’s informant who warned Kęstutis of the Dovydiškės treaty in Aug 1381 (Ivinskis 1978, via en.wikipedia; VLE names no informant). Dates unknown.</td>
 <td>?–?</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/kestutis.html"><img src="../images/kestutis.jpg" alt="Kęstutis" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/kestutis.html">Kęstutis</a></td>
-<td>character</td>
+<td>Grand Duke of Lithuania and Duke of Trakai (1345–1382); defender of the pagan west, strangled at Krėva.</td>
 <td>c.&nbsp;1297–1382</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/marquard.html"><img src="../images/marquard.jpg" alt="Marquard von Salzbach" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/marquard.html">Marquard von Salzbach</a></td>
-<td>character</td>
+<td>Komtur of Ragnit; Vytautas’s captive (1384) and adviser (1389), then enemy. Signs Lyck 1390, helps negotiate Salynas 1398, fights at the Vorskla 1399 (Posilge: nine of the Order killed, he is rescued), insults Birutė after Raciąż 1404, beheaded by Vytautas after Grunwald (komtur of Brandenburg). Birth year unknown.</td>
 <td>?–1410</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/mykolas.html"><img src="../images/mykolas.jpg" alt="Mykolas Žygimantaitis" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/mykolas.html">Mykolas Žygimantaitis</a></td>
-<td>character</td>
+<td>Žygimantas Kęstutaitis’s son; commander of the Lithuanians at Pabaiskas (1435); pretender against Casimir after 1440; died in Moscow shortly before 10 Feb 1452. Birth year unknown.</td>
 <td>c.&nbsp;?–1452</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/ona.html"><img src="../images/ona.jpg" alt="Ona" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/ona.html">Ona</a></td>
-<td>character</td>
+<td>Grand Duchess of Lithuania (d.&nbsp;1418); Vytautas’s first wife and steadfast political partner who orchestrated his escape from Krėva.</td>
 <td>c.&nbsp;1352–1418</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/pilkoji.html"><img src="../images/pilkoji.jpg" alt="Pilkoji (the Grey One, Vilkų Motina)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/pilkoji.html">Pilkoji (the Grey One, Vilkų Motina)</a></td>
-<td>character</td>
+<td>Last Mother of the wolves; born c.&nbsp;1365 (38 in 1404, <a href="../books/book3.html">Book III ch.&nbsp;7</a>; 84 in 1449, <a href="../books/book5.html">Book V ch.&nbsp;28</a>). Carries Eglė’s four names (Eglė’s own, her father’s, her mother’s, and the pine she sat under as a child: <a href="../books/book5.html">Book V ch.&nbsp;1</a>); keeps the silver wolf and the pebble from Vytautas’s body until Kūčios 1430; lies down in the oldest bog of the Dykra with the Iron Wolf’s skull (Vėlinės, 2 Nov 1449, <a href="../books/book5.html">Book V ch.&nbsp;28</a>).</td>
 <td>c.&nbsp;1365–1449</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/pusis.html"><img src="../images/pusis.jpg" alt="Pušis (old Kęstutis wolf)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/pusis.html">Pušis (old Kęstutis wolf)</a></td>
-<td>character</td>
+<td>Grey old wolf who served Kęstutis; at Kirmėlė’s exposure in the Trakai vault he says ‘we leave him to the bog, alive’ (<a href="../books/book2.html">Book II ch.&nbsp;11</a>); stands in the Kūčios line of 1405 (<a href="../books/book3.html">Book III ch.&nbsp;9</a>).</td>
 <td>?–?</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/rimgaile_palanga.html"><img src="../images/rimgaile_palanga.jpg" alt="Rimgailė (Palanga fisherwoman)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/rimgaile_palanga.html">Rimgailė (Palanga fisherwoman)</a></td>
-<td>character</td>
+<td>About sixty in 1450; receives the silver wolf from the Flame-Keeper (<a href="../books/book5.html">Book V ch.&nbsp;29</a>-30). Not Kęstutis’s daughter Rimgailė. Husband Dargis; granddaughter Gedvilė.</td>
 <td>c.&nbsp;1390–?</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/samuelis.html"><img src="../images/samuelis.jpg" alt="Samuelis (Elijas's elder son, Karaim)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/samuelis.html">Samuelis (Elijas’s elder son, Karaim)</a></td>
-<td>character</td>
+<td>Leads the family’s prayers; Zacharijas’s older, wiser brother (<a href="../books/book5.html">Book V ch.&nbsp;4</a>).</td>
 <td>?–?</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/sigismund.html"><img src="../images/sigismund.jpg" alt="Sigismund of Luxembourg" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/sigismund.html">Sigismund of Luxembourg</a></td>
-<td>character</td>
+<td>King of Hungary, Croatia, Germany and Bohemia, Holy Roman Emperor; allied with Vytautas and sender of the crown.</td>
 <td>1368–1437</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/skirgaila.html"><img src="../images/skirgaila.jpg" alt="Skirgaila" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/skirgaila.html">Skirgaila</a></td>
-<td>character</td>
+<td>Duke of Trakai and Kyiv, regent of Lithuania; Jogaila’s fierce right hand and governor in Vilnius.</td>
 <td>c.&nbsp;1354–1397</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/sofija.html"><img src="../images/sofija.jpg" alt="Sofija Vytautaitė" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/sofija.html">Sofija Vytautaitė</a></td>
-<td>character</td>
+<td>Grand Princess of Moscow; only child of Vytautas and Ona, regent of Moscow for Vasily II.</td>
 <td>c.&nbsp;1371–1453</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/spyglys.html"><img src="../images/spyglys.jpg" alt="Spyglys (young ash-bearer)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/spyglys.html">Spyglys (young ash-bearer)</a></td>
-<td>character</td>
+<td>Wolf; tends the Trakai vault flame after Kalvis; stays behind when the lantern leaves in 1410.</td>
 <td>?–?</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/tautvilas.html"><img src="../images/tautvilas.jpg" alt="Tautvilas Kęstutaitis (Kondrat)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/tautvilas.html">Tautvilas Kęstutaitis (Kondrat)</a></td>
-<td>character</td>
+<td>Kęstutis’s son; baptised Kondrat 21 Oct 1383; fought with the Order and was killed besieging the Crooked Castle, “believed by a crossbow bolt” (Wigand). Birth year unknown.</td>
 <td>?–1390</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/tokhtamysh.html"><img src="../images/tokhtamysh.jpg" alt="Tokhtamysh" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/tokhtamysh.html">Tokhtamysh</a></td>
-<td>character</td>
+<td>Khan of the Golden Horde; allied with Vytautas after losing his throne to Timur.</td>
 <td>c.&nbsp;1342–1406</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/uliana_tver.html"><img src="../images/uliana_tver.jpg" alt="Uliana of Tver (Julijona Tverietė), Algirdas's second wife" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/uliana_tver.html">Uliana of Tver (Julijona Tverietė), Algirdas’s second wife</a></td>
-<td>character</td>
+<td>Mother of Jogaila, Skirgaila, Kaributas, Švitrigaila and others; Orthodox, a dynast who steered the 1377 succession; died 17 Mar 1391 (en.wikipedia, Uliana of Tver). Not Julijona Alšėniškė (Vytautas’s wife).</td>
 <td>c.&nbsp;1325–1391</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/jungingen.html"><img src="../images/jungingen.jpg" alt="Ulrich von Jungingen" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/jungingen.html">Ulrich von Jungingen</a></td>
-<td>character</td>
+<td>Ulrich von Jungingen, Grand Master of the Teutonic Order (1407–1410); killed at the Battle of Grunwald.</td>
 <td>1360–1410</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/uosis.html"><img src="../images/uosis.jpg" alt="Uosis / Ash (elder wolf)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/uosis.html">Uosis / Ash (elder wolf)</a></td>
-<td>character</td>
+<td>White-muzzled elder wolf of the Iron Wolves; accompanies Pilkoji in 1430; dies in the winter of 1448-49 (<a href="../books/book5.html">Book V ch.&nbsp;28</a>).</td>
 <td>c.&nbsp;1375–1449</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/vasily1.html"><img src="../images/vasily1.jpg" alt="Vasily I of Moscow" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/vasily1.html">Vasily I of Moscow</a></td>
-<td>character</td>
+<td>Grand Prince of Moscow (1389–1425); son of Dmitry Donskoy and husband of Vytautas’s daughter Sophia.</td>
 <td>1371–1425</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/vytautas.html"><img src="../images/vytautas.jpg" alt="Vytautas" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/vytautas.html">Vytautas</a></td>
-<td>character</td>
+<td>Grand Duke of Lithuania (1392–1430); protagonist of the saga, victor of Grunwald, known as Vytautas the Great.</td>
 <td>c.&nbsp;1350–1430</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/vytautas_sons.html"><img src="../images/vytautas_sons.jpg" alt="Vytautas's sons Jurgis and Ivanas (hostages; contested)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/vytautas_sons.html">Vytautas’s sons Jurgis and Ivanas (hostages; contested)</a></td>
-<td>character</td>
+<td>Only a late tradition (Simon Grunau, 16th c.): “Iwan and Georg” poisoned by a knight to avenge the betrayal. No reliable source knows the incident; Sofija is the only child in the record. The saga adopts the tradition (<a href="../books/book2.html">Book II ch.&nbsp;6</a>-10).</td>
 <td>c.&nbsp;1375–1392</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/kniprode.html"><img src="../images/kniprode.jpg" alt="Winrich von Kniprode" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/kniprode.html">Winrich von Kniprode</a></td>
-<td>character</td>
+<td>Grand Master of the Teutonic Order (1351–1382); longest-serving Grand Master during the height of the Baltic crusade.</td>
 <td>c.&nbsp;1310–1382</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/zacharijas.html"><img src="../images/zacharijas.jpg" alt="Zacharijas (Elijas's younger son, Karaim)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/zacharijas.html">Zacharijas (Elijas’s younger son, Karaim)</a></td>
-<td>character</td>
+<td>Holds the Trakai vault door in 1430 and tends the old brass lantern after the flame goes out (<a href="../books/book5.html">Book V ch.&nbsp;4</a>); wife Sara.</td>
 <td>?–?</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/olesnicki.html"><img src="../images/olesnicki.jpg" alt="Zbigniew Oleśnicki" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/olesnicki.html">Zbigniew Oleśnicki</a></td>
-<td>character</td>
+<td>Born 5 Dec 1389; royal secretary to Jogaila from about age 20 (c.&nbsp;1409-10); fought at Grunwald (15 Jul 1410); bishop of Kraków from 9 Jul 1423 (so no bishop’s ring in 1411); cardinal created 18 Dec 1439 by Eugene IV (the antipope Felix V also named him, 20 Jan 1440); died 1 Apr 1455 at Sandomierz (en.wikipedia).</td>
 <td>1389–1455</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/svitrigaila.html"><img src="../images/svitrigaila.jpg" alt="Švitrigaila" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/svitrigaila.html">Švitrigaila</a></td>
-<td>character</td>
+<td>Grand Duke of Lithuania (1430–1432), youngest son of Algirdas; rival to Žygimantas in the brutal civil war.</td>
 <td>c.&nbsp;1370–1452</td>
 </tr>
 <tr class="even">
 <td><a href="../characters/flame_keeper.html"><img src="../images/flame_keeper.jpg" alt="Žiežirba (the Flame-Keeper, Book V POV)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/flame_keeper.html">Žiežirba (the Flame-Keeper, Book V POV)</a></td>
-<td>character</td>
+<td>Working skin-name Žiežirba (D11). Born c.&nbsp;Oct 1390-Mar 1391: about 5 in winter 1395-96 (<a href="../books/book2.html">Book II ch.&nbsp;14</a>), 8-9 in 1399, 14 and nearly 15 at Kūčios 1405 (<a href="../books/book3.html">Book III ch.&nbsp;9</a>), 48 in 1438. Tends the vault flame as a boy from 1399 (Kalvis’s ash, <a href="../books/book2.html">Book II ch.&nbsp;29</a>) and is sworn into the wolves at Kūčios 1405: the one wolf named below the usual age of 16 (<a href="../codex/the-iron-wolves.html">iron_wolves.md §4</a>). Arrives at Palanga on 12 Dec 1449 (the longest night, by the drifted calendar) and is named that night; dies in early March 1450; cremated on the beach (<a href="../books/book5.html">Book V ch.&nbsp;29</a>).</td>
 <td>c.&nbsp;1390–1450</td>
 </tr>
 <tr class="odd">
 <td><a href="../characters/zygimantas.html"><img src="../images/zygimantas.jpg" alt="Žygimantas Kęstutaitis" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../characters/zygimantas.html">Žygimantas Kęstutaitis</a></td>
-<td>character</td>
+<td>Grand Duke of Lithuania (1432–1440), brother to Vytautas; survivor of Order captivity, assassinated at Trakai.</td>
 <td>c.&nbsp;1365–1440</td>
 </tr>
 </tbody>

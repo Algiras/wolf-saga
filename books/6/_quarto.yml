@@ -30,6 +30,7 @@ book:
         href: ../wiki/
   chapters:
     - index.qmd
+    - map.qmd
     - part: "Tylioji Sutartis"
       chapters:
         - 01_gedimino_lauzas.qmd

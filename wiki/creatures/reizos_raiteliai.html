@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Servant of:</strong> <a href="../forces/iron_saint.html">Geležinis Šventasis (Ferrum Sanctum)</a></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Reizos raiteliai (Riders of the Reise) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Reizos raiteliai (Riders of the Reise)</div>
+<div class="sb-sub">Riders of the Reise · saga invention (the Iron Saint)</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Saga] knights who died on Reise in complete fearless conviction and did not stop</p>
+<p class="sb-prop"><strong>Tier</strong> Revenant · the Iron Saint's creatures</p>
+<p class="sb-prop"><strong>Danger</strong> IV deadly (after 1387)</p>
+<p class="sb-prop"><strong>Habitat</strong> The old Reise routes through the Wildnis, along the Neman and into Samogitia; before 1387 Prussia only</p>
+<p class="sb-prop"><strong>Wants</strong> Nothing. They do not hunger, they repeat</p>
+<p class="sb-prop"><strong>Takes</strong> Everything in their path, as they once did</p>
+<p class="sb-prop"><strong>Signs</strong> Furnace heat in winter; crosses that ring like anvils; hoof-prints that steam in snow; mail that never rusts</p>
+<p class="sb-prop"><strong>Banes</strong> Unfrozen running water; smith's iron forged at a pagan hearth; standing still without fear</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> No folk belief to correct. The saga truth: they ride on the anniversary of their death, through villages without seeing them, smelling of quench-water and hot iron. Before 1387 the Pact kept them harmlessly in Prussia.</p><p class="sb-entry"><strong><em>Book III.</em></strong> They strengthen before Grunwald and scream when the Iron Saint breaks. In <a href="../books/book5.html">Book V ch. 14</a> they break at the unfrozen river at Pabaiskas.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>The raid.</em></strong> Ride the old routes and kill everything in the path.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Running water.</em></strong> They cannot cross it unfrozen, but in winter everything is frozen.</p><p class="sb-entry"><strong><em>Pagan-hearth iron.</em></strong> Bog-iron does nothing and feast-day iron feeds them. Few such smiths remain after 1387.</p><p class="sb-entry"><strong><em>Standing still.</em></strong> They see only fear and pass the fearless by. Almost nobody manages it.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §25</a> · <a href="../codex/cosmology.html">cosmology.md §3.3</a> · <a href="../books/book5.html">Book V ch. 14</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -484,24 +555,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Reizos raiteliai (Riders of the Reise) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Reizos raiteliai (Riders of the Reise)</div>
-<div class="sb-sub">Riders of the Reise · saga invention (the Iron Saint)</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Saga] knights who died on Reise in complete fearless conviction and did not stop</p>
-<p class="sb-prop"><strong>Tier</strong> Revenant · the Iron Saint's creatures</p>
-<p class="sb-prop"><strong>Danger</strong> IV deadly (after 1387)</p>
-<p class="sb-prop"><strong>Habitat</strong> The old Reise routes through the Wildnis, along the Neman and into Samogitia; before 1387 Prussia only</p>
-<p class="sb-prop"><strong>Wants</strong> Nothing. They do not hunger, they repeat</p>
-<p class="sb-prop"><strong>Takes</strong> Everything in their path, as they once did</p>
-<p class="sb-prop"><strong>Signs</strong> Furnace heat in winter; crosses that ring like anvils; hoof-prints that steam in snow; mail that never rusts</p>
-<p class="sb-prop"><strong>Banes</strong> Unfrozen running water; smith's iron forged at a pagan hearth; standing still without fear</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> No folk belief to correct. The saga truth: they ride on the anniversary of their death, through villages without seeing them, smelling of quench-water and hot iron. Before 1387 the Pact kept them harmlessly in Prussia.</p><p class="sb-entry"><strong><em>Book III.</em></strong> They strengthen before Grunwald and scream when the Iron Saint breaks. In <a href="../books/book5.html">Book V ch. 14</a> they break at the unfrozen river at Pabaiskas.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>The raid.</em></strong> Ride the old routes and kill everything in the path.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Running water.</em></strong> They cannot cross it unfrozen, but in winter everything is frozen.</p><p class="sb-entry"><strong><em>Pagan-hearth iron.</em></strong> Bog-iron does nothing and feast-day iron feeds them. Few such smiths remain after 1387.</p><p class="sb-entry"><strong><em>Standing still.</em></strong> They see only fear and pass the fearless by. Almost nobody manages it.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §25</a> · <a href="../codex/cosmology.html">cosmology.md §3.3</a> · <a href="../books/book5.html">Book V ch. 14</a></div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>[Saga invention.] Built on a historical practice: the Order’s crusading season, the <em>Reise</em>, brought guest-knights from across Europe each winter and summer to raid Lithuania.</p>

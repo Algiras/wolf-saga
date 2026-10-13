@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Servant of:</strong> <a href="../forces/gold_glutton.html">Aukso Rijūnas (Mercator-Rex)</a></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Skaičiuotojas (the Counter) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Skaičiuotojas (the Counter)</div>
+<div class="sb-sub">The Counter · saga invention (the Gold-Glutton)</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Saga] a spirit of the Gold-Glutton, formed where ledgers, tolls and land sold by the furlong gather</p>
+<p class="sb-prop"><strong>Tier</strong> Voice · Aukso Rijūnas's servant, never a body</p>
+<p class="sb-prop"><strong>Danger</strong> III dangerous (after 1387)</p>
+<p class="sb-prop"><strong>Habitat</strong> Tollhouses, counting-rooms, Order commanderies, Hanseatic factories; the Lutsk congress chamber</p>
+<p class="sb-prop"><strong>Wants</strong> To count</p>
+<p class="sb-prop"><strong>Takes</strong> Care: those who listen too long begin to see one another as sums, and are left prosperous and hollow. It does not kill</p>
+<p class="sb-prop"><strong>Signs</strong> Coins that are always warm; a voice under the floor of a counting-house; merchants who have stopped caring for their children and cannot say why</p>
+<p class="sb-prop"><strong>Banes</strong> An unmeasured gift; song</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> No folk belief to correct. Soft and pleasant, it counts the coins in the room, then the goods, then the people, then the years each has left.</p><p class="sb-entry"><strong><em>Spread.</em></strong> Before 1387 confined to Order and Hanseatic towns. After it, everywhere money changes hands, dominant in Book IV.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Counting aloud.</em></strong> In a soft monotone, until the listener counts too.</p><p class="sb-entry"><strong><em>Vytautas.</em></strong> Hears it for thirty years and learns to carry it like a pebble in the boot (<a href="../books/book4.html">Book IV ch. 16</a>).</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The unmeasured gift.</em></strong> Giving something away without counting it silences the Counter in that room. You must truly not count, and it makes counting feel like breathing.</p><p class="sb-entry"><strong><em>Song.</em></strong> Counting and singing cannot share a room. Merchants rarely sing.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §28</a> · <a href="../codex/cosmology.html">cosmology.md §3.3</a> · <a href="../books/book1.html">Book I ch. 28</a> · <a href="../books/book2.html">Book II ch. 13</a> · <a href="../books/book4.html">Book IV ch. 1</a>, 16, 18</div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -484,24 +555,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Skaičiuotojas (the Counter) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Skaičiuotojas (the Counter)</div>
-<div class="sb-sub">The Counter · saga invention (the Gold-Glutton)</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Saga] a spirit of the Gold-Glutton, formed where ledgers, tolls and land sold by the furlong gather</p>
-<p class="sb-prop"><strong>Tier</strong> Voice · Aukso Rijūnas's servant, never a body</p>
-<p class="sb-prop"><strong>Danger</strong> III dangerous (after 1387)</p>
-<p class="sb-prop"><strong>Habitat</strong> Tollhouses, counting-rooms, Order commanderies, Hanseatic factories; the Lutsk congress chamber</p>
-<p class="sb-prop"><strong>Wants</strong> To count</p>
-<p class="sb-prop"><strong>Takes</strong> Care: those who listen too long begin to see one another as sums, and are left prosperous and hollow. It does not kill</p>
-<p class="sb-prop"><strong>Signs</strong> Coins that are always warm; a voice under the floor of a counting-house; merchants who have stopped caring for their children and cannot say why</p>
-<p class="sb-prop"><strong>Banes</strong> An unmeasured gift; song</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> No folk belief to correct. Soft and pleasant, it counts the coins in the room, then the goods, then the people, then the years each has left.</p><p class="sb-entry"><strong><em>Spread.</em></strong> Before 1387 confined to Order and Hanseatic towns. After it, everywhere money changes hands, dominant in Book IV.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Counting aloud.</em></strong> In a soft monotone, until the listener counts too.</p><p class="sb-entry"><strong><em>Vytautas.</em></strong> Hears it for thirty years and learns to carry it like a pebble in the boot (<a href="../books/book4.html">Book IV ch. 16</a>).</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The unmeasured gift.</em></strong> Giving something away without counting it silences the Counter in that room. You must truly not count, and it makes counting feel like breathing.</p><p class="sb-entry"><strong><em>Song.</em></strong> Counting and singing cannot share a room. Merchants rarely sing.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §28</a> · <a href="../codex/cosmology.html">cosmology.md §3.3</a> · <a href="../books/book1.html">Book I ch. 28</a> · <a href="../books/book2.html">Book II ch. 13</a> · <a href="../books/book4.html">Book IV ch. 1</a>, 16, 18</div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>[Saga invention.] No folk source; it is the saga’s face of the ledger-age: tolls, counting-houses and land sold by the furlong.</p>

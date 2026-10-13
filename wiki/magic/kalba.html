@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -414,7 +467,8 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#the-craft-at-a-glance" id="toc-the-craft-at-a-glance" class="nav-link active" data-scroll-target="#the-craft-at-a-glance">The craft at a glance</a></li>
+  <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link" data-scroll-target="#what-it-is">What it is</a></li>
   <li><a href="#who-can-use-it-path-tier" id="toc-who-can-use-it-path-tier" class="nav-link" data-scroll-target="#who-can-use-it-path-tier">Who can use it (path &amp; tier)</a></li>
   <li><a href="#how-it-works-medium-words-timing" id="toc-how-it-works-medium-words-timing" class="nav-link" data-scroll-target="#how-it-works-medium-words-timing">How it works (medium, words, timing)</a></li>
   <li><a href="#costs" id="toc-costs" class="nav-link" data-scroll-target="#costs">Costs</a></li>
@@ -458,6 +512,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Countered by:</strong> <a href="../artifacts/order_sword.html">Kryžiaus kalavijas (the Order’s sword)</a> (1383–1384)</p>
 <p><strong>Practitioners:</strong> <a href="../characters/birute.html">Birutė</a> (…–1384) — tier 4 · <a href="../characters/egle.html">Eglė (vaidilutė → Pelkių Eglė)</a> — tier 3 · <a href="../characters/krivis.html">Krivis of Šventaragis</a> (…–1387) — tier 4 · <a href="../characters/vytautas.html">Vytautas</a> (1382–…) — tier 2 — <em>Bound tier-2: Five-Voice and the pebble only.</em></p>
 <p><strong>Uses element:</strong> <a href="../magic/el_fire.html">Ugnis (Fire)</a> · <a href="../magic/el_water.html">Vanduo (Water)</a> · <a href="../magic/el_wind.html">Vėjas (Wind)</a> · <a href="../magic/el_earth.html">Žemė (Earth)</a> · <a href="../magic/el_stars.html">Žvaigždės (Stars)</a></p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Senovės Kalba (spell)">
+<div class="sb-name">Senovės Kalba</div>
+<div class="sb-sub">Senovės Kalba · the Ancient Tongue, asked power, bound by the Three Laws</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power. The rarest and strongest school, and the only one that reaches across distance (through amber)</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 minor workings in one element; tier 3 one or two elements; tier 4 all five. Vytautas is bound tier 2 (the Five-Voice and the pebble only)</dd></div><div class="sb-cell"><dt>Casting</dt><dd>One line in Old Lithuanian naming an element, a recipient and a verb of giving. <em>Tau</em> is cast on another, <em>man</em> on oneself at lighter cost</dd></div><div class="sb-cell"><dt>Components</dt><dd>A sacred medium, the words aloud (a whisper will do), and true intent. Paths: born (prigimtis), noticed (pažymėtas), bound (surištas)</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Every working shows its bill: blindness, exhaustion or soul-chill, the patient's wound, petrification, loss of voice. A surety pays part of another's price</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length for a minor working, a night for a major one. Hard ceiling: a castle, a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>No illusions, no raising the dead, no creating love, no changing the past, no winning a war. Fails against one who knows your true name better than you</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Consecrated stone (the cost doubles, amber goes cold); the Iron Saint's fearlessness; the White Silence (smothers Wind, freezes Water); the Order's sword; a gag</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Five elements.</em></strong> Clear Sight (Stars), Soul Armour (Fire), Life Spring (Water), Unmovable Will (Earth), Shadow Speed (Wind). Each has its god, medium and zenith.</p><p class="sb-entry"><strong><em>The baptised.</em></strong> They can still use it. The gods do not care about creed, they care about truth.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The Five-Voice.</em></strong> Speaking all five lines together calls a little of every boon at once. The cost is a little of every price, permanent and cumulative: dimmer sight and hearing, frayed memory. The only permanent cost a minor working can carry.</p><p class="sb-entry"><strong><em>Zenith.</em></strong> At its element's zenith the cost is halved. Off it, doubled. Some are impossible.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The Three Laws.</em></strong> Balance (<em>Kiek paimi, tiek atiduok</em>), Truth (no glamours), Memory (the land remembers every working).</p><p class="sb-entry"><strong><em>Unpaid debts.</em></strong> A cost can be deferred, never refused, and deferred costs compound: memory first, then health, years of life, madness, death.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §1</a>-5, §9, §10 · <a href="../codex/power-systems.html">power_systems.md §2.1</a>, §4 · wiki/magic/kalba</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -470,6 +530,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -479,16 +543,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Family</strong></td>
 <td>asked</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Senovės Kalba: the Ancient Speech, spoken working bound by the Three Laws.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Senovės Kalba (spell)">
-<div class="sb-name">Senovės Kalba</div>
-<div class="sb-sub">Senovės Kalba · the Ancient Tongue, asked power, bound by the Three Laws</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power. The rarest and strongest school, and the only one that reaches across distance (through amber)</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 minor workings in one element; tier 3 one or two elements; tier 4 all five. Vytautas is bound tier 2 (the Five-Voice and the pebble only)</dd></div><div class="sb-cell"><dt>Casting</dt><dd>One line in Old Lithuanian naming an element, a recipient and a verb of giving. <em>Tau</em> is cast on another, <em>man</em> on oneself at lighter cost</dd></div><div class="sb-cell"><dt>Components</dt><dd>A sacred medium, the words aloud (a whisper will do), and true intent. Paths: born (prigimtis), noticed (pažymėtas), bound (surištas)</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Every working shows its bill: blindness, exhaustion or soul-chill, the patient's wound, petrification, loss of voice. A surety pays part of another's price</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length for a minor working, a night for a major one. Hard ceiling: a castle, a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>No illusions, no raising the dead, no creating love, no changing the past, no winning a war. Fails against one who knows your true name better than you</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Consecrated stone (the cost doubles, amber goes cold); the Iron Saint's fearlessness; the White Silence (smothers Wind, freezes Water); the Order's sword; a gag</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Five elements.</em></strong> Clear Sight (Stars), Soul Armour (Fire), Life Spring (Water), Unmovable Will (Earth), Shadow Speed (Wind). Each has its god, medium and zenith.</p><p class="sb-entry"><strong><em>The baptised.</em></strong> They can still use it. The gods do not care about creed, they care about truth.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The Five-Voice.</em></strong> Speaking all five lines together calls a little of every boon at once. The cost is a little of every price, permanent and cumulative: dimmer sight and hearing, frayed memory. The only permanent cost a minor working can carry.</p><p class="sb-entry"><strong><em>Zenith.</em></strong> At its element's zenith the cost is halved. Off it, doubled. Some are impossible.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The Three Laws.</em></strong> Balance (<em>Kiek paimi, tiek atiduok</em>), Truth (no glamours), Memory (the land remembers every working).</p><p class="sb-entry"><strong><em>Unpaid debts.</em></strong> A cost can be deferred, never refused, and deferred costs compound: memory first, then health, years of life, madness, death.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §1</a>-5, §9, §10 · <a href="../codex/power-systems.html">power_systems.md §2.1</a>, §4 · wiki/magic/kalba</div></div>
+<section id="the-craft-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="the-craft-at-a-glance">The craft at a glance</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/diagrams/magic-system-overview.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="The craft at a glance"><img src="../images/diagrams/magic-system-overview.svg" class="img-fluid figure-img" alt="Overview diagram of the three layers (gods, forces, craft), the six schools, the five elements with their zeniths, and the cost flow from asking to unpaid debts."></a></p>
+<figcaption>The craft at a glance</figcaption>
+</figure>
+</div>
+<p><em><a href="../diagrams/magic-system-overview.excalidraw">Editable source</a>. The full compendium is in <a href="../lore/index.html">Lore of the Craft</a>.</em></p>
+</section>
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>The Ancient Tongue: <strong>asked</strong> power, the mortal craft of petitioning the gods (and, riskier, the Forces) through five elements. It is the rarest and strongest school, and the only one that reaches across distance (through amber). Bound by the <strong>Three Laws</strong>: Balance, Truth, Memory. Full rules: <a href="../codex/magic-rules.html">Magic rules</a>.</p>

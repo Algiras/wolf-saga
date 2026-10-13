@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,16 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Created by:</strong> <a href="../factions/iron_wolves.html">Vilkatai (Iron Wolves)</a> — <em>Carved with the Iron Wolves’ sign; given to Kęstutis 1345.</em></p>
 <p><strong>Held by:</strong> <a href="../characters/kestutis.html">Kęstutis</a> (…–1382) · <a href="../characters/pilkoji.html">Pilkoji (the Grey One, Vilkų Motina)</a> (1430–1430) — <em>From Vytautas’s body, 27 Oct - 24 Dec 1430.</em> · <a href="../characters/rimgaile_palanga.html">Rimgailė (Palanga fisherwoman)</a> (1450–…) — <em>Given by the dying keeper at Palanga (<a href="../books/book5.html">Book V ch.&nbsp;29</a>-30); an heirloom in 1553.</em> · <a href="../characters/vytautas.html">Vytautas</a> (1382–1430) · <a href="../characters/flame_keeper.html">Žiežirba (the Flame-Keeper, Book V POV)</a> (1431–1450) — <em>From Pilkoji at Kūčios (24 Dec) 1430, i.e.&nbsp;the winter of 1430-31.</em></p>
+<div class="statblock sb-card sb-item" role="group" aria-label="Sidabrinis vilkas (Kęstutis's amulet) (item)">
+<div class="sb-name">Sidabrinis vilkas (Kęstutis's amulet)</div>
+<div class="sb-rarity"><em>Sidabrinis vilkas · Kęstutis's silver wolf, the brotherhood's sign, singular</em></div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Bearing</strong> Belongs to the brotherhood, not to the holder. It must pass hand to hand, bread for bread. Every sworn vilkatas recognises it</p>
+<p class="sb-prop"><strong>Holders</strong> Kęstutis 1345 to 1382 → Vytautas 1382 to 27 Oct 1430 → Pilkoji 27 Oct to 24 Dec 1430 → the Flame-Keeper from Kūčios 1430 to March 1450 → Rimgailė of Palanga from 1450</p>
+<p class="sb-prop"><strong>Power</strong> An identity token. Carries no spell of its own. The Order's border guards, and Jogaila, read it too</p>
+<p class="sb-prop"><strong>Rule &amp; cost</strong> Not the holder's to give away: Vytautas cannot offer it to the Dykra himself. Its meaning dies with the pack</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A silver wolf a hand long with a raised snout and a worn coat, old pagan patterns along its flank, and under the belly a small second mark: a wolf's head without a collar. By Book V a tooth is broken and the silver blackened in the hollows.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Cast in the Dykra in 1345 from the silver of three drowned knights and given to Kęstutis by the Wolf-Father Kuolas after the Pact (<a href="../books/book6.html">Book VI ch. 5</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>Gaze.</em></strong> Jogaila cannot hold its gaze, because he knows what the sign means (<a href="../books/book1.html">Book I ch. 26</a>).</p><p class="sb-entry"><strong><em>Passage.</em></strong> Kęstutis passes it to Vytautas through the gap beneath the Krėva wall: let the wolf stay with the wolf (<a href="../books/book1.html">Book I ch. 8</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>The circle.</em></strong> Pilkoji gives it to the Flame-Keeper at Kūčios in the circle of fourteen wolves, who touch it one by one, Kirmėlė last (<a href="../books/book5.html">Book V ch. 7</a>).</p><p class="sb-entry"><strong><em>Under a threshold.</em></strong> In March 1450 he gives it to Rimgailė at Palanga, bread for bread, and she puts it under her threshold. It is an heirloom in 1553 and seen on the keeper's neck in a vision (<a href="../books/book5.html">Book V ch. 29</a>-30).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D11 · <a href="../codex/the-iron-wolves.html">iron_wolves.md §12.2</a> · world_graph.json (holds) · books/4/notes/book4_handoff.md · wiki/artifacts/silver_wolf</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -467,6 +530,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -476,20 +543,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Years</strong></td>
 <td>made 1345</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Sidabrinis vilkas: Kęstutis’s cast-silver amulet; sign of the Iron Wolf brotherhood.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-item" role="group" aria-label="Sidabrinis vilkas (Kęstutis's amulet) (item)">
-<div class="sb-name">Sidabrinis vilkas (Kęstutis's amulet)</div>
-<div class="sb-rarity"><em>Sidabrinis vilkas · Kęstutis's silver wolf, the brotherhood's sign, singular</em></div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Bearing</strong> Belongs to the brotherhood, not to the holder. It must pass hand to hand, bread for bread. Every sworn vilkatas recognises it</p>
-<p class="sb-prop"><strong>Holders</strong> Kęstutis 1345 to 1382 → Vytautas 1382 to 27 Oct 1430 → Pilkoji 27 Oct to 24 Dec 1430 → the Flame-Keeper from Kūčios 1430 to March 1450 → Rimgailė of Palanga from 1450</p>
-<p class="sb-prop"><strong>Power</strong> An identity token. Carries no spell of its own. The Order's border guards, and Jogaila, read it too</p>
-<p class="sb-prop"><strong>Rule &amp; cost</strong> Not the holder's to give away: Vytautas cannot offer it to the Dykra himself. Its meaning dies with the pack</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A silver wolf a hand long with a raised snout and a worn coat, old pagan patterns along its flank, and under the belly a small second mark: a wolf's head without a collar. By Book V a tooth is broken and the silver blackened in the hollows.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Cast in the Dykra in 1345 from the silver of three drowned knights and given to Kęstutis by the Wolf-Father Kuolas after the Pact (<a href="../books/book6.html">Book VI ch. 5</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>Gaze.</em></strong> Jogaila cannot hold its gaze, because he knows what the sign means (<a href="../books/book1.html">Book I ch. 26</a>).</p><p class="sb-entry"><strong><em>Passage.</em></strong> Kęstutis passes it to Vytautas through the gap beneath the Krėva wall: let the wolf stay with the wolf (<a href="../books/book1.html">Book I ch. 8</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>The circle.</em></strong> Pilkoji gives it to the Flame-Keeper at Kūčios in the circle of fourteen wolves, who touch it one by one, Kirmėlė last (<a href="../books/book5.html">Book V ch. 7</a>).</p><p class="sb-entry"><strong><em>Under a threshold.</em></strong> In March 1450 he gives it to Rimgailė at Palanga, bread for bread, and she puts it under her threshold. It is an heirloom in 1553 and seen on the keeper's neck in a vision (<a href="../books/book5.html">Book V ch. 29</a>-30).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D11 · <a href="../codex/the-iron-wolves.html">iron_wolves.md §12.2</a> · world_graph.json (holds) · books/4/notes/book4_handoff.md · wiki/artifacts/silver_wolf</div></div>
 <section id="custody-13451450" class="level2">
 <h2 class="anchored" data-anchor-id="custody-13451450">Custody, 1345–1450</h2>
 <div class="quarto-figure quarto-figure-center">

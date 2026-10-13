@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,16 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Anchors:</strong> <a href="../characters/birute.html">Birutė</a> (1382–1384) · <a href="../creatures/vaiduokliai.html">Vaiduokliai (apparitions)</a> (1382–1384) — <em>Kęstutis’s apparition at the pyre is carried by Birutė’s amber.</em></p>
 <p><strong>Created by:</strong> <a href="../characters/birute.html">Birutė</a></p>
 <p><strong>Held by:</strong> <a href="../characters/pilkoji.html">Pilkoji (the Grey One, Vilkų Motina)</a> (1430–1430) — <em>From Vytautas’s body, 27 Oct - 24 Dec 1430.</em> · <a href="../characters/vytautas.html">Vytautas</a> (1382–1430) · <a href="../characters/flame_keeper.html">Žiežirba (the Flame-Keeper, Book V POV)</a> (1431–1450) — <em>From Pilkoji, Kūčios 1430; cracked.</em></p>
+<div class="statblock sb-card sb-item" role="group" aria-label="Motinos gintaras (Birutė's pebble) (item)">
+<div class="sb-name">Motinos gintaras (Birutė's pebble)</div>
+<div class="sb-rarity"><em>Motinos gintaras · Birutė's pebble, anchor and barometer, singular</em></div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Bearing</strong> Bound to Vytautas by the Sutartis (amber, the binder's blood, his true name, a promise both ways). An ungifted bearer can use the Five-Voice through it. It asks only truth, not belief</p>
+<p class="sb-prop"><strong>Holders</strong> Birutė (maker, 1382) → Vytautas 1382 to 27 Oct 1430 → Pilkoji 27 Oct to 24 Dec 1430 → the Flame-Keeper (Žiežirba) from Kūčios 1430 to March 1450</p>
+<p class="sb-prop"><strong>Power</strong> An anchor between bearer and Birutė (1382-84). Carries the sea and, for those she chooses, her voice. Carries the Five-Voice. Moral barometer</p>
+<p class="sb-prop"><strong>Rule &amp; cost</strong> Answers to the bearer's truth, not belief. Consecrated stone deafens it, so costs double near Order castles and cathedrals. Silent while Vytautas carries the Order's sword</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A pea-sized lump of cloudy, honey-coloured Palanga amber, worn smooth, on a leather thong. By Book V a hairline crack, visible from one angle only.</p><p class="sb-entry"><strong><em>The barometer, 1382-87.</em></strong> Warm when freely given. A faint light in the Krėva cell. Dead at the false baptism at Tepliava, 21 Oct 1383. Hot at the Marienwerder burning, July 1384. Glowing in 1387.</p><p class="sb-entry"><strong><em>The barometer, 1399-1410.</em></strong> Cold after Vorskla (1399). A single tremor in 1405. Warm at the Grunwald oath, burning at the lightning (1410). Neither warm nor cold at the Black Sea.</p><p class="sb-entry"><strong><em>Do not confuse.</em></strong> A second bead from the same shore lies on Vytautas's slab. The first bead of that pair went to Sofija's son in Moscow.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>Surety.</em></strong> Birutė pays part of every price Vytautas incurs until she pays the whole at Palanga in 1384. After that there is no surety.</p><p class="sb-entry"><strong><em>The bearer's truth.</em></strong> It does not flatter. It goes cold when he lies to himself, and dead when the oath is false.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Cracked.</em></strong> It cracks like thin ice at his death on 27 Oct 1430. Pilkoji takes it from his chest and gives it to the Flame-Keeper at Kūčios.</p><p class="sb-entry"><strong><em>Dead on the flame.</em></strong> He first looks through the crack at Rasos, June 1432. It stays dead on the flame in the crypt. Birutė's voice through it ends at his name.</p><p class="sb-entry"><strong><em>Burned.</em></strong> It burns with him at Palanga, March 1450.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/magic-rules.html">magic_rules.md §5.4</a>, §6 · world_graph.json (holds, pebble_state) · books/4/notes/book4_handoff.md · books/5/notes/book5_seam_pass.md · wiki/artifacts/pebble</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -468,6 +531,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -477,20 +544,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Years</strong></td>
 <td>made 1382</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Birutė’s amber pebble, personal talisman and spiritual barometer of the realm.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-item" role="group" aria-label="Motinos gintaras (Birutė's pebble) (item)">
-<div class="sb-name">Motinos gintaras (Birutė's pebble)</div>
-<div class="sb-rarity"><em>Motinos gintaras · Birutė's pebble, anchor and barometer, singular</em></div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Bearing</strong> Bound to Vytautas by the Sutartis (amber, the binder's blood, his true name, a promise both ways). An ungifted bearer can use the Five-Voice through it. It asks only truth, not belief</p>
-<p class="sb-prop"><strong>Holders</strong> Birutė (maker, 1382) → Vytautas 1382 to 27 Oct 1430 → Pilkoji 27 Oct to 24 Dec 1430 → the Flame-Keeper (Žiežirba) from Kūčios 1430 to March 1450</p>
-<p class="sb-prop"><strong>Power</strong> An anchor between bearer and Birutė (1382-84). Carries the sea and, for those she chooses, her voice. Carries the Five-Voice. Moral barometer</p>
-<p class="sb-prop"><strong>Rule &amp; cost</strong> Answers to the bearer's truth, not belief. Consecrated stone deafens it, so costs double near Order castles and cathedrals. Silent while Vytautas carries the Order's sword</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A pea-sized lump of cloudy, honey-coloured Palanga amber, worn smooth, on a leather thong. By Book V a hairline crack, visible from one angle only.</p><p class="sb-entry"><strong><em>The barometer, 1382-87.</em></strong> Warm when freely given. A faint light in the Krėva cell. Dead at the false baptism at Tepliava, 21 Oct 1383. Hot at the Marienwerder burning, July 1384. Glowing in 1387.</p><p class="sb-entry"><strong><em>The barometer, 1399-1410.</em></strong> Cold after Vorskla (1399). A single tremor in 1405. Warm at the Grunwald oath, burning at the lightning (1410). Neither warm nor cold at the Black Sea.</p><p class="sb-entry"><strong><em>Do not confuse.</em></strong> A second bead from the same shore lies on Vytautas's slab. The first bead of that pair went to Sofija's son in Moscow.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>Surety.</em></strong> Birutė pays part of every price Vytautas incurs until she pays the whole at Palanga in 1384. After that there is no surety.</p><p class="sb-entry"><strong><em>The bearer's truth.</em></strong> It does not flatter. It goes cold when he lies to himself, and dead when the oath is false.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Cracked.</em></strong> It cracks like thin ice at his death on 27 Oct 1430. Pilkoji takes it from his chest and gives it to the Flame-Keeper at Kūčios.</p><p class="sb-entry"><strong><em>Dead on the flame.</em></strong> He first looks through the crack at Rasos, June 1432. It stays dead on the flame in the crypt. Birutė's voice through it ends at his name.</p><p class="sb-entry"><strong><em>Burned.</em></strong> It burns with him at Palanga, March 1450.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/magic-rules.html">magic_rules.md §5.4</a>, §6 · world_graph.json (holds, pebble_state) · books/4/notes/book4_handoff.md · books/5/notes/book5_seam_pass.md · wiki/artifacts/pebble</div></div>
 <section id="description" class="level2">
 <h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>A pea-sized lump of cloudy, honey-coloured amber from the Palanga shore, worn smooth by decades of carrying. In Book V it has a hairline crack through the middle, “visible only from one angle” (V ch.&nbsp;7). It hangs on a leather thong against the chest.</p>

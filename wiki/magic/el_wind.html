@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Countered by:</strong> <a href="../forces/white_silence.html">Baltoji Tyla (White Silence)</a></p>
 <p><strong>Deity:</strong> <a href="../gods/vejopatis.html">Vėjopatis</a></p>
 <p><strong>Used by:</strong> <a href="../magic/kalba.html">Senovės Kalba</a></p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Vėjas (Wind) (spell)">
+<div class="sb-name">Vėjas (Wind)</div>
+<div class="sb-sub">Vėjas tau neš · Shadow Speed, the Wind working</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>Element</dt><dd>Wind · deity Vėjopatis (attested late). Zenith: storms and Vėlinės</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 (minor, one element) or 3 and up. Birutė's Krėva fog is tier 4 through an amber anchor</dd></div><div class="sb-cell"><dt>Casting</dt><dd><em>Vėjas tau neš</em> aloud. <em>Man</em> for oneself</dd></div><div class="sb-cell"><dt>Components</dt><dd>Open air with wind; with an amber anchor, distance is free</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Minor: vertigo. Major: loss of voice, only whistling for days, permanent with repeated use</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length to a night: the Krėva fog hid a castle for a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>The fog is real fog, never an illusion. Doubled in caves and still air</dd></div><div class="sb-cell"><dt>Counters</dt><dd>The White Silence smothers Wind (no sound, no far-speech); consecrated stone</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Shadow Speed and far-speech.</em></strong> Fog, swiftness, carried words. Speech with the dead goes through Vėjopatis.</p><p class="sb-entry"><strong><em>The Krėva fog.</em></strong> Cast from Palanga through the pebble at Wind's zenith, since the escape falls on the eve of Vėlinės (<a href="../books/book1.html">Book I ch. 14</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Loss of voice.</em></strong> Birutė's voice fails after the Krėva fog (<a href="../books/book1.html">Book I ch. 14</a>-25). The vessel's declining body is the bill.</p><p class="sb-entry"><strong><em>Without a surety.</em></strong> After 1384 Vytautas pays the full price himself: <em>Vėjas man neš</em> after Vorskla (<a href="../books/book2.html">Book II ch. 27</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Illusion.</em></strong> Forbidden under the Law of Truth. Wind makes real fog, never a false face.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1, §5.2 · <a href="../books/book1.html">Book I ch. 11</a>, 14, 15, 25 · <a href="../books/book2.html">Book II ch. 27</a> · <a href="../books/book6.html">Book VI ch. 16</a> · wiki/magic/el_wind</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -467,6 +526,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -480,16 +543,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Zenith</strong></td>
 <td>Vėlinės / storms</td>
 </tr>
+<tr class="even">
+<td><strong>Note</strong></td>
+<td>Vėjas (Wind): the element of shadow speed, flight, breath, and swift evasion.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Vėjas (Wind) (spell)">
-<div class="sb-name">Vėjas (Wind)</div>
-<div class="sb-sub">Vėjas tau neš · Shadow Speed, the Wind working</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>Element</dt><dd>Wind · deity Vėjopatis (attested late). Zenith: storms and Vėlinės</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 (minor, one element) or 3 and up. Birutė's Krėva fog is tier 4 through an amber anchor</dd></div><div class="sb-cell"><dt>Casting</dt><dd><em>Vėjas tau neš</em> aloud. <em>Man</em> for oneself</dd></div><div class="sb-cell"><dt>Components</dt><dd>Open air with wind; with an amber anchor, distance is free</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Minor: vertigo. Major: loss of voice, only whistling for days, permanent with repeated use</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length to a night: the Krėva fog hid a castle for a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>The fog is real fog, never an illusion. Doubled in caves and still air</dd></div><div class="sb-cell"><dt>Counters</dt><dd>The White Silence smothers Wind (no sound, no far-speech); consecrated stone</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Shadow Speed and far-speech.</em></strong> Fog, swiftness, carried words. Speech with the dead goes through Vėjopatis.</p><p class="sb-entry"><strong><em>The Krėva fog.</em></strong> Cast from Palanga through the pebble at Wind's zenith, since the escape falls on the eve of Vėlinės (<a href="../books/book1.html">Book I ch. 14</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Loss of voice.</em></strong> Birutė's voice fails after the Krėva fog (<a href="../books/book1.html">Book I ch. 14</a>-25). The vessel's declining body is the bill.</p><p class="sb-entry"><strong><em>Without a surety.</em></strong> After 1384 Vytautas pays the full price himself: <em>Vėjas man neš</em> after Vorskla (<a href="../books/book2.html">Book II ch. 27</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Illusion.</em></strong> Forbidden under the Law of Truth. Wind makes real fog, never a false face.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1, §5.2 · <a href="../books/book1.html">Book I ch. 11</a>, 14, 15, 25 · <a href="../books/book2.html">Book II ch. 27</a> · <a href="../books/book6.html">Book VI ch. 16</a> · wiki/magic/el_wind</div></div>
 <section id="deity-zenith" class="level2">
 <h2 class="anchored" data-anchor-id="deity-zenith">Deity &amp; zenith</h2>
 <p><strong>Deity:</strong> <a href="../gods/vejopatis.html">Vėjopatis</a>. <strong>Incantation:</strong> <em>Vėjas tau neš</em> (“Wind for you shall carry”), <em>man</em> for oneself. <strong>Medium:</strong> open air with wind. <strong>Zenith:</strong> storms and Vėlinės (late October–2 November, when the <em>vėlės</em> travel): cost <strong>halved</strong>; <strong>doubled</strong> in caves and still air.</p>

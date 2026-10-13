@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Patrons:</strong> <a href="../gods/medeina.html">Medeina</a> — <em>Forests and wild beasts are her old domain, now the Root-Mother’s.</em></p>
 <p><strong>Shard of:</strong> <a href="../forces/root_mother.html">Šaknų Motina (Root-Mother)</a> — <em>Local face of the Root-Mother.</em></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Girinis / miškinis (grove-keepers) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Girinis / miškinis (grove-keepers)</div>
+<div class="sb-sub">Grove-keeper · Baltic folk belief, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] forest guardians (girinis, miškinis, medinis) and the sacred groves (alkai) · [Saga] the local face of the Root-Mother</p>
+<p class="sb-prop"><strong>Tier</strong> Dvasia · a shard of the Root-Mother</p>
+<p class="sb-prop"><strong>Danger</strong> II hazard → IV deadly</p>
+<p class="sb-prop"><strong>Habitat</strong> One grove, one wood, one ancient oak; the oaks of the alkai are the Pact's pillars</p>
+<p class="sb-prop"><strong>Wants</strong> To be asked: bread and salt on a stump, <em>Leisk, medi</em>, and never more than you asked for</p>
+<p class="sb-prop"><strong>Takes</strong> The greedy, led in circles until they die. A felled grove's girinis becomes a homeless hunger on the axeman's family</p>
+<p class="sb-prop"><strong>Signs</strong> Silence where there should be birdsong; paths that return to the same stump; a branch that falls exactly where you stood</p>
+<p class="sb-prop"><strong>Banes</strong> Clothes turned inside out if lost; the axe that felled a sacred oak thrown into running water</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk see a stern host. The truth: it cares about people only as they affect the trees. Each oak of the alkai felled loosens the Pact.</p><p class="sb-entry"><strong><em>The silence.</em></strong> The hush of <a href="../books/book1.html">Book I ch. 1</a> and ch. 20 is the girinis listening for the Pact to break.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Giving.</em></strong> Game and safe paths to those who ask and repay.</p><p class="sb-entry"><strong><em>Circling.</em></strong> Leads the greedy in circles until they die.</p><p class="sb-entry"><strong><em>The homeless hunger.</em></strong> After Šventaragis (1387) and hundreds of other groves, it attaches to the family of the man who swung the axe and follows them for generations.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Salt and restraint.</em></strong> Salt on the stump, and never take more than you asked.</p><p class="sb-entry"><strong><em>Turned clothes.</em></strong> It may let you go, but it will remember your face.</p><p class="sb-entry"><strong><em>The axe.</em></strong> A good axe, thrown away.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §11</a> · <a href="../codex/cosmology.html">cosmology.md §4.3</a> · world_graph.json (girinis shard_of root_mother)</div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -485,24 +556,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Girinis / miškinis (grove-keepers) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Girinis / miškinis (grove-keepers)</div>
-<div class="sb-sub">Grove-keeper · Baltic folk belief, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] forest guardians (girinis, miškinis, medinis) and the sacred groves (alkai) · [Saga] the local face of the Root-Mother</p>
-<p class="sb-prop"><strong>Tier</strong> Dvasia · a shard of the Root-Mother</p>
-<p class="sb-prop"><strong>Danger</strong> II hazard → IV deadly</p>
-<p class="sb-prop"><strong>Habitat</strong> One grove, one wood, one ancient oak; the oaks of the alkai are the Pact's pillars</p>
-<p class="sb-prop"><strong>Wants</strong> To be asked: bread and salt on a stump, <em>Leisk, medi</em>, and never more than you asked for</p>
-<p class="sb-prop"><strong>Takes</strong> The greedy, led in circles until they die. A felled grove's girinis becomes a homeless hunger on the axeman's family</p>
-<p class="sb-prop"><strong>Signs</strong> Silence where there should be birdsong; paths that return to the same stump; a branch that falls exactly where you stood</p>
-<p class="sb-prop"><strong>Banes</strong> Clothes turned inside out if lost; the axe that felled a sacred oak thrown into running water</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk see a stern host. The truth: it cares about people only as they affect the trees. Each oak of the alkai felled loosens the Pact.</p><p class="sb-entry"><strong><em>The silence.</em></strong> The hush of <a href="../books/book1.html">Book I ch. 1</a> and ch. 20 is the girinis listening for the Pact to break.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Giving.</em></strong> Game and safe paths to those who ask and repay.</p><p class="sb-entry"><strong><em>Circling.</em></strong> Leads the greedy in circles until they die.</p><p class="sb-entry"><strong><em>The homeless hunger.</em></strong> After Šventaragis (1387) and hundreds of other groves, it attaches to the family of the man who swung the axe and follows them for generations.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Salt and restraint.</em></strong> Salt on the stump, and never take more than you asked.</p><p class="sb-entry"><strong><em>Turned clothes.</em></strong> It may let you go, but it will remember your face.</p><p class="sb-entry"><strong><em>The axe.</em></strong> A good axe, thrown away.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §11</a> · <a href="../codex/cosmology.html">cosmology.md §4.3</a> · world_graph.json (girinis shard_of root_mother)</div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>Lithuanian tradition knows forest guardians under several names (<em>girinis</em>, <em>miškinis</em>, <em>medinis</em>), less sharply personified than the Slavic leshy. Pre-Christian Lithuanians venerated sacred groves (<em>alkai</em>) and particular trees, above all oaks, and cutting them was taboo; legends tell of trees that bled or took revenge. A stray-herb (<em>klystžolė</em>) makes whoever steps on it lose the way. Hunters made offerings for game.</p>

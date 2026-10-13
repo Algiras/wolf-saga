@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Servant of:</strong> <a href="../gods/velnias.html">Velnias</a> — <em>Hatchling of Velnias’s root-wealth.</em></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Aitvaras (fire-tailed thief) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Aitvaras (fire-tailed thief)</div>
+<div class="sb-sub">Fire-tailed thief · Baltic folk belief, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] wealth-spirit hatched from an old rooster's egg, named in 16th-century church writings · [Saga] hatchling of Velnias's root-wealth</p>
+<p class="sb-prop"><strong>Tier</strong> Dvasia · bought power (the kept aitvaras)</p>
+<p class="sb-prop"><strong>Danger</strong> II hazard → IV deadly</p>
+<p class="sb-prop"><strong>Habitat</strong> Under the oven as a black cockerel or cat; a fiery streak at dusk outdoors</p>
+<p class="sb-prop"><strong>Wants</strong> Scrambled eggs (kiaušinienė), fed by its keeper; fire</p>
+<p class="sb-prop"><strong>Takes</strong> Grain, milk and silver from neighbours. At the keeper's death, his soul goes down to Velnias's roots with the rest of the wealth</p>
+<p class="sb-prop"><strong>Signs</strong> Fiery streaks from a poor farm to a rich one; a neighbour who prospers in a bad year; eggshells by the oven; singed feathers</p>
+<p class="sb-prop"><strong>Banes</strong> None kill it. Sell it on, set it an endless count (a sack of poppy seed), or burn your own farm</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk are right that it steals and burns. They are wrong that it serves the devil: it serves the trade, and anyone who feeds it. It makes no wealth, it moves it, so every grain it brings is a grain a neighbour lost.</p><p class="sb-entry"><strong><em>Unbound (after 1387).</em></strong> Aitvarai turn arsonist. Near Hanseatic towns the Gold-Glutton courts them and they carry warm coin instead of grain, which starts quarrels wherever it is spent.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Theft.</em></strong> Carries stolen wealth from the poor farm to the rich one.</p><p class="sb-entry"><strong><em>Burning.</em></strong> Spoil its dish and it burns the house.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Feeding it.</em></strong> The neighbours' enmity, and eventually a lynching. In life the household slowly stops being able to give anything away freely.</p><p class="sb-entry"><strong><em>Selling it on.</em></strong> The buyer inherits the risk. While it counts, it is still yours.</p><p class="sb-entry"><strong><em>Cursing it in flight.</em></strong> It drops its load on your land, and the stolen goods are in your barn when the owner comes looking.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §2</a> · <a href="../codex/power-systems.html">power_systems.md §3</a> · <a href="../codex/cosmology.html">cosmology.md §4.3</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -484,24 +555,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Aitvaras (fire-tailed thief) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Aitvaras (fire-tailed thief)</div>
-<div class="sb-sub">Fire-tailed thief · Baltic folk belief, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] wealth-spirit hatched from an old rooster's egg, named in 16th-century church writings · [Saga] hatchling of Velnias's root-wealth</p>
-<p class="sb-prop"><strong>Tier</strong> Dvasia · bought power (the kept aitvaras)</p>
-<p class="sb-prop"><strong>Danger</strong> II hazard → IV deadly</p>
-<p class="sb-prop"><strong>Habitat</strong> Under the oven as a black cockerel or cat; a fiery streak at dusk outdoors</p>
-<p class="sb-prop"><strong>Wants</strong> Scrambled eggs (kiaušinienė), fed by its keeper; fire</p>
-<p class="sb-prop"><strong>Takes</strong> Grain, milk and silver from neighbours. At the keeper's death, his soul goes down to Velnias's roots with the rest of the wealth</p>
-<p class="sb-prop"><strong>Signs</strong> Fiery streaks from a poor farm to a rich one; a neighbour who prospers in a bad year; eggshells by the oven; singed feathers</p>
-<p class="sb-prop"><strong>Banes</strong> None kill it. Sell it on, set it an endless count (a sack of poppy seed), or burn your own farm</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk are right that it steals and burns. They are wrong that it serves the devil: it serves the trade, and anyone who feeds it. It makes no wealth, it moves it, so every grain it brings is a grain a neighbour lost.</p><p class="sb-entry"><strong><em>Unbound (after 1387).</em></strong> Aitvarai turn arsonist. Near Hanseatic towns the Gold-Glutton courts them and they carry warm coin instead of grain, which starts quarrels wherever it is spent.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Theft.</em></strong> Carries stolen wealth from the poor farm to the rich one.</p><p class="sb-entry"><strong><em>Burning.</em></strong> Spoil its dish and it burns the house.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Feeding it.</em></strong> The neighbours' enmity, and eventually a lynching. In life the household slowly stops being able to give anything away freely.</p><p class="sb-entry"><strong><em>Selling it on.</em></strong> The buyer inherits the risk. While it counts, it is still yours.</p><p class="sb-entry"><strong><em>Cursing it in flight.</em></strong> It drops its load on your land, and the stolen goods are in your barn when the owner comes looking.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §2</a> · <a href="../codex/power-systems.html">power_systems.md §3</a> · <a href="../codex/cosmology.html">cosmology.md §4.3</a></div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>A spirit that brings its keeper wealth stolen from neighbours. It hatches from the egg of an old rooster (seven or nine years old) kept warm by its owner, or is bought from a merchant. Outdoors it flies as a fiery streak; indoors it is a black cockerel or cat. It is fed scrambled eggs, and when offended it burns the farm. Named in 16th-century church writings against peasant superstition; Christian-era tales make it a devil’s gift paid for with the keeper’s soul.</p>

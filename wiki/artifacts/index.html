@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,8 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -302,6 +304,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -432,71 +485,60 @@ document.addEventListener("DOMContentLoaded", function () {
 <thead>
 <tr class="header">
 <th></th>
-<th>Name</th>
-<th>Type</th>
-<th>Years</th>
+<th>Artifact</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="../artifacts/golden_chain.html"><img src="../images/golden_chain.jpg" alt="Auksinė grandinė (the strangling chain)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/golden_chain.html">Auksinė grandinė (the strangling chain)</a></td>
-<td>artifact</td>
-<td>made 1382</td>
+<td>Henė’s strangling gold chain; symbol of debt, bondage, and deceit.</td>
 </tr>
 <tr class="even">
 <td><a href="../artifacts/wolf_skull.html"><img src="../images/wolf_skull.jpg" alt="Geležinio Vilko kaukolė" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/wolf_skull.html">Geležinio Vilko kaukolė</a></td>
-<td>artifact</td>
-<td>made 1323</td>
+<td>Geležinio Vilko kaukolė: relic of the iron-jawed beast seen in Gediminas’s founding dream.</td>
 </tr>
 <tr class="odd">
 <td><a href="../artifacts/three_stones.html"><img src="../images/three_stones.jpg" alt="Henė's three black stones" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/three_stones.html">Henė’s three black stones</a></td>
-<td>artifact</td>
-<td>made 1380</td>
+<td>Henė’s three black stones; physical counters tracking the cousin princes’ bargains.</td>
 </tr>
 <tr class="even">
 <td><a href="../artifacts/kneeling_woman.html"><img src="../images/kneeling_woman.jpg" alt="Klūpančioji (amber statue, Palanga)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/kneeling_woman.html">Klūpančioji (amber statue, Palanga)</a></td>
-<td>artifact</td>
-<td>made 1384</td>
+<td>The amber kneeling woman of Palanga; sacred anchor of the Amber Queen at the shore.</td>
 </tr>
 <tr class="odd">
 <td><a href="../artifacts/order_sword.html"><img src="../images/order_sword.jpg" alt="Kryžiaus kalavijas (the Order's sword)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/order_sword.html">Kryžiaus kalavijas (the Order’s sword)</a></td>
-<td>artifact</td>
-<td>made 1383</td>
+<td>Kryžiaus kalavijas: consecrated broadsword of the Teutonic Knights bearing the cruciform cross.</td>
 </tr>
 <tr class="even">
 <td><a href="../artifacts/pebble.html"><img src="../images/pebble.jpg" alt="Motinos gintaras (Birutė's pebble)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/pebble.html">Motinos gintaras (Birutė’s pebble)</a></td>
-<td>artifact</td>
-<td>made 1382</td>
+<td>Birutė’s amber pebble, personal talisman and spiritual barometer of the realm.</td>
 </tr>
 <tr class="odd">
 <td><a href="../artifacts/ember.html"><img src="../images/ember.jpg" alt="Paskutinė žarija (Šventaragis ember)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/ember.html">Paskutinė žarija (Šventaragis ember)</a></td>
-<td>artifact</td>
-<td>made 1387</td>
+<td>Paskutinė žarija: the dying ember salvaged from the sacred hearth of Šventaragis.</td>
 </tr>
 <tr class="even">
 <td><a href="../artifacts/silver_wolf.html"><img src="../images/silver_wolf.jpg" alt="Sidabrinis vilkas (Kęstutis's amulet)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/silver_wolf.html">Sidabrinis vilkas (Kęstutis’s amulet)</a></td>
-<td>artifact</td>
-<td>made 1345</td>
+<td>Sidabrinis vilkas: Kęstutis’s cast-silver amulet; sign of the Iron Wolf brotherhood.</td>
 </tr>
 <tr class="odd">
 <td><a href="../artifacts/lutsk_crown.html"><img src="../images/lutsk_crown.jpg" alt="The Lutsk crown (turned to leaves)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/lutsk_crown.html">The Lutsk crown (turned to leaves)</a></td>
-<td>artifact</td>
-<td>made 1430</td>
+<td>The royal crown sent by Sigismund for Vytautas’s coronation, turned to dry leaves.</td>
 </tr>
 <tr class="even">
 <td><a href="../artifacts/kestutis_sword.html"><img src="../images/kestutis_sword.jpg" alt="Šerno kalavijas (Kęstutis's sword)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../artifacts/kestutis_sword.html">Šerno kalavijas (Kęstutis’s sword)</a></td>
-<td>artifact</td>
-<td>made 1330</td>
+<td>Šerno kalavijas: Kęstutis’s boar-pommel broadsword forged with a perkūnėlis ward.</td>
 </tr>
 </tbody>
 </table>

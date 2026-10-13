@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,8 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -302,6 +304,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -432,47 +485,47 @@ document.addEventListener("DOMContentLoaded", function () {
 <thead>
 <tr class="header">
 <th></th>
-<th>Name</th>
-<th>Type</th>
+<th>Book</th>
 <th>Years</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../books/book1.html"><img src="../images/book1.jpg" alt="I · Vilko Tremtis" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
+<td><a href="../books/book1.html"><img src="../images/book1.jpg" alt="I · Vilko Tremtis" width="46" style="aspect-ratio:5/8;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../books/book1.html">I · Vilko Tremtis</a></td>
-<td>book</td>
 <td>1377–1387</td>
+<td>The fall of Kęstutis, the break of the Silent Pact at Krėva, Vytautas’s flight to the Order, and the 1387 baptism of Lithuania.</td>
 </tr>
 <tr class="even">
-<td><a href="../books/book2.html"><img src="../images/book2.jpg" alt="II · Auksinis Šešėlis" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
+<td><a href="../books/book2.html"><img src="../images/book2.jpg" alt="II · Auksinis Šešėlis" width="46" style="aspect-ratio:5/8;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../books/book2.html">II · Auksinis Šešėlis</a></td>
-<td>book</td>
 <td>1387–1399</td>
+<td>The civil war for Trakai and Vilnius, the Ostrów pact, the rise of the Golden Shadow, and the disaster on the Vorskla.</td>
 </tr>
 <tr class="odd">
-<td><a href="../books/book3.html"><img src="../images/book3.jpg" alt="III · Žaliasis Miškas" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
+<td><a href="../books/book3.html"><img src="../images/book3.jpg" alt="III · Žaliasis Miškas" width="46" style="aspect-ratio:5/8;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../books/book3.html">III · Žaliasis Miškas</a></td>
-<td>book</td>
 <td>1399–1411</td>
+<td>The recovery from Vorskla, the secret alliances with Poland, the Samogitian uprisings, and the victory at Grunwald.</td>
 </tr>
 <tr class="even">
-<td><a href="../books/book4.html"><img src="../images/book4.jpg" alt="IV · Nematoma Karūna" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
+<td><a href="../books/book4.html"><img src="../images/book4.jpg" alt="IV · Nematoma Karūna" width="46" style="aspect-ratio:5/8;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../books/book4.html">IV · Nematoma Karūna</a></td>
-<td>book</td>
 <td>1411–1430</td>
+<td>The zenith of Vytautas’s reign, the Congress of Lutsk, the intercepted royal crown, and the deathbed of the Grand Duke.</td>
 </tr>
 <tr class="odd">
-<td><a href="../books/book5.html"><img src="../images/book5.jpg" alt="V · Vilko Palikimas" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
+<td><a href="../books/book5.html"><img src="../images/book5.jpg" alt="V · Vilko Palikimas" width="46" style="aspect-ratio:5/8;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../books/book5.html">V · Vilko Palikimas</a></td>
-<td>book</td>
 <td>1430–1450</td>
+<td>The civil war between Švitrigaila and Žygimantas, the bloodbath of Pabaiskas, and the unravelling of the Iron Wolves.</td>
 </tr>
 <tr class="even">
-<td><a href="../books/book6.html"><img src="../images/book6.jpg" alt="VI · Šventasis Miškas (prequel)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
+<td><a href="../books/book6.html"><img src="../images/book6.jpg" alt="VI · Šventasis Miškas (prequel)" width="46" style="aspect-ratio:5/8;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../books/book6.html">VI · Šventasis Miškas (prequel)</a></td>
-<td>book</td>
 <td>1341–1377</td>
+<td>Prequel: Algirdas and Kęstutis sworn at Gediminas’s pyre, the swearing of the Silent Pact, and the thirty-year crusade defence.</td>
 </tr>
 </tbody>
 </table>

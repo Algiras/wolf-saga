@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Practitioners:</strong> <a href="../characters/egle.html">Eglė (vaidilutė → Pelkių Eglė)</a> — tier 3 · <a href="../characters/ona.html">Ona</a> — tier 1</p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Žolės (herb-lore) (spell)">
+<div class="sb-name">Žolės (herb-lore)</div>
+<div class="sb-sub">Žolės · herb-lore: brews, smokes and poisons</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power in the family list, but no gift and no Law of Balance. Power anyone can carry</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 1 · žolininkė, midwife. Eglė practises it at tier 3</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Gather, brew, smoke. Rasos herbs are picked on solstice night before dawn, without speaking</dd></div><div class="sb-cell"><dt>Components</dt><dd>Wormwood (kietis), St John's wort (jonažolė), sweet flag, mugwort, linden, chamomile, valerian, henbane (drignė), poppy</dd></div><div class="sb-cell"><dt>Cost</dt><dd>No magical cost. The seer's smoke costs a terrible headache. The price is moral</dd></div><div class="sb-cell"><dt>Duration</dt><dd>Rasos herbs have double potency and keep a year</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Mundane: it works as chemistry. Needs no gift, and no gift improves it</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Knowledge, a physician, an antidote</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>What it does.</em></strong> Sleep (Ona's draught), truth-loosening, fever-breaking, wound-cleaning, and the seer's smoke: henbane and amber dust, which lets a Kalba seer see further.</p><p class="sb-entry"><strong><em>With a charm.</em></strong> A Rasos-herb poultice and a bleeding-charm heal what Water cannot.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Poison.</em></strong> The herb-lore of princes. Skirgaila's death (1397) and the hostage sons' poisoning (1392, a contested tradition from Grunau, canon Q11) are herb-lore, not sorcery: henbane, kietis and sugar.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>No law to break.</em></strong> That is why it is the most dangerous: the horror is how little magic the world needs.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.4</a>, §4 · <a href="../codex/canon-decisions.html">canon_decisions.md</a> Q11 · <a href="../books/book1.html">Book I ch. 12</a> · <a href="../books/book2.html">Book II ch. 4</a>, 9, 16 · wiki/magic/zoles</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -467,6 +526,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -476,16 +539,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Family</strong></td>
 <td>asked</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Žolės: traditional herbal knowledge, brews, healing poultices, and subtle poisons.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Žolės (herb-lore) (spell)">
-<div class="sb-name">Žolės (herb-lore)</div>
-<div class="sb-sub">Žolės · herb-lore: brews, smokes and poisons</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power in the family list, but no gift and no Law of Balance. Power anyone can carry</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 1 · žolininkė, midwife. Eglė practises it at tier 3</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Gather, brew, smoke. Rasos herbs are picked on solstice night before dawn, without speaking</dd></div><div class="sb-cell"><dt>Components</dt><dd>Wormwood (kietis), St John's wort (jonažolė), sweet flag, mugwort, linden, chamomile, valerian, henbane (drignė), poppy</dd></div><div class="sb-cell"><dt>Cost</dt><dd>No magical cost. The seer's smoke costs a terrible headache. The price is moral</dd></div><div class="sb-cell"><dt>Duration</dt><dd>Rasos herbs have double potency and keep a year</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Mundane: it works as chemistry. Needs no gift, and no gift improves it</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Knowledge, a physician, an antidote</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>What it does.</em></strong> Sleep (Ona's draught), truth-loosening, fever-breaking, wound-cleaning, and the seer's smoke: henbane and amber dust, which lets a Kalba seer see further.</p><p class="sb-entry"><strong><em>With a charm.</em></strong> A Rasos-herb poultice and a bleeding-charm heal what Water cannot.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Poison.</em></strong> The herb-lore of princes. Skirgaila's death (1397) and the hostage sons' poisoning (1392, a contested tradition from Grunau, canon Q11) are herb-lore, not sorcery: henbane, kietis and sugar.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>No law to break.</em></strong> That is why it is the most dangerous: the horror is how little magic the world needs.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.4</a>, §4 · <a href="../codex/canon-decisions.html">canon_decisions.md</a> Q11 · <a href="../books/book1.html">Book I ch. 12</a> · <a href="../books/book2.html">Book II ch. 4</a>, 9, 16 · wiki/magic/zoles</div></div>
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Herb-lore: brews, smokes and poisons. It is <strong>power anyone can carry</strong>, with no gift and no Law of Balance (the graph marks it <code>laws: false</code>), which is exactly why it is the most dangerous. It is mundane chemistry in a mythic world.</p>

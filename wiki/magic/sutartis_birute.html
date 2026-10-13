@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -454,6 +507,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Binds:</strong> <a href="../characters/vytautas.html">Vytautas</a></p>
 <p><strong>Caused by:</strong> <a href="../events/ev_sutartis.html">Birutė binds Vytautas (Sutartis, surety, flame promise)</a></p>
 <p><strong>Created:</strong> <a href="../characters/birute.html">Birutė</a> — <em>Inverse: Birutė is the binder.</em></p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Birutė's Senovės Sutartis over Vytautas (spell)">
+<div class="sb-name">Birutė's Senovės Sutartis over Vytautas</div>
+<div class="sb-sub">Senovės Sutartis · Birutė's binding of Vytautas, <a href="../books/book1.html">Book I ch. 3</a> (1382)</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Pact · Kalba's third path, surištas (bound)</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Birutė binds at tier 4. Vytautas, bound-2, gets the Five-Voice and the pebble and nothing else</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Birutė cuts her palm with a crescent vaidilutė knife and presses the pebble into his hand, speaks his true name, and exchanges promises</dd></div><div class="sb-cell"><dt>Components</dt><dd>Amber charged by the binder (the pebble); the binder's blood; the bound one's true name; an unbreakable promise both ways</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Surety (<em>laidas</em>): part of every price Vytautas incurs is paid by Birutė, wherever she is. In 1384 she pays the whole remaining debt at once</dd></div><div class="sb-cell"><dt>Duration</dt><dd>Surety until <a href="../books/book1.html">Book I ch. 27</a> (1384). The bond itself, and the pebble as its barometer, until 1430</dd></div><div class="sb-cell"><dt>Limits</dt><dd>One anchor per caster. The pebble answers to the bearer's truth. After 1384 there is no surety: he pays full price</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Consecrated stone deafens the pebble; the Order's sword closes the Five-Voice; a binder's own death</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>The promises.</em></strong> Hers: <em>Jo skola, mano skola</em> (his debt is my debt). His: <em>Kol aš gyvas, paskutinė ugnis neužges</em> (while I live, the last fire will not go out).</p><p class="sb-entry"><strong><em>The Five-Voice.</em></strong> Lets an ungifted bearer call a little of every boon.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Birutė's decline.</em></strong> Voice failing after the Krėva fog, sight going, until ch. 27 at Palanga.</p><p class="sb-entry"><strong><em>After the surety.</em></strong> <a href="../books/book2.html">Book II ch. 2</a>: the spring damp doubled the cost, and Birutė was not beside him.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The penalties.</em></strong> Loss of gift, curse of the elements, memory loss, madness, death in the extreme.</p><p class="sb-entry"><strong><em>The promise.</em></strong> Failure of the promise means letting the flame die while he lives.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §2</a>, §4.3, §5.4, §6 · <a href="../codex/power-systems.html">power_systems.md §4</a> · <a href="../books/book1.html">Book I ch. 3</a>, 14, 27 · <a href="../books/book2.html">Book II ch. 2</a> · wiki/magic/sutartis_birute</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -466,6 +525,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -475,16 +538,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Years</strong></td>
 <td>1382–1430</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Birutė’s ancient binding spoken over Vytautas in 1382 to preserve his life.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Birutė's Senovės Sutartis over Vytautas (spell)">
-<div class="sb-name">Birutė's Senovės Sutartis over Vytautas</div>
-<div class="sb-sub">Senovės Sutartis · Birutė's binding of Vytautas, <a href="../books/book1.html">Book I ch. 3</a> (1382)</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Pact · Kalba's third path, surištas (bound)</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Birutė binds at tier 4. Vytautas, bound-2, gets the Five-Voice and the pebble and nothing else</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Birutė cuts her palm with a crescent vaidilutė knife and presses the pebble into his hand, speaks his true name, and exchanges promises</dd></div><div class="sb-cell"><dt>Components</dt><dd>Amber charged by the binder (the pebble); the binder's blood; the bound one's true name; an unbreakable promise both ways</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Surety (<em>laidas</em>): part of every price Vytautas incurs is paid by Birutė, wherever she is. In 1384 she pays the whole remaining debt at once</dd></div><div class="sb-cell"><dt>Duration</dt><dd>Surety until <a href="../books/book1.html">Book I ch. 27</a> (1384). The bond itself, and the pebble as its barometer, until 1430</dd></div><div class="sb-cell"><dt>Limits</dt><dd>One anchor per caster. The pebble answers to the bearer's truth. After 1384 there is no surety: he pays full price</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Consecrated stone deafens the pebble; the Order's sword closes the Five-Voice; a binder's own death</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>The promises.</em></strong> Hers: <em>Jo skola, mano skola</em> (his debt is my debt). His: <em>Kol aš gyvas, paskutinė ugnis neužges</em> (while I live, the last fire will not go out).</p><p class="sb-entry"><strong><em>The Five-Voice.</em></strong> Lets an ungifted bearer call a little of every boon.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Birutė's decline.</em></strong> Voice failing after the Krėva fog, sight going, until ch. 27 at Palanga.</p><p class="sb-entry"><strong><em>After the surety.</em></strong> <a href="../books/book2.html">Book II ch. 2</a>: the spring damp doubled the cost, and Birutė was not beside him.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The penalties.</em></strong> Loss of gift, curse of the elements, memory loss, madness, death in the extreme.</p><p class="sb-entry"><strong><em>The promise.</em></strong> Failure of the promise means letting the flame die while he lives.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §2</a>, §4.3, §5.4, §6 · <a href="../codex/power-systems.html">power_systems.md §4</a> · <a href="../books/book1.html">Book I ch. 3</a>, 14, 27 · <a href="../books/book2.html">Book II ch. 2</a> · wiki/magic/sutartis_birute</div></div>
 <section id="terms" class="level2">
 <h2 class="anchored" data-anchor-id="terms">Terms</h2>
 <p><strong>[Saga invention]</strong>, made in <strong><a href="../books/book1.html">Book I ch.&nbsp;3</a></strong> (1382): the <em>Senovės Sutartis</em> by which <a href="../characters/birute.html">Birutė</a> binds her son <a href="../characters/vytautas.html">Vytautas</a>. Four requirements, all on the page: <strong>amber</strong> charged by the binder (the pebble); the binder’s <strong>blood</strong> on it (a crescent vaidilutė knife across her left palm); the bound one’s <strong>true name</strong> (<em>slaptas vardas</em>), a name he has never heard, spoken by her; and an <strong>unbreakable promise</strong> both ways. Hers: <em>“Jo skola — mano skola”</em> (“his debt is my debt”). His: <em>“Kol aš gyvas, paskutinė ugnis neužges.”</em> (<a href="../magic/flame_promise.html">the flame promise</a>).</p>

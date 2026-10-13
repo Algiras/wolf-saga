@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,8 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -302,6 +304,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -432,167 +485,140 @@ document.addEventListener("DOMContentLoaded", function () {
 <thead>
 <tr class="header">
 <th></th>
-<th>Name</th>
-<th>Type</th>
-<th>Years</th>
+<th>Creature</th>
+<th>Lore / Danger</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="../creatures/aitvaras.html"><img src="../images/aitvaras.jpg" alt="Aitvaras (fire-tailed thief)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/aitvaras.html">Aitvaras (fire-tailed thief)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §2. Danger II → IV.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/alkanosios_veles.html"><img src="../images/alkanosios_veles.jpg" alt="Alkanosios vėlės (the hungry dead)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/alkanosios_veles.html">Alkanosios vėlės (the hungry dead)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §16. Danger III → IV.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/barstukai.html"><img src="../images/barstukai.jpg" alt="Barstukai (under-elder miners)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/barstukai.html">Barstukai (under-elder miners)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §4. Danger I → III.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/baubas.html"><img src="../images/baubas.jpg" alt="Baubas and maumas (told terrors)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/baubas.html">Baubas and maumas (told terrors)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §10. Danger I → II.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/bebalsiai.html"><img src="../images/bebalsiai.jpg" alt="Bebalsiai (the Voiceless)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/bebalsiai.html">Bebalsiai (the Voiceless)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §26. Saga invention. Danger II after 1387.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/gelezinis_vilkas.html"><img src="../images/gelezinis_vilkas.jpg" alt="Geležinis Vilkas (the Iron Wolf omen)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/gelezinis_vilkas.html">Geležinis Vilkas (the Iron Wolf omen)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §23. An omen of Gediminid fate; cannot be met or fought.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/girinis.html"><img src="../images/girinis.jpg" alt="Girinis / miškinis (grove-keepers)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/girinis.html">Girinis / miškinis (grove-keepers)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §11. Danger II → IV.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/kaukas.html"><img src="../images/kaukas.jpg" alt="Kaukas / barzdukai (field-luck)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/kaukas.html">Kaukas / barzdukai (field-luck)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §3. Danger I → III.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/laumiukai.html"><img src="../images/laumiukai.jpg" alt="Laumiukai (changelings)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/laumiukai.html">Laumiukai (changelings)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §7. Danger II → IV.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/laumes.html"><img src="../images/laumes.jpg" alt="Laumės (weavers by the water)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/laumes.html">Laumės (weavers by the water)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §6. Danger II → IV.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/milzinai.html"><img src="../images/milzinai.jpg" alt="Milžinai (giants)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/milzinai.html">Milžinai (giants)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §13. Asleep in the land.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/nedegintieji.html"><img src="../images/nedegintieji.jpg" alt="Nedegintieji (the Unburned)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/nedegintieji.html">Nedegintieji (the Unburned)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §24. Saga invention. Danger IV after 1387.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/pincuikas.html"><img src="../images/pincuikas.jpg" alt="Pinčiukas (clerk of small bargains)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/pincuikas.html">Pinčiukas (clerk of small bargains)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §21. Danger II → III.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/ragana.html"><img src="../images/ragana.jpg" alt="Ragana (seer-witch)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/ragana.html">Ragana (seer-witch)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §22. Danger II → III.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/reizos_raiteliai.html"><img src="../images/reizos_raiteliai.jpg" alt="Reizos raiteliai (Riders of the Reise)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/reizos_raiteliai.html">Reizos raiteliai (Riders of the Reise)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §25. Saga invention. Danger IV after 1387.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/skaiciuotojas.html"><img src="../images/skaiciuotojas.jpg" alt="Skaičiuotojas (the Counter)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/skaiciuotojas.html">Skaičiuotojas (the Counter)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §28. Saga invention. Danger III after 1387.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/slogutis.html"><img src="../images/slogutis.jpg" alt="Slogutis (the presser)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/slogutis.html">Slogutis (the presser)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §5. Danger II → IV.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/smakas.html"><img src="../images/smakas.jpg" alt="Smakas (the dragon under the cathedral)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/smakas.html">Smakas (the dragon under the cathedral)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §14. Danger IV → V.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/uzgesiles.html"><img src="../images/uzgesiles.jpg" alt="Užgesėlės (the Quenched)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/uzgesiles.html">Užgesėlės (the Quenched)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §27. Saga invention. Danger III after 1387.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/vaiduokliai.html"><img src="../images/vaiduokliai.jpg" alt="Vaiduokliai (apparitions)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/vaiduokliai.html">Vaiduokliai (apparitions)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §17. Danger I.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/vandenis.html"><img src="../images/vandenis.jpg" alt="Vandenis and undinės (lake-keepers)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/vandenis.html">Vandenis and undinės (lake-keepers)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §8. Danger III → IV.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/velnio_pavidalai.html"><img src="../images/velnio_pavidalai.jpg" alt="Velnias's small shapes (velniukai)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/velnio_pavidalai.html">Velnias’s small shapes (velniukai)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §20. Danger II → III.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/vilkatas.html"><img src="../images/vilkatas.jpg" alt="Vilkatas / vilkolakis (cursed werewolf)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/vilkatas.html">Vilkatas / vilkolakis (cursed werewolf)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §12. Danger III. Not the sworn Vilkatai of the Dykra (see Iron Wolves).</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/veles.html"><img src="../images/veles.jpg" alt="Vėlės (the fed dead)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/veles.html">Vėlės (the fed dead)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §15. Danger I.</td>
 </tr>
 <tr class="odd">
 <td><a href="../creatures/zaltvyksles.html"><img src="../images/zaltvyksles.jpg" alt="Žaltvykslės (bog-lights, treasure-flames)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/zaltvyksles.html">Žaltvykslės (bog-lights, treasure-flames)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §9. Danger I → II.</td>
 </tr>
 <tr class="even">
 <td><a href="../creatures/zaltys.html"><img src="../images/zaltys.jpg" alt="Žaltys (household grass snake)" width="46" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../creatures/zaltys.html">Žaltys (household grass snake)</a></td>
-<td>creature</td>
-<td></td>
+<td>Bestiary §1. Danger I → III.</td>
 </tr>
 </tbody>
 </table>

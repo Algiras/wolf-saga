@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -458,31 +511,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Force-face of:</strong> <a href="../gods/jurate.html">Jūratė</a> — <em>An office born of Jūratė’s grief; needs vessels.</em></p>
 <p><strong>Patron of:</strong> <a href="../factions/kestutaiciai.html">Kęstutaičiai (Kęstutis’s line)</a> · <a href="../houses/palanga_vaidilutes.html">Palanga amber-priestess line (Gintaro vaidilutės)</a></p>
 <p><strong>Vessels:</strong> <a href="../characters/birute.html">Birutė</a> (1382–1384) · <a href="../gods/jurate.html">Jūratė</a> — <em>First holder of the office (mythic).</em></p>
-</section>
-<div class="infobox">
-<div class="infobox-title">
-<p>Gintaro Karalienė (Amber Queen)</p>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../images/amber_queen.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Gintaro Karalienė (Amber Queen) · force"><img src="../images/amber_queen.jpg" class="infobox-img img-fluid figure-img" alt="Gintaro Karalienė (Amber Queen)"></a></p>
-<figcaption>Gintaro Karalienė (Amber Queen) · force</figcaption>
-</figure>
-</div>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>force</td>
-</tr>
-<tr class="even">
-<td><strong>Origin</strong></td>
-<td>Native (face of a god)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
 <div class="statblock sb-force sb-wide" role="group" aria-label="Gintaro Karalienė (Amber Queen) (force)">
 <div class="sb-bar"></div><div class="sb-body">
 <div class="sb-name">Gintaro Karalienė (Amber Queen)</div>
@@ -500,6 +528,39 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Lair</div><p class="sb-entry"><strong><em>Palanga.</em></strong> The shore, the sea and any amber Birutė touched. Birutė's full-moon working at Palanga (ch. 27) is correctly timed on the Water zenith.</p><p class="sb-entry"><strong><em>After 1384.</em></strong> She acts only through amber Birutė already touched: the pebble and the kneeling statue.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Turns by book</div><p class="sb-entry"><strong><em>Book I.</em></strong> The Queen heard through amber (ch. 3); widowhood and sea-dark eyes (ch. 11); the amber kneeling woman (ch. 27); the frame narration.</p><p class="sb-entry"><strong><em>Book II.</em></strong> Only the pebble remains.</p><p class="sb-entry"><strong><em>Book III.</em></strong> Her voice at sea before Grunwald (ch. 14).</p><p class="sb-entry"><strong><em>Book IV.</em></strong> Polish clergy come for the statue (ch. 8).</p><p class="sb-entry"><strong><em>Book V.</em></strong> Her silence (ch. 25); her last working, spent on the dying Flame-Keeper (ch. 29); the sea takes the statue.</p><p class="sb-entry"><strong><em>Book VI.</em></strong> Birutė is chosen at Palanga (ch. 10-11).</p></div>
 </div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §3.4</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D1, D3 · <a href="../codex/legends-songs.html">legends_and_songs.md §1</a>, §5 · hidden_immortals.md §1 · wiki/forces/amber_queen</div><div class="sb-bar"></div></div>
+</section>
+<div class="infobox">
+<div class="infobox-title">
+<p>Gintaro Karalienė (Amber Queen)</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/amber_queen.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Gintaro Karalienė (Amber Queen) · force"><img src="../images/amber_queen.jpg" class="infobox-img img-fluid figure-img" alt="Gintaro Karalienė (Amber Queen)"></a></p>
+<figcaption>Gintaro Karalienė (Amber Queen) · force</figcaption>
+</figure>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>force</td>
+</tr>
+<tr class="even">
+<td><strong>Origin</strong></td>
+<td>Native (face of a god)</td>
+</tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Spiritual manifestation and office anchored by the amber kneeling woman of Palanga.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <section id="nature" class="level2">
 <h2 class="anchored" data-anchor-id="nature">Nature</h2>
 <p><strong>Native</strong> Force, and an <strong>office, not a goddess</strong> (canon D1; cosmology §3.4). It is the sea’s memory of everything gods and men have destroyed, born of <a href="../gods/jurate.html">Jūratė</a>’s grief when <a href="../gods/perkunas.html">Perkūnas</a> shattered her amber palace. It needs a mortal vessel to act on land. The vessels come from the Palanga amber-priestess line and each ends by giving her mortality back to the sea.</p>

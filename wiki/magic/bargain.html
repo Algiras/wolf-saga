@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Patrons:</strong> <a href="../forces/shadow_seller.html">Šešėlių Pardavėjas / Henė</a></p>
 <p><strong>Practitioners:</strong> <a href="../characters/jogaila.html">Jogaila</a> (1380–…) — tier 0 · <a href="../characters/skirgaila.html">Skirgaila</a> (1382–…) — tier 0</p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Sandėris (bargain) (spell)">
+<div class="sb-name">Sandėris (bargain)</div>
+<div class="sb-sub">Sandėris · the bargain, bought power</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Bought power. Binds by the letter, never by the Three Laws</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 0: anyone desperate. Either party may initiate, but the human is rarely informed</dd></div><div class="sb-cell"><dt>Casting</dt><dd>A deal worded precisely. Velnias never cheats, he drafts. Free at first, the thread comes later</dd></div><div class="sb-cell"><dt>Components</dt><dd>The letter of the deal; a figure at the edge of the firelight, warm coins, three stones</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Paid later with interest: something worth more than you thought. Deferred costs compound</dd></div><div class="sb-cell"><dt>Duration</dt><dd>Until the bargain is collected: Jogaila's ran from 1380 to 1434</dd></div><div class="sb-cell"><dt>Limits</dt><dd>The Shadow-Seller alone can lie and make illusions. A bargain can say only what it says</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Cleverness, never strength or faith (the crop-division tale). A Praurimė seer sees through illusions at the cost of blindness. Refusal: Vytautas at Lutsk</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Anything, worded precisely.</em></strong> The easy way: a secret treaty, a key to a dungeon, a poison that leaves no trace. Every gift comes with a thread.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The threads.</em></strong> A small favour, then a larger one. Jogaila's line inherits the crown and loses the land; Skirgaila is used and discarded.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Out-drafting.</em></strong> Plant turnips, then rye. But beating the devil does not protect you from people.</p><p class="sb-entry"><strong><em>Refusal.</em></strong> A word not yet spoken cannot be bought. The crown turns to leaves.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §1</a>, §8 · <a href="../codex/power-systems.html">power_systems.md §3</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §9</a> · <a href="../books/book1.html">Book I ch. 19</a> · <a href="../books/book4.html">Book IV ch. 22</a> · wiki/magic/bargain</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -468,6 +527,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -477,16 +540,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Family</strong></td>
 <td>bought</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Sandėris: transactional supernatural contract sealed with an explicit price.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Sandėris (bargain) (spell)">
-<div class="sb-name">Sandėris (bargain)</div>
-<div class="sb-sub">Sandėris · the bargain, bought power</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Bought power. Binds by the letter, never by the Three Laws</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 0: anyone desperate. Either party may initiate, but the human is rarely informed</dd></div><div class="sb-cell"><dt>Casting</dt><dd>A deal worded precisely. Velnias never cheats, he drafts. Free at first, the thread comes later</dd></div><div class="sb-cell"><dt>Components</dt><dd>The letter of the deal; a figure at the edge of the firelight, warm coins, three stones</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Paid later with interest: something worth more than you thought. Deferred costs compound</dd></div><div class="sb-cell"><dt>Duration</dt><dd>Until the bargain is collected: Jogaila's ran from 1380 to 1434</dd></div><div class="sb-cell"><dt>Limits</dt><dd>The Shadow-Seller alone can lie and make illusions. A bargain can say only what it says</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Cleverness, never strength or faith (the crop-division tale). A Praurimė seer sees through illusions at the cost of blindness. Refusal: Vytautas at Lutsk</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Anything, worded precisely.</em></strong> The easy way: a secret treaty, a key to a dungeon, a poison that leaves no trace. Every gift comes with a thread.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The threads.</em></strong> A small favour, then a larger one. Jogaila's line inherits the crown and loses the land; Skirgaila is used and discarded.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Out-drafting.</em></strong> Plant turnips, then rye. But beating the devil does not protect you from people.</p><p class="sb-entry"><strong><em>Refusal.</em></strong> A word not yet spoken cannot be bought. The crown turns to leaves.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §1</a>, §8 · <a href="../codex/power-systems.html">power_systems.md §3</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §9</a> · <a href="../books/book1.html">Book I ch. 19</a> · <a href="../books/book4.html">Book IV ch. 22</a> · wiki/magic/bargain</div></div>
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p><strong>Sandėris</strong>: <em>bought</em> power. A deal worded precisely, with the <a href="../forces/shadow_seller.html">Shadow-Seller</a> (a shard of <a href="../gods/velnias.html">Velnias</a>) or a lesser spirit, binding the parties only by <strong>the letter</strong>, never by the Three Laws.</p>

@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -458,31 +511,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Fed by:</strong> <a href="../factions/teutonic_order.html">Teutonic Order</a></p>
 <p><strong>Patron of:</strong> <a href="../magic/iron_gift.html">Iron Saint’s fearlessness</a> · <a href="../characters/zollner.html">Konrad Zöllner von Rotenstein</a> (1382–1390) · <a href="../characters/jungingen.html">Ulrich von Jungingen</a> (1407–1410)</p>
 <p><strong>Servants:</strong> <a href="../creatures/nedegintieji.html">Nedegintieji (the Unburned)</a> · <a href="../creatures/reizos_raiteliai.html">Reizos raiteliai (Riders of the Reise)</a></p>
-</section>
-<div class="infobox">
-<div class="infobox-title">
-<p>Geležinis Šventasis (Ferrum Sanctum)</p>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../images/iron_saint.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Geležinis Šventasis (Ferrum Sanctum) · force"><img src="../images/iron_saint.jpg" class="infobox-img img-fluid figure-img" alt="Geležinis Šventasis (Ferrum Sanctum)"></a></p>
-<figcaption>Geležinis Šventasis (Ferrum Sanctum) · force</figcaption>
-</figure>
-</div>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>force</td>
-</tr>
-<tr class="even">
-<td><strong>Origin</strong></td>
-<td>Egregore (fed by institutions)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
 <div class="statblock sb-force sb-wide" role="group" aria-label="Geležinis Šventasis (Ferrum Sanctum) (force)">
 <div class="sb-bar"></div><div class="sb-body">
 <div class="sb-name">Geležinis Šventasis (Ferrum Sanctum)</div>
@@ -500,6 +528,39 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Lair</div><p class="sb-entry"><strong><em>Marienburg and the border.</em></strong> Consecrated stone is its home ground: Kalba costs double there and amber goes cold. The cellars of Marienburg stay warm for a hundred years.</p><p class="sb-entry"><strong><em>When it is strongest.</em></strong> At the Reise, when thousands of prayers and marches are poured into one battle.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Turns by book</div><p class="sb-entry"><strong><em>Book I.</em></strong> Marienburg and Zöllner (ch. 17-18, 20).</p><p class="sb-entry"><strong><em>Book III.</em></strong> The warm cellars (ch. 11), the siege (ch. 22), its death at Grunwald (ch. 20, Geležies Mirtis).</p><p class="sb-entry"><strong><em>Book V.</em></strong> Silenced in the North among the dying Order (ch. 14).</p><p class="sb-entry"><strong><em>Book VI.</em></strong> First met at Strėva, 1348 (ch. 7), and Rudau, 1370 (ch. 24), where Kęstutis recognises its signs.</p></div>
 </div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §2.2</a>, §3.3 · <a href="../codex/magic-rules.html">magic_rules.md §9</a> · <a href="../codex/bestiary.html">bestiary.md</a> (three irons), §24, §25 · <a href="../codex/power-systems.html">power_systems.md §3</a> · wiki/forces/iron_saint</div><div class="sb-bar"></div></div>
+</section>
+<div class="infobox">
+<div class="infobox-title">
+<p>Geležinis Šventasis (Ferrum Sanctum)</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/iron_saint.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Geležinis Šventasis (Ferrum Sanctum) · force"><img src="../images/iron_saint.jpg" class="infobox-img img-fluid figure-img" alt="Geležinis Šventasis (Ferrum Sanctum)"></a></p>
+<figcaption>Geležinis Šventasis (Ferrum Sanctum) · force</figcaption>
+</figure>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>force</td>
+</tr>
+<tr class="even">
+<td><strong>Origin</strong></td>
+<td>Egregore (fed by institutions)</td>
+</tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Ferrum Sanctum: cold, relentless egregore of crusader conquest fed by the Teutonic Order.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <section id="nature" class="level2">
 <h2 class="anchored" data-anchor-id="nature">Nature</h2>
 <p><strong>Egregore</strong> (cosmology §2.2): <em>Geležinis Šventasis</em>, Latin <em>Ferrum Sanctum</em>. It is fed by the <strong>Reise</strong> season, crusade, indulgence and forced baptism, and by thousands of prayers in the Marienburg church of the Virgin (<a href="../books/book1.html">Book I ch.&nbsp;18</a>). It is <strong>not the Christian God</strong>, which the saga never judges. It is institutional appetite wearing faith’s clothes.</p>

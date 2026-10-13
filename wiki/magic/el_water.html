@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Deity:</strong> <a href="../gods/bangputys.html">Bangpūtys</a></p>
 <p><strong>Patrons:</strong> <a href="../gods/menuo.html">Mėnuo</a> — <em>Tides set Bangpūtys’s zenith.</em></p>
 <p><strong>Used by:</strong> <a href="../magic/kalba.html">Senovės Kalba</a></p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Vanduo (Water) (spell)">
+<div class="sb-name">Vanduo (Water)</div>
+<div class="sb-sub">Vanduo tau teks · Life Spring, the Water working</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>Element</dt><dd>Water · deity Bangpūtys (attested late), with Mėnuo setting his tides. Zenith: full moon or high tide, strongest at the spring ice-break</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 (minor, one element) or 3 and up; the sea-craft of the amber priestesses</dd></div><div class="sb-cell"><dt>Casting</dt><dd><em>Vanduo tau teks</em> aloud. <em>Man</em> for oneself</dd></div><div class="sb-cell"><dt>Components</dt><dd>Running or sea water; amber for scrying in a bowl; true intent</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Minor: raging thirst. Major: the caster takes the patient's wound in part</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length to a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Cannot heal a mortal wound. Doubled away from living water, in caves and at distance</dd></div><div class="sb-cell"><dt>Counters</dt><dd>The White Silence freezes it; consecrated stone; the Order's sword</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Life Spring.</em></strong> Healing and the pull of a soul back from the gate. It can carry a thirst away or draw poison out through hair and blood across distance.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The patient's wound.</em></strong> After Vorskla Vytautas casts <em>Vanduo man teks</em> on a wounded boyar: the thirst vanishes, a side that was not his passes into him, and part of the pain stays (<a href="../books/book2.html">Book II ch. 27</a>).</p><p class="sb-entry"><strong><em>The forbidden transfer.</em></strong> Moving the cost into another body, a second person or a child, is forbidden and costly: the debt finds its owner. In <a href="../books/book2.html">Book II ch. 9</a> the Lagoon ragana says she could draw the poison from the hostage boys, but her old body cannot carry it, so it would go into an Order child. Vytautas answers no.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The debt returns.</em></strong> A cost shifted into another body finds its owner (magic_rules §4.1).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../books/book1.html">Book I ch. 11</a>, 27 · <a href="../books/book2.html">Book II ch. 9</a>, 27 · <a href="../books/book6.html">Book VI ch. 10</a>-11 · wiki/magic/el_water</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -468,6 +527,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -481,16 +544,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Zenith</strong></td>
 <td>Full moon / ice-break</td>
 </tr>
+<tr class="even">
+<td><strong>Note</strong></td>
+<td>Vanduo (Water): the element of life spring, fluid healing, and shared burden.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Vanduo (Water) (spell)">
-<div class="sb-name">Vanduo (Water)</div>
-<div class="sb-sub">Vanduo tau teks · Life Spring, the Water working</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>Element</dt><dd>Water · deity Bangpūtys (attested late), with Mėnuo setting his tides. Zenith: full moon or high tide, strongest at the spring ice-break</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 (minor, one element) or 3 and up; the sea-craft of the amber priestesses</dd></div><div class="sb-cell"><dt>Casting</dt><dd><em>Vanduo tau teks</em> aloud. <em>Man</em> for oneself</dd></div><div class="sb-cell"><dt>Components</dt><dd>Running or sea water; amber for scrying in a bowl; true intent</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Minor: raging thirst. Major: the caster takes the patient's wound in part</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length to a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Cannot heal a mortal wound. Doubled away from living water, in caves and at distance</dd></div><div class="sb-cell"><dt>Counters</dt><dd>The White Silence freezes it; consecrated stone; the Order's sword</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Life Spring.</em></strong> Healing and the pull of a soul back from the gate. It can carry a thirst away or draw poison out through hair and blood across distance.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The patient's wound.</em></strong> After Vorskla Vytautas casts <em>Vanduo man teks</em> on a wounded boyar: the thirst vanishes, a side that was not his passes into him, and part of the pain stays (<a href="../books/book2.html">Book II ch. 27</a>).</p><p class="sb-entry"><strong><em>The forbidden transfer.</em></strong> Moving the cost into another body, a second person or a child, is forbidden and costly: the debt finds its owner. In <a href="../books/book2.html">Book II ch. 9</a> the Lagoon ragana says she could draw the poison from the hostage boys, but her old body cannot carry it, so it would go into an Order child. Vytautas answers no.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The debt returns.</em></strong> A cost shifted into another body finds its owner (magic_rules §4.1).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../books/book1.html">Book I ch. 11</a>, 27 · <a href="../books/book2.html">Book II ch. 9</a>, 27 · <a href="../books/book6.html">Book VI ch. 10</a>-11 · wiki/magic/el_water</div></div>
 <section id="deity-zenith" class="level2">
 <h2 class="anchored" data-anchor-id="deity-zenith">Deity &amp; zenith</h2>
 <p><strong>Deity:</strong> <a href="../gods/bangputys.html">Bangpūtys</a>, with <a href="../gods/menuo.html">Mėnuo</a> setting his tides. <strong>Incantation:</strong> <em>Vanduo tau teks</em> (“Water for you shall flow”), <em>man</em> for oneself. <strong>Medium:</strong> running or sea water. <strong>Zenith:</strong> full moon or high tide, strongest at the spring ice-break: cost <strong>halved</strong>; <strong>doubled</strong> away from living water.</p>

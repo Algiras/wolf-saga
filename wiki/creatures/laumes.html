@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Servants:</strong> <a href="../creatures/laumiukai.html">Laumiukai (changelings)</a></p>
 <p><strong>Surety for:</strong> <a href="../magic/silent_pact.html">Tylioji Sutartis (Silent Pact)</a> — <em>The Pact’s direct witnesses.</em></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Laumės (weavers by the water) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Laumės (weavers by the water)</div>
+<div class="sb-sub">Weavers by the water · Baltic folk belief, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] beautiful long-haired water women with hen's feet, spinners and linen-washers, Thursday-evening taboo · [Saga] the weavers of custom</p>
+<p class="sb-prop"><strong>Tier</strong> Dvasia · custom-bound; surety and direct witnesses of the Silent Pact</p>
+<p class="sb-prop"><strong>Danger</strong> II hazard → IV deadly</p>
+<p class="sb-prop"><strong>Habitat</strong> Rivers, meadows, lakes and swamps; midnight by the water</p>
+<p class="sb-prop"><strong>Wants</strong> Diligence and courtesy: a hank of flax by the water at Rasos; no spinning on Thursday evening</p>
+<p class="sb-prop"><strong>Takes</strong> The curious, blinded or drowned. After 1387, the babies they once swapped</p>
+<p class="sb-prop"><strong>Signs</strong> Paddle-beats at midnight; wet linen on meadows at dawn with no one about; hen-tracks in the dew; a rainbow ending at a lake (laumės juosta)</p>
+<p class="sb-prop"><strong>Banes</strong> Iron does little. Courtesy is the only real ward</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The diligent see kindness. The truth is a law of work and courtesy, neither kind nor cruel, which looks like cruelty to everyone else. Thursday is Perkūnas's day, and a woman spinning then spins against the laumės' own wheel.</p><p class="sb-entry"><strong><em>Weavers of custom.</em></strong> Every courtesy between the land's people and its spirits is a thread they spin. The Silent Pact is their great tapestry.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Spinning and washing.</em></strong> Weave and beat linen at night by the water.</p><p class="sb-entry"><strong><em>Reward and punishment.</em></strong> Reward the diligent and orphaned; blind or drown the lazy and the watchers.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Never measure the gift.</em></strong> A laumė's linen never runs out, so you can never sell it.</p><p class="sb-entry"><strong><em>Never watch them bathe.</em></strong> The curious are blinded or drowned.</p><p class="sb-entry"><strong><em>The tapestry tears (after 1387).</em></strong> Laumės who once swapped babies now drown them, and their endless linen becomes shrouds.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §6</a> · <a href="../codex/cosmology.html">cosmology.md §4.1</a>, §4.3 · world_graph.json (laumes surety_for silent_pact)</div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -485,24 +556,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Laumės (weavers by the water) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Laumės (weavers by the water)</div>
-<div class="sb-sub">Weavers by the water · Baltic folk belief, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] beautiful long-haired water women with hen's feet, spinners and linen-washers, Thursday-evening taboo · [Saga] the weavers of custom</p>
-<p class="sb-prop"><strong>Tier</strong> Dvasia · custom-bound; surety and direct witnesses of the Silent Pact</p>
-<p class="sb-prop"><strong>Danger</strong> II hazard → IV deadly</p>
-<p class="sb-prop"><strong>Habitat</strong> Rivers, meadows, lakes and swamps; midnight by the water</p>
-<p class="sb-prop"><strong>Wants</strong> Diligence and courtesy: a hank of flax by the water at Rasos; no spinning on Thursday evening</p>
-<p class="sb-prop"><strong>Takes</strong> The curious, blinded or drowned. After 1387, the babies they once swapped</p>
-<p class="sb-prop"><strong>Signs</strong> Paddle-beats at midnight; wet linen on meadows at dawn with no one about; hen-tracks in the dew; a rainbow ending at a lake (laumės juosta)</p>
-<p class="sb-prop"><strong>Banes</strong> Iron does little. Courtesy is the only real ward</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The diligent see kindness. The truth is a law of work and courtesy, neither kind nor cruel, which looks like cruelty to everyone else. Thursday is Perkūnas's day, and a woman spinning then spins against the laumės' own wheel.</p><p class="sb-entry"><strong><em>Weavers of custom.</em></strong> Every courtesy between the land's people and its spirits is a thread they spin. The Silent Pact is their great tapestry.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Spinning and washing.</em></strong> Weave and beat linen at night by the water.</p><p class="sb-entry"><strong><em>Reward and punishment.</em></strong> Reward the diligent and orphaned; blind or drown the lazy and the watchers.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Never measure the gift.</em></strong> A laumė's linen never runs out, so you can never sell it.</p><p class="sb-entry"><strong><em>Never watch them bathe.</em></strong> The curious are blinded or drowned.</p><p class="sb-entry"><strong><em>The tapestry tears (after 1387).</em></strong> Laumės who once swapped babies now drown them, and their endless linen becomes shrouds.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §6</a> · <a href="../codex/cosmology.html">cosmology.md §4.1</a>, §4.3 · world_graph.json (laumes surety_for silent_pact)</div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>Supernatural women of meadows, rivers, lakes and swamps: beautiful, long-haired, betrayed by hen’s or goat’s feet. They spin, weave and wash linen at night, reward diligent and orphaned girls and punish the lazy. Women must not spin on Thursday evening, the laumės’ time. A laumė’s gift of linen never runs out unless the recipient measures it. They dance in moonlit meadows, marry mortal men (who lose them when a taboo is broken) and swap human babies for their own. The rainbow is <em>laumės juosta</em>, the laumė’s sash.</p>

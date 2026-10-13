@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Bargained with:</strong> <a href="../creatures/ragana.html">Ragana (seer-witch)</a> (1387–…) — <em>After the Krivis and vaidilutės are gone, Velnias’s small shapes are the only teachers left.</em></p>
 <p><strong>Shard of:</strong> <a href="../gods/velnias.html">Velnias</a></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Velnias's small shapes (velniukai) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Velnias's small shapes (velniukai)</div>
+<div class="sb-sub">Velnias's small shapes · Lithuanian folk tales, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] Velnias as a gentleman in green, a black cat or a black dog, regularly cheated by peasants · [Saga] velniukai, small change from the same purse</p>
+<p class="sb-prop"><strong>Tier</strong> Dvasia · shards of Velnias; the Shadow-Seller's scouts</p>
+<p class="sb-prop"><strong>Danger</strong> II hazard → III dangerous</p>
+<p class="sb-prop"><strong>Habitat</strong> Villages, mills, swamps and stones; after 1387 the towns where ledgers make better bargains</p>
+<p class="sb-prop"><strong>Wants</strong> Small deals, and to learn what a prince will need</p>
+<p class="sb-prop"><strong>Takes</strong> Bargains kept to the letter, paid later</p>
+<p class="sb-prop"><strong>Signs</strong> A black cat the day before a quarrel; a stranger in a too-fine green coat at a wedding who will not dance (he would show his foot); a dog that will not leave in a thunderstorm</p>
+<p class="sb-prop"><strong>Banes</strong> Thunder-stones; after 1387 the Candlemas thunder candle lit in storms</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> These are not the Shadow-Seller himself, but small change from the same purse. Hungry and fair like their lord, they keep every deal to the letter and lose to anyone cleverer.</p><p class="sb-entry"><strong><em>Scouts.</em></strong> The Shadow-Seller uses them as eyes: a black dog at the edge of the firelight is often how he learns what a prince will need.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Small bargains.</em></strong> In villages, worded precisely.</p><p class="sb-entry"><strong><em>Teaching (after 1387).</em></strong> With the Krivis and the vaidilutės gone, they are the only teachers left to many raganos.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The thunder candle.</em></strong> Perkūnas's attention comes with it.</p><p class="sb-entry"><strong><em>Never shake his hand.</em></strong> Rudeness to strangers is itself a sin against custom, so you may insult the Beggar by mistake.</p><p class="sb-entry"><strong><em>Out-thinking him.</em></strong> Draft the deal yourself. If you are less clever than you think, the letter is your ruin.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §20</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §8</a>, §9 · <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../books/book1.html">Book I ch. 8</a>-9</div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -485,24 +556,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Velnias's small shapes (velniukai) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Velnias's small shapes (velniukai)</div>
-<div class="sb-sub">Velnias's small shapes · Lithuanian folk tales, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] Velnias as a gentleman in green, a black cat or a black dog, regularly cheated by peasants · [Saga] velniukai, small change from the same purse</p>
-<p class="sb-prop"><strong>Tier</strong> Dvasia · shards of Velnias; the Shadow-Seller's scouts</p>
-<p class="sb-prop"><strong>Danger</strong> II hazard → III dangerous</p>
-<p class="sb-prop"><strong>Habitat</strong> Villages, mills, swamps and stones; after 1387 the towns where ledgers make better bargains</p>
-<p class="sb-prop"><strong>Wants</strong> Small deals, and to learn what a prince will need</p>
-<p class="sb-prop"><strong>Takes</strong> Bargains kept to the letter, paid later</p>
-<p class="sb-prop"><strong>Signs</strong> A black cat the day before a quarrel; a stranger in a too-fine green coat at a wedding who will not dance (he would show his foot); a dog that will not leave in a thunderstorm</p>
-<p class="sb-prop"><strong>Banes</strong> Thunder-stones; after 1387 the Candlemas thunder candle lit in storms</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> These are not the Shadow-Seller himself, but small change from the same purse. Hungry and fair like their lord, they keep every deal to the letter and lose to anyone cleverer.</p><p class="sb-entry"><strong><em>Scouts.</em></strong> The Shadow-Seller uses them as eyes: a black dog at the edge of the firelight is often how he learns what a prince will need.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Small bargains.</em></strong> In villages, worded precisely.</p><p class="sb-entry"><strong><em>Teaching (after 1387).</em></strong> With the Krivis and the vaidilutės gone, they are the only teachers left to many raganos.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The thunder candle.</em></strong> Perkūnas's attention comes with it.</p><p class="sb-entry"><strong><em>Never shake his hand.</em></strong> Rudeness to strangers is itself a sin against custom, so you may insult the Beggar by mistake.</p><p class="sb-entry"><strong><em>Out-thinking him.</em></strong> Draft the deal yourself. If you are less clever than you think, the letter is your ruin.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §20</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §8</a>, §9 · <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../books/book1.html">Book I ch. 8</a>-9</div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>Velnias is one of the most vivid figures of Lithuanian folk tales. He often appears as a gentleman, frequently a “little German” (<em>vokietukas</em>) in a green or black coat with a hat hiding his horns and a goose- or horse-foot he cannot hide. He also takes the shapes of black cats and black dogs, haunts swamps, stones and mills, makes bargains (signed in blood in Christian-era tales) and is regularly cheated by clever peasants. He fears Perkūnas, who hunts him with lightning; in storms people chased cats and dogs out of the house.</p>

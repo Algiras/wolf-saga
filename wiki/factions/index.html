@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,8 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -302,6 +304,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -432,83 +485,70 @@ document.addEventListener("DOMContentLoaded", function () {
 <thead>
 <tr class="header">
 <th></th>
-<th>Name</th>
-<th>Type</th>
-<th>Years</th>
+<th>Faction</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="../factions/algirdaiciai.html"><img src="../images/algirdaiciai.jpg" alt="Algirdaičiai (Algirdas's line)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/algirdaiciai.html">Algirdaičiai (Algirdas’s line)</a></td>
-<td>faction</td>
-<td></td>
+<td>Dynastic branch of Grand Duke Algirdas: Jogaila, Skirgaila, Švitrigaila, and their heirs.</td>
 </tr>
 <tr class="even">
 <td><a href="../factions/golden_horde.html"><img src="../images/golden_horde.jpg" alt="Golden Horde" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/golden_horde.html">Golden Horde</a></td>
-<td>faction</td>
-<td></td>
+<td>The Kipchak Khanate; Mongol-Turkic steppe empire bordering Lithuania in the south.</td>
 </tr>
 <tr class="odd">
 <td><a href="../factions/gdl.html"><img src="../images/gdl.jpg" alt="Grand Duchy of Lithuania" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/gdl.html">Grand Duchy of Lithuania</a></td>
-<td>faction</td>
-<td></td>
+<td>Grand Duchy of Lithuania: sovereign pagan-Ruthenian realm from the Baltic to the Black Sea.</td>
 </tr>
 <tr class="even">
 <td><a href="../factions/moscow.html"><img src="../images/moscow.jpg" alt="Grand Principality of Moscow" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/moscow.html">Grand Principality of Moscow</a></td>
-<td>faction</td>
-<td></td>
+<td>Grand Principality of Moscow; rising Orthodox power under Dmitry Donskoy and Vasily I.</td>
 </tr>
 <tr class="odd">
 <td><a href="../factions/hanse.html"><img src="../images/hanse.jpg" alt="Hanseatic merchants" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/hanse.html">Hanseatic merchants</a></td>
-<td>faction</td>
-<td></td>
+<td>Hanseatic merchant league operating Baltic maritime trading outposts and credit networks.</td>
 </tr>
 <tr class="even">
 <td><a href="../factions/poland.html"><img src="../images/poland.jpg" alt="Kingdom of Poland (Lesser Poland lords)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/poland.html">Kingdom of Poland (Lesser Poland lords)</a></td>
-<td>faction</td>
-<td></td>
+<td>Crown of the Kingdom of Poland, united with Lithuania through the personal union of Jogaila.</td>
 </tr>
 <tr class="odd">
 <td><a href="../factions/kestutaiciai.html"><img src="../images/kestutaiciai.jpg" alt="Kęstutaičiai (Kęstutis's line)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/kestutaiciai.html">Kęstutaičiai (Kęstutis’s line)</a></td>
-<td>faction</td>
-<td></td>
+<td>Dynastic branch of Duke Kęstutis: Vytautas, Žygimantas, Danutė, and their loyalists.</td>
 </tr>
 <tr class="even">
 <td><a href="../factions/pagan_clergy.html"><img src="../images/pagan_clergy.jpg" alt="Pagan clergy (Krivis, žyniai, vaidilutės)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/pagan_clergy.html">Pagan clergy (Krivis, žyniai, vaidilutės)</a></td>
-<td>faction</td>
-<td></td>
+<td>Krivis, žyniai, and vaidilutės: keepers of sacred groves, altars, and ancient rites.</td>
 </tr>
 <tr class="odd">
 <td><a href="../factions/teutonic_order.html"><img src="../images/teutonic_order.jpg" alt="Teutonic Order" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/teutonic_order.html">Teutonic Order</a></td>
-<td>faction</td>
-<td></td>
+<td>State of the Teutonic Knights; military-monastic crusader order in Prussia.</td>
 </tr>
 <tr class="even">
 <td><a href="../factions/iron_wolves.html"><img src="../images/iron_wolves.jpg" alt="Vilkatai (Iron Wolves)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/iron_wolves.html">Vilkatai (Iron Wolves)</a></td>
-<td>faction</td>
-<td></td>
+<td>The Vilkatai: secret brotherhood of shapeshifting wolf-guardians sworn to protect the realm.</td>
 </tr>
 <tr class="odd">
 <td><a href="../factions/samogitians.html"><img src="../images/samogitians.jpg" alt="Žemaičiai (Samogitians)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/samogitians.html">Žemaičiai (Samogitians)</a></td>
-<td>faction</td>
-<td></td>
+<td>Žemaičiai: fiercely pagan western Baltic tribes resisting Teutonic crusader conquest.</td>
 </tr>
 <tr class="even">
 <td><a href="../factions/village_healers.html"><img src="../images/village_healers.jpg" alt="Žiniuoniai (village charm-healers)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../factions/village_healers.html">Žiniuoniai (village charm-healers)</a></td>
-<td>faction</td>
-<td></td>
+<td>Žiniuoniai: village charm-healers, bone-setters, and herbal practitioners.</td>
 </tr>
 </tbody>
 </table>

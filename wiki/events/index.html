@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,8 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -302,6 +304,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -432,388 +485,388 @@ document.addEventListener("DOMContentLoaded", function () {
 <thead>
 <tr class="header">
 <th></th>
-<th>Name</th>
-<th>Type</th>
-<th>Years</th>
+<th>Event</th>
+<th>Description</th>
+<th>Date</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="../events/ev_pact_sworn.html"><img src="../images/ev_pact_sworn.jpg" alt="Silent Pact sworn" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_pact_sworn.html">Silent Pact sworn</a></td>
-<td>event</td>
+<td>All Souls’ Night 1345: Algirdas, Kęstutis, and the Krivis swear the Silent Pact at Šventaragis.</td>
 <td>1345</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_diarchy.html"><img src="../images/ev_diarchy.jpg" alt="Algirdas &amp; Kęstutis depose Jaunutis" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_diarchy.html">Algirdas &amp; Kęstutis depose Jaunutis</a></td>
-<td>event</td>
+<td>Algirdas and Kęstutis depose Jaunutis in 1345 and establish the co-ruling diarchy.</td>
 <td>1345</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_marriage.html"><img src="../images/ev_marriage.jpg" alt="Kęstutis marries Birutė" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_marriage.html">Kęstutis marries Birutė</a></td>
-<td>event</td>
+<td>Kęstutis abducts and marries Birutė, sacred vaidilutė of Palanga (c.&nbsp;1350).</td>
 <td>1350</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_kestutis_escape_1361.html"><img src="../images/ev_kestutis_escape_1361.jpg" alt="Kęstutis escapes Marienburg" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_kestutis_escape_1361.html">Kęstutis escapes Marienburg</a></td>
-<td>event</td>
+<td>Alf (Adolfas) removed bricks over months; Kęstutis broke through the wall, dropped into the dry moat, rode out as a knight; on foot over the Drwęca to Mazovia. Capture: Lake Ublik, March 1361.</td>
 <td>1361-11-11</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_kestutis_captured_1361.html"><img src="../images/ev_kestutis_captured_1361.jpg" alt="Kęstutis captured at Lake Ublik" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_kestutis_captured_1361.html">Kęstutis captured at Lake Ublik</a></td>
-<td>event</td>
+<td>Capture 21 Mar 1361 (Wigand; Wartberge: 13 Mar). A small returning band of knights fell on his camp; he was over sixty. Held about half a year.</td>
 <td>1361-03-21</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_algirdas_dies.html"><img src="../images/ev_algirdas_dies.jpg" alt="Algirdas dies; cremated" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_algirdas_dies.html">Algirdas dies; cremated</a></td>
-<td>event</td>
+<td>Algirdas dies in May 1377; cremated with 18 battle chargers in the sacred grove.</td>
 <td>1377</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_dovydiskes.html"><img src="../images/ev_dovydiskes.jpg" alt="Treaty of Dovydiškės" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_dovydiskes.html">Treaty of Dovydiškės</a></td>
-<td>event</td>
+<td>The Order’s informant to Kęstutis in Aug 1381: Kuno von Liebenstein (not Hohenstein).</td>
 <td>1380-05-31</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_coup_1381.html"><img src="../images/ev_coup_1381.jpg" alt="Kęstutis takes Vilnius; Jogaila caught on his way back" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_coup_1381.html">Kęstutis takes Vilnius; Jogaila caught on his way back</a></td>
-<td>event</td>
+<td>Kęstutis discovers Dovydiškės, seizes Vilnius in autumn 1381, and deposes Jogaila.</td>
 <td>1381</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_vilnius_retaken.html"><img src="../images/ev_vilnius_retaken.jpg" alt="Hanulas and the townsfolk take Vilnius for Jogaila" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_vilnius_retaken.html">Hanulas and the townsfolk take Vilnius for Jogaila</a></td>
-<td>event</td>
+<td>Hanulas and German merchants open Vilnius to Jogaila on 12 June 1382.</td>
 <td>1382-06-12</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_arrest.html"><img src="../images/ev_arrest.jpg" alt="Kęstutis &amp; Vytautas lured to Jogaila's camp near Trakai and arrested" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_arrest.html">Kęstutis &amp; Vytautas lured to Jogaila’s camp near Trakai and arrested</a></td>
-<td>event</td>
+<td>3 Aug 1382, after Trakai fell on 20 Jul.&nbsp;Book I stages it at the camp: the Iron Gates are the camp palisade gate, the Feast of Silence is held in a requisitioned Trakai manor. Kęstutis’s body is burned in Vilnius.</td>
 <td>1382-08-03</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_kestutis_death.html"><img src="../images/ev_kestutis_death.jpg" alt="Kęstutis strangled at Krėva" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_kestutis_death.html">Kęstutis strangled at Krėva</a></td>
-<td>event</td>
+<td>Kęstutis is strangled in Krėva dungeon on 15 August 1382; breaks Pact clause 2.</td>
 <td>1382-08-15</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_sutartis.html"><img src="../images/ev_sutartis.jpg" alt="Birutė binds Vytautas (Sutartis, surety, flame promise)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_sutartis.html">Birutė binds Vytautas (Sutartis, surety, flame promise)</a></td>
-<td>event</td>
+<td>Birutė binds Vytautas with a Senovės Sutartis and passes him the flame promise (1382).</td>
 <td>1382</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_perkunas_mark.html"><img src="../images/ev_perkunas_mark.jpg" alt="Perkūnas claims Vytautas" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_perkunas_mark.html">Perkūnas claims Vytautas</a></td>
-<td>event</td>
+<td>Lightning strikes Krėva tower; Perkūnas marks Vytautas as his tool of vengeance.</td>
 <td>1382</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_kreva_escape.html"><img src="../images/ev_kreva_escape.jpg" alt="Vytautas escapes Krėva in the maid's clothes" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_kreva_escape.html">Vytautas escapes Krėva in the maid’s clothes</a></td>
-<td>event</td>
+<td>Vytautas escapes Krėva disguised in Ona’s maid’s clothes in late autumn 1382.</td>
 <td>1382</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_dykra_rescue.html"><img src="../images/ev_dykra_rescue.jpg" alt="Eglė leads Vytautas through the Dykra" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_dykra_rescue.html">Eglė leads Vytautas through the Dykra</a></td>
-<td>event</td>
+<td>Eglė guides the hunted Vytautas across the treacherous Dykra wilderness to Mazovia.</td>
 <td>1382</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_trakai_to_skirgaila.html"><img src="../images/ev_trakai_to_skirgaila.jpg" alt="Trakai granted to Skirgaila (1382-92)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_trakai_to_skirgaila.html">Trakai granted to Skirgaila (1382-92)</a></td>
-<td>event</td>
+<td>Trakai fell on 20 Jul 1382; Skirgaila duke of Trakai 1382-92 (VLE). The 1384 settlement (ch.&nbsp;28) only confirms it; Jogaila promised it to Vytautas in spring 1384.</td>
 <td>1382-07</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_beggar_coin.html"><img src="../images/ev_beggar_coin.jpg" alt="The Beggar turns Kęstutis's coin to stone" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_beggar_coin.html">The Beggar turns Kęstutis’s coin to stone</a></td>
-<td>event</td>
+<td>The Beggar (Velnias / Henė) turns Kęstutis’s coin to stone on the road to Jogaila’s camp (1382).</td>
 <td>1382</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_masovia_refuge.html"><img src="../images/ev_masovia_refuge.jpg" alt="Vytautas shelters with Janusz I in Masovia" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_masovia_refuge.html">Vytautas shelters with Janusz I in Masovia</a></td>
-<td>event</td>
+<td>Vytautas and Ona shelter at the court of Janusz I in Masovia after escaping Krėva (1382).</td>
 <td>1382</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_marienburg_audience.html"><img src="../images/ev_marienburg_audience.jpg" alt="Vytautas before Zöllner at Marienburg" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_marienburg_audience.html">Vytautas before Zöllner at Marienburg</a></td>
-<td>event</td>
+<td>Vytautas appears before Grand Master Zöllner in Marienburg to request crusader assistance (1382).</td>
 <td>1382</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_tapiau_baptism.html"><img src="../images/ev_tapiau_baptism.jpg" alt="Vytautas baptised 'Wigand' (a lie)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_tapiau_baptism.html">Vytautas baptised ‘Wigand’ (a lie)</a></td>
-<td>event</td>
+<td>Vytautas accepts tactical baptism as ‘Wigand’ at Tapiau on 21 October 1383.</td>
 <td>1383-10-21</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_konigsberg.html"><img src="../images/ev_konigsberg.jpg" alt="Treaty of Königsberg (Samogitia ceded)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_konigsberg.html">Treaty of Königsberg (Samogitia ceded)</a></td>
-<td>event</td>
+<td>Treaty of Königsberg: Vytautas signs away Samogitia to secure Teutonic military aid.</td>
 <td>1384-01-30</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_burnings_1384.html"><img src="../images/ev_burnings_1384.jpg" alt="Vytautas burns Order castles; turns on the Order" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_burnings_1384.html">Vytautas burns Order castles; turns on the Order</a></td>
-<td>event</td>
+<td>Vytautas turns on the Order, burning crusader fortresses along the Nemunas in July 1384.</td>
 <td>1384-07</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_truce_ashes.html"><img src="../images/ev_truce_ashes.jpg" alt="Truce in the ashes with Jogaila" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_truce_ashes.html">Truce in the ashes with Jogaila</a></td>
-<td>event</td>
+<td>Vytautas and Jogaila swear a fragile truce amidst the scorched ruins in autumn 1384.</td>
 <td>1384</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_birute_sacrifice.html"><img src="../images/ev_birute_sacrifice.jpg" alt="Birutė's Amber Sacrifice" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_birute_sacrifice.html">Birutė’s Amber Sacrifice</a></td>
-<td>event</td>
+<td>Birutė walks into the Baltic waves at Palanga, paying the Amber Debt (autumn 1384).</td>
 <td>1384</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_kreva_union.html"><img src="../images/ev_kreva_union.jpg" alt="Union of Krėva" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_kreva_union.html">Union of Krėva</a></td>
-<td>event</td>
+<td>Act of Krėva: Jogaila agrees to marry Jadwiga, Christianize Lithuania, and rule Poland (1385).</td>
 <td>1385-08-14</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_krakow_1386.html"><img src="../images/ev_krakow_1386.jpg" alt="Jogaila baptised, married, crowned in Kraków" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_krakow_1386.html">Jogaila baptised, married, crowned in Kraków</a></td>
-<td>event</td>
+<td>Jogaila is baptised Władysław, marries Jadwiga, and is crowned King of Poland in Kraków.</td>
 <td>1386-02-15</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_lithuania_baptism.html"><img src="../images/ev_lithuania_baptism.jpg" alt="Baptism of Lithuania; Šventaragis flame put out" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_lithuania_baptism.html">Baptism of Lithuania; Šventaragis flame put out</a></td>
-<td>event</td>
+<td>Spring 1387: formal Christian baptism of Lithuania; Šventaragis flame officially extinguished.</td>
 <td>1387</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_flame_lit.html"><img src="../images/ev_flame_lit.jpg" alt="Vytautas secretly lights the Last Flame" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_flame_lit.html">Vytautas secretly lights the Last Flame</a></td>
-<td>event</td>
+<td>Night of the 1387 baptism: Vytautas secretly rekindles the Last Flame in the ruins.</td>
 <td>1387</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_second_defection.html"><img src="../images/ev_second_defection.jpg" alt="Vytautas flees to the Order again" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_second_defection.html">Vytautas flees to the Order again</a></td>
-<td>event</td>
+<td>Vytautas defects to the Teutonic Order a second time after Jogaila fails to return Trakai (1390).</td>
 <td>1389</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_vilnius_siege_1390.html"><img src="../images/ev_vilnius_siege_1390.jpg" alt="Siege of Vilnius (11 Sep - 7 Oct); Crooked Castle falls 16 Sep" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_vilnius_siege_1390.html">Siege of Vilnius (11 Sep - 7 Oct); Crooked Castle falls 16 Sep</a></td>
-<td>event</td>
+<td>Only the Crooked Castle fell; the Lower and Upper Castles held. Tautvilas killed by a crossbow bolt; Karigaila died in the fall.</td>
 <td>1390-09-11</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_lyck_1390.html"><img src="../images/ev_lyck_1390.jpg" alt="Treaty of Lyck; hostages demanded" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_lyck_1390.html">Treaty of Lyck; hostages demanded</a></td>
-<td>event</td>
+<td>Signed by Marquard von Salzbach, komtur Arnold von Bürglen and Thomas son of Survila. Hostages: Žygimantas, Ona, Sofija, Rymgailė, Ivan Olshanski and other nobles.</td>
 <td>1390-01-19</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_sons_poisoned.html"><img src="../images/ev_sons_poisoned.jpg" alt="Vytautas's hostage sons poisoned (Grunau tradition, contested)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_sons_poisoned.html">Vytautas’s hostage sons poisoned (Grunau tradition, contested)</a></td>
-<td>event</td>
+<td>Tradition: the Order’s revenge after the break, before Ostrów (4 Aug 1392).</td>
 <td>1392-07</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_ostrow.html"><img src="../images/ev_ostrow.jpg" alt="Agreement of Ostrów" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_ostrow.html">Agreement of Ostrów</a></td>
-<td>event</td>
+<td>Pact of Ostrów: Vytautas reconciled with Jogaila, becoming actual ruler of Lithuania (1392).</td>
 <td>1392-08-04</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_ritterswerder_1392.html"><img src="../images/ev_ritterswerder_1392.jpg" alt="The break: Ritterswerder guests seized, Order forts burned" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_ritterswerder_1392.html">The break: Ritterswerder guests seized, Order forts burned</a></td>
-<td>event</td>
+<td>Summer 1392; no source gives a day (the saga’s Rasos night is invention).</td>
 <td>1392-07</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_skirgaila_dies.html"><img src="../images/ev_skirgaila_dies.jpg" alt="Skirgaila dies in Kyiv" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_skirgaila_dies.html">Skirgaila dies in Kyiv</a></td>
-<td>event</td>
+<td>Skirgaila dies mysteriously in Kyiv in January 1397, suspected of being poisoned.</td>
 <td>1397</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_salynas.html"><img src="../images/ev_salynas.jpg" alt="Treaty of Salynas" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_salynas.html">Treaty of Salynas</a></td>
-<td>event</td>
+<td>Treaty of Salynas (1398): Vytautas cedes Samogitia to the Order to secure his southern crusade.</td>
 <td>1398-10-12</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_vorskla.html"><img src="../images/ev_vorskla.jpg" alt="Battle of the Vorskla" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_vorskla.html">Battle of the Vorskla</a></td>
-<td>event</td>
+<td>Battle of the Vorskla (12 Aug 1399): catastrophic defeat of Vytautas by the Golden Horde.</td>
 <td>1399-08-12</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_jadvyga_dies.html"><img src="../images/ev_jadvyga_dies.jpg" alt="Jadvyga dies" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_jadvyga_dies.html">Jadvyga dies</a></td>
-<td>event</td>
+<td>Queen Jadwiga of Poland dies in childbirth on 17 July 1399; the White Silence deepens.</td>
 <td>1399-07-17</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_vilnius_radom.html"><img src="../images/ev_vilnius_radom.jpg" alt="Union of Vilnius and Radom" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_vilnius_radom.html">Union of Vilnius and Radom</a></td>
-<td>event</td>
+<td>Pact of Vilnius-Radom (1401): confirms Vytautas as Grand Duke for life.</td>
 <td>1401</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_raciaz_1404.html"><img src="../images/ev_raciaz_1404.jpg" alt="Peace of Raciąż; Marquard insults Birutė" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_raciaz_1404.html">Peace of Raciąż; Marquard insults Birutė</a></td>
-<td>event</td>
+<td>22-23 May 1404 (en.wikipedia 22nd, VLE 23rd). The insult to Birutė after the peace is attested for Marquard (en.wikipedia, citing Ekdahl).</td>
 <td>1404-05-22</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_grunwald.html"><img src="../images/ev_grunwald.jpg" alt="Battle of Grunwald / Žalgiris" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_grunwald.html">Battle of Grunwald / Žalgiris</a></td>
-<td>event</td>
+<td>Battle of Grunwald (15 July 1410): allied Polish-Lithuanian triumph over the Teutonic Order.</td>
 <td>1410-07-15</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_czerwinsk_bridge.html"><img src="../images/ev_czerwinsk_bridge.jpg" alt="Pontoon bridge over the Vistula at Czerwińsk" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_czerwinsk_bridge.html">Pontoon bridge over the Vistula at Czerwińsk</a></td>
-<td>event</td>
+<td>Prefabricated near Kozienice in winter-spring 1410, floated down, assembled in about half a day on 30 Jun; the king and most Lesser Poland troops crossed that day, the Lithuanians arrived the same day (en.wikipedia, Czerwińsk Floating Bridge).</td>
 <td>1410-06-30</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_horodlo.html"><img src="../images/ev_horodlo.jpg" alt="Union of Horodło; Samogitian baptism begins" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_horodlo.html">Union of Horodło; Samogitian baptism begins</a></td>
-<td>event</td>
+<td>Union of Horodło (1413): Polish heraldic adoption of Lithuanian boyars; Samogitian baptism begins.</td>
 <td>1413-10-02</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_medininkai_bishopric.html"><img src="../images/ev_medininkai_bishopric.jpg" alt="Samogitian bishopric founded at Medininkai" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_medininkai_bishopric.html">Samogitian bishopric founded at Medininkai</a></td>
-<td>event</td>
+<td>Established on the Council of Constance’s directions on 24 Oct 1417; first bishop Matthias of Trakai (Motiejus Trakiškis), 1417-22. The saga makes it the end of the Hidden Groves.</td>
 <td>1417-10-24</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_ona_dies.html"><img src="../images/ev_ona_dies.jpg" alt="Ona dies" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_ona_dies.html">Ona dies</a></td>
-<td>event</td>
+<td>Grand Duchess Ona dies in Trakai on 30 December 1418; Vytautas loses his emotional anchor.</td>
 <td>1418-07-31</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_lutsk.html"><img src="../images/ev_lutsk.jpg" alt="Congress of Lutsk: the crown offered" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_lutsk.html">Congress of Lutsk: the crown offered</a></td>
-<td>event</td>
+<td>Congress of Lutsk (Jan 1429): Emperor Sigismund proposes crowning Vytautas King of Lithuania.</td>
 <td>1429</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_crown_intercepted.html"><img src="../images/ev_crown_intercepted.jpg" alt="Crown embassy blocked at the Polish border (Aug 1430); Vytautas refuses Henė" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_crown_intercepted.html">Crown embassy blocked at the Polish border (Aug 1430); Vytautas refuses Henė</a></td>
-<td>event</td>
+<td>August 1430: Polish lords intercept the royal crown at the border; coronation prevented.</td>
 <td>1430</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_vytautas_dies.html"><img src="../images/ev_vytautas_dies.jpg" alt="Vytautas dies at Trakai; the Last Flame goes out" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_vytautas_dies.html">Vytautas dies at Trakai; the Last Flame goes out</a></td>
-<td>event</td>
+<td>Vytautas dies at Trakai on 27 October 1430; the secret Last Flame goes out.</td>
 <td>1430-10-27</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_podolia_seized.html"><img src="../images/ev_podolia_seized.jpg" alt="Polish lords seize Podolia after Vytautas's death" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_podolia_seized.html">Polish lords seize Podolia after Vytautas’s death</a></td>
-<td>event</td>
+<td>Polish magnates seize Podolia immediately following Vytautas’s death in late 1430.</td>
 <td>1430-11</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_christmemel.html"><img src="../images/ev_christmemel.jpg" alt="Treaty of Christmemel (Švitrigaila and the Order)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_christmemel.html">Treaty of Christmemel (Švitrigaila and the Order)</a></td>
-<td>event</td>
+<td>Treaty of Christmemel (1431): Švitrigaila allies with the Teutonic Order against Poland.</td>
 <td>1431-06-19</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_czartorysk_truce.html"><img src="../images/ev_czartorysk_truce.jpg" alt="Truce of Czartorysk" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_czartorysk_truce.html">Truce of Czartorysk</a></td>
-<td>event</td>
+<td>Agreement reached 26 Aug 1431; Švitrigaila issued the Czartorysk document on 1 Sep and Jogaila his on 2 Sep (Polechow and Szybkowski, Roczniki Historyczne 83, 2017). Dated 1 Sep; runs to 24 Jun 1433.</td>
 <td>1431-09-01</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_coup_1432.html"><img src="../images/ev_coup_1432.jpg" alt="Žygimantas's coup at Ašmena" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_coup_1432.html">Žygimantas’s coup at Ašmena</a></td>
-<td>event</td>
+<td>Žygimantas stages a night coup against Švitrigaila at Ašmena on 31 August 1432.</td>
 <td>1432-08-31</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_grodno_1432.html"><img src="../images/ev_grodno_1432.jpg" alt="Grodno: Žygimantas sworn Grand Duke before Oleśnicki (Jogaila absent)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_grodno_1432.html">Grodno: Žygimantas sworn Grand Duke before Oleśnicki (Jogaila absent)</a></td>
-<td>event</td>
+<td>Treaty of Grodno (1432): Žygimantas recognized as Grand Duke under Polish suzerainty.</td>
 <td>1432-10-15</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_asmena_battle.html"><img src="../images/ev_asmena_battle.jpg" alt="Battle of Ašmena: Žygimantas defeats Švitrigaila" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_asmena_battle.html">Battle of Ašmena: Žygimantas defeats Švitrigaila</a></td>
-<td>event</td>
+<td>Battle of Ašmena (Dec 1432): Žygimantas repulses Švitrigaila’s initial counter-attack.</td>
 <td>1432-12-08</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_jogaila_dies.html"><img src="../images/ev_jogaila_dies.jpg" alt="Jogaila dies at Gródek" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_jogaila_dies.html">Jogaila dies at Gródek</a></td>
-<td>event</td>
+<td>King Jogaila dies at Gródek on 1 June 1434 at the age of seventy-two.</td>
 <td>1434-06-01</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_medyka_chill.html"><img src="../images/ev_medyka_chill.jpg" alt="Jogaila catches his chill at Medyka (nightingales)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_medyka_chill.html">Jogaila catches his chill at Medyka (nightingales)</a></td>
-<td>event</td>
+<td>Late April 1434; Długosz’s story of the king standing at night to hear the nightingales. The saga’s cold-and-silence frame around it is invention.</td>
 <td>1434-04</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_pabaiskas.html"><img src="../images/ev_pabaiskas.jpg" alt="Battle of Pabaiskas" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_pabaiskas.html">Battle of Pabaiskas</a></td>
-<td>event</td>
+<td>Mykolas Žygimantaitis commanded, with about 4,000 Poles under Jakub Kobylański; Kerskorff killed; Žygimantas Kaributaitis died of wounds.</td>
 <td>1435-09-01</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_brest_peace.html"><img src="../images/ev_brest_peace.jpg" alt="Peace of Brest (Brześć Kujawski): the Order drops Švitrigaila" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_brest_peace.html">Peace of Brest (Brześć Kujawski): the Order drops Švitrigaila</a></td>
-<td>event</td>
+<td>Peace of Brest (Dec 1435): Teutonic Order forced to abandon Švitrigaila after Pabaiskas.</td>
 <td>1435-12-31</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_gostautas_coin.html"><img src="../images/ev_gostautas_coin.jpg" alt="Goštautas gives the warm coin to a beggar" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_gostautas_coin.html">Goštautas gives the warm coin to a beggar</a></td>
-<td>event</td>
+<td>Feb 1437, Vilnius. The Counter: “one coin reached a person”. The beggar is not named; read as Dievas.</td>
 <td>1437</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_zygimantas_killed.html"><img src="../images/ev_zygimantas_killed.jpg" alt="Žygimantas assassinated at Trakai" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_zygimantas_killed.html">Žygimantas assassinated at Trakai</a></td>
-<td>event</td>
+<td>Žygimantas is assassinated in Trakai Peninsula Castle on Palm Sunday, 20 March 1440.</td>
 <td>1440-03-20</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_privilege_1447.html"><img src="../images/ev_privilege_1447.jpg" alt="Casimir's privilege for Lithuania" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_privilege_1447.html">Casimir’s privilege for Lithuania</a></td>
-<td>event</td>
+<td>Casimir’s Privilege of 1447 confirms Lithuanian territorial integrity and noble rights.</td>
 <td>1447-05-02</td>
 </tr>
 <tr class="even">
 <td><a href="../events/ev_ziezirba_named.html"><img src="../images/ev_ziezirba_named.jpg" alt="The keeper is named at the Palanga fire" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_ziezirba_named.html">The keeper is named at the Palanga fire</a></td>
-<td>event</td>
+<td>Driftwood fire on the longest night; the Amber Queen speaks through the pebble.</td>
 <td>1449-12-12</td>
 </tr>
 <tr class="odd">
 <td><a href="../events/ev_keeper_dies.html"><img src="../images/ev_keeper_dies.jpg" alt="Žiežirba dies; cremated on the beach" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../events/ev_keeper_dies.html">Žiežirba dies; cremated on the beach</a></td>
-<td>event</td>
+<td>Early March 1450. The sea takes the kneeling statue (<a href="../books/book5.html">Book V ch.&nbsp;29</a>).</td>
 <td>1450-03</td>
 </tr>
 </tbody>

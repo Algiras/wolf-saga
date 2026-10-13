@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -457,6 +510,16 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Created by:</strong> <a href="../places/sventaragis.html">Šventaragis valley</a></p>
 <p><strong>Held by:</strong> <a href="../characters/vytautas.html">Vytautas</a> (1387–1430)</p>
 <p><strong>Kept by:</strong> <a href="../characters/kalvis.html">Kalvis (the Smith)</a> (1387–1399) — <em>Guards the lodge flame (D11); his ash feeds it afterwards.</em> · <a href="../characters/spyglys.html">Spyglys (young ash-bearer)</a> (1399–1410) — <em>Young ash-bearer at the Trakai vault; stays behind when the lantern leaves.</em> · <a href="../characters/flame_keeper.html">Žiežirba (the Flame-Keeper, Book V POV)</a> (1399–1430) — <em>A boy tending the vault flame from 1399 (<a href="../books/book2.html">Book II ch.&nbsp;29</a>); sworn wolf from Kūčios 1405. Feeds the flame from Kalvis’s ash; carries the lantern in 1410.</em></p>
+<div class="statblock sb-card sb-item" role="group" aria-label="Paskutinė žarija (Šventaragis ember) (item)">
+<div class="sb-name">Paskutinė žarija (Šventaragis ember)</div>
+<div class="sb-rarity"><em>Paskutinė žarija · the Last Flame, the Šventaragis ember, singular</em></div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Bearing</strong> Held to Vytautas's promise, <em>Kol aš gyvas, paskutinė ugnis neužges</em>. Others keep it by feeding ash; he alone is its bearer</p>
+<p class="sb-prop"><strong>Holders</strong> Vytautas 1387 to 27 Oct 1430, with keepers: Kalvis 1387-99; Spyglys 1399-1410; the Flame-Keeper Žiežirba (a boy at the flame from c. 1396, keeper from 1405 to 1430). Elijas keeps the vault door 1398-1411</p>
+<p class="sb-prop"><strong>Power</strong> The last of the Gediminid sacred flames. Anchors the Pact's remnant and the vilkatai's oath: new wolves can be made only at it. A pinch of its ash is a lamp or a weapon, and a ward against užgesėlės</p>
+<p class="sb-prop"><strong>Rule &amp; cost</strong> If it goes out while he lives, the Pact's penalties fall on him. Every pinch of ash taken is a risk to him</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A palm-sized yellow flame with no smoke that does not bend in a draught, on a black ring of stone, fed in pinches with live ash. Where it burns, the wolves cannot sleep.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Lit in Feb-Mar 1387, the night Jogaila's priests put out the Šventaragis fire. Vytautas lights it from the ember he carried out of the valley, in Kęstutis's old hunting lodge beyond the Neris (<a href="../books/book1.html">Book I ch. 29</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>The promise.</em></strong> Madness, then death, if he lets it die while he lives. Henė offers the crown for the flame (<a href="../books/book4.html">Book IV ch. 22</a>). He refuses.</p><p class="sb-entry"><strong><em>Damp.</em></strong> Fire workings at it cost double in spring flood (<a href="../books/book2.html">Book II ch. 2</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Moves.</em></strong> The lodge, 1387. The half-flooded Trakai island foundations (<a href="../books/book2.html">Book II ch. 2</a>). The island undercroft from autumn 1392, moved by boat on the night the keys are handed over (<a href="../books/book2.html">Book II ch. 11</a>).</p><p class="sb-entry"><strong><em>The lantern.</em></strong> A horn lantern to Grunwald, 8 Jun 1410 to spring 1411 (<a href="../books/book3.html">Book III ch. 15</a>, 17, 20). Back in the vault, like a bird on a nest.</p><p class="sb-entry"><strong><em>Out.</em></strong> 27 Oct 1430, at the moment of Vytautas's death (<a href="../books/book4.html">Book IV ch. 29</a>). The lightning-fire at his funeral cannot make wolves (<a href="../books/book5.html">Book V ch. 20</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/magic-rules.html">magic_rules.md §6</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D10, D11 · <a href="../codex/the-iron-wolves.html">iron_wolves.md §11</a> · world_graph.json (holds, keeper_of) · wiki/artifacts/ember</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -469,6 +532,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -478,20 +545,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Years</strong></td>
 <td>made 1387</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Paskutinė žarija: the dying ember salvaged from the sacred hearth of Šventaragis.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-item" role="group" aria-label="Paskutinė žarija (Šventaragis ember) (item)">
-<div class="sb-name">Paskutinė žarija (Šventaragis ember)</div>
-<div class="sb-rarity"><em>Paskutinė žarija · the Last Flame, the Šventaragis ember, singular</em></div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Bearing</strong> Held to Vytautas's promise, <em>Kol aš gyvas, paskutinė ugnis neužges</em>. Others keep it by feeding ash; he alone is its bearer</p>
-<p class="sb-prop"><strong>Holders</strong> Vytautas 1387 to 27 Oct 1430, with keepers: Kalvis 1387-99; Spyglys 1399-1410; the Flame-Keeper Žiežirba (a boy at the flame from c. 1396, keeper from 1405 to 1430). Elijas keeps the vault door 1398-1411</p>
-<p class="sb-prop"><strong>Power</strong> The last of the Gediminid sacred flames. Anchors the Pact's remnant and the vilkatai's oath: new wolves can be made only at it. A pinch of its ash is a lamp or a weapon, and a ward against užgesėlės</p>
-<p class="sb-prop"><strong>Rule &amp; cost</strong> If it goes out while he lives, the Pact's penalties fall on him. Every pinch of ash taken is a risk to him</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A palm-sized yellow flame with no smoke that does not bend in a draught, on a black ring of stone, fed in pinches with live ash. Where it burns, the wolves cannot sleep.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Lit in Feb-Mar 1387, the night Jogaila's priests put out the Šventaragis fire. Vytautas lights it from the ember he carried out of the valley, in Kęstutis's old hunting lodge beyond the Neris (<a href="../books/book1.html">Book I ch. 29</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>The promise.</em></strong> Madness, then death, if he lets it die while he lives. Henė offers the crown for the flame (<a href="../books/book4.html">Book IV ch. 22</a>). He refuses.</p><p class="sb-entry"><strong><em>Damp.</em></strong> Fire workings at it cost double in spring flood (<a href="../books/book2.html">Book II ch. 2</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Moves.</em></strong> The lodge, 1387. The half-flooded Trakai island foundations (<a href="../books/book2.html">Book II ch. 2</a>). The island undercroft from autumn 1392, moved by boat on the night the keys are handed over (<a href="../books/book2.html">Book II ch. 11</a>).</p><p class="sb-entry"><strong><em>The lantern.</em></strong> A horn lantern to Grunwald, 8 Jun 1410 to spring 1411 (<a href="../books/book3.html">Book III ch. 15</a>, 17, 20). Back in the vault, like a bird on a nest.</p><p class="sb-entry"><strong><em>Out.</em></strong> 27 Oct 1430, at the moment of Vytautas's death (<a href="../books/book4.html">Book IV ch. 29</a>). The lightning-fire at his funeral cannot make wolves (<a href="../books/book5.html">Book V ch. 20</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/magic-rules.html">magic_rules.md §6</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D10, D11 · <a href="../codex/the-iron-wolves.html">iron_wolves.md §11</a> · world_graph.json (holds, keeper_of) · wiki/artifacts/ember</div></div>
 <section id="description" class="level2">
 <h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>A palm-sized yellow flame that gives no smoke and does not bend in a draught (Book II notes, Part 2). It sits on a black ring of stone, fed in pinches with live ash from the first coal. Where it burns the wolves cannot sleep, because the brotherhood may not rest under a lit roof.</p>

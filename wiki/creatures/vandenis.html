@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="relations" class="level2 entity-relations">
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Servant of:</strong> <a href="../gods/jurate.html">Jūratė</a> — <em>Sea-maidens are the remnants of her drowned court.</em></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Vandenis and undinės (lake-keepers) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Vandenis and undinės (lake-keepers)</div>
+<div class="sb-sub">Lake-keepers · Baltic and Slavic folk belief, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] lakes and rivers that demand a drowning a year; undinė probably a later borrowing · [Saga] each lake is an eye of the World Tree</p>
+<p class="sb-prop"><strong>Tier</strong> Dvasia · the drowned; the sea's jūrų mergelės answer faintly to the Amber Queen</p>
+<p class="sb-prop"><strong>Danger</strong> III dangerous → IV deadly</p>
+<p class="sb-prop"><strong>Habitat</strong> Deep lakes no one has sounded; the sea's edge; a spot where the ice never closes</p>
+<p class="sb-prop"><strong>Wants</strong> One life a year to see through</p>
+<p class="sb-prop"><strong>Takes</strong> A drowning that can be chosen, not avoided. After 1387 many, and at the spring ice-break whole carts go through</p>
+<p class="sb-prop"><strong>Signs</strong> A pale face just under the surface at dusk; ice that never closes; a village avoiding one shore in early summer</p>
+<p class="sb-prop"><strong>Banes</strong> Salt poured in a line along the shore holds a vandenis in the water for one night</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk are right about the annual drowning. They are wrong that it can be avoided: it can only be chosen.</p><p class="sb-entry"><strong><em>Eyes of the tree.</em></strong> Every lake is an eye of the World Tree, and an eye must be kept open. The drowned become its vandeniai and look up at the world through the water. The sea-maidens are the remnants of Jūratė's drowned court.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>The yearly taking.</em></strong> One life, to see through.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Offering at the ice-break.</em></strong> Bread or a black rooster shortens the wait. It does not replace the death.</p><p class="sb-entry"><strong><em>A willing drowning.</em></strong> The old sometimes walked in to spare the young.</p><p class="sb-entry"><strong><em>The salt line.</em></strong> Holds it one night, for a fortune in salt.</p><p class="sb-entry"><strong><em>The floating loaf.</em></strong> A loaf with a candle finds the body so it can be burned, and the lake is then owed again.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §8</a> · <a href="../codex/cosmology.html">cosmology.md §1</a> · <a href="../books/book1.html">Book I ch. 11</a> (the ring returned three times) · <a href="../books/book5.html">Book V ch. 22</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -484,24 +555,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Vandenis and undinės (lake-keepers) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Vandenis and undinės (lake-keepers)</div>
-<div class="sb-sub">Lake-keepers · Baltic and Slavic folk belief, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] lakes and rivers that demand a drowning a year; undinė probably a later borrowing · [Saga] each lake is an eye of the World Tree</p>
-<p class="sb-prop"><strong>Tier</strong> Dvasia · the drowned; the sea's jūrų mergelės answer faintly to the Amber Queen</p>
-<p class="sb-prop"><strong>Danger</strong> III dangerous → IV deadly</p>
-<p class="sb-prop"><strong>Habitat</strong> Deep lakes no one has sounded; the sea's edge; a spot where the ice never closes</p>
-<p class="sb-prop"><strong>Wants</strong> One life a year to see through</p>
-<p class="sb-prop"><strong>Takes</strong> A drowning that can be chosen, not avoided. After 1387 many, and at the spring ice-break whole carts go through</p>
-<p class="sb-prop"><strong>Signs</strong> A pale face just under the surface at dusk; ice that never closes; a village avoiding one shore in early summer</p>
-<p class="sb-prop"><strong>Banes</strong> Salt poured in a line along the shore holds a vandenis in the water for one night</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk are right about the annual drowning. They are wrong that it can be avoided: it can only be chosen.</p><p class="sb-entry"><strong><em>Eyes of the tree.</em></strong> Every lake is an eye of the World Tree, and an eye must be kept open. The drowned become its vandeniai and look up at the world through the water. The sea-maidens are the remnants of Jūratė's drowned court.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>The yearly taking.</em></strong> One life, to see through.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Offering at the ice-break.</em></strong> Bread or a black rooster shortens the wait. It does not replace the death.</p><p class="sb-entry"><strong><em>A willing drowning.</em></strong> The old sometimes walked in to spare the young.</p><p class="sb-entry"><strong><em>The salt line.</em></strong> Holds it one night, for a fortune in salt.</p><p class="sb-entry"><strong><em>The floating loaf.</em></strong> A loaf with a candle finds the body so it can be burned, and the lake is then owed again.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §8</a> · <a href="../codex/cosmology.html">cosmology.md §1</a> · <a href="../books/book1.html">Book I ch. 11</a> (the ring returned three times) · <a href="../books/book5.html">Book V ch. 22</a></div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>Many Baltic and Slavic communities believed certain lakes and rivers demand a drowning each year and house a water-spirit; <em>vandenis</em> is a Lithuanian name for a male water-spirit. <em>Undinė</em> (water-maiden) is probably a later borrowing shaped by German and literary tradition; older water-maidens overlap with laumės. People offered bread or animals to waters and floated a loaf with a candle to find a drowned body.</p>

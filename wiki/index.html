@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -111,8 +111,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -323,6 +325,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="./diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="./lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -446,6 +499,7 @@ document.addEventListener("DOMContentLoaded", function () {
    
   <ul>
   <li><a href="#the-six-books" id="toc-the-six-books" class="nav-link active" data-scroll-target="#the-six-books">The six books</a></li>
+  <li><a href="#the-map" id="toc-the-map" class="nav-link" data-scroll-target="#the-map">The map</a></li>
   <li><a href="#key-figures" id="toc-key-figures" class="nav-link" data-scroll-target="#key-figures">Key figures</a></li>
   <li><a href="#gods-supernatural-forces" id="toc-gods-supernatural-forces" class="nav-link" data-scroll-target="#gods-supernatural-forces">Gods &amp; Supernatural forces</a></li>
   <li><a href="#sacred-relics-lore" id="toc-sacred-relics-lore" class="nav-link" data-scroll-target="#sacred-relics-lore">Sacred relics &amp; Lore</a></li>
@@ -469,6 +523,11 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="cover-gallery">
 <p><a class="cover-card" href="books/book1.html"><img src="images/book1.jpg" alt="Cover of Book I: Vilko Tremtis" loading="lazy"><span class="cover-num">I · Vilko Tremtis</span><span class="cover-years">1377–1387</span></a> <a class="cover-card" href="books/book2.html"><img src="images/book2.jpg" alt="Cover of Book II: Auksinis Šešėlis" loading="lazy"><span class="cover-num">II · Auksinis Šešėlis</span><span class="cover-years">1387–1399</span></a> <a class="cover-card" href="books/book3.html"><img src="images/book3.jpg" alt="Cover of Book III: Žaliasis Miškas" loading="lazy"><span class="cover-num">III · Žaliasis Miškas</span><span class="cover-years">1399–1411</span></a> <a class="cover-card" href="books/book4.html"><img src="images/book4.jpg" alt="Cover of Book IV: Nematoma Karūna" loading="lazy"><span class="cover-num">IV · Nematoma Karūna</span><span class="cover-years">1411–1430</span></a> <a class="cover-card" href="books/book5.html"><img src="images/book5.jpg" alt="Cover of Book V: Vilko Palikimas" loading="lazy"><span class="cover-num">V · Vilko Palikimas</span><span class="cover-years">1430–1450</span></a> <a class="cover-card" href="books/book6.html"><img src="images/book6.jpg" alt="Cover of Book VI: Šventasis Miškas" loading="lazy"><span class="cover-num">VI · Šventasis Miškas</span><span class="cover-years">1341–1377 · prequel</span></a></p>
 </div>
+</section>
+<section id="the-map" class="level2">
+<h2 class="anchored" data-anchor-id="the-map">The map</h2>
+<p><a href="map.html"><img src="images/map/lands-of-the-iron-wolf.jpg" alt="The Lands of the Iron Wolf: a painted map of Lithuania, the Baltic and her neighbours, 1341–1450" loading="lazy" style="width:100%;border-radius:6px"></a></p>
+<p><a href="./map.html">The Map</a>: Lithuania, the Order, Livonia and Poland, with two larger insets (Vilnius–Trakai–Krėva in 1382; Prussia and the road to Grunwald in 1410) and a table of every place.</p>
 </section>
 <section id="key-figures" class="level2">
 <h2 class="anchored" data-anchor-id="key-figures">Key figures</h2>

@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,8 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -302,6 +304,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -428,261 +481,220 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
+<p><em>Every place is also on <a href="../map.html">The Map</a>, with two larger insets and a table of places.</em></p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
 <th></th>
-<th>Name</th>
-<th>Type</th>
-<th>Years</th>
+<th>Place</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="../places/ashmyany.html"><img src="../images/ashmyany.jpg" alt="Ašmena" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/ashmyany.html">Ašmena</a></td>
-<td>place</td>
-<td></td>
+<td>Town on the Ašmena river; site of Žygimantas’s night coup against Švitrigaila in 1432.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/brzesc_kujawski.html"><img src="../images/brzesc_kujawski.jpg" alt="Brześć Kujawski" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/brzesc_kujawski.html">Brześć Kujawski</a></td>
-<td>place</td>
-<td></td>
+<td>Kujavian town where the 1435 peace treaty permanently stripped the Order of southern conquests.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/christmemel.html"><img src="../images/christmemel.jpg" alt="Christmemel (Skirsnemunė)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/christmemel.html">Christmemel (Skirsnemunė)</a></td>
-<td>place</td>
-<td></td>
+<td>Skirsnemunė: Order castle on the Nemunas; site of Švitrigaila’s 1431 alliance treaty.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/czartorysk.html"><img src="../images/czartorysk.jpg" alt="Czartorysk (Volhynia)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/czartorysk.html">Czartorysk (Volhynia)</a></td>
-<td>place</td>
-<td></td>
+<td>Fortified Volhynian town; center of the Czartoryski princely house.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/czerwinsk.html"><img src="../images/czerwinsk.jpg" alt="Czerwińsk (monastery on the Vistula)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/czerwinsk.html">Czerwińsk (monastery on the Vistula)</a></td>
-<td>place</td>
-<td></td>
+<td>Masovian monastery town on the Vistula where the allied armies crossed on the pontoon bridge, 30 Jun - 2/3 Jul 1410; the exact spot above the monastery is uncertain.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/dovydiskes.html"><img src="../images/dovydiskes.jpg" alt="Dovydiškės (unidentified)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/dovydiskes.html">Dovydiškės (unidentified)</a></td>
-<td>place</td>
-<td></td>
+<td>Place of the 1380 treaty. Appears only in Wigand and German texts; the village is not securely identified. The saga leaves it in the border wilderness.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/dykra.html"><img src="../images/dykra.jpg" alt="Dykra (swamp-forest wilderness)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/dykra.html">Dykra (swamp-forest wilderness)</a></td>
-<td>place</td>
-<td></td>
+<td>Years are those of the saga’s scenes here (Vytautas’s rescue in 1382 to Pilkoji lying down in 1449); the swamp itself is far older (Book VI shows it in the 1340s).</td>
 </tr>
 <tr class="even">
 <td><a href="../places/grodno.html"><img src="../images/grodno.jpg" alt="Grodno" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/grodno.html">Grodno</a></td>
-<td>place</td>
-<td></td>
+<td>Major fortified ducal center on the Nemunas; treaty site of 1432.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/grodek.html"><img src="../images/grodek.jpg" alt="Gródek (Horodok near Lviv)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/grodek.html">Gródek (Horodok near Lviv)</a></td>
-<td>place</td>
-<td></td>
+<td>Where Jogaila died on 1 Jun 1434; he caught the cold at Medyka, listening to nightingales in late April.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/horodlo.html"><img src="../images/horodlo.jpg" alt="Horodło (on the Bug)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/horodlo.html">Horodło (on the Bug)</a></td>
-<td>place</td>
-<td></td>
+<td>Union of 2 Oct 1413. On the Bug, west of Volhynia; not Lutsk.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/jogaila_camp_trakai.html"><img src="../images/jogaila_camp_trakai.jpg" alt="Jogaila's camp near Trakai" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/jogaila_camp_trakai.html">Jogaila’s camp near Trakai</a></td>
-<td>place</td>
-<td></td>
+<td>Record: the armies met near Trakai on 3 Aug 1382 and Kęstutis and Vytautas were lured into the camp and arrested. Trakai itself had fallen on 20 Jul.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/jurbarkas.html"><img src="../images/jurbarkas.jpg" alt="Jurbarkas (Georgenburg)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/jurbarkas.html">Jurbarkas (Georgenburg)</a></td>
-<td>place</td>
-<td></td>
+<td>Georgenburg: Order castle on the Nemunas border, repeatedly contested by Lithuania.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/kamianets.html"><img src="../images/kamianets.jpg" alt="Kamianets (Podolia)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/kamianets.html">Kamianets (Podolia)</a></td>
-<td>place</td>
-<td></td>
+<td>Key border fortress of Podolia; seized by Polish magnates after Vytautas’s death.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/krakow.html"><img src="../images/krakow.jpg" alt="Kraków" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/krakow.html">Kraków</a></td>
-<td>place</td>
-<td></td>
+<td>Royal capital of Poland; Wawel castle where Jogaila was crowned Władysław II in 1386.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/kreva.html"><img src="../images/kreva.jpg" alt="Krėva" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/kreva.html">Krėva</a></td>
-<td>place</td>
-<td></td>
+<td>Stone and timber fortress on the Krevyanka; dungeon where Kęstutis was murdered in 1382.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/kyiv.html"><img src="../images/kyiv.jpg" alt="Kyiv" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/kyiv.html">Kyiv</a></td>
-<td>place</td>
-<td></td>
+<td>Historic metropolis on the Dnieper; southern seat of Skirgaila and later Lithuanian regents.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/konigsberg.html"><img src="../images/konigsberg.jpg" alt="Königsberg (Karaliaučius)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/konigsberg.html">Königsberg (Karaliaučius)</a></td>
-<td>place</td>
-<td></td>
+<td>Crusader stronghold on the Pregel estuary; staging post for winter reisen.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/kestutis_lodge.html"><img src="../images/kestutis_lodge.jpg" alt="Kęstutis's hunting lodge beyond the Neris" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/kestutis_lodge.html">Kęstutis’s hunting lodge beyond the Neris</a></td>
-<td>place</td>
-<td></td>
+<td>Saga place (D11): the old lodge in the pines across the Neris from Vilnius where the Last Flame is lit in 1387 (<a href="../books/book1.html">Book I ch.&nbsp;29</a>). Used only in 1387: <a href="../books/book2.html">Book II ch.&nbsp;2</a> has Vytautas move the flame to the half-flooded foundations of the Trakai island castle that spring.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/lake_ublik.html"><img src="../images/lake_ublik.jpg" alt="Lake Ublik (Wobel), Masuria" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/lake_ublik.html">Lake Ublik (Wobel), Masuria</a></td>
-<td>place</td>
-<td></td>
+<td>Near Johannisburg; where a small band of knights fell on Kęstutis’s camp in March 1361.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/lutsk.html"><img src="../images/lutsk.jpg" alt="Lutsk" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/lutsk.html">Lutsk</a></td>
-<td>place</td>
-<td></td>
+<td>Volhynian royal castle; host to the European diplomatic congress of 1429.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/lyck.html"><img src="../images/lyck.jpg" alt="Lyck (Ełk)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/lyck.html">Lyck (Ełk)</a></td>
-<td>place</td>
-<td></td>
+<td>Treaty of 19 Jan 1390 between Vytautas and the Order.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/marienburg.html"><img src="../images/marienburg.jpg" alt="Marienburg (Malbork)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/marienburg.html">Marienburg (Malbork)</a></td>
-<td>place</td>
-<td></td>
+<td>Monolithic red-brick castle on the Nogat; grand capital of the Teutonic Order.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/masovia.html"><img src="../images/masovia.jpg" alt="Masovia (Płock / Warsaw)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/masovia.html">Masovia (Płock / Warsaw)</a></td>
-<td>place</td>
-<td></td>
+<td>Piast duchy buffering Poland and Lithuania; refuge of Vytautas in 1382.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/medininkai.html"><img src="../images/medininkai.jpg" alt="Medininkai (Varniai), Samogitia" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/medininkai.html">Medininkai (Varniai), Samogitia</a></td>
-<td>place</td>
-<td></td>
+<td>Samogitian diocese seat from 1417 (Varniai only from 1470); the Medininkai castle was the Order’s raiding target in 1402; <a href="../books/book4.html">Book IV ch.&nbsp;7</a> is set among its groves.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/medyka.html"><img src="../images/medyka.jpg" alt="Medyka (near Przemyśl, on the road to Gródek)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/medyka.html">Medyka (near Przemyśl, on the road to Gródek)</a></td>
-<td>place</td>
-<td></td>
+<td>Where Jogaila, in late April 1434, stood at the edge of the forest listening to the nightingales and caught the chill of which he died at Gródek on 1 Jun (<a href="../books/book5.html">Book V ch.&nbsp;12</a>; the nightingale episode is Długosz’s).</td>
 </tr>
 <tr class="even">
 <td><a href="../places/marienwerder.html"><img src="../images/marienwerder.jpg" alt="Naujapilis (Marienwerder)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/marienwerder.html">Naujapilis (Marienwerder)</a></td>
-<td>place</td>
-<td></td>
+<td>Naujapilis: Teutonic castle burned by Vytautas in his 1384 defection.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/notec_ford.html"><img src="../images/notec_ford.jpg" alt="Noteć ford (Neumark / Greater Poland border)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/notec_ford.html">Noteć ford (Neumark / Greater Poland border)</a></td>
-<td>place</td>
-<td></td>
+<td>Border crossing on the Noteć river where Vytautas’s royal crown embassy was intercepted.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/ostrow.html"><img src="../images/ostrow.jpg" alt="Ostrów" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/ostrow.html">Ostrów</a></td>
-<td>place</td>
-<td></td>
+<td>Manor where Vytautas and Jogaila reconciled in 1392, granting Vytautas rule of Lithuania.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/pabaiskas.html"><img src="../images/pabaiskas.jpg" alt="Pabaiskas" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/pabaiskas.html">Pabaiskas</a></td>
-<td>place</td>
-<td></td>
+<td>Battlefield on the Šventoji river where Žygimantas crushed Švitrigaila and the Livonian Order in 1435.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/palanga.html"><img src="../images/palanga.jpg" alt="Palanga" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/palanga.html">Palanga</a></td>
-<td>place</td>
-<td></td>
+<td>Coastal sanctuary and sacred Birutė Hill; shrine of the amber keepers and vaidilutės.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/raciazek.html"><img src="../images/raciazek.jpg" alt="Raciążek (Vistula island)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/raciazek.html">Raciążek (Vistula island)</a></td>
-<td>place</td>
-<td></td>
+<td>Peace of Raciąż, 22-23 May 1404, at the confluence of the Drwęca and the Vistula.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/ragnit.html"><img src="../images/ragnit.jpg" alt="Ragnit (Ragainė)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/ragnit.html">Ragnit (Ragainė)</a></td>
-<td>place</td>
-<td></td>
+<td>Order castle on the Nemunas (Lith. Ragainė). The saga’s Marquard von Salzbach is its komtur (Lyck, Jan 1390; the knights he led to Vytautas at the Vorskla, 1399); <a href="../books/book1.html">Book I ch.&nbsp;19</a> gives Vytautas the komtur Wigand von Baldersheim as godfather.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/ritterswerder.html"><img src="../images/ritterswerder.jpg" alt="Ritterswerder (Nemunas island near Lampėdžiai)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/ritterswerder.html">Ritterswerder (Nemunas island near Lampėdžiai)</a></td>
-<td>place</td>
-<td></td>
+<td>Order fortress built autumn 1391; its guests were seized in summer 1392 and it was destroyed.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/road_to_jogaila_camp.html"><img src="../images/road_to_jogaila_camp.jpg" alt="Road to Jogaila's camp (from Kęstutis's pine hill beyond the Trakai lake)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/road_to_jogaila_camp.html">Road to Jogaila’s camp (from Kęstutis’s pine hill beyond the Trakai lake)</a></td>
-<td>place</td>
-<td></td>
+<td><a href="../books/book1.html">Book I ch.&nbsp;4</a> “Kelionė į stovyklą”: the ducal retinue rides from the pine hill where the armies stood for two weeks to the camp near Trakai; the Beggar meets them in the afternoon, at the roadside. 2-3 Aug 1382.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/salynas.html"><img src="../images/salynas.jpg" alt="Salynas (island in the Nemunas)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/salynas.html">Salynas (island in the Nemunas)</a></td>
-<td>place</td>
-<td></td>
+<td>Islet of the Nemunas, probably between Kulautuva and the mouth of the Nevėžis; treaty of 12 Oct 1398.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/tapiau.html"><img src="../images/tapiau.jpg" alt="Tapiau (Tepliava)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/tapiau.html">Tapiau (Tepliava)</a></td>
-<td>place</td>
-<td></td>
+<td>Teutonic Order fortress on the Pregel; location of Vytautas’s 1383 baptism as ‘Wigand’.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/trakai.html"><img src="../images/trakai.jpg" alt="Trakai" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/trakai.html">Trakai</a></td>
-<td>place</td>
-<td></td>
+<td>Ancestral seat of Kęstutis and Vytautas; peninsula and island castles among the lakes.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/vilnius.html"><img src="../images/vilnius.jpg" alt="Vilnius" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/vilnius.html">Vilnius</a></td>
-<td>place</td>
-<td></td>
+<td>Capital of the Grand Duchy of Lithuania; Upper, Lower and Crooked castles on the Neris.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/vorskla.html"><img src="../images/vorskla.jpg" alt="Vorskla river" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/vorskla.html">Vorskla river</a></td>
-<td>place</td>
-<td></td>
+<td>Steppe river battlefield where Vytautas’s grand army was routed by the Golden Horde in 1399.</td>
 </tr>
 <tr class="even">
 <td><a href="../places/sventaragis.html"><img src="../images/sventaragis.jpg" alt="Šventaragis valley" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/sventaragis.html">Šventaragis valley</a></td>
-<td>place</td>
-<td></td>
+<td>Sacred river valley at Vilnius; site of pagan ducal cremations and the perpetual flame.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/grunwald.html"><img src="../images/grunwald.jpg" alt="Žalgiris (Grunwald)" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/grunwald.html">Žalgiris (Grunwald)</a></td>
-<td>place</td>
-<td></td>
+<td>Field of Tannenberg / Žalgiris; location of the great 15 July 1410 allied victory.</td>
 </tr>
 </tbody>
 </table>

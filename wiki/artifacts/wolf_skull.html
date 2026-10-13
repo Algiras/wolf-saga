@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -455,6 +508,16 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Anchors:</strong> <a href="../creatures/gelezinis_vilkas.html">Geležinis Vilkas (the Iron Wolf omen)</a> — <em>The one physical relic of Gediminas’s dream.</em></p>
 <p><strong>Created by:</strong> <a href="../characters/gediminas.html">Gediminas</a></p>
 <p><strong>Held by:</strong> <a href="../factions/iron_wolves.html">Vilkatai (Iron Wolves)</a> (1323–1450)</p>
+<div class="statblock sb-card sb-item" role="group" aria-label="Geležinio Vilko kaukolė (item)">
+<div class="sb-name">Geležinio Vilko kaukolė</div>
+<div class="sb-rarity"><em>Geležinio Vilko kaukolė · the Iron Wolf's skull, the brotherhood's oath-stone, singular</em></div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Bearing</strong> A wolf lays both hands on it and swears the nine laws of the Pack's Word. Its keeper, the Wolf-Father, is chosen by the Root-Mother in the bog</p>
+<p class="sb-prop"><strong>Holders</strong> Lizdeika 1323 → the vilkatai 1323 to 1450: Wolf-Father Kuolas (1345), Šešiapirštis (to 1392), Pušis (1405-15), Pilkoji, the Vilkų Motina (1415 to 2 Nov 1449)</p>
+<p class="sb-prop"><strong>Power</strong> The brotherhood's oath-stone. A lie spoken over it is heard by every sworn wolf from the Neman to the Narew</p>
+<p class="sb-prop"><strong>Rule &amp; cost</strong> Rules sworn on it, such as <em>no Gediminid blood</em>, bind even the guilty. A wolf is laid in the bog, never burned, and the skull goes down last</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A skull too large to be a man's or any wolf's, grey as old iron, light enough to lift with two fingers. In <a href="../books/book6.html">Book VI ch. 18</a> it is cracked, with a round hole through one eye socket. It rests on a flat stone or pine stump on a bog-island in the Dykra.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Found by Lizdeika where the dream-wolf stood after Gediminas's dream, hard and grey as iron. He carried it into the Dykra, and the packs swore on it.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>The listening wolves.</em></strong> Every wolf in the Dykra hears a lie spoken there.</p><p class="sb-entry"><strong><em>The relic.</em></strong> It anchors the Iron Wolf, the omen of the Gediminid house.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Into the bog.</em></strong> On Vėlinės, 2 Nov 1449, Pilkoji carries it to the deepest water and lies down with it on her chest. The bog closes over her. With it goes the last office of the brotherhood (<a href="../books/book5.html">Book V ch. 28</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/the-iron-wolves.html">iron_wolves.md §3.2</a>, §6, §7, §14 · <a href="../codex/bestiary.html">bestiary.md §23</a> · world_graph.json (holds) · <a href="../books/book3.html">Book III ch. 9</a> · <a href="../books/book4.html">Book IV ch. 6</a> · <a href="../books/book5.html">Book V ch. 28</a> · <a href="../books/book6.html">Book VI ch. 5</a>, 18 · wiki/artifacts/wolf_skull</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -467,6 +530,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -476,20 +543,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Years</strong></td>
 <td>made 1323</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Geležinio Vilko kaukolė: relic of the iron-jawed beast seen in Gediminas’s founding dream.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-item" role="group" aria-label="Geležinio Vilko kaukolė (item)">
-<div class="sb-name">Geležinio Vilko kaukolė</div>
-<div class="sb-rarity"><em>Geležinio Vilko kaukolė · the Iron Wolf's skull, the brotherhood's oath-stone, singular</em></div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Bearing</strong> A wolf lays both hands on it and swears the nine laws of the Pack's Word. Its keeper, the Wolf-Father, is chosen by the Root-Mother in the bog</p>
-<p class="sb-prop"><strong>Holders</strong> Lizdeika 1323 → the vilkatai 1323 to 1450: Wolf-Father Kuolas (1345), Šešiapirštis (to 1392), Pušis (1405-15), Pilkoji, the Vilkų Motina (1415 to 2 Nov 1449)</p>
-<p class="sb-prop"><strong>Power</strong> The brotherhood's oath-stone. A lie spoken over it is heard by every sworn wolf from the Neman to the Narew</p>
-<p class="sb-prop"><strong>Rule &amp; cost</strong> Rules sworn on it, such as <em>no Gediminid blood</em>, bind even the guilty. A wolf is laid in the bog, never burned, and the skull goes down last</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A skull too large to be a man's or any wolf's, grey as old iron, light enough to lift with two fingers. In <a href="../books/book6.html">Book VI ch. 18</a> it is cracked, with a round hole through one eye socket. It rests on a flat stone or pine stump on a bog-island in the Dykra.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Found by Lizdeika where the dream-wolf stood after Gediminas's dream, hard and grey as iron. He carried it into the Dykra, and the packs swore on it.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>The listening wolves.</em></strong> Every wolf in the Dykra hears a lie spoken there.</p><p class="sb-entry"><strong><em>The relic.</em></strong> It anchors the Iron Wolf, the omen of the Gediminid house.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Into the bog.</em></strong> On Vėlinės, 2 Nov 1449, Pilkoji carries it to the deepest water and lies down with it on her chest. The bog closes over her. With it goes the last office of the brotherhood (<a href="../books/book5.html">Book V ch. 28</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/the-iron-wolves.html">iron_wolves.md §3.2</a>, §6, §7, §14 · <a href="../codex/bestiary.html">bestiary.md §23</a> · world_graph.json (holds) · <a href="../books/book3.html">Book III ch. 9</a> · <a href="../books/book4.html">Book IV ch. 6</a> · <a href="../books/book5.html">Book V ch. 28</a> · <a href="../books/book6.html">Book VI ch. 5</a>, 18 · wiki/artifacts/wolf_skull</div></div>
 <section id="description" class="level2">
 <h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>A skull too large to be a man’s or any wolf’s, grey as old iron, with deep empty orbits, but light enough to lift with two fingers (<a href="../books/book5.html">Book V ch.&nbsp;28</a>). In <a href="../books/book6.html">Book VI ch.&nbsp;18</a> it is cracked, with a round hole through one eye socket. It rests on a flat stone or pine stump on a bog-island in the <a href="../places/dykra.html">Dykra</a>.</p>

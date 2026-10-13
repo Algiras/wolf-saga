@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -463,31 +516,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Servant of:</strong> <a href="../characters/sigismund.html">Sigismund of Luxembourg</a> (1429–1430) — <em>Jester at his court; serves the deal.</em></p>
 <p><strong>Servants:</strong> <a href="../creatures/pincuikas.html">Pinčiukas (clerk of small bargains)</a> — <em>The Shadow-Seller’s clerk.</em></p>
 <p><strong>Shard of:</strong> <a href="../gods/velnias.html">Velnias</a></p>
-</section>
-<div class="infobox">
-<div class="infobox-title">
-<p>Šešėlių Pardavėjas / Henė</p>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../images/shadow_seller.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Šešėlių Pardavėjas / Henė · force"><img src="../images/shadow_seller.jpg" class="infobox-img img-fluid figure-img" alt="Šešėlių Pardavėjas / Henė"></a></p>
-<figcaption>Šešėlių Pardavėjas / Henė · force</figcaption>
-</figure>
-</div>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>force</td>
-</tr>
-<tr class="even">
-<td><strong>Origin</strong></td>
-<td>Native (face of a god)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
 <div class="statblock sb-force sb-wide" role="group" aria-label="Šešėlių Pardavėjas / Henė (force)">
 <div class="sb-bar"></div><div class="sb-body">
 <div class="sb-name">Šešėlių Pardavėjas / Henė</div>
@@ -505,6 +533,39 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Lair</div><p class="sb-entry"><strong><em>Courts and firelight.</em></strong> Wherever a deal is being drafted: the edge of a prince's fire, a jester's stool, the Echo in a man's own head.</p><p class="sb-entry"><strong><em>Where he is strongest.</em></strong> At Krėva in 1382, the Breath of the Void; at Lutsk in 1429-30 with a crown and a flame on the table.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Turns by book</div><p class="sb-entry"><strong><em>Book I.</em></strong> Hanulas and the 1382 trap; the stones; the Breath at Krėva (ch. 5, 12, 14, 28, 30).</p><p class="sb-entry"><strong><em>Book II.</em></strong> Skirgaila (ch. 1, 10, 16); all three stones in his hand at Ostrów, 1392; Skirgaila's stone falls at Kyiv, 11 Jan 1397.</p><p class="sb-entry"><strong><em>Book III.</em></strong> The offer of the cousins (ch. 8).</p><p class="sb-entry"><strong><em>Book IV.</em></strong> Sigismund's court and the crown; the last bargain refused: the gold turns to leaves (ch. 17, 21-22, 30). Vytautas's stone falls, 27 Oct 1430.</p><p class="sb-entry"><strong><em>Book V.</em></strong> The chain to Žygimantas; Jogaila's stone falls on 1 Jun 1434; the last unmasking (ch. 12, 19, 24).</p><p class="sb-entry"><strong><em>Book VI.</em></strong> Only his small things: the Krivis recognises a small thing of Velnias at a pact (ch. 8).</p></div>
 </div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §3.2</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D2, Q6, Q12 · <a href="../codex/magic-rules.html">magic_rules.md §1</a>, §8 · hidden_immortals.md §2 · world_graph.json (hene_stones) · wiki/forces/shadow_seller</div><div class="sb-bar"></div></div>
+</section>
+<div class="infobox">
+<div class="infobox-title">
+<p>Šešėlių Pardavėjas / Henė</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/shadow_seller.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Šešėlių Pardavėjas / Henė · force"><img src="../images/shadow_seller.jpg" class="infobox-img img-fluid figure-img" alt="Šešėlių Pardavėjas / Henė"></a></p>
+<figcaption>Šešėlių Pardavėjas / Henė · force</figcaption>
+</figure>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>force</td>
+</tr>
+<tr class="even">
+<td><strong>Origin</strong></td>
+<td>Native (face of a god)</td>
+</tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Henė: broker of unspoken deals, mortal mask and sharp shadow of Velnias.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <section id="nature" class="level2">
 <h2 class="anchored" data-anchor-id="nature">Nature</h2>
 <p><strong>Native</strong> Force: a splinter of <a href="../gods/velnias.html">Velnias</a> that “learned to enjoy the trade” (cosmology §3.2; canon D2). He wears mortal masks: first <strong>Hanulas</strong>, the Riga-born Vilnius merchant who opened Vilnius to Jogaila in 1382, then <strong>Henė</strong> the jester (the English docs write “Henne”). He is the <strong>only</strong> being in the saga who can lie and make illusions; no mortal can (magic rules §1).</p>

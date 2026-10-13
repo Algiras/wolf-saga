@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -453,27 +506,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Element:</strong> <a href="../magic/el_wind.html">Vėjas (Wind)</a></p>
 <p><strong>Servants:</strong> <a href="../creatures/veles.html">Vėlės (the fed dead)</a> — <em>A fed vėlė can be asked for help through Vėjopatis.</em></p>
-</section>
-<div class="infobox">
-<div class="infobox-title">
-<p>Vėjopatis</p>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../images/vejopatis.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Vėjopatis · god"><img src="../images/vejopatis.jpg" class="infobox-img img-fluid figure-img" alt="Vėjopatis"></a></p>
-<figcaption>Vėjopatis · god</figcaption>
-</figure>
-</div>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>god</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
 <div class="statblock sb-god sb-compact" role="group" aria-label="Vėjopatis (god)">
 <div class="sb-bar"></div><div class="sb-body">
 <div class="sb-name">Vėjopatis</div>
@@ -491,6 +523,35 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Refuses</div><p class="sb-entry"><strong><em>Illusion.</em></strong> The fog is real fog, never a glamour (Law of Truth).</p><p class="sb-entry"><strong><em>The White Silence.</em></strong> Smothers Wind altogether.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Vertigo.</em></strong> For a minor working.</p><p class="sb-entry"><strong><em>Voice.</em></strong> A major working costs the voice: only whistling for days, and permanently with repeated use. Birutė's voice failed after the Krėva fog (<a href="../books/book1.html">Book I ch. 14</a>-25).</p></div>
 </div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §1</a>, §3.1 · <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../codex/bestiary.html">bestiary.md §15</a> · <a href="../books/book1.html">Book I ch. 3</a>, 11, 14, 15, 25 · wiki/gods/vejopatis</div><div class="sb-bar"></div></div>
+</section>
+<div class="infobox">
+<div class="infobox-title">
+<p>Vėjopatis</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/vejopatis.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Vėjopatis · god"><img src="../images/vejopatis.jpg" class="infobox-img img-fluid figure-img" alt="Vėjopatis"></a></p>
+<figcaption>Vėjopatis · god</figcaption>
+</figure>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>god</td>
+</tr>
+<tr class="even">
+<td><strong>Note</strong></td>
+<td>Lord of winds and breezes; master of sea-winds and storm paths.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <section id="folk-sources-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-sources-record">Folk sources [Record]</h2>
 <p><em>Vėjopatis</em> (“lord of the wind”, <em>vėjas</em> + <em>patis</em>, as in <em>Žemėpatis</em>) is the Lithuanian wind god. The only early witness is Matthäus Prätorius (1690s); he is not in the medieval chronicles. Later writers add that he is master of Dausos, the afterlife meadow, and that he blows wicked souls into oblivion; those details lack early sources, and Bangpūtys is sometimes made his father or double. The <em>-patis</em> form (“lord of…”) recurs in Łasicki’s <em>Zemopacios</em> and is a pattern some scholars suspect of being artificial. His role as carrier of souls along the Birds’ Way is the saga’s synthesis, not a recorded belief.</p>

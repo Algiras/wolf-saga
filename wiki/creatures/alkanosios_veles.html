@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,24 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Shard of:</strong> <a href="../creatures/veles.html">Vėlės (the fed dead)</a> — <em>The same dead, no longer fed.</em></p>
 <p><strong>Shards:</strong> <a href="../creatures/nedegintieji.html">Nedegintieji (the Unburned)</a> — <em>Crusade dead buried in pits, hungry dead with the Iron Saint’s appetite.</em></p>
+<div class="statblock sb-creature sb-wide" role="group" aria-label="Alkanosios vėlės (the hungry dead) (creature)">
+<div class="sb-bar"></div><div class="sb-body">
+<div class="sb-name">Alkanosios vėlės (the hungry dead)</div>
+<div class="sb-sub">The hungry dead · Baltic folk belief, saga-true</div>
+<div class="sb-rule"></div>
+<p class="sb-prop"><strong>Origin</strong> [Record] the unmourned, unburied or unfed dead who return, kept busy with scattered poppy seed · [Saga] the same dead, no longer fed</p>
+<p class="sb-prop"><strong>Tier</strong> Revenant · the fed dead gone predator</p>
+<p class="sb-prop"><strong>Danger</strong> III dangerous → IV deadly</p>
+<p class="sb-prop"><strong>Habitat</strong> Unconsecrated graves near abandoned groves; cold houses</p>
+<p class="sb-prop"><strong>Wants</strong> Warmth, then memory, then life</p>
+<p class="sb-prop"><strong>Takes</strong> Warmth first, then the living's memory of the dead one's face, then life: the old and the sick die in its presence</p>
+<p class="sb-prop"><strong>Signs</strong> Houses that will not stay warm; a family that cannot remember a grandmother's name; cattle dead in the stall without a mark</p>
+<p class="sb-prop"><strong>Banes</strong> Burning the body (the only true cure); poppy seed; a ring of ash</p>
+<div class="sb-rule"></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk say the dead return until set right. The truth: a vėlė no longer fed does not fade. It starves, and starving makes it a predator. The worst are the unburned, who cannot climb at all.</p><p class="sb-entry"><strong><em>Legion.</em></strong> Rare before 1387 (bad deaths only). After it, abandoned groves breed them. This is the saga's central later-book threat.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Feeding.</em></strong> On warmth, then memory, then life.</p></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Feeding them late.</em></strong> Bread, kisielius or beer on the grave and the name spoken. The priest asks why you are feasting on a grave.</p><p class="sb-entry"><strong><em>Poppy seed.</em></strong> Scattered on the path from the grave; they must count it. Buys a night, not a cure.</p><p class="sb-entry"><strong><em>The ash ring.</em></strong> Renewed nightly. Ordinary ash thins fast; live ash is priceless.</p><p class="sb-entry"><strong><em>Burning the body.</em></strong> After 1387 a crime and a heresy, and someone always sees the smoke.</p></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §16</a> · <a href="../codex/magic-rules.html">magic_rules.md §9</a> · <a href="../codex/cosmology.html">cosmology.md §4.3</a> · <a href="../codex/the-iron-wolves.html">iron_wolves.md §8.3</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -485,24 +556,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<div class="statblock sb-creature sb-wide" role="group" aria-label="Alkanosios vėlės (the hungry dead) (creature)">
-<div class="sb-bar"></div><div class="sb-body">
-<div class="sb-name">Alkanosios vėlės (the hungry dead)</div>
-<div class="sb-sub">The hungry dead · Baltic folk belief, saga-true</div>
-<div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] the unmourned, unburied or unfed dead who return, kept busy with scattered poppy seed · [Saga] the same dead, no longer fed</p>
-<p class="sb-prop"><strong>Tier</strong> Revenant · the fed dead gone predator</p>
-<p class="sb-prop"><strong>Danger</strong> III dangerous → IV deadly</p>
-<p class="sb-prop"><strong>Habitat</strong> Unconsecrated graves near abandoned groves; cold houses</p>
-<p class="sb-prop"><strong>Wants</strong> Warmth, then memory, then life</p>
-<p class="sb-prop"><strong>Takes</strong> Warmth first, then the living's memory of the dead one's face, then life: the old and the sick die in its presence</p>
-<p class="sb-prop"><strong>Signs</strong> Houses that will not stay warm; a family that cannot remember a grandmother's name; cattle dead in the stall without a mark</p>
-<p class="sb-prop"><strong>Banes</strong> Burning the body (the only true cure); poppy seed; a ring of ash</p>
-<div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk say the dead return until set right. The truth: a vėlė no longer fed does not fade. It starves, and starving makes it a predator. The worst are the unburned, who cannot climb at all.</p><p class="sb-entry"><strong><em>Legion.</em></strong> Rare before 1387 (bad deaths only). After it, abandoned groves breed them. This is the saga's central later-book threat.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Feeding.</em></strong> On warmth, then memory, then life.</p></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Feeding them late.</em></strong> Bread, kisielius or beer on the grave and the name spoken. The priest asks why you are feasting on a grave.</p><p class="sb-entry"><strong><em>Poppy seed.</em></strong> Scattered on the path from the grave; they must count it. Buys a night, not a cure.</p><p class="sb-entry"><strong><em>The ash ring.</em></strong> Renewed nightly. Ordinary ash thins fast; live ash is priceless.</p><p class="sb-entry"><strong><em>Burning the body.</em></strong> After 1387 a crime and a heresy, and someone always sees the smoke.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §16</a> · <a href="../codex/magic-rules.html">magic_rules.md §9</a> · <a href="../codex/cosmology.html">cosmology.md §4.3</a> · <a href="../codex/the-iron-wolves.html">iron_wolves.md §8.3</a></div><div class="sb-bar"></div></div>
 <section id="folk-source-record" class="level2">
 <h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
 <p>Folk tradition across the region knows dead who return because they were not properly mourned, buried or fed: suicides, the murdered, the drowned, those buried without rites. They wander, harm livestock and trouble the living until set right. Scattering seed (poppy and others) to keep the dead busy counting is reported across the Slavic and Baltic region.</p>

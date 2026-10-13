@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -456,6 +509,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Patrons:</strong> <a href="../gods/laima.html">Laima</a></p>
 <p><strong>Practitioners:</strong> <a href="../characters/elena.html">Elena (Ona’s maid)</a> — tier 1 — <em>Root-Mother devotee; the maid who stays (ch.13).</em> · <a href="../factions/village_healers.html">Žiniuoniai (village charm-healers)</a> — tier 1</p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Užkalbėjimai (charms) (spell)">
+<div class="sb-name">Užkalbėjimai (charms)</div>
+<div class="sb-sub">Užkalbėjimai · spoken charms, Kalba's humble cousin</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power · folk word-magic that needs no gift</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 1 · žiniuonis, midwife, village healer. Thousands in 1382</dd></div><div class="sb-cell"><dt>Casting</dt><dd>The exact words, whispered three or nine times, learned from a living teacher</dd></div><div class="sb-cell"><dt>Components</dt><dd>A medium: water, bread, salt, linen thread or a knife. Taught only to a younger person of the opposite sex [Record]</dd></div><div class="sb-cell"><dt>Cost</dt><dd>The charmer takes a trace of what is removed: a headache, a cold hand, a nightmare</dd></div><div class="sb-cell"><dt>Duration</dt><dd>One ailment or danger at a time. A house-ward against fire lasts a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>One person, one ailment. Cannot work a mortal wound alone. Fails against someone who does not believe they are being helped</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Disbelief; a charm told to the wrong person (it dies for the teller); the Unbinding's unbound spirits are what charms now hold off</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>What it does.</em></strong> Stops bleeding, draws snake venom, calms a horse, takes away fright (išgąstis), wards a house from fire.</p><p class="sb-entry"><strong><em>After 1387.</em></strong> The peasantry's chief defence against unbound spirits. Priests condemn it, village priests quietly use it.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Charm plus herb.</em></strong> A bleeding-charm over a Rasos-herb poultice heals mortal wounds that Water cannot.</p><p class="sb-entry"><strong><em>Too much charming.</em></strong> Healers who charm too much grow strange.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The wrong ear.</em></strong> A charm told to the wrong person stops working for the teller.</p><p class="sb-entry"><strong><em>Payment.</em></strong> A charm said for money works at half strength.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.2</a>, §4, §7 · Law of Truth, <a href="../codex/magic-rules.html">magic_rules.md §5.2</a> · wiki/magic/uzkalbejimai</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -468,6 +527,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -477,16 +540,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Family</strong></td>
 <td>asked</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>Užkalbėjimai: traditional spoken folk charms, whispered prayers, and herbal chants.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Užkalbėjimai (charms) (spell)">
-<div class="sb-name">Užkalbėjimai (charms)</div>
-<div class="sb-sub">Užkalbėjimai · spoken charms, Kalba's humble cousin</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power · folk word-magic that needs no gift</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 1 · žiniuonis, midwife, village healer. Thousands in 1382</dd></div><div class="sb-cell"><dt>Casting</dt><dd>The exact words, whispered three or nine times, learned from a living teacher</dd></div><div class="sb-cell"><dt>Components</dt><dd>A medium: water, bread, salt, linen thread or a knife. Taught only to a younger person of the opposite sex [Record]</dd></div><div class="sb-cell"><dt>Cost</dt><dd>The charmer takes a trace of what is removed: a headache, a cold hand, a nightmare</dd></div><div class="sb-cell"><dt>Duration</dt><dd>One ailment or danger at a time. A house-ward against fire lasts a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>One person, one ailment. Cannot work a mortal wound alone. Fails against someone who does not believe they are being helped</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Disbelief; a charm told to the wrong person (it dies for the teller); the Unbinding's unbound spirits are what charms now hold off</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>What it does.</em></strong> Stops bleeding, draws snake venom, calms a horse, takes away fright (išgąstis), wards a house from fire.</p><p class="sb-entry"><strong><em>After 1387.</em></strong> The peasantry's chief defence against unbound spirits. Priests condemn it, village priests quietly use it.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Charm plus herb.</em></strong> A bleeding-charm over a Rasos-herb poultice heals mortal wounds that Water cannot.</p><p class="sb-entry"><strong><em>Too much charming.</em></strong> Healers who charm too much grow strange.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The wrong ear.</em></strong> A charm told to the wrong person stops working for the teller.</p><p class="sb-entry"><strong><em>Payment.</em></strong> A charm said for money works at half strength.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.2</a>, §4, §7 · Law of Truth, <a href="../codex/magic-rules.html">magic_rules.md §5.2</a> · wiki/magic/uzkalbejimai</div></div>
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Spoken charms: <strong>Kalba’s humble cousin</strong>, folk word-magic that needs no gift, only the exact words learned from a living teacher and a medium (water, bread, salt, linen thread, a knife).</p>

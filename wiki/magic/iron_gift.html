@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1be8d28a28749616f6292c218f236882.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-51cad61ea9594154413ceab7e16abed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bfafa5dc731b25190fe9b87b67b8eb61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ff56a833b35413553b713d35f0f723a9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function () {
       for (var i = 0; i < secs.length; i++) {
         if (GEN.test(secs[i].id)) continue;
         var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) p.classList.add("dropcap");
-        break;
+        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
+          p.classList.add("dropcap");
+          break;
+        }
       }
     }
     var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
@@ -309,6 +311,57 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="nav-link" href="../diagrams.html"> 
 <span class="menu-text">Diagrams</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../map.html"> 
+<span class="menu-text">Map</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
+        <li>
+    <a class="dropdown-item" href="../lore/index.html">
+ <span class="dropdown-text">Lore of the Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/ancient-speech.html">
+ <span class="dropdown-text">The Ancient Speech</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/signs-and-wards.html">
+ <span class="dropdown-text">Signs and Wards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
+ <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/the-price.html">
+ <span class="dropdown-text">The Price</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/amber-craft.html">
+ <span class="dropdown-text">Amber Craft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
+ <span class="dropdown-text">Oaths and Pacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/practitioners.html">
+ <span class="dropdown-text">Schools and Practitioners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
+ <span class="dropdown-text">What Magic Cannot Do</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+ <span class="dropdown-text">Reading the Craft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Encyclopedia</span>
@@ -457,6 +510,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p><strong>Counters:</strong> <a href="../magic/el_earth.html">Žemė (Earth)</a></p>
 <p><strong>Patrons:</strong> <a href="../forces/iron_saint.html">Geležinis Šventasis (Ferrum Sanctum)</a></p>
 <p><strong>Practitioners:</strong> <a href="../characters/zollner.html">Konrad Zöllner von Rotenstein</a> (1382–…) — tier 3 · <a href="../characters/jungingen.html">Ulrich von Jungingen</a> (1407–…) — tier 3</p>
+<div class="statblock sb-card sb-spell" role="group" aria-label="Iron Saint's fearlessness (spell)">
+<div class="sb-name">Iron Saint's fearlessness</div>
+<div class="sb-sub">The Iron Saint's fearlessness · granted power</div>
+<div class="sb-rule"></div>
+<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Granted power from the Iron Saint, an egregore of the Order</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 3 in the graph: Zöllner (from 1382), Jungingen (from 1407)</dd></div><div class="sb-cell"><dt>Casting</dt><dd>None from the knight. Thousands of prayers, indulgences and Reise marches poured into one battle do the work</dd></div><div class="sb-cell"><dt>Components</dt><dd>Real belief or appetite, and an institution to feed it. The creed does not matter</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Pity dies. Such knights cannot weep</dd></div><div class="sb-cell"><dt>Duration</dt><dd>For the battle. It can be withdrawn all at once</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Needs the appetite of an institution behind it. Faces become those of men who feel nothing</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Only the Force's own death, at Grunwald, and the weeping that follows. It counters Earth's Unmovable Will and Fire's terror</dd></div></dl>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>The gift.</em></strong> Fearlessness, tireless marching, absence of pity, and immunity to Earth's terror and Fire's terror. Signs: furnace heat in winter, quench-water, crosses that ring like anvils.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Feast-day iron.</em></strong> Whoever wields it is noticed by the Iron Saint. It is tempered by appetite, not faith.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Grunwald.</em></strong> At Grunwald a knight lowers his sword and tears come, then another, then a third (<a href="../books/book3.html">Book III ch. 20</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §3</a> · <a href="../codex/magic-rules.html">magic_rules.md §9</a> · <a href="../codex/cosmology.html">cosmology.md §3.3</a> · <a href="../books/book3.html">Book III ch. 11</a>, 20 · <a href="../books/book6.html">Book VI ch. 7</a>, 24 · wiki/magic/iron_gift</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -469,6 +528,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </figure>
 </div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
@@ -478,16 +541,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <td><strong>Family</strong></td>
 <td>granted</td>
 </tr>
+<tr class="odd">
+<td><strong>Note</strong></td>
+<td>The cold zeal and absolute fearlessness bestowed by the Iron Saint.</td>
+</tr>
 </tbody>
 </table>
 </div>
 </div>
-<div class="statblock sb-card sb-spell" role="group" aria-label="Iron Saint's fearlessness (spell)">
-<div class="sb-name">Iron Saint's fearlessness</div>
-<div class="sb-sub">The Iron Saint's fearlessness · granted power</div>
-<div class="sb-rule"></div>
-<dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Granted power from the Iron Saint, an egregore of the Order</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 3 in the graph: Zöllner (from 1382), Jungingen (from 1407)</dd></div><div class="sb-cell"><dt>Casting</dt><dd>None from the knight. Thousands of prayers, indulgences and Reise marches poured into one battle do the work</dd></div><div class="sb-cell"><dt>Components</dt><dd>Real belief or appetite, and an institution to feed it. The creed does not matter</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Pity dies. Such knights cannot weep</dd></div><div class="sb-cell"><dt>Duration</dt><dd>For the battle. It can be withdrawn all at once</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Needs the appetite of an institution behind it. Faces become those of men who feel nothing</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Only the Force's own death, at Grunwald, and the weeping that follows. It counters Earth's Unmovable Will and Fire's terror</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>The gift.</em></strong> Fearlessness, tireless marching, absence of pity, and immunity to Earth's terror and Fire's terror. Signs: furnace heat in winter, quench-water, crosses that ring like anvils.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Feast-day iron.</em></strong> Whoever wields it is noticed by the Iron Saint. It is tempered by appetite, not faith.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Grunwald.</em></strong> At Grunwald a knight lowers his sword and tears come, then another, then a third (<a href="../books/book3.html">Book III ch. 20</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §3</a> · <a href="../codex/magic-rules.html">magic_rules.md §9</a> · <a href="../codex/cosmology.html">cosmology.md §3.3</a> · <a href="../books/book3.html">Book III ch. 11</a>, 20 · <a href="../books/book6.html">Book VI ch. 7</a>, 24 · wiki/magic/iron_gift</div></div>
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>The Iron Saint’s <strong>fearlessness</strong>: <em>granted</em> power from the <a href="../forces/iron_saint.html">Iron Saint</a>. It gives tireless marching, immunity to terror and <strong>absence of pity</strong>.</p>

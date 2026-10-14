@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -474,7 +504,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#vessels-servants-claims" id="toc-vessels-servants-claims" class="nav-link" data-scroll-target="#vessels-servants-claims">Vessels, servants, claims</a></li>
   <li><a href="#weaknesses" id="toc-weaknesses" class="nav-link" data-scroll-target="#weaknesses">Weaknesses</a></li>
   <li><a href="#arc-across-the-books" id="toc-arc-across-the-books" class="nav-link" data-scroll-target="#arc-across-the-books">Arc across the books</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -513,7 +543,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="statblock sb-force sb-wide" role="group" aria-label="Perkūno Rūstybė (force)">
 <div class="sb-bar"></div><div class="sb-body">
 <div class="sb-name">Perkūno Rūstybė</div>
-<div class="sb-sub">Native Force · saga invention on the oath-keeping thunderer</div>
+<div class="sb-sub">Native Force · the saga's invention on the oath-keeping thunderer</div>
 <div class="sb-rule"></div>
 <p class="sb-prop"><strong>Nature</strong> Native Force (Layer II): justice without mercy</p>
 <p class="sb-prop"><strong>Born of</strong> Perkūnas after a thousand sworn oaths: the god's attention hardened by worship, war and oath-taking into appetite and agenda</p>
@@ -526,7 +556,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>No empowerment.</em></strong> A claimed mortal is an instrument, not a caster. The Force does not empower at will.</p><p class="sb-entry"><strong><em>Strikes its own.</em></strong> It punishes the claimed for betraying its nature, as readily as foes.</p><p class="sb-entry"><strong><em>Contested.</em></strong> The Root-Mother also wants Vytautas.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Lair</div><p class="sb-entry"><strong><em>Oak and banner.</em></strong> Oath-places: oaks, banners, battlefields. It is strongest at the moment an oath is kept or broken before it.</p><p class="sb-entry"><strong><em>Where it is quiet.</em></strong> When nothing is owed, it is silent.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Turns by book</div><p class="sb-entry"><strong><em>Book I.</em></strong> Marks Vytautas at Krėva (ch. 10); the cracked window of the false baptism (ch. 19); lightning in the first battle, ambiguous by design (ch. 21).</p><p class="sb-entry"><strong><em>Book II.</em></strong> An unspoken debt on the road (ch. 5); Skirgaila's death comes too late (ch. 16); the Vorskla verdict (ch. 26).</p><p class="sb-entry"><strong><em>Book III.</em></strong> The renewed oath over the rusted sword (ch. 17); a kept oath rewarded at Grunwald; a single sourceless stroke over Samogitia at Rasos 1411 closes the war (ch. 29).</p><p class="sb-entry"><strong><em>Book IV.</em></strong> Silent after the war (ch. 1).</p><p class="sb-entry"><strong><em>Book V.</em></strong> Thunder at Vytautas's funeral, once (ch. 2).</p><p class="sb-entry"><strong><em>Book VI.</em></strong> Marks Kęstutis (ch. 13, 24).</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §2.1</a>, §3.2 · <a href="../codex/magic-rules.html">magic_rules.md §7</a> · <a href="../codex/power-systems.html">power_systems.md §7</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §7</a>, §8 · wiki/forces/perkuno_rustybe</div><div class="sb-bar"></div></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../guide/cosmology.html">Cosmology §2.1, §3.2</a> · <a href="../guide/magic-rules.html">Magic rules §7</a> · <a href="../guide/power-systems.html">Power systems §7</a> · <a href="../guide/legends-songs.html">Legends &amp; songs §7, §8</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -562,7 +592,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <section id="nature" class="level2">
 <h2 class="anchored" data-anchor-id="nature">Nature</h2>
-<p><strong>Native</strong> Force: <a href="../gods/perkunas.html">Perkūnas</a> after a thousand sworn oaths. It is the god’s attention hardened by human worship, war and oath-taking into appetite and agenda (cosmology §2.1, §3.2). It is saga invention built on the folk figure of the oath-keeping thunderer.</p>
+<p><strong>Native</strong> Force: <a href="../gods/perkunas.html">Perkūnas</a> after a thousand sworn oaths. It is the god’s attention hardened by human worship, war and oath-taking into appetite and agenda (Cosmology §2.1, §3.2). It is the saga’s invention built on the folk figure of the oath-keeping thunderer.</p>
 </section>
 <section id="wants" class="level2">
 <h2 class="anchored" data-anchor-id="wants">Wants</h2>
@@ -588,8 +618,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="arc-across-the-books">Arc across the books</h2>
 <p><strong>VI:</strong> marks Kęstutis (ch.&nbsp;13, 24). <strong>I:</strong> Krėva (ch.&nbsp;10), the cracked window (ch.&nbsp;19), the oak (ch.&nbsp;21). <strong>II:</strong> an unspoken debt on the road (ch.&nbsp;5), Skirgaila’s death “too late” (ch.&nbsp;16), the Vorskla verdict (ch.&nbsp;26). <strong>III:</strong> the renewed oath over the rusted sword (ch.&nbsp;17); rewards a kept oath at Grunwald. <strong>IV:</strong> silent after the war (ch.&nbsp;1). <strong>V:</strong> thunder at Vytautas’s funeral (ch.&nbsp;2), once.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -602,10 +632,10 @@ document.addEventListener("DOMContentLoaded", function () {
   perkunas["Perkūnas"]
   perkuno_rustybe["Perkūno Rūstybė"]
   vytautas["Vytautas"]
-  perkuno_rustybe --&gt;|face_of| perkunas
-  perkuno_rustybe --&gt;|claims| kestutis
-  perkuno_rustybe --&gt;|claims| vytautas
-  perkuno_rustybe --&gt;|patron_of| claim
+  perkuno_rustybe --&gt;|Force-face of| perkunas
+  perkuno_rustybe --&gt;|Claims| kestutis
+  perkuno_rustybe --&gt;|Claims| vytautas
+  perkuno_rustybe --&gt;|Patron of| claim
   style perkuno_rustybe stroke-width:3px
 </pre>
 </div>

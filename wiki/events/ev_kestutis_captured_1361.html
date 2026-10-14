@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -467,11 +497,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-the-chronicles-say-record" id="toc-what-the-chronicles-say-record" class="nav-link active" data-scroll-target="#what-the-chronicles-say-record">What the chronicles say [Record]</a></li>
-  <li><a href="#what-really-happened-saga" id="toc-what-really-happened-saga" class="nav-link" data-scroll-target="#what-really-happened-saga">What really happened [Saga]</a></li>
+  <li><a href="#what-the-chronicles-say-historical-record" id="toc-what-the-chronicles-say-historical-record" class="nav-link active" data-scroll-target="#what-the-chronicles-say-historical-record">What the chronicles say [Historical record]</a></li>
+  <li><a href="#what-really-happened-the-sagas-invention" id="toc-what-really-happened-the-sagas-invention" class="nav-link" data-scroll-target="#what-really-happened-the-sagas-invention">What really happened [The saga’s invention]</a></li>
   <li><a href="#consequences" id="toc-consequences" class="nav-link" data-scroll-target="#consequences">Consequences</a></li>
   <li><a href="#dramatisation" id="toc-dramatisation" class="nav-link" data-scroll-target="#dramatisation">Dramatisation</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -506,7 +536,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="relations">Relations</h2>
 <p><strong>Causes:</strong> <a href="../events/ev_kestutis_escape_1361.html">Kęstutis escapes Marienburg</a></p>
 <p><strong>Location:</strong> <a href="../places/lake_ublik.html">Lake Ublik (Wobel), Masuria</a></p>
-<p><strong>Participants:</strong> <a href="../characters/hohenstein.html">Günther von Hohenstein (invented Order brother)</a> — <em>Saga invention: the third knight; offers terms, Kęstutis refuses.</em> · <a href="../characters/kestutis.html">Kęstutis</a></p>
+<p><strong>Participants:</strong> <a href="../characters/hohenstein.html">Günther von Hohenstein (invented Order brother)</a> — <em>The saga’s invention: the third knight; offers terms, Kęstutis refuses.</em> · <a href="../characters/kestutis.html">Kęstutis</a></p>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -548,13 +578,13 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<section id="what-the-chronicles-say-record" class="level2">
-<h2 class="anchored" data-anchor-id="what-the-chronicles-say-record">What the chronicles say [Record]</h2>
+<section id="what-the-chronicles-say-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-chronicles-say-historical-record">What the chronicles say [Historical record]</h2>
 <p><a href="../characters/kestutis.html">Kęstutis</a>, over sixty, and Algirdas had taken the Order’s Eckersberg and Johannisburg in Masuria. Returning, his camp by <a href="../places/lake_ublik.html">Lake Ublik (Wobel)</a> was fallen on by a small band of knights coming back from another raid (en.wikipedia; Baronas 2003; the English article says he was overcome by the third knight who attacked him). <strong>Wigand dates the capture 21 March 1361</strong>, Hermann von Wartberge 13 March; VLE says “near Įsrutė”. He was held at Marienburg about half a year.</p>
 </section>
-<section id="what-really-happened-saga" class="level2">
-<h2 class="anchored" data-anchor-id="what-really-happened-saga">What really happened [Saga]</h2>
-<p>The saga keeps the record’s chance meeting (an older draft staged a trap with 600 riders at the Šešupė ford in August; that is gone). The third knight is the invented young brother <a href="../characters/hohenstein.html">Hohenstein</a>, who offers terms; Kęstutis, bound by the mark on his palm, will not say “I surrender” because he could not then escape. The hidden nine cannot reach him in time.</p>
+<section id="what-really-happened-the-sagas-invention" class="level2">
+<h2 class="anchored" data-anchor-id="what-really-happened-the-sagas-invention">What really happened [The saga’s invention]</h2>
+<p>The saga keeps the record’s chance meeting. The third knight is the invented young brother <a href="../characters/hohenstein.html">Hohenstein</a>, who offers terms; Kęstutis, bound by the mark on his palm, will not say “I surrender” because he could not then escape. The hidden nine cannot reach him in time.</p>
 </section>
 <section id="consequences" class="level2">
 <h2 class="anchored" data-anchor-id="consequences">Consequences</h2>
@@ -564,8 +594,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="dramatisation">Dramatisation</h2>
 <p><a href="../books/book6.html">Book VI ch.&nbsp;16</a> “Paimtas” (Kęstutis; March 1361, frost and thaw, the Masurian lakes of Sūduva).</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -578,10 +608,10 @@ document.addEventListener("DOMContentLoaded", function () {
   hohenstein["Günther von Hohenstein (invented Order brother)"]
   kestutis["Kęstutis"]
   lake_ublik["Lake Ublik (Wobel), Masuria"]
-  ev_kestutis_captured_1361 --&gt;|occurs_at| lake_ublik
-  ev_kestutis_captured_1361 --&gt;|causes| ev_kestutis_escape_1361
-  hohenstein --&gt;|participant| ev_kestutis_captured_1361
-  kestutis --&gt;|participant| ev_kestutis_captured_1361
+  ev_kestutis_captured_1361 --&gt;|Location| lake_ublik
+  ev_kestutis_captured_1361 --&gt;|Causes| ev_kestutis_escape_1361
+  hohenstein --&gt;|Took part in| ev_kestutis_captured_1361
+  kestutis --&gt;|Took part in| ev_kestutis_captured_1361
   style ev_kestutis_captured_1361 stroke-width:3px
 </pre>
 </div>

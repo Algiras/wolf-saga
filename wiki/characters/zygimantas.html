@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -476,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#pronunciation" id="toc-pronunciation" class="nav-link" data-scroll-target="#pronunciation">Pronunciation</a></li>
   <li><a href="#appearances" id="toc-appearances" class="nav-link" data-scroll-target="#appearances">Appearances</a></li>
   <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -595,7 +625,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="arc-by-book">Arc by book</h2>
 <ul>
 <li><strong>Book II (1390-1398).</strong> A hostage named at Lyck (25 years old, ch.&nbsp;6), left in Prussia as the pledge when Ona goes home in 1392 and Vytautas breaks with the Order (ch.&nbsp;9); freed after Salynas (12 Oct 1398, ch.&nbsp;19).</li>
-<li><strong>Book III-IV.</strong> In Vytautas’s shadow; remembered as the “quiet, stubborn brother who will say nothing” (<a href="../books/book4.html">Book IV ch.&nbsp;25</a>). Not on page in <a href="../books/book4.html">Book IV ch.&nbsp;21</a>-30 (the hand-off notes).</li>
+<li><strong>Book III-IV.</strong> In Vytautas’s shadow; remembered as the “quiet, stubborn brother who will say nothing” (<a href="../books/book4.html">Book IV ch.&nbsp;25</a>). Not on page in <a href="../books/book4.html">Book IV ch.&nbsp;21</a>-30.</li>
 <li><strong>Book V (1430-1440).</strong> Rides to Christmemel with Švitrigaila (1431); in the summer of 1432 the lords plot with him at Trakai and Henė, holding only Jogaila’s stone, whispers; he asks the keeper to relight the flame for him (ch.&nbsp;8). The coup at Ašmena (ch.&nbsp;9) makes him Grand Duke, confirmed at Grodno under Bishop Oleśnicki’s reading of the king’s letter (ch.&nbsp;10); Pabaiskas (ch.&nbsp;13) wins the war. In the “castle of paranoia” (ch.&nbsp;18) he purges boyars and negotiates with the Habsburgs; at Krėva in August 1438 he sleeps in his father’s death cell, the residue shows him everything, Henė gives him the golden chain and the keeper refuses the hunt (ch.&nbsp;19). He is murdered on Palm Sunday 1440 (ch.&nbsp;21-22) and the Iron Wolf’s last howl rises from the lake.</li>
 </ul>
 </section>
@@ -606,8 +636,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="record-vs-saga" class="level2">
 <h2 class="anchored" data-anchor-id="record-vs-saga">Record vs saga</h2>
 <ul>
-<li><strong>[Record]:</strong> Son of Kęstutis (and, in the saga, of Birutė), born c.&nbsp;1365; a prisoner of Jogaila 1382-84 and escaped in 1384; a hostage of the Teutonic Knights from 1390 (the binding Book II decision, after pl.wikipedia: Jan 1390; VLE gives 1389) until 1398, freed after Salynas; Duke of Starodub. Named among the hostages demanded at Lyck (19 Jan 1390). Took the throne on the night of 31 Aug / 1 Sep 1432 at Ašmena, supported by Goštautas, Petras Mangirdaitis and Semen Olshanski; Švitrigaila fled to Polotsk. The Agreement of Grodno (15 Oct 1432, VLE; en.wikipedia: act of 25 Oct) made him Grand Duke for life under Jogaila, confirmed by Bishop Oleśnicki’s embassy; Jogaila was not present, issuing his own act at Lwów on 30 Oct 1432. He won the battle of Pabaiskas (1 Sep 1435) through his son Mykolas, granted Orthodox nobles equal rights (the Trakai privilege of 6 May 1434), negotiated with Albert II of Habsburg in 1438-39 and was killed at Trakai Island Castle on 20 Mar 1440 (Palm Sunday), probably by Švitrigaila’s supporters, the Czartoryski brothers (the en.wikipedia infobox’s 10 Feb 1440 is wrong). His only son, Mykolas, died in 1452.</li>
-<li><strong>[Saga invention]:</strong> His temperament and the “doors” ritual; his night in the Krėva cell, the residue and Henė’s chain (<a href="../books/book5.html">Book V ch.&nbsp;19</a>); the paranoia castle; the keeper’s refusal and the wolves’ non-intervention at the murder; the list with a place he cannot cross out; and the saga’s decision that he is Birutė’s son as well as Kęstutis’s (Vaidotas and Butautas are from an earlier wife). The record has no evidence of Henė.</li>
+<li><strong>[Historical record]:</strong> Son of Kęstutis (and, in the saga, of Birutė), born c.&nbsp;1365; a prisoner of Jogaila 1382-84 and escaped in 1384; a hostage of the Teutonic Knights from 1390 (the binding Book II decision, after pl.wikipedia: Jan 1390; VLE gives 1389) until 1398, freed after Salynas; Duke of Starodub. Named among the hostages demanded at Lyck (19 Jan 1390). Took the throne on the night of 31 Aug / 1 Sep 1432 at Ašmena, supported by Goštautas, Petras Mangirdaitis and Semen Olshanski; Švitrigaila fled to Polotsk. The Agreement of Grodno (15 Oct 1432, VLE; en.wikipedia: act of 25 Oct) made him Grand Duke for life under Jogaila, confirmed by Bishop Oleśnicki’s embassy; Jogaila was not present, issuing his own act at Lwów on 30 Oct 1432. He won the battle of Pabaiskas (1 Sep 1435) through his son Mykolas, granted Orthodox nobles equal rights (the Trakai privilege of 6 May 1434), negotiated with Albert II of Habsburg in 1438-39 and was killed at Trakai Island Castle on 20 Mar 1440 (Palm Sunday), probably by Švitrigaila’s supporters, the Czartoryski brothers. His only son, Mykolas, died in 1452.</li>
+<li><strong>[The saga’s invention]:</strong> His temperament and the “doors” ritual; his night in the Krėva cell, the residue and Henė’s chain (<a href="../books/book5.html">Book V ch.&nbsp;19</a>); the paranoia castle; the keeper’s refusal and the wolves’ non-intervention at the murder; the list with a place he cannot cross out; and the saga’s decision that he is Birutė’s son as well as Kęstutis’s (Vaidotas and Butautas are from an earlier wife). The record has no evidence of Henė.</li>
 </ul>
 </section>
 <section id="pronunciation" class="level2">
@@ -621,7 +651,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><strong>Book IV:</strong> ch.&nbsp;22 (“brother Žygimantas”, Vytautas’s thoughts) and ch.&nbsp;25.</li>
 <li><strong>Book V:</strong> ch.&nbsp;2, 3 (Christmemel), 8, 9, 10, 11, 12, 13, 15, 18, 19, 21, 22, 23, 24 and the afterword.</li>
 </ul>
-<p>Continuity: the Order captivity is 1390-98 (eight years, as <a href="../books/book5.html">Book V ch.&nbsp;18</a> says; <a href="../books/book5.html">Book V ch.&nbsp;10</a> still says “fourteen years in the Order’s castles”, which fits the older 1384 span and should be fixed); the houses doc still reads “c.&nbsp;1384-98 (verify)”, and VLE gives 1389. <a href="../books/book4.html">Book IV ch.&nbsp;12</a> names Žygimantas <em>Kaributaitis</em>, a different person.</p>
+<p>The Order captivity is 1390-98 (eight years, as <a href="../books/book5.html">Book V ch.&nbsp;18</a> says); VLE gives 1389. <a href="../books/book4.html">Book IV ch.&nbsp;12</a> names Žygimantas <em>Kaributaitis</em>, a different person.</p>
 </section>
 <section id="timeline" class="level2">
 <h2 class="anchored" data-anchor-id="timeline">Timeline</h2>
@@ -672,8 +702,8 @@ document.addEventListener("DOMContentLoaded", function () {
 </tbody>
 </table>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -698,22 +728,22 @@ document.addEventListener("DOMContentLoaded", function () {
   svitrigaila["Švitrigaila"]
   teutonic_order["Teutonic Order"]
   zygimantas["Žygimantas Kęstutaitis"]
-  zygimantas --&gt;|member_of| kestutaiciai
-  zygimantas --&gt;|rules| gdl
-  zygimantas --&gt;|participant| ev_coup_1432
-  zygimantas --&gt;|participant| ev_zygimantas_killed
-  zygimantas --&gt;|antagonist_of| book5
-  zygimantas --&gt;|participant| ev_christmemel
-  zygimantas --&gt;|participant| ev_grodno_1432
-  zygimantas --&gt;|participant| ev_asmena_battle
-  zygimantas --&gt;|hostage_of| teutonic_order
-  zygimantas --&gt;|participant| ev_lyck_1390
-  zygimantas --&gt;|participant| ev_salynas
-  zygimantas --&gt;|parent_of| mykolas
-  zygimantas --&gt;|holds| golden_chain
-  kestutis --&gt;|parent_of| zygimantas
-  svitrigaila --&gt;|enemy_of| zygimantas
-  shadow_seller --&gt;|bargain_with| zygimantas
+  zygimantas --&gt;|Member of| kestutaiciai
+  zygimantas --&gt;|Rules| gdl
+  zygimantas --&gt;|Took part in| ev_coup_1432
+  zygimantas --&gt;|Took part in| ev_zygimantas_killed
+  zygimantas --&gt;|Antagonist of| book5
+  zygimantas --&gt;|Took part in| ev_christmemel
+  zygimantas --&gt;|Took part in| ev_grodno_1432
+  zygimantas --&gt;|Took part in| ev_asmena_battle
+  zygimantas --&gt;|Hostage of| teutonic_order
+  zygimantas --&gt;|Took part in| ev_lyck_1390
+  zygimantas --&gt;|Took part in| ev_salynas
+  zygimantas --&gt;|Parent of| mykolas
+  zygimantas --&gt;|Holds| golden_chain
+  kestutis --&gt;|Parent of| zygimantas
+  svitrigaila --&gt;|Enemy| zygimantas
+  shadow_seller --&gt;|Bargained with| zygimantas
   style zygimantas stroke-width:3px
 </pre>
 </div>

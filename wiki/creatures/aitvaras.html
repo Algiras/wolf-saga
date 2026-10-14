@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -467,14 +497,14 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#folk-source-record" id="toc-folk-source-record" class="nav-link active" data-scroll-target="#folk-source-record">Folk source [Record]</a></li>
+  <li><a href="#folk-source-historical-record" id="toc-folk-source-historical-record" class="nav-link active" data-scroll-target="#folk-source-historical-record">Folk source [Historical record]</a></li>
   <li><a href="#in-the-saga-where-the-folk-are-half-wrong" id="toc-in-the-saga-where-the-folk-are-half-wrong" class="nav-link" data-scroll-target="#in-the-saga-where-the-folk-are-half-wrong">In the saga (where the folk are half-wrong)</a></li>
   <li><a href="#signs-habitat" id="toc-signs-habitat" class="nav-link" data-scroll-target="#signs-habitat">Signs &amp; habitat</a></li>
   <li><a href="#before-after-the-unbinding" id="toc-before-after-the-unbinding" class="nav-link" data-scroll-target="#before-after-the-unbinding">Before / after the Unbinding</a></li>
   <li><a href="#banes-wards-bargains-and-their-cost" id="toc-banes-wards-bargains-and-their-cost" class="nav-link" data-scroll-target="#banes-wards-bargains-and-their-cost">Banes, wards, bargains, and their cost</a></li>
   <li><a href="#danger-level" id="toc-danger-level" class="nav-link" data-scroll-target="#danger-level">Danger level</a></li>
   <li><a href="#story-hooks" id="toc-story-hooks" class="nav-link" data-scroll-target="#story-hooks">Story hooks</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -513,7 +543,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-name">Aitvaras (fire-tailed thief)</div>
 <div class="sb-sub">Fire-tailed thief · Baltic folk belief, saga-true</div>
 <div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] wealth-spirit hatched from an old rooster's egg, named in 16th-century church writings · [Saga] hatchling of Velnias's root-wealth</p>
+<p class="sb-prop"><strong>Origin</strong> [Historical record] wealth-spirit hatched from an old rooster's egg, named in 16th-century church writings · [The saga's invention] hatchling of Velnias's root-wealth</p>
 <p class="sb-prop"><strong>Tier</strong> Dvasia · bought power (the kept aitvaras)</p>
 <p class="sb-prop"><strong>Danger</strong> II hazard → IV deadly</p>
 <p class="sb-prop"><strong>Habitat</strong> Under the oven as a black cockerel or cat; a fiery streak at dusk outdoors</p>
@@ -525,7 +555,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> The folk are right that it steals and burns. They are wrong that it serves the devil: it serves the trade, and anyone who feeds it. It makes no wealth, it moves it, so every grain it brings is a grain a neighbour lost.</p><p class="sb-entry"><strong><em>Unbound (after 1387).</em></strong> Aitvarai turn arsonist. Near Hanseatic towns the Gold-Glutton courts them and they carry warm coin instead of grain, which starts quarrels wherever it is spent.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Theft.</em></strong> Carries stolen wealth from the poor farm to the rich one.</p><p class="sb-entry"><strong><em>Burning.</em></strong> Spoil its dish and it burns the house.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Feeding it.</em></strong> The neighbours' enmity, and eventually a lynching. In life the household slowly stops being able to give anything away freely.</p><p class="sb-entry"><strong><em>Selling it on.</em></strong> The buyer inherits the risk. While it counts, it is still yours.</p><p class="sb-entry"><strong><em>Cursing it in flight.</em></strong> It drops its load on your land, and the stolen goods are in your barn when the owner comes looking.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §2</a> · <a href="../codex/power-systems.html">power_systems.md §3</a> · <a href="../codex/cosmology.html">cosmology.md §4.3</a></div><div class="sb-bar"></div></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../guide/bestiary.html">Bestiary §2</a> · <a href="../guide/power-systems.html">Power systems §3</a> · <a href="../guide/cosmology.html">Cosmology §4.3</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -545,18 +575,18 @@ document.addEventListener("DOMContentLoaded", function () {
 </tr>
 <tr class="even">
 <td><strong>Status</strong></td>
-<td>Saga invention</td>
+<td>The saga’s invention</td>
 </tr>
 <tr class="odd">
 <td><strong>Note</strong></td>
-<td>Bestiary §2. Danger II → IV.</td>
+<td><a href="../guide/bestiary.html">Bestiary §2</a>. Danger II → IV.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<section id="folk-source-record" class="level2">
-<h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
+<section id="folk-source-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="folk-source-historical-record">Folk source [Historical record]</h2>
 <p>A spirit that brings its keeper wealth stolen from neighbours. It hatches from the egg of an old rooster (seven or nine years old) kept warm by its owner, or is bought from a merchant. Outdoors it flies as a fiery streak; indoors it is a black cockerel or cat. It is fed scrambled eggs, and when offended it burns the farm. Named in 16th-century church writings against peasant superstition; Christian-era tales make it a devil’s gift paid for with the keeper’s soul.</p>
 </section>
 <section id="in-the-saga-where-the-folk-are-half-wrong" class="level2">
@@ -583,8 +613,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="story-hooks">Story hooks</h2>
 <p>Book II: Jogaila’s Vilnius and its new Magdeburg merchants crawling with aitvarai fed by the Gold-Glutton. Book IV: a fire in Trakai’s town blamed on Vytautas’s enemies, really an aitvaras abandoned by a bankrupt Hanseatic factor.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -594,7 +624,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <pre class="mermaid mermaid-js">graph LR
   aitvaras["Aitvaras (fire-tailed thief)"]
   velnias["Velnias"]
-  aitvaras --&gt;|servant_of| velnias
+  aitvaras --&gt;|Servant of| velnias
   style aitvaras stroke-width:3px
 </pre>
 </div>

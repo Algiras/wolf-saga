@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -472,9 +502,9 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#how-it-works-medium-words-timing" id="toc-how-it-works-medium-words-timing" class="nav-link" data-scroll-target="#how-it-works-medium-words-timing">How it works (medium, words, timing)</a></li>
   <li><a href="#costs" id="toc-costs" class="nav-link" data-scroll-target="#costs">Costs</a></li>
   <li><a href="#limits-counters" id="toc-limits-counters" class="nav-link" data-scroll-target="#limits-counters">Limits &amp; counters</a></li>
-  <li><a href="#folk-basis-record" id="toc-folk-basis-record" class="nav-link" data-scroll-target="#folk-basis-record">Folk basis [Record]</a></li>
+  <li><a href="#folk-basis-historical-record" id="toc-folk-basis-historical-record" class="nav-link" data-scroll-target="#folk-basis-historical-record">Folk basis [Historical record]</a></li>
   <li><a href="#notable-practitioners" id="toc-notable-practitioners" class="nav-link" data-scroll-target="#notable-practitioners">Notable practitioners</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -514,7 +544,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-sub">Priesaika · oath-binding by blood, earth and word</div>
 <div class="sb-rule"></div>
 <dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power · an oath with the right form is literally binding</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Anyone who swears with the right form. The Krivis (tier 4) and tier 3 priests conduct oaths</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Swear. Earth oath: kiss or eat soil. Thunder oath: on an axe or by a lightning-struck oak. Blood-brotherhood: shared fate</dd></div><div class="sb-cell"><dt>Components</dt><dd>Soil, an axe or a struck oak, blood. Patrons: Perkūnas and Žemyna</dd></div><div class="sb-cell"><dt>Cost</dt><dd>None at the swearing. The keeper pays by keeping (Kęstutis, <a href="../books/book6.html">Book VI ch. 28</a>), the breaker by forfeit</dd></div><div class="sb-cell"><dt>Duration</dt><dd>Until kept or broken</dd></div><div class="sb-cell"><dt>Limits</dt><dd>An oath cannot be sworn by one who does not mean it: it rings false. Gods keep to the letter, and take by the spirit</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Christian oaths on relics are enforced by the Iron Saint among the Order's men, which is why the Order distrusts converts who swore on pagan forms first</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Earth oath.</em></strong> The breaker's own land rejects him: crops fail, horses throw him, the forest loses him.</p><p class="sb-entry"><strong><em>Thunder oath.</em></strong> Perkūnas enforces it. Lightning seeks the breaker.</p><p class="sb-entry"><strong><em>Safe-conduct.</em></strong> Counts as an oath: Skirgaila's broken safe-conduct of August 1382.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Oath plus claim.</em></strong> An oath sworn on a claimed person's name binds the Force too: Vytautas swears to Perkūnas before Grunwald, so Perkūnas must act.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Forfeit.</em></strong> Lightning, a rejecting land, the loss of the god's favour in war. Perkūnas's enmity toward Skirgaila's line follows the broken safe-conduct.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.6</a>, §7 · <a href="../codex/magic-rules.html">magic_rules.md §5.2</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §11</a> (18) · <a href="../books/book1.html">Book I ch. 1</a>, 2, 8 · <a href="../books/book6.html">Book VI ch. 13</a>, 28 · wiki/magic/priesaika</div></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Earth oath.</em></strong> The breaker's own land rejects him: crops fail, horses throw him, the forest loses him.</p><p class="sb-entry"><strong><em>Thunder oath.</em></strong> Perkūnas enforces it. Lightning seeks the breaker.</p><p class="sb-entry"><strong><em>Safe-conduct.</em></strong> Counts as an oath: Skirgaila's broken safe-conduct of August 1382.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>Oath plus claim.</em></strong> An oath sworn on a claimed person's name binds the Force too: Vytautas swears to Perkūnas before Grunwald, so Perkūnas must act.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>Forfeit.</em></strong> Lightning, a rejecting land, the loss of the god's favour in war. Perkūnas's enmity toward Skirgaila's line follows the broken safe-conduct.</p></div><div class="sb-source"><span>Source:</span> <a href="../guide/power-systems.html">Power systems §2.6, §7</a> · <a href="../guide/magic-rules.html">Magic rules §5.2</a> · <a href="../guide/legends-songs.html">Legends &amp; songs §11 (18)</a> · <a href="../books/book1.html">Book I ch. 1</a>, 2, 8 · <a href="../books/book6.html">Book VI ch. 13</a>, 28</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -568,16 +598,16 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="limits-counters">Limits &amp; counters</h2>
 <p>Oaths are kept to the <strong>letter</strong> by gods: Perkūnas and Gabija are exact, and what is deceived by the letter is still taken by the spirit (<a href="../books/book6.html">Book VI ch.&nbsp;11</a>). An oath cannot be sworn by one who does not mean it, or it rings false (the pebble dies at the false baptism, <a href="../books/book1.html">Book I ch.&nbsp;19</a>).</p>
 </section>
-<section id="folk-basis-record" class="level2">
-<h2 class="anchored" data-anchor-id="folk-basis-record">Folk basis [Record]</h2>
-<p><strong>[Record].</strong> Pagan Lithuanians swore on the gods or the earth, with animal sacrifice; treaties were sworn in pagan form. In <strong>1351</strong> Kęstutis swore a pagan oath to Louis of Hungary with an ox, promised baptism, and left without keeping it (Polish chroniclers; verify Jan of Czarnków). Earth-oaths and thunder-oaths are later folklore and reconstruction. The Rus’ swore by Perun in the 10th century.</p>
+<section id="folk-basis-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="folk-basis-historical-record">Folk basis [Historical record]</h2>
+<p><strong>[Historical record].</strong> Pagan Lithuanians swore on the gods or the earth, with animal sacrifice; treaties were sworn in pagan form. In <strong>1351</strong> Kęstutis swore a pagan oath to Louis of Hungary with an ox, promised baptism, and left without keeping it. Earth-oaths and thunder-oaths are later folklore and reconstruction. The Rus’ swore by Perun in the 10th century.</p>
 </section>
 <section id="notable-practitioners" class="level2">
 <h2 class="anchored" data-anchor-id="notable-practitioners">Notable practitioners</h2>
 <p>The <a href="../characters/krivis.html">Krivis</a>; <a href="../characters/kestutis.html">Kęstutis</a> (the ox oath, <a href="../books/book6.html">Book VI ch.&nbsp;13</a>, 17; Rudau, ch.&nbsp;24); <a href="../characters/skirgaila.html">Skirgaila</a> (the broken safe-conduct, <a href="../books/book1.html">Book I ch.&nbsp;1</a>, 2, 8); <a href="../characters/vytautas.html">Vytautas</a> (Ostrów, <a href="../books/book2.html">Book II ch.&nbsp;11</a>; the renewal, <a href="../books/book3.html">Book III ch.&nbsp;17</a>).</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -589,9 +619,9 @@ document.addEventListener("DOMContentLoaded", function () {
   perkunas["Perkūnas"]
   priesaika["Priesaika (oath-binding)"]
   zemyna["Žemyna"]
-  perkunas --&gt;|patron_of| priesaika
-  zemyna --&gt;|patron_of| priesaika
-  krivis --&gt;|practises| priesaika
+  perkunas --&gt;|Patron of| priesaika
+  zemyna --&gt;|Patron of| priesaika
+  krivis --&gt;|Practises| priesaika
   style priesaika stroke-width:3px
 </pre>
 </div>

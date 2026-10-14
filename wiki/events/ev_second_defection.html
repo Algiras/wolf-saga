@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -467,11 +497,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-the-chronicles-say-record" id="toc-what-the-chronicles-say-record" class="nav-link active" data-scroll-target="#what-the-chronicles-say-record">What the chronicles say [Record]</a></li>
-  <li><a href="#what-really-happened-saga" id="toc-what-really-happened-saga" class="nav-link" data-scroll-target="#what-really-happened-saga">What really happened [Saga]</a></li>
+  <li><a href="#what-the-chronicles-say-historical-record" id="toc-what-the-chronicles-say-historical-record" class="nav-link active" data-scroll-target="#what-the-chronicles-say-historical-record">What the chronicles say [Historical record]</a></li>
+  <li><a href="#what-really-happened-the-sagas-invention" id="toc-what-really-happened-the-sagas-invention" class="nav-link" data-scroll-target="#what-really-happened-the-sagas-invention">What really happened [The saga’s invention]</a></li>
   <li><a href="#consequences" id="toc-consequences" class="nav-link" data-scroll-target="#consequences">Consequences</a></li>
   <li><a href="#dramatisation" id="toc-dramatisation" class="nav-link" data-scroll-target="#dramatisation">Dramatisation</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -543,14 +573,17 @@ document.addEventListener("DOMContentLoaded", function () {
 </tr>
 </tbody>
 </table>
+<div class="infobox-where">
+<p><strong>Where:</strong> <a href="../places/konigsberg.html">Königsberg (Karaliaučius)</a> (<a href="../map.html">on the map</a>)</p>
 </div>
 </div>
-<section id="what-the-chronicles-say-record" class="level2">
-<h2 class="anchored" data-anchor-id="what-the-chronicles-say-record">What the chronicles say [Record]</h2>
+</div>
+<section id="what-the-chronicles-say-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-chronicles-say-historical-record">What the chronicles say [Historical record]</h2>
 <p>In May 1389 at Lublin Jogaila mediated between Skirgaila and <a href="../characters/vytautas.html">Vytautas</a>; Vytautas signed a declaration of loyalty to Skirgaila, but his position as Duke of Lutsk was not formally recognised. In 1389 a plot to seize Vilnius castle using armed men in supply wagons “sent for his sister’s wedding” was betrayed by a spy (Wikipedia, Lithuanian Civil War 1389–92, citing Urban and Ivinskis) and the conspirators were executed; Vytautas’s allies Tautvilas and Ivan Olshanski lost Navahrudak and Halshany. (The wedding detail may be a Narbutt-type embellishment.) Vytautas fled to the Teutonic Order and on <strong>19 January 1390</strong> signed the <a href="../events/ev_lyck_1390.html">Treaty of Lyck</a> (Ełk), reaffirming the 1384 Königsberg terms; the Order demanded hostages: his brother Žygimantas (Sigismund), wife Ona, daughter Sofija, sister Rymgajla and other nobles. Žygimantas was a hostage from 1390 to 1398 (VLE gives 1389–98).</p>
 </section>
-<section id="what-really-happened-saga" class="level2">
-<h2 class="anchored" data-anchor-id="what-really-happened-saga">What really happened [Saga]</h2>
+<section id="what-really-happened-the-sagas-invention" class="level2">
+<h2 class="anchored" data-anchor-id="what-really-happened-the-sagas-invention">What really happened [The saga’s invention]</h2>
 <p>The wedding wagons of the <a href="../books/book2.html">Book II ch.&nbsp;5</a> plot (forty-two wagons, a real wedding, arms beneath the oat sacks; bride Daumantė and her father Rimgaudas are the saga’s) are the saga’s elaboration of the supply-wagon plot. Pinčiukas sold the plan to Skirgaila for a miller’s debt. Perkūnas’s claim tightens: thunder without rain over the road. At Lyck the oaths are sworn on relics, and the Iron Saint keeps Christian oaths. <a href="../characters/marquard.html">Marquard von Salzbach</a>, Vytautas’s old captive and friend, signs for the Order and offers a velvet threat to the hostages (“grąžinu skolą”); Vytautas says “Aš tai prisiminsiu”. (The insult to Birutė belongs to <a href="../events/ev_raciaz_1404.html">Raciąż, 1404</a>, not to Lyck.)</p>
 </section>
 <section id="consequences" class="level2">
@@ -559,10 +592,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="dramatisation" class="level2">
 <h2 class="anchored" data-anchor-id="dramatisation">Dramatisation</h2>
-<p><a href="../books/book2.html">Book II ch.&nbsp;5</a> “Vestuvių Vežimai” (Vytautas; autumn 1389, Vilnius, then the road to Prussia in winter) and ch.&nbsp;6 “Įkaitų Pilis” (Ona; January to August 1390, Lyck and Rastenburg; the hostages are Ona, Sofija, Žygimantas, Rymgailė, Jonas Alšėniškis and others). The graph places the event at Königsberg.</p>
+<p><a href="../books/book2.html">Book II ch.&nbsp;5</a> “Vestuvių Vežimai” (Vytautas; autumn 1389, Vilnius, then the road to Prussia in winter) and ch.&nbsp;6 “Įkaitų Pilis” (Ona; January to August 1390, Lyck and Rastenburg; the hostages are Ona, Sofija, Žygimantas, Rymgailė, Jonas Alšėniškis and others). The event takes place at Königsberg.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -575,10 +608,10 @@ document.addEventListener("DOMContentLoaded", function () {
   ev_trakai_to_skirgaila["Trakai granted to Skirgaila (1382-92)"]
   konigsberg["Königsberg (Karaliaučius)"]
   vytautas["Vytautas"]
-  ev_second_defection --&gt;|occurs_at| konigsberg
-  ev_second_defection --&gt;|causes| ev_lyck_1390
-  ev_trakai_to_skirgaila --&gt;|causes| ev_second_defection
-  vytautas --&gt;|participant| ev_second_defection
+  ev_second_defection --&gt;|Location| konigsberg
+  ev_second_defection --&gt;|Causes| ev_lyck_1390
+  ev_trakai_to_skirgaila --&gt;|Causes| ev_second_defection
+  vytautas --&gt;|Took part in| ev_second_defection
   style ev_second_defection stroke-width:3px
 </pre>
 </div>

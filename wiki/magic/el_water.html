@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -472,7 +502,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#minor-major-cost" id="toc-minor-major-cost" class="nav-link" data-scroll-target="#minor-major-cost">Minor / major cost</a></li>
   <li><a href="#limits" id="toc-limits" class="nav-link" data-scroll-target="#limits">Limits</a></li>
   <li><a href="#uses-in-the-books" id="toc-uses-in-the-books" class="nav-link" data-scroll-target="#uses-in-the-books">Uses in the books</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -514,7 +544,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-sub">Vanduo tau teks · Life Spring, the Water working</div>
 <div class="sb-rule"></div>
 <dl class="sb-grid"><div class="sb-cell"><dt>Element</dt><dd>Water · deity Bangpūtys (attested late), with Mėnuo setting his tides. Zenith: full moon or high tide, strongest at the spring ice-break</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 2 (minor, one element) or 3 and up; the sea-craft of the amber priestesses</dd></div><div class="sb-cell"><dt>Casting</dt><dd><em>Vanduo tau teks</em> aloud. <em>Man</em> for oneself</dd></div><div class="sb-cell"><dt>Components</dt><dd>Running or sea water; amber for scrying in a bowl; true intent</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Minor: raging thirst. Major: the caster takes the patient's wound in part</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A candle's length to a night</dd></div><div class="sb-cell"><dt>Limits</dt><dd>Cannot heal a mortal wound. Doubled away from living water, in caves and at distance</dd></div><div class="sb-cell"><dt>Counters</dt><dd>The White Silence freezes it; consecrated stone; the Order's sword</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Life Spring.</em></strong> Healing and the pull of a soul back from the gate. It can carry a thirst away or draw poison out through hair and blood across distance.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The patient's wound.</em></strong> After Vorskla Vytautas casts <em>Vanduo man teks</em> on a wounded boyar: the thirst vanishes, a side that was not his passes into him, and part of the pain stays (<a href="../books/book2.html">Book II ch. 27</a>).</p><p class="sb-entry"><strong><em>The forbidden transfer.</em></strong> Moving the cost into another body, a second person or a child, is forbidden and costly: the debt finds its owner. In <a href="../books/book2.html">Book II ch. 9</a> the Lagoon ragana says she could draw the poison from the hostage boys, but her old body cannot carry it, so it would go into an Order child. Vytautas answers no.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The debt returns.</em></strong> A cost shifted into another body finds its owner (magic_rules §4.1).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../books/book1.html">Book I ch. 11</a>, 27 · <a href="../books/book2.html">Book II ch. 9</a>, 27 · <a href="../books/book6.html">Book VI ch. 10</a>-11 · wiki/magic/el_water</div></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Life Spring.</em></strong> Healing and the pull of a soul back from the gate. It can carry a thirst away or draw poison out through hair and blood across distance.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The patient's wound.</em></strong> After Vorskla Vytautas casts <em>Vanduo man teks</em> on a wounded boyar: the thirst vanishes, a side that was not his passes into him, and part of the pain stays (<a href="../books/book2.html">Book II ch. 27</a>).</p><p class="sb-entry"><strong><em>The forbidden transfer.</em></strong> Moving the cost into another body, a second person or a child, is forbidden and costly: the debt finds its owner. In <a href="../books/book2.html">Book II ch. 9</a> the Lagoon ragana says she could draw the poison from the hostage boys, but her old body cannot carry it, so it would go into an Order child. Vytautas answers no.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The debt returns.</em></strong> A cost shifted into another body finds its owner (<a href="../guide/magic-rules.html">Magic rules §4.1</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../guide/magic-rules.html">Magic rules §3.3, §4.1</a> · <a href="../books/book1.html">Book I ch. 11</a>, 27 · <a href="../books/book2.html">Book II ch. 9</a>, 27 · <a href="../books/book6.html">Book VI ch. 10</a>-11</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -562,7 +592,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="minor-major-cost" class="level2">
 <h2 class="anchored" data-anchor-id="minor-major-cost">Minor / major cost</h2>
-<p><strong>Minor:</strong> raging thirst. <strong>Major:</strong> the caster <strong>takes the patient’s wound</strong> in part. <a href="../books/book2.html">Book II ch.&nbsp;27</a>: after Vorskla Vytautas casts <em>Vanduo man teks</em> on a wounded Ruthenian boyar; the thirst vanishes, and “a side that was not his” passes into him, and though he pushes it away, part of the pain stays. <a href="../books/book2.html">Book II ch.&nbsp;9</a>: a Lagoon witch will draw the poison from the poisoned hostage boys “over any distance”, but her old body cannot carry it, so the poison must go into a younger body: an Order child’s. “Blood for poison; I only say what it costs.” Moving a healing’s cost into another body is a <strong>forbidden, costly working</strong>: “the debt finds its owner” (<a href="../codex/magic-rules.html">magic_rules.md §4.1</a>); Vytautas refuses it (“Ne”).</p>
+<p><strong>Minor:</strong> raging thirst. <strong>Major:</strong> the caster <strong>takes the patient’s wound</strong> in part. <a href="../books/book2.html">Book II ch.&nbsp;27</a>: after Vorskla Vytautas casts <em>Vanduo man teks</em> on a wounded Ruthenian boyar; the thirst vanishes, and “a side that was not his” passes into him, and though he pushes it away, part of the pain stays. <a href="../books/book2.html">Book II ch.&nbsp;9</a>: a Lagoon witch will draw the poison from the poisoned hostage boys “over any distance”, but her old body cannot carry it, so the poison must go into a younger body: an Order child’s. “Blood for poison; I only say what it costs.” Moving a healing’s cost into another body is a <strong>forbidden, costly working</strong>: “the debt finds its owner” (<a href="../guide/magic-rules.html">Magic rules §4.1</a>); Vytautas refuses it (“Ne”).</p>
 </section>
 <section id="limits" class="level2">
 <h2 class="anchored" data-anchor-id="limits">Limits</h2>
@@ -572,8 +602,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="uses-in-the-books">Uses in the books</h2>
 <p>Birutė’s ring thrown into the Baltic (<a href="../books/book1.html">Book I ch.&nbsp;11</a>); her full-moon sacrifice (ch.&nbsp;27, the whole surety paid); the amber bowl at the ice-break “when the cost is lower” (<a href="../books/book6.html">Book VI ch.&nbsp;10</a>–11). The poisoned boys and the witch (<a href="../books/book2.html">Book II ch.&nbsp;9</a>); Vytautas’s own working (ch.&nbsp;27). See <a href="../events/ev_sons_poisoned.html">the poisoning</a>.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -586,10 +616,10 @@ document.addEventListener("DOMContentLoaded", function () {
   kalba["Senovės Kalba"]
   menuo["Mėnuo"]
   white_silence["Baltoji Tyla (White Silence)"]
-  kalba --&gt;|uses_element| el_water
-  bangputys --&gt;|element_of| el_water
-  white_silence --&gt;|counters| el_water
-  menuo --&gt;|patron_of| el_water
+  kalba --&gt;|Uses element| el_water
+  bangputys --&gt;|Element| el_water
+  white_silence --&gt;|Counters| el_water
+  menuo --&gt;|Patron of| el_water
   style el_water stroke-width:3px
 </pre>
 </div>

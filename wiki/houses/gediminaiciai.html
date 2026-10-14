@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -353,7 +383,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -410,8 +440,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -545,7 +575,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <figcaption>Gediminid family tree</figcaption>
 </figure>
 </div>
-<p><em>Record dates. The 1345 Pact and its 1382 breach are the saga’s overlay. <a href="../diagrams/gediminid-tree.excalidraw">Editable source</a>.</em></p>
+<p><em>Record dates. The 1345 Pact and its 1382 breach are the saga’s overlay.</em></p>
 </section>
 <section id="house-card" class="level2">
 <h2 class="anchored" data-anchor-id="house-card">House card</h2>
@@ -553,32 +583,32 @@ document.addEventListener("DOMContentLoaded", function () {
 <tbody>
 <tr class="odd">
 <td><strong>Seat</strong></td>
-<td><strong>Vilnius</strong> (Upper Castle, Lower Castle, the wooden Crooked Castle, burnt 1390); older seats <strong>Kernavė</strong> and <strong>Trakai</strong>. [Record]</td>
+<td><strong>Vilnius</strong> (Upper Castle, Lower Castle, the wooden Crooked Castle, burnt 1390); older seats <strong>Kernavė</strong> and <strong>Trakai</strong>. [Historical record]</td>
 </tr>
 <tr class="even">
 <td><strong>Arms / sigil</strong></td>
-<td>The <strong>Vytis</strong>, an armed rider, on princely seals from the later 14th century; which duke used it first is debated. The <strong>Columns</strong> (<em>Gediminaičių stulpai</em>) are a 19th-century name for a sign first attested on Vytautas’s coins and seals in the late 14th century (c.&nbsp;1397 is often cited), plausibly a family <em>tamga</em> of the Kęstutaičiai. [Record, dating to verify] Saga sigil: the <strong>Iron Wolf</strong> howling on the hill. [Saga invention]</td>
+<td>The <strong>Vytis</strong>, an armed rider, on princely seals from the later 14th century; which duke used it first is debated. The <strong>Columns</strong> (<em>Gediminaičių stulpai</em>) are a 19th-century name for a sign first attested on Vytautas’s coins and seals in the late 14th century (c.&nbsp;1397 is often cited), plausibly a family <em>tamga</em> of the Kęstutaičiai. [Historical record] Saga sigil: the <strong>Iron Wolf</strong> howling on the hill. [The saga’s invention]</td>
 </tr>
 <tr class="odd">
 <td><strong>Words</strong></td>
-<td><em>Kol staugia vilkas, stovi miestas.</em> “While the wolf howls, the city stands.” [Saga invention]</td>
+<td><em>Kol staugia vilkas, stovi miestas.</em> “While the wolf howls, the city stands.” [The saga’s invention]</td>
 </tr>
 <tr class="even">
 <td><strong>Patron / burden</strong></td>
-<td>The <a href="../magic/silent_pact.html">Silent Pact</a>, sworn by the house, not by one branch; every kin-killing costs something. The omen-spirit <a href="../creatures/gelezinis_vilkas.html">Geležinis Vilkas</a>. [Saga]</td>
+<td>The <a href="../magic/silent_pact.html">Silent Pact</a>, sworn by the house, not by one branch; every kin-killing costs something. The omen-spirit <a href="../creatures/gelezinis_vilkas.html">Geležinis Vilkas</a>. [The saga’s invention]</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="lineage" class="level2">
 <h2 class="anchored" data-anchor-id="lineage">Lineage</h2>
-<p><strong>Gediminas</strong> (c.&nbsp;1275 – winter 1341/42) became Grand Duke c.&nbsp;1316 and wrote to the Pope and the Hanse in 1323, the first time Vilnius is named as capital. His sons: Manvydas and Narimantas (d.&nbsp;1348), <a href="../characters/algirdas.html">Algirdas</a>, <a href="../characters/kestutis.html">Kęstutis</a>, Karijotas, Liubartas and Jaunutis; his daughters married Casimir III of Poland (Aldona-Ona, 1325) and Simeon of Moscow (Aigusta, 1333). [Record; his wife or wives are disputed]</p>
-<p>Branches in this wiki: <a href="../factions/algirdaiciai.html">Algirdaičiai</a>, <a href="../factions/kestutaiciai.html">Kęstutaičiai</a>, <a href="../houses/jogailaiciai.html">Jogailaičiai</a> and <a href="../houses/czartoriskiai.html">Čartoriskiai</a>. Lesser lines: the Karijotaičiai (Podolia), Liubartaičiai (Volhynia), Jaunutaičiai (Zasławski) and Olelkaičiai (Kyiv). The house’s genius was the appanage: every son got a city, and every city got a son who might rebel.</p>
+<p><strong>Gediminas</strong> (c.&nbsp;1275 – winter 1341/42) became Grand Duke c.&nbsp;1316 and wrote to the Pope and the Hanse in 1323, the first time Vilnius is named as capital. His sons: Manvydas and Narimantas (d.&nbsp;1348), <a href="../characters/algirdas.html">Algirdas</a>, <a href="../characters/kestutis.html">Kęstutis</a>, Karijotas, Liubartas and Jaunutis; his daughters married Casimir III of Poland (Aldona-Ona, 1325) and Simeon of Moscow (Aigusta, 1333). [Historical record; his wife or wives are disputed]</p>
+<p>Branches: <a href="../factions/algirdaiciai.html">Algirdaičiai</a>, <a href="../factions/kestutaiciai.html">Kęstutaičiai</a>, <a href="../houses/jogailaiciai.html">Jogailaičiai</a> and <a href="../houses/czartoriskiai.html">Čartoriskiai</a>. Lesser lines: the Karijotaičiai (Podolia), Liubartaičiai (Volhynia), Jaunutaičiai (Zasławski) and Olelkaičiai (Kyiv). The house’s genius was the appanage: every son got a city, and every city got a son who might rebel.</p>
 </section>
 <section id="feuds-alliances" class="level2">
 <h2 class="anchored" data-anchor-id="feuds-alliances">Feuds &amp; alliances</h2>
 <ul>
-<li><strong>1345:</strong> Algirdas and Kęstutis depose their brother Jaunutis, the first Gediminid wronged by Gediminids. [Record]</li>
+<li><strong>1345:</strong> Algirdas and Kęstutis depose their brother Jaunutis, the first Gediminid wronged by Gediminids. [Historical record]</li>
 <li><strong>Algirdaičiai against Kęstutaičiai:</strong> 1380–1392 (Jogaila and Skirgaila against Kęstutis and Vytautas) and again 1432–1440 (Švitrigaila against Žygimantas).</li>
 <li><strong>Maria’s sons against Uliana’s sons:</strong> the elder, Orthodox Algirdaičiai were passed over in 1377.</li>
 <li>The Order and Poland court one branch against another; Masovia and Moscow marry into both.</li>
@@ -590,7 +620,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><strong>VI:</strong> the Pact is sworn (1345); Algirdas’s pyre (1377) weakens it.</li>
 <li><strong>I:</strong> Krėva, 15 Aug 1382: clause 2 broken by Jogaila and Skirgaila. <strong>II:</strong> Karigaila and Tautvilas die on opposite sides of the Vilnius walls (1390); the Vorskla (1399) takes Andrius and Dmitrijus.</li>
 <li><strong>III–IV:</strong> a reconciled house wins Grunwald; Vytautas dies without a male heir (1430); his blood survives in Moscow through Sofija.</li>
-<li><strong>V:</strong> Žygimantas is murdered at Trakai (1440). The Iron Wolf’s last howl follows. [Record] The Jagiellonian male line ended with Sigismund II Augustus in 1572.</li>
+<li><strong>V:</strong> Žygimantas is murdered at Trakai (1440). The Iron Wolf’s last howl follows. [Historical record] The Jagiellonian male line ended with Sigismund II Augustus in 1572.</li>
 </ul>
 
 

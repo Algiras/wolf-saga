@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -472,9 +502,9 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#how-it-works-medium-words-timing" id="toc-how-it-works-medium-words-timing" class="nav-link" data-scroll-target="#how-it-works-medium-words-timing">How it works (medium, words, timing)</a></li>
   <li><a href="#costs" id="toc-costs" class="nav-link" data-scroll-target="#costs">Costs</a></li>
   <li><a href="#limits-counters" id="toc-limits-counters" class="nav-link" data-scroll-target="#limits-counters">Limits &amp; counters</a></li>
-  <li><a href="#folk-basis-record" id="toc-folk-basis-record" class="nav-link" data-scroll-target="#folk-basis-record">Folk basis [Record]</a></li>
+  <li><a href="#folk-basis-historical-record" id="toc-folk-basis-historical-record" class="nav-link" data-scroll-target="#folk-basis-historical-record">Folk basis [Historical record]</a></li>
   <li><a href="#notable-practitioners" id="toc-notable-practitioners" class="nav-link" data-scroll-target="#notable-practitioners">Notable practitioners</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -514,7 +544,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-sub">The White Silence's frost-touch · granted power</div>
 <div class="sb-rule"></div>
 <dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Granted power from the White Silence</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 5, a vessel: Jadvyga from 1386</dd></div><div class="sb-cell"><dt>Casting</dt><dd>She lays on a hand. It is not hers to command: the Force's will wearing her hands</dd></div><div class="sb-cell"><dt>Components</dt><dd>A vessel of the Force</dd></div><div class="sb-cell"><dt>Cost</dt><dd>Warmth leaves the healer: a week unable to get warm, two days of a cold aura. The child's lips go white. Sound dies around her</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A sore closes overnight (<a href="../books/book2.html">Book II ch. 21</a>)</dd></div><div class="sb-cell"><dt>Limits</dt><dd>She does not choose when. It is a cold that spreads</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Warmth, such as tears (<a href="../books/book4.html">Book IV ch. 14</a>); a living flame. Its own touch smothers Wind and freezes Water</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Healing by frost.</em></strong> Holy calm, closed wounds, the ending of fever. Frost fern-patterns grow where her hands lie.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The kiss.</em></strong> Frost passes into those who kiss her hand: Jogaila carries it afterwards (<a href="../books/book3.html">Book III ch. 3</a>, <a href="../books/book4.html">Book IV ch. 19</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The warning.</em></strong> A žaltys tells Jadvyga that the Silence will freeze your heart while it saves your soul (<a href="../books/book2.html">Book II ch. 21</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §3</a> · hidden_immortals.md §5 · <a href="../books/book2.html">Book II ch. 21</a> · wiki/magic/white_touch</div></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Healing by frost.</em></strong> Holy calm, closed wounds, the ending of fever. Frost fern-patterns grow where her hands lie.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The kiss.</em></strong> Frost passes into those who kiss her hand: Jogaila carries it afterwards (<a href="../books/book3.html">Book III ch. 3</a>, <a href="../books/book4.html">Book IV ch. 19</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>The warning.</em></strong> A žaltys tells Jadvyga that the Silence will freeze your heart while it saves your soul (<a href="../books/book2.html">Book II ch. 21</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../guide/power-systems.html">Power systems §3</a> · <a href="../books/book2.html">Book II ch. 21</a></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -568,16 +598,16 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="limits-counters">Limits &amp; counters</h2>
 <p>It is not hers to command; it is a Force’s will wearing her hands. A žaltys warns her that “the Silence will freeze your heart while it saves your soul” (<a href="../books/book2.html">Book II ch.&nbsp;21</a>). <strong>Counters:</strong> warmth, such as tears (<a href="../books/book4.html">Book IV ch.&nbsp;14</a>), and a living flame; its own touch smothers Wind and freezes Water.</p>
 </section>
-<section id="folk-basis-record" class="level2">
-<h2 class="anchored" data-anchor-id="folk-basis-record">Folk basis [Record]</h2>
-<p><strong>[Record].</strong> Jadwiga of Poland (c.&nbsp;1373–17 July 1399) was crowned king (<em>rex</em>) in 1384, married Jogaila in 1386 after being betrothed to Wilhelm of Habsburg, and died days after her infant daughter Elizabeth Bonifacia. She was canonised in 1997. The frost-touch is saga overlay; her reputation for charity and piety is historical.</p>
+<section id="folk-basis-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="folk-basis-historical-record">Folk basis [Historical record]</h2>
+<p><strong>[Historical record].</strong> Jadwiga of Poland (c.&nbsp;1373–17 July 1399) was crowned king (<em>rex</em>) in 1384, married Jogaila in 1386 after being betrothed to Wilhelm of Habsburg, and died days after her infant daughter Elizabeth Bonifacia. She was canonised in 1997. The frost-touch is saga overlay; her reputation for charity and piety is historical.</p>
 </section>
 <section id="notable-practitioners" class="level2">
 <h2 class="anchored" data-anchor-id="notable-practitioners">Notable practitioners</h2>
-<p>Jadvyga (<a href="../books/book2.html">Book II ch.&nbsp;21</a>, the night her child is ill, July 1399). In the world bible her body “does not decay but turns to salt and silver” (hidden_immortals §5), an anchor for the Force in the Polish heartland. Jogaila carries its frost afterwards (<a href="../books/book3.html">Book III ch.&nbsp;3</a>; <a href="../books/book4.html">Book IV ch.&nbsp;19</a>).</p>
+<p>Jadvyga (<a href="../books/book2.html">Book II ch.&nbsp;21</a>, the night her child is ill, July 1399). Her body “does not decay but turns to salt and silver”, an anchor for the Force in the Polish heartland. Jogaila carries its frost afterwards (<a href="../books/book3.html">Book III ch.&nbsp;3</a>; <a href="../books/book4.html">Book IV ch.&nbsp;19</a>).</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -588,8 +618,8 @@ document.addEventListener("DOMContentLoaded", function () {
   jadvyga["Jadvyga (Jadwiga)"]
   white_silence["Baltoji Tyla (White Silence)"]
   white_touch["White Silence's frost-touch"]
-  white_silence --&gt;|patron_of| white_touch
-  jadvyga --&gt;|practises| white_touch
+  white_silence --&gt;|Patron of| white_touch
+  jadvyga --&gt;|Practises| white_touch
   style white_touch stroke-width:3px
 </pre>
 </div>

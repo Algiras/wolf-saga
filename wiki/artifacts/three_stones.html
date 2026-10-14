@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -472,7 +502,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#rule-cost" id="toc-rule-cost" class="nav-link" data-scroll-target="#rule-cost">Rule &amp; cost</a></li>
   <li><a href="#origin" id="toc-origin" class="nav-link" data-scroll-target="#origin">Origin</a></li>
   <li><a href="#arc-across-the-books" id="toc-arc-across-the-books" class="nav-link" data-scroll-target="#arc-across-the-books">Arc across the books</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -516,7 +546,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <p class="sb-prop"><strong>Power</strong> Each stone shows one cousin's bargain in progress. Its fall marks the collection of that bargain</p>
 <p class="sb-prop"><strong>Rule &amp; cost</strong> Each falls when its cousin's deal is collected. Once his hands are empty, Henė has no leverage left and unmasks (Book V)</p>
 <div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> Three black, worn, round stones like river pebbles, but not from a river. Two fly true and the third always wobbles. When he is working, the cap-bells are silent and the stones make no sound.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Made 1380, the year of Dovydiškės. The first deal is with Jogaila at Krėva in 1382: the easy way, the crown for his line, the land lost.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>To the letter.</em></strong> He keeps bargains to the letter. <em>I never lie; I only write it down.</em></p><p class="sb-entry"><strong><em>Where they fell.</em></strong> Skirgaila's falls through the floor at Kyiv like falling into water. Vytautas's falls in the death chamber, and Henė throws it into Lake Galvė at dawn on 28 Oct 1430: no splash, a film of ice parts and closes.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Empty hands.</em></strong> Jogaila's drops on the floor of his deathbed room on 1 Jun 1434 and does not roll: an ordinary river pebble. After 52 years Henė's hands are empty (<a href="../books/book5.html">Book V ch. 12</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · <a href="../codex/magic-rules.html">magic_rules.md §8</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D2 · world_graph.json (hene_stones) · books/4/notes/book4_handoff.md · books/5/notes/book5_seam_pass.md · wiki/artifacts/three_stones</div></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> Three black, worn, round stones like river pebbles, but not from a river. Two fly true and the third always wobbles. When he is working, the cap-bells are silent and the stones make no sound.</p><p class="sb-entry"><strong><em>Origin.</em></strong> Made 1380, the year of Dovydiškės. The first deal is with Jogaila at Krėva in 1382: the easy way, the crown for his line, the land lost.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>To the letter.</em></strong> He keeps bargains to the letter. <em>I never lie; I only write it down.</em></p><p class="sb-entry"><strong><em>Where they fell.</em></strong> Skirgaila's falls through the floor at Kyiv like falling into water. Vytautas's falls in the death chamber, and Henė throws it into Lake Galvė at dawn on 28 Oct 1430: no splash, a film of ice parts and closes.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Empty hands.</em></strong> Jogaila's drops on the floor of his deathbed room on 1 Jun 1434 and does not roll: an ordinary river pebble. After 52 years Henė's hands are empty (<a href="../books/book5.html">Book V ch. 12</a>).</p></div><div class="sb-source"><span>Source:</span> <a href="../guide/power-systems.html">Power systems §5</a> · <a href="../guide/magic-rules.html">Magic rules §8</a></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -556,7 +586,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="power" class="level2">
 <h2 class="anchored" data-anchor-id="power">Power</h2>
-<p>Each stone is one cousin’s bargain, tied to <a href="../characters/jogaila.html">Jogaila</a>, <a href="../characters/skirgaila.html">Skirgaila</a> and <a href="../characters/vytautas.html">Vytautas</a> (graph: <code>hene_stones</code>). A stone shows that a deal is in progress; its fall marks the collection of that bargain (<a href="../codex/power-systems.html">power_systems.md §5</a>; <a href="../codex/magic-rules.html">magic_rules.md §8</a>).</p>
+<p>Each stone is one cousin’s bargain, tied to <a href="../characters/jogaila.html">Jogaila</a>, <a href="../characters/skirgaila.html">Skirgaila</a> and <a href="../characters/vytautas.html">Vytautas</a>. A stone shows that a deal is in progress; its fall marks the collection of that bargain (<a href="../guide/power-systems.html">Power systems §5</a>; <a href="../guide/magic-rules.html">Magic rules §8</a>).</p>
 </section>
 <section id="rule-cost" class="level2">
 <h2 class="anchored" data-anchor-id="rule-cost">Rule &amp; cost</h2>
@@ -564,7 +594,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="origin" class="level2">
 <h2 class="anchored" data-anchor-id="origin">Origin</h2>
-<p>[Saga] Made in 1380 (graph), the year of Dovydiškės. The first deal is with Jogaila at Krėva in 1382, “the easy way”: the crown for his line, the land lost.</p>
+<p>[The saga’s invention] Made in 1380, the year of Dovydiškės. The first deal is with Jogaila at Krėva in 1382, “the easy way”: the crown for his line, the land lost.</p>
 </section>
 <section id="arc-across-the-books" class="level2">
 <h2 class="anchored" data-anchor-id="arc-across-the-books">Arc across the books</h2>
@@ -574,10 +604,10 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><strong>One, 27-28 Oct 1430.</strong> Vytautas’s stone falls in the death chamber (IV ch.&nbsp;29). Henė throws it into Lake Galvė at dawn on 28 Oct: no splash, a film of ice parts and closes (IV ch.&nbsp;30).</li>
 <li><strong>None, 1 Jun 1434.</strong> Jogaila’s stone drops on the floor of his deathbed room and does not roll; it is an ordinary river pebble. After 52 years Henė’s hands are empty (V ch.&nbsp;12). He keeps them empty in V ch.&nbsp;19, 24, 26 and 30.</li>
 </ul>
-<p>Graph: Henė holds the stones 1380-1434 (the <code>hene_stones</code> progression runs 3, 2 in 1397, 1 in Oct 1430, 0 on 1 Jun 1434); no stones after 1434.</p>
+<p>Henė holds the stones 1380-1434: three at first, two in 1397, one in Oct 1430, none from 1 Jun 1434; there are no stones after 1434.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -587,8 +617,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <pre class="mermaid mermaid-js">graph LR
   shadow_seller["Šešėlių Pardavėjas / Henė"]
   three_stones["Henė's three black stones"]
-  three_stones --&gt;|created_by| shadow_seller
-  shadow_seller --&gt;|holds| three_stones
+  three_stones --&gt;|Created by| shadow_seller
+  shadow_seller --&gt;|Holds| three_stones
   style three_stones stroke-width:3px
 </pre>
 </div>

@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,6 +99,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -350,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -407,8 +437,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -455,8 +485,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#places-on-the-map" id="toc-places-on-the-map" class="nav-link active" data-scroll-target="#places-on-the-map">Places on the map</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -579,7 +615,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <tr class="even">
 <td><a href="../places/kestutis_lodge.html"><img src="../images/kestutis_lodge.jpg" alt="Kęstutis's hunting lodge beyond the Neris" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
 <td><a href="../places/kestutis_lodge.html">Kęstutis’s hunting lodge beyond the Neris</a></td>
-<td>Saga place (D11): the old lodge in the pines across the Neris from Vilnius where the Last Flame is lit in 1387 (<a href="../books/book1.html">Book I ch.&nbsp;29</a>). Used only in 1387: <a href="../books/book2.html">Book II ch.&nbsp;2</a> has Vytautas move the flame to the half-flooded foundations of the Trakai island castle that spring.</td>
+<td>Saga place: the old lodge in the pines across the Neris from Vilnius where the Last Flame is lit in 1387 (<a href="../books/book1.html">Book I ch.&nbsp;29</a>). Used only in 1387: <a href="../books/book2.html">Book II ch.&nbsp;2</a> has Vytautas move the flame to the half-flooded foundations of the Trakai island castle that spring.</td>
 </tr>
 <tr class="odd">
 <td><a href="../places/lake_ublik.html"><img src="../images/lake_ublik.jpg" alt="Lake Ublik (Wobel), Masuria" width="64" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block"></a></td>
@@ -698,8 +734,14 @@ document.addEventListener("DOMContentLoaded", function () {
 </tr>
 </tbody>
 </table>
+<section id="places-on-the-map" class="level2">
+<h2 class="anchored" data-anchor-id="places-on-the-map">Places on the map</h2>
+<p>29 of the 41 places have coordinates. Each of those shows a small locator map in its sidebar, and the places named on the clickable <a href="../map.html">Map</a> are links there.</p>
+<p><strong>With a locator map:</strong> <a href="../places/ashmyany.html">Ašmena</a> · <a href="../places/czerwinsk.html">Czerwińsk (monastery on the Vistula)</a> · <a href="../places/dykra.html">Dykra (swamp-forest wilderness)</a> · <a href="../places/grodno.html">Grodno</a> · <a href="../places/horodlo.html">Horodło (on the Bug)</a> · <a href="../places/jogaila_camp_trakai.html">Jogaila’s camp near Trakai</a> · <a href="../places/jurbarkas.html">Jurbarkas (Georgenburg)</a> · <a href="../places/krakow.html">Kraków</a> · <a href="../places/kreva.html">Krėva</a> · <a href="../places/kyiv.html">Kyiv</a> · <a href="../places/konigsberg.html">Königsberg (Karaliaučius)</a> · <a href="../places/lutsk.html">Lutsk</a> · <a href="../places/lyck.html">Lyck (Ełk)</a> · <a href="../places/marienburg.html">Marienburg (Malbork)</a> · <a href="../places/masovia.html">Masovia (Płock / Warsaw)</a> · <a href="../places/medininkai.html">Medininkai (Varniai), Samogitia</a> · <a href="../places/marienwerder.html">Naujapilis (Marienwerder)</a> · <a href="../places/ostrow.html">Ostrów</a> · <a href="../places/pabaiskas.html">Pabaiskas</a> · <a href="../places/palanga.html">Palanga</a> · <a href="../places/raciazek.html">Raciążek (Vistula island)</a> · <a href="../places/ragnit.html">Ragnit (Ragainė)</a> · <a href="../places/road_to_jogaila_camp.html">Road to Jogaila’s camp (from Kęstutis’s pine hill beyond the Trakai lake)</a> · <a href="../places/salynas.html">Salynas (island in the Nemunas)</a> · <a href="../places/tapiau.html">Tapiau (Tepliava)</a> · <a href="../places/trakai.html">Trakai</a> · <a href="../places/vilnius.html">Vilnius</a> · <a href="../places/sventaragis.html">Šventaragis valley</a> · <a href="../places/grunwald.html">Žalgiris (Grunwald)</a></p>
+<p><strong>Without one</strong> (no fixed position, or off the edge of the map): <a href="../places/brzesc_kujawski.html">Brześć Kujawski</a> · <a href="../places/christmemel.html">Christmemel (Skirsnemunė)</a> · <a href="../places/czartorysk.html">Czartorysk (Volhynia)</a> · <a href="../places/dovydiskes.html">Dovydiškės (unidentified)</a> · <a href="../places/grodek.html">Gródek (Horodok near Lviv)</a> · <a href="../places/kamianets.html">Kamianets (Podolia)</a> · <a href="../places/kestutis_lodge.html">Kęstutis’s hunting lodge beyond the Neris</a> · <a href="../places/lake_ublik.html">Lake Ublik (Wobel), Masuria</a> · <a href="../places/medyka.html">Medyka (near Przemyśl, on the road to Gródek)</a> · <a href="../places/notec_ford.html">Noteć ford (Neumark / Greater Poland border)</a> · <a href="../places/ritterswerder.html">Ritterswerder (Nemunas island near Lampėdžiai)</a> · <a href="../places/vorskla.html">Vorskla river</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

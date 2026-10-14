@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -467,11 +497,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-the-chronicles-say-record" id="toc-what-the-chronicles-say-record" class="nav-link active" data-scroll-target="#what-the-chronicles-say-record">What the chronicles say [Record]</a></li>
-  <li><a href="#what-really-happened-saga" id="toc-what-really-happened-saga" class="nav-link" data-scroll-target="#what-really-happened-saga">What really happened [Saga]</a></li>
+  <li><a href="#what-the-chronicles-say-historical-record" id="toc-what-the-chronicles-say-historical-record" class="nav-link active" data-scroll-target="#what-the-chronicles-say-historical-record">What the chronicles say [Historical record]</a></li>
+  <li><a href="#what-really-happened-the-sagas-invention" id="toc-what-really-happened-the-sagas-invention" class="nav-link" data-scroll-target="#what-really-happened-the-sagas-invention">What really happened [The saga’s invention]</a></li>
   <li><a href="#consequences" id="toc-consequences" class="nav-link" data-scroll-target="#consequences">Consequences</a></li>
   <li><a href="#dramatisation" id="toc-dramatisation" class="nav-link" data-scroll-target="#dramatisation">Dramatisation</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -545,24 +575,24 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<section id="what-the-chronicles-say-record" class="level2">
-<h2 class="anchored" data-anchor-id="what-the-chronicles-say-record">What the chronicles say [Record]</h2>
+<section id="what-the-chronicles-say-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-chronicles-say-historical-record">What the chronicles say [Historical record]</h2>
 <p>The crown was never intercepted. Sigismund of Luxembourg sent two couriers ahead of the embassy, the jurist Baptista Cigala and Sigismund Roth. They were robbed and beaten before 19 August 1430 on the Neumark and Greater Poland border by royal guards under Jan Czarnkowski, who took letters, horses and valuables worth about a thousand ducats. The main embassy (Archbishop Günther of Magdeburg, Dukes Přemek of Opava and Ludwig of Brzeg-Liegnitz, Hungarian and Bohemian lords) waited at Frankfurt an der Oder and turned back; the crowns, made by Nuremberg goldsmiths, were with it. Jogaila read the captured letters and ordered every road watched. The Komtur of Schlochau wrote on 19 August that the crown had not been taken because the couriers did not have it. The coronation had been planned for 15 August, then 8 September, then 29 September, in Vilnius. Vytautas’s letter of 13 October makes it clear he wanted the crown only with Polish consent. Zbigniew Oleśnicki was the leading opponent but was not at the Łęczyca council of August 1430 (Szybkowski 2010; Bar 2017).</p>
 </section>
-<section id="what-really-happened-saga" class="level2">
-<h2 class="anchored" data-anchor-id="what-really-happened-saga">What really happened [Saga]</h2>
-<p>On the Assumption, 15 August 1430, <a href="../characters/hanulas.html">Henė</a> comes down into the vault at Trakai and offers the last deal: the crown will arrive if the flame is allowed to die. <a href="../characters/vytautas.html">Vytautas</a> refuses. Pilkoji waits at the door with feast-day iron, deciding whether to break the second rule of the Pack. Late in August Pilkoji’s wolves, sent to bring the crown through, find the Polish border guards cursing over a gold-painted trunk at the Noteć ford: inside, to the rim, dry leaves. A jester sits on the verge watching. The crown that was never meant for the mortal world has turned to leaves (mythic_gaps §4).</p>
+<section id="what-really-happened-the-sagas-invention" class="level2">
+<h2 class="anchored" data-anchor-id="what-really-happened-the-sagas-invention">What really happened [The saga’s invention]</h2>
+<p>On the Assumption, 15 August 1430, <a href="../characters/hanulas.html">Henė</a> comes down into the vault at Trakai and offers the last deal: the crown will arrive if the flame is allowed to die. <a href="../characters/vytautas.html">Vytautas</a> refuses. Pilkoji waits at the door with feast-day iron, deciding whether to break the second rule of the Pack. Late in August Pilkoji’s wolves, sent to bring the crown through, find the Polish border guards cursing over a gold-painted trunk at the Noteć ford: inside, to the rim, dry leaves. A jester sits on the verge watching. The crown that was never meant for the mortal world has turned to leaves.</p>
 </section>
 <section id="consequences" class="level2">
 <h2 class="anchored" data-anchor-id="consequences">Consequences</h2>
-<p>Caused by <a href="../events/ev_lutsk.html">the Congress of Lutsk</a>, where the crown was offered. It turns the crown to leaves (<a href="../artifacts/lutsk_crown.html">the Lutsk crown</a>). The graph names Zbigniew Oleśnicki as participant. The failure frames Vytautas’s last weeks and his <a href="../events/ev_vytautas_dies.html">death</a>.</p>
+<p>Caused by <a href="../events/ev_lutsk.html">the Congress of Lutsk</a>, where the crown was offered. It turns the crown to leaves (<a href="../artifacts/lutsk_crown.html">the Lutsk crown</a>). <a href="../characters/olesnicki.html">Zbigniew Oleśnicki</a> takes part. The failure frames Vytautas’s last weeks and his <a href="../events/ev_vytautas_dies.html">death</a>.</p>
 </section>
 <section id="dramatisation" class="level2">
 <h2 class="anchored" data-anchor-id="dramatisation">Dramatisation</h2>
 <p><a href="../books/book4.html">Book IV ch.&nbsp;21</a> “Karūnos Kelionė” (Henė, 15 August 1430), ch.&nbsp;22 “Paskutinis Sandėris” (Vytautas, the same day, the Trakai vault), ch.&nbsp;23 “Lapai Pakelėje” (Pilkoji, late August, the Noteć ford). Seasonal tag: Žolinė, high summer.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -576,11 +606,11 @@ document.addEventListener("DOMContentLoaded", function () {
   lutsk_crown["The Lutsk crown (turned to leaves)"]
   notec_ford["Noteć ford (Neumark / Greater Poland border)"]
   olesnicki["Zbigniew Oleśnicki"]
-  ev_crown_intercepted --&gt;|causes| lutsk_crown
-  ev_crown_intercepted --&gt;|occurs_at| notec_ford
-  ev_crown_intercepted --&gt;|causes| ev_vytautas_dies
-  ev_lutsk --&gt;|causes| ev_crown_intercepted
-  olesnicki --&gt;|participant| ev_crown_intercepted
+  ev_crown_intercepted --&gt;|Causes| lutsk_crown
+  ev_crown_intercepted --&gt;|Location| notec_ford
+  ev_crown_intercepted --&gt;|Causes| ev_vytautas_dies
+  ev_lutsk --&gt;|Causes| ev_crown_intercepted
+  olesnicki --&gt;|Took part in| ev_crown_intercepted
   style ev_crown_intercepted stroke-width:3px
 </pre>
 </div>

@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,12 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,6 +99,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -353,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="./lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -410,8 +437,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="./guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -493,37 +520,39 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p><em>The Lands of the Iron Wolf</em>, in Lithuanian <em>Geležinio Vilko žemės</em>: Lithuania, the Baltic and her neighbours, 1341–1450. The map is drawn by code (<code>scripts/make_map.py</code>) from public-domain Natural Earth coastlines and rivers; the parchment, border and sea serpent are painted art. The main map names only the places a reader needs at a glance. The two insets below show the saga’s closest country at a larger scale, and the table lists every place with its wiki page.</p>
-<div id="fig-map" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Painted map of Lithuania and its neighbours. Vilnius, Trakai, Kreva and Kaunas lie in the north-west of the Grand Duchy; the Order's Prussia with Marienburg and Königsberg lies on the Baltic coast to the west; Livonia with Riga to the north; the Kingdom of Poland with Warsaw and Kraków to the south-west; Polotsk, Smolensk and Kyiv to the east. A dashed red line shows Kestutis's ride to the camp at Trakai and Vytautas's escape from Kreva in 1382. Two small inset maps and a legend stand in the right-hand column.">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/map/lands-of-the-iron-wolf.png"><span class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/map/lands-of-the-iron-wolf.jpg" class="img-fluid figure-img" alt="Painted map of Lithuania and its neighbours. Vilnius, Trakai, Kreva and Kaunas lie in the north-west of the Grand Duchy; the Order's Prussia with Marienburg and Königsberg lies on the Baltic coast to the west; Livonia with Riga to the north; the Kingdom of Poland with Warsaw and Kraków to the south-west; Polotsk, Smolensk and Kyiv to the east. A dashed red line shows Kestutis's ride to the camp at Trakai and Vytautas's escape from Kreva in 1382. Two small inset maps and a legend stand in the right-hand column."></span></a>
+<p><em>The Lands of the Iron Wolf</em>, in Lithuanian <em>Geležinio Vilko žemės</em>: Lithuania, the Baltic and her neighbours, 1341–1450. The main map names only the places a reader needs at a glance. Click any named place that has a page in this wiki to open it; hover over it, or move to it with the Tab key, for a short note. The two insets below show the saga’s closest country at a larger scale, and the table at the end lists every place.</p>
+<figure class="clickmap figure" data-kind="main">
+<div class="clickmap-wrap">
+<img src="images/map/lands-of-the-iron-wolf.jpg" width="3000" height="2000" alt="Painted map of Lithuania and its neighbours. Vilnius, Trakai, Kreva and Kaunas lie in the north-west of the Grand Duchy; the Order's Prussia with Marienburg and Koenigsberg lies on the Baltic coast to the west; Livonia with Riga to the north; the Kingdom of Poland with Warsaw and Krakow to the south-west; Polotsk, Smolensk and Kyiv to the east. A dashed red line shows Kestutis's ride to the camp at Trakai and Vytautas's escape from Kreva in 1382. Each named place with a wiki page is a link." class="figure-img">
+<svg class="clickmap-svg" viewbox="0 0 3000 2000" preserveaspectratio="none" role="group" aria-label="Places on the map"><a href="./places/vilnius.html" data-tip="Gediminas Hill; the capital and the Last Flame" data-name="Vilnius" aria-label="Vilnius: Gediminas Hill; the capital and the Last Flame"><rect x="1077" y="753" width="80" height="80" rx="14"></rect><rect x="1124" y="736" width="180" height="80" rx="14"></rect></a><a href="./places/trakai.html" data-tip="Island castle on Lake Galvė" data-name="Trakai" aria-label="Trakai: Island castle on Lake Galvė"><rect x="1043" y="759" width="80" height="80" rx="14"></rect><rect x="902" y="815" width="173" height="80" rx="14"></rect></a><a href="./places/kreva.html" data-tip="Kęstutis dies, 15 Aug 1382; the Union of 1385" data-name="Krėva" aria-label="Krėva: Kęstutis dies, 15 Aug 1382; the Union of 1385"><rect x="1175" y="813" width="80" height="80" rx="14"></rect><rect x="1245" y="818" width="152" height="80" rx="14"></rect></a><a href="./places/palanga.html" data-tip="Coastal sanctuary and sacred Birutė Hill" data-name="Palanga" aria-label="Palanga: Coastal sanctuary and sacred Birutė Hill"><rect x="663" y="561" width="80" height="80" rx="14"></rect><rect x="707" y="563" width="187" height="80" rx="14"></rect></a><a href="./places/grodno.html" data-tip="Major fortified ducal center on the Nemunas" data-name="Grodno" aria-label="Grodno: Major fortified ducal center on the Nemunas"><rect x="933" y="923" width="80" height="80" rx="14"></rect><rect x="751" y="928" width="193" height="80" rx="14"></rect></a><a href="./places/lutsk.html" data-tip="Volhynian royal castle" data-name="Lutsk" aria-label="Lutsk: Volhynian royal castle"><rect x="1081" y="1423" width="80" height="80" rx="14"></rect><rect x="1151" y="1428" width="145" height="80" rx="14"></rect></a><a href="./places/kyiv.html" data-tip="Historic metropolis on the Dnieper" data-name="Kyiv" aria-label="Kyiv: Historic metropolis on the Dnieper"><rect x="1591" y="1496" width="80" height="80" rx="14"></rect><rect x="1638" y="1499" width="114" height="80" rx="14"></rect></a><a href="./places/marienburg.html" data-tip="On the Nogat" data-name="Marienburg (Malbork)" aria-label="Marienburg (Malbork): On the Nogat"><rect x="463" y="860" width="80" height="80" rx="14"></rect><rect x="533" y="865" width="289" height="80" rx="14"></rect></a><a href="./places/konigsberg.html" data-tip="Crusader stronghold on the Pregel estuary" data-name="Königsberg" aria-label="Königsberg: Crusader stronghold on the Pregel estuary"><rect x="603" y="744" width="80" height="80" rx="14"></rect><rect x="672" y="750" width="272" height="80" rx="14"></rect></a><a href="./places/krakow.html" data-tip="On the Vistula" data-name="Kraków" aria-label="Kraków: On the Vistula"><rect x="553" y="1539" width="80" height="80" rx="14"></rect><rect x="604" y="1521" width="196" height="80" rx="14"></rect></a><a href="./places/masovia.html" data-tip="Piast duchy buffering Poland and Lithuania" data-name="Warsaw" aria-label="Warsaw: Piast duchy buffering Poland and Lithuania"><rect x="658" y="1169" width="80" height="80" rx="14"></rect><rect x="709" y="1233" width="202" height="80" rx="14"></rect></a><a href="./places/grunwald.html" data-tip="Field of Tannenberg / Žalgiris" data-name="Grunwald" aria-label="Grunwald: Field of Tannenberg / Žalgiris"><rect x="571" y="977" width="80" height="80" rx="14"></rect><rect x="497" y="1016" width="228" height="80" rx="14"></rect></a><a href="./places/dykra.html" data-tip="The wilderness between the Nemunas and the Order's Prussia." data-name="The Dykra" aria-label="The Dykra: The wilderness between the Nemunas and the Order's Prussia."><rect x="822" y="965" width="381" height="105" rx="14"></rect></a></svg>
+<div class="clickmap-tip" role="tooltip" hidden=""></div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: The Lands of the Iron Wolf: Lithuania, the Baltic and her neighbours, 1341–1450
-</figcaption>
+<figcaption>The Lands of the Iron Wolf: Lithuania, the Baltic and her neighbours, 1341–1450. Click a place to open its page.</figcaption>
 </figure>
-</div>
-<p><em>Click the map to enlarge it.</em> <a href="images/map/lands-of-the-iron-wolf-print.pdf">Print version (black and white, vector PDF)</a> · <a href="images/map/lands-of-the-iron-wolf.svg">SVG</a></p>
+<p><a href="images/map/lands-of-the-iron-wolf.png">Larger image</a> · <a href="images/map/lands-of-the-iron-wolf-print.pdf">Black-and-white print version</a></p>
 <section id="inset-1-vilnius-trakai-and-kreva-1382" class="level2">
 <h2 class="anchored" data-anchor-id="inset-1-vilnius-trakai-and-kreva-1382">Inset 1: Vilnius, Trakai and Kreva, 1382</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/map/lands-of-the-iron-wolf-inset-a.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Vilnius, Trakai and Kreva, 1382"><img src="images/map/lands-of-the-iron-wolf-inset-a.jpg" class="img-fluid figure-img" alt="Large-scale map of the country around Vilnius and Trakai. Kestutis's pine hill and Jogaila's camp lie west of Trakai on Lake Galve; a dashed line (1) runs from Kaunas to the camp; a second dashed line (2) runs from Kreva south-west past Lida, Vytautas's escape."></a></p>
-<figcaption>Vilnius, Trakai and Kreva, 1382</figcaption>
-</figure>
+<figure class="clickmap figure" data-kind="a">
+<div class="clickmap-wrap">
+<img src="images/map/lands-of-the-iron-wolf-inset-a.jpg" width="1800" height="1282" alt="Large-scale map of the country around Vilnius and Trakai. Kestutis's pine hill and Jogaila's camp lie west of Trakai on Lake Galve; a dashed line (1) runs from Kaunas to the camp; a second dashed line (2) runs from Kreva south-west past Lida, Vytautas's escape. Each named place with a wiki page is a link." class="figure-img">
+<svg class="clickmap-svg" viewbox="0 0 1800 1282" preserveaspectratio="none" role="group" aria-label="Places on the map"><a href="./places/vilnius.html" data-tip="Gediminas Hill; the capital and the Last Flame" data-name="Vilnius" aria-label="Vilnius: Gediminas Hill; the capital and the Last Flame"><rect x="886" y="419" width="80" height="80" rx="14"></rect><rect x="935" y="404" width="147" height="80" rx="14"></rect></a><a href="./places/sventaragis.html" data-tip="Neris-Vilnia confluence under Gediminas Hill" data-name="Sventaragis Valley" aria-label="Sventaragis Valley: Neris-Vilnia confluence under Gediminas Hill"><rect x="889" y="441" width="80" height="80" rx="14"></rect><rect x="928" y="461" width="276" height="80" rx="14"></rect></a><a href="./places/trakai.html" data-tip="Island castle on Lake Galvė" data-name="Trakai" aria-label="Trakai: Island castle on Lake Galvė"><rect x="724" y="448" width="80" height="80" rx="14"></rect><rect x="774" y="504" width="142" height="80" rx="14"></rect></a><a href="./places/kreva.html" data-tip="Kęstutis dies, 15 Aug 1382; the Union of 1385" data-name="Krėva" aria-label="Krėva: Kęstutis dies, 15 Aug 1382; the Union of 1385"><rect x="1355" y="726" width="80" height="80" rx="14"></rect><rect x="1422" y="733" width="125" height="80" rx="14"></rect></a><a href="./places/ashmyany.html" data-tip="Town on the Ašmena river" data-name="Ašmena" aria-label="Ašmena: Town on the Ašmena river"><rect x="1192" y="653" width="80" height="80" rx="14"></rect><rect x="1092" y="655" width="138" height="80" rx="14"></rect></a><a href="./places/ostrow.html" data-tip="Agreement of Ostrów; the saga puts it near Lida" data-name="Ostrow" aria-label="Ostrow: Agreement of Ostrów; the saga puts it near Lida"><rect x="755" y="999" width="80" height="80" rx="14"></rect><rect x="676" y="986" width="120" height="80" rx="14"></rect></a><a href="./places/jogaila_camp_trakai.html" data-tip="Palisaded camp between the lakes and the pines; position stylised" data-name="Jogaila's camp" aria-label="Jogaila's camp: Palisaded camp between the lakes and the pines; position stylised"><rect x="662" y="491" width="80" height="80" rx="14"></rect><rect x="433" y="493" width="245" height="80" rx="14"></rect></a><a href="./places/road_to_jogaila_camp.html" data-tip="The pine hill beyond the Trakai lakes; position stylised" data-name="Kestutis's pine hill" aria-label="Kestutis's pine hill: The pine hill beyond the Trakai lakes; position stylised"><rect x="531" y="430" width="80" height="80" rx="14"></rect><rect x="249" y="454" width="322" height="80" rx="14"></rect></a><a href="./places/trakai.html" data-tip="Ancestral seat of Kęstutis and Vytautas" data-name="Lake Galve" aria-label="Lake Galve: Ancestral seat of Kęstutis and Vytautas"><rect x="568" y="529" width="171" height="80" rx="14"></rect></a></svg>
+<div class="clickmap-tip" role="tooltip" hidden=""></div>
 </div>
-<p>The camp between the lakes and the pines where Kęstutis and Vytautas were taken on 3 August 1382 (<a href="./places/jogaila_camp_trakai.html">Jogaila’s camp</a>, <a href="./places/road_to_jogaila_camp.html">the road to it</a>), the ride that led there (1), and Vytautas’s flight from <a href="./places/kreva.html">Krėva</a> in the autumn (2). The camp and the pine hill are the saga’s places: their exact spots are not in the record. <a href="images/map/lands-of-the-iron-wolf-inset-a.svg">Download</a> (SVG).</p>
+<figcaption>Vilnius, Trakai and Krėva, 1382</figcaption>
+</figure>
+<p>The camp between the lakes and the pines where Kęstutis and Vytautas were taken on 3 August 1382 (<a href="./places/jogaila_camp_trakai.html">Jogaila’s camp</a>, <a href="./places/road_to_jogaila_camp.html">the road to it</a>), the ride that led there (1), and Vytautas’s flight from <a href="./places/kreva.html">Krėva</a> in the autumn (2). The camp and the pine hill are the saga’s places: their exact spots are not in the record. <a href="images/map/lands-of-the-iron-wolf-inset-a.jpg">Larger image</a>.</p>
 </section>
 <section id="inset-2-prussia-and-the-road-to-grunwald-1410" class="level2">
 <h2 class="anchored" data-anchor-id="inset-2-prussia-and-the-road-to-grunwald-1410">Inset 2: Prussia and the road to Grunwald, 1410</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/map/lands-of-the-iron-wolf-inset-b.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Prussia and the road to Grunwald, 1410"><img src="images/map/lands-of-the-iron-wolf-inset-b.jpg" class="img-fluid figure-img" alt="Large-scale map of Prussia, Masovia and southern Lithuania. A dashed line (3) runs from Kraków north through Czerwińsk on the Vistula to Grunwald; a second line (4) follows the Order's Reise from Königsberg along the Nemunas through Ragnit, Jurbarkas and Kaunas to Vilnius."></a></p>
+<figure class="clickmap figure" data-kind="b">
+<div class="clickmap-wrap">
+<img src="images/map/lands-of-the-iron-wolf-inset-b.jpg" width="1500" height="1682" alt="Large-scale map of Prussia, Masovia and southern Lithuania. A dashed line (3) runs from Krakow north through Czerwinsk on the Vistula to Grunwald; a second line (4) follows the Order's Reise from Koenigsberg along the Nemunas through Ragnit, Jurbarkas and Kaunas to Vilnius. Each named place with a wiki page is a link." class="figure-img">
+<svg class="clickmap-svg" viewbox="0 0 1500 1682" preserveaspectratio="none" role="group" aria-label="Places on the map"><a href="./places/vilnius.html" data-tip="Gediminas Hill; the capital and the Last Flame" data-name="Vilnius" aria-label="Vilnius: Gediminas Hill; the capital and the Last Flame"><rect x="1162" y="278" width="80" height="80" rx="14"></rect><rect x="1211" y="263" width="141" height="80" rx="14"></rect></a><a href="./places/grodno.html" data-tip="Major fortified ducal center on the Nemunas" data-name="Grodno" aria-label="Grodno: Major fortified ducal center on the Nemunas"><rect x="947" y="538" width="80" height="80" rx="14"></rect><rect x="912" y="599" width="150" height="80" rx="14"></rect></a><a href="./places/marienburg.html" data-tip="On the Nogat" data-name="Marienburg (Malbork)" aria-label="Marienburg (Malbork): On the Nogat"><rect x="244" y="445" width="80" height="80" rx="14"></rect><rect x="310" y="452" width="410" height="80" rx="14"></rect></a><a href="./places/konigsberg.html" data-tip="Crusader stronghold on the Pregel estuary" data-name="Königsberg" aria-label="Königsberg: Crusader stronghold on the Pregel estuary"><rect x="453" y="272" width="80" height="80" rx="14"></rect><rect x="257" y="279" width="211" height="80" rx="14"></rect></a><a href="./places/ragnit.html" data-tip="Order castle on the Nemunas (Lith" data-name="Ragnit" aria-label="Ragnit: Order castle on the Nemunas (Lith"><rect x="685" y="189" width="80" height="80" rx="14"></rect><rect x="657" y="155" width="136" height="80" rx="14"></rect></a><a href="./places/tapiau.html" data-tip="Teutonic Order fortress on the Pregel" data-name="Tapiau" aria-label="Tapiau: Teutonic Order fortress on the Pregel"><rect x="544" y="285" width="80" height="80" rx="14"></rect><rect x="517" y="347" width="134" height="80" rx="14"></rect></a><a href="./places/marienwerder.html" data-tip="Naujapilis: Teutonic castle burned by Vytautas in his 1384 defection" data-name="Marienwerder" aria-label="Marienwerder: Naujapilis: Teutonic castle burned by Vytautas in his 1384 defection"><rect x="230" y="522" width="80" height="80" rx="14"></rect><rect x="296" y="529" width="267" height="80" rx="14"></rect></a><a href="./places/krakow.html" data-tip="On the Vistula" data-name="Kraków" aria-label="Kraków: On the Vistula"><rect x="379" y="1461" width="80" height="80" rx="14"></rect><rect x="428" y="1446" width="153" height="80" rx="14"></rect></a><a href="./places/masovia.html" data-tip="Piast duchy buffering Poland and Lithuania" data-name="Warsaw" aria-label="Warsaw: Piast duchy buffering Poland and Lithuania"><rect x="536" y="907" width="80" height="80" rx="14"></rect><rect x="585" y="961" width="157" height="80" rx="14"></rect></a><a href="./places/masovia.html" data-tip="Piast duchy buffering Poland and Lithuania" data-name="Płock" aria-label="Płock: Piast duchy buffering Poland and Lithuania"><rect x="344" y="846" width="80" height="80" rx="14"></rect><rect x="277" y="832" width="107" height="80" rx="14"></rect></a><a href="./places/raciazek.html" data-tip="Peace of Raciąż, 22-23 May 1404, at the confluence of the Drwęca and the Vistula" data-name="Raciążek" aria-label="Raciążek: Peace of Raciąż, 22-23 May 1404, at the confluence of the Drwęca and the Vistula"><rect x="215" y="763" width="80" height="80" rx="14"></rect><rect x="256" y="765" width="131" height="80" rx="14"></rect></a><a href="./places/czerwinsk.html" data-tip="Vistula pontoon crossing, 30 June 1410" data-name="Czerwińsk" aria-label="Czerwińsk: Vistula pontoon crossing, 30 June 1410"><rect x="432" y="885" width="80" height="80" rx="14"></rect><rect x="324" y="886" width="147" height="80" rx="14"></rect></a><a href="./places/lyck.html" data-tip="Treaty of 19 Jan 1390 between Vytautas and the Order" data-name="Lyck" aria-label="Lyck: Treaty of 19 Jan 1390 between Vytautas and the Order"><rect x="734" y="498" width="80" height="80" rx="14"></rect><rect x="800" y="505" width="96" height="80" rx="14"></rect></a><a href="./places/grunwald.html" data-tip="Field of Tannenberg / Žalgiris" data-name="Grunwald" aria-label="Grunwald: Field of Tannenberg / Žalgiris"><rect x="405" y="606" width="80" height="80" rx="14"></rect><rect x="453" y="608" width="177" height="80" rx="14"></rect></a><a href="./places/horodlo.html" data-tip="Union of 2 Oct 1413" data-name="Horodło" aria-label="Horodło: Union of 2 Oct 1413"><rect x="969" y="1272" width="80" height="80" rx="14"></rect><rect x="881" y="1260" width="129" height="80" rx="14"></rect></a><a href="./places/jurbarkas.html" data-tip="Georgenburg: Order castle on the Nemunas border, repeatedly contested by Lithuania" data-name="Jurbarkas" aria-label="Jurbarkas: Georgenburg: Order castle on the Nemunas border, repeatedly contested by Lithuania"><rect x="793" y="199" width="80" height="80" rx="14"></rect><rect x="836" y="183" width="144" height="80" rx="14"></rect></a><a href="./places/dykra.html" data-tip="The wilderness between the Nemunas and the Order's Prussia." data-name="The Dykra" aria-label="The Dykra: The wilderness between the Nemunas and the Order's Prussia."><rect x="752" y="436" width="293" height="84" rx="14"></rect></a></svg>
+<div class="clickmap-tip" role="tooltip" hidden=""></div>
+</div>
 <figcaption>Prussia and the road to Grunwald, 1410</figcaption>
 </figure>
-</div>
-<p>Jogaila’s march from <a href="./places/krakow.html">Kraków</a> over the pontoon bridge at <a href="./places/czerwinsk.html">Czerwińsk</a> to <a href="./places/grunwald.html">Grunwald</a> (3), and the road the Order’s <em>Reise</em> took from <a href="./places/konigsberg.html">Königsberg</a> up the Nemunas to Vilnius (4). <a href="images/map/lands-of-the-iron-wolf-inset-b.svg">Download</a> (SVG).</p>
+<p>Jogaila’s march from <a href="./places/krakow.html">Kraków</a> over the pontoon bridge at <a href="./places/czerwinsk.html">Czerwińsk</a> to <a href="./places/grunwald.html">Grunwald</a> (3), and the road the Order’s <em>Reise</em> took from <a href="./places/konigsberg.html">Königsberg</a> up the Nemunas to Vilnius (4). <a href="images/map/lands-of-the-iron-wolf-inset-b.jpg">Larger image</a>.</p>
 </section>
 <section id="how-to-read-it" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-read-it">How to read it</h2>
@@ -531,7 +560,7 @@ Figure&nbsp;1: The Lands of the Iron Wolf: Lithuania, the Baltic and her neighbo
 <li><strong>Signs:</strong> a castle is a fortified place; a small circle a town; crossed swords a battlefield; a diamond a place that exists only in the saga or whose spot is uncertain; a few small trees mark the great forests, where the <a href="./places/dykra.html">Dykra</a> lies between the Nemunas and the Order.</li>
 <li><strong>Colours:</strong> the soft washes show the lordships about 1430 (Grand Duchy of Lithuania in gold, the Order’s Prussia in grey-blue, Livonia in violet, the Kingdom of Poland and Masovia in red, Moscow in green). They are not borders: the frontiers moved every decade.</li>
 <li><strong>The dashed line</strong> on the main map joins the two journeys of 1382, Kęstutis’s ride and Vytautas’s escape. The other journeys are on the insets. The ride’s course is the saga’s own (the sources give only its start and end); Vytautas’s route follows the record: Krėva, Masovia, then the Order.</li>
-<li><strong>Accuracy:</strong> coasts, rivers and lakes are Natural Earth data at 1:10 million. Places carry real coordinates; those marked below are approximate or stylised.</li>
+<li><strong>Accuracy:</strong> coasts, rivers and lakes follow the real land. Places stand where they really are, except the saga’s own places and those whose exact spot is uncertain; the table below marks them (for example, Jogaila’s camp and Kęstutis’s pine hill are placed by the story, and the positions of Salynas, Pabaiskas and Raciążek are approximate).</li>
 </ul>
 </section>
 <section id="every-place-on-the-map" class="level2">
@@ -818,7 +847,7 @@ Figure&nbsp;1: The Lands of the Iron Wolf: Lithuania, the Baltic and her neighbo
 </tr>
 </tbody>
 </table>
-<p><em>Map data: <a href="https://www.naturalearthdata.com">Natural Earth</a> (public domain). Parchment, border and sea serpent: painted art generated for this project.</em></p>
+<p><em>Coastlines and rivers: <a href="https://www.naturalearthdata.com">Natural Earth</a> (public domain).</em></p>
 
 
 </section>
@@ -1257,38 +1286,6 @@ Figure&nbsp;1: The Lands of the Iron Wolf: Lithuania, the Baltic and her neighbo
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

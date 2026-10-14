@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -476,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#pronunciation" id="toc-pronunciation" class="nav-link" data-scroll-target="#pronunciation">Pronunciation</a></li>
   <li><a href="#appearances" id="toc-appearances" class="nav-link" data-scroll-target="#appearances">Appearances</a></li>
   <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -569,7 +599,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </tr>
 <tr class="even">
 <td><strong>Need</strong> (internal)</td>
-<td>To admit what he serves: whether he knows he feeds the Steppe-Hunger is left open by the canon.</td>
+<td>To admit what he serves: whether he knows he feeds the Steppe-Hunger is left open.</td>
 </tr>
 <tr class="odd">
 <td><strong>Lie</strong> they believe</td>
@@ -592,18 +622,19 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="power-magic" class="level2">
 <h2 class="anchored" data-anchor-id="power-magic">Power &amp; magic</h2>
-<p>Tier 0: no craft. His patron is the <a href="../forces/steppe_hunger.html">Steppe-Hunger</a> (<em>Erdene-Chuluu</em>), which feeds on the hubris of horizon-kings; it feeds through his victory at the Vorskla. The canon fixes only that the Force feeds there; whether Edigu serves it knowingly is an open author’s choice. He has the <a href="../factions/golden_horde.html">Golden Horde</a> as his instrument (“the power behind the khans”, 1396-1411).</p>
+<p>Tier 0: no craft. His patron is the <a href="../forces/steppe_hunger.html">Steppe-Hunger</a> (<em>Erdene-Chuluu</em>), which feeds on the hubris of horizon-kings; it feeds through his victory at the Vorskla. The saga fixes only that the Force feeds there; whether Edigu serves it knowingly is an open author’s choice. He has the <a href="../factions/golden_horde.html">Golden Horde</a> as his instrument (“the power behind the khans”, 1396-1411).</p>
 </section>
 <section id="record-vs-saga" class="level2">
 <h2 class="anchored" data-anchor-id="record-vs-saga">Record vs saga</h2>
 <ul>
-<li><strong>[Record]:</strong> Born c.&nbsp;1352 (a Manghit mirza), killed in 1419 or 1420, most likely by a son of Tokhtamysh (en.wikipedia). The effective ruler of the Golden Horde under Temür Qutlugh from 1396 and the power behind the khans until about 1411; legendary ancestor of the Nogai Horde. With Temür Qutlugh he defeated Vytautas, Tokhtamysh and the Ruthenian-Polish coalition at the Vorskla River on 12 Aug 1399 (en.wikipedia body says 5 Aug); about 20 princes, among them Andrius of Polotsk, Dmitrijus of Bryansk and Spytko II of Melsztyn, were killed (VLE says 12). The river meeting, in which Edigu demanded the obedience owed to an elder, is the Rus’/Polish tradition. He burned the suburbs of Moscow in December 1408 and ransomed Kyiv in 1399. See <a href="https://en.wikipedia.org/wiki/Edigu">Wikipedia</a>.</li>
-<li><strong>[Saga invention]:</strong> His point-of-view chapter and tactics scene (<a href="../books/book2.html">Book II ch.&nbsp;24</a>; the tactics are saga, the Vorskla’s shape is not); the Steppe-Hunger’s patronage; the final exchange on the river is attested in outline only.</li>
+<li><strong>[Historical record]:</strong> Born c.&nbsp;1352 (a Manghit mirza), killed in 1419 or 1420, most likely by a son of Tokhtamysh (en.wikipedia). The effective ruler of the Golden Horde under Temür Qutlugh from 1396 and the power behind the khans until about 1411; legendary ancestor of the Nogai Horde. With Temür Qutlugh he defeated Vytautas, Tokhtamysh and the Ruthenian-Polish coalition at the Vorskla River on 12 Aug 1399 (en.wikipedia body says 5 Aug); about 20 princes, among them Andrius of Polotsk, Dmitrijus of Bryansk and Spytko II of Melsztyn, were killed (VLE says 12). The river meeting, in which Edigu demanded the obedience owed to an elder, is the Rus’/Polish tradition. He burned the suburbs of Moscow in December 1408 and ransomed Kyiv in 1399. See <a href="https://en.wikipedia.org/wiki/Edigu">Wikipedia</a>.</li>
+<li><strong>[The saga’s invention]:</strong> His point-of-view chapter and tactics scene (<a href="../books/book2.html">Book II ch.&nbsp;24</a>; the tactics are saga, the Vorskla’s shape is not); the Steppe-Hunger’s patronage; the final exchange on the river is attested in outline only.</li>
 </ul>
 </section>
 <section id="pronunciation" class="level2">
 <h2 class="anchored" data-anchor-id="pronunciation">Pronunciation</h2>
-<p>Not in the JSON lexicon; the <a href="../codex/pronunciation-guide.html">pronunciation guide</a> gives the Lithuanian form <strong>Edigėjus</strong> (e-di-GĖ-jus, /ɛdʲɪˈɡʲeːjʊs/), English respelling <em>eh-dih-GAY-yoos</em> (stress to be verified); the Tatar <em>Idegäy</em> is closer to <em>ee-deh-GAY</em>. The saga’s “Edigu” is the English-scholarly spelling.</p>
+<p>The <a href="../guide/pronunciation-guide.html">pronunciation guide</a> gives the Lithuanian form <strong>Edigėjus</strong> (e-di-GĖ-jus, /ɛdʲɪˈɡʲeːjʊs/), English respelling <em>eh-dih-GAY-yoos</em>; the Tatar <em>Idegäy</em> is closer to <em>ee-deh-GAY</em>. The saga’s “Edigu” is the English-scholarly spelling.</p>
+<p>The saga’s “Edigu” is the English-scholarly spelling.</p>
 </section>
 <section id="appearances" class="level2">
 <h2 class="anchored" data-anchor-id="appearances">Appearances</h2>
@@ -628,8 +659,8 @@ document.addEventListener("DOMContentLoaded", function () {
 </tbody>
 </table>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -643,11 +674,11 @@ document.addEventListener("DOMContentLoaded", function () {
   golden_horde["Golden Horde"]
   steppe_hunger["Stepių Alkis (Erdene-Chuluu)"]
   vytautas["Vytautas"]
-  edigu --&gt;|rules| golden_horde
-  edigu --&gt;|participant| ev_vorskla
-  edigu --&gt;|antagonist_of| book2
-  vytautas --&gt;|enemy_of| edigu
-  steppe_hunger --&gt;|patron_of| edigu
+  edigu --&gt;|Rules| golden_horde
+  edigu --&gt;|Took part in| ev_vorskla
+  edigu --&gt;|Antagonist of| book2
+  vytautas --&gt;|Enemy| edigu
+  steppe_hunger --&gt;|Patron of| edigu
   style edigu stroke-width:3px
 </pre>
 </div>

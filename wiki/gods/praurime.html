@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -467,11 +497,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#folk-sources-record" id="toc-folk-sources-record" class="nav-link active" data-scroll-target="#folk-sources-record">Folk sources [Record]</a></li>
+  <li><a href="#folk-sources-historical-record" id="toc-folk-sources-historical-record" class="nav-link active" data-scroll-target="#folk-sources-historical-record">Folk sources [Historical record]</a></li>
   <li><a href="#in-the-saga" id="toc-in-the-saga" class="nav-link" data-scroll-target="#in-the-saga">In the saga</a></li>
   <li><a href="#offerings-taboos" id="toc-offerings-taboos" class="nav-link" data-scroll-target="#offerings-taboos">Offerings &amp; taboos</a></li>
   <li><a href="#pronunciation" id="toc-pronunciation" class="nav-link" data-scroll-target="#pronunciation">Pronunciation</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -521,7 +551,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Answers</div><p class="sb-entry"><strong><em>Clear Sight.</em></strong> Seeing at distance, through time as possibility and never certainty, and into the truth. Every vision shows the seer something about herself.</p><p class="sb-entry"><strong><em>Against illusion.</em></strong> A Praurimė seer can see through the Shadow-Seller's illusions.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Refuses</div><p class="sb-entry"><strong><em>Overcast.</em></strong> Impossible under cloud, and doubled in daylight.</p><p class="sb-entry"><strong><em>A fixed trunk.</em></strong> Prophecy shows branches, not fate.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>Blindness.</em></strong> Hours for a minor working, days for a major one, or the permanent loss of one beloved face from memory.</p><p class="sb-entry"><strong><em>Off zenith.</em></strong> Doubled. Birutė's vision at Dagotuvės cost two or three days (<a href="../books/book1.html">Book I ch. 3</a>). At Kūčios, half (<a href="../books/book5.html">Book V ch. 29</a>).</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../codex/magic-rules.html">magic_rules.md §3.3</a>, §4.1 · <a href="../books/book1.html">Book I ch. 3</a>, 9, 15 · <a href="../books/book5.html">Book V ch. 29</a> · wiki/gods/praurime</div><div class="sb-bar"></div></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../guide/cosmology.html">Cosmology §3.1</a> · <a href="../guide/magic-rules.html">Magic rules §3.3, §4.1</a> · <a href="../books/book1.html">Book I ch. 3</a>, 9, 15 · <a href="../books/book5.html">Book V ch. 29</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -551,13 +581,13 @@ document.addEventListener("DOMContentLoaded", function () {
 </table>
 </div>
 </div>
-<section id="folk-sources-record" class="level2">
-<h2 class="anchored" data-anchor-id="folk-sources-record">Folk sources [Record]</h2>
+<section id="folk-sources-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="folk-sources-historical-record">Folk sources [Historical record]</h2>
 <p><em>Praurimė</em> is said to be the goddess of the sacred fire, served by <em>vaidilutės</em>. <strong>She is the most doubtful of the saga’s gods.</strong> The name is not in Łasicki, the Volhynian Chronicle, Prätorius or the early lists; the standard source is the 19th-century mythographer Teodor Narbutt (1835), whose reconstructions are often called inventions, and Vėlius and others discard many of his names. Stryjkowski (1582) does describe a perpetual fire in the Vilnius valley, and Dusburg a priest-kept fire at Romowe, but neither names Praurimė. Modern writers often equate Praurimė with Gabija and disagree about which the priestesses served. Her etymology is unknown. The saga’s <em>vaidilutė</em> as a vestal of an eternal flame is also shaped by Romantic historiography, though sacred fires themselves are attested (Długosz).</p>
 </section>
 <section id="in-the-saga" class="level2">
 <h2 class="anchored" data-anchor-id="in-the-saga">In the saga</h2>
-<p><strong>Domain:</strong> the fire of the stars, the sky-twin of the eternal flame. <strong>Element:</strong> <a href="../magic/el_stars.html">Stars</a> (“Žvaigždės tau švytės”), zenith Kūčios (winter-solstice midnight). <strong>Force-face:</strong> none. Folk memory has her as a goddess of sacred fire, while the saga’s seers know her as the fire <em>above</em>, the stars read as the threads <a href="../gods/laima.html">Laima</a> spins. Both are true (cosmology §3.1).</p>
+<p><strong>Domain:</strong> the fire of the stars, the sky-twin of the eternal flame. <strong>Element:</strong> <a href="../magic/el_stars.html">Stars</a> (“Žvaigždės tau švytės”), zenith Kūčios (winter-solstice midnight). <strong>Force-face:</strong> none. Folk memory has her as a goddess of sacred fire, while the saga’s seers know her as the fire <em>above</em>, the stars read as the threads <a href="../gods/laima.html">Laima</a> spins. Both are true (Cosmology §3.1).</p>
 <p><a href="../books/book1.html">Book I ch.&nbsp;3</a> is her textbook scene: Birutė opens a shutter at Dagotuvės, off her zenith, and sees a ship that “might not appear”; “Praurimė shows always a possibility, not a doom”; the cost is doubled, blindness of two or three days. Ch. 9: “the icy vault of Praurimė’s night” as Kęstutis’s torch fades. Ch. 15: the Five-Voice ends in “the cold brightness of Praurimė’s eyes”. <a href="../books/book5.html">Book V ch.&nbsp;29</a> at Kūčios: “Praurimė shone highest, and the price was half. Half. Still everything.” <strong>Costs:</strong> hours of blindness, or days of it, or a beloved face lost from memory. <strong>Limits:</strong> impossible under overcast and doubled in daylight.</p>
 </section>
 <section id="offerings-taboos" class="level2">
@@ -566,10 +596,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="pronunciation" class="level2">
 <h2 class="anchored" data-anchor-id="pronunciation">Pronunciation</h2>
-<p><strong>prow-RIH-may</strong> (IPA [prɐʊˈrʲɪmʲeː]), stress <em>prau-RI-mė</em> (verify).</p>
+<p><strong>prow-RIH-may</strong> (IPA [prɐʊˈrʲɪmʲeː]), stress <em>prau-RI-mė</em>.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -579,7 +609,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <pre class="mermaid mermaid-js">graph LR
   el_stars["Žvaigždės (Stars)"]
   praurime["Praurimė"]
-  praurime --&gt;|element_of| el_stars
+  praurime --&gt;|Element| el_stars
   style praurime stroke-width:3px
 </pre>
 </div>

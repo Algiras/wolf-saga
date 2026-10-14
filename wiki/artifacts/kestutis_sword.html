@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -472,7 +502,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#rule-cost" id="toc-rule-cost" class="nav-link" data-scroll-target="#rule-cost">Rule &amp; cost</a></li>
   <li><a href="#origin" id="toc-origin" class="nav-link" data-scroll-target="#origin">Origin</a></li>
   <li><a href="#arc-across-the-books" id="toc-arc-across-the-books" class="nav-link" data-scroll-target="#arc-across-the-books">Arc across the books</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -516,7 +546,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <p class="sb-prop"><strong>Power</strong> A warded oath-blade: the instrument of Vytautas's blood-oath at Grunwald (14-15 Jul 1410)</p>
 <p class="sb-prop"><strong>Rule &amp; cost</strong> Rust spreads along the blade with every oath broken in the family. After Grunwald a thin bright silver line from guard to point survives</p>
 <div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A broad sword with a boar's head on the pommel, a perkūnėlis (thunder-cross) burned into the metal beneath the grip by Kęstutis himself. It hung over the Trakai hall stairs.</p><p class="sb-entry"><strong><em>Rust.</em></strong> Rust begins with the cracks of 1380 and the Pact failing. Counted breaches: Dovydiškės, Skirgaila's safe-conduct, Vytautas's false baptism, the Order oath, Lyck, the Vorskla.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>A family's oaths.</em></strong> The rust is the family's broken oaths written on the blade. Vytautas leaves it unpolished: Rūdys yra sąskaita, rust is the account (<a href="../books/book3.html">Book III ch. 2</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Handed down by theft.</em></strong> Skirgaila's men take it at the gate when Kęstutis is disarmed. It goes into one of twelve oak chests at Kyiv, 11 Jan 1397, and passes to the wolves; Vytautas has it from spring 1400.</p><p class="sb-entry"><strong><em>Sworn.</em></strong> The rust stops spreading after the Grunwald oath. It stands by the door at his death. After 1430 no fate is given.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · world_graph.json (holds) · <a href="../books/book1.html">Book I ch. 2</a>, 6 · <a href="../books/book2.html">Book II ch. 1</a>, 11, 16 · <a href="../books/book3.html">Book III ch. 2</a>, 17, 28 · <a href="../books/book4.html">Book IV ch. 29</a> · wiki/artifacts/kestutis_sword</div></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A broad sword with a boar's head on the pommel, a perkūnėlis (thunder-cross) burned into the metal beneath the grip by Kęstutis himself. It hung over the Trakai hall stairs.</p><p class="sb-entry"><strong><em>Rust.</em></strong> Rust begins with the cracks of 1380 and the Pact failing. Counted breaches: Dovydiškės, Skirgaila's safe-conduct, Vytautas's false baptism, the Order oath, Lyck, the Vorskla.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>A family's oaths.</em></strong> The rust is the family's broken oaths written on the blade. Vytautas leaves it unpolished: Rūdys yra sąskaita, rust is the account (<a href="../books/book3.html">Book III ch. 2</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Handed down by theft.</em></strong> Skirgaila's men take it at the gate when Kęstutis is disarmed. It goes into one of twelve oak chests at Kyiv, 11 Jan 1397, and passes to the wolves; Vytautas has it from spring 1400.</p><p class="sb-entry"><strong><em>Sworn.</em></strong> The rust stops spreading after the Grunwald oath. It stands by the door at his death. After 1430 no fate is given.</p></div><div class="sb-source"><span>Source:</span> <a href="../guide/power-systems.html">Power systems §5</a> · <a href="../books/book1.html">Book I ch. 2</a>, 6 · <a href="../books/book2.html">Book II ch. 1</a>, 11, 16 · <a href="../books/book3.html">Book III ch. 2</a>, 17, 28 · <a href="../books/book4.html">Book IV ch. 29</a></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -564,7 +594,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="origin" class="level2">
 <h2 class="anchored" data-anchor-id="origin">Origin</h2>
-<p>Forged for <a href="../characters/kestutis.html">Kęstutis</a> around 1330 (graph); in <a href="../books/book6.html">Book VI ch.&nbsp;7</a> it is new and warm. Rust begins with the cracks of 1380.</p>
+<p>Forged for <a href="../characters/kestutis.html">Kęstutis</a> around 1330; in <a href="../books/book6.html">Book VI ch.&nbsp;7</a> it is new and warm. Rust begins with the cracks of 1380.</p>
 </section>
 <section id="arc-across-the-books" class="level2">
 <h2 class="anchored" data-anchor-id="arc-across-the-books">Arc across the books</h2>
@@ -572,12 +602,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><strong>Kęstutis, to 1382.</strong> He cleans it nightly (<a href="../books/book1.html">Book I ch.&nbsp;2</a>). Skirgaila’s men take it from him at the gate when he is disarmed (I ch.&nbsp;6).</li>
 <li><strong>Skirgaila, 1382-1397.</strong> Hung in Kęstutis’s Trakai hall (<a href="../books/book2.html">Book II ch.&nbsp;1</a>). Vytautas lets him keep it at the 1392 handover (II ch.&nbsp;11). It goes into Skirgaila’s inventory, one of twelve oak chests, at Kyiv, 11 Jan 1397 (II ch.&nbsp;16).</li>
 <li><strong>Vytautas, spring 1400-1430.</strong> Found by the wolves in the third chest, black with rust, left unpolished: “Rūdys yra sąskaita” (III ch.&nbsp;2). Blood-sworn at Grunwald on 14-15 Jul 1410 (III ch.&nbsp;17); the rust stops spreading (III ch.&nbsp;28). It stands by the door at his death (IV ch.&nbsp;29).</li>
-<li><strong>After 1430.</strong> No fate is given (Book IV hand-off); Book V does not mention it. A gap.</li>
+<li><strong>After 1430.</strong> No fate is given; Book V does not mention it. A gap.</li>
 </ul>
-<p>The graph gives the <a href="../factions/iron_wolves.html">Iron Wolves</a> as holders 1397-1400 (Skirgaila’s Kyiv chests pass to the wolves; Vytautas has it from spring 1400) and notes that after 1430 its whereabouts are unknown.</p>
+<p>Holders: the <a href="../factions/iron_wolves.html">Iron Wolves</a> 1397-1400 (Skirgaila’s Kyiv chests pass to the wolves), then Vytautas from spring 1400; after 1430 its whereabouts are unknown.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -590,11 +620,11 @@ document.addEventListener("DOMContentLoaded", function () {
   kestutis_sword["Šerno kalavijas (Kęstutis's sword)"]
   skirgaila["Skirgaila"]
   vytautas["Vytautas"]
-  kestutis_sword --&gt;|created_by| kestutis
-  kestutis --&gt;|holds| kestutis_sword
-  skirgaila --&gt;|holds| kestutis_sword
-  vytautas --&gt;|holds| kestutis_sword
-  iron_wolves --&gt;|holds| kestutis_sword
+  kestutis_sword --&gt;|Created by| kestutis
+  kestutis --&gt;|Holds| kestutis_sword
+  skirgaila --&gt;|Holds| kestutis_sword
+  vytautas --&gt;|Holds| kestutis_sword
+  iron_wolves --&gt;|Holds| kestutis_sword
   style kestutis_sword stroke-width:3px
 </pre>
 </div>

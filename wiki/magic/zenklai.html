@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -472,9 +502,9 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#how-it-works-medium-words-timing" id="toc-how-it-works-medium-words-timing" class="nav-link" data-scroll-target="#how-it-works-medium-words-timing">How it works (medium, words, timing)</a></li>
   <li><a href="#costs" id="toc-costs" class="nav-link" data-scroll-target="#costs">Costs</a></li>
   <li><a href="#limits-counters" id="toc-limits-counters" class="nav-link" data-scroll-target="#limits-counters">Limits &amp; counters</a></li>
-  <li><a href="#folk-basis-record" id="toc-folk-basis-record" class="nav-link" data-scroll-target="#folk-basis-record">Folk basis [Record]</a></li>
+  <li><a href="#folk-basis-historical-record" id="toc-folk-basis-historical-record" class="nav-link" data-scroll-target="#folk-basis-historical-record">Folk basis [Historical record]</a></li>
   <li><a href="#notable-practitioners" id="toc-notable-practitioners" class="nav-link" data-scroll-target="#notable-practitioners">Notable practitioners</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -513,7 +543,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-sub">Ženklai · carved signs, stored intention</div>
 <div class="sb-rule"></div>
 <dl class="sb-grid"><div class="sb-cell"><dt>School</dt><dd>Asked power · the way to enchant objects</dd></div><div class="sb-cell"><dt>Tier</dt><dd>Tier 0 can use a fed sign; tier 2 (burtininkas, sign-carver) makes warded objects</dd></div><div class="sb-cell"><dt>Casting</dt><dd>Carve, burn, weave or embroider the sign, then feed it</dd></div><div class="sb-cell"><dt>Components</dt><dd>The sign, and a feed: blood for a strong sign, milk for a gentle one, ash for a binding one</dd></div><div class="sb-cell"><dt>Cost</dt><dd>The feed. A sign fades if not fed</dd></div><div class="sb-cell"><dt>Duration</dt><dd>A charm-object (one sign) fades in a season. A warded object (several signs, fed by an owner) lasts a lifetime</dd></div><div class="sb-cell"><dt>Limits</dt><dd>A sign carved by a baptised hand works only if the carver means it. On iron it is twice as strong but angers the laumės</dd></div><div class="sb-cell"><dt>Counters</dt><dd>Neglect (it fades); consecrated stone (half strength, if meant); a broken sign reverses for a night</dd></div></dl>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Signs of house and oath.</em></strong> Saulutė repels night spirits (milk at dawn). Perkūnėlis wards lightning and marks an oath (blood, once). Žalčiukas warns of poison (milk weekly). Laimos medis eases childbirth.</p><p class="sb-entry"><strong><em>Signs of sight and hiding.</em></strong> Žvaigždutė helps sight-workings. Žirgeliai turn aside unbound spirits. Mėnulio pjautuvas hides by distraction, not illusion (ash).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The bound object.</em></strong> Signs plus a Kalba working plus blood make an artifact. Kęstutis's sword carries a perkūnėlis under its grip.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>A broken sign.</em></strong> Reverses for a night.</p><p class="sb-entry"><strong><em>Failing signs.</em></strong> The rust on Kęstutis's sword is the sign failing because the Pact is cracking.</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §2.3</a>, §5 · <a href="../books/book1.html">Book I ch. 2</a> · <a href="../books/book6.html">Book VI ch. 1</a>, 4 · wiki/magic/zenklai</div></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Effect</div><p class="sb-entry"><strong><em>Signs of house and oath.</em></strong> Saulutė repels night spirits (milk at dawn). Perkūnėlis wards lightning and marks an oath (blood, once). Žalčiukas warns of poison (milk weekly). Laimos medis eases childbirth.</p><p class="sb-entry"><strong><em>Signs of sight and hiding.</em></strong> Žvaigždutė helps sight-workings. Žirgeliai turn aside unbound spirits. Mėnulio pjautuvas hides by distraction, not illusion (ash).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">At greater cost</div><p class="sb-entry"><strong><em>The bound object.</em></strong> Signs plus a Kalba working plus blood make an artifact. Kęstutis's sword carries a perkūnėlis under its grip.</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Breaking it</div><p class="sb-entry"><strong><em>A broken sign.</em></strong> Reverses for a night.</p><p class="sb-entry"><strong><em>Failing signs.</em></strong> The rust on Kęstutis's sword is the sign failing because the Pact is cracking.</p></div><div class="sb-source"><span>Source:</span> <a href="../guide/power-systems.html">Power systems §2.3, §5</a> · <a href="../books/book1.html">Book I ch. 2</a> · <a href="../books/book6.html">Book VI ch. 1</a>, 4</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -567,16 +597,16 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="limits-counters">Limits &amp; counters</h2>
 <p>Signs on iron are twice as strong but anger the laumės. A sign carved by a baptised hand works only if the carver <strong>means</strong> it (Law of Truth). Inside consecrated stone it works at half strength if meant: masons’ <em>saulutės</em> in Gothic vaults are the last ward on Vilnius (<a href="../books/book2.html">Book II ch.&nbsp;11</a>; <a href="../books/book5.html">Book V ch.&nbsp;20</a>, eight on the cathedral crypt’s vault keys).</p>
 </section>
-<section id="folk-basis-record" class="level2">
-<h2 class="anchored" data-anchor-id="folk-basis-record">Folk basis [Record]</h2>
-<p><strong>[Record].</strong> Baltic folk ornament carries sun-wheels, the <em>perkūnėlis</em> (“Perkūno cross”), grass-snake zigzags, Laima’s tree and the <em>Austras</em> tree, carved on lintels, spindles, cradles, beehives, belts and the horse-head gables (<em>žirgeliai</em>) of roof-ridges. The identifications with gods and the idea of “feeding” a sign are later reconstruction.</p>
+<section id="folk-basis-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="folk-basis-historical-record">Folk basis [Historical record]</h2>
+<p><strong>[Historical record].</strong> Baltic folk ornament carries sun-wheels, the <em>perkūnėlis</em> (“Perkūno cross”), grass-snake zigzags, Laima’s tree and the <em>Austras</em> tree, carved on lintels, spindles, cradles, beehives, belts and the horse-head gables (<em>žirgeliai</em>) of roof-ridges. The identifications with gods and the idea of “feeding” a sign are later reconstruction.</p>
 </section>
 <section id="notable-practitioners" class="level2">
 <h2 class="anchored" data-anchor-id="notable-practitioners">Notable practitioners</h2>
 <p>Kęstutis burns a perkūnėlis under his sword’s grip; the Trakai smith fits one on every sword and “feeds it once with the prince’s blood” (<a href="../books/book6.html">Book VI ch.&nbsp;1</a>, 4, 16, 30). Vytautas feeds it with his own palm blood before the oath (<a href="../books/book3.html">Book III ch.&nbsp;17</a>). Elena’s tow-knot (<a href="../books/book1.html">Book I ch.&nbsp;12</a>) and Galminas’s warding face-marks (<a href="../books/book3.html">Book III ch.&nbsp;1</a>) are the Root-Mother’s signs.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -586,7 +616,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <pre class="mermaid mermaid-js">graph LR
   flame_keeper["Žiežirba (the Flame-Keeper, Book V POV)"]
   zenklai["Ženklai (signs)"]
-  flame_keeper --&gt;|practises| zenklai
+  flame_keeper --&gt;|Practises| zenklai
   style zenklai stroke-width:3px
 </pre>
 </div>

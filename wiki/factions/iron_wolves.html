@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -472,7 +502,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#patron-force" id="toc-patron-force" class="nav-link" data-scroll-target="#patron-force">Patron Force</a></li>
   <li><a href="#internal-tensions" id="toc-internal-tensions" class="nav-link" data-scroll-target="#internal-tensions">Internal tensions</a></li>
   <li><a href="#notable-members" id="toc-notable-members" class="nav-link" data-scroll-target="#notable-members">Notable members</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -532,7 +562,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </tr>
 <tr class="even">
 <td><strong>Status</strong></td>
-<td>Saga invention</td>
+<td>The saga’s invention</td>
 </tr>
 <tr class="odd">
 <td><strong>Note</strong></td>
@@ -544,7 +574,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>[Saga invention] The sworn wolf-brotherhood (<em>Brolija</em>; each pack a <em>gauja</em> of five to nine), which calls itself <em>Dievo šunys</em>, “God’s dogs”. Folk sources: Baltic werewolf belief and the 1692 Thiess trial. The packs hold the <a href="../artifacts/wolf_skull.html">Iron Wolf’s skull</a> (since 1323) and give <a href="../characters/kestutis.html">Kęstutis</a> the <a href="../artifacts/silver_wolf.html">silver wolf</a> in 1345. About 120 in 1382; about 40 after the Vilnius massacre (<a href="../books/book1.html">Book I ch.&nbsp;7</a>) and the schism; 14 at Kūčios 1430 (V ch.&nbsp;7); a dozen at Pabaiskas, 1 Sep 1435; Pilkoji lies down with the skull on 2 Nov 1449 (V ch.&nbsp;28). The Flame-Keeper, burned at Palanga in March 1450, is the last (V ch.&nbsp;29).</p>
+<p>[The saga’s invention] The sworn wolf-brotherhood (<em>Brolija</em>; each pack a <em>gauja</em> of five to nine), which calls itself <em>Dievo šunys</em>, “God’s dogs”. Folk sources: Baltic werewolf belief and the 1692 Thiess trial. The packs hold the <a href="../artifacts/wolf_skull.html">Iron Wolf’s skull</a> (since 1323) and give <a href="../characters/kestutis.html">Kęstutis</a> the <a href="../artifacts/silver_wolf.html">silver wolf</a> in 1345. About 120 in 1382; about 40 after the Vilnius massacre (<a href="../books/book1.html">Book I ch.&nbsp;7</a>) and the schism; 14 at Kūčios 1430 (V ch.&nbsp;7); a dozen at Pabaiskas, 1 Sep 1435; Pilkoji lies down with the skull on 2 Nov 1449 (V ch.&nbsp;28). The Flame-Keeper, burned at Palanga in March 1450, is the last (V ch.&nbsp;29).</p>
 </section>
 <section id="wants-by-book" class="level2">
 <h2 class="anchored" data-anchor-id="wants-by-book">Wants (by book)</h2>
@@ -605,7 +635,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="patron-force" class="level2">
 <h2 class="anchored" data-anchor-id="patron-force">Patron Force</h2>
-<p>[Saga] <a href="../forces/root_mother.html">Šaknų Motina</a>, who made their bodies. They serve two masters (D10): the Root-Mother, and whoever keeps a Gediminid flame. Rule 2 forbids shedding Gediminid blood, and rule 9 says the pack answers the flame, not the man.</p>
+<p>[The saga’s invention] <a href="../forces/root_mother.html">Šaknų Motina</a>, who made their bodies. They serve two masters: the Root-Mother, and whoever keeps a Gediminid flame. Rule 2 forbids shedding Gediminid blood, and rule 9 says the pack answers the flame, not the man.</p>
 </section>
 <section id="internal-tensions" class="level2">
 <h2 class="anchored" data-anchor-id="internal-tensions">Internal tensions</h2>
@@ -615,8 +645,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="notable-members">Notable members</h2>
 <p><a href="../characters/jonas.html">Jonas</a>, <a href="../characters/flame_keeper.html">The Flame-Keeper (Žiežirba)</a>; Pilkoji, Kalvis, Šešiapirštis, Kirmėlė and Spyglys have no wiki pages.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -637,18 +667,18 @@ document.addEventListener("DOMContentLoaded", function () {
   spyglys["Spyglys (young ash-bearer)"]
   uosis["Uosis / Ash (elder wolf)"]
   wolf_skull["Geležinio Vilko kaukolė"]
-  iron_wolves --&gt;|holds| wolf_skull
-  iron_wolves --&gt;|holds| kestutis_sword
-  jonas --&gt;|member_of| iron_wolves
-  flame_keeper --&gt;|member_of| iron_wolves
-  root_mother --&gt;|patron_of| iron_wolves
-  silver_wolf --&gt;|created_by| iron_wolves
-  pilkoji --&gt;|member_of| iron_wolves
-  kalvis --&gt;|member_of| iron_wolves
-  spyglys --&gt;|member_of| iron_wolves
-  pusis --&gt;|member_of| iron_wolves
-  kirmele --&gt;|member_of| iron_wolves
-  uosis --&gt;|member_of| iron_wolves
+  iron_wolves --&gt;|Holds| wolf_skull
+  iron_wolves --&gt;|Holds| kestutis_sword
+  jonas --&gt;|Member of| iron_wolves
+  flame_keeper --&gt;|Member of| iron_wolves
+  root_mother --&gt;|Patron of| iron_wolves
+  silver_wolf --&gt;|Created by| iron_wolves
+  pilkoji --&gt;|Member of| iron_wolves
+  kalvis --&gt;|Member of| iron_wolves
+  spyglys --&gt;|Member of| iron_wolves
+  pusis --&gt;|Member of| iron_wolves
+  kirmele --&gt;|Member of| iron_wolves
+  uosis --&gt;|Member of| iron_wolves
   style iron_wolves stroke-width:3px
 </pre>
 </div>

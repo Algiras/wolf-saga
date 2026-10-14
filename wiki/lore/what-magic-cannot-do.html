@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,6 +99,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -350,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -407,8 +437,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -497,11 +527,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <blockquote class="blockquote">
 <p><em>“The sea keeps the dead. She does not return them. If she did, the shore would be crowded.”</em></p>
-<p><strong>[Saga]</strong> A Palanga amber-keeper’s reply to a mourner.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>[The saga’s invention]</strong> A Palanga amber-keeper’s reply to a mourner.</p>
 </blockquote>
 <section id="five-things-it-cannot-do" class="level2">
 <h2 class="anchored" data-anchor-id="five-things-it-cannot-do">Five things it cannot do</h2>
-<p>The notes set a <strong>hard ceiling</strong>: no mortal working ever exceeds a castle for a night. These five limits are firmer still (<a href="../codex/magic-rules.html">Magic rules</a>, §10; <a href="../codex/cosmology.html">Cosmology</a>, §6).</p>
+<p>The saga sets a <strong>hard ceiling</strong>: no mortal working ever exceeds a castle for a night. These five limits are firmer still (<a href="../guide/magic-rules.html">Magic rules</a>, §10; <a href="../guide/cosmology.html">Cosmology</a>, §6).</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -543,7 +575,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="taboos-and-fell-workings">Taboos and fell workings</h2>
 <p>Some workings are possible and forbidden. Each carries a debt that “finds its owner”.</p>
 <ul>
-<li><strong>Glamours and illusions.</strong> The Law of Truth forbids making anyone perceive what is not there. The Krėva fog is real fog, and the notes correct the older reading of “distortion”. Only the Shadow-Seller can lie, deceive and conjure illusion; no mortal caster can.</li>
+<li><strong>Glamours and illusions.</strong> The Law of Truth forbids making anyone perceive what is not there. The Krėva fog is real fog. The Krėva fog is real fog. Only the Shadow-Seller can lie, deceive and conjure illusion; no mortal caster can.</li>
 <li><strong>The forbidden transfer.</strong> Moving a price into another body that did not choose it. The Lagoon witch names it in <a href="../books/book2.html">Book II ch.&nbsp;9</a>; Vytautas refuses.</li>
 <li><strong>The Five-Voice, repeatedly.</strong> Not forbidden, but each use leaves the caster “a little less present”. By Book IV an old Vytautas hears the world as through water.</li>
 <li><strong>Selling a name or shadow.</strong> Bought power is bound only by the letter of the deal, and the thread compounds.</li>
@@ -594,7 +626,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="why-history-cannot-be-bent" class="level2">
 <h2 class="anchored" data-anchor-id="why-history-cannot-be-bent">Why history cannot be bent</h2>
-<p>Canon decision D3 sets the rule: <strong>history is the record plus mythic gaps</strong> (<a href="../codex/canon-decisions.html">Canon decisions</a>, D3).</p>
+<p>The rule is: <strong>history is the record plus mythic gaps</strong>.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -626,7 +658,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="the-writers-corollary" class="level2">
 <h2 class="anchored" data-anchor-id="the-writers-corollary">The writer’s corollary</h2>
-<p>Every magical rescue must leave the political problem unsolved. If the working is large enough to alter the record, it is the wrong kind of working: it belongs to a Force, and Forces always want something. See <a href="../lore/the-price.html">The Price</a> and <a href="../lore/a-writers-and-readers-guide.html">A reader’s guide</a>.</p>
+<p>Every magical rescue must leave the political problem unsolved. If the working is large enough to alter the record, it is the wrong kind of working: it belongs to a Force, and Forces always want something. See <a href="../lore/the-price.html">The Price</a> and <a href="../lore/reading-the-craft.html">A reader’s guide</a>.</p>
 
 
 </section>

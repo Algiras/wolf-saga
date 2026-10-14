@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -476,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#pronunciation" id="toc-pronunciation" class="nav-link" data-scroll-target="#pronunciation">Pronunciation</a></li>
   <li><a href="#appearances" id="toc-appearances" class="nav-link" data-scroll-target="#appearances">Appearances</a></li>
   <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -603,13 +633,13 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="record-vs-saga" class="level2">
 <h2 class="anchored" data-anchor-id="record-vs-saga">Record vs saga</h2>
 <ul>
-<li><strong>[Record]:</strong> Anna (Ona Vytautienė) is probably Vytautas’s first and only wife; the marriage is dated between 1368 and 1377, about 1370. Her origins are disputed: the late Bychowiec Chronicle calls her a sister of Yuri of Smolensk (Tęgowski agrees), Jonynas argues she came from a Lithuanian noble family and may be Sudimantas’s sister (Baranauskienė notes her sisters married Lithuanian nobles; one, Agrippina, married Ivan Olshanski). She appears in the sources when Vytautas is imprisoned at Krėva in 1382 and helps him escape: the Lithuanian Chronicles say a maid swapped clothes with him; Wigand says he wore Anna’s clothes. She was in Grodno in 1389, followed him to the Order and was held for a time as a guarantee of his loyalty; the Order released her in 1392 so that she could travel to Lithuania (Urban 2006), and she confirmed the Ostrów Agreement in two letters (to Jogaila and Jadwiga). She took part in the Salynas negotiations (1398), met King Sigismund at Késmárk before 1396, and in 1400 made a pilgrimage to Dorothea of Montau’s tomb at Marienwerder. Grand Duchess consort from 1401; died 31 Jul 1418 at Trakai (the Lithuanian Wikipedia’s 31 Aug is a minority date); buried in Vilnius cathedral. Their only recorded child is Sofija (b. 1371). Source: en.wikipedia “Anna, Grand Duchess of Lithuania”.</li>
-<li><strong>[Saga invention]:</strong> Her name’s mystery (the persona keeps her parentage unknown); the maid Elena who lies in Vytautas’s bed and is executed (a nineteenth-century Narbutt addition, not the sources); the sleep draught and dagger under the mourning cloak; her Prussian captivity as a household scene (<a href="../books/book1.html">Book I ch.&nbsp;17</a>-19); the two hostage sons and her silence after 1392 (a contested tradition); her secret teaching of Žiežirba and her letter about the vault; the <a href="../books/book4.html">Book IV ch.&nbsp;9</a> death scene on the eve of the harvest (the real date, the Shrovetide original was moved in the fact-check).</li>
+<li><strong>[Historical record]:</strong> Anna (Ona Vytautienė) is probably Vytautas’s first and only wife; the marriage is dated between 1368 and 1377, about 1370. Her origins are disputed: the late Bychowiec Chronicle calls her a sister of Yuri of Smolensk (Tęgowski agrees), Jonynas argues she came from a Lithuanian noble family and may be Sudimantas’s sister (Baranauskienė notes her sisters married Lithuanian nobles; one, Agrippina, married Ivan Olshanski). She appears in the sources when Vytautas is imprisoned at Krėva in 1382 and helps him escape: the Lithuanian Chronicles say a maid swapped clothes with him; Wigand says he wore Anna’s clothes. She was in Grodno in 1389, followed him to the Order and was held for a time as a guarantee of his loyalty; the Order released her in 1392 so that she could travel to Lithuania (Urban 2006), and she confirmed the Ostrów Agreement in two letters (to Jogaila and Jadwiga). She took part in the Salynas negotiations (1398), met King Sigismund at Késmárk before 1396, and in 1400 made a pilgrimage to Dorothea of Montau’s tomb at Marienwerder. Grand Duchess consort from 1401; died 31 Jul 1418 at Trakai (the Lithuanian Wikipedia’s 31 Aug is a minority date); buried in Vilnius cathedral. Their only recorded child is Sofija (b. 1371). Source: en.wikipedia “Anna, Grand Duchess of Lithuania”.</li>
+<li><strong>[The saga’s invention]:</strong> Her name’s mystery; the maid Elena who lies in Vytautas’s bed and is executed (a nineteenth-century Narbutt addition, not the sources); the sleep draught and dagger under the mourning cloak; her Prussian captivity as a household scene (<a href="../books/book1.html">Book I ch.&nbsp;17</a>-19); the two hostage sons and her silence after 1392 (a contested tradition); her secret teaching of Žiežirba and her letter about the vault; the <a href="../books/book4.html">Book IV ch.&nbsp;9</a> death scene on the eve of the harvest.</li>
 </ul>
 </section>
 <section id="pronunciation" class="level2">
 <h2 class="anchored" data-anchor-id="pronunciation">Pronunciation</h2>
-<p><strong>o-NA</strong> · IPA /oˈnɐ/ · English sound-alike “oh-NAH”. Stress on the second syllable. Lithuanian form of Anna (Ona). Kęstutis and Birutė are her <em>uošvis</em> and <em>anyta</em> (canon D9).</p>
+<p><strong>o-NA</strong> · IPA /oˈnɐ/ · English sound-alike “oh-NAH”. Stress on the second syllable. Lithuanian form of Anna (Ona). Kęstutis and Birutė are her <em>uošvis</em> and <em>anyta</em>.</p>
 </section>
 <section id="appearances" class="level2">
 <h2 class="anchored" data-anchor-id="appearances">Appearances</h2>
@@ -621,7 +651,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><strong>Book V:</strong> ch.&nbsp;2 (the tomb), 22.</li>
 <li><strong>Book VI:</strong> ch.&nbsp;26 (the match, c.&nbsp;1370), 30.</li>
 </ul>
-<p>Continuity: persona age 30 in 1382 against the graph’s b. 1350 and Book IV’s 66 in 1418 (b. c.&nbsp;1352); the record has no birth year. The <a href="../books/book3.html">Book III ch.&nbsp;9</a> “Ona” who brings Žiežirba bread is his own mother, not Vytautas’s wife.</p>
+<p>Book IV makes her 66 in 1418 (b. c.&nbsp;1352); the record has no birth year. The <a href="../books/book3.html">Book III ch.&nbsp;9</a> “Ona” who brings Žiežirba bread is his own mother, not Vytautas’s wife.</p>
 </section>
 <section id="timeline" class="level2">
 <h2 class="anchored" data-anchor-id="timeline">Timeline</h2>
@@ -652,8 +682,8 @@ document.addEventListener("DOMContentLoaded", function () {
 </tbody>
 </table>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -669,14 +699,14 @@ document.addEventListener("DOMContentLoaded", function () {
   teutonic_order["Teutonic Order"]
   vytautas["Vytautas"]
   zoles["Žolės (herb-lore)"]
-  ona --&gt;|hostage_of| teutonic_order
-  ona --&gt;|practises| zoles
-  ona --&gt;|participant| ev_kreva_escape
-  ona --&gt;|participant| ev_ona_dies
-  ona --&gt;|participant| ev_lyck_1390
-  ona --&gt;|hostage_of| teutonic_order
-  vytautas --&gt;|spouse_of| ona
-  elena --&gt;|serves| ona
+  ona --&gt;|Hostage of| teutonic_order
+  ona --&gt;|Practises| zoles
+  ona --&gt;|Took part in| ev_kreva_escape
+  ona --&gt;|Took part in| ev_ona_dies
+  ona --&gt;|Took part in| ev_lyck_1390
+  ona --&gt;|Hostage of| teutonic_order
+  vytautas --&gt;|Spouse| ona
+  elena --&gt;|Serves| ona
   style ona stroke-width:3px
 </pre>
 </div>

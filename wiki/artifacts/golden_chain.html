@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -472,7 +502,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#rule-cost" id="toc-rule-cost" class="nav-link" data-scroll-target="#rule-cost">Rule &amp; cost</a></li>
   <li><a href="#origin" id="toc-origin" class="nav-link" data-scroll-target="#origin">Origin</a></li>
   <li><a href="#arc-across-the-books" id="toc-arc-across-the-books" class="nav-link" data-scroll-target="#arc-across-the-books">Arc across the books</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -516,7 +546,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <p class="sb-prop"><strong>Power</strong> Carries the Breath of the Void. Strangles without a mark, then lets its wearer hear the dead man's last breath. Muffles sound around the wearer, Henė's signature</p>
 <p class="sb-prop"><strong>Rule &amp; cost</strong> A Henė-bargain object, kept to the letter. Masses said over it wash the wearer, not the gold</p>
 <div class="sb-rule"></div>
-<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A heavy chain of Riga gold, each link perfectly welded and colder than the last. At the clasp a small mark: two crossed keys under a cross, the sign of Riga. It is warm when worn.</p><p class="sb-entry"><strong><em>The murder.</em></strong> Fitted round Kęstutis's neck in the Krėva cell on 15 Aug 1382 (<a href="../books/book1.html">Book I ch. 9</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>Sleeplessness.</em></strong> The wearer slowly stops sleeping. Rogala wears it silent at the Noteć ford, and the chain has not yet learned to exhale (<a href="../books/book4.html">Book IV ch. 20</a>, 23).</p><p class="sb-entry"><strong><em>The dead man's breath.</em></strong> It lets Žygimantas hear Kęstutis breathe, and know he is not alone (<a href="../books/book5.html">Book V ch. 22</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Dust.</em></strong> Henė fetches it, stoneless, to the Krėva cell on 14-15 Aug 1438 and Žygimantas puts it on. It turns to dust at his murder at Trakai, 20 Mar 1440 (<a href="../books/book5.html">Book V ch. 19</a>, 22).</p></div><div class="sb-source"><span>Source:</span> <a href="../codex/power-systems.html">power_systems.md §5</a> · world_graph.json (holds) · books/4/notes/book4_handoff.md · books/5/notes/book5_seam_pass.md · <a href="../books/book1.html">Book I ch. 1</a>, 9 · <a href="../books/book2.html">Book II ch. 16</a> · <a href="../books/book4.html">Book IV ch. 20</a>, 23 · wiki/artifacts/golden_chain</div></div>
+<div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Properties</div><p class="sb-entry"><strong><em>Appearance.</em></strong> A heavy chain of Riga gold, each link perfectly welded and colder than the last. At the clasp a small mark: two crossed keys under a cross, the sign of Riga. It is warm when worn.</p><p class="sb-entry"><strong><em>The murder.</em></strong> Fitted round Kęstutis's neck in the Krėva cell on 15 Aug 1382 (<a href="../books/book1.html">Book I ch. 9</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Curse or cost</div><p class="sb-entry"><strong><em>Sleeplessness.</em></strong> The wearer slowly stops sleeping. Rogala wears it silent at the Noteć ford, and the chain has not yet learned to exhale (<a href="../books/book4.html">Book IV ch. 20</a>, 23).</p><p class="sb-entry"><strong><em>The dead man's breath.</em></strong> It lets Žygimantas hear Kęstutis breathe, and know he is not alone (<a href="../books/book5.html">Book V ch. 22</a>).</p></div><div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Fate</div><p class="sb-entry"><strong><em>Dust.</em></strong> Henė fetches it, stoneless, to the Krėva cell on 14-15 Aug 1438 and Žygimantas puts it on. It turns to dust at his murder at Trakai, 20 Mar 1440 (<a href="../books/book5.html">Book V ch. 19</a>, 22).</p></div><div class="sb-source"><span>Source:</span> <a href="../guide/power-systems.html">Power systems §5</a> · <a href="../books/book1.html">Book I ch. 1</a>, 9 · <a href="../books/book2.html">Book II ch. 16</a> · <a href="../books/book4.html">Book IV ch. 20</a>, 23</div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -556,7 +586,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="power" class="level2">
 <h2 class="anchored" data-anchor-id="power">Power</h2>
-<p>It carries the Breath of the Void. It strangles its victim without a mark and afterwards lets its wearer hear the dead man’s last breath. In Book V it lets Žygimantas hear Kęstutis breathe “and know that he is not alone” (V ch.&nbsp;22). It also muffles sound around the wearer, which is Henė’s signature (<a href="../codex/power-systems.html">power_systems.md §5</a>).</p>
+<p>It carries the Breath of the Void. It strangles its victim without a mark and afterwards lets its wearer hear the dead man’s last breath. In Book V it lets Žygimantas hear Kęstutis breathe “and know that he is not alone” (V ch.&nbsp;22). It also muffles sound around the wearer, which is Henė’s signature (<a href="../guide/power-systems.html">Power systems §5</a>).</p>
 </section>
 <section id="rule-cost" class="level2">
 <h2 class="anchored" data-anchor-id="rule-cost">Rule &amp; cost</h2>
@@ -564,20 +594,20 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="origin" class="level2">
 <h2 class="anchored" data-anchor-id="origin">Origin</h2>
-<p>[Saga] Sent from Riga as Jogaila’s “gift” with Hanulas’s envoys, summer 1382 (<a href="../books/book1.html">Book I ch.&nbsp;1</a>); <a href="../forces/shadow_seller.html">Henė</a> made it for the cousins’ deal.</p>
+<p>[The saga’s invention] Sent from Riga as Jogaila’s “gift” with Hanulas’s envoys, summer 1382 (<a href="../books/book1.html">Book I ch.&nbsp;1</a>); <a href="../forces/shadow_seller.html">Henė</a> made it for the cousins’ deal.</p>
 </section>
 <section id="arc-across-the-books" class="level2">
 <h2 class="anchored" data-anchor-id="arc-across-the-books">Arc across the books</h2>
 <ul>
 <li><strong>Jogaila’s envoys, then the mercenaries, 1382.</strong> Kęstutis weighs it and puts it back (I ch.&nbsp;1). It is fitted round his neck in the Krėva cell on 15 Aug 1382 (I ch.&nbsp;9). Graph: Jogaila 1382.</li>
 <li><strong>Skirgaila, 1383-1397.</strong> Graph holder; the books show Henė on the scene.</li>
-<li><strong>Henė, Jan 1397.</strong> He pockets it after Skirgaila dies at Kyiv (<a href="../books/book2.html">Book II ch.&nbsp;16</a>) and wears it openly in 1405 (III notes).</li>
-<li><strong>Baltramiejus Rogala, Apr 1429-Aug 1430.</strong> Given in a Buda corridor as a “gift, not a bribe” (IV ch.&nbsp;20); worn silent at the Noteć ford (IV ch.&nbsp;23). Graph: <a href="../characters/rogala.html">Rogala</a> 1429-1430. It stays with the bishop’s people at Kraków (IV ch.&nbsp;30; graph: Poland, the treasury, 1430-1438) and is eight years in the cathedral treasury (V ch.&nbsp;19).</li>
-<li><strong>Žygimantas Kęstutaitis, 14-15 Aug 1438-20 Mar 1440.</strong> Henė fetches it, stoneless, to the Krėva cell and Žygimantas puts it on (V ch.&nbsp;19). It turns to dust at his murder at Trakai (V ch.&nbsp;22). The graph now has Henė 1397-1429 (to Rogala in April 1429), the Kraków treasury 1430-1438, Henė again in 1438 and Žygimantas 1438-1440.</li>
+<li><strong>Henė, Jan 1397.</strong> He pockets it after Skirgaila dies at Kyiv (<a href="../books/book2.html">Book II ch.&nbsp;16</a>) and wears it openly in 1405 (Book III).</li>
+<li><strong>Baltramiejus Rogala, Apr 1429-Aug 1430.</strong> Given in a Buda corridor as a “gift, not a bribe” (IV ch.&nbsp;20); worn silent at the Noteć ford (IV ch.&nbsp;23). Graph: <a href="../characters/rogala.html">Rogala</a> 1429-1430. It stays with the bishop’s people at Kraków and is eight years in the cathedral treasury (V ch.&nbsp;19).</li>
+<li><strong>Žygimantas Kęstutaitis, 14-15 Aug 1438-20 Mar 1440.</strong> Henė fetches it, stoneless, to the Krėva cell and Žygimantas puts it on (V ch.&nbsp;19). It turns to dust at his murder at Trakai (V ch.&nbsp;22). It passes from Henė (1397-1429, to Rogala in April 1429) to the Kraków treasury (1430-1438), then to Henė again in 1438 and to Žygimantas (1438-1440).</li>
 </ul>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -592,14 +622,14 @@ document.addEventListener("DOMContentLoaded", function () {
   shadow_seller["Šešėlių Pardavėjas / Henė"]
   skirgaila["Skirgaila"]
   zygimantas["Žygimantas Kęstutaitis"]
-  golden_chain --&gt;|created_by| shadow_seller
-  jogaila --&gt;|holds| golden_chain
-  skirgaila --&gt;|holds| golden_chain
-  shadow_seller --&gt;|holds| golden_chain
-  rogala --&gt;|holds| golden_chain
-  poland --&gt;|holds| golden_chain
-  shadow_seller --&gt;|holds| golden_chain
-  zygimantas --&gt;|holds| golden_chain
+  golden_chain --&gt;|Created by| shadow_seller
+  jogaila --&gt;|Holds| golden_chain
+  skirgaila --&gt;|Holds| golden_chain
+  shadow_seller --&gt;|Holds| golden_chain
+  rogala --&gt;|Holds| golden_chain
+  poland --&gt;|Holds| golden_chain
+  shadow_seller --&gt;|Holds| golden_chain
+  zygimantas --&gt;|Holds| golden_chain
   style golden_chain stroke-width:3px
 </pre>
 </div>

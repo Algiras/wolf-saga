@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -467,14 +497,14 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#folk-source-record" id="toc-folk-source-record" class="nav-link active" data-scroll-target="#folk-source-record">Folk source [Record]</a></li>
+  <li><a href="#folk-source-historical-record" id="toc-folk-source-historical-record" class="nav-link active" data-scroll-target="#folk-source-historical-record">Folk source [Historical record]</a></li>
   <li><a href="#in-the-saga-where-the-folk-are-half-wrong" id="toc-in-the-saga-where-the-folk-are-half-wrong" class="nav-link" data-scroll-target="#in-the-saga-where-the-folk-are-half-wrong">In the saga (where the folk are half-wrong)</a></li>
   <li><a href="#signs-habitat" id="toc-signs-habitat" class="nav-link" data-scroll-target="#signs-habitat">Signs &amp; habitat</a></li>
   <li><a href="#before-after-the-unbinding" id="toc-before-after-the-unbinding" class="nav-link" data-scroll-target="#before-after-the-unbinding">Before / after the Unbinding</a></li>
   <li><a href="#banes-wards-bargains-and-their-cost" id="toc-banes-wards-bargains-and-their-cost" class="nav-link" data-scroll-target="#banes-wards-bargains-and-their-cost">Banes, wards, bargains, and their cost</a></li>
   <li><a href="#danger-level" id="toc-danger-level" class="nav-link" data-scroll-target="#danger-level">Danger level</a></li>
   <li><a href="#story-hooks" id="toc-story-hooks" class="nav-link" data-scroll-target="#story-hooks">Story hooks</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -514,7 +544,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-name">Velnias's small shapes (velniukai)</div>
 <div class="sb-sub">Velnias's small shapes · Lithuanian folk tales, saga-true</div>
 <div class="sb-rule"></div>
-<p class="sb-prop"><strong>Origin</strong> [Record] Velnias as a gentleman in green, a black cat or a black dog, regularly cheated by peasants · [Saga] velniukai, small change from the same purse</p>
+<p class="sb-prop"><strong>Origin</strong> [Historical record] Velnias as a gentleman in green, a black cat or a black dog, regularly cheated by peasants · [The saga's invention] velniukai, small change from the same purse</p>
 <p class="sb-prop"><strong>Tier</strong> Dvasia · shards of Velnias; the Shadow-Seller's scouts</p>
 <p class="sb-prop"><strong>Danger</strong> II hazard → III dangerous</p>
 <p class="sb-prop"><strong>Habitat</strong> Villages, mills, swamps and stones; after 1387 the towns where ledgers make better bargains</p>
@@ -526,7 +556,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Half-wrong truth.</em></strong> These are not the Shadow-Seller himself, but small change from the same purse. Hungry and fair like their lord, they keep every deal to the letter and lose to anyone cleverer.</p><p class="sb-entry"><strong><em>Scouts.</em></strong> The Shadow-Seller uses them as eyes: a black dog at the edge of the firelight is often how he learns what a prince will need.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Actions</div><p class="sb-entry"><strong><em>Small bargains.</em></strong> In villages, worded precisely.</p><p class="sb-entry"><strong><em>Teaching (after 1387).</em></strong> With the Krivis and the vaidilutės gone, they are the only teachers left to many raganos.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Costs</div><p class="sb-entry"><strong><em>The thunder candle.</em></strong> Perkūnas's attention comes with it.</p><p class="sb-entry"><strong><em>Never shake his hand.</em></strong> Rudeness to strangers is itself a sin against custom, so you may insult the Beggar by mistake.</p><p class="sb-entry"><strong><em>Out-thinking him.</em></strong> Draft the deal yourself. If you are less clever than you think, the letter is your ruin.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/bestiary.html">bestiary.md §20</a> · <a href="../codex/legends-songs.html">legends_and_songs.md §8</a>, §9 · <a href="../codex/cosmology.html">cosmology.md §3.1</a> · <a href="../books/book1.html">Book I ch. 8</a>-9</div><div class="sb-bar"></div></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../guide/bestiary.html">Bestiary §20</a> · <a href="../guide/legends-songs.html">Legends &amp; songs §8, §9</a> · <a href="../guide/cosmology.html">Cosmology §3.1</a> · <a href="../books/book1.html">Book I ch. 8</a>-9</div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -546,18 +576,18 @@ document.addEventListener("DOMContentLoaded", function () {
 </tr>
 <tr class="even">
 <td><strong>Status</strong></td>
-<td>Saga invention</td>
+<td>The saga’s invention</td>
 </tr>
 <tr class="odd">
 <td><strong>Note</strong></td>
-<td>Bestiary §20. Danger II → III.</td>
+<td><a href="../guide/bestiary.html">Bestiary §20</a>. Danger II → III.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<section id="folk-source-record" class="level2">
-<h2 class="anchored" data-anchor-id="folk-source-record">Folk source [Record]</h2>
+<section id="folk-source-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="folk-source-historical-record">Folk source [Historical record]</h2>
 <p>Velnias is one of the most vivid figures of Lithuanian folk tales. He often appears as a gentleman, frequently a “little German” (<em>vokietukas</em>) in a green or black coat with a hat hiding his horns and a goose- or horse-foot he cannot hide. He also takes the shapes of black cats and black dogs, haunts swamps, stones and mills, makes bargains (signed in blood in Christian-era tales) and is regularly cheated by clever peasants. He fears Perkūnas, who hunts him with lightning; in storms people chased cats and dogs out of the house.</p>
 </section>
 <section id="in-the-saga-where-the-folk-are-half-wrong" class="level2">
@@ -584,8 +614,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="story-hooks">Story hooks</h2>
 <p>Book I: a black dog in the courtyard at Krėva the night of 15 August 1382 (ch.&nbsp;8–9), watching the tower. Book VI: the black dog at the Pact fire (ch.&nbsp;8, 27).</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -596,8 +626,8 @@ document.addEventListener("DOMContentLoaded", function () {
   ragana["Ragana (seer-witch)"]
   velnias["Velnias"]
   velnio_pavidalai["Velnias's small shapes (velniukai)"]
-  velnio_pavidalai --&gt;|shard_of| velnias
-  ragana --&gt;|bargain_with| velnio_pavidalai
+  velnio_pavidalai --&gt;|Shard of| velnias
+  ragana --&gt;|Bargained with| velnio_pavidalai
   style velnio_pavidalai stroke-width:3px
 </pre>
 </div>

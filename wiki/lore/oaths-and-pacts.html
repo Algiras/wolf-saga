@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,6 +99,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -350,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -407,8 +437,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -501,11 +531,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <blockquote class="blockquote">
 <p><em>“They swore with iron on a stone and blood on a bead, and no one asked the land whether it agreed. That is the whole of our history, if you strip off the dates.”</em></p>
-<p><strong>[Saga]</strong> A Samogitian hedge-woman, quoted in a Franciscan’s letter, c.&nbsp;1415.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>[The saga’s invention]</strong> A Samogitian hedge-woman, quoted in a Franciscan’s letter, c.&nbsp;1415.</p>
 </blockquote>
 <section id="priesaika-the-oath-that-binds" class="level2">
 <h2 class="anchored" data-anchor-id="priesaika-the-oath-that-binds">Priesaika: the oath that binds</h2>
-<p><strong>[Record]</strong> Pagan Lithuanians swore by Perkūnas or the earth, and treaties were sworn with pagan rites. In 1351 Kęstutis swore to Louis of Hungary with an ox sacrificed to Perkūnas. In the saga, an oath sworn in the right form is <strong>literally binding</strong> (<a href="../magic/priesaika.html">Priesaika</a>; <a href="../codex/power-systems.html">Power systems</a>, §2.6):</p>
+<p><strong>[Historical record]</strong> Pagan Lithuanians swore by Perkūnas or the earth, and treaties were sworn with pagan rites. In 1351 Kęstutis swore to Louis of Hungary with an ox sacrificed to Perkūnas. In the saga, an oath sworn in the right form is <strong>literally binding</strong> (<a href="../magic/priesaika.html">Priesaika</a>; <a href="../guide/power-systems.html">Power systems</a>, §2.6):</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -546,7 +578,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="the-silent-pact-tylioji-sutartis" class="level2">
 <h2 class="anchored" data-anchor-id="the-silent-pact-tylioji-sutartis">The Silent Pact (Tylioji Sutartis)</h2>
-<p><strong>[Saga]</strong> Sworn on Vėlinės night, 1345, in the Šventaragis valley, when Algirdas and Kęstutis divided the realm after deposing Jaunutis (<a href="../books/book6.html">Book VI ch.&nbsp;4</a>; <a href="../books/book5.html">Book V ch.&nbsp;5</a>; <a href="../magic/silent_pact.html">the Pact</a>). The <strong>Krivis</strong> is a witness, not an envoy.</p>
+<p><strong>[The saga’s invention]</strong> Sworn on Vėlinės night, 1345, in the Šventaragis valley, when Algirdas and Kęstutis divided the realm after deposing Jaunutis (<a href="../books/book6.html">Book VI ch.&nbsp;4</a>; <a href="../books/book5.html">Book V ch.&nbsp;5</a>; <a href="../magic/silent_pact.html">the Pact</a>). The <strong>Krivis</strong> is a witness, not an envoy.</p>
 <section id="three-parties" class="level3">
 <h3 class="anchored" data-anchor-id="three-parties">Three parties</h3>
 <table class="caption-top table">
@@ -597,7 +629,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="the-packs-word" class="level2">
 <h2 class="anchored" data-anchor-id="the-packs-word">The Pack’s Word</h2>
-<p>The Iron Wolves swear nine rules on the skull of the Iron Wolf (<a href="../codex/the-iron-wolves.html">The Iron Wolves</a>, §6). A lie spoken over it is heard by every wolf in the Dykra.</p>
+<p>The Iron Wolves swear nine rules on the skull of the Iron Wolf (<a href="../guide/the-iron-wolves.html">The Iron Wolves</a>, §6). A lie spoken over it is heard by every wolf in the Dykra.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -699,7 +731,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </tr>
 </tbody>
 </table>
-<p><em>Canon gap, flagged:</em> canon does not give the Pact’s rite a fixed liturgy beyond the pieces named here (iron on stone, secret names to the fire, blood on an amber bead), and does not say what, if anything, a living person can do to <strong>renew</strong> it. Book V’s ending leaves that open.</p>
+<p><em>Left open:</em> the Pact’s rite has no fixed liturgy beyond the pieces named here (iron on stone, secret names to the fire, blood on an amber bead), and it is not said what, if anything, a living person can do to <strong>renew</strong> it. Book V’s ending leaves that open.</p>
 
 
 </section>

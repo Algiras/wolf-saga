@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -476,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#pronunciation" id="toc-pronunciation" class="nav-link" data-scroll-target="#pronunciation">Pronunciation</a></li>
   <li><a href="#appearances" id="toc-appearances" class="nav-link" data-scroll-target="#appearances">Appearances</a></li>
   <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -607,17 +637,17 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="record-vs-saga" class="level2">
 <h2 class="anchored" data-anchor-id="record-vs-saga">Record vs saga</h2>
 <ul>
-<li><strong>[Record]:</strong> Born c.&nbsp;1362 (Tęgowski 1999, the post-1990 consensus; the older view is c.&nbsp;1352), Grand Duke of Lithuania from 1377 (co-ruling with Kęstutis), baptised Władysław in Kraków on 15 Feb 1386, married Jadwiga on 18 Feb and crowned King of Poland on 4 Mar 1386; ruler of Lithuania until 1392, then overlord of Vytautas. He signed the Treaty of Dovydiškės with the Order on 31 May 1380, regained Vilnius on 12 June 1382, when Hanul and the townspeople handed him the city while Kęstutis was away fighting Kaributas, and had Kęstutis and Vytautas seized on 3 Aug 1382 at his camp near Trakai; Kęstutis was found dead at Krėva on 15 Aug (the official story: suicide). Union of Krėva (14 Aug 1385); baptism of Lithuania (1387); Ostrów (1392); Grunwald (15 Jul 1410); Horodło (1413); Lutsk (1429). Wives: Jadwiga (d.&nbsp;1399), Anna of Celje (d.&nbsp;1416), Elżbieta Granowska (d.&nbsp;1420), Sophia of Halshany (m. 1422), mother of Władysław III and Casimir IV. Died 1 Jun 1434 at Gródek (Horodok) near Lviv. See <a href="https://en.wikipedia.org/wiki/Jogaila">Wikipedia</a>.</li>
-<li><strong>[Saga invention]:</strong> The Shadow-Seller’s bargain and the golden chain used on Kęstutis; the strangulation (the record gives murder by strangulation as one side of a disagreement, suicide as the official story); the crows and the grove pressure; his inability to look at the silver wolf; the court burtininkas. The nightingale at Gródek is a historical anecdote (Długosz). The saga chooses 1362 for his birth; it never states his age except in <a href="../books/book1.html">Book I ch.&nbsp;5</a> (four, in 1366).</li>
+<li><strong>[Historical record]:</strong> Born c.&nbsp;1362 (Tęgowski 1999, the post-1990 consensus; the older view is c.&nbsp;1352), Grand Duke of Lithuania from 1377 (co-ruling with Kęstutis), baptised Władysław in Kraków on 15 Feb 1386, married Jadwiga on 18 Feb and crowned King of Poland on 4 Mar 1386; ruler of Lithuania until 1392, then overlord of Vytautas. He signed the Treaty of Dovydiškės with the Order on 31 May 1380, regained Vilnius on 12 June 1382, when Hanul and the townspeople handed him the city while Kęstutis was away fighting Kaributas, and had Kęstutis and Vytautas seized on 3 Aug 1382 at his camp near Trakai; Kęstutis was found dead at Krėva on 15 Aug (the official story: suicide). Union of Krėva (14 Aug 1385); baptism of Lithuania (1387); Ostrów (1392); Grunwald (15 Jul 1410); Horodło (1413); Lutsk (1429). Wives: Jadwiga (d.&nbsp;1399), Anna of Celje (d.&nbsp;1416), Elżbieta Granowska (d.&nbsp;1420), Sophia of Halshany (m. 1422), mother of Władysław III and Casimir IV. Died 1 Jun 1434 at Gródek (Horodok) near Lviv. See <a href="https://en.wikipedia.org/wiki/Jogaila">Wikipedia</a>.</li>
+<li><strong>[The saga’s invention]:</strong> The Shadow-Seller’s bargain and the golden chain used on Kęstutis; the strangulation (the record gives murder by strangulation as one side of a disagreement, suicide as the official story); the crows and the grove pressure; his inability to look at the silver wolf; the court burtininkas. The nightingale at Gródek is a historical anecdote (Długosz). The saga chooses 1362 for his birth; it never states his age except in <a href="../books/book1.html">Book I ch.&nbsp;5</a> (four, in 1366).</li>
 </ul>
 </section>
 <section id="pronunciation" class="level2">
 <h2 class="anchored" data-anchor-id="pronunciation">Pronunciation</h2>
-<p><strong>jo-GAI-la</strong> (/joˈɡɐɪɫɐ/), English respelling <em>yo-GUY-lah</em>; stress on the second syllable. The dynasty <em>Jogailaičiai</em>: jo-gai-LAI-čiai, <em>yo-guy-LYE-chay</em>. Polish <em>Jagiełło</em>, baptismal <em>Władysław</em>. [world_rules/pronunciation_lexicon.json]</p>
+<p><strong>jo-GAI-la</strong> (/joˈɡɐɪɫɐ/), English respelling <em>yo-GUY-lah</em>; stress on the second syllable. The dynasty <em>Jogailaičiai</em>: jo-gai-LAI-čiai, <em>yo-guy-LYE-chay</em>. Polish <em>Jagiełło</em>, baptismal <em>Władysław</em>.</p>
 </section>
 <section id="appearances" class="level2">
 <h2 class="anchored" data-anchor-id="appearances">Appearances</h2>
-<p><strong>Book I:</strong> ch.&nbsp;1-7, 9-13, 17, 26 (the silver wolf), 28, 28b (Union of Krėva), 29, 30 and the prologue. <strong>Book II:</strong> ch.&nbsp;1, 2, 4, 10 (Ostrów), 21, 22, 29 and the afterword. <strong>Book III:</strong> ch.&nbsp;3 (Vilnius and Radom), 6, 8, 13, 18, 20, 24 (a long chapter from his side), 25, 27, 30 and the afterword. <strong>Book IV:</strong> ch.&nbsp;3, 13, 14, 18, 19 (Lutsk), 24, 26 (Last Meeting). <strong>Book V:</strong> ch.&nbsp;2, 3, 6, 12 (the nightingale), 18, 24 and the afterword. <strong>Book VI:</strong> ch.&nbsp;15, 25-30 (as a boy and Algirdas’s heir). Continuity: Henė’s stone for him is his only remaining one in Book V (ch.&nbsp;8).</p>
+<p><strong>Book I:</strong> ch.&nbsp;1-7, 9-13, 17, 26 (the silver wolf), 28, 28b (Union of Krėva), 29, 30 and the prologue. <strong>Book II:</strong> ch.&nbsp;1, 2, 4, 10 (Ostrów), 21, 22, 29 and the afterword. <strong>Book III:</strong> ch.&nbsp;3 (Vilnius and Radom), 6, 8, 13, 18, 20, 24 (a long chapter from his side), 25, 27, 30 and the afterword. <strong>Book IV:</strong> ch.&nbsp;3, 13, 14, 18, 19 (Lutsk), 24, 26 (Last Meeting). <strong>Book V:</strong> ch.&nbsp;2, 3, 6, 12 (the nightingale), 18, 24 and the afterword. <strong>Book VI:</strong> ch.&nbsp;15, 25-30 (as a boy and Algirdas’s heir).</p>
 </section>
 <section id="timeline" class="level2">
 <h2 class="anchored" data-anchor-id="timeline">Timeline</h2>
@@ -698,8 +728,8 @@ document.addEventListener("DOMContentLoaded", function () {
 </tbody>
 </table>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -732,33 +762,33 @@ document.addEventListener("DOMContentLoaded", function () {
   teutonic_order["Teutonic Order"]
   uliana_tver["Uliana of Tver (Julijona Tverietė), Algirdas's second wife"]
   vytautas["Vytautas"]
-  jogaila --&gt;|spouse_of| jadvyga
-  jogaila --&gt;|sibling_of| skirgaila
-  jogaila --&gt;|sibling_of| svitrigaila
-  jogaila --&gt;|member_of| algirdaiciai
-  jogaila --&gt;|rules| gdl
-  jogaila --&gt;|rules| poland
-  jogaila --&gt;|ally_of| teutonic_order
-  jogaila --&gt;|enemy_of| kestutis
-  jogaila --&gt;|practises| bargain
-  jogaila --&gt;|holds| golden_chain
-  jogaila --&gt;|participant| ev_dovydiskes
-  jogaila --&gt;|participant| ev_vilnius_retaken
-  jogaila --&gt;|participant| ev_truce_ashes
-  jogaila --&gt;|participant| ev_kreva_union
-  jogaila --&gt;|participant| ev_krakow_1386
-  jogaila --&gt;|participant| ev_lithuania_baptism
-  jogaila --&gt;|participant| ev_ostrow
-  jogaila --&gt;|participant| ev_grunwald
-  jogaila --&gt;|participant| ev_lutsk
-  jogaila --&gt;|participant| ev_jogaila_dies
-  algirdas --&gt;|parent_of| jogaila
-  vytautas --&gt;|enemy_of| jogaila
-  vytautas --&gt;|ally_of| jogaila
-  vytautas --&gt;|enemy_of| jogaila
-  vytautas --&gt;|ally_of| jogaila
-  shadow_seller --&gt;|bargain_with| jogaila
-  uliana_tver --&gt;|parent_of| jogaila
+  jogaila --&gt;|Spouse| jadvyga
+  jogaila --&gt;|Sibling| skirgaila
+  jogaila --&gt;|Sibling| svitrigaila
+  jogaila --&gt;|Member of| algirdaiciai
+  jogaila --&gt;|Rules| gdl
+  jogaila --&gt;|Rules| poland
+  jogaila --&gt;|Ally| teutonic_order
+  jogaila --&gt;|Enemy| kestutis
+  jogaila --&gt;|Practises| bargain
+  jogaila --&gt;|Holds| golden_chain
+  jogaila --&gt;|Took part in| ev_dovydiskes
+  jogaila --&gt;|Took part in| ev_vilnius_retaken
+  jogaila --&gt;|Took part in| ev_truce_ashes
+  jogaila --&gt;|Took part in| ev_kreva_union
+  jogaila --&gt;|Took part in| ev_krakow_1386
+  jogaila --&gt;|Took part in| ev_lithuania_baptism
+  jogaila --&gt;|Took part in| ev_ostrow
+  jogaila --&gt;|Took part in| ev_grunwald
+  jogaila --&gt;|Took part in| ev_lutsk
+  jogaila --&gt;|Took part in| ev_jogaila_dies
+  algirdas --&gt;|Parent of| jogaila
+  vytautas --&gt;|Enemy| jogaila
+  vytautas --&gt;|Ally| jogaila
+  vytautas --&gt;|Enemy| jogaila
+  vytautas --&gt;|Ally| jogaila
+  shadow_seller --&gt;|Bargained with| jogaila
+  uliana_tver --&gt;|Parent of| jogaila
   style jogaila stroke-width:3px
 </pre>
 </div>

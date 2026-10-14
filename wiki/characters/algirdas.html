@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -476,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#pronunciation" id="toc-pronunciation" class="nav-link" data-scroll-target="#pronunciation">Pronunciation</a></li>
   <li><a href="#appearances" id="toc-appearances" class="nav-link" data-scroll-target="#appearances">Appearances</a></li>
   <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -601,17 +631,17 @@ document.addEventListener("DOMContentLoaded", function () {
 <section id="record-vs-saga" class="level2">
 <h2 class="anchored" data-anchor-id="record-vs-saga">Record vs saga</h2>
 <ul>
-<li><strong>[Record]:</strong> Grand Duke of Lithuania 1345-77 (born c.&nbsp;1296, died May 1377), ruling from Vilnius in a diarchy with his brother <a href="../characters/kestutis.html">Kęstutis</a> after they deposed their brother Jaunutis in 1345. Through his first wife Maria of Vitebsk (m. c.&nbsp;1318) he held Vitebsk; in 1350 he married Uliana of Tver, and in 1377 her son <a href="../characters/jogaila.html">Jogaila</a> was preferred over Maria’s elder sons. He defeated three Tatar commanders at Blue Waters (1362; dating debated) and drew Kyiv and Podolia into the realm, and besieged Moscow in 1368, 1370 and 1372. He was cremated according to pagan custom; Ruthenian sources say he took monastic vows near the end (tradition, unverified). See <a href="https://www.vle.lt/straipsnis/algirdas/">VLE</a> and <a href="https://en.wikipedia.org/wiki/Algirdas">Wikipedia</a>.</li>
-<li><strong>[Saga invention]:</strong> The Silent Pact of 1345 and his hesitation at its third clause (<a href="../books/book6.html">Book VI ch.&nbsp;4</a>; <a href="../books/book5.html">Book V ch.&nbsp;5</a>); the black dog and the ledger clerk at his court (<a href="../books/book6.html">Book VI ch.&nbsp;8</a>, 27); the double funeral with Krivis and monk side by side (ch.&nbsp;29). These are private scenes in gaps of the record and contradict no date or deed.</li>
+<li><strong>[Historical record]:</strong> Grand Duke of Lithuania 1345-77 (born c.&nbsp;1296, died May 1377), ruling from Vilnius in a diarchy with his brother <a href="../characters/kestutis.html">Kęstutis</a> after they deposed their brother Jaunutis in 1345. Through his first wife Maria of Vitebsk (m. c.&nbsp;1318) he held Vitebsk; in 1350 he married Uliana of Tver, and in 1377 her son <a href="../characters/jogaila.html">Jogaila</a> was preferred over Maria’s elder sons. He defeated three Tatar commanders at Blue Waters (1362; dating debated) and drew Kyiv and Podolia into the realm, and besieged Moscow in 1368, 1370 and 1372. He was cremated according to pagan custom; Ruthenian sources say he took monastic vows near the end (tradition, unverified). See <a href="https://www.vle.lt/straipsnis/algirdas/">VLE</a> and <a href="https://en.wikipedia.org/wiki/Algirdas">Wikipedia</a>.</li>
+<li><strong>[The saga’s invention]:</strong> The Silent Pact of 1345 and his hesitation at its third clause (<a href="../books/book6.html">Book VI ch.&nbsp;4</a>; <a href="../books/book5.html">Book V ch.&nbsp;5</a>); the black dog and the ledger clerk at his court (<a href="../books/book6.html">Book VI ch.&nbsp;8</a>, 27); the double funeral with Krivis and monk side by side (ch.&nbsp;29). These are private scenes in gaps of the record and contradict no date or deed.</li>
 </ul>
 </section>
 <section id="pronunciation" class="level2">
 <h2 class="anchored" data-anchor-id="pronunciation">Pronunciation</h2>
-<p><strong>al-GIR-das</strong> (/ɐlʲˈɡʲɪrdɐs/), English respelling <em>ahl-GIHR-dahs</em>; stress on the second syllable. Genitive <em>Algirdo</em>, dative <em>Algirdui</em>, accusative <em>Algirdą</em>. [world_rules/pronunciation_lexicon.json]</p>
+<p><strong>al-GIR-das</strong> (/ɐlʲˈɡʲɪrdɐs/), English respelling <em>ahl-GIHR-dahs</em>; stress on the second syllable. Genitive <em>Algirdo</em>, dative <em>Algirdui</em>, accusative <em>Algirdą</em>.</p>
 </section>
 <section id="appearances" class="level2">
 <h2 class="anchored" data-anchor-id="appearances">Appearances</h2>
-<p><strong>Book VI</strong> (Šventasis Miškas): the dominant figure of the prequel after Kęstutis: ch.&nbsp;1, 3, 4, 6, 7, 8, 12, 15, 20 (POV), 22, 24, 25 (POV), 26, 28, 29, 30 and the afterword. <strong>Book I:</strong> ch.&nbsp;1, 2, 6, 8, 10 (remembered). <strong>Book II:</strong> ch.&nbsp;12, 13, 22, 28 and the afterword (as father of Andrius, Dmitrijus, Skirgaila, Švitrigaila). <strong>Book III:</strong> ch.&nbsp;2, 5, 8. <strong>Book IV:</strong> ch.&nbsp;12, 24. <strong>Book V:</strong> ch.&nbsp;3, 5 (the oath flashback), 9, 11, 15, 19, 26. Continuity note: <a href="../books/book6.html">Book VI ch.&nbsp;15</a> and 29 set his heir-naming and death in spring 1377; Book I treats the date as three years and some months before Jogaila’s accession scenes.</p>
+<p><strong>Book VI</strong> (Šventasis Miškas): the dominant figure of the prequel after Kęstutis: ch.&nbsp;1, 3, 4, 6, 7, 8, 12, 15, 20 (POV), 22, 24, 25 (POV), 26, 28, 29, 30 and the afterword. <strong>Book I:</strong> ch.&nbsp;1, 2, 6, 8, 10 (remembered). <strong>Book II:</strong> ch.&nbsp;12, 13, 22, 28 and the afterword (as father of Andrius, Dmitrijus, Skirgaila, Švitrigaila). <strong>Book III:</strong> ch.&nbsp;2, 5, 8. <strong>Book IV:</strong> ch.&nbsp;12, 24. <strong>Book V:</strong> ch.&nbsp;3, 5 (the oath flashback), 9, 11, 15, 19, 26. <a href="../books/book6.html">Book VI ch.&nbsp;15</a> and 29 set his heir-naming and death in spring 1377; Book I treats the date as three years and some months before Jogaila’s accession scenes.</p>
 </section>
 <section id="timeline" class="level2">
 <h2 class="anchored" data-anchor-id="timeline">Timeline</h2>
@@ -637,8 +667,8 @@ document.addEventListener("DOMContentLoaded", function () {
 </tbody>
 </table>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -659,18 +689,18 @@ document.addEventListener("DOMContentLoaded", function () {
   skirgaila["Skirgaila"]
   svitrigaila["Švitrigaila"]
   uliana_tver["Uliana of Tver (Julijona Tverietė), Algirdas's second wife"]
-  algirdas --&gt;|sibling_of| kestutis
-  algirdas --&gt;|parent_of| jogaila
-  algirdas --&gt;|parent_of| skirgaila
-  algirdas --&gt;|parent_of| svitrigaila
-  algirdas --&gt;|parent_of| kaributas
-  algirdas --&gt;|member_of| algirdaiciai
-  algirdas --&gt;|rules| gdl
-  algirdas --&gt;|participant| ev_pact_sworn
-  algirdas --&gt;|participant| ev_algirdas_dies
-  algirdas --&gt;|spouse_of| uliana_tver
-  gediminas --&gt;|parent_of| algirdas
-  silent_pact --&gt;|binds| algirdas
+  algirdas --&gt;|Sibling| kestutis
+  algirdas --&gt;|Parent of| jogaila
+  algirdas --&gt;|Parent of| skirgaila
+  algirdas --&gt;|Parent of| svitrigaila
+  algirdas --&gt;|Parent of| kaributas
+  algirdas --&gt;|Member of| algirdaiciai
+  algirdas --&gt;|Rules| gdl
+  algirdas --&gt;|Took part in| ev_pact_sworn
+  algirdas --&gt;|Took part in| ev_algirdas_dies
+  algirdas --&gt;|Spouse| uliana_tver
+  gediminas --&gt;|Parent of| algirdas
+  silent_pact --&gt;|Binds| algirdas
   style algirdas stroke-width:3px
 </pre>
 </div>

@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -474,7 +504,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#vessels-servants-claims" id="toc-vessels-servants-claims" class="nav-link" data-scroll-target="#vessels-servants-claims">Vessels, servants, claims</a></li>
   <li><a href="#weaknesses" id="toc-weaknesses" class="nav-link" data-scroll-target="#weaknesses">Weaknesses</a></li>
   <li><a href="#arc-across-the-books" id="toc-arc-across-the-books" class="nav-link" data-scroll-target="#arc-across-the-books">Arc across the books</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -528,7 +558,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Traits</div><p class="sb-entry"><strong><em>Gathers at a price.</em></strong> Wherever a baptism is being bought: Jogaila's Vilnius in 1382 (he is already pricing a crown) and Krėva, where the 1385 union is signed.</p><p class="sb-entry"><strong><em>Hollowing.</em></strong> Its victims are the bebalsiai, who lose voice, shadow and warmth.</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Lair</div><p class="sb-entry"><strong><em>Where crowns are priced.</em></strong> Vilnius, Krėva, Kraków. Strongest in winter and wherever a bought baptism is read aloud.</p><p class="sb-entry"><strong><em>After the flame.</em></strong> An unnamed cold fills Trakai once the Last Flame goes out (<a href="../books/book5.html">Book V ch. 4</a>).</p></div>
 <div class="sb-section"><div class="sb-title" role="heading" aria-level="4">Turns by book</div><p class="sb-entry"><strong><em>Book I.</em></strong> Krėva first, as frost in November 1382 (ch. 14); at the 1385 union frost ferns grow on the glass and the quill makes no sound (ch. 28b).</p><p class="sb-entry"><strong><em>Book II.</em></strong> The church at Vilnius (ch. 3); Jadvyga's frost on her hands and her child's lips, July 1399 (ch. 21).</p><p class="sb-entry"><strong><em>Book III.</em></strong> Jogaila's frozen hand on the stone (ch. 3).</p><p class="sb-entry"><strong><em>Book IV.</em></strong> Frost in Jogaila's rooms (ch. 19); frost melts when a man weeps (ch. 14).</p><p class="sb-entry"><strong><em>Book V.</em></strong> The unnamed cold fills Trakai (ch. 4). It is the last of the four to become pure institution.</p></div>
-</div><div class="sb-source"><span>Source:</span> <a href="../codex/cosmology.html">cosmology.md §3.3</a> · <a href="../codex/canon-decisions.html">canon_decisions.md</a> D8, D11 · hidden_immortals.md §5 · <a href="../codex/bestiary.html">bestiary.md §26</a> · <a href="../codex/power-systems.html">power_systems.md §3</a> · wiki/forces/white_silence</div><div class="sb-bar"></div></div>
+</div><div class="sb-source"><span>Source:</span> <a href="../guide/cosmology.html">Cosmology §3.3</a> · <a href="../guide/bestiary.html">Bestiary §26</a> · <a href="../guide/power-systems.html">Power systems §3</a></div><div class="sb-bar"></div></div>
 </section>
 <div class="infobox">
 <div class="infobox-title">
@@ -564,7 +594,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <section id="nature" class="level2">
 <h2 class="anchored" data-anchor-id="nature">Nature</h2>
-<p><strong>Egregore</strong> (cosmology §3.3): <em>Baltoji Tyla</em>. It is fed by <strong>purchased</strong> purity: baptisms bought or sold for land and crowns. It gathers wherever a baptism is being bought, which is why it settles on Jogaila’s Vilnius in 1382 (he is already pricing a crown) and on Krėva, where the 1385 union will be signed. Jadvyga at her best is its victim, not its servant.</p>
+<p><strong>Egregore</strong> (Cosmology §3.3): <em>Baltoji Tyla</em>. It is fed by <strong>purchased</strong> purity: baptisms bought or sold for land and crowns. It gathers wherever a baptism is being bought, which is why it settles on Jogaila’s Vilnius in 1382 (he is already pricing a crown) and on Krėva, where the 1385 union will be signed. Jadvyga at her best is its victim, not its servant.</p>
 </section>
 <section id="wants" class="level2">
 <h2 class="anchored" data-anchor-id="wants">Wants</h2>
@@ -580,7 +610,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </section>
 <section id="vessels-servants-claims" class="level2">
 <h2 class="anchored" data-anchor-id="vessels-servants-claims">Vessels, servants, claims</h2>
-<p><strong>Vessel:</strong> <a href="../characters/jadvyga.html">Jadvyga</a> (1386–99), a “saint” only because it uses her as a conduit; at her death, per the world bible (hidden_immortals §5), her body does not decay. <strong>Fed by:</strong> <a href="../factions/poland.html">Poland</a> and the <a href="../factions/algirdaiciai.html">Algirdaičiai</a> (from 1382). Servants: the <a href="../creatures/bebalsiai.html">bebalsiai</a> (“the voiceless”, hollowed by bought baptisms).</p>
+<p><strong>Vessel:</strong> <a href="../characters/jadvyga.html">Jadvyga</a> (1386–99), a “saint” only because it uses her as a conduit; at her death her body does not decay. <strong>Fed by:</strong> <a href="../factions/poland.html">Poland</a> and the <a href="../factions/algirdaiciai.html">Algirdaičiai</a> (from 1382). Servants: the <a href="../creatures/bebalsiai.html">bebalsiai</a> (“the voiceless”, hollowed by bought baptisms).</p>
 </section>
 <section id="weaknesses" class="level2">
 <h2 class="anchored" data-anchor-id="weaknesses">Weaknesses</h2>
@@ -590,8 +620,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 class="anchored" data-anchor-id="arc-across-the-books">Arc across the books</h2>
 <p><strong>I:</strong> Krėva (ch.&nbsp;14), the 1385 union (ch.&nbsp;28b). <strong>II:</strong> the church at Vilnius (ch.&nbsp;3), Jadvyga’s frost (ch.&nbsp;21). <strong>III:</strong> Jogaila’s frozen hand on the stone (ch.&nbsp;3). <strong>IV:</strong> frost in Jogaila’s rooms (ch.&nbsp;19). <strong>V:</strong> after the Last Flame goes out, an unnamed cold fills Trakai (ch.&nbsp;4). It is the last of the four to become pure institution.</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -607,13 +637,13 @@ document.addEventListener("DOMContentLoaded", function () {
   poland["Kingdom of Poland (Lesser Poland lords)"]
   white_silence["Baltoji Tyla (White Silence)"]
   white_touch["White Silence's frost-touch"]
-  white_silence --&gt;|egregore_fed_by| poland
-  white_silence --&gt;|egregore_fed_by| algirdaiciai
-  white_silence --&gt;|patron_of| white_touch
-  white_silence --&gt;|counters| el_wind
-  white_silence --&gt;|counters| el_water
-  jadvyga --&gt;|vessel_of| white_silence
-  bebalsiai --&gt;|servant_of| white_silence
+  white_silence --&gt;|Fed by| poland
+  white_silence --&gt;|Fed by| algirdaiciai
+  white_silence --&gt;|Patron of| white_touch
+  white_silence --&gt;|Counters| el_wind
+  white_silence --&gt;|Counters| el_water
+  jadvyga --&gt;|Vessel of| white_silence
+  bebalsiai --&gt;|Servant of| white_silence
   style white_silence stroke-width:3px
 </pre>
 </div>

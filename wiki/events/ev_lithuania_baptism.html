@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-52a4a9b9a52eccda9534656876a2013f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4bda70af06899a9635ce5a891606a810.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,6 +102,37 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.keys(map).forEach(function (cls) {
       document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
         if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
+      });
+    });
+  } catch (e) {}
+});
+/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
+      var tip = wrap.querySelector(".clickmap-tip");
+      if (!tip) return;
+      function show(a) {
+        var strong = document.createElement("strong");
+        strong.textContent = a.getAttribute("data-name") || "";
+        tip.textContent = "";
+        tip.appendChild(strong);
+        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
+        tip.hidden = false;
+        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
+        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
+        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
+        var top = r.top - w.top - tip.offsetHeight - 8;
+        if (top < 4) top = r.bottom - w.top + 8;
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+      function hide() { tip.hidden = true; }
+      wrap.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("mouseenter", function () { show(a); });
+        a.addEventListener("focus", function () { show(a); });
+        a.addEventListener("mouseleave", hide);
+        a.addEventListener("blur", hide);
       });
     });
   } catch (e) {}
@@ -357,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
  <span class="dropdown-text">What Magic Cannot Do</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lore/a-writers-and-readers-guide.html">
+    <a class="dropdown-item" href="../lore/reading-the-craft.html">
  <span class="dropdown-text">Reading the Craft</span></a>
   </li>  
     </ul>
@@ -414,8 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../codex/index.html"> 
-<span class="menu-text">Codex</span></a>
+    <a class="nav-link" href="../guide/index.html"> 
+<span class="menu-text">World Guide</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -467,11 +497,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-the-chronicles-say-record" id="toc-what-the-chronicles-say-record" class="nav-link active" data-scroll-target="#what-the-chronicles-say-record">What the chronicles say [Record]</a></li>
-  <li><a href="#what-really-happened-saga" id="toc-what-really-happened-saga" class="nav-link" data-scroll-target="#what-really-happened-saga">What really happened [Saga]</a></li>
+  <li><a href="#what-the-chronicles-say-historical-record" id="toc-what-the-chronicles-say-historical-record" class="nav-link active" data-scroll-target="#what-the-chronicles-say-historical-record">What the chronicles say [Historical record]</a></li>
+  <li><a href="#what-really-happened-the-sagas-invention" id="toc-what-really-happened-the-sagas-invention" class="nav-link" data-scroll-target="#what-really-happened-the-sagas-invention">What really happened [The saga’s invention]</a></li>
   <li><a href="#consequences" id="toc-consequences" class="nav-link" data-scroll-target="#consequences">Consequences</a></li>
   <li><a href="#dramatisation" id="toc-dramatisation" class="nav-link" data-scroll-target="#dramatisation">Dramatisation</a></li>
-  <li><a href="#relation-graph" id="toc-relation-graph" class="nav-link" data-scroll-target="#relation-graph">Relation graph</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
   </ul>
 </nav>
     </div>
@@ -548,26 +578,29 @@ document.addEventListener("DOMContentLoaded", function () {
 </tr>
 </tbody>
 </table>
+<div class="infobox-where">
+<p><strong>Where:</strong> <a href="../places/sventaragis.html">Šventaragis valley</a> (<a href="../map.html">on the map</a>)</p>
 </div>
 </div>
-<section id="what-the-chronicles-say-record" class="level2">
-<h2 class="anchored" data-anchor-id="what-the-chronicles-say-record">What the chronicles say [Record]</h2>
+</div>
+<section id="what-the-chronicles-say-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-chronicles-say-historical-record">What the chronicles say [Historical record]</h2>
 <p><a href="../characters/jogaila.html">Jogaila</a> returned to Vilnius at the end of 1386 (the formal steps fall in February–March 1387), established the first parishes and began mass baptisms of nobles and their peasants; in Aukštaitija the nobility followed in spring. Długosz reports that Jogaila put out the sacred fire, felled the sacred groves and had the sacred snakes killed; modern historians treat Długosz’s information on this episode as of disputed accuracy (Wikipedia, Christianization of Lithuania; the extinguished fire is not corroborated there). Vilnius Cathedral was begun in 1387 on the site of the pagan shrine; a decree of 17 February 1387 provided for it and the diocese; Magdeburg law was granted to the city on 22 March 1387. Urban VI’s bull of 12 March 1388 addressed the destruction of pagan objects; on 19 April 1389 he recognised Lithuania as a Catholic state. <a href="../characters/vytautas.html">Vytautas</a>, baptised twice already, was a witness.</p>
 </section>
-<section id="what-really-happened-saga" class="level2">
-<h2 class="anchored" data-anchor-id="what-really-happened-saga">What really happened [Saga]</h2>
+<section id="what-really-happened-the-sagas-invention" class="level2">
+<h2 class="anchored" data-anchor-id="what-really-happened-the-sagas-invention">What really happened [The saga’s invention]</h2>
 <p>Before dawn the king’s men carry buckets to the <a href="../places/sventaragis.html">Šventaragis</a> fire. The <a href="../characters/krivis.html">Krivis</a> does not resist; as the water hits the embers he says “Sutartis baigta” (the Pact is ended) so that the spirits of place hear it from a man and not from a priest, then walks into the grove and is never seen again. The vaidilutės are led to carts where Catholic nobles wait. Galminas watches from the hill. In the icy Neris the baptised are frightened and doing it to save their children. Vytautas’s double accuses him; the pebble glows. Clause 1 of the <a href="../magic/silent_pact.html">Silent Pact</a> is broken and the Pact ends. The Unbinding begins: the spirits are no longer owed courtesy and no longer give it.</p>
 </section>
 <section id="consequences" class="level2">
 <h2 class="anchored" data-anchor-id="consequences">Consequences</h2>
-<p>Caused by <a href="../events/ev_krakow_1386.html">the Kraków baptism and marriage</a>. It ends the Silent Pact (the graph’s ‘ends’ edge) and leads to <a href="../events/ev_flame_lit.html">Vytautas lighting the Last Flame</a> the same night. Its long consequence is the Unburned of Book II.</p>
+<p>Caused by <a href="../events/ev_krakow_1386.html">the Kraków baptism and marriage</a>. It ends the Silent Pact and leads to <a href="../events/ev_flame_lit.html">Vytautas lighting the Last Flame</a> the same night. Its long consequence is the Unburned of Book II.</p>
 </section>
 <section id="dramatisation" class="level2">
 <h2 class="anchored" data-anchor-id="dramatisation">Dramatisation</h2>
 <p><a href="../books/book1.html">Book I ch.&nbsp;29</a> “Krikštas” (Vytautas; February 1387, Vilnius, Šventaragis and the Neris), plus <a href="../books/book2.html">Book II ch.&nbsp;3</a> “Kas Ugnį Gesina” (a Franciscan of Vilnius; winter 1387–88; the first Unburned and Quenched).</p>
 </section>
-<section id="relation-graph" class="level2">
-<h2 class="anchored" data-anchor-id="relation-graph">Relation graph</h2>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
 <div class="relation-graph-card">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -583,13 +616,13 @@ document.addEventListener("DOMContentLoaded", function () {
   krivis["Krivis of Šventaragis"]
   silent_pact["Tylioji Sutartis (Silent Pact)"]
   sventaragis["Šventaragis valley"]
-  ev_lithuania_baptism --&gt;|occurs_at| sventaragis
-  ev_lithuania_baptism --&gt;|ends| silent_pact
-  ev_lithuania_baptism --&gt;|causes| ev_flame_lit
-  ev_krakow_1386 --&gt;|causes| ev_lithuania_baptism
-  jogaila --&gt;|participant| ev_lithuania_baptism
-  krivis --&gt;|participant| ev_lithuania_baptism
-  galminas --&gt;|participant| ev_lithuania_baptism
+  ev_lithuania_baptism --&gt;|Location| sventaragis
+  ev_lithuania_baptism --&gt;|Ends| silent_pact
+  ev_lithuania_baptism --&gt;|Causes| ev_flame_lit
+  ev_krakow_1386 --&gt;|Causes| ev_lithuania_baptism
+  jogaila --&gt;|Took part in| ev_lithuania_baptism
+  krivis --&gt;|Took part in| ev_lithuania_baptism
+  galminas --&gt;|Took part in| ev_lithuania_baptism
   style ev_lithuania_baptism stroke-width:3px
 </pre>
 </div>

@@ -2,7 +2,7 @@
 
 Ši knyga apima 1411–1430 metus: nuo Torunės taikos iki Vytauto mirties, kai jis siekė karūnos ir jos negavo. Čia daugiausia tikrų datų ir tikrų asmenų, todėl ypač svarbu atskirti, kur baigiasi metraščiai ir kur prasideda mano išmonė.
 
-### Kas iš tikrųjų įvyko
+## Kas iš tikrųjų įvyko
 
 1413 m. spalio 2 d. Horodlėje sudaryta Lietuvos ir Lenkijos unija: keturiasdešimt septynias lietuvių bajorų šeimas „įsūnijo“ lenkų herbų giminės, o aukščiausias pareigas, tarp jų Vilniaus ir Trakų vaivadijas, galėjo eiti tik katalikai. Tų pačių metų rudenį Vytautas ir Jogaila krikštijo žemaičius, o 1417 m. spalio 24 d. Konstanco susirinkimo nurodymu buvo įkurta Medininkų (Žemaičių) vyskupija; pirmasis vyskupas Motiejus Trakiškis. Žemaičių pasiuntiniai į Konstancą atvyko 1415 m. lapkritį, o 1416 m. vasarį skaitytas jų skundas, *Proposicio Samaytarum*.
 
@@ -14,13 +14,13 @@
 
 Spalio viduryje, pasak Dlugošo, Vytautas nukrito nuo žirgo kelyje iš Vilniaus į Trakus; spalio 21 d. užrašė dovaną Vilniaus katedrai ir nurodė savo laidojimo vietą, o 1430 m. spalio 27 d. mirė Trakų salos pilyje. Palaidotas Vilniaus katedroje apie aštuonias dienas po mirties. Lietuvos bajorai vienašališkai išrinko didžiuoju kunigaikščiu Švitrigailą.
 
-### Kur saga papildo istoriją
+## Kur saga papildo istoriją
 
-Visa paslaptinga čia yra mano išmonė: Henė ir jo paskutinis sandoris, paskutinė liepsna Trakų rūsyje, vilkai, Žiežirba, Pilkoji, Eglė, Giltinė prie lovos, gintaro karalienė ir žodis „Neužgeso“. Karūna ir Lucko suvažiavimas yra tikri, bet auksu nudažyta skrynia, pilna sausų lapų, brasta ties Noteče, vengrų auksakalio pameistrys Pálas ir Olesnickio pasiuntinys Baltramiejus Rogala yra išgalvoti. Tikras yra ir Janas Čarnkovskis, Didžiosios Lenkijos pasienio sargybų vadas, tik jo veiksmai čia suvaidinti mano žodžiais.
+Visa paslaptinga čia yra mano išmonė: Henė ir jo paskutinis sandoris, paskutinė liepsna Trakų rūsyje, vilkai, Žiežirba, Pilkoji, Eglė, Giltinė prie lovos, gintaro karalienė ir žodis „Neužgeso“. Karūna ir Lucko suvažiavimas yra tikri, bet auksu nudažyta skrynia, pilna sausų lapų, brasta ties Notecės, vengrų auksakalio pameistrys Pálas ir Olesnickio pasiuntinys Baltramiejus Rogala yra išgalvoti. Tikras yra ir Janas Čarnkovskis, Didžiosios Lenkijos pasienio sargybų vadas, tik jo veiksmai čia suvaidinti mano žodžiais.
 
 Taip pat išgalvoti Konstanco pasiuntinio Skirmanto kalba ir Birutės liudijimas, tikra yra tik žemaičių delegacija. Nežinome, ar jaunasis Zbignevas Olesnickis buvo Horodlėje. Lenkų tradicija sako, kad Vytautas mirė Jogailos glėbyje; Kraszewskis mini ir Julijoną, ir vyskupą Motiejų. Aš Jogailą palikau pilies koridoriuje, o tėvą Benediktą ir paskutinį žodį „Neužgeso“ išgalvojau. Švitrigailos buvimas Lucke 1429 m. šaltiniuose nepaminėtas, todėl jo ten nesodinu.
 
-### Kur istorikai nesutaria
+## Kur istorikai nesutaria
 
 **Vytauto mirtis.** Pasakojimas apie kritimą nuo žirgo atsirado tik Dlugošo kronikoje, praėjus maždaug trisdešimčiai metų po įvykių. Rimvydas Petrauskas laiko galimu, kad koks nors įvykis staiga pakirto jo sveikatą, bet kritimo nelaiko įrodytu, o nuodijimo ar lenkų sąmokslo versija, jo žodžiais, nepagrįsta jokiais šaltiniais. Aš palikau kritimą, nes jis yra mūsų turimas liudijimas, o Giltinę pridėjau kaip paaiškinimą, kodėl, bet ne ar.
 
@@ -36,7 +36,7 @@ Taip pat išgalvoti Konstanco pasiuntinio Skirmanto kalba ir Birutės liudijimas
 
 **Vytauto kapas.** Tiksli jo kapavietė Vilniaus katedroje šiandien nežinoma.
 
-### Šaltiniai ir tolesnis skaitymas
+## Šaltiniai ir tolesnis skaitymas
 
 - Jan Długosz, *Annales seu Cronicae incliti Regni Poloniae*; Konstanco susirinkimo dokumentai, tarp jų žemaičių *Proposicio Samaytarum*.
 - Józef Ignacy Kraszewski, *Litwa za Witolda* (XIX a.).

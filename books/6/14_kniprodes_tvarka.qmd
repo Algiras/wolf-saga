@@ -32,7 +32,7 @@ Hohensteinas linktelėjo. Jis visada linkčiojo, kai Kniprodė kalbėjo apie dal
 
 Už sienos vėl pakilo giesmė. Broliai giedojo Švenčiausiajai Mergelei, ir Kniprodė pajuto, kaip sienos aplink jį ima šilti. Tai buvo patvirtinimas, kurį jis jausdavo kiekvienais metais: šiluma, sklindanti iš akmens, nuo sienų ir grindų, tarsi pastatas pats būtų gyvas ir džiaugtųsi. Pakeltas kryžius koplyčioje suskambėjo ne kaip medis ar sidabras, o aiškiai ir aukštai, kaip suskamba priekalas, į kurį pataikė plaktukas. Jis nusilenkė ir padėkojo Dievui už ženklą.
 
-\* \* \*
+---
 
 Naktį jis grįžo į savo kambarį, kuriame degė viena žvakė. Ant stalo, tarp pergamentų, stovėjo šachmatų lenta, kurią jam padovanojo kažkoks Italijos pirklys, iš dramblio kaulo ir juodmedžio, ir figūros ant jos stovėjo ne pradinėse vietose.
 
@@ -46,7 +46,7 @@ Jis atrado, kad Kęstutis negali būti sumuštas. Jį galima tik paimti.
 
 Jis atsargiai padėjo žirgą atgal.
 
-\* \* \*
+---
 
 1356 metų vasarą Hohensteinas atvedė į Marienburgą belaisvį. Tai buvo senas žemaitis, kaimo seniūnas, paimtas po nesėkmingo puolimo prie Ragainės, ir jis stovėjo kanceliarijoje surištomis rankomis, žiūrėdamas ne į Didįjį magistrą, o į langą, pro kurį matėsi Nogato lygumos. Kniprodė liepė paleisti jo rankas. Pats pasiūlė jam kėdę.
 
@@ -78,7 +78,7 @@ Kniprodė ilgai žiūrėjo į jį. Paskui pasakė, kad belaisvis būtų pamaitin
 
 — Aš jį tyrinėju, — atsakė Kniprodė. — Tai kartais atrodo vienodai.
 
-\* \* \*
+---
 
 Metai ėjo, ir Prūsijos pavasariai kasmet buvo šviesesni. Marienburgas augo. Kniprodė statydino naujas menes, tvarkė sodus ir ligonines, reikalavo, kad kiekviename Ordino kaime būtų mokykla ir šulinys, ir Dancigo pirkliai kalbėjo, kad Prūsijoje viskas klostosi taip tvarkingai, kaip dar niekada. Prie kiekvienos Marijos šventės atvykdavo daugiau svečių. Garbės stalas plėtėsi. Kiekvieną žiemą Kniprodė jautė, kaip sienos po jo kojomis šyla vis labiau, ir džiaugėsi nauju šildymu, kurį jo meistrai sumūrijo po didžiąja menė. Jis niekada nepaklausė, kodėl akmuo šiltas ir ten, kur po grindimis nėra jokios krosnies.
 
@@ -88,7 +88,7 @@ Kitos Marijos šventės garbės stalas buvo padengtas dar puošniau. Prancūzų 
 
 Hohensteinas tą dieną puotoje nepasirodė. Jis išvyko į Ragainę, kur pats paprašė paskyrimo. Vėliau Kniprodė sužinojo, kad jaunas brolis ten ėmė mokyti kaimo vaikus lotynų abėcėlės ir gindavo žmones nuo savo bendražygių su tuo pačiu nuovargiu, su kokiu ginamasi nuo ligos. Jis nenubaudė jo. Jis net nepakvietė jo atgal.
 
-\* \* \*
+---
 
 1360 metų rudenį Kniprodė vėl sėdėjo prie šachmatų lentos. Figūros stovėjo seniai pažįstamose vietose. Balta karalienė kairėje, juodas žirgas pasienyje. Bokštas dabar buvo pasuktas kitaip, nes per tuos metus jis suprato, kad Kęstutis, nors niekada nekartojo vietos, kartojo mintį.
 

@@ -70,7 +70,7 @@ Vytautas pažvelgė į jį. Jis niekada nebuvo išmokęs skaityti Jogailos taip,
 
 Vytautas prisiminė.
 
-* * *
+---
 
 *1359 m. vasara, Trakai*
 
@@ -94,7 +94,7 @@ Jie pažiūrėjo vienas į kitą. Vytautas žinojo iš pasakojimų, kad dviejų 
 
 Jie išbėgo.
 
-Bėgimu tai pavadinti buvo sunku: klumpanti, žvangesinti lavina. Žiedai skambėjo, šalmai nusmuko ant akių, kardai, užkabinti už diržų, braižė akmenį. Jie nubėgo per kiemą, aplink šulinį, pro vartų sargą Mingailą, kuris ištiesė rankas, norėdamas juos sugauti, bet pamiršo, kad abu per daug sunkūs, kad juos būtų galima sulaikyti. Vištos išsiskirstė. Vytautas juokėsi taip, kad skaudėjo šonus. Skirgaila rėkė iš džiaugsmo, plačiai atmerktomis akimis, ir Vytautas jautė jo godžią, ryškią laimę kaip kitą šilumą šalia.
+Bėgimu tai pavadinti buvo sunku: klumpanti, žvanganti lavina. Žiedai skambėjo, šalmai nusmuko ant akių, kardai, užkabinti už diržų, braižė akmenį. Jie nubėgo per kiemą, aplink šulinį, pro vartų sargą Mingailą, kuris ištiesė rankas, norėdamas juos sugauti, bet pamiršo, kad abu per daug sunkūs, kad juos būtų galima sulaikyti. Vištos išsiskirstė. Vytautas juokėsi taip, kad skaudėjo šonus. Skirgaila rėkė iš džiaugsmo, plačiai atmerktomis akimis, ir Vytautas jautė jo godžią, ryškią laimę kaip kitą šilumą šalia.
 
 Po šiaurine galerija stovėjo Butautas. Vytautas pamatė jį tik akimirką, pro šalmo plyšį, ir pamiršo, nes buvo devynerių ir nežinojo, ką reiškia veidas, užsidaręs kaip durys. Butautas ranka rėmėsi į stulpą ir nežiūrėjo nei į vieną iš jų. Jis žiūrėjo į laiptus.
 
@@ -114,7 +114,7 @@ Ant laiptų Algirdas nejudėjo.
 
 Vytautas, nesuprasdamas kodėl, ištrūko iš glėbio ir pažvelgė aukštyn. Algirdas žiūrėjo į brolį, ne į berniukus. Jo veide buvo kažkas, ko Vytautas tada nesuprato: išraiška žmogaus, kuris mato brangų daiktą, laikomą kitos rankos. Paskui jis nusišypsojo, vienintelį kartą per visą tą vizitą, plonai ir trumpai, taip, tarsi tai kainuotų.
 
-* * *
+---
 
 — Skirgaila tai pasakoja kaskart, kai nori mane suerzinti, — tarė Jogaila prie ugnies. — Kaip tavo tėvas pagavo jus abu, kaip du jauniklius.
 

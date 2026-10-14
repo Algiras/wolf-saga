@@ -28,7 +28,7 @@ Jis ilgai žiūrėjo į ją, ir pirmą kartą jo veide kažkas pasikeitė, kaip 
 
 Daugiau jie to nepaminėjo. Bet nuo tos nakties ji žinojo, kad jo namuose tyla yra ne tuštuma, o kalba, ir kad ji išmoks šios kalbos geriau nei jis pats. Retkarčiais, kai kas nors minėdavo Ordą, ji pastebėdavo, kaip Algirdas ištaria šį žodį: taip, kaip kiti ištaria skolininko vardą.
 
-\* \* \*
+---
 
 Skirgaila gimė pirmas, paskui kiti vaikai, ir kunigaikščio namuose Vilniuje daugėjo mažų rusėniškų vardų. Jogaila gimė po dvylikos metų nuo jos atvykimo, pavasarį, kai Algirdo nebuvo.
 
@@ -46,9 +46,9 @@ Vardas nebuvo nei krikščioniškas, nei rusiškas. Jis atrodė paimtas iš sene
 
 Jis nenusišypsojo. Bet ranka, kurią jis padėjo ant mažos galvos, skyrėsi nuo visų kitų jo judesių: ji neskubėjo.
 
-\* \* \*
+---
 
-Maria Vitebskė buvo mirusi, bet jos sūnūs gyveno. Uliana tai suprato per pirmuosius metus, kai kiekvieną šventę prie stalo sėdėdavo šeši ar septyni vyrai, tamsiaplaukiai, aukšti, su Algirdo akimis ir kitos moters veidais. Jie buvo suaugę, krikštyti stačiatikiai, ir kiekvienas valdė savo žemę: Andrius Polocke, Dmitrijus Briansko pusėje, Vladimiras ten, kur Dniepras sukasi į pietus. Jie kalbėjo rusėniškai, kaip kalbėjo ir ji, o Kijevo vyskupo pasiuntiniai, atvykę su dovanomis, sveikino Algirdo sūnus kaip teisėtus Rusios kunigaikščius.
+Marija Vitebskietė buvo mirusi, bet jos sūnūs gyveno. Uliana tai suprato per pirmuosius metus, kai kiekvieną šventę prie stalo sėdėdavo šeši ar septyni vyrai, tamsiaplaukiai, aukšti, su Algirdo akimis ir kitos moters veidais. Jie buvo suaugę, krikštyti stačiatikiai, ir kiekvienas valdė savo žemę: Andrius Polocke, Dmitrijus Briansko pusėje, Vladimiras ten, kur Dniepras sukasi į pietus. Jie kalbėjo rusėniškai, kaip kalbėjo ir ji, o Kijevo vyskupo pasiuntiniai, atvykę su dovanomis, sveikino Algirdo sūnus kaip teisėtus Rusios kunigaikščius.
 
 Vieną vakarą, kai Jogaila dar buvo kūdikis, o tarnai jau buvo išnešę taures, Andrius atsisėdo prie jos ant suolo. Jam buvo trisdešimt septyni, jis buvo platus, rimtas, ir pirštus laikė sunertus taip, kaip daro vyrai, kurie nori atrodyti kantrūs.
 
@@ -82,9 +82,9 @@ Ji atsistojo. Ji suprato, kad kalba su vyru, kuris nėra priešas, ir tai buvo b
 
 Andrius nusijuokė ir įkando obuolį.
 
-Kitą dieną, kai šeima išvyko, ji užsuko į mažą koplytėlę Rusų gatvėje, kur prieš daugelį metų buvo palaidota Maria. Ten degė viena žvakė, kurios ji nebuvo uždegusi. Uliana pastovėjo, pridėjo savo ir išėjo. Ji nežinojo, ar tai Andriaus, ar kito iš tų vyrų, ar paties Algirdo. Ji tik žinojo, kad niekada nepasakys, jog ten buvo.
+Kitą dieną, kai šeima išvyko, ji užsuko į mažą koplytėlę Rusų gatvėje, kur prieš daugelį metų buvo palaidota Marija. Ten degė viena žvakė, kurios ji nebuvo uždegusi. Uliana pastovėjo, pridėjo savo ir išėjo. Ji nežinojo, ar tai Andriaus, ar kito iš tų vyrų, ar paties Algirdo. Ji tik žinojo, kad niekada nepasakys, jog ten buvo.
 
-\* \* \*
+---
 
 Jogailai buvo šešeri, kai jis išmoko nežiūrėti į tai, ko nori.
 
@@ -148,7 +148,7 @@ Ji persižegnojo, ir šuo nusisuko. Bet ne iš baimės. Jis nusisuko kantriai, k
 
 Jogaila neatsakė. Bet tą naktį, eidama pas savo kunigą, ji pamatė, kad vaikas stovi prie lango ir žiūri į tvartą. Jis žiūrėjo ne į šunį. Jis žiūrėjo į tą vietą, kur šuo gulėjo.
 
-\* \* \*
+---
 
 Kai Algirdas grįžo tą rudenį, jis atsinešė iš rytų neįprastą tylą. Jis nusiprausė, pavalgė, pasėdėjo prie židinio ir nepaminėjo, kur buvo. Uliana sėdėjo greta. Tarp jų degė ugnis, ir ji suprato, kad šį kartą skaičiuoti nereikia: ji jau žinojo. Jis buvo prie Dniepro, ten, kur žemė pradeda eiti į Stepės pusę ir kur į vyrus žvelgia tai, kas už horizonto.
 

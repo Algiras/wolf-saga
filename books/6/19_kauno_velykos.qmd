@@ -22,7 +22,7 @@ Jam buvo trisdešimt vieneri. Jis buvo vyresnysis Kęstučio sūnus, ir tėvas r
 
 *Bandysiu*. Visi Kęstučio vaikai žinojo, ką reiškia šis žodis iš tėvo burnos. Jis niekada nesakė *pažadu*, nes tai buvo šventas daiktas, kurį galima ištarti tik tada, kai pats gali už jį atsakyti, o jis retai galėjo. Bet *bandysiu* reiškė, kad jis ateis, jei tik žmogus gali ateiti. Vaidotas penkias savaites nešiojosi tą žodį kaip šarvą.
 
-\* \* \*
+---
 
 Į kontrminą jis nusileido vienuoliktą dieną.
 
@@ -52,7 +52,7 @@ Todėl jis liko ant bokšto pats.
 
 Trisdešimt antrą dieną jis nustojo girdėti kastuvus.
 
-\* \* \*
+---
 
 Tyla po žeme buvo blogiau nei kasimas. Ji reiškė, kad darbas baigtas.
 
@@ -74,7 +74,7 @@ Vaidotas žiūrėjo į tamsą už sienų ir pirmą kartą suprato, kad jo tėvas
 
 Šiaurėje, ten, kur Neris susiliejo su Nemunu, vanduo kilo. Jau savaitę upės pūtėsi nuo tirpstančio ledo, rudos, putotos, nešančios rąstus ir negyvus gyvulius. Brastos, kuriomis galėtų atjoti tėvas, buvo nuplautos. Jis žinojo tai ir niekam nesakė.
 
-\* \* \*
+---
 
 Aušra atėjo su varpais.
 
@@ -94,7 +94,7 @@ Aplink jį buvo apie šimtas žemaičių. Jis nežinojo, kaip jie ten atsirado, 
 
 Antroji siena sugriuvo, kai jis dar nebuvo suvokęs, kad pirmoji prarasta. Žemė vėl sudrebėjo, ir kažkas didelio, juodo ir ilgo nuvirto ant jo iš viršaus.
 
-\* \* \*
+---
 
 Atsipeikėjo jis tamsoje, po sija, su skausmu šone, kuris atrodė ne jo paties. Virš galvos girdėjosi riksmai, vokiški ir lietuviški, ir kažkas toli, kitoje pasaulio pusėje, vis dar giedojo. Pro sijų plyšį sklido pilka šviesa ir kvapas: dūmų, degėsių, sudegusių plaukų.
 
@@ -118,7 +118,7 @@ Prie griuvėsių, ant žemo žirgo, sėdėjo vyras. Mažas, sausas, apsisiautęs
 
 Vyras nepažiūrėjo į Vaidotą. Jis žiūrėjo į Nemuną, į kitą krantą, kur ant kalvos kažkas judėjo.
 
-\* \* \*
+---
 
 Nuvedė jį prie vandens ir paliko laukti. Sargybiniai buvo jauni, pastatė jį prie pylimo ir pamiršo. Jis sėdėjo ant šlapios žemės, rankos surištos priešais, galva sunki, ir žiūrėjo į upę.
 

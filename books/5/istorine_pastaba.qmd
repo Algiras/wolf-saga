@@ -2,7 +2,7 @@
 
 Ši knyga prasideda Vytauto laidotuvėmis ir baigiasi tada, kai Lietuvoje jau valdo Kazimieras Jogailaitis, o senasis pasaulis pamažu virsta pasakojimu. Pasistengsiu aiškiai pasakyti, ką paėmiau iš metraščių ir ką pridėjau pats.
 
-### Kas iš tikrųjų įvyko
+## Kas iš tikrųjų įvyko
 
 1430 m. spalio 27 d. Trakuose mirė Vytautas, apie aštuonias dienas vėliau jį palaidojo Vilniaus katedroje. Lietuvos bajorai, nepaisydami Horodlės susitarimo, vienašališkai išrinko didžiuoju kunigaikščiu Švitrigailą; Jogaila, tuo metu buvęs Lietuvoje, lapkričio 7 d. paskelbė pritariąs, bet vėliau, lenkų ponų spaudžiamas, pritarimą atsiėmė. Spalio–lapkričio mėnesį lenkai užėmė Podolę, taip pat Kameneco pilį, ir jų negrąžino Lietuvai, nors paliaubų sąlygos to reikalavo. 1431 m. birželio 19 d. Švitrigaila sudarė Skirsnemunės (Christmemelio) sutartį su Ordinu ir Livonijos magistru: pagalba užpuolimo atveju ir karas tik bendru sutarimu. Birželio pabaigoje lenkai įsiveržė į Voluinę, o liepą apgulė Lucką; rugsėjo 1 d. sudarytos Čartorijsko paliaubos. 1431 m. gruodžio 8 d. Krokuvoje mirė Jogailos duktė Jadvyga.
 
@@ -12,7 +12,7 @@
 
 1440 m. kovo 20 d., Verbų sekmadienį, Trakuose buvo nužudytas Žygimantas Kęstutaitis. Gegužę į Vilnių atvyko Kazimieras Jogailaitis, o birželio 29 d. bajorai paskelbė jį didžiuoju kunigaikščiu, nors lenkų ponai to nenorėjo. 1447 m. gegužės 2 d. jis išleido privilegiją Lietuvai, o birželio 25 d. buvo karūnuotas Lenkijos karaliumi Vavelyje. Mirė 1492 m.
 
-### Kur saga papildo istoriją
+## Kur saga papildo istoriją
 
 Visa nematoma šios knygos pusė yra mano išmonė: paskutinė liepsna ir jos saugotojas Žiežirba, Pilkoji, vilkai ir Dykra, Šaknų Motina, Henė, Eglė ir Birutės balsas, pasakojantis visą istoriją. Tikros yra žmonių mirtys, bet jų nematomos priežastys yra mano.
 
@@ -20,7 +20,7 @@ Daug paprastesnių dalykų taip pat išgalvota: Žygimanto naktis Krėvoje ir He
 
 Jogailos mirtį aprašau pagal Dlugošą: kad jis peršalo vėlyvą balandžio naktį Medykos miške, klausydamasis lakštingalų, ir mirė Gródeke, rašo kronikininkas, o ne liudininkas. Pranciškonas Anselmas, paskutinė išpažintis ir Jogailos regėjimas apie Kęstutį yra mano. Jogaila Gardine 1432 m. šaltiniuose nedalyvauja, todėl jo ten nėra, o Zbignevas Olesnickis skaito jo laišką.
 
-### Kur istorikai nesutaria
+## Kur istorikai nesutaria
 
 **Švitrigailos išrinkimas.** Vytautas 1430 m. spalio 21 d. dokumente, panašiame į testamentą, įpėdinio nepaminėjo. Švitrigaila greičiausiai buvo bajorų pasirinkimas, o ne Vytauto valia; jį išrinko, nepaisydami Horodlės sąlygų, pagal kurias sprendimas priklausė Jogailai. Tikslios rinkimų datos šaltiniuose nėra.
 
@@ -34,7 +34,7 @@ Jogailos mirtį aprašau pagal Dlugošą: kad jis peršalo vėlyvą balandžio n
 
 **Skirsnemunės sutarties sąlygos.** Kai kurie leidiniai teigia, kad Švitrigaila čia atidavė Palangą Ordinui, o Lietuvos enciklopedija kalba apie Melno sienų išlaikymą. Aš palikau Palangą Lietuvai.
 
-### Šaltiniai ir tolesnis skaitymas
+## Šaltiniai ir tolesnis skaitymas
 
 - Jan Długosz, *Annales seu Cronicae incliti Regni Poloniae*; Lietuvos metraščiai, tarp jų Bychovco kronika (*Lietuvos metraštis. Bychovco kronika*, Vilnius, Vaga, 1971).
 - Olaus Magnus, *Historia de gentibus septentrionalibus* (Roma, 1555).

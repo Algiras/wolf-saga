@@ -18,7 +18,7 @@ Kapelionas, plonas pranciškonas, pasuko galvą taip staigiai, lyg būtų išgir
 
 Kazimieras nieko nesakė. Bet pažiūrėjo į Kęstutį, ir tame žvilgsnyje Kęstutis pamatė savo seserį: ne veidą, o užsispyrusį atidumą, su kuriuo Aldona visada žiūrėdavo į žodžius, kai jie jai būdavo sakomi.
 
-\* \* \*
+---
 
 Jautį parinko vengrai: didelį, juodą, su balta žvaigžde kaktoje. Jį atvedė ant lygios pievos prie upės, kur žolė jau buvo išmindžiota karių. Susirinko visa stovykla. Vengrų riteriai stovėjo su ta šnairuojančia pagarba, kuri slepia smalsumą, o Liudvikas sėdėjo ant baldakimu uždengto suolo, rankas sunėręs ant kelių.
 
@@ -44,7 +44,7 @@ Jis stovėjo basas ant sudrėkusios žolės ir žiūrėjo į kraują. Kai atsiti
 
 Puotoje, kuri sekė, Liudvikas ilgai kalbėjo apie Budą: apie rūmus virš Dunojaus, apie šventovę, kurioje bus krikštijama, apie vyskupą, kuris atvyks iš Ostrigomo. Kęstutis klausėsi, linksėjo ir valgė mėsą, kuri nuo kvapnių prieskonių graužė liežuvį. Jis stengėsi nė vieno žodžio nepridėti. Tai buvo pirmas vakaras, kai jis suprato, kokį daiktą yra gavęs.
 
-\* \* \*
+---
 
 Tą naktį jis nuėjo prie žirgų ir pabandė. Sargybinis, vengras kareivis, stovėjo ties virve ir nesuprato nė žodžio jo kalbos.
 
@@ -58,7 +58,7 @@ Taip jis sužinojo kainą. Visą gyvenimą jis buvo vyras, galintis apgauti pasi
 
 Jis priėmė tai ne kaip bausmę. Bet jautė, kaip visa jo kalba persitvarko, prisitaikydama prie naujo svorio.
 
-\* \* \*
+---
 
 Kazimieras atėjo po vidurnakčio vienas, be žvakės. Kęstutis sėdėjo ant lovos krašto ir žiūrėjo į savo ranką. Lenkas atsisėdo ant skrynios prieš jį.
 
@@ -104,7 +104,7 @@ Už tilto, krūmų užuovėjoje, jo laukė Kaplys su dviem žirgais. Žilas žem
 
 Jie jojo visą naktį upės pakraščiu, ir Kęstutis kartojo sau žodžius, kuriuos prieš keletą valandų ištarė prie jaučio, tarsi ieškodamas klaidos. Klaidos nebuvo. Tai ir buvo blogiausia.
 
-\* \* \*
+---
 
 Pas Birutę jis grįžo po šešių savaičių, kai jau krito pirmieji lapai. Ji sėdėjo prie šieno kupetos, su kūdikiu ant kelių, ir iš tolo atrodė, kad jie abu čia išaugo.
 

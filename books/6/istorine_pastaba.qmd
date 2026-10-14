@@ -2,7 +2,7 @@
 
 Ši knyga parašyta paskutinė, bet jos veiksmas vyksta pirmas: tai pasakojimas apie Kęstutį ir Birutę, apie brolius Algirdą ir Kęstutį, apie Lietuvos pagonybės saulėlydį. Šio laikotarpio šaltinių mažiau nei vėlesnių, todėl ypač svarbu pasakyti, kur baigiasi metraščiai ir kur prasideda mano išmonė.
 
-### Kas iš tikrųjų įvyko
+## Kas iš tikrųjų įvyko
 
 Gediminas mirė 1341 m., greičiausiai gruodį (anglų kalbos Vikipedija nurodo gruodį; mirties aplinkybės nežinomos), o jo laidotuvių laužas aprašomas kaip 1342 m. įvykis, todėl knygos pradžia datuojama 1341–1342 m. žiema. Valdžią paėmė jauniausias sūnus Jaunutis, bet 1345 m. broliai Algirdas ir Kęstutis jį nuvertė ir pasidalijo kraštą: Algirdas valdė iš Vilniaus rytų link, Kęstutis iš Trakų – vakarų link. Pagal stačiatikių tradiciją, 1347 m. Vilniuje buvo nužudyti trys Algirdo dvariškiai krikščionys: Antanas, Jonas ir Eustachijus (pagal stačiatikių tradiciją, Antanas ir Jonas balandį, Eustachijus gruodį; šeštame skyriuje visi trys sutraukti į vieną sceną). 1348 m. vasario 2 d., per Grabnyčias, ties Strėva Ordino kariuomenė, kuriai vadovavo didysis maršalas Siegfriedas fon Dahenfeldas ir vyriausiasis komtūras Winrichas fon Kniprodė, grįžtanti iš žygio į Aukštaitiją, susidūrė su lietuviais ir privertė juos trauktis per užšalusią upę. Ordino kronikos pasakoja apie didžiulius lietuvių nuostolius ir Narimanto žūtį (taip rašo ir VLE); lietuvių istoriografijoje vyrauja nuomonė, kad mūšį laimėjo lietuviai. Matthiasas fon Neuenburgas mini du žuvusius Gedimino sūnus, ir antruoju spėjamas Manvydas, bet tai tik spėjimas, ir knygoje Manvydas išgyvena.
 
@@ -12,7 +12,7 @@ Maždaug 1350 m. Kęstutis vedė Birutę, o jų sūnus Vytautas gimė apie tą p
 
 1377 m. gegužę mirė Algirdas. Valdžią paveldėjo Jogaila, aplenkęs vyresniuosius brolius iš pirmosios Algirdo santuokos su Marija Vitebskiete.
 
-### Kur saga papildo istoriją
+## Kur saga papildo istoriją
 
 Tylioji Sutartis, jos trys sąlygos ir Gintaro skola yra mano išmonė. Ant jos sagoje stovi visa kita, bet jokiame šaltinyje jos nėra. Taip pat išgalvoti Šešiapirštis ir vilkų brolija, sidabrinis vilkas, Dykra, Henės pirmieji pavidalai (juodas šuo, raštininkas su knyga), gintaro karalienė, Perkūno ženklas Kęstučiui, Eglė ir viskas, ką Birutė girdi iš jūros.
 
@@ -20,7 +20,7 @@ Gedimino sapnas apie geležinį vilką, Vilniaus įkūrimo legenda ir žynys Liz
 
 Kęstučio pabėgimas iš Marienburgo šaltiniuose siejamas su tarnu Alfu; knygoje jis seka tuo pačiu keliu ir nesikliauja jokia magija, nes tikra istorija ir taip pakankamai neįtikėtina. Smulkmenos – mano. Strėvoje Ordino vadas knygoje lieka vėliava: magistras Dusemeris galbūt jojo po ja, galbūt ne, nors VLE Ordino pajėgų vadais laiko maršalą Dahenfeldą ir Kniprodę, tuomet vyriausiąjį komtūrą. Kauno apgultyje Ordiną, pagal Vikipediją ir ordino kronikas, vedė pats Kniprodė, o Kęstutis bandė derėtis (knygoje jis atvyksta per vėlai); magistras matomas tik iš tolo, kaip kareivių šnabždesys „Der Meister“. Kęstučio pasiruošimas atvykti per apgultį ir pavėlavimas, Vaidoto sulaikymas po bokšto griūties ir kontrminos giesmės yra mano. Visi kiti Ordino broliai, tarp jų Günteris fon Hohensteinas, yra išgalvoti; Kęstutį 1381 m. perspėjusiu Osterodės komtūru šaltiniai (Ivinskis) vadina Kuno fon Liebensteiną.
 
-### Kur istorikai nesutaria
+## Kur istorikai nesutaria
 
 **Birutė.** Šaltinių apie ją labai mažai. Vigandas Marburgietis, rašęs apie 1394 m., sako, kad 1382 m. Jogaila ją nuskandino Breste prie Bugo, tikriausiai atsakydamas į Vytauto pabėgimą (pagal VLE, Kęstutis 1382 m. pats buvo ją ten išsiuntęs). Vytautas 1390 m. skunde Ordinui kaltino Jogailą nužudžius abu tėvus. Konstanco susirinkime 1416 m. lenkų ir lietuvių atstovai tvirtino, kad ji gyveno ilgai ir mirė savo mirtimi. Palangos tradicija ir jos kapas atsirado vėliau ir pirmą kartą aprašyti Motiejaus Strijkovskio 1582 m. Šios knygos veiksmas baigiasi 1377 m., ir Birutė čia yra tik Palangos vaidilutė bei Kęstučio žmona; jos likimą nusprendžia Pirmoji knyga: ją bando nuskandinti Breste (Vigandas), vanduo jos nepriima (Konstanco liudijimas), ir ji grįžta į Palangą (Strijkovskio tradicija).
 
@@ -38,7 +38,7 @@ Kęstučio pabėgimas iš Marienburgo šaltiniuose siejamas su tarnu Alfu; knygo
 
 **Vilniaus kankiniai.** Apie stačiatikių ir pranciškonų kankinius kalba vėlesnė tradicija, kurioje datos ir skaičiai nevienodi: stačiatikių gyvenimuose Antanas ir Jonas nužudyti 1347 m. balandį, Eustachijus gruodį; pranciškonų kankinių 1369 m. legenda (Bychovco kronika) kalba apie keturiolika vienuolių, kurių septynis nužudė, o kitus septynis ant kryžių paleido Nerimi, kai Algirdas buvo žygyje prieš Maskvą. Knygoje parodau juos kaip žudynes, kurių senieji dievai nereikalavo; tikslūs skaičiai ir mirties būdas yra mano: keturiolika nužudoma, o Tomas, vienas iš penkiolikos brolių, išgyvena, nes tą naktį buvo išėjęs.
 
-### Šaltiniai ir tolesnis skaitymas
+## Šaltiniai ir tolesnis skaitymas
 
 - Wigand von Marburg, *Chronica nova Prutenica* (lietuviškai: *Naujoji Prūsijos kronika*, Vilnius, Vaga, 1999); Jan Długosz, *Annales seu Cronicae incliti Regni Poloniae*; *Lietuvos metraštis. Bychovco kronika* (Vilnius, Vaga, 1971); Maciej Stryjkowski, *Kronika polska, litewska, żmudzka i wszystkiej Rusi* (1582).
 - Stephen C. Rowell, *Lithuania Ascending: A Pagan Empire within East-Central Europe, 1295–1345* (Cambridge, 1994).

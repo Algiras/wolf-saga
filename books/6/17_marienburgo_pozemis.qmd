@@ -58,7 +58,7 @@ Kęstutis nusišypsojo, ir randas ant skruosto sulinko.
 
 Jie sužaidė partiją. Ji buvo trumpa: kunigaikštis pralaimėjo po dvidešimties ėjimų, ir Kniprodė, ištiesęs ranką paimti paskutinę figūrą, pastebėjo, kad kalinys nė karto neatsiėmė ėjimo. Tai buvo pirmas dalykas, kuris jam priminė, kad prieš jį sėdi ne sunkus kareivis, o žmogus, išmokęs mąstyti taip, kaip mąsto statytojas: iš pamatų.
 
-\* \* \*
+---
 
 — Noriu tau pasiūlyti kai ką, ko tu nesitiki, — tarė jis, kai Hohensteinas padėjo ant stalo duonos ir šaltos žuvies. — Nesakau, kad tavo žmonės bus paleisti be išpirkos, ar kad aš galiu pamiršti tūkstančius mūsų sudegintų kaimų. Bet pasakysiu, ką matau.
 
@@ -120,7 +120,7 @@ Jie jau stovėjo prie durų, kai kalinys pasiėmė nuo stalo gintaro dalelę ir 
 
 Hohensteinas neišvertė paskutinių žodžių. Kniprodė nepaklausė.
 
-\* \* \*
+---
 
 Koplyčia buvo tuščia, tik viena lempa degė prie šventosios Onos altoriaus, ir jos šviesa slėpė prieblandoje jo mirusiuosius. Jis atsiklaupė ant šaltų plytų ir bandė melstis.
 

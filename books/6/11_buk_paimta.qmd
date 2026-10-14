@@ -18,7 +18,7 @@ Mėnulis pakilo aukščiau. Jis nesikėlė. Kai pirmas pilkumas palietė dangaus
 
 Birutė nepasuko galvos. Jos pirštai, apkabinę kelį, nė nesujudėjo. Tik tada senoji suprato, kad mergaitė viską buvo supratusi anksčiau už ją.
 
-\* \* \*
+---
 
 Saulėtekyje Birutės para baigėsi. Kita vaidilutė atėjo prie ugnies, žvilgtelėjo į kunigaikštį ir tuoj nusuko akis, o senoji paėmė anūkę už rankos ir nusivedė į trobelę.
 
@@ -66,7 +66,7 @@ Senoji išsitraukė iš kišenės gintaro gabalėlį, tamsiai medaus spalvos, ne
 
 — Aš jam pasakysiu, — atsakė Birutė. Ir tai buvo pirmas kartas, kai senoji išgirdo ją duodant žodį kaip žmogų, kuris žino, kiek jis sveria.
 
-\* \* \*
+---
 
 Pas kunigaikštį ji nuėjo pati, kai saulė dar tik rodė savo kraštą. Jis stovėjo prie žirgų su vienu iš savo žmonių, aiškino kažką apie diržus, ir niekas nesustabdė senos moters su avikailiu. Žmonės retai bijo senų moterų, ir tai buvo viena iš nedaugelio laiko dovanų, už kurias ji buvo dėkinga.
 
@@ -96,7 +96,7 @@ Kunigaikštis ilgai žiūrėjo į ją. Žirgai prunkštė, o už jų jūra atsit
 
 — Kai atslūgs vanduo.
 
-\* \* \*
+---
 
 Rytas buvo šviesus, ir saulė greitai pakilo virš kopų. Žvejai jau stūmė valtis į vandenį, bet nė viena neplaukė toli: visi laukė, nes visi kažką žinojo, nors niekas jiems nebuvo sakęs. Senoji sėdėjo už kopos, kur sėdėjo ir naktį, ir niekada gyvenime nebuvo kvėpavusi taip lėtai.
 
@@ -108,7 +108,7 @@ Gulėdama skersai balno, Birutė pasuko galvą atgal. Ne į kopą, kur sėdėjo 
 
 Paskui jie nujojo pakrante į pietus. Žvejai grįžo prie tinklų. Moterys, nešusios vandenį nuo šaltinio, nė nesustojo, tik viena, vyriausia, nusispjovė per petį. Senoji sėdėjo tol, kol saulė pasiekė jūrą ir vandens paviršius pradėjo švytėti taip, kaip švytėti turi gintaras. Ji pagalvojo, kad kitos tokios dienos šiame krante nebus ir kad šitą ji pati pastatė kaip pastato laivą, kuris išplauks be jos.
 
-\* \* \*
+---
 
 Po vienuolikos dienų ji išėjo prie ugnies viena. Jūra buvo rami, mėnulis jau nusileidęs. Ji žinojo, kur dabar anūkė: dešimties dienų kelio atstumu, Senuosiuose Trakuose, prie vestuvių stalo, šalia vyro, kurį prieš vienuolika dienų kandžiojo.
 

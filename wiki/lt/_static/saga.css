@@ -39,3 +39,5 @@ div.body{box-sizing:border-box;overflow-wrap:anywhere}
 .book-downloads strong{flex:1 1 100%;line-height:1.35}
 .book-downloads a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box;padding:.35rem .8rem;border:1px solid var(--saga-accent);text-decoration:none;font-weight:600;background:#f6eedb}
 .book-downloads a:hover,.book-downloads a:focus-visible{background:#eadbb8;outline:2px solid var(--saga-accent);outline-offset:2px}
+
+.book-downloads .book-cover-print{flex:1 1 100%;line-height:1.4}

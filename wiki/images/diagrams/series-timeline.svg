@@ -368,33 +368,32 @@
     <tspan x="990.000" y="78.900">Book spans above, historical record events around the axis. Gold: saga Pact milestones. Red: battles. Tan: treaties and politics.</tspan>
   </text>
   <text data-context="diagram.series-timeline.label-005" lang="en" xml:lang="en" data-text-bounds="298.096 247.200 222.688 91.200" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="16.0" fill="#2b1d12" text-anchor="middle">
-    <tspan x="409.440" y="287.300">VI · Šventasis Miškas</tspan>
+    <tspan x="409.440" y="287.300">VI · The Holy Forest</tspan>
     <tspan x="409.440" y="307.300">prequel · 1341–1377</tspan>
   </text>
   <text data-context="diagram.series-timeline.label-008" lang="en" xml:lang="en" data-text-bounds="730.863 247.200 96.833 91.200" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="16.0" fill="#2b1d12" text-anchor="middle">
-    <tspan x="779.280" y="277.300">I · Vilko</tspan>
-    <tspan x="779.280" y="297.300">Tremtis</tspan>
-    <tspan x="779.280" y="317.300">1377–87</tspan>
+    <tspan x="779.280" y="267.300">I · The</tspan>
+    <tspan x="779.280" y="287.300">Wolf's</tspan>
+    <tspan x="779.280" y="307.300">Exile</tspan>
+    <tspan x="779.280" y="327.300">1377–87</tspan>
   </text>
   <text data-context="diagram.series-timeline.label-012" lang="en" xml:lang="en" data-text-bounds="888.956 247.200 134.408 91.200" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="16.0" fill="#2b1d12" text-anchor="middle">
-    <tspan x="956.160" y="277.300">II · Auksinis</tspan>
-    <tspan x="956.160" y="297.300">Šešėlis</tspan>
+    <tspan x="956.160" y="277.300">II · The Golden</tspan>
+    <tspan x="956.160" y="297.300">Shadow</tspan>
     <tspan x="956.160" y="317.300">1387–99</tspan>
   </text>
   <text data-context="diagram.series-timeline.label-016" lang="en" xml:lang="en" data-text-bounds="1077.259 247.200 143.722 91.200" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="16.0" fill="#2b1d12" text-anchor="middle">
-    <tspan x="1149.120" y="277.300">III · Žaliasis</tspan>
-    <tspan x="1149.120" y="297.300">Miškas</tspan>
-    <tspan x="1149.120" y="317.300">1399–1411</tspan>
+    <tspan x="1149.120" y="287.300">III · The Green</tspan>
+    <tspan x="1149.120" y="307.300">Wood 1399–1411</tspan>
   </text>
   <text data-context="diagram.series-timeline.label-020" lang="en" xml:lang="en" data-text-bounds="1321.271 247.200 153.986 91.200" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="16.0" fill="#2b1d12" text-anchor="middle">
-    <tspan x="1398.264" y="277.300">IV · Nematoma</tspan>
-    <tspan x="1398.264" y="297.300">Karūna</tspan>
-    <tspan x="1398.264" y="317.300">1411–1430</tspan>
+    <tspan x="1398.264" y="287.300">IV · The Invisible</tspan>
+    <tspan x="1398.264" y="307.300">Crown 1411–1430</tspan>
   </text>
   <text data-context="diagram.series-timeline.label-024" lang="en" xml:lang="en" data-text-bounds="1565.520 247.200 292.800 91.200" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="16.0" fill="#2b1d12" text-anchor="middle">
-    <tspan x="1711.920" y="277.300">V · Vilko Palikimas</tspan>
-    <tspan x="1711.920" y="297.300">1430–1450; epilogue 1553</tspan>
-    <tspan x="1711.920" y="317.300">(off axis)</tspan>
+    <tspan x="1711.920" y="277.300">V · The Wolf's Legacy</tspan>
+    <tspan x="1711.920" y="297.300">1430–1450; epilogue 1553 (off</tspan>
+    <tspan x="1711.920" y="317.300">axis)</tspan>
   </text>
   <text data-context="diagram.series-timeline.label-035" lang="en" xml:lang="en" data-text-bounds="92.624 652.800 54.751 27.300" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="15.0" fill="#58180D" text-anchor="middle">
     <tspan x="120.000" y="670.450">1341</tspan>

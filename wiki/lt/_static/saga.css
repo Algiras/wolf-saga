@@ -6,3 +6,16 @@ div.document{box-sizing:border-box;width:calc(100% - 2rem);max-width:1180px}
 div.body{box-sizing:border-box;overflow-wrap:anywhere}
 .saga-search{white-space:nowrap}
 @media(max-width:850px){div.document{width:calc(100% - 1rem);margin:1rem auto}div.bodywrapper{margin:0}.saga-nav details>div{max-width:calc(100vw - 2rem);box-sizing:border-box}}
+/* Article openings: authored introduction first; compact facts beside the next
+   section. The complete reference material remains below the authored article. */
+.entity-top-flex{display:block;float:right;width:272px;max-width:38%;margin:0 0 1.25rem 1.5rem}
+.entity-top-flex .infobox{box-sizing:border-box;width:100%;max-width:100%;padding:.8rem;font-size:.82rem}
+.infobox figure{margin:.6rem 0}.infobox figure img{width:100%;max-height:320px;object-fit:contain}
+.infobox figcaption{font-size:.72rem;line-height:1.35}.infobox-title{font-size:1.1rem}
+.infobox table.docutils{font-size:.78rem}.infobox table.docutils td{padding:.3rem .4rem}
+.entity-reference{clear:both;border-top:1px solid var(--saga-border);padding-top:1.25rem;margin-top:2rem}
+.entity-relations p{padding:.5rem .65rem;margin:.4rem 0;background:#eee3c9;border-left:3px solid var(--saga-border);font-size:.9rem}
+.statblock p{margin:.5rem 0}.sb-section+.sb-section{margin-top:1rem}
+.book-banner{clear:both}.book-banner img{max-height:230px;width:100%;object-fit:cover;border-radius:6px}.book-banner-cap{font-family:Cinzel,Georgia,serif}.book-banner-cap small{display:block}
+@media(max-width:650px){.entity-top-flex{float:none;max-width:100%;width:100%;margin:1rem 0}.entity-top-flex .infobox{max-width:360px;margin:0 auto}.infobox figure img{max-height:290px}.entity-reference{margin-top:1.3rem}}
+@media(max-width:650px){div.body h1{font-size:2rem;line-height:1.2;margin:.5rem 0 1rem}div.body h2{font-size:1.4rem;line-height:1.25;margin:1.4rem 0 .65rem}div.body h3{font-size:1.15rem;line-height:1.25;margin:1.15rem 0 .5rem}}

@@ -1,1399 +1,464 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<meta charset="utf-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>The Iron Wolves – Geležinio Vilko Saga · Wiki</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
-
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-2351847f3501f6a95993d79bb0d491a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-ba4d44be06783d9fe1820409731dbd58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<!-- Cinzel (display), Crimson Pro (body), Alegreya Sans SC (labels): all three ship a latin-ext subset
-     (ą č ę ė į š ų ū ž); the css2 API serves it automatically via unicode-range. -->
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&amp;family=Cinzel:wght@500;600;700&amp;family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;display=swap" rel="stylesheet">
-<script>
-/* Cosmetic hooks for the sourcebook look (the page works without them):
-   1. mark the first prose paragraph of an entity page for the drop cap (skipping the generated sections);
-   2. relabel default callout titles: Note -> Lore, Tip -> Read-aloud. */
-document.addEventListener("DOMContentLoaded", function () {
-  try {
-    var GEN = /^(relations|timeline|relation-graph|forms-arc-stages|state-over-time)(-\d+)?$/;
-    var root = document.getElementById("quarto-document-content") || document.querySelector("main");
-    if (root && root.querySelector(".infobox")) {
-      var secs = root.querySelectorAll("section.level2");
-      for (var i = 0; i < secs.length; i++) {
-        if (GEN.test(secs[i].id)) continue;
-        var p = secs[i].querySelector(":scope > p");
-        if (p && p.textContent.trim().length > 40 && /^[\p{L}"„“]/u.test(p.textContent.trim())) {
-          p.classList.add("dropcap");
-          break;
-        }
-      }
-    }
-    var map = { "callout-note": ["Note", "Lore"], "callout-tip": ["Tip", "Read-aloud"] };
-    Object.keys(map).forEach(function (cls) {
-      document.querySelectorAll(".callout." + cls + " .callout-title-container").forEach(function (t) {
-        if (t.textContent.trim() === map[cls][0]) t.textContent = map[cls][1];
-      });
-    });
-  } catch (e) {}
-});
-/* Clickable maps (map.qmd): a tooltip with the place name and one line on hover and keyboard focus. */
-document.addEventListener("DOMContentLoaded", function () {
-  try {
-    document.querySelectorAll(".clickmap-wrap").forEach(function (wrap) {
-      var tip = wrap.querySelector(".clickmap-tip");
-      if (!tip) return;
-      function show(a) {
-        var strong = document.createElement("strong");
-        strong.textContent = a.getAttribute("data-name") || "";
-        tip.textContent = "";
-        tip.appendChild(strong);
-        if (a.getAttribute("data-tip")) tip.appendChild(document.createTextNode(a.getAttribute("data-tip")));
-        tip.hidden = false;
-        var w = wrap.getBoundingClientRect(), r = a.getBoundingClientRect();
-        var left = r.left - w.left + r.width / 2 - tip.offsetWidth / 2;
-        left = Math.max(4, Math.min(left, w.width - tip.offsetWidth - 4));
-        var top = r.top - w.top - tip.offsetHeight - 8;
-        if (top < 4) top = r.bottom - w.top + 8;
-        tip.style.left = left + "px";
-        tip.style.top = top + "px";
-      }
-      function hide() { tip.hidden = true; }
-      wrap.querySelectorAll("a").forEach(function (a) {
-        a.addEventListener("mouseenter", function () { show(a); });
-        a.addEventListener("focus", function () { show(a); });
-        a.addEventListener("mouseleave", hide);
-        a.addEventListener("blur", hide);
-      });
-    });
-  } catch (e) {}
-});
-</script>
-
-
-</head>
-
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
-
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Geležinio Vilko Saga · Wiki</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../timeline.html"> 
-<span class="menu-text">Timeline</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../graph-explorer.html"> 
-<span class="menu-text">Atlas</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../diagrams.html"> 
-<span class="menu-text">Diagrams</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../map.html"> 
-<span class="menu-text">Map</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Lore</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-lore">    
-        <li>
-    <a class="dropdown-item" href="../lore/index.html">
- <span class="dropdown-text">Lore of the Craft</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../lore/ancient-speech.html">
- <span class="dropdown-text">The Ancient Speech</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../lore/signs-and-wards.html">
- <span class="dropdown-text">Signs and Wards</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../lore/elements-and-zeniths.html">
- <span class="dropdown-text">The Five Elements and Their Zeniths</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../lore/the-price.html">
- <span class="dropdown-text">The Price</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../lore/amber-craft.html">
- <span class="dropdown-text">Amber Craft</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../lore/oaths-and-pacts.html">
- <span class="dropdown-text">Oaths and Pacts</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../lore/practitioners.html">
- <span class="dropdown-text">Schools and Practitioners</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../lore/what-magic-cannot-do.html">
- <span class="dropdown-text">What Magic Cannot Do</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../lore/reading-the-craft.html">
- <span class="dropdown-text">Reading the Craft</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encyclopedia" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Encyclopedia</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-encyclopedia">    
-        <li>
-    <a class="dropdown-item" href="../characters/index.html">
- <span class="dropdown-text">Characters</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../houses/index.html">
- <span class="dropdown-text">Houses</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../factions/index.html">
- <span class="dropdown-text">Factions</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../places/index.html">
- <span class="dropdown-text">Places</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../events/index.html">
- <span class="dropdown-text">Events</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../gods/index.html">
- <span class="dropdown-text">Gods</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../forces/index.html">
- <span class="dropdown-text">Forces</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../magic/index.html">
- <span class="dropdown-text">Magic &amp; Pacts</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../artifacts/index.html">
- <span class="dropdown-text">Artifacts</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../creatures/index.html">
- <span class="dropdown-text">Creatures</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../books/index.html">
- <span class="dropdown-text">Books</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../history-and-fiction.html"> 
-<span class="menu-text">History &amp; Fiction</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../guide/index.html"> 
-<span class="menu-text">World Guide</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Books</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-books">    
-        <li>
-    <a class="dropdown-item" href="../../index.html">
- <span class="dropdown-text">I · Vilko Tremtis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../2/index.html">
- <span class="dropdown-text">II · Auksinis Šešėlis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../3/index.html">
- <span class="dropdown-text">III · Žaliasis Miškas</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../4/index.html">
- <span class="dropdown-text">IV · Nematoma Karūna</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../5/index.html">
- <span class="dropdown-text">V · Vilko Palikimas</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../6/index.html">
- <span class="dropdown-text">VI · Šventasis Miškas (prequel)</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">1. At a glance</a></li>
-  <li><a href="#what-the-record-gives-us-historical-record" id="toc-what-the-record-gives-us-historical-record" class="nav-link" data-scroll-target="#what-the-record-gives-us-historical-record">2. What the record gives us [Historical record]</a></li>
-  <li><a href="#origins-the-sagas-invention" id="toc-origins-the-sagas-invention" class="nav-link" data-scroll-target="#origins-the-sagas-invention">3. Origins [The saga’s invention]</a>
-  <ul class="collapse">
-  <li><a href="#before-gediminas-the-sudovian-wolves" id="toc-before-gediminas-the-sudovian-wolves" class="nav-link" data-scroll-target="#before-gediminas-the-sudovian-wolves">3.1 Before Gediminas: the Sudovian wolves</a></li>
-  <li><a href="#lizdeikas-hundred" id="toc-lizdeikas-hundred" class="nav-link" data-scroll-target="#lizdeikas-hundred">3.2 Lizdeika’s hundred</a></li>
-  <li><a href="#kęstutiss-wolves-13451382" id="toc-kęstutiss-wolves-13451382" class="nav-link" data-scroll-target="#kęstutiss-wolves-13451382">3.3 Kęstutis’s wolves (1345–1382)</a></li>
-  </ul></li>
-  <li><a href="#vilkų-krikštas-the-wolves-baptism-the-sagas-invention" id="toc-vilkų-krikštas-the-wolves-baptism-the-sagas-invention" class="nav-link" data-scroll-target="#vilkų-krikštas-the-wolves-baptism-the-sagas-invention">4. Vilkų krikštas: the Wolves’ Baptism [The saga’s invention]</a></li>
-  <li><a href="#what-it-makes-of-a-man" id="toc-what-it-makes-of-a-man" class="nav-link" data-scroll-target="#what-it-makes-of-a-man">5. What it makes of a man</a>
-  <ul class="collapse">
-  <li><a href="#gifts" id="toc-gifts" class="nav-link" data-scroll-target="#gifts">5.1 Gifts</a></li>
-  <li><a href="#flaws" id="toc-flaws" class="nav-link" data-scroll-target="#flaws">5.2 Flaws</a></li>
-  <li><a href="#physical-tells-for-prose" id="toc-physical-tells-for-prose" class="nav-link" data-scroll-target="#physical-tells-for-prose">5.3 Physical tells (for prose)</a></li>
-  <li><a href="#the-folk-are-half-right-do-they-change" id="toc-the-folk-are-half-right-do-they-change" class="nav-link" data-scroll-target="#the-folk-are-half-right-do-they-change">5.4 The folk are half right: do they change?</a></li>
-  <li><a href="#the-price-under-the-law-of-balance" id="toc-the-price-under-the-law-of-balance" class="nav-link" data-scroll-target="#the-price-under-the-law-of-balance">5.5 The price under the Law of Balance</a></li>
-  </ul></li>
-  <li><a href="#gaujos-žodis-the-packs-word-the-sagas-invention" id="toc-gaujos-žodis-the-packs-word-the-sagas-invention" class="nav-link" data-scroll-target="#gaujos-žodis-the-packs-word-the-sagas-invention">6. Gaujos žodis: the Pack’s Word [The saga’s invention]</a></li>
-  <li><a href="#ranks-the-sagas-invention" id="toc-ranks-the-sagas-invention" class="nav-link" data-scroll-target="#ranks-the-sagas-invention">7. Ranks [The saga’s invention]</a></li>
-  <li><a href="#weapons-and-craft" id="toc-weapons-and-craft" class="nav-link" data-scroll-target="#weapons-and-craft">8. Weapons and craft</a>
-  <ul class="collapse">
-  <li><a href="#arms" id="toc-arms" class="nav-link" data-scroll-target="#arms">8.1 Arms</a></li>
-  <li><a href="#bog-craft" id="toc-bog-craft" class="nav-link" data-scroll-target="#bog-craft">8.2 Bog-craft</a></li>
-  <li><a href="#the-spirit-hunters-kit-after-1387" id="toc-the-spirit-hunters-kit-after-1387" class="nav-link" data-scroll-target="#the-spirit-hunters-kit-after-1387">8.3 The spirit-hunter’s kit (after 1387)</a></li>
-  </ul></li>
-  <li><a href="#how-they-are-seen" id="toc-how-they-are-seen" class="nav-link" data-scroll-target="#how-they-are-seen">9. How they are seen</a></li>
-  <li><a href="#before-the-unbinding-border-raiders-and-the-hidden-guard-to-1387" id="toc-before-the-unbinding-border-raiders-and-the-hidden-guard-to-1387" class="nav-link" data-scroll-target="#before-the-unbinding-border-raiders-and-the-hidden-guard-to-1387">10. Before the Unbinding: border raiders and the hidden guard (to 1387)</a></li>
-  <li><a href="#after-the-unbinding-the-only-ones-who-hunt-13871450" id="toc-after-the-unbinding-the-only-ones-who-hunt-13871450" class="nav-link" data-scroll-target="#after-the-unbinding-the-only-ones-who-hunt-13871450">11. After the Unbinding: the only ones who hunt (1387–1450)</a></li>
-  <li><a href="#the-wolves-and-vytautas-books-iv" id="toc-the-wolves-and-vytautas-books-iv" class="nav-link" data-scroll-target="#the-wolves-and-vytautas-books-iv">12. The wolves and Vytautas, Books I–V</a>
-  <ul class="collapse">
-  <li><a href="#why-he-is-never-one-of-them" id="toc-why-he-is-never-one-of-them" class="nav-link" data-scroll-target="#why-he-is-never-one-of-them">12.1 Why he is never one of them</a></li>
-  <li><a href="#books-iiv" id="toc-books-iiv" class="nav-link" data-scroll-target="#books-iiv">12.3 Books II–V</a></li>
-  </ul></li>
-  <li><a href="#notable-members-the-sagas-invention" id="toc-notable-members-the-sagas-invention" class="nav-link" data-scroll-target="#notable-members-the-sagas-invention">13. Notable members [The saga’s invention]</a></li>
-  <li><a href="#their-fate-in-book-v-the-sagas-invention" id="toc-their-fate-in-book-v-the-sagas-invention" class="nav-link" data-scroll-target="#their-fate-in-book-v-the-sagas-invention">14. Their fate in Book V [The saga’s invention]</a></li>
-  <li><a href="#record-or-invention-quick-key" id="toc-record-or-invention-quick-key" class="nav-link" data-scroll-target="#record-or-invention-quick-key">15. Record or invention: quick key</a></li>
-  </ul>
+<html data-content_root="../" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>The Iron Wolves — Geležinio Vilko Saga · Wiki</title>
+<link href="../_static/pygments.css?v=5ecbeea2" rel="stylesheet" type="text/css"/>
+<link href="../_static/basic.css?v=b08954a9" rel="stylesheet" type="text/css"/>
+<link href="../_static/alabaster.css?v=6a7a0594" rel="stylesheet" type="text/css"/>
+<link href="../_static/saga.css?v=76b3706c" rel="stylesheet" type="text/css"/>
+<script src="../_static/documentation_options.js?v=7f41d439"></script>
+<script src="../_static/doctools.js?v=fd6eb6e6"></script>
+<script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+<script src="../_static/saga.js?v=a6cc46c6"></script>
+<link href="../search.html" hreflang="en" rel="search" title="Search"/>
+<link href="../history-and-fiction.html" rel="next" title="History and the Saga"/>
+<link href="pronunciation-guide.html" rel="prev" title="Pronunciation guide"/>
+<link href="../_static/custom.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&amp;family=Crimson+Pro:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="the-iron-wolves.html" hreflang="en" rel="alternate"/><link href="../lt/guide/the-iron-wolves.html" hreflang="lt" rel="alternate"/>
+</head><body>
+<header class="saga-header" lang="en">
+<a class="saga-brand" href="../index.html" lang="en">Geležinio Vilko Saga · Wiki</a>
+<nav aria-label="Languages" class="saga-languages" lang="en">
+<a aria-current="page" data-saga-route="language" href="the-iron-wolves.html" hreflang="en" lang="en">English</a><a data-saga-route="language" href="../lt/guide/the-iron-wolves.html" hreflang="lt" lang="lt">Lietuvių</a>
 </nav>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">The Iron Wolves</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
+<nav class="saga-nav">
+<a data-saga-route="navigation" href="../index.html" lang="en">Home</a>
+<a data-saga-route="navigation" href="../timeline.html" lang="en">Timeline</a>
+<a data-saga-route="navigation" href="../graph-explorer.html" lang="en">Atlas</a>
+<a data-saga-route="navigation" href="../diagrams.html" lang="en">Diagrams</a>
+<a data-saga-route="navigation" href="../map.html" lang="en">Map</a>
+<details><summary lang="en">Lore</summary><div><a data-saga-route="navigation" href="../lore/index.html" lang="en">Lore of the Craft</a><a data-saga-route="navigation" href="../lore/ancient-speech.html" lang="en">The Ancient Speech</a><a data-saga-route="navigation" href="../lore/signs-and-wards.html" lang="en">Signs and Wards</a><a data-saga-route="navigation" href="../lore/elements-and-zeniths.html" lang="en">The Five Elements and Their Zeniths</a><a data-saga-route="navigation" href="../lore/the-price.html" lang="en">The Price</a><a data-saga-route="navigation" href="../lore/amber-craft.html" lang="en">Amber Craft</a><a data-saga-route="navigation" href="../lore/oaths-and-pacts.html" lang="en">Oaths and Pacts</a><a data-saga-route="navigation" href="../lore/practitioners.html" lang="en">Schools and Practitioners</a><a data-saga-route="navigation" href="../lore/what-magic-cannot-do.html" lang="en">What Magic Cannot Do</a><a data-saga-route="navigation" href="../lore/reading-the-craft.html" lang="en">Reading the Craft</a></div></details>
+<details><summary lang="en">Encyclopedia</summary><div><a data-saga-route="navigation" href="../characters/index.html" lang="en">Characters</a><a data-saga-route="navigation" href="../houses/index.html" lang="en">Houses</a><a data-saga-route="navigation" href="../factions/index.html" lang="en">Factions</a><a data-saga-route="navigation" href="../places/index.html" lang="en">Places</a><a data-saga-route="navigation" href="../events/index.html" lang="en">Events</a><a data-saga-route="navigation" href="../gods/index.html" lang="en">Gods</a><a data-saga-route="navigation" href="../forces/index.html" lang="en">Forces</a><a data-saga-route="navigation" href="../magic/index.html" lang="en">Magic &amp; Pacts</a><a data-saga-route="navigation" href="../artifacts/index.html" lang="en">Artifacts</a><a data-saga-route="navigation" href="../creatures/index.html" lang="en">Creatures</a><a data-saga-route="navigation" href="../books/index.html" lang="en">Books</a></div></details>
+<a data-saga-route="navigation" href="../history-and-fiction.html" lang="en">History &amp; Fiction</a>
+<a data-saga-route="navigation" href="../guide/index.html" lang="en">World Guide</a>
+<details><summary lang="en">Books</summary><div><a data-saga-route="navigation" href="../../index.html" lang="en">I · Vilko Tremtis</a><a data-saga-route="navigation" href="../../2/index.html" lang="en">II · Auksinis Šešėlis</a><a data-saga-route="navigation" href="../../3/index.html" lang="en">III · Žaliasis Miškas</a><a data-saga-route="navigation" href="../../4/index.html" lang="en">IV · Nematoma Karūna</a><a data-saga-route="navigation" href="../../5/index.html" lang="en">V · Vilko Palikimas</a><a data-saga-route="navigation" href="../../6/index.html" lang="en">VI · Šventasis Miškas (prequel)</a></div></details>
+<a class="saga-search" data-saga-route="navigation" href="../search.html" lang="en">Search</a>
+</nav>
 </header>
-
-
+<div class="document">
+<div class="documentwrapper">
+<div class="bodywrapper">
+<div class="body" role="main">
+<section id="the-iron-wolves">
+<h1>The Iron Wolves<a class="headerlink" href="#the-iron-wolves" lang="en" title="Link to this heading">¶</a></h1>
 <p>The sworn wolf-brotherhood of the Dykra: its origins, the Wolves’ Baptism, the Pack’s Word, ranks, weapons and fate.</p>
 <p><strong>Labels.</strong> <strong>[Historical record]</strong> is attested in the sources or standard scholarship; <strong>[The saga’s invention]</strong> was made for this series.</p>
-<blockquote class="blockquote">
-<p><strong>In one line.</strong> The vilkatai are men (and, late, a few women) who give their names to the sacred fire and their bodies to the bog, and in return can see what priests cannot and do what villages cannot. Before 1387 they are the Pact’s teeth. After 1387 they are the only thing standing between the peasantry and its hungry dead, and everyone who needs them also hates them.</p>
-</blockquote>
-<hr>
-<section id="at-a-glance" class="level2">
-<h2 class="anchored" data-anchor-id="at-a-glance">1. At a glance</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>What peasants call them</strong></td>
-<td><em>vilkatai</em> (werewolves), or “the grey ones”, never to their faces</td>
-</tr>
-<tr class="even">
-<td><strong>What they call themselves</strong></td>
-<td><strong><em>Dievo šunys</em></strong>, “God’s dogs”: the old folk name for wolves [Historical record], worn as a joke and a creed</td>
-</tr>
-<tr class="odd">
-<td><strong>What the Order calls them</strong></td>
-<td><em>Wolfsbrüder</em>, wolf-brothers [The saga’s invention]; heathen werewolves, with a bounty on their hides</td>
-</tr>
-<tr class="even">
-<td><strong>The brotherhood</strong></td>
-<td><strong><em>Brolija</em></strong>; each band is a <strong><em>gauja</em></strong> (pack) of five to nine</td>
-</tr>
-<tr class="odd">
-<td><strong>Sworn to</strong></td>
-<td>The <strong>Root-Mother</strong> (body) and the <strong>Gediminid flame</strong> (name). See §3</td>
-</tr>
-<tr class="even">
-<td><strong>Numbers</strong></td>
-<td>About 100 under Gediminas; about 120 in 1382; about 40 after the 1382 schism; a dozen by 1435; one (the Flame-Keeper) by the late 1440s [The saga’s invention]</td>
-</tr>
-<tr class="odd">
-<td><strong>Country</strong></td>
-<td>The <strong>Dykra</strong>: bog-island lairs (<em>guoliai</em>) reached by sunken paths</td>
-</tr>
-<tr class="even">
-<td><strong>Power family</strong></td>
-<td><strong>Granted</strong> power, not asked. They are not casters and sit outside the practitioner tiers</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="what-the-record-gives-us-historical-record" class="level2">
-<h2 class="anchored" data-anchor-id="what-the-record-gives-us-historical-record">2. What the record gives us [Historical record]</h2>
-<p>The brotherhood is invented, but every piece of it stands on something real.</p>
-<ul>
-<li><strong>The Indo-European wolf-warrior band.</strong> Scholars of early Indo-European society describe bands of young unmarried men who lived outside the settlement for a period, raided, and were ritually identified with wolves or dogs. This is the <em>Männerbund</em> (see Kris Kershaw, <em>The One-Eyed God: Odin and the (Indo-)Germanic Männerbünde</em>, 2000). Parallels often cited include the Old Norse <em>úlfheðnar</em> (“wolf-skins”, named beside the berserkers in skaldic verse) and the Irish <em>fían</em> war-bands. David Anthony and Dorcas Brown have interpreted midwinter dog and wolf sacrifices at the Bronze Age site of <strong>Krasnosamarskoe</strong> (Samara valley) as traces of such an initiation. The Proto-Indo-European name often reconstructed for the band is <strong><em>kóryos</em></strong>.</li>
-<li><strong>Baltic werewolves.</strong> Lithuanian folklore knows the <em>vilkatas</em> and <em>vilkolakis</em>. <strong>Herodotus</strong> (Histories 4.105) says the Neuri, usually placed in this region, became wolves for a few days each year. <strong>Olaus Magnus</strong> (1555) describes werewolves gathering on Christmas night in <strong>Prussia, Livonia and Lithuania</strong>, breaking into cellars and drinking the beer.</li>
-<li><strong>The “hounds of God”.</strong> In <strong>1692</strong> at Jürgensburg in Livonia, an old man named <strong>Thiess</strong> told his judges that werewolves were the <em>hounds of God</em>. In his account they went down to hell three times a year to fight the witches and bring back the stolen seed-grain, so that the harvest would be good. Carlo Ginzburg made the case famous. Lithuanian peasants likewise called wolves <strong><em>Dievo šunys</em></strong>, God’s dogs, and folk custom made <strong>St Jurgis</strong> (George) the shepherd of wolves, feeding them on his feast day.</li>
-<li><strong>The Iron Wolf.</strong> Gediminas’s dream, interpreted by <strong>Lizdeika</strong>, is a 16th-century chronicle legend.</li>
-<li><strong>Kęstutis’s war.</strong> Kęstutis fought the Teutonic Order on the western border for some four decades. He was captured in 1361 and escaped from Marienburg.</li>
-<li><strong>The Wildnis.</strong> A deliberately depopulated border belt crossed by raiders and by Lithuanian and Prussian <strong>guides</strong> (<em>Wegeleute</em>) whom the Order paid to lead its columns. <strong>Sudovia</strong> (Yotvingia) was conquered and largely emptied by 1283.</li>
-<li><strong>Sunken paths.</strong> Baltic peoples built <strong><em>kūlgrindos</em></strong>: paved causeways laid just below the water of a bog, invisible to strangers and used for defence.</li>
-</ul>
-<hr>
-</section>
-<section id="origins-the-sagas-invention" class="level2">
-<h2 class="anchored" data-anchor-id="origins-the-sagas-invention">3. Origins [The saga’s invention]</h2>
-<section id="before-gediminas-the-sudovian-wolves" class="level3">
-<h3 class="anchored" data-anchor-id="before-gediminas-the-sudovian-wolves">3.1 Before Gediminas: the Sudovian wolves</h3>
-<p>When the Order emptied Sudovia (1277–83), the last Sudovian warriors went into the new wilderness instead of into baptism or exile. They lived as wolf-bands in the bogs, raiding both sides. The <strong>Root-Mother</strong>, newly formed out of Žemyna’s and Medeina’s grief, took some of them: the first men to lie down in the Dykra mud and get up changed. They had no master and no name. To the Lithuanians who traded with them, they were simply <em>vilkatai</em>.</p>
-</section>
-<section id="lizdeikas-hundred" class="level3">
-<h3 class="anchored" data-anchor-id="lizdeikas-hundred">3.2 Lizdeika’s hundred</h3>
-<p>The night of Gediminas’s dream, Lizdeika understood something he never told the Grand Duke. The Iron Wolf was collared because the house would devour itself, and <strong>a collar needs a hand on the leash</strong>. In the morning he climbed the hill and found a <strong>wolf’s skull</strong> lying where the dream-wolf had stood, grown hard and grey as iron. He carried it into the Dykra and made the wolf-bands an offer. They would be given a <strong>place in the land’s order</strong>, food, honour and a fire to give their names to. In return they would guard the Gediminid hearth and the Pact’s peace, and they would be the house’s leash. A hundred came. That is the “hundred voices” in the folk version, read by the brotherhood their own way.</p>
-<p>From then on, the brotherhood belonged to <strong>two masters</strong>: the <strong>Root-Mother</strong>, who made their bodies, and the <strong>Gediminid flame</strong> at Šventaragis, which kept their names. That double loyalty is the source of every tragedy below.</p>
-</section>
-<section id="kęstutiss-wolves-13451382" class="level3">
-<h3 class="anchored" data-anchor-id="kęstutiss-wolves-13451382">3.3 Kęstutis’s wolves (1345–1382)</h3>
-<p>After the <strong>Silent Pact</strong> of 1345, the brotherhood became the Pact’s <strong>teeth</strong>. Kęstutis, holding the west from Trakai, used them as his border raiders in the Wildnis. They burned Order supply-dumps, drowned Reise columns in the bogs, and guided Lithuanian raids into Prussia along routes no <em>Wegeleute</em> knew. He also kept a <strong>hidden guard</strong> of nine at his side, never named in any chronicle. Algirdas in Vilnius kept the other half of the brotherhood near the Šventaragis flame. When Algirdas died in 1377 those <strong>Vilnius packs</strong> passed to Jogaila with the city. This split is the root of the <strong>1382 schism</strong> (§10).</p>
-<hr>
-</section>
-</section>
-<section id="vilkų-krikštas-the-wolves-baptism-the-sagas-invention" class="level2">
-<h2 class="anchored" data-anchor-id="vilkų-krikštas-the-wolves-baptism-the-sagas-invention">4. Vilkų krikštas: the Wolves’ Baptism [The saga’s invention]</h2>
-<p>The rite is called <em>krikštas</em>, “baptism”, in mockery: the brotherhood took the Christian word and hung it on the oldest thing in the land. It is held in the <strong>twelve nights after Kūčios</strong> (the winter solstice), the time when the boundary between the living and the dead is thinnest and wolves are said to gather (compare Olaus Magnus and Krasnosamarskoe, §2).</p>
-<p><strong>Who is chosen.</strong> Unmarried men, usually 16 to 25 (the one exception is the Flame-Keeper, sworn at fourteen, nearly fifteen, in 1405): younger sons, outlaws, the last of burned villages, the occasional boyar’s bastard. Each must be <strong>sponsored</strong> by a sworn wolf (his <em>vilktėvis</em>, “wolf-father”), who answers for him with his own life.</p>
-<p><strong>The rite, in nine steps.</strong></p>
-<ol type="1">
-<li><strong>The funeral feast.</strong> The candidate’s family holds a <em>šermenys</em> (wake) for him as though he had died. He eats his last meal at his mother’s hearth. From then on he is dead to the household, and his kin may not speak his name.</li>
-<li><strong>The name to the fire.</strong> At a sacred flame (Šventaragis before 1387; Vytautas’s secret flame after), the candidate whispers his <strong>true name</strong> into the fire. The fire keeps it. His name will go up to Dausos when he dies, without him.</li>
-<li><strong>The throat-mark.</strong> The sponsor draws a shallow cut across the candidate’s throat at the voice-box and rubs <strong>live ash</strong> from that same flame into it. It heals as a thin pale line, the <strong><em>gerklės žymė</em></strong>. It is the only mark the brotherhood bears.</li>
-<li><strong>Nine nights without fire.</strong> The candidate is taken into the Dykra naked but for a belt and a knife of bog-iron. For nine nights he may not light or approach a fire. The packs <strong>hunt</strong> him. If they catch him, they beat him and let him go; if he is caught three times, he is sent home, nameless and disgraced. Some do not survive the cold.</li>
-<li><strong>The drowning.</strong> On the ninth night he is led along a <em>kūlgrinda</em> to the oldest bog in the Dykra and <strong>pressed under the mud</strong> until he stops struggling. The Root-Mother decides. Most come up. Some do not, and they are left where they lie. What comes up has left <strong>part of its soul</strong> below.</li>
-<li><strong>The oath on the skull.</strong> Dripping and blue with cold, he swears the <strong>Pack’s Word</strong> (§6) with both hands on the Iron Wolf’s skull. A lie spoken over the skull is heard by every wolf in the Dykra.</li>
-<li><strong>First meat.</strong> He eats raw from the pack’s kill, in silence, beside the others.</li>
-<li><strong>The skin-name.</strong> The Vilkų Tėvas gives him a <strong><em>kailio vardas</em></strong> (skin-name): a nickname, a dead enemy’s name, or an object (Rūdis, Kirmėlė, Jonas). He answers to nothing else for the rest of his life.</li>
-<li><strong>The wolf-hide.</strong> He receives a wolf-hide from his sponsor, from a wolf the sponsor killed with his own hands. He will be laid in the bog in it.</li>
-</ol>
-<p><strong>Failure.</strong> About a third of candidates are sent home or die [The saga’s invention]. The families of those sent home have already held their funeral, so the failures live as ghosts in their own villages. Some become the hedge-folk who later help the brotherhood; some become its informers.</p>
-<hr>
-</section>
-<section id="what-it-makes-of-a-man" class="level2">
-<h2 class="anchored" data-anchor-id="what-it-makes-of-a-man">5. What it makes of a man</h2>
-<section id="gifts" class="level3">
-<h3 class="anchored" data-anchor-id="gifts">5.1 Gifts</h3>
-<ul>
-<li><strong>The sight of the dvasios.</strong> The most important gift and the reason for everything after 1387: a vilkatas <strong>sees and hears spirits</strong>: laumės at the river, a slogutis on a sleeper’s chest, the hunger in an unfed grave. Priests cannot see them.</li>
-<li><strong>Night-sight and scent.</strong> He sees by starlight as a man sees at dusk, and he can track by smell across a bog a day old.</li>
-<li><strong>The Root-Mother’s healing.</strong> Wounds packed with bog-moss and mud close in days instead of weeks; their blood is dark, runs slow, and smells of peat. This healing does <strong>not</strong> work on wounds made by feast-day iron.</li>
-<li><strong>Cold and wet are nothing.</strong> He can sleep in snow and lie in bog-water for hours.</li>
-<li><strong>Pack-sense.</strong> Sworn wolves know when a brother dies, wherever they are: they hear one more voice in the Iron Wolf’s chorus.</li>
-<li><strong>The iron hour (<em>geležinė valanda</em>).</strong> A battle-frenzy like the berserkers’ or <em>úlfheðnar</em>’s. For about an hour the wolf feels no pain or fear, and fights at a ferocity that has given the folk their tales of men becoming wolves. They do <strong>not</strong> change shape (see §5.4).</li>
-</ul>
-</section>
-<section id="flaws" class="level3">
-<h3 class="anchored" data-anchor-id="flaws">5.2 Flaws</h3>
-<ul>
-<li><strong>No hearth.</strong> A vilkatas cannot sleep under a roof with a lit hearth. The fire that holds his name rejects his body, and he wakes choking, with a slogutis’s weight on his chest. They sleep in barns, byres and under the sky.</li>
-<li><strong>Feast-day iron</strong> burns them like any spirit. Smith’s iron stings; bog-iron does not.</li>
-<li><strong>Consecrated stone</strong> sickens them: dizziness, nausea, their gifts dimmed.</li>
-<li><strong>The hungry dead hunt them</strong>. A vilkatas smells of the roots, where the dead are going, and unfed vėlės are drawn to him like moths to a lantern. After 1387 this is both their worst danger and their main tool (§8.3).</li>
-<li><strong>The iron hour costs memory.</strong> Each frenzy takes a human memory: a face, a song, the way home. Old wolves are people with holes in them.</li>
-<li><strong>They cannot weep.</strong></li>
-</ul>
-</section>
-<section id="physical-tells-for-prose" class="level3">
-<h3 class="anchored" data-anchor-id="physical-tells-for-prose">5.3 Physical tells (for prose)</h3>
-<p>The thin pale <strong>throat-scar</strong>. <strong>Cold skin</strong> even in summer. Dogs bristle and whine around them, and a farm-dog will not stay in a room with one (ch.&nbsp;15–16’s fleeing hounds). A faint smell of peat and wet fur. Old wolves’ <strong>eye-teeth lengthen</strong> and their body-hair coarsens. No wolf-eyes, no glowing: they look like hard, weathered, quiet men.</p>
-</section>
-<section id="the-folk-are-half-right-do-they-change" class="level3">
-<h3 class="anchored" data-anchor-id="the-folk-are-half-right-do-they-change">5.4 The folk are half right: do they change?</h3>
-<p>Peasants are sure the vilkatai become wolves. In the iron hour they do not. But the <strong>Seniai</strong> (§7), wolves who have lived past twenty years sworn, can <strong>put on the wolf</strong> at need: real flesh, granted by the Root-Mother. Each time they come back less. The last time, they do not come back at all, and they run into the Dykra on four feet. Galminas’s beast-rage is a different thing again: the Root-Mother’s direct possession of her host, not the brotherhood’s gift.</p>
-</section>
-<section id="the-price-under-the-law-of-balance" class="level3">
-<h3 class="anchored" data-anchor-id="the-price-under-the-law-of-balance">5.5 The price under the Law of Balance</h3>
-<p>The Wolf-Change is <strong>granted</strong> power, bound by the Root-Mother’s nature rather than by the Three Laws. Even so, “Kiek paimi, tiek atiduok” still holds, because the Root-Mother keeps strict accounts.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
+<blockquote>
+<div><p><strong>In one line.</strong> The vilkatai are men (and, late, a few women) who give their names to the sacred fire and their bodies to the bog, and in return can see what priests cannot and do what villages cannot. Before 1387 they are the Pact’s teeth. After 1387 they are the only thing standing between the peasantry and its hungry dead, and everyone who needs them also hates them.</p>
+</div></blockquote>
+<hr class="docutils"/>
+<section id="at-a-glance">
+<h2>1. At a glance<a class="headerlink" href="#at-a-glance" lang="en" title="Link to this heading">¶</a></h2>
+<table class="docutils align-default">
 <thead>
-<tr class="header">
-<th>Taken</th>
-<th>Given</th>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>The <strong>true name</strong> (kept by the fire)</td>
-<td>A place in the land’s order; the skin-name</td>
+<tr class="row-even"><td><p><strong>What peasants call them</strong></p></td>
+<td><p><em>vilkatai</em> (werewolves), or “the grey ones”, never to their faces</p></td>
 </tr>
-<tr class="even">
-<td><strong>The road up</strong>: a vilkatas is laid in the bog, never burned, and never climbs to Dausos. Only his name goes up</td>
-<td>His voice joins the Iron Wolf’s pack at the roots</td>
+<tr class="row-odd"><td><p><strong>What they call themselves</strong></p></td>
+<td><p><em><strong>Dievo šunys</strong></em>, “God’s dogs”: the old folk name for wolves [Historical record], worn as a joke and a creed</p></td>
 </tr>
-<tr class="odd">
-<td><strong>The hearth</strong>, and the household: he is dead to his kin</td>
-<td>The pack</td>
+<tr class="row-even"><td><p><strong>What the Order calls them</strong></p></td>
+<td><p><em>Wolfsbrüder</em>, wolf-brothers [The saga’s invention]; heathen werewolves, with a bounty on their hides</p></td>
 </tr>
-<tr class="even">
-<td><strong>Part of the soul</strong> stays in the bog</td>
-<td>The sight of the dvasios</td>
+<tr class="row-odd"><td><p><strong>The brotherhood</strong></p></td>
+<td><p><em><strong>Brolija</strong></em>; each band is a <em><strong>gauja</strong></em> (pack) of five to nine</p></td>
 </tr>
-<tr class="odd">
-<td><strong>Memory</strong>, a little each iron hour</td>
-<td>The iron hour itself</td>
+<tr class="row-even"><td><p><strong>Sworn to</strong></p></td>
+<td><p>The <strong>Root-Mother</strong> (body) and the <strong>Gediminid flame</strong> (name). See §3</p></td>
 </tr>
-<tr class="even">
-<td><strong>Tears</strong></td>
-<td>Cold, wet and pain become nothing</td>
+<tr class="row-odd"><td><p><strong>Numbers</strong></p></td>
+<td><p>About 100 under Gediminas; about 120 in 1382; about 40 after the 1382 schism; a dozen by 1435; one (the Flame-Keeper) by the late 1440s [The saga’s invention]</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Country</strong></p></td>
+<td><p>The <strong>Dykra</strong>: bog-island lairs (<em>guoliai</em>) reached by sunken paths</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Power family</strong></p></td>
+<td><p><strong>Granted</strong> power, not asked. They are not casters and sit outside the practitioner tiers</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils"/>
+</section>
+<section id="what-the-record-gives-us-historical-record">
+<h2>2. What the record gives us [Historical record]<a class="headerlink" href="#what-the-record-gives-us-historical-record" lang="en" title="Link to this heading">¶</a></h2>
+<p>The brotherhood is invented, but every piece of it stands on something real.</p>
+<ul class="simple">
+<li><p><strong>The Indo-European wolf-warrior band.</strong> Scholars of early Indo-European society describe bands of young unmarried men who lived outside the settlement for a period, raided, and were ritually identified with wolves or dogs. This is the <em>Männerbund</em> (see Kris Kershaw, <em>The One-Eyed God: Odin and the (Indo-)Germanic Männerbünde</em>, 2000). Parallels often cited include the Old Norse <em>úlfheðnar</em> (“wolf-skins”, named beside the berserkers in skaldic verse) and the Irish <em>fían</em> war-bands. David Anthony and Dorcas Brown have interpreted midwinter dog and wolf sacrifices at the Bronze Age site of <strong>Krasnosamarskoe</strong> (Samara valley) as traces of such an initiation. The Proto-Indo-European name often reconstructed for the band is <em><strong>kóryos</strong></em>.</p></li>
+<li><p><strong>Baltic werewolves.</strong> Lithuanian folklore knows the <em>vilkatas</em> and <em>vilkolakis</em>. <strong>Herodotus</strong> (Histories 4.105) says the Neuri, usually placed in this region, became wolves for a few days each year. <strong>Olaus Magnus</strong> (1555) describes werewolves gathering on Christmas night in <strong>Prussia, Livonia and Lithuania</strong>, breaking into cellars and drinking the beer.</p></li>
+<li><p><strong>The “hounds of God”.</strong> In <strong>1692</strong> at Jürgensburg in Livonia, an old man named <strong>Thiess</strong> told his judges that werewolves were the <em>hounds of God</em>. In his account they went down to hell three times a year to fight the witches and bring back the stolen seed-grain, so that the harvest would be good. Carlo Ginzburg made the case famous. Lithuanian peasants likewise called wolves <em><strong>Dievo šunys</strong></em>, God’s dogs, and folk custom made <strong>St Jurgis</strong> (George) the shepherd of wolves, feeding them on his feast day.</p></li>
+<li><p><strong>The Iron Wolf.</strong> Gediminas’s dream, interpreted by <strong>Lizdeika</strong>, is a 16th-century chronicle legend.</p></li>
+<li><p><strong>Kęstutis’s war.</strong> Kęstutis fought the Teutonic Order on the western border for some four decades. He was captured in 1361 and escaped from Marienburg.</p></li>
+<li><p><strong>The Wildnis.</strong> A deliberately depopulated border belt crossed by raiders and by Lithuanian and Prussian <strong>guides</strong> (<em>Wegeleute</em>) whom the Order paid to lead its columns. <strong>Sudovia</strong> (Yotvingia) was conquered and largely emptied by 1283.</p></li>
+<li><p><strong>Sunken paths.</strong> Baltic peoples built <em><strong>kūlgrindos</strong></em>: paved causeways laid just below the water of a bog, invisible to strangers and used for defence.</p></li>
+</ul>
+<hr class="docutils"/>
+<span id="origins-the-sagas-invention"></span></section>
+<section id="origins-the-saga-s-invention">
+<h2>3. Origins [The saga’s invention]<a class="headerlink" href="#origins-the-saga-s-invention" lang="en" title="Link to this heading">¶</a></h2>
+<section id="before-gediminas-the-sudovian-wolves">
+<h3>3.1 Before Gediminas: the Sudovian wolves<a class="headerlink" href="#before-gediminas-the-sudovian-wolves" lang="en" title="Link to this heading">¶</a></h3>
+<p>When the Order emptied Sudovia (1277–83), the last Sudovian warriors went into the new wilderness instead of into baptism or exile. They lived as wolf-bands in the bogs, raiding both sides. The <strong>Root-Mother</strong>, newly formed out of Žemyna’s and Medeina’s grief, took some of them: the first men to lie down in the Dykra mud and get up changed. They had no master and no name. To the Lithuanians who traded with them, they were simply <em>vilkatai</em>.</p>
+<span id="lizdeikas-hundred"></span></section>
+<section id="lizdeika-s-hundred">
+<h3>3.2 Lizdeika’s hundred<a class="headerlink" href="#lizdeika-s-hundred" lang="en" title="Link to this heading">¶</a></h3>
+<p>The night of Gediminas’s dream, Lizdeika understood something he never told the Grand Duke. The Iron Wolf was collared because the house would devour itself, and <strong>a collar needs a hand on the leash</strong>. In the morning he climbed the hill and found a <strong>wolf’s skull</strong> lying where the dream-wolf had stood, grown hard and grey as iron. He carried it into the Dykra and made the wolf-bands an offer. They would be given a <strong>place in the land’s order</strong>, food, honour and a fire to give their names to. In return they would guard the Gediminid hearth and the Pact’s peace, and they would be the house’s leash. A hundred came. That is the “hundred voices” in the folk version, read by the brotherhood their own way.</p>
+<p>From then on, the brotherhood belonged to <strong>two masters</strong>: the <strong>Root-Mother</strong>, who made their bodies, and the <strong>Gediminid flame</strong> at Šventaragis, which kept their names. That double loyalty is the source of every tragedy below.</p>
+<span id="kęstutiss-wolves-13451382"></span></section>
+<section id="kestutis-s-wolves-13451382">
+<h3>3.3 Kęstutis’s wolves (1345–1382)<a class="headerlink" href="#kestutis-s-wolves-13451382" lang="en" title="Link to this heading">¶</a></h3>
+<p>After the <strong>Silent Pact</strong> of 1345, the brotherhood became the Pact’s <strong>teeth</strong>. Kęstutis, holding the west from Trakai, used them as his border raiders in the Wildnis. They burned Order supply-dumps, drowned Reise columns in the bogs, and guided Lithuanian raids into Prussia along routes no <em>Wegeleute</em> knew. He also kept a <strong>hidden guard</strong> of nine at his side, never named in any chronicle. Algirdas in Vilnius kept the other half of the brotherhood near the Šventaragis flame. When Algirdas died in 1377 those <strong>Vilnius packs</strong> passed to Jogaila with the city. This split is the root of the <strong>1382 schism</strong> (§10).</p>
+<hr class="docutils"/>
+<span id="vilkų-krikštas-the-wolves-baptism-the-sagas-invention"></span></section>
+</section>
+<section id="vilku-krikstas-the-wolves-baptism-the-saga-s-invention">
+<h2>4. Vilkų krikštas: the Wolves’ Baptism [The saga’s invention]<a class="headerlink" href="#vilku-krikstas-the-wolves-baptism-the-saga-s-invention" lang="en" title="Link to this heading">¶</a></h2>
+<p>The rite is called <em>krikštas</em>, “baptism”, in mockery: the brotherhood took the Christian word and hung it on the oldest thing in the land. It is held in the <strong>twelve nights after Kūčios</strong> (the winter solstice), the time when the boundary between the living and the dead is thinnest and wolves are said to gather (compare Olaus Magnus and Krasnosamarskoe, §2).</p>
+<p><strong>Who is chosen.</strong> Unmarried men, usually 16 to 25 (the one exception is the Flame-Keeper, sworn at fourteen, nearly fifteen, in 1405): younger sons, outlaws, the last of burned villages, the occasional boyar’s bastard. Each must be <strong>sponsored</strong> by a sworn wolf (his <em>vilktėvis</em>, “wolf-father”), who answers for him with his own life.</p>
+<p><strong>The rite, in nine steps.</strong></p>
+<ol class="arabic simple">
+<li><p><strong>The funeral feast.</strong> The candidate’s family holds a <em>šermenys</em> (wake) for him as though he had died. He eats his last meal at his mother’s hearth. From then on he is dead to the household, and his kin may not speak his name.</p></li>
+<li><p><strong>The name to the fire.</strong> At a sacred flame (Šventaragis before 1387; Vytautas’s secret flame after), the candidate whispers his <strong>true name</strong> into the fire. The fire keeps it. His name will go up to Dausos when he dies, without him.</p></li>
+<li><p><strong>The throat-mark.</strong> The sponsor draws a shallow cut across the candidate’s throat at the voice-box and rubs <strong>live ash</strong> from that same flame into it. It heals as a thin pale line, the <em><strong>gerklės žymė</strong></em>. It is the only mark the brotherhood bears.</p></li>
+<li><p><strong>Nine nights without fire.</strong> The candidate is taken into the Dykra naked but for a belt and a knife of bog-iron. For nine nights he may not light or approach a fire. The packs <strong>hunt</strong> him. If they catch him, they beat him and let him go; if he is caught three times, he is sent home, nameless and disgraced. Some do not survive the cold.</p></li>
+<li><p><strong>The drowning.</strong> On the ninth night he is led along a <em>kūlgrinda</em> to the oldest bog in the Dykra and <strong>pressed under the mud</strong> until he stops struggling. The Root-Mother decides. Most come up. Some do not, and they are left where they lie. What comes up has left <strong>part of its soul</strong> below.</p></li>
+<li><p><strong>The oath on the skull.</strong> Dripping and blue with cold, he swears the <strong>Pack’s Word</strong> (§6) with both hands on the Iron Wolf’s skull. A lie spoken over the skull is heard by every wolf in the Dykra.</p></li>
+<li><p><strong>First meat.</strong> He eats raw from the pack’s kill, in silence, beside the others.</p></li>
+<li><p><strong>The skin-name.</strong> The Vilkų Tėvas gives him a <em><strong>kailio vardas</strong></em> (skin-name): a nickname, a dead enemy’s name, or an object (Rūdis, Kirmėlė, Jonas). He answers to nothing else for the rest of his life.</p></li>
+<li><p><strong>The wolf-hide.</strong> He receives a wolf-hide from his sponsor, from a wolf the sponsor killed with his own hands. He will be laid in the bog in it.</p></li>
+</ol>
+<p><strong>Failure.</strong> About a third of candidates are sent home or die [The saga’s invention]. The families of those sent home have already held their funeral, so the failures live as ghosts in their own villages. Some become the hedge-folk who later help the brotherhood; some become its informers.</p>
+<hr class="docutils"/>
+</section>
+<section id="what-it-makes-of-a-man">
+<h2>5. What it makes of a man<a class="headerlink" href="#what-it-makes-of-a-man" lang="en" title="Link to this heading">¶</a></h2>
+<section id="gifts">
+<h3>5.1 Gifts<a class="headerlink" href="#gifts" lang="en" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>The sight of the dvasios.</strong> The most important gift and the reason for everything after 1387: a vilkatas <strong>sees and hears spirits</strong>: laumės at the river, a slogutis on a sleeper’s chest, the hunger in an unfed grave. Priests cannot see them.</p></li>
+<li><p><strong>Night-sight and scent.</strong> He sees by starlight as a man sees at dusk, and he can track by smell across a bog a day old.</p></li>
+<li><p><strong>The Root-Mother’s healing.</strong> Wounds packed with bog-moss and mud close in days instead of weeks; their blood is dark, runs slow, and smells of peat. This healing does <strong>not</strong> work on wounds made by feast-day iron.</p></li>
+<li><p><strong>Cold and wet are nothing.</strong> He can sleep in snow and lie in bog-water for hours.</p></li>
+<li><p><strong>Pack-sense.</strong> Sworn wolves know when a brother dies, wherever they are: they hear one more voice in the Iron Wolf’s chorus.</p></li>
+<li><p><strong>The iron hour (<em>geležinė valanda</em>).</strong> A battle-frenzy like the berserkers’ or <em>úlfheðnar</em>’s. For about an hour the wolf feels no pain or fear, and fights at a ferocity that has given the folk their tales of men becoming wolves. They do <strong>not</strong> change shape (see §5.4).</p></li>
+</ul>
+</section>
+<section id="flaws">
+<h3>5.2 Flaws<a class="headerlink" href="#flaws" lang="en" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>No hearth.</strong> A vilkatas cannot sleep under a roof with a lit hearth. The fire that holds his name rejects his body, and he wakes choking, with a slogutis’s weight on his chest. They sleep in barns, byres and under the sky.</p></li>
+<li><p><strong>Feast-day iron</strong> burns them like any spirit. Smith’s iron stings; bog-iron does not.</p></li>
+<li><p><strong>Consecrated stone</strong> sickens them: dizziness, nausea, their gifts dimmed.</p></li>
+<li><p><strong>The hungry dead hunt them</strong>. A vilkatas smells of the roots, where the dead are going, and unfed vėlės are drawn to him like moths to a lantern. After 1387 this is both their worst danger and their main tool (§8.3).</p></li>
+<li><p><strong>The iron hour costs memory.</strong> Each frenzy takes a human memory: a face, a song, the way home. Old wolves are people with holes in them.</p></li>
+<li><p><strong>They cannot weep.</strong></p></li>
+</ul>
+</section>
+<section id="physical-tells-for-prose">
+<h3>5.3 Physical tells (for prose)<a class="headerlink" href="#physical-tells-for-prose" lang="en" title="Link to this heading">¶</a></h3>
+<p>The thin pale <strong>throat-scar</strong>. <strong>Cold skin</strong> even in summer. Dogs bristle and whine around them, and a farm-dog will not stay in a room with one (ch. 15–16’s fleeing hounds). A faint smell of peat and wet fur. Old wolves’ <strong>eye-teeth lengthen</strong> and their body-hair coarsens. No wolf-eyes, no glowing: they look like hard, weathered, quiet men.</p>
+</section>
+<section id="the-folk-are-half-right-do-they-change">
+<h3>5.4 The folk are half right: do they change?<a class="headerlink" href="#the-folk-are-half-right-do-they-change" lang="en" title="Link to this heading">¶</a></h3>
+<p>Peasants are sure the vilkatai become wolves. In the iron hour they do not. But the <strong>Seniai</strong> (§7), wolves who have lived past twenty years sworn, can <strong>put on the wolf</strong> at need: real flesh, granted by the Root-Mother. Each time they come back less. The last time, they do not come back at all, and they run into the Dykra on four feet. Galminas’s beast-rage is a different thing again: the Root-Mother’s direct possession of her host, not the brotherhood’s gift.</p>
+</section>
+<section id="the-price-under-the-law-of-balance">
+<h3>5.5 The price under the Law of Balance<a class="headerlink" href="#the-price-under-the-law-of-balance" lang="en" title="Link to this heading">¶</a></h3>
+<p>The Wolf-Change is <strong>granted</strong> power, bound by the Root-Mother’s nature rather than by the Three Laws. Even so, “Kiek paimi, tiek atiduok” still holds, because the Root-Mother keeps strict accounts.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Taken</p></th>
+<th class="head"><p>Given</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>The <strong>true name</strong> (kept by the fire)</p></td>
+<td><p>A place in the land’s order; the skin-name</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>The road up</strong>: a vilkatas is laid in the bog, never burned, and never climbs to Dausos. Only his name goes up</p></td>
+<td><p>His voice joins the Iron Wolf’s pack at the roots</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>The hearth</strong>, and the household: he is dead to his kin</p></td>
+<td><p>The pack</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Part of the soul</strong> stays in the bog</p></td>
+<td><p>The sight of the dvasios</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Memory</strong>, a little each iron hour</p></td>
+<td><p>The iron hour itself</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Tears</strong></p></td>
+<td><p>Cold, wet and pain become nothing</p></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Leaving.</strong> A vilkatas can return to human life <strong>once</strong>, if someone who knew his true name speaks it to him by a living fire and offers him bread on a knife-point (the folk cure for werewolves, half right as always). He loses every gift at once, ages the years he has spent sworn in a single winter, and the brotherhood treats him as dead. It is rare, and it is almost always a mother.</p>
-<hr>
+<hr class="docutils"/>
+<span id="gaujos-žodis-the-packs-word-the-sagas-invention"></span></section>
 </section>
-</section>
-<section id="gaujos-žodis-the-packs-word-the-sagas-invention" class="level2">
-<h2 class="anchored" data-anchor-id="gaujos-žodis-the-packs-word-the-sagas-invention">6. Gaujos žodis: the Pack’s Word [The saga’s invention]</h2>
+<section id="gaujos-zodis-the-pack-s-word-the-saga-s-invention">
+<h2>6. Gaujos žodis: the Pack’s Word [The saga’s invention]<a class="headerlink" href="#gaujos-zodis-the-pack-s-word-the-saga-s-invention" lang="en" title="Link to this heading">¶</a></h2>
 <p>Nine rules, sworn on the skull.</p>
-<ol type="1">
-<li><strong>Duona už duoną</strong> (“Bread for bread”). Take nothing that was not given. Pay for every meal, with meat, labour or blood.</li>
-<li><strong>No Gediminid blood.</strong> A sworn wolf may not shed the blood of Gediminas’s house. This is the Pact’s second clause in the brotherhood’s own mouth. Breaking it gives the wolf to the Root-Mother at once: he goes into the bog alive.</li>
-<li><strong>No sleep under a lit roof.</strong></li>
-<li><strong>The name stays in the fire.</strong> Never seek your own true name; never speak another wolf’s.</li>
-<li><strong>Žaltys, oak and flame are never harmed.</strong></li>
-<li><strong>The dead go to the bog.</strong> A wolf is never burned and never buried in a churchyard. His brothers carry him home to the Dykra, however far.</li>
-<li><strong>Courtesy before iron.</strong> With spirits, ask first, bargain second, kill last.</li>
-<li><strong>Hunt what custom cannot hold.</strong> When the village’s charms, milk and salt fail, the wolf comes.</li>
-<li><strong>The pack answers the flame, not the man.</strong> The brotherhood serves whoever <strong>keeps the Gediminid flame</strong>, whatever they think of him.</li>
+<ol class="arabic simple">
+<li><p><strong>Duona už duoną</strong> (“Bread for bread”). Take nothing that was not given. Pay for every meal, with meat, labour or blood.</p></li>
+<li><p><strong>No Gediminid blood.</strong> A sworn wolf may not shed the blood of Gediminas’s house. This is the Pact’s second clause in the brotherhood’s own mouth. Breaking it gives the wolf to the Root-Mother at once: he goes into the bog alive.</p></li>
+<li><p><strong>No sleep under a lit roof.</strong></p></li>
+<li><p><strong>The name stays in the fire.</strong> Never seek your own true name; never speak another wolf’s.</p></li>
+<li><p><strong>Žaltys, oak and flame are never harmed.</strong></p></li>
+<li><p><strong>The dead go to the bog.</strong> A wolf is never burned and never buried in a churchyard. His brothers carry him home to the Dykra, however far.</p></li>
+<li><p><strong>Courtesy before iron.</strong> With spirits, ask first, bargain second, kill last.</p></li>
+<li><p><strong>Hunt what custom cannot hold.</strong> When the village’s charms, milk and salt fail, the wolf comes.</p></li>
+<li><p><strong>The pack answers the flame, not the man.</strong> The brotherhood serves whoever <strong>keeps the Gediminid flame</strong>, whatever they think of him.</p></li>
 </ol>
 <p>Rule 9 and rule 2 together make the brotherhood’s tragedy. In 1382 the Šventaragis flame stands in Jogaila’s Vilnius, so by the letter the brotherhood owes Jogaila. And no wolf may lift a hand against Skirgaila, whatever he does.</p>
-<hr>
-</section>
-<section id="ranks-the-sagas-invention" class="level2">
-<h2 class="anchored" data-anchor-id="ranks-the-sagas-invention">7. Ranks [The saga’s invention]</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
+<hr class="docutils"/>
+<span id="ranks-the-sagas-invention"></span></section>
+<section id="ranks-the-saga-s-invention">
+<h2>7. Ranks [The saga’s invention]<a class="headerlink" href="#ranks-the-saga-s-invention" lang="en" title="Link to this heading">¶</a></h2>
+<table class="docutils align-default">
 <thead>
-<tr class="header">
-<th>Rank</th>
-<th>Lithuanian</th>
-<th>Who</th>
-<th>Notes</th>
+<tr class="row-odd"><th class="head"><p>Rank</p></th>
+<th class="head"><p>Lithuanian</p></th>
+<th class="head"><p>Who</p></th>
+<th class="head"><p>Notes</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>Candidate</td>
-<td><strong><em>Šuo</em></strong> (dog)</td>
-<td>Before the krikštas</td>
-<td>“A dog goes back to the kennel; a wolf does not” (the Beggar’s line, ch.&nbsp;4, which the brotherhood quotes at failures)</td>
+<tr class="row-even"><td><p>Candidate</p></td>
+<td><p><em><strong>Šuo</strong></em> (dog)</p></td>
+<td><p>Before the krikštas</p></td>
+<td><p>“A dog goes back to the kennel; a wolf does not” (the Beggar’s line, ch. 4, which the brotherhood quotes at failures)</p></td>
 </tr>
-<tr class="even">
-<td>Cub</td>
-<td><strong><em>Jauniklis</em></strong></td>
-<td>First year sworn</td>
-<td>No pack vote; carries the dead</td>
+<tr class="row-odd"><td><p>Cub</p></td>
+<td><p><em><strong>Jauniklis</strong></em></p></td>
+<td><p>First year sworn</p></td>
+<td><p>No pack vote; carries the dead</p></td>
 </tr>
-<tr class="odd">
-<td>Wolf</td>
-<td><strong><em>Vilkas</em></strong></td>
-<td>Sworn</td>
-<td>The body of the brotherhood</td>
+<tr class="row-even"><td><p>Wolf</p></td>
+<td><p><em><strong>Vilkas</strong></em></p></td>
+<td><p>Sworn</p></td>
+<td><p>The body of the brotherhood</p></td>
 </tr>
-<tr class="even">
-<td>Ash-bearer</td>
-<td><strong><em>Pelenininkas</em></strong></td>
-<td>One per pack</td>
-<td>Carries the clay pot of <strong>live ash</strong> from the sacred flame. After 1387 this is the most important office in the brotherhood</td>
+<tr class="row-odd"><td><p>Ash-bearer</p></td>
+<td><p><em><strong>Pelenininkas</strong></em></p></td>
+<td><p>One per pack</p></td>
+<td><p>Carries the clay pot of <strong>live ash</strong> from the sacred flame. After 1387 this is the most important office in the brotherhood</p></td>
 </tr>
-<tr class="odd">
-<td>Pack-elder</td>
-<td><strong><em>Vilkų vyresnysis</em></strong></td>
-<td>Leads a gauja of five to nine</td>
-<td>Carries the pack’s single <strong>feast-day iron</strong> blade, wrapped in linen (his burned palm is how you recognise him)</td>
+<tr class="row-even"><td><p>Pack-elder</p></td>
+<td><p><em><strong>Vilkų vyresnysis</strong></em></p></td>
+<td><p>Leads a gauja of five to nine</p></td>
+<td><p>Carries the pack’s single <strong>feast-day iron</strong> blade, wrapped in linen (his burned palm is how you recognise him)</p></td>
 </tr>
-<tr class="even">
-<td>Elder</td>
-<td><strong><em>Senis</em></strong> (pl. <em>Seniai</em>)</td>
-<td>Twenty years sworn</td>
-<td>Can put on the wolf (§5.4); half-feral; councillors</td>
+<tr class="row-odd"><td><p>Elder</p></td>
+<td><p><em><strong>Senis</strong></em> (pl. <em>Seniai</em>)</p></td>
+<td><p>Twenty years sworn</p></td>
+<td><p>Can put on the wolf (§5.4); half-feral; councillors</p></td>
 </tr>
-<tr class="odd">
-<td>Wolf-Father</td>
-<td><strong><em>Vilkų Tėvas</em></strong> (later, once, <strong><em>Vilkų Motina</em></strong>)</td>
-<td>One for the whole brotherhood</td>
-<td>Keeper of the Iron Wolf’s skull. Chosen by the Root-Mother: candidates lie down in the bog together, and the one who rises first leads</td>
+<tr class="row-even"><td><p>Wolf-Father</p></td>
+<td><p><em><strong>Vilkų Tėvas</strong></em> (later, once, <em><strong>Vilkų Motina</strong></em>)</p></td>
+<td><p>One for the whole brotherhood</p></td>
+<td><p>Keeper of the Iron Wolf’s skull. Chosen by the Root-Mother: candidates lie down in the bog together, and the one who rises first leads</p></td>
 </tr>
 </tbody>
 </table>
-<hr>
+<hr class="docutils"/>
 </section>
-<section id="weapons-and-craft" class="level2">
-<h2 class="anchored" data-anchor-id="weapons-and-craft">8. Weapons and craft</h2>
-<section id="arms" class="level3">
-<h3 class="anchored" data-anchor-id="arms">8.1 Arms</h3>
+<section id="weapons-and-craft">
+<h2>8. Weapons and craft<a class="headerlink" href="#weapons-and-craft" lang="en" title="Link to this heading">¶</a></h2>
+<section id="arms">
+<h3>8.1 Arms<a class="headerlink" href="#arms" lang="en" title="Link to this heading">¶</a></h3>
 <p>Light gear for bog-country: no plate, little mail. Wolf-hide over quilted wool or leather. Their weapons are <strong>bog-iron</strong> spears, heavy fighting knives and axes, hunting bows, and <strong>crossbows taken from the Order</strong>. They fight from ambush, at night, in water and reeds, and they prefer drowning a knight in a bog to fighting him on dry ground.</p>
 </section>
-<section id="bog-craft" class="level3">
-<h3 class="anchored" data-anchor-id="bog-craft">8.2 Bog-craft</h3>
+<section id="bog-craft">
+<h3>8.2 Bog-craft<a class="headerlink" href="#bog-craft" lang="en" title="Link to this heading">¶</a></h3>
 <p>They know every <em>kūlgrinda</em> in the Dykra and have laid many themselves. Lairs (<em>guoliai</em>) are bog-islands reached only by these paths. Signals are howls (a whole vocabulary, which the Order’s guides learned to fear) and <strong>marks cut in birch-bark</strong>. They speak with <em>Wegeleute</em> on both sides, and some of them are <em>Wegeleute</em> (§13, Rūdis).</p>
-</section>
-<section id="the-spirit-hunters-kit-after-1387" class="level3">
-<h3 class="anchored" data-anchor-id="the-spirit-hunters-kit-after-1387">8.3 The spirit-hunter’s kit (after 1387)</h3>
+<span id="the-spirit-hunters-kit-after-1387"></span></section>
+<section id="the-spirit-hunter-s-kit-after-1387">
+<h3>8.3 The spirit-hunter’s kit (after 1387)<a class="headerlink" href="#the-spirit-hunter-s-kit-after-1387" lang="en" title="Link to this heading">¶</a></h3>
 <p>Each pack carries a <strong>salt horn</strong> (bought dear from Hanseatic smugglers), <strong>linen thread</strong> spun by the wolves’ sisters, a <strong>poppy-seed pouch</strong>, <strong>juniper</strong>, a <strong>thunder-stone</strong> if they can find one, the <strong>ash-pot</strong>, flint and steel, and a <strong>pyre-axe</strong>.</p>
 <p>Their method is grim and practical, and it turns their worst flaw into a tool.</p>
-<ol type="1">
-<li><strong>Find it.</strong> They read the signs and talk to the village, the ragana and the dead.</li>
-<li><strong>Ask.</strong> Most spirits can be bargained with (rule 7). Most hunts end here, with a feast for a forgotten grandmother or a žaltys carried to the forest.</li>
-<li><strong>Bait.</strong> If asking fails, a wolf <strong>offers himself</strong>: the hungry dead are drawn to him (§5.2). He lies down inside a ring of live ash beside a prepared pyre.</li>
-<li><strong>Burn.</strong> When the thing comes, the pack drags the body it rose from onto the pyre. Burning is the only true cure for the unburned.</li>
-<li><strong>Leave before dawn</strong>, because after 1387 a pyre with a corpse on it is heresy, and someone always sees the smoke.</li>
+<ol class="arabic simple">
+<li><p><strong>Find it.</strong> They read the signs and talk to the village, the ragana and the dead.</p></li>
+<li><p><strong>Ask.</strong> Most spirits can be bargained with (rule 7). Most hunts end here, with a feast for a forgotten grandmother or a žaltys carried to the forest.</p></li>
+<li><p><strong>Bait.</strong> If asking fails, a wolf <strong>offers himself</strong>: the hungry dead are drawn to him (§5.2). He lies down inside a ring of live ash beside a prepared pyre.</p></li>
+<li><p><strong>Burn.</strong> When the thing comes, the pack drags the body it rose from onto the pyre. Burning is the only true cure for the unburned.</p></li>
+<li><p><strong>Leave before dawn</strong>, because after 1387 a pyre with a corpse on it is heresy, and someone always sees the smoke.</p></li>
 </ol>
-<hr>
+<hr class="docutils"/>
 </section>
 </section>
-<section id="how-they-are-seen" class="level2">
-<h2 class="anchored" data-anchor-id="how-they-are-seen">9. How they are seen</h2>
-<ul>
-<li><strong>Peasants.</strong> Fear and need in equal measure. Mothers threaten children with them. Yet the same mothers leave bread on a stump at the forest edge for them, as for wolves at Jurginės. After 1387 a village that needs them hangs a <strong>wolf’s jaw on its gatepost</strong>, and pays in bread, a night in the barn and silence. Nobody thanks them, and nobody tells the priest.</li>
-<li><strong>Boyars.</strong> Useful dogs: raiders, scouts and assassins of last resort. They are an embarrassment once the boyar is baptised, but boyars hire them secretly when the family’s own dead come for them.</li>
-<li><strong>Pagan priests (žyniai, the Krivis).</strong> Distrust. The vilkatai belong to the <strong>roots</strong>, the priests to the <strong>sky and fire</strong>. A man who is never burned is, to a žynys, half impure: his name goes up and he goes down. The Krivis keeps their names in his flame and does not invite them to his table. After 1387 the surviving žyniai and the wolves need each other and still do not like each other.</li>
-<li><strong>Christian clergy.</strong> Werewolves and devil-worshippers. The Order pays a bounty per hide. Yet the clergy are blind to the unbound spirits, and from Book III some Franciscans and parish priests quietly <strong>send for the wolves</strong> when their parishioners start dying. A medieval pun called the Dominicans <em>Domini canes</em>, “the Lord’s dogs” [Historical record]. The saga should let a friar notice that the Lord now has two kinds of dog.</li>
-<li><strong>The Order.</strong> The one enemy that does not fear them, because the <strong>Iron Saint</strong> grants its knights fearlessness. Wolves who face knights die like anyone else.</li>
-<li><strong>Vytautas.</strong> See §11.</li>
+<section id="how-they-are-seen">
+<h2>9. How they are seen<a class="headerlink" href="#how-they-are-seen" lang="en" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Peasants.</strong> Fear and need in equal measure. Mothers threaten children with them. Yet the same mothers leave bread on a stump at the forest edge for them, as for wolves at Jurginės. After 1387 a village that needs them hangs a <strong>wolf’s jaw on its gatepost</strong>, and pays in bread, a night in the barn and silence. Nobody thanks them, and nobody tells the priest.</p></li>
+<li><p><strong>Boyars.</strong> Useful dogs: raiders, scouts and assassins of last resort. They are an embarrassment once the boyar is baptised, but boyars hire them secretly when the family’s own dead come for them.</p></li>
+<li><p><strong>Pagan priests (žyniai, the Krivis).</strong> Distrust. The vilkatai belong to the <strong>roots</strong>, the priests to the <strong>sky and fire</strong>. A man who is never burned is, to a žynys, half impure: his name goes up and he goes down. The Krivis keeps their names in his flame and does not invite them to his table. After 1387 the surviving žyniai and the wolves need each other and still do not like each other.</p></li>
+<li><p><strong>Christian clergy.</strong> Werewolves and devil-worshippers. The Order pays a bounty per hide. Yet the clergy are blind to the unbound spirits, and from Book III some Franciscans and parish priests quietly <strong>send for the wolves</strong> when their parishioners start dying. A medieval pun called the Dominicans <em>Domini canes</em>, “the Lord’s dogs” [Historical record]. The saga should let a friar notice that the Lord now has two kinds of dog.</p></li>
+<li><p><strong>The Order.</strong> The one enemy that does not fear them, because the <strong>Iron Saint</strong> grants its knights fearlessness. Wolves who face knights die like anyone else.</p></li>
+<li><p><strong>Vytautas.</strong> See §11.</p></li>
 </ul>
-<hr>
+<hr class="docutils"/>
 </section>
-<section id="before-the-unbinding-border-raiders-and-the-hidden-guard-to-1387" class="level2">
-<h2 class="anchored" data-anchor-id="before-the-unbinding-border-raiders-and-the-hidden-guard-to-1387">10. Before the Unbinding: border raiders and the hidden guard (to 1387)</h2>
+<section id="before-the-unbinding-border-raiders-and-the-hidden-guard-to-1387">
+<h2>10. Before the Unbinding: border raiders and the hidden guard (to 1387)<a class="headerlink" href="#before-the-unbinding-border-raiders-and-the-hidden-guard-to-1387" lang="en" title="Link to this heading">¶</a></h2>
 <p>Until 1382 the brotherhood does three jobs: <strong>border war</strong> in the Wildnis for Kęstutis; <strong>guard</strong> (Kęstutis’s hidden nine; the Vilnius packs at the Šventaragis flame); and <strong>custom-keeping</strong> among the peasantry. That last job is the one the saga’s grey tone needs. A man who killed a žaltys or felled a sacred oak could expect a visit at night. The wolves were the Pact’s police, and the villages feared them for it.</p>
-<p><strong>The 1382 schism (<em>Skilimas</em>).</strong> When Jogaila took Vilnius in 1382, the <strong>Vilnius packs</strong> under their leader Kalvis (§13) obeyed rule 9: the flame was in Jogaila’s city, so they owed Jogaila. They did not kill Kęstutis’s men. They stood aside while Skirgaila’s killers did their work at <strong>Jogaila’s camp near Trakai</strong> (ch.&nbsp;7), and they told themselves that this kept rule 2. <strong>Kęstutis’s packs</strong> went with their prince; <strong>seven of the hidden nine died in the camp slaughter and were buried in the bog</strong>, while <strong>Jonas’s men stayed in Kęstutis’s own camp</strong> and were not in the tents. The brotherhood has been at war with itself ever since. Wolves have eaten wolves, as ch.&nbsp;21 puts it (“Vilkas pradėjo ėsti savo paties gaują”).</p>
-<hr>
+<p><strong>The 1382 schism (<em>Skilimas</em>).</strong> When Jogaila took Vilnius in 1382, the <strong>Vilnius packs</strong> under their leader Kalvis (§13) obeyed rule 9: the flame was in Jogaila’s city, so they owed Jogaila. They did not kill Kęstutis’s men. They stood aside while Skirgaila’s killers did their work at <strong>Jogaila’s camp near Trakai</strong> (ch. 7), and they told themselves that this kept rule 2. <strong>Kęstutis’s packs</strong> went with their prince; <strong>seven of the hidden nine died in the camp slaughter and were buried in the bog</strong>, while <strong>Jonas’s men stayed in Kęstutis’s own camp</strong> and were not in the tents. The brotherhood has been at war with itself ever since. Wolves have eaten wolves, as ch. 21 puts it (“Vilkas pradėjo ėsti savo paties gaują”).</p>
+<hr class="docutils"/>
 </section>
-<section id="after-the-unbinding-the-only-ones-who-hunt-13871450" class="level2">
-<h2 class="anchored" data-anchor-id="after-the-unbinding-the-only-ones-who-hunt-13871450">11. After the Unbinding: the only ones who hunt (1387–1450)</h2>
-<p>In <strong>1387</strong> Jogaila puts out the Šventaragis flame (ch.&nbsp;29). In one stroke:</p>
-<ul>
-<li>The Vilnius packs’ master <strong>broke the Pact himself</strong>, and their loyalty to Jogaila is void.</li>
-<li>The only Gediminid flame left is the one <strong>Vytautas</strong> lights in secret that night. By rule 9, the <strong>whole brotherhood now answers to Vytautas</strong>, including the men who held the doors at his father’s murder.</li>
-<li><strong>New initiations need a kept flame.</strong> Every future wolf must be named into Vytautas’s fire, so the brotherhood’s survival is tied to his. When his flame dies in 1430, so does the krikštas.</li>
-<li><strong>Live ash becomes priceless.</strong> It is the one ward that holds the unburned dead and calms the Quenched. The ash-bearers make a dangerous journey to Trakai to refill their pots.</li>
+<section id="after-the-unbinding-the-only-ones-who-hunt-13871450">
+<h2>11. After the Unbinding: the only ones who hunt (1387–1450)<a class="headerlink" href="#after-the-unbinding-the-only-ones-who-hunt-13871450" lang="en" title="Link to this heading">¶</a></h2>
+<p>In <strong>1387</strong> Jogaila puts out the Šventaragis flame (ch. 29). In one stroke:</p>
+<ul class="simple">
+<li><p>The Vilnius packs’ master <strong>broke the Pact himself</strong>, and their loyalty to Jogaila is void.</p></li>
+<li><p>The only Gediminid flame left is the one <strong>Vytautas</strong> lights in secret that night. By rule 9, the <strong>whole brotherhood now answers to Vytautas</strong>, including the men who held the doors at his father’s murder.</p></li>
+<li><p><strong>New initiations need a kept flame.</strong> Every future wolf must be named into Vytautas’s fire, so the brotherhood’s survival is tied to his. When his flame dies in 1430, so does the krikštas.</p></li>
+<li><p><strong>Live ash becomes priceless.</strong> It is the one ward that holds the unburned dead and calms the Quenched. The ash-bearers make a dangerous journey to Trakai to refill their pots.</p></li>
 </ul>
 <p>They are hated by the Church, used by boyars, paid by peasants in bread and silence, and dying out.</p>
-<hr>
+<hr class="docutils"/>
 </section>
-<section id="the-wolves-and-vytautas-books-iv" class="level2">
-<h2 class="anchored" data-anchor-id="the-wolves-and-vytautas-books-iv">12. The wolves and Vytautas, Books I–V</h2>
-<section id="why-he-is-never-one-of-them" class="level3">
-<h3 class="anchored" data-anchor-id="why-he-is-never-one-of-them">12.1 Why he is never one of them</h3>
+<section id="the-wolves-and-vytautas-books-iv">
+<h2>12. The wolves and Vytautas, Books I–V<a class="headerlink" href="#the-wolves-and-vytautas-books-iv" lang="en" title="Link to this heading">¶</a></h2>
+<section id="why-he-is-never-one-of-them">
+<h3>12.1 Why he is never one of them<a class="headerlink" href="#why-he-is-never-one-of-them" lang="en" title="Link to this heading">¶</a></h3>
 <p>Vytautas is <strong>bound</strong> by his mother’s Sutartis and <strong>claimed</strong> by Perkūnas. The Root-Mother cannot take a man already owned twice. Claims can be contested, and she would lose. So the wolves follow a man who is <strong>not</strong> a wolf. They call him <em>Vilkų kunigaikštis</em>, prince of the wolves, half in irony.</p>
 </section>
-<section id="books-iiv" class="level3">
-<h3 class="anchored" data-anchor-id="books-iiv">12.3 Books II–V</h3>
-<ul>
-<li><strong>Book II (1387–99).</strong> The wolves guard the secret flame in the Trakai island vault. Vytautas must judge Kalvis (he spares him, and the old Kęstutis wolves never forgive either of them). <strong>1392:</strong> Šešiapirštis goes into Prussia to save Vytautas’s hostage sons, finds them already poisoned, and comes back to lay himself in the bog. <strong>1399, Vorskla:</strong> the wolves will not follow Vytautas into the steppe, because the Root-Mother’s gifts fade far from forest. The few who go die. “No mother’s fog, only shame”, and no wolves either.</li>
-<li><strong>Book III (1399–1411).</strong> The Samogitian uprisings (1401, 1409) beside <strong>Galminas</strong>. On campaign an ash-bearer carries the secret flame in a lantern. <strong>Grunwald, 1410:</strong> the wolves are Vytautas’s <strong>vanguard</strong>, and they run in the Lithuanian retreat, real or feigned, leading pursuing knights into the woods. The <strong>Riders of the Reise</strong> scream when the Iron Saint breaks.</li>
-<li><strong>Book IV (1411–30).</strong> The Hidden Groves fall, and with Samogitia baptised the Church <strong>hunts</strong> the wolves in earnest. A second split: the <strong><em>krikštyti vilkai</em></strong> (baptised wolves) buy their lives by taking bishops’ coin to hunt the unbound in parishes, and by informing on the rest, while Pilkoji’s faction keeps the old way. <strong>Henė’s offer</strong> threatens the brotherhood’s existence. If Vytautas lets the flame die, there will be no more wolves, and rule 2 forbids them to stop him by force. <em>The key Book IV wolf scene:</em> Pilkoji at the vault door, deciding whether to break rule 2. <strong>1430:</strong> Vytautas dies and the flame goes out.</li>
-<li><strong>Book V (1430–50).</strong> See §14.</li>
+<section id="books-iiv">
+<h3>12.3 Books II–V<a class="headerlink" href="#books-iiv" lang="en" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Book II (1387–99).</strong> The wolves guard the secret flame in the Trakai island vault. Vytautas must judge Kalvis (he spares him, and the old Kęstutis wolves never forgive either of them). <strong>1392:</strong> Šešiapirštis goes into Prussia to save Vytautas’s hostage sons, finds them already poisoned, and comes back to lay himself in the bog. <strong>1399, Vorskla:</strong> the wolves will not follow Vytautas into the steppe, because the Root-Mother’s gifts fade far from forest. The few who go die. “No mother’s fog, only shame”, and no wolves either.</p></li>
+<li><p><strong>Book III (1399–1411).</strong> The Samogitian uprisings (1401, 1409) beside <strong>Galminas</strong>. On campaign an ash-bearer carries the secret flame in a lantern. <strong>Grunwald, 1410:</strong> the wolves are Vytautas’s <strong>vanguard</strong>, and they run in the Lithuanian retreat, real or feigned, leading pursuing knights into the woods. The <strong>Riders of the Reise</strong> scream when the Iron Saint breaks.</p></li>
+<li><p><strong>Book IV (1411–30).</strong> The Hidden Groves fall, and with Samogitia baptised the Church <strong>hunts</strong> the wolves in earnest. A second split: the <em><strong>krikštyti vilkai</strong></em> (baptised wolves) buy their lives by taking bishops’ coin to hunt the unbound in parishes, and by informing on the rest, while Pilkoji’s faction keeps the old way. <strong>Henė’s offer</strong> threatens the brotherhood’s existence. If Vytautas lets the flame die, there will be no more wolves, and rule 2 forbids them to stop him by force. <em>The key Book IV wolf scene:</em> Pilkoji at the vault door, deciding whether to break rule 2. <strong>1430:</strong> Vytautas dies and the flame goes out.</p></li>
+<li><p><strong>Book V (1430–50).</strong> See §14.</p></li>
 </ul>
-<hr>
+<hr class="docutils"/>
+<span id="notable-members-the-sagas-invention"></span></section>
 </section>
-</section>
-<section id="notable-members-the-sagas-invention" class="level2">
-<h2 class="anchored" data-anchor-id="notable-members-the-sagas-invention">13. Notable members [The saga’s invention]</h2>
-<ul>
-<li><strong>Šešiapirštis (Six-Fingers)</strong>, <em>Vilkų Tėvas</em>, c.&nbsp;1325–1392. Grandson of Sudovian wolves; sworn in the year of the Pact. Kęstutis’s oldest captain, who knew the man and not the prince. Dry, patient, merciless to his own. Book I: unseen in the Dykra (ch.&nbsp;15–16); he meets Vytautas only after ch.&nbsp;25, at the hunters’ hut. Dies in Book II.</li>
-<li><strong>Jonas</strong>, c.&nbsp;1335–1384. Kęstutis’s armour-bearer and the <em>vilkų vyresnysis</em> (pack-elder) of the hidden nine, and so of the ch.&nbsp;25 band. His skin-name is the baptismal name of an Order sergeant he killed in 1361 during Kęstutis’s escape from Marienburg: the brotherhood’s grim habit of wearing the enemy’s Christian name as a trophy. This explains why a pagan wolf has a saint’s name (ch.&nbsp;25:7). He survives ch.&nbsp;7, leaves the horse in ch.&nbsp;15, and dies in ch.&nbsp;25.</li>
-<li><strong>Kirmėlė (the Worm)</strong>. One of the hidden nine. In 1382 he sold the hidden guard’s sleeping-place to Skirgaila through <strong>Pinčiukas</strong> to save his home village from burning; he was not in the tent that night. The village was burned anyway. He is exposed in Book II (ch.&nbsp;11, the Trakai vault; Henė, Pušis), and Vytautas lets him live, because he needs every wolf. Grey to the bone.</li>
-<li><strong>Rūdis (Rust)</strong>. A Sambian Prussian, an Order <em>Wegeleute</em> guide of long standing, and a sworn wolf: the brotherhood’s eyes inside the Order. Book I ch.&nbsp;17 shows only his recognition of the silver wolf (the “nineteen of twenty years” figure is unsupported by the text); a double agent through Books II–III; dies at Grunwald in Order colours, killed by a Lithuanian who never knew.</li>
-<li><strong>Kalvis (the Smith)</strong>, leader of the Vilnius packs. He held the doors in 1382 by the letter of rule 9. He guards the lodge flame from 1387 and asks Vytautas for judgement. Book II: spared, despised, loyal unto death.</li>
-<li><strong>Pilkoji (the Grey One)</strong>, born c.&nbsp;1365. A Samogitian woman of thirty-eight whose village’s dead rose in 1404. She walked into the Dykra, and the Root-Mother took her into the krikštas against all custom: after the Unbinding, custom no longer binds even the Root-Mother. The first woman sworn. Books III–V; the only <strong><em>Vilkų Motina</em></strong>.</li>
-<li><strong>The Flame-Keeper</strong>, born c.&nbsp;1390–91 (5 in winter 1395–96, 14 and nearly 15 at Kūčios 1405, 48 in 1438; Books II–V). <strong>Book V’s protagonist</strong>: a boy rescued during the first Unbinding hunts of Book II (winter 1395–96), raised in the Trakai vault as the secret flame’s guard (a boy tending the flame from 1399), and sworn at Kūčios 1405 at fourteen, nearly fifteen (Book III ch.&nbsp;9): the one wolf named below the usual age of sixteen (§4), an exception the books make because he already lives at the flame. Pilkoji’s foster-son in all but name. After 1430 he wants to relight the flame and cannot, because the Pact cannot be re-sworn by one man. He is the brotherhood’s <strong>last wolf</strong>.</li>
+<section id="notable-members-the-saga-s-invention">
+<h2>13. Notable members [The saga’s invention]<a class="headerlink" href="#notable-members-the-saga-s-invention" lang="en" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Šešiapirštis (Six-Fingers)</strong>, <em>Vilkų Tėvas</em>, c. 1325–1392. Grandson of Sudovian wolves; sworn in the year of the Pact. Kęstutis’s oldest captain, who knew the man and not the prince. Dry, patient, merciless to his own. Book I: unseen in the Dykra (ch. 15–16); he meets Vytautas only after ch. 25, at the hunters’ hut. Dies in Book II.</p></li>
+<li><p><strong>Jonas</strong>, c. 1335–1384. Kęstutis’s armour-bearer and the <em>vilkų vyresnysis</em> (pack-elder) of the hidden nine, and so of the ch. 25 band. His skin-name is the baptismal name of an Order sergeant he killed in 1361 during Kęstutis’s escape from Marienburg: the brotherhood’s grim habit of wearing the enemy’s Christian name as a trophy. This explains why a pagan wolf has a saint’s name (ch. 25:7). He survives ch. 7, leaves the horse in ch. 15, and dies in ch. 25.</p></li>
+<li><p><strong>Kirmėlė (the Worm)</strong>. One of the hidden nine. In 1382 he sold the hidden guard’s sleeping-place to Skirgaila through <strong>Pinčiukas</strong> to save his home village from burning; he was not in the tent that night. The village was burned anyway. He is exposed in Book II (ch. 11, the Trakai vault; Henė, Pušis), and Vytautas lets him live, because he needs every wolf. Grey to the bone.</p></li>
+<li><p><strong>Rūdis (Rust)</strong>. A Sambian Prussian, an Order <em>Wegeleute</em> guide of long standing, and a sworn wolf: the brotherhood’s eyes inside the Order. Book I ch. 17 shows only his recognition of the silver wolf (the “nineteen of twenty years” figure is unsupported by the text); a double agent through Books II–III; dies at Grunwald in Order colours, killed by a Lithuanian who never knew.</p></li>
+<li><p><strong>Kalvis (the Smith)</strong>, leader of the Vilnius packs. He held the doors in 1382 by the letter of rule 9. He guards the lodge flame from 1387 and asks Vytautas for judgement. Book II: spared, despised, loyal unto death.</p></li>
+<li><p><strong>Pilkoji (the Grey One)</strong>, born c. 1365. A Samogitian woman of thirty-eight whose village’s dead rose in 1404. She walked into the Dykra, and the Root-Mother took her into the krikštas against all custom: after the Unbinding, custom no longer binds even the Root-Mother. The first woman sworn. Books III–V; the only <em><strong>Vilkų Motina</strong></em>.</p></li>
+<li><p><strong>The Flame-Keeper</strong>, born c. 1390–91 (5 in winter 1395–96, 14 and nearly 15 at Kūčios 1405, 48 in 1438; Books II–V). <strong>Book V’s protagonist</strong>: a boy rescued during the first Unbinding hunts of Book II (winter 1395–96), raised in the Trakai vault as the secret flame’s guard (a boy tending the flame from 1399), and sworn at Kūčios 1405 at fourteen, nearly fifteen (Book III ch. 9): the one wolf named below the usual age of sixteen (§4), an exception the books make because he already lives at the flame. Pilkoji’s foster-son in all but name. After 1430 he wants to relight the flame and cannot, because the Pact cannot be re-sworn by one man. He is the brotherhood’s <strong>last wolf</strong>.</p></li>
 </ul>
-<hr>
-</section>
-<section id="their-fate-in-book-v-the-sagas-invention" class="level2">
-<h2 class="anchored" data-anchor-id="their-fate-in-book-v-the-sagas-invention">14. Their fate in Book V [The saga’s invention]</h2>
-<ul>
-<li><strong>1430.</strong> The flame dies with Vytautas. There will be no more krikštas. The Iron Wolf is seen dissolving into mist on Trakai island (Book V ch.&nbsp;1). It is not leaving; the house it stood for has lost its last keeper of the fire.</li>
-<li><strong>1435, Pabaiskas.</strong> The field holds thousands of unburned dead. The last dozen wolves, led by Pilkoji, spend a winter burning them. Most die doing it.</li>
-<li><strong>1440.</strong> <strong>Žygimantas Kęstutaitis</strong>, Kęstutis’s last son, is murdered at Trakai. The wolves, too few, fail him. The Iron Wolf’s last howl rises from the lake (Book V ch.&nbsp;22): the pack of the dead mourning the last of the prince they were first sworn to. The Flame-Keeper is now the last sworn wolf (he gives the silver wolf to Rimgailė at Palanga in 1450, Book V ch.&nbsp;29–30). His arc ends when he lets the gods become stories and, at the series’ close, chooses whether to lie down in the bog or to go home and be named by the fire one last time (§5.5, Leaving). The author decides.</li>
-<li><strong>The echo.</strong> The brotherhood leaves behind <strong>half-made wolves</strong>: failed candidates and the sons of wolves, throat-marked but never named into a flame. Their descendants are what <strong>Olaus Magnus</strong> heard about in 1555, Lithuanian and Livonian “werewolves” breaking into cellars on Christmas night for beer. They are the brotherhood dwindled into a drunken folk-tale, the way the giants dwindled into men. The last trace is old <strong>Thiess</strong> of Jürgensburg in 1692, telling his judges he was one of God’s hounds, and believing it.</li>
-<li><strong>Epilogue</strong> (Book V ch.&nbsp;30): the grandfather’s <em>“Kai miškai buvo žali, jis buvo”</em> is true of the brotherhood as well as the omen.</li>
+<hr class="docutils"/>
+<span id="their-fate-in-book-v-the-sagas-invention"></span></section>
+<section id="their-fate-in-book-v-the-saga-s-invention">
+<h2>14. Their fate in Book V [The saga’s invention]<a class="headerlink" href="#their-fate-in-book-v-the-saga-s-invention" lang="en" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>1430.</strong> The flame dies with Vytautas. There will be no more krikštas. The Iron Wolf is seen dissolving into mist on Trakai island (Book V ch. 1). It is not leaving; the house it stood for has lost its last keeper of the fire.</p></li>
+<li><p><strong>1435, Pabaiskas.</strong> The field holds thousands of unburned dead. The last dozen wolves, led by Pilkoji, spend a winter burning them. Most die doing it.</p></li>
+<li><p><strong>1440.</strong> <strong>Žygimantas Kęstutaitis</strong>, Kęstutis’s last son, is murdered at Trakai. The wolves, too few, fail him. The Iron Wolf’s last howl rises from the lake (Book V ch. 22): the pack of the dead mourning the last of the prince they were first sworn to.
+The Flame-Keeper is now the last sworn wolf (he gives the silver wolf to Rimgailė at Palanga in 1450, Book V ch. 29–30). His arc ends when he lets the gods become stories and, at the series’ close, chooses whether to lie down in the bog or to go home and be named by the fire one last time (§5.5, Leaving). The author decides.</p></li>
+<li><p><strong>The echo.</strong> The brotherhood leaves behind <strong>half-made wolves</strong>: failed candidates and the sons of wolves, throat-marked but never named into a flame. Their descendants are what <strong>Olaus Magnus</strong> heard about in 1555, Lithuanian and Livonian “werewolves” breaking into cellars on Christmas night for beer. They are the brotherhood dwindled into a drunken folk-tale, the way the giants dwindled into men. The last trace is old <strong>Thiess</strong> of Jürgensburg in 1692, telling his judges he was one of God’s hounds, and believing it.</p></li>
+<li><p><strong>Epilogue</strong> (Book V ch. 30): the grandfather’s <em>“Kai miškai buvo žali, jis buvo”</em> is true of the brotherhood as well as the omen.</p></li>
 </ul>
-<hr>
+<hr class="docutils"/>
 </section>
-<section id="record-or-invention-quick-key" class="level2">
-<h2 class="anchored" data-anchor-id="record-or-invention-quick-key">15. Record or invention: quick key</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
+<section id="record-or-invention-quick-key">
+<h2>15. Record or invention: quick key<a class="headerlink" href="#record-or-invention-quick-key" lang="en" title="Link to this heading">¶</a></h2>
+<table class="docutils align-default">
 <thead>
-<tr class="header">
-<th>Element</th>
-<th>Status</th>
+<tr class="row-odd"><th class="head"><p>Element</p></th>
+<th class="head"><p>Status</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>Indo-European wolf-warrior bands; <em>úlfheðnar</em>; Krasnosamarskoe; <em>kóryos</em> (reconstructed)</td>
-<td>[Historical record] (scholarly interpretation)</td>
+<tr class="row-even"><td><p>Indo-European wolf-warrior bands; <em>úlfheðnar</em>; Krasnosamarskoe; <em>kóryos</em> (reconstructed)</p></td>
+<td><p>[Historical record] (scholarly interpretation)</p></td>
 </tr>
-<tr class="even">
-<td>Lithuanian <em>vilkatas</em> / <em>vilkolakis</em> belief; wolves as <em>Dievo šunys</em>; St Jurgis as wolf-shepherd</td>
-<td>[Historical record] (folklore)</td>
+<tr class="row-odd"><td><p>Lithuanian <em>vilkatas</em> / <em>vilkolakis</em> belief; wolves as <em>Dievo šunys</em>; St Jurgis as wolf-shepherd</p></td>
+<td><p>[Historical record] (folklore)</p></td>
 </tr>
-<tr class="odd">
-<td>Herodotus’s Neuri; Olaus Magnus’s Christmas werewolves; Thiess of Jürgensburg (1692)</td>
-<td>[Historical record]</td>
+<tr class="row-even"><td><p>Herodotus’s Neuri; Olaus Magnus’s Christmas werewolves; Thiess of Jürgensburg (1692)</p></td>
+<td><p>[Historical record]</p></td>
 </tr>
-<tr class="even">
-<td>Gediminas’s dream and Lizdeika</td>
-<td>[Historical record] (16th-century legend)</td>
+<tr class="row-odd"><td><p>Gediminas’s dream and Lizdeika</p></td>
+<td><p>[Historical record] (16th-century legend)</p></td>
 </tr>
-<tr class="odd">
-<td>Kęstutis’s border war; the Wildnis; <em>Wegeleute</em>; <em>kūlgrindos</em>; the conquest of Sudovia</td>
-<td>[Historical record]</td>
+<tr class="row-even"><td><p>Kęstutis’s border war; the Wildnis; <em>Wegeleute</em>; <em>kūlgrindos</em>; the conquest of Sudovia</p></td>
+<td><p>[Historical record]</p></td>
 </tr>
-<tr class="even">
-<td><em>Domini canes</em> pun on the Dominicans</td>
-<td>[Historical record]</td>
+<tr class="row-odd"><td><p><em>Domini canes</em> pun on the Dominicans</p></td>
+<td><p>[Historical record]</p></td>
 </tr>
-<tr class="odd">
-<td>The brotherhood itself, the krikštas, the Pack’s Word, ranks, members, the schism, the skull’s discovery, the fate</td>
-<td>[The saga’s invention]</td>
+<tr class="row-even"><td><p>The brotherhood itself, the krikštas, the Pack’s Word, ranks, members, the schism, the skull’s discovery, the fate</p></td>
+<td><p>[The saga’s invention]</p></td>
 </tr>
 </tbody>
 </table>
-<hr>
-
-
 </section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
-        }
-      }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
-        },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
-    }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
-      });
-    }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
-      }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
-            }
-          }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
-          }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
-          }
-          return note.innerHTML;
-        }
-      } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
-        }
-      }
-    }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
-            }
-          } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
-            });
-          }
-        } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
-            if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      }, function(instance) {
-      });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
-  });
-  </script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="../image-credits.html">
-<p>Image credits</p>
-</a>
-  </li>  
+</section>
+</div>
+</div>
+</div>
+<div aria-label="Main" class="sphinxsidebar" lang="en" role="navigation">
+<div class="sphinxsidebarwrapper">
+<div><h3><a href="../index.html" lang="en">Table of Contents</a></h3><ul>
+<li><a class="reference internal" href="#" lang="en">The Iron Wolves</a><ul>
+<li><a class="reference internal" href="#at-a-glance" lang="en">1. At a glance</a></li>
+<li><a class="reference internal" href="#what-the-record-gives-us-historical-record" lang="en">2. What the record gives us [Historical record]</a></li>
+<li><a class="reference internal" href="#origins-the-saga-s-invention" lang="en">3. Origins [The saga’s invention]</a><ul>
+<li><a class="reference internal" href="#before-gediminas-the-sudovian-wolves" lang="en">3.1 Before Gediminas: the Sudovian wolves</a></li>
+<li><a class="reference internal" href="#lizdeika-s-hundred" lang="en">3.2 Lizdeika’s hundred</a></li>
+<li><a class="reference internal" href="#kestutis-s-wolves-13451382" lang="en">3.3 Kęstutis’s wolves (1345–1382)</a></li>
 </ul>
-    </div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
-
-
-
-
-</body></html>
+</li>
+<li><a class="reference internal" href="#vilku-krikstas-the-wolves-baptism-the-saga-s-invention" lang="en">4. Vilkų krikštas: the Wolves’ Baptism [The saga’s invention]</a></li>
+<li><a class="reference internal" href="#what-it-makes-of-a-man" lang="en">5. What it makes of a man</a><ul>
+<li><a class="reference internal" href="#gifts" lang="en">5.1 Gifts</a></li>
+<li><a class="reference internal" href="#flaws" lang="en">5.2 Flaws</a></li>
+<li><a class="reference internal" href="#physical-tells-for-prose" lang="en">5.3 Physical tells (for prose)</a></li>
+<li><a class="reference internal" href="#the-folk-are-half-right-do-they-change" lang="en">5.4 The folk are half right: do they change?</a></li>
+<li><a class="reference internal" href="#the-price-under-the-law-of-balance" lang="en">5.5 The price under the Law of Balance</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#gaujos-zodis-the-pack-s-word-the-saga-s-invention" lang="en">6. Gaujos žodis: the Pack’s Word [The saga’s invention]</a></li>
+<li><a class="reference internal" href="#ranks-the-saga-s-invention" lang="en">7. Ranks [The saga’s invention]</a></li>
+<li><a class="reference internal" href="#weapons-and-craft" lang="en">8. Weapons and craft</a><ul>
+<li><a class="reference internal" href="#arms" lang="en">8.1 Arms</a></li>
+<li><a class="reference internal" href="#bog-craft" lang="en">8.2 Bog-craft</a></li>
+<li><a class="reference internal" href="#the-spirit-hunter-s-kit-after-1387" lang="en">8.3 The spirit-hunter’s kit (after 1387)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#how-they-are-seen" lang="en">9. How they are seen</a></li>
+<li><a class="reference internal" href="#before-the-unbinding-border-raiders-and-the-hidden-guard-to-1387" lang="en">10. Before the Unbinding: border raiders and the hidden guard (to 1387)</a></li>
+<li><a class="reference internal" href="#after-the-unbinding-the-only-ones-who-hunt-13871450" lang="en">11. After the Unbinding: the only ones who hunt (1387–1450)</a></li>
+<li><a class="reference internal" href="#the-wolves-and-vytautas-books-iv" lang="en">12. The wolves and Vytautas, Books I–V</a><ul>
+<li><a class="reference internal" href="#why-he-is-never-one-of-them" lang="en">12.1 Why he is never one of them</a></li>
+<li><a class="reference internal" href="#books-iiv" lang="en">12.3 Books II–V</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#notable-members-the-saga-s-invention" lang="en">13. Notable members [The saga’s invention]</a></li>
+<li><a class="reference internal" href="#their-fate-in-book-v-the-saga-s-invention" lang="en">14. Their fate in Book V [The saga’s invention]</a></li>
+<li><a class="reference internal" href="#record-or-invention-quick-key" lang="en">15. Record or invention: quick key</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<search id="searchbox" role="search">
+<h3 id="searchlabel" lang="en">Quick search</h3>
+<div class="searchformwrapper"><form action="../search.html" class="search" method="get">
+<input aria-labelledby="searchlabel" autocapitalize="off" autocomplete="off" autocorrect="off" name="q" spellcheck="false" type="text"/>
+<input lang="en" type="submit" value="Go"/>
+</form></div></search>
+</div>
+</div>
+<div class="clearer"></div>
+</div><footer class="saga-footer" lang="en"><a href="../image-credits.html">Image credits</a></footer>
+</body>
+</html>

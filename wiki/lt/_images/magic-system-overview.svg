@@ -1,0 +1,332 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.000 0.000 1702.000 976.062" width="1702.000" height="976.062" lang="en" xml:lang="en" role="img" aria-labelledby="diagram-title diagram-description">
+  <defs>
+    <style class="style-fonts">
+      @font-face { font-family: HandFont; src: url(data:font/woff2;base64,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); }
+      @font-face { font-family: HandFont; src: url(data:font/woff2;base64,d09GMgABAAAAAAYEAA4AAAAACpQAAAWwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgRIcNAZgAEwRCAqLOIhaCw4AATYCJAMYBCAFgxgHIBszCMgeBW5rc5wgKuo3yRXWuoUQLVtmr0BXzZZSVWkKCaoXI14hdGnCIhwOYdEgFAr7Q7itG/SmTWjPHFiRKH6ajR3/P/57Y3xGo/uKSP/+yYtTNW/J+TyfoukUr8iY321jevWtYxrWit3nAcmFOrla7VWnQYiwti1hsRt7DAwGPqRH+HAW0npqEGgENAmhuK5FvQkhWOsxSTJgctqmqAIml4riSmByl99YA0ywIDf6bosVNYBHI8slY6iVDDwRy9wwlAhDaSb59HwmYUAUIww/xcOTRRsQKCaWSQbNBIXahDNyALDJi8QB8PALBeccrm/FpoAjkDbUzWz+h4Mia4aaUQDeAeLeJ9uxKCTMCrYgG0xZFgD1S3en0IbEUCXUHSUhTNcDfPn3mvrfJBDLc9VqExuCxuUaiD8gDQfsJJlU723W2thFx8Os1DrRWhvfge8SjUZski8+HnqY9l69d6107lwjtQBfoRItEql2CXZccepdMFc4N37lCCYn14KK346xuMMq+0P2uwKg+b5n08m1CLla7EiFilcjStJ4g8aI2FOqWqdSiSBqPYYIyTOs7wUq6jUwnLOdDtx8d9tdBBUZsYNYURyvsD3lsAZ4HfFdSdNi5Vrw4KWB8WzVaJ+clq/vsz9uUEBckK84ty5g3rJRE9N527Hde0FFY7zEeSWixNYfX0yL+/rmiymxEqFIkhSuBdsvGsmBsfguEQSJKSyQQpBY5WlEuRpRmoMDcDYBZ/Urp0QqSq97S8tM1WNRl1ef34/R8v2ZolXwqtEY2EFlOR+j9iLK0zvtRmKVq5WkkFSKP7bVO7dXLSDUxBrBHo1EI1ML7ZDdtO9qmrbbGd5/NUKwQoSvWgXjgh0aW03unly1rFWQipov3k87Oq6HVDLixA7RPsv5YooiEe/dNI2tNBeqnVZc0QiIPXsEBEEiyt3nMTqa3LlSSEoIjQAmYFtcAMvwHfi4Qf+mjtc+YpL+qVDv9i9OTM2MflEu9iLstFXJ1VC700eY1776XyNfzvoo8drPiAhc8dnjdzK0rZKt8OIatU4ovWCakZrI+st3EeV8n719i4aTlxh7+hW62xjWnSv7Hxn+dRoF6v8j3ZrnCQylr+y56fmMo0e+sg104cjdRvAbn6G6llsPk7Dds73Do3wVOgVTwpuWnFCEr4mEtYz35kqv18Xp5JltM5woNL3YZJZfH+l5TRyV0e2dC5U6c5wywr58psZRcyzBO+7jk9eTDg8xUg0lctiRn+vK1U4ywC5etBI5rK26JkjEOHaxZQvymKywZUXnrKR2BvGH3YruyLbu1N5jw4b9mxpsvnK1R4wj+OxmnvWA0dLeNFYvH3zGM9vM6mf/nKwXtdG6Tv9CxqPp2gna44PrcvYfzGqCjs7hZy2y7jIpbCfcOYZHthTO0UHhOviRojd0Zvqqi/psjnZeccUHqi4zaKhkzsKGblmf/fBQW43NrwiZfiT3eH40g41U52/9wf70UdtS83KWdGih+Omd/3RpV9q/ePIDtvrWDk/+XbYKnlti1ncp64MsP/ZCxMyjzJnrcrWbkS/PgoK+OfdHh79RTzD9Fx3PhMS/VxgqLD7o2Y8xCpg4EsM/wUQZ15ko80kI77PB8edDy6TyJZ1+Ta7K1Q36ykOYLwB+2hyiAOB32euO/4M6WK9Y/gColZCTf6XCQGH/M5lYl4IyKwDR8QN0JAzYxB8wnYUBwxQErEAofYMSeRleXLZZ1tjBFDkfcOcaECW0OKQkzT6UzJBhJdejQCksssUShwI2tCqUr0q5ErVqNHKWoVipJlXyKWQ/FYUGNQaKcufCrdoJFKtKmzplGqA8ufCAkvDk+R58Sd1N0Em31aNkipUi0DSJ2SpGcqVOm0KUK1U26dcShaRQHtx48IIq0Aa1frOIQr4WLlDhqlRB7dmGBosZirEZpIgLJgpVBQoAAA==); }</style>
+  </defs>
+  <title id="diagram-title" lang="en" xml:lang="en">The craft at a glance: gods, forces, schools, elements and the price</title>
+  <desc id="diagram-description" lang="en" xml:lang="en">LAYER I · THE GODS (Dievai) source, ancient, mostly indifferent Perkūnas · Velnias · Žemyna · Gabija Bangpūtys · Vėjopatis · Praurimė</desc>
+  <metadata>{"entity_ids": ["root_mother", "shadow_seller", "amber_queen", "wolf_change", "birute", "vytautas", "perkunas", "velnias", "zemyna", "gabija", "bangputys", "vejopatis", "praurime"], "relations": [{"s": "birute", "t": "vytautas", "type": "parent_of"}], "corrections": {"A07": "element-specific timing penalties", "A08": "immediate element costs distinct from deferred debt; surety ends Book I ch. 27"}}</metadata>
+  <g transform="scale(1.15)" aria-hidden="true">
+    <rect x="0" y="0" width="1480" height="848.75" fill="#fbf5e3" />
+    <g data-label="label-002" />
+    <g stroke-linecap="round" transform="translate(10 80) rotate(0 260 60)" id="node-003">
+      <path d="M1.92 1.65 L521.54 1.02 L518.9 120.71 L-0.6 120.93" stroke="none" stroke-width="0" fill="#d6b25e" />
+      <path d="M0 0 C130.72 -1.54, 259.63 -2.12, 520 0 M0 0 C155.82 0.11, 312.13 0.16, 520 0 M520 0 C518.64 27.74, 517.37 57.74, 520 120 M520 0 C519.44 29.96, 519.39 59.69, 520 120 M520 120 C331.38 118.38, 142.28 119.16, 0 120 M520 120 C367.04 118.74, 214.27 118.5, 0 120 M0 120 C-2.38 93.79, 0.32 70.85, 0 0 M0 120 C-0.38 95.16, 1.16 70.02, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-004" />
+    <g stroke-linecap="round" transform="translate(10 250) rotate(0 260 60)" id="node-005">
+      <path d="M1.65 1.54 L521.02 -1.1 L520.71 119.4 L0.93 119.51" stroke="none" stroke-width="0" fill="#e8b4a8" />
+      <path d="M0 0 C171.92 -2.27, 343.24 -1.97, 520 0 M0 0 C128.09 1.31, 256.35 1.1, 520 0 M520 0 C517.27 22.77, 517.71 47.48, 520 120 M520 0 C518.62 32.32, 518.13 65.81, 520 120 M520 120 C337.16 119.72, 155.64 120.06, 0 120 M520 120 C376.04 118.55, 231.57 118.45, 0 120 M0 120 C-0.89 80.24, 1.31 37.06, 0 0 M0 120 C-0.64 88.87, -1.12 57.19, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-006" />
+    <g stroke-linecap="round" transform="translate(10 420) rotate(0 260 60)" id="node-007">
+      <path d="M1.54 1.02 L518.9 0.71 L519.4 120.93 L-0.49 121" stroke="none" stroke-width="0" fill="#b9c7a0" />
+      <path d="M0 0 C194.97 -0.62, 390.53 -0.5, 520 0 M0 0 C150.14 0.56, 300.08 0.25, 520 0 M520 0 C518.45 25.43, 518.93 53.04, 520 120 M520 0 C519.46 23.96, 520.36 49.92, 520 120 M520 120 C390.45 118.83, 261.63 118.41, 0 120 M520 120 C402.01 121.46, 284.18 121.58, 0 120 M0 120 C1.93 86.92, -0.74 50.89, 0 0 M0 120 C1.7 78.75, 1.91 39.64, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-008" />
+    <g stroke-linecap="round">
+      <g transform="translate(270 208.5) rotate(0 0 16.5)">
+        <path d="M0 0 C-0.68 13.03, -0.53 25.94, 0 33 M0 0 C-0.15 7.54, -0.54 15.24, 0 33" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(270 208.5) rotate(0 0 16.5)">
+        <path d="M-5.95 17.61 C-4.16 23.7, -1.69 29.68, 0 33 M-5.95 17.61 C-4.64 21.03, -3.56 24.58, 0 33" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(270 208.5) rotate(0 0 16.5)">
+        <path d="M5.34 17.39 C2.67 23.54, 0.69 29.61, 0 33 M5.34 17.39 C3.97 20.86, 2.38 24.46, 0 33" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+    </g>
+    <mask />
+    <g stroke-linecap="round">
+      <g transform="translate(270 378.5) rotate(0 0 16.5)">
+        <path d="M0 0 C-0.06 9.48, -0.17 19.4, 0 33 M0 0 C-0.27 8.39, -0.39 17.72, 0 33" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(270 378.5) rotate(0 0 16.5)">
+        <path d="M-5.92 17.6 C-4.15 21.85, -2.45 26.45, 0 33 M-5.92 17.6 C-4.55 21.35, -3.05 25.86, 0 33" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(270 378.5) rotate(0 0 16.5)">
+        <path d="M5.36 17.4 C3.71 21.67, 1.99 26.33, 0 33 M5.36 17.4 C3.7 21.19, 2.16 25.76, 0 33" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+    </g>
+    <mask />
+    <g data-label="label-013" />
+    <g data-label="label-014" />
+    <g data-label="label-015" />
+    <g stroke-linecap="round" transform="translate(590 120) rotate(0 105 55)" id="node-016">
+      <path d="M-0.49 1 L210.94 0.13 L208.84 110.28 L-0.05 108.92" stroke="none" stroke-width="0" fill="#fffaf0" />
+      <path d="M0 0 C51.23 1.14, 103.21 0.22, 210 0 M0 0 C41.59 -0.47, 84.17 -0.26, 210 0 M210 0 C208.46 29.33, 207.48 61, 210 110 M210 0 C208.76 38.07, 209.73 77.06, 210 110 M210 110 C152.96 107.78, 93.63 107.34, 0 110 M210 110 C138.6 108.56, 68.65 107.38, 0 110 M0 110 C-0.78 82.27, -1.75 53.47, 0 0 M0 110 C-1.4 68.29, -1.15 26.34, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-017" />
+    <g stroke-linecap="round" transform="translate(820 120) rotate(0 105 55)" id="node-018">
+      <path d="M1 0.94 L210.13 -1.16 L210.28 109.95 L-1.08 108.85" stroke="none" stroke-width="0" fill="#fffaf0" />
+      <path d="M0 0 C60.61 0.23, 120.33 -1.16, 210 0 M0 0 C46.27 1.07, 93.38 1.43, 210 0 M210 0 C209.21 21.16, 211.01 46.31, 210 110 M210 0 C209.57 27.62, 210 54.42, 210 110 M210 110 C161.3 111.4, 113.31 111.94, 0 110 M210 110 C150.47 109.5, 89.43 108.7, 0 110 M0 110 C2.37 71.46, 2.79 37.23, 0 0 M0 110 C-0.21 68.23, -0.09 26.81, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-019" />
+    <g stroke-linecap="round" transform="translate(590 250) rotate(0 105 55)" id="node-020">
+      <path d="M0.94 0.13 L208.84 0.28 L209.95 108.92 L-1.15 109.9" stroke="none" stroke-width="0" fill="#fffaf0" />
+      <path d="M0 0 C49.38 -0.92, 97.7 -1.32, 210 0 M0 0 C60.53 0.92, 122.01 0.51, 210 0 M210 0 C208.23 31.81, 210.73 60.08, 210 110 M210 0 C209.55 33.53, 209.03 66.45, 210 110 M210 110 C159.12 107.18, 108.64 108.52, 0 110 M210 110 C167.71 109.88, 124.13 111.05, 0 110 M0 110 C-1.13 87.62, 1.85 62.94, 0 0 M0 110 C0.31 71.86, 0.36 33.29, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-021" />
+    <g stroke-linecap="round" transform="translate(820 250) rotate(0 105 55)" id="node-022">
+      <path d="M0.13 -1.16 L210.28 -0.05 L208.92 108.85 L-0.1 110.1" stroke="none" stroke-width="0" fill="#fffaf0" />
+      <path d="M0 0 C55.59 -1.38, 111.72 0.2, 210 0 M0 0 C43.58 1.02, 87.18 1.08, 210 0 M210 0 C210.96 31.21, 208.67 60.5, 210 110 M210 0 C209.4 25.33, 208.72 50.54, 210 110 M210 110 C131 110.8, 54.93 108.43, 0 110 M210 110 C157.43 110.74, 106.86 110.35, 0 110 M0 110 C1.1 80.63, 0.72 48.99, 0 0 M0 110 C0.08 82.82, 0.11 56.61, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-023" />
+    <g stroke-linecap="round" transform="translate(590 380) rotate(0 105 55)" id="node-024">
+      <path d="M-1.16 0.28 L209.95 -1.08 L208.85 109.9 L0.1 108.21" stroke="none" stroke-width="0" fill="#fffaf0" />
+      <path d="M0 0 C60.92 -0.36, 125.14 -0.6, 210 0 M0 0 C47.55 0.06, 95.41 0.67, 210 0 M210 0 C210.19 28.96, 209.29 58.63, 210 110 M210 0 C210.1 26.87, 209.76 55.9, 210 110 M210 110 C161.45 108.06, 109.86 107.37, 0 110 M210 110 C138.6 108.58, 67.1 108.09, 0 110 M0 110 C2.38 70.29, 1.75 26.4, 0 0 M0 110 C0.09 73.59, 0.8 36.25, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-025" />
+    <g stroke-linecap="round" transform="translate(820 380) rotate(0 105 55)" id="node-026">
+      <path d="M0.28 -0.05 L208.92 -1.15 L209.9 110.1 L-1.79 108.44" stroke="none" stroke-width="0" fill="#fffaf0" />
+      <path d="M0 0 C57.6 1.66, 116.31 0.54, 210 0 M0 0 C47.77 0.33, 96.99 0.29, 210 0 M210 0 C209.66 24.92, 209.34 48.65, 210 110 M210 0 C209.2 35.7, 210.62 71.88, 210 110 M210 110 C145.2 109, 79.99 111.38, 0 110 M210 110 C135.48 108.67, 60.12 110.03, 0 110 M0 110 C0.48 85.33, -2.16 59.33, 0 0 M0 110 C-0.01 80.78, -0.45 50.03, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-027" />
+    <g data-label="label-028" />
+    <g stroke-linecap="round">
+      <g transform="translate(538.4555292852579 451.1282380756786) rotate(0 21.544470714742147 -1.8341204286197978)">
+        <path d="M0 0 C7.81 -1.44, 16.72 -1.94, 43.09 -3.67 M0 0 C11.59 -1.09, 23.05 -1.63, 43.09 -3.67" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(538.4555292852579 451.1282380756786) rotate(0 21.544470714742147 -1.8341204286197978)">
+        <path d="M23.54 5.58 C26.62 3, 30.78 1.37, 43.09 -3.67 M23.54 5.58 C28.77 2.95, 33.83 0.89, 43.09 -3.67" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(538.4555292852579 451.1282380756786) rotate(0 21.544470714742147 -1.8341204286197978)">
+        <path d="M22.17 -9.15 C25.47 -8.76, 29.91 -7.41, 43.09 -3.67 M22.17 -9.15 C27.7 -7.77, 33.14 -5.83, 43.09 -3.67" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+    </g>
+    <mask />
+    <g data-label="label-031" />
+    <g stroke-linecap="round" transform="translate(1090 120) rotate(0 190 33)" id="node-032">
+      <path d="M-0.1 0.1 L378.21 -1.56 L378.83 66.97 L1.5 65.38" stroke="none" stroke-width="0" fill="#d6b25e" />
+      <path d="M0 0 C109.79 1.07, 220.89 0.52, 380 0 M0 0 C105.11 1, 211.42 0.31, 380 0 M380 0 C380.15 20.03, 379.1 38.84, 380 66 M380 0 C380.53 15.13, 380.83 31.92, 380 66 M380 66 C303.26 65.75, 224.75 67.34, 0 66 M380 66 C295.65 68.29, 212.6 68.17, 0 66 M0 66 C-0.24 43.77, -0.12 20.67, 0 0 M0 66 C0.1 43.06, -0.58 19.6, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-033" />
+    <g stroke-linecap="round" transform="translate(1090 200) rotate(0 190 33)" id="node-034">
+      <path d="M0.1 -1.79 L378.44 -1.17 L380.97 67.5 L-0.62 65.59" stroke="none" stroke-width="0" fill="#e8b4a8" />
+      <path d="M0 0 C79.05 1.22, 158.14 1.3, 380 0 M0 0 C104.7 2, 208.33 1.73, 380 0 M380 0 C379.55 14.88, 378.2 29.52, 380 66 M380 0 C378.66 24.7, 379.42 47.69, 380 66 M380 66 C285.24 66.88, 193.21 66.34, 0 66 M380 66 C273.43 64.98, 166.16 64.79, 0 66 M0 66 C0.7 49.35, 0.76 34.63, 0 0 M0 66 C0.36 45.23, -0.19 25.49, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-035" />
+    <g stroke-linecap="round" transform="translate(1090 280) rotate(0 190 33)" id="node-036">
+      <path d="M-1.79 -1.56 L378.83 0.97 L381.5 65.38 L-0.41 66.08" stroke="none" stroke-width="0" fill="#fffaf0" />
+      <path d="M0 0 C86.16 -0.03, 172.73 0.79, 380 0 M0 0 C103.91 -1.74, 207.25 -1.84, 380 0 M380 0 C379.74 15.09, 379.05 34.5, 380 66 M380 0 C380.43 15.32, 379.09 30.4, 380 66 M380 66 C250.93 64.3, 121.73 63.63, 0 66 M380 66 C238 68.65, 95.32 67.86, 0 66 M0 66 C-0.29 44.85, 1.14 21.84, 0 0 M0 66 C-0.63 49.47, -0.14 34.13, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-037" />
+    <g stroke-linecap="round" transform="translate(1090 360) rotate(0 190 33)" id="node-038">
+      <path d="M-1.56 -1.17 L380.97 1.5 L379.38 65.59 L0.08 66.88" stroke="none" stroke-width="0" fill="#b9c7a0" />
+      <path d="M0 0 C86.82 0.38, 175.6 0.32, 380 0 M0 0 C85.41 -1.12, 171.03 -1.45, 380 0 M380 0 C378.49 20.62, 381.33 42.21, 380 66 M380 0 C379.25 19.32, 378.87 40.95, 380 66 M380 66 C245 64.27, 108.86 66.12, 0 66 M380 66 C291.71 68.18, 202.17 68.09, 0 66 M0 66 C0.69 49.13, -0.18 29.21, 0 0 M0 66 C-0.56 45.24, 0.07 23.68, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-039" />
+    <g stroke-linecap="round" transform="translate(1090 440) rotate(0 190 33)" id="node-040">
+      <path d="M-1.17 0.97 L381.5 -0.62 L379.59 66.08 L0.88 66.39" stroke="none" stroke-width="0" fill="#f3e6c4" />
+      <path d="M0 0 C95.42 1.84, 191.05 1.25, 380 0 M0 0 C137.9 0.77, 275.44 1.36, 380 0 M380 0 C378.71 20.76, 378.54 38.92, 380 66 M380 0 C379.29 13.29, 380.63 28.22, 380 66 M380 66 C300.97 66.66, 224.74 66.07, 0 66 M380 66 C229.81 67.42, 79.22 67.58, 0 66 M0 66 C1.1 43.25, -1 20.52, 0 0 M0 66 C0.31 46.42, -0.54 25.95, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-041" />
+    <g data-label="label-042" />
+    <g stroke-linecap="round" transform="translate(10 640) rotate(0 130 75)" id="node-043">
+      <path d="M1.5 -0.62 L259.59 0.08 L260.88 150.39 L-1.65 148.8" stroke="none" stroke-width="0" fill="#b9c7a0" />
+      <path d="M0 0 C53.09 -0.66, 108.06 1.34, 260 0 M0 0 C64.19 1.65, 129.11 1.23, 260 0 M260 0 C257.83 34.11, 257.33 68.68, 260 150 M260 0 C258.94 43.33, 257.61 85.18, 260 150 M260 150 C173.25 148.56, 85.65 150.94, 0 150 M260 150 C162.26 148.61, 64.33 148.66, 0 150 M0 150 C-1.87 97.79, -0.76 43.94, 0 0 M0 150 C-0.82 112.85, -0.51 77.75, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-044" />
+    <g stroke-linecap="round" transform="translate(310 640) rotate(0 130 75)" id="node-045">
+      <path d="M-0.62 -0.41 L260.08 0.88 L260.39 148.35 L-1.2 149.03" stroke="none" stroke-width="0" fill="#d6b25e" />
+      <path d="M0 0 C71.03 1.57, 145.26 -0.26, 260 0 M0 0 C79.64 0.97, 158.63 0.43, 260 0 M260 0 C261.17 34.63, 261.78 72.58, 260 150 M260 0 C259.76 29.61, 258.85 61.5, 260 150 M260 150 C201.5 153.1, 146.44 152.79, 0 150 M260 150 C168.51 151.11, 77.3 151.14, 0 150 M0 150 C0.18 97.88, -1.18 44.7, 0 0 M0 150 C-0.86 105.15, 0.41 62.23, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-046" />
+    <g stroke-linecap="round" transform="translate(610 640) rotate(0 130 75)" id="node-047">
+      <path d="M-0.41 0.08 L260.88 0.39 L258.35 148.8 L-0.97 149.07" stroke="none" stroke-width="0" fill="#e8b4a8" />
+      <path d="M0 0 C72.38 2.36, 141.93 1.63, 260 0 M0 0 C60.35 -0.8, 120.21 -1.07, 260 0 M260 0 C257.21 56.04, 258.72 108.65, 260 150 M260 0 C259.63 36.61, 260.96 73.12, 260 150 M260 150 C188.22 149.94, 114.61 149.43, 0 150 M260 150 C196.72 149.18, 133.09 149.75, 0 150 M0 150 C0.82 102.94, -0.28 57.94, 0 0 M0 150 C0.75 104.76, 2.09 58.24, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-048" />
+    <g stroke-linecap="round" transform="translate(910 640) rotate(0 130 75)" id="node-049">
+      <path d="M0.08 0.88 L260.39 -1.65 L258.8 149.03 L-0.93 148.81" stroke="none" stroke-width="0" fill="#fffaf0" />
+      <path d="M0 0 C71.7 -2.13, 141.86 -2.39, 260 0 M0 0 C65.07 -0.46, 130.04 0.68, 260 0 M260 0 C260.86 34.86, 258.18 69.24, 260 150 M260 0 C260.5 51.17, 260.06 101.39, 260 150 M260 150 C163.82 153.23, 65.83 151.12, 0 150 M260 150 C172.57 151.37, 85.9 151.02, 0 150 M0 150 C-1.29 112.58, -0.31 77.56, 0 0 M0 150 C1.66 119.16, 0.87 86.62, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-050" />
+    <g stroke-linecap="round" transform="translate(1210 640) rotate(0 130 75)" id="node-051">
+      <path d="M0.88 0.39 L258.35 -1.2 L259.03 149.07 L-1.19 150.45" stroke="none" stroke-width="0" fill="#f3e6c4" />
+      <path d="M0 0 C57.82 -0.97, 116.22 -1.84, 260 0 M0 0 C85.14 0.01, 172.01 -0.05, 260 0 M260 0 C258.34 44.17, 257.57 92.96, 260 150 M260 0 C258.96 52.68, 258.4 107.69, 260 150 M260 150 C200.51 152.53, 137.67 152.28, 0 150 M260 150 C190.22 149.87, 119.69 149.03, 0 150 M0 150 C-1.11 102.83, 0.14 54.07, 0 0 M0 150 C1.63 116.43, 0.68 83.51, 0 0" stroke="#58180D" stroke-width="2" fill="none" />
+    </g>
+    <g data-label="label-052" />
+    <g stroke-linecap="round">
+      <g transform="translate(278.5 715) rotate(0 11.5 0)">
+        <path d="M0 0 C8.4 -0.62, 16.2 0.36, 23 0 M0 0 C6.47 0.43, 13.18 0.12, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(278.5 715) rotate(0 11.5 0)">
+        <path d="M12.26 4.11 C16.18 2.26, 19.76 1.33, 23 0 M12.26 4.11 C15.26 3.14, 18.39 1.76, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(278.5 715) rotate(0 11.5 0)">
+        <path d="M12.13 -3.75 C16.11 -2.75, 19.74 -0.83, 23 0 M12.13 -3.75 C15.15 -2.41, 18.32 -1.49, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+    </g>
+    <mask />
+    <g stroke-linecap="round">
+      <g transform="translate(578.5 715) rotate(0 11.5 0)">
+        <path d="M0 0 C7.39 -0.5, 16.42 -0.07, 23 0 M0 0 C6.72 -0.26, 12.8 -0.39, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(578.5 715) rotate(0 11.5 0)">
+        <path d="M12.09 3.64 C15.54 2.08, 19.92 1.05, 23 0 M12.09 3.64 C15.33 2.47, 18.18 1.39, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(578.5 715) rotate(0 11.5 0)">
+        <path d="M12.3 -4.22 C15.65 -3.03, 19.96 -1.3, 23 0 M12.3 -4.22 C15.45 -3.21, 18.24 -2.11, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+    </g>
+    <mask />
+    <g stroke-linecap="round">
+      <g transform="translate(878.5 715) rotate(0 11.5 0)">
+        <path d="M0 0 C5.22 0.38, 11.36 -0.15, 23 0 M0 0 C4.88 -0.04, 9.96 0.11, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(878.5 715) rotate(0 11.5 0)">
+        <path d="M12.21 3.98 C14.61 3.2, 17.53 1.91, 23 0 M12.21 3.98 C14.48 3.06, 16.85 2.25, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(878.5 715) rotate(0 11.5 0)">
+        <path d="M12.18 -3.89 C14.58 -2.72, 17.52 -2.05, 23 0 M12.18 -3.89 C14.43 -3.02, 16.81 -2.06, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+    </g>
+    <mask />
+    <g stroke-linecap="round">
+      <g transform="translate(1178.5 715) rotate(0 11.5 0)">
+        <path d="M0 0 C7.32 -0.01, 13.82 -0.68, 23 0 M0 0 C5.62 -0.38, 11.36 0, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(1178.5 715) rotate(0 11.5 0)">
+        <path d="M12.16 3.85 C15.66 2.66, 18.67 1.1, 23 0 M12.16 3.85 C14.8 2.69, 17.52 1.97, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(1178.5 715) rotate(0 11.5 0)">
+        <path d="M12.22 -4.02 C15.67 -2.8, 18.66 -1.96, 23 0 M12.22 -4.02 C14.88 -3.27, 17.58 -2.07, 23 0" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+    </g>
+    <mask />
+    <g data-label="label-061" />
+    <g stroke-linecap="round">
+      <g transform="translate(1038.4846820760185 167.49813237838757) rotate(0 21.515317923981456 -0.8643295614861728)">
+        <path d="M0 0 C10.57 -1.16, 21.02 -0.17, 43.03 -1.73 M0 0 C10.27 -0.29, 19.69 -0.88, 43.03 -1.73" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(1038.4846820760185 167.49813237838757) rotate(0 21.515317923981456 -0.8643295614861728)">
+        <path d="M23.1 6.42 C27.86 3.65, 32.52 3.02, 43.03 -1.73 M23.1 6.42 C27.96 4.53, 31.96 2.42, 43.03 -1.73" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+      <g transform="translate(1038.4846820760185 167.49813237838757) rotate(0 21.515317923981456 -0.8643295614861728)">
+        <path d="M22.52 -8.29 C27.45 -7.38, 32.26 -4.31, 43.03 -1.73 M22.52 -8.29 C27.52 -6.74, 31.66 -5.39, 43.03 -1.73" stroke="#58180D" stroke-width="2" fill="none" />
+      </g>
+    </g>
+    <mask />
+  </g>
+  <text data-context="diagram.magic-system-overview.label-002" lang="en" xml:lang="en" data-text-bounds="0.000 9.200 1198.101 47.725" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="30.0" fill="#58180D" text-anchor="middle">
+    <tspan x="599.050" y="40.562">The craft at a glance: gods, forces, schools, elements and the price</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-004" lang="en" xml:lang="en" data-text-bounds="97.543 101.200 425.913 119.600" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="310.500" y="128.500">LAYER I · THE GODS (Dievai)</tspan>
+    <tspan x="310.500" y="153.500">source, ancient, mostly indifferent</tspan>
+    <tspan x="310.500" y="178.500">Perkūnas · Velnias · Žemyna · Gabija</tspan>
+    <tspan x="310.500" y="203.500">Bangpūtys · Vėjopatis · Praurimė</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-006" lang="en" xml:lang="en" data-text-bounds="71.721 296.700 477.558 119.600" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="310.500" y="324.000">LAYER II · THE FORCES (Galios)</tspan>
+    <tspan x="310.500" y="349.000">hungry, partisan, meddling in history</tspan>
+    <tspan x="310.500" y="374.000">Root-Mother · Perkūno Rūstybė</tspan>
+    <tspan x="310.500" y="399.000">Shadow-Seller · Amber Queen · egregores</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-008" lang="en" xml:lang="en" data-text-bounds="60.232 492.200 500.537 119.600" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="310.500" y="532.000">LAYER III · THE CRAFT (Senovės Kalba)</tspan>
+    <tspan x="310.500" y="557.000">mortal words, mortal blood, mortal cost</tspan>
+    <tspan x="310.500" y="582.000">bound by Balance, Truth and Memory</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-013" lang="en" xml:lang="en" data-text-bounds="315.925 244.950 275.309 24.725" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="14.0" fill="#2b1d12" text-anchor="middle">
+    <tspan x="453.579" y="260.812">attention hardens into appetite</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-014" lang="en" xml:lang="en" data-text-bounds="316.953 440.450 215.776 24.725" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="14.0" fill="#2b1d12" text-anchor="middle">
+    <tspan x="424.841" y="456.312">asked politely, at a price</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-015" lang="en" xml:lang="en" data-text-bounds="664.779 89.700 405.516 33.350" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="867.537" y="111.375">SIX SCHOOLS OF ASKED POWER</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-017" lang="en" xml:lang="en" data-text-bounds="710.074 147.200 178.353 108.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="799.250" y="193.750">Senovės Kalba</tspan>
+    <tspan x="799.250" y="218.750">five elements</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-019" lang="en" xml:lang="en" data-text-bounds="973.484 147.200 180.532 108.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1063.750" y="193.750">Užkalbėjimai</tspan>
+    <tspan x="1063.750" y="218.750">spoken charms</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-021" lang="en" xml:lang="en" data-text-bounds="693.289 296.700 211.922 108.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="799.250" y="343.250">Ženklai</tspan>
+    <tspan x="799.250" y="368.250">carved, fed signs</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-023" lang="en" xml:lang="en" data-text-bounds="956.800 296.700 213.900 108.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1063.750" y="343.250">Žolės</tspan>
+    <tspan x="1063.750" y="368.250">herbs and poisons</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-025" lang="en" xml:lang="en" data-text-bounds="697.364 446.200 203.772 108.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="799.250" y="492.750">Gintarystė</tspan>
+    <tspan x="799.250" y="517.750">amber as medium</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-027" lang="en" xml:lang="en" data-text-bounds="965.939 446.200 195.623 108.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1063.750" y="480.250">Priesaika</tspan>
+    <tspan x="1063.750" y="505.250">oaths of blood,</tspan>
+    <tspan x="1063.750" y="530.250">earth, word</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-028" lang="en" xml:lang="en" data-text-bounds="664.542 575.000 399.648 44.850" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="14.0" fill="#2b1d12" text-anchor="middle">
+    <tspan x="864.366" y="592.175">Granted power (claims, Wolf-Change) and</tspan>
+    <tspan x="864.366" y="609.675">bought power (bargains) stand outside the six.</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-031" lang="en" xml:lang="en" data-text-bounds="1239.544 89.700 421.649 33.350" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1450.368" y="111.375">FIVE ELEMENTS · FIVE ZENITHS</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-033" lang="en" xml:lang="en" data-text-bounds="1272.310 142.600 399.381 66.700" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1472.000" y="180.950">Stars · Praurimė · Kūčios midnight</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-035" lang="en" xml:lang="en" data-text-bounds="1315.141 234.600 313.717 66.700" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1472.000" y="272.950">Fire · Gabija · Rasos noon</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-037" lang="en" xml:lang="en" data-text-bounds="1267.300 326.600 409.400 66.700" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1472.000" y="352.450">Water · Bangpūtys · full moon, high tide;</tspan>
+    <tspan x="1472.000" y="377.450">strongest at the spring ice-break</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-039" lang="en" xml:lang="en" data-text-bounds="1270.415 418.600 403.171 66.700" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1472.000" y="456.950">Earth · Žemyna · Dagotuvės dusk</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-041" lang="en" xml:lang="en" data-text-bounds="1275.757 510.600 392.487 66.700" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1472.000" y="548.950">Wind · Vėjopatis · storms, Vėlinės</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-042" lang="en" xml:lang="en" data-text-bounds="6.900 676.200 1619.200 36.225" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="22.0" fill="#58180D" text-anchor="middle">
+    <tspan x="816.500" y="699.812">THE COST FLOW · immediate element costs and deferred debt are distinct</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-044" lang="en" xml:lang="en" data-text-bounds="25.300 745.200 271.400 154.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="161.000" y="789.750">1 · ASK</tspan>
+    <tspan x="161.000" y="814.750">Element + tau / man +</tspan>
+    <tspan x="161.000" y="839.750">verb</tspan>
+    <tspan x="161.000" y="864.750">spoken aloud, true intent</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-046" lang="en" xml:lang="en" data-text-bounds="370.300 745.200 271.400 154.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="506.000" y="764.750">2 · TIME At zenith: cost</tspan>
+    <tspan x="506.000" y="789.750">halved. Off zenith:</tspan>
+    <tspan x="506.000" y="814.750">element-specific penalty or</tspan>
+    <tspan x="506.000" y="839.750">impossibility. Consecrated</tspan>
+    <tspan x="506.000" y="864.750">stone: doubled. See magic</tspan>
+    <tspan x="506.000" y="889.750">rules §3.3.</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-048" lang="en" xml:lang="en" data-text-bounds="715.300 745.200 271.400 154.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="851.000" y="764.750">3 · IMMEDIATE COSTS</tspan>
+    <tspan x="851.000" y="789.750">Body, senses, memory:</tspan>
+    <tspan x="851.000" y="814.750">minor/major costs vary.</tspan>
+    <tspan x="851.000" y="839.750">Only permanent Five-Voice</tspan>
+    <tspan x="851.000" y="864.750">damage builds up after</tspan>
+    <tspan x="851.000" y="889.750">minor workings.</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-050" lang="en" xml:lang="en" data-text-bounds="1060.300 745.200 271.400 154.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1196.000" y="764.750">4 · SURETY A binder pays</tspan>
+    <tspan x="1196.000" y="789.750">part. Birutė’s surety</tspan>
+    <tspan x="1196.000" y="814.750">ends at her Book I ch.</tspan>
+    <tspan x="1196.000" y="839.750">27 sacrifice. Afterwards</tspan>
+    <tspan x="1196.000" y="864.750">Vytautas pays the full</tspan>
+    <tspan x="1196.000" y="889.750">price.</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-052" lang="en" xml:lang="en" data-text-bounds="1405.300 745.200 271.400 154.100" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="20.0" fill="#58180D" text-anchor="middle">
+    <tspan x="1541.000" y="777.250">5 · DEFERRED DEBT</tspan>
+    <tspan x="1541.000" y="802.250">Only unpaid costs grow:</tspan>
+    <tspan x="1541.000" y="827.250">memory, health, years,</tspan>
+    <tspan x="1541.000" y="852.250">madness, death. Not every</tspan>
+    <tspan x="1541.000" y="877.250">working follows this path.</tspan>
+  </text>
+  <text data-context="diagram.magic-system-overview.label-061" lang="en" xml:lang="en" data-text-bounds="0.000 940.700 1314.567 26.162" font-family="HandFont, Xiaolai, Segoe UI Emoji" font-size="15.0" fill="#2b1d12" text-anchor="middle">
+    <tspan x="657.283" y="957.781">Gods are petitioned; Forces are bargained with and remember every bargain. The Three Laws (Balance, Truth, Memory) bind mortal craft only. [Saga]</tspan>
+  </text>
+</svg>

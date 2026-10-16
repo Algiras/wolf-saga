@@ -6,16 +6,30 @@ div.document{box-sizing:border-box;width:calc(100% - 2rem);max-width:1180px}
 div.body{box-sizing:border-box;overflow-wrap:anywhere}
 .saga-search{white-space:nowrap}
 @media(max-width:850px){div.document{width:calc(100% - 1rem);margin:1rem auto}div.bodywrapper{margin:0}.saga-nav details>div{max-width:calc(100vw - 2rem);box-sizing:border-box}}
-/* Article openings: authored introduction first; compact facts beside the next
-   section. The complete reference material remains below the authored article. */
-.entity-top-flex{display:block;float:right;width:272px;max-width:38%;margin:0 0 1.25rem 1.5rem}
-.entity-top-flex .infobox{box-sizing:border-box;width:100%;max-width:100%;padding:.8rem;font-size:.82rem}
-.infobox figure{margin:.6rem 0}.infobox figure img{width:100%;max-height:320px;object-fit:contain}
-.infobox figcaption{font-size:.72rem;line-height:1.35}.infobox-title{font-size:1.1rem}
-.infobox table.docutils{font-size:.78rem}.infobox table.docutils td{padding:.3rem .4rem}
+/* Facts are a normal block: floats leave large holes before tables/diagrams. */
+.entity-top-flex{display:block;float:none;width:100%;max-width:100%;margin:1.2rem 0 1.6rem}
+.entity-top-flex .infobox{box-sizing:border-box;width:100%;max-width:none;padding:1rem;font-size:.9rem;margin:0}
+.entity-top-flex .infobox:has(>figure){display:grid;grid-template-columns:160px minmax(0,1fr);gap:.7rem 1.2rem;align-items:start}
+.infobox-title{grid-column:1/-1;font-size:1.1rem;text-align:left;border-bottom:1px solid var(--saga-border);padding-bottom:.5rem}
+.infobox-title p{margin:0}.infobox>figure{grid-column:1;grid-row:2;margin:0}
+.infobox figure img{width:100%;max-height:240px;object-fit:contain;margin:0 auto}
+.infobox figcaption{font-size:.72rem;line-height:1.35;margin-top:.35rem}
+.infobox>table{grid-column:2;grid-row:2;margin:0}.infobox>p{grid-column:1;margin:0}.infobox-where{grid-column:2}
+.infobox table.docutils{font-size:.88rem}.infobox table.docutils td{padding:.3rem .5rem;vertical-align:top}.infobox table.docutils p{margin:.15rem 0}.infobox table.docutils td:first-child{width:5.5rem;overflow-wrap:normal}.infobox thead{display:none}
 .entity-reference{clear:both;border-top:1px solid var(--saga-border);padding-top:1.25rem;margin-top:2rem}
 .entity-relations p{padding:.5rem .65rem;margin:.4rem 0;background:#eee3c9;border-left:3px solid var(--saga-border);font-size:.9rem}
 .statblock p{margin:.5rem 0}.sb-section+.sb-section{margin-top:1rem}
-.book-banner{clear:both}.book-banner img{max-height:230px;width:100%;object-fit:cover;border-radius:6px}.book-banner-cap{font-family:Cinzel,Georgia,serif}.book-banner-cap small{display:block}
-@media(max-width:650px){.entity-top-flex{float:none;max-width:100%;width:100%;margin:1rem 0}.entity-top-flex .infobox{max-width:360px;margin:0 auto}.infobox figure img{max-height:290px}.entity-reference{margin-top:1.3rem}}
+.book-banner{clear:both}.book-banner img{max-height:230px;width:100%;object-fit:cover;border-radius:6px}.book-banner-cap{display:flex;justify-content:space-between;gap:1rem;font-family:Cinzel,Georgia,serif;font-size:.85rem;margin-top:.35rem}.book-banner-cap small{white-space:nowrap}
+.saga-cell-label{display:none}
+@media(max-width:650px){
+ .entity-top-flex{margin:1rem 0 1.3rem}.entity-top-flex .infobox:has(>figure){grid-template-columns:minmax(0,1fr);gap:.6rem;padding:.65rem}.infobox>figure{grid-column:1;grid-row:2;width:140px;justify-self:center}.infobox>table{grid-column:1;grid-row:3}.infobox-where{grid-column:1}
+ .infobox table.docutils{font-size:.8rem}.infobox table.docutils td{padding:.2rem .3rem}.infobox figure img{max-height:180px}
+ .entity-reference{margin-top:1.3rem}
+ table.saga-responsive-table,table.saga-responsive-table tbody,table.saga-responsive-table tr,table.saga-responsive-table td,table.saga-responsive-table tbody th{display:block;box-sizing:border-box;width:100%}
+ table.saga-responsive-table{border:0}
+ table.saga-responsive-table thead{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ table.saga-responsive-table tbody tr{border:1px solid var(--saga-border);margin:0 0 1rem;padding:.4rem;background:var(--saga-panel)}
+ table.saga-responsive-table td,table.saga-responsive-table tbody th{border:0;padding:.4rem .5rem}table.saga-responsive-table td p{margin:.15rem 0}
+ .saga-cell-label{display:block;font-size:.8rem;font-weight:bold;color:var(--saga-accent)}
+}
 @media(max-width:650px){div.body h1{font-size:2rem;line-height:1.2;margin:.5rem 0 1rem}div.body h2{font-size:1.4rem;line-height:1.25;margin:1.4rem 0 .65rem}div.body h3{font-size:1.15rem;line-height:1.25;margin:1.15rem 0 .5rem}}
